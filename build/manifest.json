@@ -1,0 +1,58 @@
+{
+  "short_name": "Nuzlocke Tracker",
+  "name": "Nuzlocke Tracker",
+  "description": "Record and track nuzlocke progress",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "maskable_icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#AE2A2F",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "productivity"],
+  "iarc_rating_id": "0e709b1e-f322-4f7e-974d-0c965ce09b7b",
+  "shortcuts": [
+    {
+      "name": "Start tracking",
+      "short_name": "Track",
+      "url": "/",
+      "description": "Record and track nuzlocke progress",
+      "icons": [{ "src": "shortcut.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Build a team",
+      "short_name": "Builder",
+      "url": "/builder",
+      "description": "Build your ideal team",
+      "icons": [{ "src": "shortcut.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Check out stats",
+      "short_name": "Stats",
+      "url": "/stats",
+      "description": "See nuzlocke run stats",
+      "icons": [{ "src": "shortcut.png", "sizes": "96x96" }]
+    }
+  ]
+}
