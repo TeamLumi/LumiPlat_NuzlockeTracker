@@ -124,14 +124,14 @@ function Detail({ encounter }: DetailProps): JSX.Element {
       nature,
       moves: [moveOne, moveTwo, moveThree, moveFour],
     });
-    toast.success(t('pokemon_export'));
+    toast.success<void>(t('pokemon_export'));
   };
 
   const handleGameExport = (game: string) => {
     if (game !== selectedGame?.value) {
       exportToGame(encounter, game, `From ${selectedGame?.text} - ${new Date().toLocaleString()}`);
       handleClose();
-      toast.success(t('pokemon_export'));
+      toast.success<void>(t('pokemon_export'));
     }
   };
 

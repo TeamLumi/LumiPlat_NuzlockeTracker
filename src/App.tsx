@@ -72,7 +72,7 @@ function App(): JSX.Element {
   const handleDelete = () => {
     deleteGame();
     setConfirm(false);
-    toast.success(t('delete_success'));
+    toast.success<void>(t('delete_success'));
   };
 
   const handleRoute = (route: string) => {

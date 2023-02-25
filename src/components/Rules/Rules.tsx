@@ -55,7 +55,7 @@ function Rules(): JSX.Element {
   const handleDeleteRuleset = () => {
     deleteRuleset();
     setConfirm(false);
-    toast.success(t('delete_ruleset_success'));
+    toast.success<void>(t('delete_ruleset_success'));
   };
 
   return (

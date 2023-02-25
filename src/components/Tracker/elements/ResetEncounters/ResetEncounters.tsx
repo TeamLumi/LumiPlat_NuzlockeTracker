@@ -22,7 +22,7 @@ function ResetEncounters({ icon = false }: ResetEncounterProps): JSX.Element {
   const handleReset = () => {
     resetAll();
     setOpen(false);
-    toast.success(t('reset_success'));
+    toast.success<void>(t('reset_success'));
   };
 
   return (

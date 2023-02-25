@@ -44,12 +44,12 @@ function Import(): JSX.Element {
         const partialState: Partial<AppState> = JSON.parse(event.target.result as string);
         if (!!partialState?.games && !!partialState?.selectedGame && !!partialState?.gamesList) {
           importState(partialState);
-          toast.success(t('file_success'));
+          toast.success<void>(t('file_success'));
         } else {
           throw Error(t('invalid'));
         }
       } catch (error) {
-        toast.error(t('invalid_file'));
+        toast.error<void>(t('invalid_file'));
       }
     };
   };
@@ -138,9 +138,9 @@ function Import(): JSX.Element {
         return parsedArr;
       }, []);
       massImport(newEncounters);
-      toast.success(t('game_success'));
+      toast.success<void>(t('game_success'));
     } catch (e) {
-      toast.error(t('invalid_text'));
+      toast.error<void>(t('invalid_text'));
     }
   };
 

@@ -56,7 +56,7 @@ export default function Auth() {
           setUpdatedAt(data.updated_at);
         }
       } catch (error) {
-        toast.error(t('get_profile_error'));
+        toast.error<void>(t('get_profile_error'));
       } finally {
         setLoading(false);
       }
@@ -81,10 +81,10 @@ export default function Auth() {
 
       if (error) throw Error(error.message);
       if (status === 200 || status === 201) {
-        toast.success(t('data_success'));
+        toast.success<void>(t('data_success'));
       }
     } catch (err) {
-      toast.error(t('data_error'));
+      toast.error<void>(t('data_error'));
     } finally {
       setSaving(false);
     }
@@ -112,15 +112,15 @@ export default function Auth() {
           const partialState: Partial<AppState> = JSON.parse(data.nuzlocke);
           if (!!partialState?.games && !!partialState?.selectedGame && !!partialState?.gamesList) {
             importState(partialState);
-            toast.success(t('sync_success'));
+            toast.success<void>(t('sync_success'));
           } else {
             throw Error(t('no_nuzlocke'));
           }
         } else {
-          toast.error(t('no_nuzlocke'));
+          toast.error<void>(t('no_nuzlocke'));
         }
       } catch (error) {
-        toast.error(t('sync_error'));
+        toast.error<void>(t('sync_error'));
       } finally {
         setSyncing(false);
       }
@@ -134,7 +134,7 @@ export default function Auth() {
         const { error } = await supabase.auth.signOut();
         if (error) throw Error(error.message);
       } catch {
-        toast.error(t('logout_error'));
+        toast.error<void>(t('logout_error'));
       } finally {
         setLogging(false);
         setOpen(false);
@@ -155,9 +155,9 @@ export default function Auth() {
       setLoading(true);
       const { error } = await supabase.auth.signIn({ email });
       if (error) throw Error(error.message);
-      toast.success(t('check_email'));
+      toast.success<void>(t('check_email'));
     } catch (err) {
-      toast.error(t('login_error'));
+      toast.error<void>(t('login_error'));
     } finally {
       setLoading(false);
     }

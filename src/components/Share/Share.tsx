@@ -21,15 +21,15 @@ function Share({ disabled, icon = false, text }: ShareProps): JSX.Element {
 
   const handleCopy = async () => {
     if (!navigator?.clipboard) {
-      toast.error(t('unable_share', { ns: 'stats' }));
+      toast.error<void>(t('unable_share', { ns: 'stats' }));
       return;
     }
 
     try {
       await navigator.clipboard.writeText(text);
-      toast.success(t('copied'));
+      toast.success<void>(t('copied'));
     } catch {
-      toast.error(t('unable_share', { ns: 'stats' }));
+      toast.error<void>(t('unable_share', { ns: 'stats' }));
     }
   };
 
@@ -37,12 +37,12 @@ function Share({ disabled, icon = false, text }: ShareProps): JSX.Element {
     try {
       await navigator.share(data);
       toast.promise(navigator.share(data), {
-        pending: t('validating_share', { ns: 'stats' }),
+        pending: 'Validating sharing options',
         success: t('share_success'),
-        error: t('unable_share', { ns: 'stats' }),
+        error: 'Unable to share',
       });
     } catch (err) {
-      toast.error(t('unable_share', { ns: 'stats' }));
+      toast.error<void>(t('unable_share', { ns: 'stats' }));
     }
   };
 
