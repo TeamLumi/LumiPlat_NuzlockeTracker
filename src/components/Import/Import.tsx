@@ -99,6 +99,7 @@ function Import(): JSX.Element {
         nickname: removeNone(data[arrPositions.get('Nickname')]),
         pokemon: foundPoke?.value,
         status: null,
+        zoneID: null,
       };
     }
     return null;

@@ -93,6 +93,7 @@ const useStore = create<AppState>()(
             location: newLocation,
             pokemon: null,
             status: null,
+            zoneID: null,
           });
         }),
       addGame: (newGame: string, templateKey?: string) =>

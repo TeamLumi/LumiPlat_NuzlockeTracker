@@ -7,6 +7,7 @@ const LMPT: TEncounter[] = [
     location: 'Starter',
     status: null,
     filterKey: 'lmpt-0',
+    zoneID: []
   },
   {
     id: 1,
