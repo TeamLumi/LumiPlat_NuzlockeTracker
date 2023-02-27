@@ -6,14 +6,14 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Starter',
     status: null,
-    filterkey: 'lmpt-0',
+    filterKey: 'lmpt-0',
   },
   {
     id: 1,
     pokemon: null,
     location: 'Twinleaf Town',
     status: null,
-    filterkey: 'lmpt-1',
+    filterKey: 'lmpt-1',
     zoneID: [
       '422'
     ]
@@ -23,7 +23,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 201',
     status: null,
-    filterkey: 'lmpt-2',
+    filterKey: 'lmpt-2',
     zoneID: [
       '354'
     ]
@@ -33,7 +33,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Lake Verity',
     status: null,
-    filterkey: 'lmpt-3',
+    filterKey: 'lmpt-3',
     zoneID: [
       '323',
       '324'
@@ -44,7 +44,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Verity Lakefront',
     status: null,
-    filterkey: 'lmpt-4',
+    filterKey: 'lmpt-4',
     zoneID: [
       '346'
     ]
@@ -54,7 +54,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Sandgem Town',
     status: null,
-    filterkey: 'lmpt-5',
+    filterKey: 'lmpt-5',
     zoneID: [
       '429'
     ]
@@ -64,7 +64,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 202',
     status: null,
-    filterkey: 'lmpt-6',
+    filterKey: 'lmpt-6',
     zoneID: [
       '355'
     ]
@@ -74,7 +74,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Jubilife City',
     status: null,
-    filterkey: 'lmpt-7',
+    filterKey: 'lmpt-7',
     zoneID: [
       '0'
     ]
@@ -84,7 +84,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 203',
     status: null,
-    filterkey: 'lmpt-8',
+    filterKey: 'lmpt-8',
     zoneID: [
       '356'
     ]
@@ -94,7 +94,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Oreburgh Gate',
     status: null,
-    filterkey: 'lmpt-9',
+    filterKey: 'lmpt-9',
     zoneID: [
       '255',
       '256'
@@ -105,7 +105,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Oreburgh City',
     status: null,
-    filterkey: 'lmpt-10',
+    filterKey: 'lmpt-10',
     zoneID: [
       '38'
     ]
@@ -115,7 +115,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Oreburgh Mine',
     status: null,
-    filterkey: 'lmpt-69',
+    filterKey: 'lmpt-69',
     zoneID: [
       '195',
       '196'
@@ -126,7 +126,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Mining Museum',
     status: null,
-    filterkey: 'lmpt-11',
+    filterKey: 'lmpt-11',
     zoneID: [
       '49'
     ]
@@ -136,7 +136,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 204',
     status: null,
-    filterkey: 'lmpt-12',
+    filterKey: 'lmpt-12',
     zoneID: [
       '358',
       '357'
@@ -147,7 +147,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Ravaged Path',
     status: null,
-    filterkey: 'lmpt-13',
+    filterKey: 'lmpt-13',
     zoneID: [
       '252'
     ]
@@ -157,7 +157,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Floaroma Town',
     status: null,
-    filterkey: 'lmpt-14',
+    filterKey: 'lmpt-14',
     zoneID: [
       '438'
     ]
@@ -167,7 +167,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Floaroma Meadow',
     status: null,
-    filterkey: 'lmpt-15',
+    filterKey: 'lmpt-15',
     zoneID: [
       '254'
     ]
@@ -177,7 +177,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Valley Windworks',
     status: null,
-    filterkey: 'lmpt-16',
+    filterKey: 'lmpt-16',
     zoneID: [
       '197'
     ]
@@ -187,7 +187,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 205',
     status: null,
-    filterkey: 'lmpt-17',
+    filterKey: 'lmpt-17',
     zoneID: [
       '361',
       '259'
@@ -198,7 +198,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Eterna Forest',
     status: null,
-    filterkey: 'lmpt-18',
+    filterKey: 'lmpt-18',
     zoneID: [
       '200'
     ]
@@ -208,7 +208,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Eterna City',
     status: null,
-    filterkey: 'lmpt-19',
+    filterKey: 'lmpt-19',
     zoneID: [
       '54'
     ]
@@ -218,7 +218,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Grand Underground',
     status: null,
-    filterkey: 'lmpt-63',
+    filterKey: 'lmpt-63',
     zoneID: []
   },
   {
@@ -226,7 +226,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Old Chateau',
     status: null,
-    filterkey: 'lmpt-20',
+    filterKey: 'lmpt-20',
     zoneID: [
       '311',
       '310',
@@ -244,7 +244,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 206',
     status: null,
-    filterkey: 'lmpt-21',
+    filterKey: 'lmpt-21',
     zoneID: [
       '362'
     ]
@@ -254,7 +254,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Wayward Cave',
     status: null,
-    filterkey: 'lmpt-22',
+    filterKey: 'lmpt-22',
     zoneID: [
       '293',
       '292'
@@ -265,7 +265,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 207',
     status: null,
-    filterkey: 'lmpt-23',
+    filterKey: 'lmpt-23',
     zoneID: [
       '364'
     ]
@@ -275,7 +275,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Mt. Coronet',
     status: null,
-    filterkey: 'lmpt-24',
+    filterKey: 'lmpt-24',
     zoneID: [
       '204',
       '205',
@@ -296,7 +296,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 208',
     status: null,
-    filterkey: 'lmpt-26',
+    filterKey: 'lmpt-26',
     zoneID: [
       '365'
     ]
@@ -306,7 +306,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Hearthome City',
     status: null,
-    filterkey: 'lmpt-27',
+    filterKey: 'lmpt-27',
     zoneID: [
       '74'
     ]
@@ -316,7 +316,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 209',
     status: null,
-    filterkey: 'lmpt-28',
+    filterKey: 'lmpt-28',
     zoneID: [
       '367'
     ]
@@ -326,7 +326,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Solaceon Town',
     status: null,
-    filterkey: 'lmpt-29',
+    filterKey: 'lmpt-29',
     zoneID: [
       '446'
     ]
@@ -336,7 +336,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Solaceon Ruins',
     status: null,
-    filterkey: 'lmpt-30',
+    filterKey: 'lmpt-30',
     zoneID: [
       '225',
       '227',
@@ -363,7 +363,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Lost Tower',
     status: null,
-    filterkey: 'lmpt-31',
+    filterKey: 'lmpt-31',
     zoneID: [
       '368',
       '369',
@@ -377,7 +377,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 215',
     status: null,
-    filterkey: 'lmpt-32',
+    filterKey: 'lmpt-32',
     zoneID: [
       '394'
     ]
@@ -387,7 +387,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Veilstone City',
     status: null,
-    filterkey: 'lmpt-33',
+    filterKey: 'lmpt-33',
     zoneID: [
       '123'
     ]
@@ -397,7 +397,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 214',
     status: null,
-    filterkey: 'lmpt-34',
+    filterKey: 'lmpt-34',
     zoneID: [
       '392'
     ]
@@ -407,7 +407,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Maniac Tunnel',
     status: null,
-    filterkey: 'lmpt-35',
+    filterKey: 'lmpt-35',
     zoneID: [
       '296',
       '295',
@@ -419,7 +419,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Valor Lakefront',
     status: null,
-    filterkey: 'lmpt-36',
+    filterKey: 'lmpt-36',
     zoneID: [
       '347'
     ]
@@ -429,7 +429,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 213',
     status: null,
-    filterkey: 'lmpt-37',
+    filterKey: 'lmpt-37',
     zoneID: [
       '385'
     ]
@@ -439,7 +439,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Pastoria City',
     status: null,
-    filterkey: 'lmpt-62',
+    filterKey: 'lmpt-62',
     zoneID: [
       '110'
     ]
@@ -449,7 +449,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'The Great Marsh',
     status: null,
-    filterkey: 'lmpt-38',
+    filterKey: 'lmpt-38',
     zoneID: [
       '219, 220, 221, 222, 223, 224'
     ]
@@ -459,7 +459,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 212',
     status: null,
-    filterkey: 'lmpt-64',
+    filterKey: 'lmpt-64',
     zoneID: [
       '379',
       '383'
@@ -470,7 +470,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Pokemon Mansion',
     status: null,
-    filterkey: 'lmpt-65',
+    filterKey: 'lmpt-65',
     zoneID: [
       '380'
     ]
@@ -480,7 +480,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Trophy Garden',
     status: null,
-    filterkey: 'lmpt-39',
+    filterKey: 'lmpt-39',
     zoneID: [
       '297'
     ]
@@ -490,7 +490,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 210',
     status: null,
-    filterkey: 'lmpt-40',
+    filterKey: 'lmpt-40',
     zoneID: [
       '375',
       '373'
@@ -501,7 +501,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Celestic Town',
     status: null,
-    filterkey: 'lmpt-41',
+    filterKey: 'lmpt-41',
     zoneID: [
       '456'
     ]
@@ -511,7 +511,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Fuego Ironworks',
     status: null,
-    filterkey: 'lmpt-42',
+    filterKey: 'lmpt-42',
     zoneID: [
       '201'
     ]
@@ -521,7 +521,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 219',
     status: null,
-    filterkey: 'lmpt-43',
+    filterKey: 'lmpt-43',
     zoneID: [
       '403'
     ]
@@ -531,7 +531,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 220',
     status: null,
-    filterkey: 'lmpt-44',
+    filterKey: 'lmpt-44',
     zoneID: [
       '485'
     ]
@@ -541,7 +541,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 221',
     status: null,
-    filterkey: 'lmpt-45',
+    filterKey: 'lmpt-45',
     zoneID: [
       '404'
     ]
@@ -551,7 +551,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 218',
     status: null,
-    filterkey: 'lmpt-46',
+    filterKey: 'lmpt-46',
     zoneID: [
       '400'
     ]
@@ -561,7 +561,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Canalave City',
     status: null,
-    filterkey: 'lmpt-47',
+    filterKey: 'lmpt-47',
     zoneID: [
       '24'
     ]
@@ -571,7 +571,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Iron Island',
     status: null,
-    filterkey: 'lmpt-48',
+    filterKey: 'lmpt-48',
     zoneID: [
       '298'
     ]
@@ -581,7 +581,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Lake Valor',
     status: null,
-    filterkey: 'lmpt-66',
+    filterKey: 'lmpt-66',
     zoneID: [
       '327'
     ]
@@ -591,7 +591,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Valor Cavern',
     status: null,
-    filterkey: 'lmpt-49',
+    filterKey: 'lmpt-49',
     zoneID: [
       '328'
     ]
@@ -601,7 +601,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 211',
     status: null,
-    filterkey: 'lmpt-50',
+    filterKey: 'lmpt-50',
     zoneID: [
       '378',
       '377'
@@ -612,7 +612,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 216',
     status: null,
-    filterkey: 'lmpt-51',
+    filterKey: 'lmpt-51',
     zoneID: [
       '395'
     ]
@@ -622,7 +622,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 217',
     status: null,
-    filterkey: 'lmpt-52',
+    filterKey: 'lmpt-52',
     zoneID: [
       '397'
     ]
@@ -632,7 +632,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Acuity Lakefront',
     status: null,
-    filterkey: 'lmpt-53',
+    filterKey: 'lmpt-53',
     zoneID: [
       '351'
     ]
@@ -642,7 +642,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Lake Acuity',
     status: null,
-    filterkey: 'lmpt-67',
+    filterKey: 'lmpt-67',
     zoneID: [
       '330'
     ]
@@ -652,9 +652,9 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Acuity Cavern',
     status: null,
-    filterkey: 'lmpt-55',
+    filterKey: 'lmpt-55',
     zoneID: [
-	  325'
+	  '325'
     ]
   },
   {
@@ -662,7 +662,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Snowpoint Temple',
     status: null,
-    filterkey: 'lmpt-54',
+    filterKey: 'lmpt-54',
     zoneID: [
       '287',
       '291',
@@ -677,7 +677,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Snowpoint City',
     status: null,
-    filterkey: 'lmpt-68',
+    filterKey: 'lmpt-68',
     zoneID: [
       '159'
     ]
@@ -687,7 +687,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Spear Pillar',
     status: null,
-    filterkey: 'lmpt-56',
+    filterKey: 'lmpt-56',
     zoneID: [
       '212'
     ]
@@ -697,7 +697,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Sendoff Spring',
     status: null,
-    filterkey: 'lmpt-57',
+    filterKey: 'lmpt-57',
     zoneID: [
       '263'
     ]
@@ -707,7 +707,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 222',
     status: null,
-    filterkey: 'lmpt-58',
+    filterKey: 'lmpt-58',
     zoneID: [
       '407'
     ]
@@ -717,7 +717,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Sunyshore City',
     status: null,
-    filterkey: 'lmpt-59',
+    filterKey: 'lmpt-59',
     zoneID: [
       '142'
     ]
@@ -727,7 +727,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 223',
     status: null,
-    filterkey: 'lmpt-60',
+    filterKey: 'lmpt-60',
     zoneID: [
       '486'
     ]
@@ -737,7 +737,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Pokemon League',
     status: null,
-    filterkey: 'lmpt-61',
+    filterKey: 'lmpt-61',
     zoneID: [
       '167'
     ]
@@ -747,7 +747,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Victory Road',
     status: null,
-    filterkey: 'lmpt-70',
+    filterKey: 'lmpt-70',
     zoneID: [
       '244',
       '245',
@@ -759,7 +759,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 224',
     status: null,
-    filterkey: 'lmpt-71',
+    filterKey: 'lmpt-71',
     zoneID: [
       '411'
     ]
@@ -769,7 +769,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 225',
     status: null,
-    filterkey: 'lmpt-72',
+    filterKey: 'lmpt-72',
     zoneID: [
       '412'
     ]
@@ -779,7 +779,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 226',
     status: null,
-    filterkey: 'lmpt-73',
+    filterKey: 'lmpt-73',
     zoneID: [
       '487'
     ]
@@ -789,7 +789,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 227',
     status: null,
-    filterkey: 'lmpt-74',
+    filterKey: 'lmpt-74',
     zoneID: [
       '414'
     ]
@@ -799,7 +799,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 228',
     status: null,
-    filterkey: 'lmpt-75',
+    filterKey: 'lmpt-75',
     zoneID: [
       '416'
     ]
@@ -809,7 +809,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 229',
     status: null,
-    filterkey: 'lmpt-76',
+    filterKey: 'lmpt-76',
     zoneID: [
       '420'
     ]
@@ -819,7 +819,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Route 230',
     status: null,
-    filterkey: 'lmpt-77',
+    filterKey: 'lmpt-77',
     zoneID: [
       '489'
     ]
@@ -829,7 +829,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Fight Area',
     status: null,
-    filterkey: 'lmpt-78',
+    filterKey: 'lmpt-78',
     zoneID: [
       '186'
     ]
@@ -839,7 +839,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Survival Area',
     status: null,
-    filterkey: 'lmpt-79',
+    filterKey: 'lmpt-79',
     zoneID: [
       '465'
     ]
@@ -849,7 +849,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Resort Area',
     status: null,
-    filterkey: 'lmpt-80',
+    filterKey: 'lmpt-80',
     zoneID: [
       '473'
     ]
@@ -859,7 +859,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Stark Mountain',
     status: null,
-    filterkey: 'lmpt-81',
+    filterKey: 'lmpt-81',
     zoneID: [
       '260',
       '261',
@@ -871,7 +871,7 @@ const LMPT: TEncounter[] = [
     pokemon: null,
     location: 'Turnback Cave',
     status: null,
-    filterkey: 'lmpt-82',
+    filterKey: 'lmpt-82',
     zoneID: [
       '264',
       '265',

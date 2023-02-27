@@ -4,6 +4,7 @@ import type {
   TLevelCapDictionary,
   TLevelCaps,
 } from 'constants/types';
+import beacon from 'assets/img/badges/beacon.png';
 import champion from 'assets/img/badges/champion.png';
 import coal from 'assets/img/badges/coal.png';
 import cobble from 'assets/img/badges/cobble.png';
