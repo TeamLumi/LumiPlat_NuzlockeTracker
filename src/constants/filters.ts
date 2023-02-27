@@ -8,7 +8,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Qwilfish1',
     'Gyarados',
     'Psyduck',
-    'Eevee'
+    'Eevee',
   ],
   'lmpt-2': [
     'Pidgey',
@@ -19,7 +19,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Nidoran♀',
     'Hoothoot',
     'Kricketot',
-    'Rattata1'
+    'Rattata1',
   ],
   'lmpt-3': [
     'Meowth1',
@@ -38,7 +38,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Indeedee',
     'Wingull',
     'Gyarados',
-    'Psyduck'
+    'Psyduck',
   ],
   'lmpt-4': [],
   'lmpt-5': ['Turtwig', 'Chimchar', 'Piplup'],
@@ -52,13 +52,9 @@ const FILTERS: { [key in string]: string[] } = {
     'Rattata',
     'Growlithe',
     'Hoothoot',
-    'Growlithe1'
+    'Growlithe1',
   ],
-  'lmpt-7': [
-    'Bulbasaur',
-    'Charmander',
-    'Squirtle'
-  ],
+  'lmpt-7': ['Bulbasaur','Charmander','Squirtle'],
   'lmpt-8': [
     'Slowpoke1',
     'Magikarp',
@@ -75,7 +71,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Gyarados',
     'Abra',
     'Pineco',
-    'Psyduck'
+    'Psyduck',
   ],
   'lmpt-9': [
     'Slowpoke1',
@@ -88,13 +84,9 @@ const FILTERS: { [key in string]: string[] } = {
     'Golbat',
     'Gyarados',
     'Barboach',
-    'Diglett'
+    'Diglett',
   ],
-  'lmpt-10': [
-    'Treeko',
-    'Torchic',
-    'Mudkip'
-  ],
+  'lmpt-10': ['Treeko','Torchic','Mudkip'],
   'lmpt-11': [
     'Omanyte',
     'Kabuto',
@@ -102,7 +94,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Anorith',
     'Shieldon',
     'Cranidos',
-    'Aerodactyl'
+    'Aerodactyl',
   ],
   'lmpt-12': [
     'Weedle',
@@ -129,7 +121,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Azumarill',
     'Gyarados',
     'Psyduck',
-    'Oddish'
+    'Oddish',
   ],
   'lmpt-13': [
     'Quagsire',
@@ -144,19 +136,15 @@ const FILTERS: { [key in string]: string[] } = {
     'Gyarados',
     'Barboach',
     'Psyduck',
-    'Makuhita'
+    'Makuhita',
   ],
-  'lmpt-14': [
-    'Chikorita',
-    'Cyndaquil',
-    'Totodile'
-  ],
+  'lmpt-14': ['Chikorita','Cyndaquil','Totodile'],
   'lmpt-15': [
     'Cherubi',
     'Shroomish',
     'Exeggcute',
     'Seedot',
-    'Tangela'
+    'Tangela',
   ],
   'lmpt-16': [
     'Elekid',
@@ -183,7 +171,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Slakoth',
     'Caterpie',
     'Weedle',
-    'Munchlax'
+    'Munchlax',
   ],
   'lmpt-17': [
     'Hoppip',
@@ -227,7 +215,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Pidgey',
     'Hoothoot',
     'Tailow',
-    "Farfetch'd"
+    "Farfetch'd",
   ],
   'lmpt-18': [
     'Buneary',
@@ -241,7 +229,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Nincada',
     'Slakoth',
     'Taillow',
-    'Beedrill'
+    'Beedrill',
   ],
   'lmpt-19': [
     'Dratini',
@@ -253,7 +241,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Dragonair',
     'Gyarados',
     'Psyduck',
-    'Porygon'
+    'Porygon',
   ],
   'lmpt-20': [
     'Rotom',
@@ -263,7 +251,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Koffing',
     'Duskull',
     'Shuppet',
-    'Rattata'
+    'Rattata',
   ],
   'lmpt-21': [
     'Magby',
@@ -280,7 +268,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Pineco',
     'Silcoon',
     'Cascoon',
-    'Heracross'
+    'Heracross',
   ],
   'lmpt-22': [
     'Onix',
@@ -290,7 +278,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Zubat',
     'Mawile',
     'Gible',
-    'Geodude'
+    'Geodude',
   ],
   'lmpt-23': [
     'Rhyhorn',
@@ -304,7 +292,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Slakoth',
     'Metapod',
     'Kakuna',
-    'Munchlax'
+    'Munchlax',
   ],
   'lmpt-24': [
     'Dratini',
@@ -349,7 +337,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Gyarados',
     'Barboach',
     'Sealeo',
-    'Cleffa'
+    'Cleffa',
   ],
   'lmpt-26': [
     'Kirlia',
@@ -375,7 +363,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Shroomish',
     'Exeggcute',
     'Seedot',
-    'Tangela'
+    'Tangela',
   ],
   'lmpt-27': [],
   'lmpt-28': [
@@ -400,14 +388,10 @@ const FILTERS: { [key in string]: string[] } = {
     'Pidgeotto',
     'Noctowl',
     'Swellow',
-    "Farfetch'd"
+    "Farfetch'd",
   ],
-  'lmpt-29': [
-    'Ditto'
-  ],
-  'lmpt-30': [
-    'Unown'
-  ],
+  'lmpt-29': ['Ditto'],
+  'lmpt-30': ['Unown'],
   'lmpt-31': [
     'Murkrow',
     'Haunter',
@@ -417,7 +401,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Koffing',
     'Shuppet',
     'Golbat',
-    'Dusclops'
+    'Dusclops',
   ],
   'lmpt-32': [
     'Absol',
@@ -434,7 +418,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Vigoroth',
     'Metapod',
     'Kakuna',
-    'Munchlax'
+    'Munchlax',
   ],
   'lmpt-34': [
     'Rhyhorn',
@@ -456,7 +440,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Vigoroth',
     'Butterfree',
     'Beedrill',
-    'Munchlax'
+    'Munchlax',
   ],
   'lmpt-35': [
     'Diglett1',
@@ -467,7 +451,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Whismur',
     'Dugtrio',
     'Trapinch',
-    'Diglett'
+    'Diglett',
   ],
   'lmpt-36': [
     'Nidoking',
@@ -501,7 +485,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Staravia',
     'Pidgeotto',
     'Noctowl',
-    "Farfetch'd"
+    "Farfetch'd",
   ],
   'lmpt-38': [
     'Toxicroak',
@@ -532,7 +516,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Qwilfish1',
     'Tangela',
     'Gyarados',
-    'Barboach'
+    'Barboach',
   ],
   'lmpt-39': [
     'Cyndaquil',
@@ -545,7 +529,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Togepi',
     'Castform',
     'Pikachu',
-    'Cleffa'
+    'Cleffa',
   ],
   'lmpt-40': [
     'Dratini',
@@ -587,7 +571,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Pidgeotto',
     'Noctowl',
     'Swellow',
-    "Farfetch'd"
+    "Farfetch'd",
   ],
   'lmpt-41': [
     'Relicanth',
@@ -595,7 +579,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Magikarp',
     'Golduck',
     'Gyarados',
-    'Psyduck'
+    'Psyduck',
   ],
   'lmpt-42': [
     'Manectric',
@@ -620,7 +604,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wormadam',
     'Mothim',
     'Beautifly',
-    'Dustox'
+    'Dustox',
   ],
   'lmpt-43': [
     'Huntail',
@@ -634,7 +618,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wingull',
     'Gorebyss',
     'Seadra',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-44': [
     'Horsea',
@@ -647,7 +631,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wingull',
     'Slowbro1',
     'Seadra',
-    'Obstagoon'
+    'Obstagoon',
   ],
   'lmpt-45': [
     'Skuntank',
@@ -674,7 +658,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Shroomish',
     'Exeggcute',
     'Nuzleaf',
-    'Tangela'
+    'Tangela',
   ],
   'lmpt-46': [
     'Chatot',
@@ -701,7 +685,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wormadam',
     'Mothim',
     'Beautifly',
-    'Dustox'
+    'Dustox',
   ],
   'lmpt-47': [
     'Shellos',
@@ -714,7 +698,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Tentacool',
     'Lumineon',
     'Gyarados',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-48': [
     'Lairon',
@@ -735,11 +719,9 @@ const FILTERS: { [key in string]: string[] } = {
     'Pelipper',
     'Lumineon',
     'Graveler1',
-    'Gyarados'
+    'Gyarados',
   ],
-  'lmpt-49': [
-    'Azelf',
-  ],
+  'lmpt-49': ['Azelf',],
   'lmpt-50': [
     'Tyrogue',
     'Swablu',
@@ -755,7 +737,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Slakoth',
     'Metapod',
     'Kakuna',
-    'Munchlax'
+    'Munchlax',
   ],
   'lmpt-51': [
     'Vulpix1',
@@ -765,7 +747,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Delibird',
     'Sneasel',
     'Snover',
-    'Smoochum'
+    'Smoochum',
   ],
   'lmpt-52': [
     'Abomasnow',
@@ -777,7 +759,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Glalie',
     'Froslass',
     'Jynx',
-    'Piloswine'
+    'Piloswine',
   ],
   'lmpt-53': [
     'Sneasler',
@@ -788,7 +770,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Glalie',
     'Froslass',
     'Jynx',
-    'Piloswine'
+    'Piloswine',
   ],
   'lmpt-54': [
     'Steelix',
@@ -799,15 +781,10 @@ const FILTERS: { [key in string]: string[] } = {
     'Froslass',
     'Jynx',
     'Golbat',
-    'Graveler'
+    'Graveler',
   ],
-  'lmpt-55': [
-    'Uxie'
-  ],
-  'lmpt-56': [
-    'Dialga',
-    'Palkia'
-  ],
+  'lmpt-55': ['Uxie'],
+  'lmpt-56': ['Dialga','Palkia'],
   'lmpt-57': [
     'Solrock',
     'Chimecho',
@@ -820,7 +797,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wobbuffet',
     'Cursola',
     'Bibarel',
-    'Dusclops'
+    'Dusclops',
   ],
   'lmpt-58': [
     'Remoraid',
@@ -847,7 +824,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Tangela',
     'Heracross',
     "Farfetch'd",
-    'Snorlax'
+    'Snorlax',
   ],
   'lmpt-59': [
     'Staryu',
@@ -859,7 +836,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Cursola',
     'Mantine',
     'Pelipper',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-60': [
     'Remoraid',
@@ -871,7 +848,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Cursola',
     'Mantine',
     'Pelipper',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-61': [
     'Gyarados',
@@ -881,7 +858,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Corsola',
     'Mantine',
     'Pelipper',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-62': [
     'Poliwag',
@@ -894,7 +871,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Tentacool',
     'Qwilfish1',
     'Gyarados',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-63': [
     'Zubat',
@@ -1017,9 +994,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Tangela',
     
   ],
-  'lmpt-65': [
-    'Manaphy'
-  ],
+  'lmpt-65': ['Manaphy'],
   'lmpt-66': [
     'Surskit',
     'Sirfetch\'d',
@@ -1031,7 +1006,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Golduck',
     'Lickitung',
     'Wobbuffet',
-    'Slowbro1'
+    'Slowbro1',
   ],
   'lmpt-67': [
     'Mr. Rime',
@@ -1046,7 +1021,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Jynx',
     'Dewgong',
     'Gyarados',
-    'Sealeo'
+    'Sealeo',
   ],
   'lmpt-68': [],
   'lmpt-69': [
@@ -1057,7 +1032,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Dugtrio1',
     'Whismur',
     'Trapinch',
-    'Geodude'
+    'Geodude',
   ],
   'lmpt-70': [
     'Golem1',
@@ -1081,7 +1056,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Magneton',
     'Dewgong',
     'Azumarill',
-    'Slowbro1'
+    'Slowbro1',
   ],
   'lmpt-71': [
     'Weedle',
@@ -1101,7 +1076,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Slowbro1',
     'Shuckle',
     'Pelipper',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-72': [
     'Raticate',
@@ -1118,7 +1093,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Gyarados',
     'Barboach',
     'Graveler',
-    'Primeape'
+    'Primeape',
   ],
   'lmpt-73': [
     'Raticate',
@@ -1137,7 +1112,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Wingull',
     'Gyarados',
     'Seadra',
-    'Tentacruel'
+    'Tentacruel',
   ],
   'lmpt-74': [
     'Poliwhirl',
@@ -1153,7 +1128,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Perrserker',
     'Gyarados',
     'Rhydon',
-    'Barboach'
+    'Barboach',
   ],
   'lmpt-75': [
     'Houndour',
@@ -1170,7 +1145,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Hippowdon',
     'Dugtrio1',
     'Dugtrio',
-    'Barboach'
+    'Barboach',
   ],
   'lmpt-76': [
     'Ledian',
@@ -1189,7 +1164,7 @@ const FILTERS: { [key in string]: string[] } = {
     'Illumise',
     'Weepinbell',
     'Slowbro1',
-    'Venomoth'
+    'Venomoth',
   ],
   'lmpt-77': [
     'Golduck',
@@ -1210,14 +1185,11 @@ const FILTERS: { [key in string]: string[] } = {
     'Togetic',
     'Gyarados',
     'Sealeo',
-    'Perrserker1'
+    'Perrserker1',
   ],
   'lmpt-78': [],
   'lmpt-79': [],
-  'lmpt-80': [
-    'Magikarp',
-    'Overqwil'
-  ],
+  'lmpt-80': ['Magikarp','Overqwil'],
   'lmpt-81': [
     'Machoke',
     'Marowak1',
@@ -1233,8 +1205,8 @@ const FILTERS: { [key in string]: string[] } = {
     'Magcargo',
     'Rhydon',
     'Weezing1',
-    'Graveler'
-  ]
+    'Graveler',
+  ],
 };
 
 export default FILTERS;

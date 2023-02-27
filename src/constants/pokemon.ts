@@ -548,7 +548,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'growlithe',
+    key: 'growlithe',
     value: 58,
     text: 'Growlithe',
     type: 'FIRE',
@@ -556,7 +556,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'growlithe1',
+    key: 'growlithe1',
     value: -58,
     text: 'Growlithe (Hisuian)',
     type: 'FIRE',
@@ -565,7 +565,7 @@ const POKEMON: TPokemon[] = [
     generation: 8,
   },
   {
-	key: 'arcanine',
+    key: 'arcanine',
     value: 59,
     text: 'Arcanine',
     type: 'FIRE',
@@ -573,7 +573,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'arcanine1',
+    key: 'arcanine1',
     value: -59,
     text: 'Arcanine (Hisuian)',
     type: 'FIRE',
@@ -980,7 +980,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'voltorb',
+    key: 'voltorb',
     value: 100,
     text: 'Voltorb',
     type: 'ELECTRIC',
@@ -988,7 +988,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'voltorb1',
+    key: 'voltorb1',
     value: -100,
     text: 'Voltorb (Hisuian)',
     type: 'ELECTRIC',
@@ -997,7 +997,7 @@ const POKEMON: TPokemon[] = [
     generation: 8,
   },
   {
-	key: 'electrode',
+    key: 'electrode',
     value: 101,
     text: 'Electrode',
     type: 'ELECTRIC',
@@ -1005,7 +1005,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-	key: 'electrode1',
+    key: 'electrode1',
     value: -101,
     text: 'Electrode (Hisuian)',
     type: 'ELECTRIC',
@@ -1473,7 +1473,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'typhlosion',
+    key: 'typhlosion',
     value: 157,
     text: 'Typhlosion',
     type: 'FIRE',
@@ -1481,7 +1481,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'typhlosion1',
+    key: 'typhlosion1',
     value: -157,
     text: 'Typhlosion (Hisuian)',
     type: 'FIRE',
@@ -1908,7 +1908,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'qwilfish',
+    key: 'qwilfish',
     value: 211,
     text: 'Qwilfish',
     type: 'WATER',
@@ -1916,7 +1916,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'qwilfish1',
+    key: 'qwilfish1',
     value: -211,
     text: 'Qwilfish (Hisuian)',
     type: 'WATER',
@@ -1947,7 +1947,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'sneasel',
+    key: 'sneasel',
     value: 215,
     text: 'Sneasel',
     type: 'DARK',
@@ -1956,7 +1956,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
-	key: 'sneasel1',
+    key: 'sneasel1',
     value: -215,
     text: 'Sneasel (Hisuian)',
     type: 'FIGHTING',

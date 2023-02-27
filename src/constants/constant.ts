@@ -163,7 +163,7 @@ export const INITIAL_SUMMARY = {
 };
 
 export const GAME_GENERATION: Record<string, GenerationNum> = {
-  '1': 8
+  '1': 8,
 };
 
 export const MAX_GAME = 1 as const;
@@ -175,7 +175,7 @@ export const INITIAL_STATE: Partial<AppState> = {
   calcs: {
     '1': {
       form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['1'], pokemon1: 1, pokemon2: 1 },
-    }
+    },
   },
   darkMode: false,
   duplicates: false,
