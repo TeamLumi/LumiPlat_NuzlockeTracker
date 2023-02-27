@@ -43,7 +43,7 @@ const POKEMON: TPokemon[] = [
     value: 6,
     text: 'Charizard',
     type: 'FIRE',
-    dualtype: 'FLYING',
+    dualtype: 'DRAGON',
     evolve: [4, 5, 6],
     generation: 1,
   },
@@ -65,6 +65,7 @@ const POKEMON: TPokemon[] = [
     value: 9,
     text: 'Blastoise',
     type: 'WATER',
+    dualtype: 'STEEL',
     evolve: [7, 8, 9],
     generation: 1,
   },
@@ -147,6 +148,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'rattata1',
     value: -19,
     text: 'Rattata (Alolan)',
     type: 'DARK',
@@ -163,6 +165,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'raticate1',
     value: -20,
     text: 'Raticate (Alolan)',
     type: 'DARK',
@@ -216,6 +219,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'raichu1',
     value: -26,
     text: 'Raichu (Alolan)',
     type: 'ELECTRIC',
@@ -232,6 +236,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'sandshrew1',
     value: -27,
     text: 'Sandshrew (Alolan)',
     type: 'ICE',
@@ -248,6 +253,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'sandslash1',
     value: -28,
     text: 'Sandslash (Alolan)',
     type: 'ICE',
@@ -324,6 +330,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'vulpix1',
     value: -37,
     text: 'Vulpix (Alolan)',
     type: 'ICE',
@@ -340,6 +347,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'ninetales1',
     value: -38,
     text: 'Ninetales (Alolan)',
     type: 'ICE',
@@ -446,6 +454,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'diglett1',
     value: -50,
     text: 'Diglett (Alolan)',
     type: 'GROUND',
@@ -462,6 +471,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'dugtrio1',
     value: -51,
     text: 'Dugtrio (Alolan)',
     type: 'GROUND',
@@ -478,7 +488,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
-    key: 'ameowth',
+    key: 'meowth1',
     value: -52,
     text: 'Meowth (Alolan)',
     type: 'DARK',
@@ -486,6 +496,7 @@ const POKEMON: TPokemon[] = [
     generation: 7,
   },
   {
+    key: 'meowth2',
     value: -54,
     text: 'Meowth (Galarian)',
     type: 'STEEL',
@@ -518,6 +529,7 @@ const POKEMON: TPokemon[] = [
     value: 55,
     text: 'Golduck',
     type: 'WATER',
+    dualtype: 'PSYCHIC',
     evolve: [54, 55],
     generation: 1,
   },
@@ -536,6 +548,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+	key: 'growlithe',
     value: 58,
     text: 'Growlithe',
     type: 'FIRE',
@@ -543,11 +556,30 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+	key: 'growlithe1',
+    value: -58,
+    text: 'Growlithe (Hisuian)',
+    type: 'FIRE',
+    dualtype: 'ROCK',
+    evolve: [-58, -59],
+    generation: 8,
+  },
+  {
+	key: 'arcanine',
     value: 59,
     text: 'Arcanine',
     type: 'FIRE',
     evolve: [58, 59],
     generation: 1,
+  },
+  {
+	key: 'arcanine1',
+    value: -59,
+    text: 'Arcanine (Hisuian)',
+    type: 'FIRE',
+    dualtype: 'ROCK'
+    evolve: [-58, -59],
+    generation: 8,
   },
   {
     value: 60,
@@ -663,6 +695,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'geodude1',
     value: -74,
     text: 'Geodude (Alolan)',
     type: 'ROCK',
@@ -680,6 +713,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'graveler1',
     value: -75,
     text: 'Graveler (Alolan)',
     type: 'ROCK',
@@ -697,6 +731,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'golem1',
     value: -76,
     text: 'Golem (Alolan)',
     type: 'ROCK',
@@ -713,6 +748,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'ponyta1',
     value: -77,
     text: 'Ponyta (Galarian)',
     type: 'PSYCHIC',
@@ -728,6 +764,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'rapidash1',
     value: -78,
     text: 'Rapidash (Galarian)',
     type: 'PSYCHIC',
@@ -745,6 +782,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'slowpoke1',
     value: -79,
     text: 'Slowpoke (Galarian)',
     type: 'PSYCHIC',
@@ -761,6 +799,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'slowbro1',
     value: -80,
     text: 'Slowbro (Galarian)',
     type: 'POISON',
@@ -788,11 +827,12 @@ const POKEMON: TPokemon[] = [
     key: 'farfetchd',
     value: 83,
     text: "Farfetch'd",
-    type: 'NORMAL',
+    type: 'FIGHTING',
     dualtype: 'FLYING',
     generation: 1,
   },
   {
+    key: 'farfetchd1',
     value: -83,
     text: "Farfetch'd (Galarian)",
     type: 'FIGHTING',
@@ -839,6 +879,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'grimer1',
     value: -88,
     text: 'Grimer (Alolan)',
     type: 'POISON',
@@ -855,6 +896,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'muk1',
     value: -89,
     text: 'Muk (Alolan)',
     type: 'POISON',
@@ -938,6 +980,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+	key: 'voltorb',
     value: 100,
     text: 'Voltorb',
     type: 'ELECTRIC',
@@ -945,11 +988,30 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+	key: 'voltorb1',
+    value: -100,
+    text: 'Voltorb (Hisuian)',
+    type: 'ELECTRIC',
+    dualtype: 'GRASS',
+    evolve: [-100, -101],
+    generation: 8,
+  },
+  {
+	key: 'electrode',
     value: 101,
     text: 'Electrode',
     type: 'ELECTRIC',
     evolve: [100, 101],
     generation: 1,
+  },
+  {
+	key: 'electrode1',
+    value: -101,
+    text: 'Electrode (Hisuian)',
+    type: 'ELECTRIC',
+    dualtype: 'GRASS',
+    evolve: [-100, -101],
+    generation: 8,
   },
   {
     value: 102,
@@ -969,6 +1031,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'exeggutor1',
     value: -103,
     text: 'Exeggutor (Alolan)',
     type: 'GRASS',
@@ -992,6 +1055,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'marowak1',
     value: -105,
     text: 'Marowak (Alolan)',
     type: 'FIRE',
@@ -1036,6 +1100,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'weezing1',
     value: -110,
     text: 'Weezing (Galarian)',
     type: 'POISON',
@@ -1133,6 +1198,7 @@ const POKEMON: TPokemon[] = [
     generation: 1,
   },
   {
+    key: 'mrmime1',
     value: -122,
     text: 'Mr. Mime (Galarian)',
     type: 'ICE',
@@ -1145,7 +1211,7 @@ const POKEMON: TPokemon[] = [
     text: 'Scyther',
     type: 'BUG',
     dualtype: 'FLYING',
-    evolve: [123, 212],
+    evolve: [123, 212, 900],
     generation: 1,
   },
   {
@@ -1388,6 +1454,7 @@ const POKEMON: TPokemon[] = [
     value: 154,
     text: 'Meganium',
     type: 'GRASS',
+    dualtype: 'FAIRY',
     evolve: [152, 153, 154],
     generation: 2,
   },
@@ -1406,11 +1473,21 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+	key: 'typhlosion',
     value: 157,
     text: 'Typhlosion',
     type: 'FIRE',
     evolve: [155, 156, 157],
     generation: 2,
+  },
+  {
+	key: 'typhlosion1',
+    value: -157,
+    text: 'Typhlosion (Hisuian)',
+    type: 'FIRE',
+    dualtype: 'GHOST'
+    evolve: [155, 156, -157],
+    generation: 8,
   },
   {
     value: 158,
@@ -1430,6 +1507,7 @@ const POKEMON: TPokemon[] = [
     value: 160,
     text: 'Feraligatr',
     type: 'WATER',
+    dualtype: 'DARK'
     evolve: [158, 159, 160],
     generation: 2,
   },
@@ -1467,7 +1545,7 @@ const POKEMON: TPokemon[] = [
     value: 165,
     text: 'Ledyba',
     type: 'BUG',
-    dualtype: 'FLYING',
+    dualtype: 'FIGHTING',
     evolve: [165, 166],
     generation: 2,
   },
@@ -1475,7 +1553,7 @@ const POKEMON: TPokemon[] = [
     value: 166,
     text: 'Ledian',
     type: 'BUG',
-    dualtype: 'FLYING',
+    dualtype: 'FIGHTING',
     evolve: [165, 166],
     generation: 2,
   },
@@ -1595,6 +1673,7 @@ const POKEMON: TPokemon[] = [
     value: 181,
     text: 'Ampharos',
     type: 'ELECTRIC',
+    dualtype: 'DRAGON'
     evolve: [179, 180, 181],
     generation: 2,
   },
@@ -1738,6 +1817,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+    key: 'slowking1',
     value: -199,
     text: 'Slowking (Galarian)',
     type: 'POISON',
@@ -1749,6 +1829,7 @@ const POKEMON: TPokemon[] = [
     value: 200,
     text: 'Misdreavus',
     type: 'GHOST',
+    dualtype: 'FAIRY',
     evolve: [200, 429],
     generation: 2,
   },
@@ -1791,6 +1872,7 @@ const POKEMON: TPokemon[] = [
     value: 206,
     text: 'Dunsparce',
     type: 'NORMAL',
+    dualtype: 'DRAGON'
     generation: 2,
   },
   {
@@ -1826,10 +1908,20 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+	key: 'qwilfish',
     value: 211,
     text: 'Qwilfish',
     type: 'WATER',
     dualtype: 'POISON',
+    generation: 2,
+  },
+  {
+	key: 'qwilfish1',
+    value: -211,
+    text: 'Qwilfish (Hisuian)',
+    type: 'WATER',
+    dualtype: 'POISON',
+    evolve: [-211, 904],
     generation: 2,
   },
   {
@@ -1855,6 +1947,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+	key: 'sneasel',
     value: 215,
     text: 'Sneasel',
     type: 'DARK',
@@ -1863,16 +1956,26 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+	key: 'sneasel1',
+    value: -215,
+    text: 'Sneasel (Hisuian)',
+    type: 'FIGHTING',
+    dualtype: 'POISON',
+    evolve: [-215, 903],
+    generation: 8,
+  },
+  {
     value: 216,
     text: 'Teddiursa',
     type: 'NORMAL',
-    evolve: [216, 217],
+    evolve: [216, 217, 901],
     generation: 2,
   },
   {
     value: 217,
     text: 'Ursaring',
     type: 'NORMAL',
+    dualtype: 'GROUND',
     evolve: [216, 217],
     generation: 2,
   },
@@ -1916,6 +2019,7 @@ const POKEMON: TPokemon[] = [
     generation: 2,
   },
   {
+    key: 'corsola1',
     value: -222,
     text: 'Corsola (Galarian)',
     type: 'GHOST',
@@ -2007,6 +2111,7 @@ const POKEMON: TPokemon[] = [
     value: 234,
     text: 'Stantler',
     type: 'NORMAL',
+    evolve: [234, 899],
     generation: 2,
   },
   {
@@ -2145,6 +2250,7 @@ const POKEMON: TPokemon[] = [
     value: 254,
     text: 'Sceptile',
     type: 'GRASS',
+    dualtype: 'DRAGON',
     evolve: [252, 253, 254],
     generation: 3,
   },
@@ -2217,6 +2323,7 @@ const POKEMON: TPokemon[] = [
     generation: 3,
   },
   {
+    key: 'zigzagoon1',
     value: -263,
     text: 'Zigzagoon (Galarian)',
     type: 'DARK',
@@ -2233,6 +2340,7 @@ const POKEMON: TPokemon[] = [
     generation: 3,
   },
   {
+    key: 'linoone1',
     value: -264,
     text: 'Linoone (Galarian)',
     type: 'DARK',
@@ -2395,7 +2503,7 @@ const POKEMON: TPokemon[] = [
     value: 284,
     text: 'Masquerain',
     type: 'BUG',
-    dualtype: 'FLYING',
+    dualtype: 'WATER',
     evolve: [283, 284],
     generation: 3,
   },
@@ -2543,7 +2651,6 @@ const POKEMON: TPokemon[] = [
     value: 304,
     text: 'Aron',
     type: 'STEEL',
-    dualtype: 'ROCK',
     evolve: [304, 305, 306],
     generation: 3,
   },
@@ -2551,7 +2658,6 @@ const POKEMON: TPokemon[] = [
     value: 305,
     text: 'Lairon',
     type: 'STEEL',
-    dualtype: 'ROCK',
     evolve: [304, 305, 306],
     generation: 3,
   },
@@ -2559,7 +2665,6 @@ const POKEMON: TPokemon[] = [
     value: 306,
     text: 'Aggron',
     type: 'STEEL',
-    dualtype: 'ROCK',
     evolve: [304, 305, 306],
     generation: 3,
   },
@@ -2609,12 +2714,14 @@ const POKEMON: TPokemon[] = [
     value: 313,
     text: 'Volbeat',
     type: 'BUG',
+    dualtype: 'ELECTRIC',
     generation: 3,
   },
   {
     value: 314,
     text: 'Illumise',
     type: 'BUG',
+    dualtype: 'FAIRY',
     generation: 3,
   },
   {
@@ -2752,16 +2859,16 @@ const POKEMON: TPokemon[] = [
   {
     value: 333,
     text: 'Swablu',
-    type: 'FLYING',
-    dualtype: 'NORMAL',
+    type: 'FAIRY',
+    dualtype: 'FLYING',
     evolve: [333, 334],
     generation: 3,
   },
   {
     value: 334,
     text: 'Altaria',
-    type: 'DRAGON',
-    dualtype: 'FLYING',
+    type: 'FAIRY',
+    dualtype: 'DRAGON',
     evolve: [333, 334],
     generation: 3,
   },
@@ -2775,6 +2882,7 @@ const POKEMON: TPokemon[] = [
     value: 336,
     text: 'Seviper',
     type: 'POISON',
+    dualtype: 'DARK',
     generation: 3,
   },
   {
@@ -2881,6 +2989,7 @@ const POKEMON: TPokemon[] = [
     value: 350,
     text: 'Milotic',
     type: 'WATER',
+    dualtype: 'FAIRY',
     evolve: [349, 350],
     generation: 3,
   },
@@ -2907,6 +3016,7 @@ const POKEMON: TPokemon[] = [
     value: 354,
     text: 'Banette',
     type: 'GHOST',
+    dualtype: 'NORMAL'
     evolve: [353, 354],
     generation: 3,
   },
@@ -2962,6 +3072,7 @@ const POKEMON: TPokemon[] = [
     value: 362,
     text: 'Glalie',
     type: 'ICE',
+    dualtype: 'ROCK',
     evolve: [301, 362, 478],
     generation: 3,
   },
@@ -3021,6 +3132,7 @@ const POKEMON: TPokemon[] = [
     value: 370,
     text: 'Luvdisc',
     type: 'WATER',
+    dualtype: 'FAIRY'
     generation: 3,
   },
   {
@@ -3271,6 +3383,7 @@ const POKEMON: TPokemon[] = [
     value: 405,
     text: 'Luxray',
     type: 'ELECTRIC',
+    dualtype: 'DARK',
     evolve: [403, 404, 405],
     generation: 4,
   },
@@ -3442,6 +3555,7 @@ const POKEMON: TPokemon[] = [
     value: 428,
     text: 'Lopunny',
     type: 'NORMAL',
+    dualtype: 'FIGHTING',
     evolve: [427, 428],
     generation: 4,
   },
@@ -3449,6 +3563,7 @@ const POKEMON: TPokemon[] = [
     value: 429,
     text: 'Mismagius',
     type: 'GHOST',
+    dualtype: 'FAIRY',
     evolve: [200, 429],
     generation: 4,
   },
@@ -3645,6 +3760,7 @@ const POKEMON: TPokemon[] = [
     value: 455,
     text: 'Carnivine',
     type: 'GRASS',
+    dualtype: 'STEEL',
     generation: 4,
   },
   {
@@ -3727,6 +3843,7 @@ const POKEMON: TPokemon[] = [
     value: 466,
     text: 'Electivire',
     type: 'ELECTRIC',
+    dualtype: 'FIGHTING',
     evolve: [239, 125, 466],
     generation: 4,
   },
@@ -3834,18 +3951,21 @@ const POKEMON: TPokemon[] = [
     value: 480,
     text: 'Uxie',
     type: 'PSYCHIC',
+    dualtype: 'FAIRY',
     generation: 4,
   },
   {
     value: 481,
     text: 'Mesprit',
     type: 'PSYCHIC',
+    dualtype: 'FAIRY',
     generation: 4,
   },
   {
     value: 482,
     text: 'Azelf',
     type: 'PSYCHIC',
+    dualtype: 'FAIRY',
     generation: 4,
   },
   {

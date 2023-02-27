@@ -1,20 +1,7 @@
 import { GenerationNum, ITEMS } from '@smogon/calc';
 import BADGES from 'constants/badges';
 import { DEFAULT_VALUES } from 'constants/calculator';
-import B_W from 'constants/locations/B_W';
-import B_W_2 from 'constants/locations/B_W_2';
-import BD_SP from 'constants/locations/BD_SP';
-import D_P_PLAT from 'constants/locations/D_P_PLAT';
-import FR_LG from 'constants/locations/FR_LG';
-import G_S_C from 'constants/locations/G_S_C';
-import HG_SS from 'constants/locations/HG_SS';
-import OR_AS from 'constants/locations/OR_AS';
-import R_B_Y from 'constants/locations/R_B_Y';
-import R_S_E from 'constants/locations/R_S_E';
-import S_M from 'constants/locations/S_M';
-import SW_SH from 'constants/locations/SW_SH';
-import US_UM from 'constants/locations/US_UM';
-import X_Y from 'constants/locations/X_Y';
+import LMPT from 'constants/locations/LMPT';
 import {
   AppState,
   TEncounter,
@@ -30,73 +17,8 @@ import {
 export const GAMES: TGame[] = [
   {
     value: '1',
-    text: 'Red, Blue and Yellow',
+    text: 'Luminescent Platinum',
     key: '1',
-  },
-  {
-    value: '2',
-    text: 'Gold, Silver and Crystal',
-    key: '2',
-  },
-  {
-    value: '3',
-    text: 'Ruby, Sapphire and Emerald',
-    key: '3',
-  },
-  {
-    value: '4',
-    text: 'FireRed and LeafGreen',
-    key: '4',
-  },
-  {
-    value: '5',
-    text: 'Diamond, Pearl and Platinum',
-    key: '5',
-  },
-  {
-    value: '6',
-    text: 'HeartGold and SoulSilver',
-    key: '6',
-  },
-  {
-    value: '7',
-    text: 'Black and White',
-    key: '7',
-  },
-  {
-    value: '8',
-    text: 'Black 2 and White 2',
-    key: '8',
-  },
-  {
-    value: '9',
-    text: 'X and Y',
-    key: '9',
-  },
-  {
-    value: '10',
-    text: 'Omega Ruby and Alpha Sapphire',
-    key: '10',
-  },
-  {
-    value: '11',
-    text: 'Sun and Moon',
-    key: '11',
-  },
-  {
-    value: '12',
-    text: 'Ultra Sun and Ultra Moon',
-    key: '12',
-  },
-  {
-    value: '13',
-    text: 'Sword and Shield',
-    key: '13',
-  },
-  {
-    value: '13.1',
-    text: 'Brilliant Diamond and Shining Pearl',
-    key: '13.1',
   },
 ];
 
@@ -241,24 +163,11 @@ export const INITIAL_SUMMARY = {
 };
 
 export const GAME_GENERATION: Record<string, GenerationNum> = {
-  '1': 1,
-  '2': 2,
-  '3': 3,
-  '4': 3,
-  '5': 4,
-  '6': 4,
-  '7': 5,
-  '8': 5,
-  '9': 6,
-  '10': 6,
-  '11': 7,
-  '12': 7,
-  '13': 8,
-  '13.1': 8,
+  '1': 8
 };
 
-export const MAX_GAME = 13.1 as const;
-export const FAIRY_GEN = 9 as const;
+export const MAX_GAME = 1 as const;
+export const FAIRY_GEN = 1 as const;
 export const EN_LANGUAGE: TLanguage = 'en';
 
 export const INITIAL_STATE: Partial<AppState> = {
@@ -266,64 +175,12 @@ export const INITIAL_STATE: Partial<AppState> = {
   calcs: {
     '1': {
       form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['1'], pokemon1: 1, pokemon2: 1 },
-    },
-    '2': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['2'], pokemon1: 1, pokemon2: 1 },
-    },
-    '3': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['3'], pokemon1: 1, pokemon2: 1 },
-    },
-    '4': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['4'], pokemon1: 1, pokemon2: 1 },
-    },
-    '5': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['5'], pokemon1: 1, pokemon2: 1 },
-    },
-    '6': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['6'], pokemon1: 1, pokemon2: 1 },
-    },
-    '7': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['7'], pokemon1: 1, pokemon2: 1 },
-    },
-    '8': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['8'], pokemon1: 1, pokemon2: 1 },
-    },
-    '9': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['9'], pokemon1: 1, pokemon2: 1 },
-    },
-    '10': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['10'], pokemon1: 1, pokemon2: 1 },
-    },
-    '11': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['11'], pokemon1: 1, pokemon2: 1 },
-    },
-    '12': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['12'], pokemon1: 1, pokemon2: 1 },
-    },
-    '13': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['13'], pokemon1: 1, pokemon2: 1 },
-    },
-    '13.1': {
-      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['13.1'], pokemon1: 1, pokemon2: 1 },
-    },
+    }
   },
   darkMode: false,
   duplicates: false,
   games: {
-    '1': { badge: [], encounters: R_B_Y },
-    '2': { badge: [], encounters: G_S_C },
-    '3': { badge: [], encounters: R_S_E },
-    '4': { badge: [], encounters: FR_LG },
-    '5': { badge: [], encounters: D_P_PLAT },
-    '6': { badge: [], encounters: HG_SS },
-    '7': { badge: [], encounters: B_W },
-    '8': { badge: [], encounters: B_W_2 },
-    '9': { badge: [], encounters: X_Y },
-    '10': { badge: [], encounters: OR_AS },
-    '11': { badge: [], encounters: S_M },
-    '12': { badge: [], encounters: US_UM },
-    '13': { badge: [], encounters: SW_SH },
-    '13.1': { badge: [], encounters: BD_SP },
+    '1': { badge: [], encounters: LMPT },
   },
   gamesList: GAMES,
   missing: false,
@@ -341,19 +198,6 @@ export const INITIAL_STATE: Partial<AppState> = {
   suggestions: true,
   summary: {
     '1': { ...INITIAL_SUMMARY },
-    '2': { ...INITIAL_SUMMARY },
-    '3': { ...INITIAL_SUMMARY },
-    '4': { ...INITIAL_SUMMARY },
-    '5': { ...INITIAL_SUMMARY },
-    '6': { ...INITIAL_SUMMARY },
-    '7': { ...INITIAL_SUMMARY },
-    '8': { ...INITIAL_SUMMARY },
-    '9': { ...INITIAL_SUMMARY },
-    '10': { ...INITIAL_SUMMARY },
-    '11': { ...INITIAL_SUMMARY },
-    '12': { ...INITIAL_SUMMARY },
-    '13': { ...INITIAL_SUMMARY },
-    '13.1': { ...INITIAL_SUMMARY },
   },
   team: {},
   text: null,
@@ -386,20 +230,7 @@ export const getRuleContent = (content: TRuleContent, type: TRule): string => {
 };
 
 export const GAME_KEY_DICTIONARY: { [key in string]: TEncounter[] } = {
-  '1': R_B_Y,
-  '2': G_S_C,
-  '3': R_S_E,
-  '4': FR_LG,
-  '5': D_P_PLAT,
-  '6': HG_SS,
-  '7': B_W,
-  '8': B_W_2,
-  '9': X_Y,
-  '10': OR_AS,
-  '11': S_M,
-  '12': US_UM,
-  '13': SW_SH,
-  '13.1': BD_SP,
+  '1': LMPT,
 };
 
 export const GENDERS = [
@@ -544,11 +375,15 @@ export const SPECIAL_NAMES: Record<string, string> = {
   'Dugtrio (Alolan)': 'dugtrio-alola',
   'Meowth (Alolan)': 'meowth-alola',
   'Persian (Alolan)': 'persian-alola',
+  'Growlithe (Hisuian)': 'growlithe-hisuian',
+  'Arcanine (Hisuian)': 'arcanine-hisuian',
   'Geodude (Alolan)': 'geodude-alola',
   'Graveler (Alolan)': 'graveler-alola',
   'Golem (Alolan)': 'golem-alola',
   'Grimer (Alolan)': 'grimer-alola',
   'Muk (Alolan)': 'muk-alola',
+  'Voltorb (Hisuian)': 'voltorb-hisuian',
+  'Electrode (Hisuian)': 'electrode-hisuian',
   'Marowak (Alolan)': 'marowak-alola',
   'Exeggutor (Alolan)': 'exeggutor-alola',
   'Meowth (Galarian)': 'meowth-galar',
@@ -563,7 +398,10 @@ export const SPECIAL_NAMES: Record<string, string> = {
   'Articuno (Galarian)': 'articuno-galar',
   'Zapdos (Galarian)': 'zapdos-galar',
   'Moltres (Galarian)': 'moltres-galar',
+  'Typhlosion (Hisuian)': 'typhlosion-hisuian',
   'Slowking (Galarian)': 'slowking-galar',
+  'Qwilfish (Hisuian)': 'qwilfish-hisuian',
+  'Sneasel (Hisuian)': 'sneasel-hisuian',
   'Corsola (Galarian)': 'corsola-galar',
   'Zigzagoon (Galarian)': 'zigzagoon-galar',
   'Linoone (Galarian)': 'linoone-galar',
@@ -589,11 +427,15 @@ export const SMOGON_NAMES: Record<string, string> = {
   'Dugtrio (Alolan)': 'Dugtrio-Alola',
   'Meowth (Alolan)': 'Meowth-Alola',
   'Persian (Alolan)': 'Persian-Alola',
-  'Geodude (Alolan)': 'geodude-Alola',
+  'Growlithe (Hisuian)': 'Growlithe-Hisuian',
+  'Arcanine (Hisuian)': 'Arcanine-Hisuian',
+  'Geodude (Alolan)': 'Geodude-Alola',
   'Graveler (Alolan)': 'Graveler-Alola',
   'Golem (Alolan)': 'Golem-Alola',
   'Grimer (Alolan)': 'Grimer-Alola',
   'Muk (Alolan)': 'Muk-Alola',
+  'Voltorb (Hisuian)': 'Voltorb-Hisuian',
+  'Electrode (Hisuian)': 'Electrode-Hisuian',
   'Marowak (Alolan)': 'Marowak-Alola',
   'Exeggutor (Alolan)': 'Exeggutor-Alola',
   'Meowth (Galarian)': 'Meowth-Galar',
@@ -608,7 +450,10 @@ export const SMOGON_NAMES: Record<string, string> = {
   'Articuno (Galarian)': 'Articuno-Galar',
   'Zapdos (Galarian)': 'Zapdos-Galar',
   'Moltres (Galarian)': 'Moltres-Galar',
+  'Typhlosion (Hisuian)': 'Typhlosion-Hisuian',
   'Slowking (Galarian)': 'Slowking-Galar',
+  'Qwilfish (Hisuian)': 'Qwilfish-Hisuian',
+  'Sneasel (Hisuian)': 'Sneasel-Hisuian',
   'Corsola (Galarian)': 'Corsola-Galar',
   'Zigzagoon (Galarian)': 'Zigzagoon-Galar',
   'Linoone (Galarian)': 'Linoone-Galar',
