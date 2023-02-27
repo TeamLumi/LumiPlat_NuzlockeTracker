@@ -997,7 +997,7 @@ const FILTERS: { [key in string]: string[] } = {
   'lmpt-65': ['Manaphy'],
   'lmpt-66': [
     'Surskit',
-    "Sirfetch'"',
+    "Sirfetch'd",
     'Masquerain',
     'Gyarados',
     'Bibarel',

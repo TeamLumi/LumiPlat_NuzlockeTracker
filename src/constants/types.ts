@@ -189,7 +189,7 @@ export type TEncounter = {
   pokemon: number;
   previousStatus?: TStatus;
   status: TStatus;
-  zoneID: array;
+  zoneID: string[];
 };
 
 export interface TPokemon {
