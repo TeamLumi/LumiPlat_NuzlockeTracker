@@ -1919,7 +1919,7 @@ const POKEMON: TPokemon[] = [
     key: 'qwilfish1',
     value: -211,
     text: 'Hisuian Qwilfish',
-    type: 'WATER',
+    type: 'DARK',
     dualtype: 'POISON',
     evolve: [-211, 904],
     generation: 2,
