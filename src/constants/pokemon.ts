@@ -4114,7 +4114,7 @@ const POKEMON: TPokemon[] = [
     value: -503,
     text: 'Hisuian Samurott',
     type: 'WATER',
-    dualtype: 'Dark',
+    dualtype: 'DARK',
     evolve: [501, 502, 503],
     generation: 5,
   },
