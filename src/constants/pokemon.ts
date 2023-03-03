@@ -150,7 +150,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'rattata1',
     value: -19,
-    text: 'Rattata (Alolan)',
+    text: 'Alolan Rattata',
     type: 'DARK',
     dualtype: 'NORMAL',
     evolve: [-19, -20],
@@ -167,7 +167,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'raticate1',
     value: -20,
-    text: 'Raticate (Alolan)',
+    text: 'Alolan Raticate',
     type: 'DARK',
     dualtype: 'NORMAL',
     evolve: [-19, -20],
@@ -221,7 +221,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'raichu1',
     value: -26,
-    text: 'Raichu (Alolan)',
+    text: 'Alolan Raichu',
     type: 'ELECTRIC',
     dualtype: 'PSYCHIC',
     evolve: [172, 25, 26, -26],
@@ -238,7 +238,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'sandshrew1',
     value: -27,
-    text: 'Sandshrew (Alolan)',
+    text: 'Alolan Sandshrew',
     type: 'ICE',
     dualtype: 'STEEL',
     evolve: [-27, -28],
@@ -255,7 +255,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'sandslash1',
     value: -28,
-    text: 'Sandslash (Alolan)',
+    text: 'Alolan Sandslash',
     type: 'ICE',
     dualtype: 'STEEL',
     evolve: [-27, -28],
@@ -332,7 +332,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'vulpix1',
     value: -37,
-    text: 'Vulpix (Alolan)',
+    text: 'Alolan Vulpix',
     type: 'ICE',
     dualtype: 'FAIRY',
     evolve: [-37, -38],
@@ -349,7 +349,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'ninetales1',
     value: -38,
-    text: 'Ninetales (Alolan)',
+    text: 'Alolan Ninetales',
     type: 'ICE',
     dualtype: 'FAIRY',
     evolve: [-37, -38],
@@ -456,7 +456,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'diglett1',
     value: -50,
-    text: 'Diglett (Alolan)',
+    text: 'Alolan Diglett',
     type: 'GROUND',
     dualtype: 'STEEL',
     evolve: [-50, -51],
@@ -473,7 +473,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'dugtrio1',
     value: -51,
-    text: 'Dugtrio (Alolan)',
+    text: 'Alolan Dugtrio',
     type: 'GROUND',
     dualtype: 'STEEL',
     evolve: [-50, -51],
@@ -490,7 +490,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'meowth1',
     value: -52,
-    text: 'Meowth (Alolan)',
+    text: 'Alolan Meowth',
     type: 'DARK',
     evolve: [-52, -53],
     generation: 7,
@@ -498,7 +498,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'meowth2',
     value: -54,
-    text: 'Meowth (Galarian)',
+    text: 'Galarian Meowth',
     type: 'STEEL',
     evolve: [-54, 863],
     generation: 8,
@@ -513,7 +513,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -53,
-    text: 'Persian (Alolan)',
+    text: 'Alolan Persian',
     type: 'DARK',
     evolve: [-52, -53],
     generation: 7,
@@ -558,7 +558,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'growlithe1',
     value: -58,
-    text: 'Growlithe (Hisuian)',
+    text: 'Hisuian Growlithe',
     type: 'FIRE',
     dualtype: 'ROCK',
     evolve: [-58, -59],
@@ -575,7 +575,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'arcanine1',
     value: -59,
-    text: 'Arcanine (Hisuian)',
+    text: 'Hisuian Arcanine',
     type: 'FIRE',
     dualtype: 'ROCK',
     evolve: [-58, -59],
@@ -697,7 +697,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'geodude1',
     value: -74,
-    text: 'Geodude (Alolan)',
+    text: 'Alolan Geodude',
     type: 'ROCK',
     dualtype: 'ELECTRIC',
     evolve: [-74, -75, -76],
@@ -715,7 +715,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'graveler1',
     value: -75,
-    text: 'Graveler (Alolan)',
+    text: 'Alolan Graveler',
     type: 'ROCK',
     dualtype: 'ELECTRIC',
     evolve: [-74, -75, -76],
@@ -733,7 +733,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'golem1',
     value: -76,
-    text: 'Golem (Alolan)',
+    text: 'Alolan Golem',
     type: 'ROCK',
     dualtype: 'ELECTRIC',
     evolve: [-74, -75, -76],
@@ -750,7 +750,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'ponyta1',
     value: -77,
-    text: 'Ponyta (Galarian)',
+    text: 'Galarian Ponyta',
     type: 'PSYCHIC',
     evolve: [-77, -78],
     generation: 8,
@@ -766,7 +766,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'rapidash1',
     value: -78,
-    text: 'Rapidash (Galarian)',
+    text: 'Galarian Rapidash',
     type: 'PSYCHIC',
     dualtype: 'FAIRY',
     evolve: [-77, -78],
@@ -784,7 +784,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'slowpoke1',
     value: -79,
-    text: 'Slowpoke (Galarian)',
+    text: 'Galarian Slowpoke',
     type: 'PSYCHIC',
     evolve: [-79, -80, -199],
     generation: 8,
@@ -801,7 +801,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'slowbro1',
     value: -80,
-    text: 'Slowbro (Galarian)',
+    text: 'Galarian Slowbro',
     type: 'POISON',
     dualtype: 'PSYCHIC',
     evolve: [-79, -80, -199],
@@ -834,7 +834,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'farfetchd1',
     value: -83,
-    text: "Farfetch'd (Galarian)",
+    text: "Galarian Farfetch'd",
     type: 'FIGHTING',
     evolve: [-83, 865],
     generation: 8,
@@ -881,7 +881,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'grimer1',
     value: -88,
-    text: 'Grimer (Alolan)',
+    text: 'Alolan Grimer',
     type: 'POISON',
     dualtype: 'DARK',
     evolve: [-88, -89],
@@ -898,7 +898,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'muk1',
     value: -89,
-    text: 'Muk (Alolan)',
+    text: 'Alolan Muk',
     type: 'POISON',
     dualtype: 'DARK',
     evolve: [-88, -89],
@@ -990,7 +990,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'voltorb1',
     value: -100,
-    text: 'Voltorb (Hisuian)',
+    text: 'Hisuian Voltorb',
     type: 'ELECTRIC',
     dualtype: 'GRASS',
     evolve: [-100, -101],
@@ -1007,7 +1007,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'electrode1',
     value: -101,
-    text: 'Electrode (Hisuian)',
+    text: 'Hisuian Electrode',
     type: 'ELECTRIC',
     dualtype: 'GRASS',
     evolve: [-100, -101],
@@ -1033,7 +1033,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'exeggutor1',
     value: -103,
-    text: 'Exeggutor (Alolan)',
+    text: 'Alolan Exeggutor',
     type: 'GRASS',
     dualtype: 'DRAGON',
     evolve: [102, 103, -103],
@@ -1057,7 +1057,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'marowak1',
     value: -105,
-    text: 'Marowak (Alolan)',
+    text: 'Alolan Marowak',
     type: 'FIRE',
     dualtype: 'GHOST',
     evolve: [104, 105, -105],
@@ -1102,7 +1102,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'weezing1',
     value: -110,
-    text: 'Weezing (Galarian)',
+    text: 'Galarian Weezing',
     type: 'POISON',
     dualtype: 'FAIRY',
     evolve: [109, 110, -110],
@@ -1200,7 +1200,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'mrmime1',
     value: -122,
-    text: 'Mr. Mime (Galarian)',
+    text: 'Galarian Mr. Mime',
     type: 'ICE',
     dualtype: 'PSYCHIC',
     evolve: [439, -122, 866],
@@ -1367,7 +1367,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -144,
-    text: 'Articuno (Galarian)',
+    text: 'Galarian Articuno',
     type: 'PSYCHIC',
     dualtype: 'FLYING',
     generation: 8,
@@ -1382,7 +1382,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -145,
-    text: 'Zapdos (Galarian)',
+    text: 'Galarian Zapdos',
     type: 'FIGHTING',
     dualtype: 'FLYING',
     generation: 8,
@@ -1397,7 +1397,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -146,
-    text: 'Moltres (Galarian)',
+    text: 'Galarian Moltres',
     type: 'DARK',
     dualtype: 'FLYING',
     generation: 8,
@@ -1483,7 +1483,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'typhlosion1',
     value: -157,
-    text: 'Typhlosion (Hisuian)',
+    text: 'Hisuian Typhlosion',
     type: 'FIRE',
     dualtype: 'GHOST',
     evolve: [155, 156, -157],
@@ -1819,7 +1819,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'slowking1',
     value: -199,
-    text: 'Slowking (Galarian)',
+    text: 'Galarian Slowking',
     type: 'POISON',
     dualtype: 'PSYCHIC',
     evolve: [-79, -80, -199],
@@ -1918,7 +1918,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'qwilfish1',
     value: -211,
-    text: 'Qwilfish (Hisuian)',
+    text: 'Hisuian Qwilfish',
     type: 'WATER',
     dualtype: 'POISON',
     evolve: [-211, 904],
@@ -1958,7 +1958,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'sneasel1',
     value: -215,
-    text: 'Sneasel (Hisuian)',
+    text: 'Hisuian Sneasel',
     type: 'FIGHTING',
     dualtype: 'POISON',
     evolve: [-215, 903],
@@ -2021,7 +2021,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'corsola1',
     value: -222,
-    text: 'Corsola (Galarian)',
+    text: 'Galarian Corsola',
     type: 'GHOST',
     evolve: [-222, 864],
     generation: 8,
@@ -2325,7 +2325,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'zigzagoon1',
     value: -263,
-    text: 'Zigzagoon (Galarian)',
+    text: 'Galarian Zigzagoon',
     type: 'DARK',
     dualtype: 'NORMAL',
     evolve: [-263, -264, 862],
@@ -2342,7 +2342,7 @@ const POKEMON: TPokemon[] = [
   {
     key: 'linoone1',
     value: -264,
-    text: 'Linoone (Galarian)',
+    text: 'Galarian Linoone',
     type: 'DARK',
     dualtype: 'NORMAL',
     evolve: [-263, -264, 862],
@@ -2836,8 +2836,8 @@ const POKEMON: TPokemon[] = [
   {
     value: 330,
     text: 'Flygon',
-    type: 'DRAGON',
-    dualtype: 'GROUND',
+    type: 'BUG',
+    dualtype: 'DRAGON',
     evolve: [328, 329, 330],
     generation: 3,
   },
@@ -4111,6 +4111,14 @@ const POKEMON: TPokemon[] = [
     generation: 5,
   },
   {
+    value: -503,
+    text: 'Hisuian Samurott',
+    type: 'WATER',
+    dualtype: 'Dark',
+    evolve: [501, 502, 503],
+    generation: 5,
+  },
+  {
     value: 504,
     text: 'Patrat',
     type: 'NORMAL',
@@ -4448,6 +4456,14 @@ const POKEMON: TPokemon[] = [
     generation: 5,
   },
   {
+    value: -549,
+    text: 'Hisuian Lilligant',
+    type: 'GRASS',
+    dualtype: 'FIGHTING',
+    evolve: [548, -549],
+    generation: 5,
+  },
+  {
     value: 550,
     text: 'Basculin',
     type: 'WATER',
@@ -4487,7 +4503,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -554,
-    text: 'Darumaka (Galarian)',
+    text: 'Galarian Darumaka',
     type: 'ICE',
     evolve: [-554, -555],
     generation: 8,
@@ -4502,7 +4518,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -555,
-    text: 'Darmanitan (Galarian)',
+    text: 'Galarian Darmanitan',
     type: 'ICE',
     evolve: [-554, -555],
     generation: 8,
@@ -4561,7 +4577,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -562,
-    text: 'Yamask (Galarian)',
+    text: 'Galarian Yamask',
     type: 'GHOST',
     dualtype: 'GROUND',
     evolve: [562, 867],
@@ -4980,7 +4996,7 @@ const POKEMON: TPokemon[] = [
   },
   {
     value: -618,
-    text: 'Stunfisk (Galarian)',
+    text: 'Galarian Stunfisk',
     type: 'GROUND',
     dualtype: 'STEEL',
     generation: 8,
@@ -5768,6 +5784,14 @@ const POKEMON: TPokemon[] = [
     dualtype: 'GHOST',
     evolve: [722, 723, 724],
     generation: 7,
+  },
+  {
+    value: -724,
+    text: 'Hisuian Decidueye',
+    type: 'GRASS',
+    dualtype: 'FIGHTING',
+    evolve: [722, 723, -724],
+    generation: 8,
   },
   {
     value: 725,
@@ -7022,6 +7046,55 @@ const POKEMON: TPokemon[] = [
     text: 'Calyrex',
     type: 'PSYCHIC',
     dualtype: 'GRASS',
+    generation: 8,
+  },
+  {
+    value: 899,
+    text: 'Wyrdeer',
+    type: 'NORMAL',
+    dualtype: 'PSYCHIC',
+    generation: 8,
+  },
+  {
+    value: 900,
+    text: 'Kleavor',
+    type: 'BUG',
+    dualtype: 'ROCK',
+    generation: 8,
+  },
+  {
+    value: 901,
+    text: 'Ursaluna',
+    type: 'GROUND',
+    dualtype: 'NORMAL',
+    generation: 8,
+  },
+  {
+    value: 902,
+    text: 'Basculegion',
+    type: 'WATER',
+    dualtype: 'GHOST',
+    generation: 8,
+  },
+  {
+    value: 903,
+    text: 'Sneasler',
+    type: 'POISON',
+    dualtype: 'FIGHTING',
+    generation: 8,
+  },
+  {
+    value: 904,
+    text: 'Overqwil',
+    type: 'DARK',
+    dualtype: 'POISON',
+    generation: 8,
+  },
+  {
+    value: 905,
+    text: 'Enamorus',
+    type: 'FAIRY',
+    dualtype: 'FLYING',
     generation: 8,
   },
 ];
