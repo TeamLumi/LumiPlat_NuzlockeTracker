@@ -43,7 +43,7 @@ const LMPT: TEncounter[] = [
   {
     id: 4,
     pokemon: null,
-    location: 'Verity Lakefront',
+    location: 'Verity Lakefront - Egg',
     status: null,
     filterKey: 'lmpt-4',
     zoneID: [
@@ -78,6 +78,27 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-7',
     zoneID: [
       0
+    ]
+  },
+  {
+    id: 12,
+    pokemon: null,
+    location: 'Route 204',
+    status: null,
+    filterKey: 'lmpt-12',
+    zoneID: [
+      358,
+      357
+    ]
+  },
+  {
+    id: 13,
+    pokemon: null,
+    location: 'Ravaged Path',
+    status: null,
+    filterKey: 'lmpt-13',
+    zoneID: [
+      252
     ]
   },
   {
@@ -133,24 +154,13 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 12,
+    id: 23,
     pokemon: null,
-    location: 'Route 204',
+    location: 'Route 207',
     status: null,
-    filterKey: 'lmpt-12',
+    filterKey: 'lmpt-23',
     zoneID: [
-      358,
-      357
-    ]
-  },
-  {
-    id: 13,
-    pokemon: null,
-    location: 'Ravaged Path',
-    status: null,
-    filterKey: 'lmpt-13',
-    zoneID: [
-      252
+      364
     ]
   },
   {
@@ -241,34 +251,14 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 21,
+    id: 50,
     pokemon: null,
-    location: 'Route 206',
+    location: 'Route 211',
     status: null,
-    filterKey: 'lmpt-21',
+    filterKey: 'lmpt-50',
     zoneID: [
-      362
-    ]
-  },
-  {
-    id: 22,
-    pokemon: null,
-    location: 'Wayward Cave',
-    status: null,
-    filterKey: 'lmpt-22',
-    zoneID: [
-      293,
-      292
-    ]
-  },
-  {
-    id: 23,
-    pokemon: null,
-    location: 'Route 207',
-    status: null,
-    filterKey: 'lmpt-23',
-    zoneID: [
-      364
+      378,
+      377
     ]
   },
   {
@@ -293,6 +283,37 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
+    id: 51,
+    pokemon: null,
+    location: 'Route 216',
+    status: null,
+    filterKey: 'lmpt-51',
+    zoneID: [
+      395
+    ]
+  },
+  {
+    id: 21,
+    pokemon: null,
+    location: 'Route 206',
+    status: null,
+    filterKey: 'lmpt-21',
+    zoneID: [
+      362
+    ]
+  },
+  {
+    id: 22,
+    pokemon: null,
+    location: 'Wayward Cave',
+    status: null,
+    filterKey: 'lmpt-22',
+    zoneID: [
+      293,
+      292
+    ]
+  },
+  {
     id: 26,
     pokemon: null,
     location: 'Route 208',
@@ -305,11 +326,42 @@ const LMPT: TEncounter[] = [
   {
     id: 27,
     pokemon: null,
-    location: 'Hearthome City',
+    location: 'Hearthome City - Egg',
     status: null,
     filterKey: 'lmpt-27',
     zoneID: [
       74
+    ]
+  },
+  {
+    id: 64,
+    pokemon: null,
+    location: 'Route 212',
+    status: null,
+    filterKey: 'lmpt-64',
+    zoneID: [
+      379,
+      383
+    ]
+  },
+  {
+    id: 65,
+    pokemon: null,
+    location: 'Pokemon Mansion',
+    status: null,
+    filterKey: 'lmpt-65',
+    zoneID: [
+      380
+    ]
+  },
+  {
+    id: 39,
+    pokemon: null,
+    location: 'Trophy Garden',
+    status: null,
+    filterKey: 'lmpt-39',
+    zoneID: [
+      297
     ]
   },
   {
@@ -456,37 +508,6 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 64,
-    pokemon: null,
-    location: 'Route 212',
-    status: null,
-    filterKey: 'lmpt-64',
-    zoneID: [
-      379,
-      383
-    ]
-  },
-  {
-    id: 65,
-    pokemon: null,
-    location: 'Pokemon Mansion',
-    status: null,
-    filterKey: 'lmpt-65',
-    zoneID: [
-      380
-    ]
-  },
-  {
-    id: 39,
-    pokemon: null,
-    location: 'Trophy Garden',
-    status: null,
-    filterKey: 'lmpt-39',
-    zoneID: [
-      297
-    ]
-  },
-  {
     id: 40,
     pokemon: null,
     location: 'Route 210',
@@ -588,37 +609,6 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 49,
-    pokemon: null,
-    location: 'Valor Cavern',
-    status: null,
-    filterKey: 'lmpt-49',
-    zoneID: [
-      328
-    ]
-  },
-  {
-    id: 50,
-    pokemon: null,
-    location: 'Route 211',
-    status: null,
-    filterKey: 'lmpt-50',
-    zoneID: [
-      378,
-      377
-    ]
-  },
-  {
-    id: 51,
-    pokemon: null,
-    location: 'Route 216',
-    status: null,
-    filterKey: 'lmpt-51',
-    zoneID: [
-      395
-    ]
-  },
-  {
     id: 52,
     pokemon: null,
     location: 'Route 217',
@@ -636,26 +626,6 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-53',
     zoneID: [
       351
-    ]
-  },
-  {
-    id: 67,
-    pokemon: null,
-    location: 'Lake Acuity',
-    status: null,
-    filterKey: 'lmpt-67',
-    zoneID: [
-      330
-    ]
-  },
-  {
-    id: 55,
-    pokemon: null,
-    location: 'Acuity Cavern',
-    status: null,
-    filterKey: 'lmpt-55',
-    zoneID: [
-	  325
     ]
   },
   {
@@ -684,13 +654,13 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 56,
+    id: 67,
     pokemon: null,
-    location: 'Spear Pillar',
+    location: 'Lake Acuity',
     status: null,
-    filterKey: 'lmpt-56',
+    filterKey: 'lmpt-67',
     zoneID: [
-      212
+      330
     ]
   },
   {
@@ -766,6 +736,16 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
+    id: 78,
+    pokemon: null,
+    location: 'Fight Area',
+    status: null,
+    filterKey: 'lmpt-78',
+    zoneID: [
+      186
+    ]
+  },
+  {
     id: 72,
     pokemon: null,
     location: 'Route 225',
@@ -773,6 +753,16 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-72',
     zoneID: [
       412
+    ]
+  },
+  {
+    id: 79,
+    pokemon: null,
+    location: 'Survival Area',
+    status: null,
+    filterKey: 'lmpt-79',
+    zoneID: [
+      465
     ]
   },
   {
@@ -816,36 +806,6 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
-    id: 77,
-    pokemon: null,
-    location: 'Route 230',
-    status: null,
-    filterKey: 'lmpt-77',
-    zoneID: [
-      489
-    ]
-  },
-  {
-    id: 78,
-    pokemon: null,
-    location: 'Fight Area',
-    status: null,
-    filterKey: 'lmpt-78',
-    zoneID: [
-      186
-    ]
-  },
-  {
-    id: 79,
-    pokemon: null,
-    location: 'Survival Area',
-    status: null,
-    filterKey: 'lmpt-79',
-    zoneID: [
-      465
-    ]
-  },
-  {
     id: 80,
     pokemon: null,
     location: 'Resort Area',
@@ -853,6 +813,16 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-80',
     zoneID: [
       473
+    ]
+  },
+  {
+    id: 77,
+    pokemon: null,
+    location: 'Route 230',
+    status: null,
+    filterKey: 'lmpt-77',
+    zoneID: [
+      489
     ]
   },
   {
@@ -896,7 +866,230 @@ const LMPT: TEncounter[] = [
       283,
       284
     ]
-  }
+  },
+  {
+    id: 83,
+    pokemon: null,
+    location: 'Ravaged Path - Crystal Onix',
+    status: null,
+    filterKey: 'lmpt-83',
+    zoneID: []
+  },
+  {
+    id: 84,
+    pokemon: null,
+    location: 'Mt. Coronet - Articuno',
+    status: null,
+    filterKey: 'lmpt-84',
+    zoneID: []
+  },
+  {
+    id: 85,
+    pokemon: null,
+    location: 'Valley Windworks - Zapdos',
+    status: null,
+    filterKey: 'lmpt-85',
+    zoneID: []
+  },
+  {
+    id: 86,
+    pokemon: null,
+    location: 'Victory Road - Moltres',
+    status: null,
+    filterKey: 'lmpt-86',
+    zoneID: []
+  },
+  {
+    id: 87,
+    pokemon: null,
+    location: 'Oreburgh Gate - Mewtwo',
+    status: null,
+    filterKey: 'lmpt-87',
+    zoneID: []
+  },
+  {
+    id: 88,
+    pokemon: null,
+    location: 'Route 208 - Raikou',
+    status: null,
+    filterKey: 'lmpt-88',
+    zoneID: []
+  },
+  {
+    id: 89,
+    pokemon: null,
+    location: 'Route 211 - Entei',
+    status: null,
+    filterKey: 'lmpt-89',
+    zoneID: []
+  },
+  {
+    id: 90,
+    pokemon: null,
+    location: 'Route 213 - Suicune',
+    status: null,
+    filterKey: 'lmpt-90',
+    zoneID: []
+  },
+  {
+    id: 91,
+    pokemon: null,
+    location: 'Route 220 - Lugia',
+    status: null,
+    filterKey: 'lmpt-91',
+    zoneID: []
+  },
+  {
+    id: 92,
+    pokemon: null,
+    location: 'Lost Tower - Ho-oh',
+    status: null,
+    filterKey: 'lmpt-92',
+    zoneID: []
+  },
+  {
+    id: 93,
+    pokemon: null,
+    location: 'Eterna Forest - Celebi',
+    status: null,
+    filterKey: 'lmpt-93',
+    zoneID: []
+  },
+  {
+    id: 94,
+    pokemon: null,
+    location: 'Snowpoint Temple - Regis',
+    status: null,
+    filterKey: 'lmpt-94',
+    zoneID: []
+  },
+  {
+    id: 95,
+    pokemon: null,
+    location: 'Fullmoon Island - Latis/Cresselia',
+    status: null,
+    filterKey: 'lmpt-95',
+    zoneID: []
+  },
+  {
+    id: 96,
+    pokemon: null,
+    location: 'Route 213 - Kyogre',
+    status: null,
+    filterKey: 'lmpt-96',
+    zoneID: []
+  },
+  {
+    id: 97,
+    pokemon: null,
+    location: 'Stark Mountain - Groudon',
+    status: null,
+    filterKey: 'lmpt-97',
+    zoneID: []
+  },
+  {
+    id: 98,
+    pokemon: null,
+    location: 'Pokemon League - Rayquaza',
+    status: null,
+    filterKey: 'lmpt-98',
+    zoneID: []
+  },
+  {
+    id: 99,
+    pokemon: null,
+    location: 'Solaceon Ruins - Jirachi',
+    status: null,
+    filterKey: 'lmpt-99',
+    zoneID: []
+  },
+  {
+    id: 100,
+    pokemon: null,
+    location: 'Veilstone City - Deoxys',
+    status: null,
+    filterKey: 'lmpt-100',
+    zoneID: []
+  },
+  {
+    id: 49,
+    pokemon: null,
+    location: 'Valor Cavern',
+    status: null,
+    filterKey: 'lmpt-49',
+    zoneID: [
+      328
+    ]
+  },
+  {
+    id: 55,
+    pokemon: null,
+    location: 'Acuity Cavern',
+    status: null,
+    filterKey: 'lmpt-55',
+    zoneID: [
+	  325
+    ]
+  },
+  {
+    id: 101,
+    pokemon: null,
+    location: 'Verity Cavern',
+    status: null,
+    filterKey: 'lmpt-101',
+    zoneID: []
+  },
+  {
+    id: 56,
+    pokemon: null,
+    location: 'Spear Pillar',
+    status: null,
+    filterKey: 'lmpt-56',
+    zoneID: [
+      212
+    ]
+  },
+  {
+    id: 102,
+    pokemon: null,
+    location: 'Stark Mountain - Heatran',
+    status: null,
+    filterKey: 'lmpt-102',
+    zoneID: []
+  },
+  {
+    id: 103,
+    pokemon: null,
+    location: 'Turnback Cave - Giratina',
+    status: null,
+    filterKey: 'lmpt-103',
+    zoneID: []
+  },
+  {
+    id: 104,
+    pokemon: null,
+    location: 'Newmoon Island - Darkrai',
+    status: null,
+    filterKey: 'lmpt-104',
+    zoneID: []
+  },
+  {
+    id: 105,
+    pokemon: null,
+    location: 'Flower Paradise - Shaymin',
+    status: null,
+    filterKey: 'lmpt-105',
+    zoneID: []
+  },
+  {
+    id: 106,
+    pokemon: null,
+    location: 'Hall of Origin - Arceus',
+    status: null,
+    filterKey: 'lmpt-106',
+    zoneID: []
+  },
+
 ];
 
 export default LMPT;
