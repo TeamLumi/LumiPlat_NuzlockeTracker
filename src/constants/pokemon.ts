@@ -3001,6 +3001,24 @@ const POKEMON: TPokemon[] = [
     generation: 3,
   },
   {
+    value: 351,
+    text: 'Castform Rainy',
+    type: 'WATER',
+    generation: 3,
+  },
+  {
+    value: 351,
+    text: 'Castform Sunny',
+    type: 'FIRE',
+    generation: 3,
+  },
+  {
+    value: 351,
+    text: 'Castform Hail',
+    type: 'ICE',
+    generation: 3,
+  },
+  {
     value: 352,
     text: 'Kecleon',
     type: 'NORMAL',
@@ -3521,6 +3539,14 @@ const POKEMON: TPokemon[] = [
     text: 'Cherrim',
     type: 'GRASS',
     evolve: [420, 421],
+    generation: 4,
+  },
+  {
+    value: -421,
+    text: 'Cherrim Sunshine',
+    type: 'GRASS',
+    dualtype: 'FIRE',
+    evolve: [420, -421],
     generation: 4,
   },
   {
@@ -6018,8 +6044,28 @@ const POKEMON: TPokemon[] = [
     generation: 7,
   },
   {
+    value: -744,
+    text: 'Lycanroc Dusk',
+    type: 'ROCK',
+    evolve: [744, 745],
+    generation: 7,
+  },
+  {
+    value: -745,
+    text: 'Lycanroc Midnight',
+    type: 'ROCK',
+    evolve: [744, 745],
+    generation: 7,
+  },
+  {
     value: 746,
     text: 'Wishiwashi',
+    type: 'WATER',
+    generation: 7,
+  },
+  {
+    value: -746,
+    text: 'Wishiwashi School',
     type: 'WATER',
     generation: 7,
   },

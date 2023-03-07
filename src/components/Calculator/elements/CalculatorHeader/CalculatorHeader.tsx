@@ -1,4 +1,4 @@
-import { GenerationNum, Result } from '@smogon/calc';
+import { Result } from 'lumi-calc/calc/dist';
 import React, { useCallback, useState } from 'react';
 import { TFunction, useTranslation } from 'react-i18next';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
@@ -66,7 +66,6 @@ function CalculatorHeader(): JSX.Element {
                 ...DEFAULT_VALUES,
                 pokemon1: 1,
                 pokemon2: 1,
-                calculatorGen: data.value as GenerationNum,
               })
             }
             options={GENERATION_SELECT}

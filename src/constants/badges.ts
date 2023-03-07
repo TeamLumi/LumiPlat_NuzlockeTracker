@@ -59,13 +59,33 @@ const BADGES: TBadgeDictionary = {
     {
       id: 9,
       levelCap: 78,
-      name: 'Elite 4',
+      name: 'Elite 4 - Aaron',
+    },
+    {
+      id: 10,
+      levelCap: 78,
+      name: 'Elite 4 - Bertha',
+    },
+    {
+      id: 11,
+      levelCap: 78,
+      name: 'Elite 4 - Flint',
+    },
+    {
+      id: 12,
+      levelCap: 78,
+      name: 'Elite 4 - Lucian',
+    },
+    {
+      id: 13,
+      levelCap: 78,
+      name: 'Champion',
     },
   ],
 };
 
 export const GAME_CAP_DICTIONARY: TLevelCapDictionary = {
-  'LMPT': ['16', '26', '33', '39', '44', '53', '56', '62', '78'],
+  'LMPT': ['16', '26', '33', '39', '44', '53', '56', '62', '78', '78', '78', '78', '78'],
 };
 
 export const LEVEL_CAPS: TLevelCaps = {
@@ -103,6 +123,18 @@ export const BADGE_IMAGES: TBadgeImages = {
     },
     {
       src: beacon,
+    },
+    {
+      src: champion,
+    },
+    {
+      src: champion,
+    },
+    {
+      src: champion,
+    },
+    {
+      src: champion,
     },
     {
       src: champion,

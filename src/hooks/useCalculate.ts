@@ -1,6 +1,6 @@
 import { addBreadcrumb } from '@sentry/react';
-import { calculate, Field, Move, Pokemon, Result } from '@smogon/calc';
-import type { StatusName } from '@smogon/calc/dist/data/interface';
+import { calculate, Field, Move, Pokemon, Result } from 'lumi-calc/calc/dist';
+import type { StatusName } from 'lumi-calc/calc/dist/data/interface';
 import { useCallback, useMemo } from 'react';
 import { FORBIDDEN_ITEMS, GenderCalc } from 'constants/calculator';
 import { SMOGON_NAMES } from 'constants/constant';
