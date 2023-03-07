@@ -1,4 +1,4 @@
-import { Result } from 'lumi-calc/calc/dist';
+import { Result } from 'lumi-calc/calc';
 import React, { useCallback, useState } from 'react';
 import { TFunction, useTranslation } from 'react-i18next';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
