@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9653319.css",
-    "main.js": "/static/js/main.b06f21dd.js",
+    "main.css": "/static/css/main.a5411384.css",
+    "main.js": "/static/js/main.9a66400a.js",
     "static/js/255.b66b8e8c.chunk.js": "/static/js/255.b66b8e8c.chunk.js",
-    "static/media/pokemon-shiny.png": "/static/media/pokemon-shiny.73dc6dcb2576e9324f82.png",
-    "static/media/pokemon.png": "/static/media/pokemon.998558ff21dca614c7f4.png",
+    "static/media/pokemon.png": "/static/media/pokemon.780298691c6b6f73424e.png",
+    "static/media/pokemon-shiny.png": "/static/media/pokemon-shiny.b53090fa2e7d8aeca7e5.png",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/items.png": "/static/media/items.ea9c19fdc0eb6452f068.png",
@@ -54,12 +54,12 @@
     "static/media/dark.svg": "/static/media/dark.db620f393eba5193bb25532df5b346e6.svg",
     "static/media/normal.svg": "/static/media/normal.fde99fed5894d4079a2bc1307dff4d7e.svg",
     "static/media/electric.svg": "/static/media/electric.46b4601a5ec401b7ceb5889a95e88708.svg",
-    "main.b9653319.css.map": "/static/css/main.b9653319.css.map",
-    "main.b06f21dd.js.map": "/static/js/main.b06f21dd.js.map",
+    "main.a5411384.css.map": "/static/css/main.a5411384.css.map",
+    "main.9a66400a.js.map": "/static/js/main.9a66400a.js.map",
     "255.b66b8e8c.chunk.js.map": "/static/js/255.b66b8e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9653319.css",
-    "static/js/main.b06f21dd.js"
+    "static/css/main.a5411384.css",
+    "static/js/main.9a66400a.js"
   ]
 }

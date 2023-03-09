@@ -92,9 +92,6 @@ function App(): JSX.Element {
             data-testid="options"
           >
             <Icon name="bars" />
-            {newVersion !== process.env.REACT_APP_VERSION && (
-              <span className={styles.exclamation}>!</span>
-            )}
           </button>
           <Dropdown
             aria-label="games"
@@ -179,6 +176,7 @@ function App(): JSX.Element {
             <Icon name="upload" />
             {t('import', { ns: 'import' })}
           </Menu.Item>
+          {/*
           <Menu.Item as="div" data-testid="report" onClick={() => handleRoute('/report')}>
             {t('report')}
             <Icon name="bug" />
@@ -190,6 +188,7 @@ function App(): JSX.Element {
             )}
             <Icon name="clipboard outline" />
           </Menu.Item>
+          */}
           <Menu.Item as="div" data-testid="about" onClick={() => handleRoute('/about')}>
             {t('about', { ns: 'about' })}
             <Icon name="question" />

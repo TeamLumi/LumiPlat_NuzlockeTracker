@@ -1462,14 +1462,14 @@ const POKEMON: TPokemon[] = [
     value: 155,
     text: 'Cyndaquil',
     type: 'FIRE',
-    evolve: [155, 156, 157],
+    evolve: [155, 156, 157, -157],
     generation: 2,
   },
   {
     value: 156,
     text: 'Quilava',
     type: 'FIRE',
-    evolve: [155, 156, 157],
+    evolve: [155, 156, 157, -157],
     generation: 2,
   },
   {
@@ -1976,7 +1976,7 @@ const POKEMON: TPokemon[] = [
     text: 'Ursaring',
     type: 'NORMAL',
     dualtype: 'GROUND',
-    evolve: [216, 217],
+    evolve: [216, 217, 901],
     generation: 2,
   },
   {
@@ -2998,24 +2998,28 @@ const POKEMON: TPokemon[] = [
     value: 351,
     text: 'Castform',
     type: 'NORMAL',
+    evolve: [351, -349, -350, -351],
     generation: 3,
   },
   {
-    value: 351,
+    value: -349,
     text: 'Castform Rainy',
     type: 'WATER',
+    evolve: [351, -349, -350, -351],
     generation: 3,
   },
   {
-    value: 351,
+    value: -350,
     text: 'Castform Sunny',
     type: 'FIRE',
+    evolve: [351, -349, -350, -351],
     generation: 3,
   },
   {
-    value: 351,
+    value: -351,
     text: 'Castform Hail',
     type: 'ICE',
+    evolve: [351, -349, -350, -351],
     generation: 3,
   },
   {
@@ -3456,7 +3460,7 @@ const POKEMON: TPokemon[] = [
     value: 412,
     text: 'Burmy',
     type: 'BUG',
-    evolve: [412, 413, 414],
+    evolve: [412, 413, -413, -414, 414],
     generation: 4,
   },
   {
@@ -3464,7 +3468,7 @@ const POKEMON: TPokemon[] = [
     text: 'Wormadam',
     type: 'BUG',
     dualtype: 'GRASS',
-    evolve: [412, 413, 414],
+    evolve: [412, 413, -413, -414, 414],
     generation: 4,
   },
   {
@@ -3472,7 +3476,7 @@ const POKEMON: TPokemon[] = [
     text: 'Wormadam Sandy',
     type: 'BUG',
     dualtype: 'GROUND',
-    evolve: [412, -413, 414],
+    evolve: [412, 413, -413, -414, 414],
     generation: 4,
   },
   {
@@ -3480,7 +3484,7 @@ const POKEMON: TPokemon[] = [
     text: 'Wormadam Trash',
     type: 'BUG',
     dualtype: 'STEEL',
-    evolve: [412, -414, 414],
+    evolve: [412, 413, -413, -414, 414],
     generation: 4,
   },
   {
@@ -3488,7 +3492,7 @@ const POKEMON: TPokemon[] = [
     text: 'Mothim',
     type: 'BUG',
     dualtype: 'GRASS',
-    evolve: [412, 413, 414],
+    evolve: [412, 413, -413, -414, 414],
     generation: 4,
   },
   {
@@ -3538,7 +3542,7 @@ const POKEMON: TPokemon[] = [
     value: 421,
     text: 'Cherrim',
     type: 'GRASS',
-    evolve: [420, 421],
+    evolve: [420, 421, -421],
     generation: 4,
   },
   {
@@ -3546,7 +3550,7 @@ const POKEMON: TPokemon[] = [
     text: 'Cherrim Sunshine',
     type: 'GRASS',
     dualtype: 'FIRE',
-    evolve: [420, -421],
+    evolve: [420, 421, -421],
     generation: 4,
   },
   {
@@ -4003,6 +4007,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom',
     type: 'ELECTRIC',
     dualtype: 'GHOST',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4010,6 +4015,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom Heat',
     type: 'ELECTRIC',
     dualtype: 'FIRE',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4017,6 +4023,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom Wash',
     type: 'ELECTRIC',
     dualtype: 'WATER',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4024,6 +4031,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom Frost',
     type: 'ELECTRIC',
     dualtype: 'ICE',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4031,6 +4039,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom Fan',
     type: 'ELECTRIC',
     dualtype: 'FLYING',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4038,6 +4047,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rotom Mow',
     type: 'ELECTRIC',
     dualtype: 'GRASS',
+    evolve: [479, -478, -479, -480, -481, -482],
     generation: 4,
   },
   {
@@ -4186,21 +4196,21 @@ const POKEMON: TPokemon[] = [
     value: 501,
     text: 'Oshawott',
     type: 'WATER',
-    evolve: [501, 502, 503],
+    evolve: [501, 502, 503, -503],
     generation: 5,
   },
   {
     value: 502,
     text: 'Dewott',
     type: 'WATER',
-    evolve: [501, 502, 503],
+    evolve: [501, 502, 503, -503],
     generation: 5,
   },
   {
     value: 503,
     text: 'Samurott',
     type: 'WATER',
-    evolve: [501, 502, 503],
+    evolve: [501, 502, 503, -503],
     generation: 5,
   },
   {
@@ -4208,7 +4218,7 @@ const POKEMON: TPokemon[] = [
     text: 'Hisuian Samurott',
     type: 'WATER',
     dualtype: 'DARK',
-    evolve: [501, 502, 503],
+    evolve: [501, 502, 503, -503],
     generation: 5,
   },
   {
@@ -4538,14 +4548,14 @@ const POKEMON: TPokemon[] = [
     value: 548,
     text: 'Petilil',
     type: 'GRASS',
-    evolve: [548, 549],
+    evolve: [548, 549, -549],
     generation: 5,
   },
   {
     value: 549,
     text: 'Lilligant',
     type: 'GRASS',
-    evolve: [548, 549],
+    evolve: [548, 549, -549],
     generation: 5,
   },
   {
@@ -4553,7 +4563,7 @@ const POKEMON: TPokemon[] = [
     text: 'Hisuian Lilligant',
     type: 'GRASS',
     dualtype: 'FIGHTING',
-    evolve: [548, -549],
+    evolve: [548, 549, -549],
     generation: 5,
   },
   {
@@ -5859,7 +5869,7 @@ const POKEMON: TPokemon[] = [
     text: 'Rowlet',
     type: 'GRASS',
     dualtype: 'FLYING',
-    evolve: [722, 723, 724],
+    evolve: [722, 723, 724, -724],
     generation: 7,
   },
   {
@@ -5867,7 +5877,7 @@ const POKEMON: TPokemon[] = [
     text: 'Dartrix',
     type: 'GRASS',
     dualtype: 'FLYING',
-    evolve: [722, 723, 724],
+    evolve: [722, 723, 724, -724],
     generation: 7,
   },
   {
@@ -5875,7 +5885,7 @@ const POKEMON: TPokemon[] = [
     text: 'Decidueye',
     type: 'GRASS',
     dualtype: 'GHOST',
-    evolve: [722, 723, 724],
+    evolve: [722, 723, 724, -724],
     generation: 7,
   },
   {
@@ -5883,7 +5893,7 @@ const POKEMON: TPokemon[] = [
     text: 'Hisuian Decidueye',
     type: 'GRASS',
     dualtype: 'FIGHTING',
-    evolve: [722, 723, -724],
+    evolve: [722, 723, 724, -724],
     generation: 8,
   },
   {
@@ -6040,33 +6050,35 @@ const POKEMON: TPokemon[] = [
     value: 745,
     text: 'Lycanroc',
     type: 'ROCK',
-    evolve: [744, 745],
+    evolve: [744, 745, -744, -745],
     generation: 7,
   },
   {
     value: -744,
     text: 'Lycanroc Dusk',
     type: 'ROCK',
-    evolve: [744, 745],
+    evolve: [744, 745, -744, -745],
     generation: 7,
   },
   {
     value: -745,
     text: 'Lycanroc Midnight',
     type: 'ROCK',
-    evolve: [744, 745],
+    evolve: [744, 745, -744, -745],
     generation: 7,
   },
   {
     value: 746,
     text: 'Wishiwashi',
     type: 'WATER',
+    evolve: [746, -746],
     generation: 7,
   },
   {
     value: -746,
     text: 'Wishiwashi School',
     type: 'WATER',
+    evolve: [746, -746],
     generation: 7,
   },
   {

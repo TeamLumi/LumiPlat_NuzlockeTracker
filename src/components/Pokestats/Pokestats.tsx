@@ -75,6 +75,7 @@ function Pokestats(): JSX.Element {
                   <div className={styles.memberText}>
                     <span>{enc.nickname || foundPokemon?.text}</span>
                     {!!enc?.details?.level && <span>Lv. {enc.details.level}</span>}
+                    {!!enc?.details?.item && <span>{enc.details.item}</span>}
                   </div>
                   <div className={styles.lineOne} />
                   <div className={styles.lineTwo} />
@@ -99,11 +100,12 @@ function Pokestats(): JSX.Element {
         </Menu.Item>
       ),
       render: () => (
-        <Tab.Pane attached={false} className={`${styles.box} ${styles.grass}`}>
+        <Tab.Pane attached={false} className={`${styles.box} ${styles.forest}`}>
           {caughtPokemon?.length > 0 ? (
             caughtPokemon?.map((enc, i) => {
               const foundPokemon = POKEMAP.get(enc.pokemon);
               return (
+                <div className={styles.pokemon} key={`team-${enc.id}-${Number(i) + 1}`}>
                 <Popup
                   key={`caught-${enc.id}-${Number(i) + 1}`}
                   inverted={darkMode}
@@ -111,13 +113,21 @@ function Pokestats(): JSX.Element {
                   pinned
                   position="top center"
                   trigger={
-                    <div className={styles.pokemon} data-testid={`caught-${enc.id}`}>
-                      <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
-                    </div>
+                      <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
+                        <div className={styles.image}>
+                          <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
+                        </div>
+                        <div className={styles.center} />
+                      </div>
                   }
                 >
                   <PokeInfo encounter={enc} pokemon={foundPokemon} />
                 </Popup>
+                <div className={styles.details}>
+                    <Detail encounter={enc} />
+                </div>
+              </div>
+                
               );
             })
           ) : (
@@ -140,20 +150,28 @@ function Pokestats(): JSX.Element {
             failedPokemon?.map((enc, i) => {
               const foundPokemon = POKEMAP.get(enc.pokemon);
               return (
+                <div className={styles.pokemon} key={`team-${enc.id}-${Number(i) + 1}`}>
                 <Popup
-                  key={`failed-${enc.id}-${Number(i) + 1}`}
+                  key={`caught-${enc.id}-${Number(i) + 1}`}
                   inverted={darkMode}
                   on="click"
                   pinned
                   position="top center"
                   trigger={
-                    <div className={styles.pokemon} data-testid={`failed-${enc.id}`}>
-                      <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
-                    </div>
+                      <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
+                        <div className={styles.image}>
+                          <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
+                        </div>
+                        <div className={styles.center} />
+                      </div>
                   }
                 >
                   <PokeInfo encounter={enc} pokemon={foundPokemon} />
                 </Popup>
+                <div className={styles.details}>
+                    <Detail encounter={enc} />
+                </div>
+              </div>
               );
             })
           ) : (
@@ -171,25 +189,33 @@ function Pokestats(): JSX.Element {
         </Menu.Item>
       ),
       render: () => (
-        <Tab.Pane attached={false} className={`${styles.box} ${styles.crag}`}>
+        <Tab.Pane attached={false} className={`${styles.box} ${styles.xd}`}>
           {faintedPokemon?.length > 0 ? (
             faintedPokemon?.map((enc, i) => {
               const foundPokemon = POKEMAP.get(enc.pokemon);
               return (
+                <div className={styles.pokemon} key={`team-${enc.id}-${Number(i) + 1}`}>
                 <Popup
-                  key={`fainted-${enc.id}-${Number(i) + 1}`}
+                  key={`caught-${enc.id}-${Number(i) + 1}`}
                   inverted={darkMode}
                   on="click"
                   pinned
                   position="top center"
                   trigger={
-                    <div className={styles.pokemon} data-testid={`fainted-${enc.id}`}>
-                      <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
-                    </div>
+                      <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
+                        <div className={styles.image}>
+                          <PkmImage name={foundPokemon?.text} shiny={enc?.details?.shiny} />
+                        </div>
+                        <div className={styles.center} />
+                      </div>
                   }
                 >
                   <PokeInfo encounter={enc} pokemon={foundPokemon} />
                 </Popup>
+                <div className={styles.details}>
+                    <Detail encounter={enc} />
+                </div>
+              </div>
               );
             })
           ) : (

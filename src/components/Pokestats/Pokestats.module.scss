@@ -54,16 +54,16 @@
   .box {
     object-fit: cover;
 
-    &.grass {
-      background: url('../../assets/img/boxes/Grass.JPG') repeat;
+    &.forest {
+      background: url('../../assets/img/boxes/Forest.png') repeat;
     }
 
-    &.crag {
-      background: url('../../assets/img/boxes/Crag.JPG') repeat;
+    &.xd {
+      background: url('../../assets/img/boxes/XD.png') repeat;
     }
 
     &.sky {
-      background: url('../../assets/img/boxes/Sky.JPG') repeat;
+      background: url('../../assets/img/boxes/Sky.jpg') repeat;
     }
 
     &.team {
@@ -154,8 +154,8 @@
       align-items: center;
       justify-content: center;
       height: 5.143rem;
-      width: 5.143rem;
-      margin: var(--spacing-3);
+      width: 7rem;
+      margin: var(--spacing-1);
       cursor: pointer;
       position: relative;
 
