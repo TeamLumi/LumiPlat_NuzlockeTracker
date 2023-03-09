@@ -1,5 +1,3 @@
-import * as Sentry from '@sentry/react';
-import { Integrations } from '@sentry/tracing';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import 'semantic-ui-css/components/button.min.css';
@@ -24,18 +22,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorkerRegistration from 'serviceWorkerRegistration';
 import { UpdateSW } from 'components';
-import ErrorBoundary from 'error/ErrorBoundary';
 import 'assets/styles/pokemon.css';
 import 'assets/styles/item.css';
 import App from './App';
 import './i18n';
-
-Sentry.init({
-  dsn: process.env.REACT_APP_SENTRY_DSN,
-  integrations: [new Integrations.BrowserTracing()],
-  release: process.env.REACT_APP_VERSION,
-  tracesSampleRate: 0.2,
-});
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -43,9 +33,7 @@ const root = createRoot(container);
 root.render(
   <>
     <BrowserRouter>
-      <Sentry.ErrorBoundary fallback={<ErrorBoundary />} showDialog>
-        <App />
-      </Sentry.ErrorBoundary>
+      <App />
     </BrowserRouter>
     <UpdateSW />
   </>
