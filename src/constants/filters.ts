@@ -12,11 +12,11 @@ const FILTERS: { [key in string]: string[] } = {
   ],
   'lmpt-2': [
     'Pidgey',
-    'Nidoran♂',
+    'nidoran-m',
     'Starly',
     'Doduo',
     'Bidoof',
-    'Nidoran♀',
+    'nidoran-f',
     'Hoothoot',
     'Kricketot',
     'Alolan Rattata',

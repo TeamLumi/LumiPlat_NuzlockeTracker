@@ -11,7 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "@types/react-router-dom": "^5.3.3"
   },
   "devDependencies": {
     "@pkmn/dex": "^0.7.13",

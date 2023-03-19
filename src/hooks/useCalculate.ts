@@ -37,9 +37,6 @@ export function getPokemon(all: TCalculatorForm, id: 1 | 2) {
       if (FORBIDDEN_ITEMS.includes(item)) {
         return undefined;
       }
-      if (item === 'Silver Powder') {
-        return 'SilverPowder';
-      }
       return item;
     };
 

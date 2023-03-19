@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Modifier, Range } from 'components/Calculator/elements';
 import useCalculate from 'hooks/useCalculate';
@@ -33,6 +33,20 @@ function Stats({ pokemon }: StatsProps): JSX.Element {
   const pokemonOneValue = form.pokemon1;
   const pokemonTwoValue = form.pokemon2;
   const totalHp = currentPokemon?.stats?.hp;
+  
+  const [modifiedStat, setModifiedStat] = useState(currentPokemon?.stats?.spe ?? 0);
+
+  const handleModifierChange = (modifierValue: number) => {
+    const originalStat = currentPokemon?.stats?.spe ?? 0;
+    const multiplier = modifierValue >= 0 ? (modifierValue + 2) / 2 : 2 / Math.abs(modifierValue - 2);
+    const modifiedStat = Math.floor(originalStat * multiplier);
+    setModifiedStat(modifiedStat);
+  };
+
+  useEffect(() => {
+    const modifierValue = form[`modspeed${pokemon}`];
+    handleModifierChange(modifierValue);
+  }, [form[`modspeed${pokemon}`]]);
 
   useEffect(() => {
     update({ [`currenthp${pokemon}`]: totalHp });
@@ -142,7 +156,14 @@ function Stats({ pokemon }: StatsProps): JSX.Element {
           ) : (
             <Range name={`dvspeed${pokemon}`} {...DV} />
           )}
-          <Modifier name={`modspeed${pokemon}`} />
+          <div className={styles.speedContainer}>
+            <div className={styles.modifierContainer}>
+              <Modifier name={`modspeed${pokemon}`} />
+            </div>
+            <div className={styles.modifiedStat}>
+              MOD SPEED:<output>{modifiedStat}</output>
+            </div>
+          </div>
         </fieldset>
       </details>
     </section>

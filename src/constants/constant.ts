@@ -433,11 +433,13 @@ export const SPECIAL_NAMES: Record<string, string> = {
 };
 
 export const SMOGON_NAMES: Record<string, string> = {
-  'Wormadam Sandy': 'Sandy Cloack',
+  'nidoran-f': 'Nidoran♀',
+  'nidoran-m': 'Nidoran♂',
+  'Wormadam Sandy': 'Sandy Cloak',
   'Wormadam Trash': 'Trash Cloak',
   'Cherrim Sunshine': 'Sunshine Form',
-  'Gastrodon (East)': 'Gastrodon East Sea',  
   'Shellos (East)': 'Shellos East Sea',
+  'Gastrodon (East)': 'East Sea',
   'Castform Rainy': 'Rainy Form',
   'Castform Hail': 'Snowy Form',
   'Castform Sunny': 'Sunny Form',

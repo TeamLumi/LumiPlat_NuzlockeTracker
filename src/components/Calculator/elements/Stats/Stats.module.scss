@@ -11,7 +11,23 @@
       width: 3.429rem;
     }
   }
-
+  
+  .speedContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modifierContainer {
+    padding: 0 0px;
+    padding-right: 50px;
+  }
+  
+  .modifiedStat {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+  }
+  
   summary {
     padding: 0.5rem;
     position: relative;

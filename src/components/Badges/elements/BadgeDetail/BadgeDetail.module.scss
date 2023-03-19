@@ -24,6 +24,7 @@
 
   .pokemon {
     display: flex;
+    flex-wrap: wrap;
     flex-flow: column nowrap;
     border-radius: 4px;
     gap: var(--spacing-2);
@@ -94,10 +95,24 @@
         }
       }
     }
+    
+    .stat::before {
+      content: "Total Stats";
+      padding-left: 90px;
+      margin-right: 90px;
+      font-weight: bold;
+    }
 
+    .stat::after {
+      content: "IVs / EVs";
+      margin-left: 90px;
+      font-weight: bold;
+    }
+
+    
     .extendedDetails {
       display: flex;
-      gap: var(--spacing-2);
+      flex-wrap: wrap;
 
       @media (max-width: $screen-sm) {
         flex-flow: column nowrap;
@@ -107,11 +122,19 @@
         flex: 1;
       }
 
+      .iv {
+        display: grid;
+        grid-template-rows: var(--spacing-6) var(--spacing-0) minmax(0, 1fr);
+        flex: 1 1 15%;
+        align-items: left;
+        font-size: var(--font-size-3);
+        font-weight: bold;
+      }
+
       .stats {
         display: grid;
-        grid-template-columns: var(--spacing-6) var(--spacing-6) minmax(0, 1fr);
-        flex-flow: column nowrap;
-        gap: var(--spacing-2);
+        grid-template-columns: var(--spacing-9) var(--spacing-8) minmax(0, 1fr);
+        flex: 1 1 20%;
         font-size: var(--font-size-3);
         font-weight: bold;
         .statLabel {
@@ -120,7 +143,10 @@
 
         .statBar {
           height: var(--spacing-4);
-        }
+        }        
+      }
+      .moves {
+        flex: 1 1 30%;
       }
     }
   }
