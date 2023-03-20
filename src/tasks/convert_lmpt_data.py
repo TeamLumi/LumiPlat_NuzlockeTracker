@@ -43,8 +43,14 @@ def create_diff_forms_dictionary(form_dict):
         for (idx, mon) in enumerate(mons_array):
             if(idx != 0):
                 current_pokemon_name = get_pokemon_name(int(mons_no))
-                diff_forms[current_pokemon_name + str(idx)] = [int(mons_no), mon, slugify(mon)]
+                tracker_monsno = -int(mons_no)
+                if(current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"):
+                    print(current_pokemon_name)
+                    tracker_monsno = int(mons_no)
+                
+                diff_forms[current_pokemon_name + str(idx)] = [tracker_monsno, mon, slugify(mon)]
     return diff_forms
+
 def load_data():
     data = {}
     files = {

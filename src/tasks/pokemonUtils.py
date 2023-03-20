@@ -186,6 +186,8 @@ def get_moves(m1, m2, m3, m4, monsno, level):
 def get_pokemon_name_dictionary():
     pokemon = {}
     for (idx, p) in enumerate(personal_data["Personal"]):
+        if(idx == 0):
+            continue
         if(not str(p["monsno"]) in pokemon):
             pokemon[str(p["monsno"])] = []
         pokemon[str(p["monsno"])].append(get_form_name(p["id"]))
