@@ -23,31 +23,31 @@ SMOGON_MOVES = 0
 learnset = 0
 personal_data = 0
 
-with open(personal_data_path, 'r') as f:
+with open(personal_data_path, mode='r', encoding="utf-8") as f:
     personal_data = json.load(f)
 
-with open(namedata_file_path, 'r') as f:
+with open(namedata_file_path, mode='r', encoding="utf-8") as f:
     name_data = json.load(f)
 
-with open(ability_namedata_file_path, 'r') as f:
+with open(ability_namedata_file_path, mode='r', encoding="utf-8") as f:
     ability_namedata = json.load(f)
 
-with open(type_namedata_file_path, 'r') as f:
+with open(type_namedata_file_path, mode='r', encoding="utf-8") as f:
     type_namedata = json.load(f)
 
-with open(forms_namedata_file_path, 'r') as f:
+with open(forms_namedata_file_path, mode='r', encoding="utf-8") as f:
     form_namedata = json.load(f)
 
-with open(nature_namedata_file_path, 'r') as f:
+with open(nature_namedata_file_path, mode='r', encoding="utf-8") as f:
     nature_namedata = json.load(f)
 
-with open(items_namedata_file_path, 'r') as f:
+with open(items_namedata_file_path, mode='r', encoding="utf-8") as f:
     item_namedata = json.load(f)
 
-with open(smogon_movedata_file_path, 'r') as f:
+with open(smogon_movedata_file_path, mode='r', encoding="utf-8") as f:
     SMOGON_MOVES = json.load(f)
 
-with open(learnset_file_path, 'r') as f:
+with open(learnset_file_path, mode='r', encoding="utf-8") as f:
     learnset = json.load(f)
 
 with open(os.path.join(parent_file_path, 'input', 'moves.txt'), encoding="utf-8") as f:

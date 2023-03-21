@@ -6,12 +6,14 @@ import unicodedata
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary
 
 def load_json_from_file(filepath):
-    with open(filepath, "r") as f:
+    with open(filepath, mode="r", encoding="utf-8") as f:
         return json.load(f)
 
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
+honeywork_cpp_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "UPDATE_THIS", "honeywork.cpp")
+honeyroutes_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "honeyroutes.json")
 POKEMON_NAMES = get_pokemon_name_dictionary()
 bad_encounters = []
 
@@ -155,7 +157,7 @@ def HoneyTreeData():
     const_regex = r"const\s+int32_t\s+HONEY_TREES\[\s*NUM_ZONE_ID\s*\]\[\s*10\s*\]\s*=\s*\{\s*([\s\S]*?)\};"
     array_regex = r"\[(.*?)\]\s*=\s*\{(.*?)\}"
 
-    with open("Resources/UPDATE_THIS/honeywork.cpp", "r") as file, open("Resources/honeyroutes.json", "r") as honey:
+    with open(honeywork_cpp_filepath, "r") as file, open(honeyroutes_filepath, "r") as honey:
         data = file.read()
         honey_routes = json.load(honey)
 
@@ -226,18 +228,13 @@ def getEncounterData():
 
                                                         routes[key1] = [diff_forms[pokedex[str(dexNum)]+str(formNo)][1]]
                                                     else:
-                                                        if dexNum == "29" or dexNum == "32": #This is specifically for the nidorans -_-
-                                                            print(dexNum)
-                                                            print(key1)
-                                                            routes[key1].append(diff_forms[dexNum][2])
-                                                            print(routes[key1])
+                                                        pkmn_key = pokedex[str(dexNum)] + str(formNo)
+                                                        if pkmn_key not in diff_forms.keys():
+                                                            bad_encounter_data(pokedex[str(dexNum)], key1)
                                                         else:
-                                                            pkmn_key = pokedex[str(dexNum)] + str(formNo)
-                                                            if pkmn_key not in diff_forms.keys():
-                                                                bad_encounter_data(pokedex[str(dexNum)], key1)
-                                                            else:
-                                                                routes[key1].append(diff_forms[pokedex[str(dexNum)]+str(formNo)][1])
-                                                                routes[key1] = list(set(routes[key1]))
+                                                            routes[key1].append(diff_forms[pokedex[str(dexNum)]+str(formNo)][1])
+                                                            routes[key1] = list(set(routes[key1]))
+                                                            
                                     else:
                                         continue            
         ##This is for adding the Trophy Garden daily mons
