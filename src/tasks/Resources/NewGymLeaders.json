@@ -1,0 +1,82 @@
+{
+  "Gym Leaders": [
+    {
+      "Roark [Oreburgh City]": [ 823, 824, 825, 826 ],
+      "Gardenia [Eterna City]": [ 827, 828, 829, 830 ],
+      "Fantina [Hearthome City]": [ 831, 832, 833, 834 ],
+      "Maylene [Veilstone City]": [ 835, 836, 837, 838 ],
+      "Wake [Pastoria City]": [ 839, 840, 841, 842 ],
+      "Byron [Canalave City]": [ 843, 844, 845, 846 ],
+      "Candice [Snowpoint City]": [ 847, 848, 849, 850 ],
+      "Volkner [Sunnyshore City]": [ 851, 852, 853, 854 ]
+    }
+  ],
+  "Rival": [
+    {
+      "Barry (Route 201)": [ 663, 664, 665 ],
+      "Lucas (Route 202)": [ 685, 686, 684 ],
+      "Dawn (Route 202)": [ 691, 692, 690 ],
+      "Barry (Route 203) [Turtwig]": [ 753, 754, 755, 756 ],
+      "Barry (Route 203) [Chimchar]": [ 745, 746, 747, 748 ],
+      "Barry (Route 203) [Piplup]": [ 749, 750, 751, 752 ],
+      "Lucas (Route 207)": [ 687, 688, 689 ],
+      "Dawn (Route 207)": [ 693, 694, 695 ],
+      "Barry (Hearthome City) [Turtwig]": [ 765, 766, 767, 768 ],
+      "Barry (Hearthome City) [Chimchar]": [ 757, 758, 759, 760 ],
+      "Barry (Hearthome City) [Piplup]": [ 761, 762, 763, 764 ],
+      "Barry (Pastoria City) [Turtwig] ": [ 780, 781, 782, 783 ],
+      "Barry (Pastoria City) [Chimchar] ": [ 772, 773, 774, 775 ],
+      "Barry (Pastoria City) [Piplup] ": [ 776, 777, 778, 779 ],
+      "Lucas (Route 210)": [ 954, 955, 956 ],
+      "Dawn (Route 210)": [ 951, 952, 953 ],
+      "Barry (Canalave City) [Turtwig]": [ 792, 793, 794, 795 ],
+      "Barry (Canalave City) [Chimchar]": [ 784, 785, 786, 787 ],
+      "Barry (Canalave City) [Piplup]": [ 788, 789, 790, 791 ],
+      "Lucas (Route 224)": [ 974, 975, 976 ],
+      "Dawn (Route 224)": [ 971, 972, 973 ],
+      "Barry (Pokemon League) [Turtwig] ": [ 807, 808, 809, 810 ],
+      "Barry (Pokemon League) [Chimchar] ": [ 799, 800, 801, 802 ],
+      "Barry (Pokemon League) [Piplup] ": [ 803, 804, 805, 806 ]
+    }
+  ],
+  "Extra Trainers": [
+    {
+      "Cheryl (Eterna Forest)": [ 1943 ],
+      "Lindsay (Eterna Gym)": [ 269 ],
+      "Mira (Wayward Cave)": [ 1944 ],
+      "Aaron (Hearthome City)": [ 943 ],
+      "Lucian [Solaceon Ruins]": [ 1939 ],
+      "Bertha [Veilstone City]": [ 945 ],
+      "Darach [Renegade Park]": [ 957 ],
+      "Riley [Iron Island]": [ 958 ],
+      "Flint [Sunnyshore City]": [ 946 ],
+      "Marley [Victory Road]": [ 707 ]
+    }
+  ],
+  "Evil": [
+    {
+      "Mars [Valley Windworks]": [ 875 ],
+      "Jupiter [Eterna City HQ]": [ 876 ],
+      "Saturn [Pokemon Mansion]": [ 877 ],
+      "Mr. Backlot [Pokemon Mansion]": [ 878 ],
+      "Cyrus [Celestic Town]": [ 879 ],
+      "Saturn (Lake Valor)": [ 880 ],
+      "Mars (Lake Verity)": [ 881 ],
+      "Cyrus [Galactic HQ]": [ 882 ],
+      "Saturn [Galatic HQ]": [ 1064 ],
+      "Mars [Spear Pillar]": [ 884 ],
+      "Jupiter [Spear Pillar]": [ 885 ],
+      "Cyrus [Distortion World] (DOUBLES)": [ 886 ],
+      "Cyrus [Distortion World]": [ 887, 888, 889, 890 ]
+    }
+  ],
+  "Elite Four": [
+    {
+      "Aaron": [ 855, 856, 857, 858 ],
+      "Bertha": [ 859, 860, 861, 862 ],
+      "Flint": [ 863, 864, 865, 866 ],
+      "Lucian": [ 867, 868, 869, 870 ],
+      "Cynthia": [ 871, 872, 873, 874 ]
+    }
+  ]
+}
