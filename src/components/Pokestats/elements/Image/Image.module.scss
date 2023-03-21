@@ -42,7 +42,7 @@
   .row {
     display: flex;
     flex-flow: row nowrap;
-    gap: var(--spacing-7);
+    gap: var(--spacing-3);
   }
 
   .card {
@@ -181,8 +181,8 @@
 
         .byTypeContainer {
           display: grid;
-          grid-template-columns: repeat(4, minmax(0, 6.429rem));
-          column-gap: var(--spacing-2);
+          grid-template-columns: repeat(4, minmax(0, 7.86rem));
+          column-gap: var(--spacing-1);
           row-gap: var(--spacing-2);
 
           .type {

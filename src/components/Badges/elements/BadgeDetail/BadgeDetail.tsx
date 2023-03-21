@@ -19,7 +19,7 @@ import type { TDetail } from 'constants/types';
 import { getSmogonName } from 'hooks/useCalculate';
 import useStore from 'store';
 import styles from './BadgeDetail.module.scss';
-
+import useCalculate from 'hooks/useCalculate';
 interface BadgeDetailProps {
   selectedDetail: TDetail;
 }
@@ -64,11 +64,32 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
       <div className={styles.gymPokemon}>
         {getContent()?.map((pokemon, ind) => {
           const poke = POKEMAP.get(pokemon.id);
-          let stats = undefined;
+          let stats: Pokemon | undefined = undefined;
           try {
-            stats = new Pokemon(GAME_GENERATION[selectedGame?.value], getSmogonName(poke.text), {
-              level: pokemon?.level,
-            });
+              stats = new Pokemon(
+                GAME_GENERATION[selectedGame?.value],
+                getSmogonName(poke.text),
+                {
+                level: pokemon?.level,
+                nature: pokemon?.nature,
+                ivs: {
+                  hp: pokemon?.ivhp ?? 0,
+                  atk: pokemon?.ivatk ?? 0,
+                  def: pokemon?.ivdef ?? 0,
+                  spa: pokemon?.ivspatk ?? 0,
+                  spd: pokemon?.ivspdef ?? 0,
+                  spe: pokemon?.ivspeed ?? 0,
+                },
+                evs: {
+                  hp: pokemon?.evhp ?? 0,
+                  atk: pokemon?.evatk ?? 0,
+                  def: pokemon?.evdef ?? 0,
+                  spa: pokemon?.evspatk ?? 0,
+                  spd: pokemon?.evspdef ?? 0,
+                  spe: pokemon?.evspeed ?? 0,
+                },
+                }
+              );
           } catch {
             // do nothing
           }
@@ -94,14 +115,13 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   <span>
                     {poke?.text} <span>{getGenderIcon(pokemon.gender)}</span>
                   </span>
-                  <span>Lv. {pokemon?.level}</span>
+                  <span>Lv. {pokemon?.level} Nature: {pokemon?.nature}</span>
                 </div>
                 <div className={styles.pokemonDetails}>
                   <PokemonType pokemon={poke} />
                   {!!pokemon?.ability && (
                     <div className={styles.pokemonLabel}>
-                      <span>{t('ability')}:</span>
-                      <span className={styles.value}>{pokemon?.ability}</span>
+                      <span className={styles.value}>{t('ability')}: {pokemon?.ability}</span>
                     </div>
                   )}
                   {!!pokemon?.item && (
@@ -117,12 +137,13 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   )}
                 </div>
               </div>
+              <span className={styles.stat}></span>
               <div className={styles.extendedDetails}>
                 {stats?.stats && (
                   <div className={styles.stats}>
                     {Object.entries(stats.stats).map(([key, value]) => (
                       <React.Fragment key={`${key}-${value}`}>
-                        <span className={styles.statLabel}>{t(key)}:</span>
+                        <span className={styles.statLabel}>{key.toUpperCase()}:</span>
                         <span style={{ color: colors[key][0] }}>{value}</span>
                         <div
                           className={styles.statBar}
@@ -136,7 +157,20 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                     ))}
                   </div>
                 )}
-                <Moves moves={pokemon?.moves} showStatus={isSplit} />
+                {stats?.ivs && stats?.evs && (
+                  <div className={styles.ivEv}>
+                    {Object.keys(stats.ivs).map((key) => (
+                      <div key={key} className={styles.ivEvWrapper}>
+                        <span className={styles.iv}>
+                          {key.toUpperCase()}: {stats.ivs[key as keyof typeof stats.ivs]} / {stats.evs[key as keyof typeof stats.evs]}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <div className={styles.moves}>
+                  <Moves moves={pokemon?.moves} showStatus={isSplit} />
+                </div>
               </div>
             </div>
           );

@@ -19,6 +19,7 @@ import { selectItemGeneration, selectNAGeneration } from 'selectors';
 import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
 import styles from './Detail.module.scss';
+import { Status } from 'components';
 
 interface DetailProps {
   encounter?: TEncounter;
@@ -206,6 +207,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
         <details open>
           <summary data-testid="detail-summary">{t('details', { ns: 'badges' })}</summary>
           <div className={styles.expandable}>
+            <Status encounter={encounter} />
             <Input
               className={styles.input}
               data-testid="level"
