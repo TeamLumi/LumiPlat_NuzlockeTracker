@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import unicodedata
-from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary
+from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info
 
 def load_json_from_file(filepath):
     with open(filepath, mode="r", encoding="utf-8") as f:
@@ -258,6 +258,6 @@ def getEncounterData():
         my_keys.sort(key = lambda x: int(x.split('-')[1]))
         sorted_routes = {i: routes[i] for i in my_keys}
         output.write(json.dumps(sorted_routes))
-
+        
 getEncounterData()
 GetTrainerData()

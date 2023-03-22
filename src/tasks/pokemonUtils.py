@@ -8,9 +8,16 @@ type_namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_ty
 forms_namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_zkn_form.json')
 nature_namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_seikaku.json')
 items_namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_itemname.json')
+moves_namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_wazaname.json')
 smogon_movedata_file_path = os.path.join(parent_file_path, 'input', 'moves.json')
 learnset_file_path = os.path.join(parent_file_path, 'input', 'WazaOboeTable.json')
+egg_learnset_file_path = os.path.join(parent_file_path, 'input', 'TamagoWazaTable.json')
 personal_data_path = os.path.join(parent_file_path, 'input', 'PersonalTable.json')
+movestable_file_path = os.path.join(parent_file_path, 'input', 'WazaTable.json')
+move_info_file_path = os.path.join(parent_file_path, 'input', 'english_ss_wazainfo.json')
+pkmn_height_file_path = os.path.join(parent_file_path, 'input', 'english_ss_zkn_height.json')
+pkmn_weight_file_path = os.path.join(parent_file_path, 'input', 'english_ss_zkn_weight.json')
+item_table_file_path = os.path.join(parent_file_path, 'input', 'ItemTable.json')
 
 move_enum = 0
 name_data = 0
@@ -20,17 +27,56 @@ form_namedata = 0
 nature_namedata = 0
 item_namedata = 0
 SMOGON_MOVES = 0
-learnset = 0
+learnset_data = 0
 personal_data = 0
+moves_namedata = 0
+egg_learnset = 0
+MovesTable = 0
+move_info_data = 0
+pkmn_height_data = 0
+pkmn_weight_data = 0
+ItemTable = 0
+FORM_MAP = {}
+
+_move_properties_cache = {}  # cache for move properties
+
+# Load all the JSON Data
 
 with open(personal_data_path, mode='r', encoding="utf-8") as f:
     personal_data = json.load(f)
+    FORM_MAP = {}
+    for curr in personal_data['Personal']:
+        if curr['monsno'] not in FORM_MAP:
+            FORM_MAP[curr['monsno']] = []
+        FORM_MAP[curr['monsno']].append(curr['id'])
+
 
 with open(namedata_file_path, mode='r', encoding="utf-8") as f:
     name_data = json.load(f)
 
+with open(item_table_file_path, mode='r', encoding="utf-8") as f:
+    ItemTable = json.load(f)
+
+with open(move_info_file_path, mode='r', encoding="utf-8") as f:
+    move_info_data = json.load(f)
+
+with open(pkmn_height_file_path, mode='r', encoding="utf-8") as f:
+    pkmn_height_data = json.load(f)
+
+with open(pkmn_weight_file_path, mode='r', encoding="utf-8") as f:
+    pkmn_weight_data = json.load(f)
+
+with open(egg_learnset_file_path, mode='r', encoding="utf-8") as f:
+    egg_learnset = json.load(f)
+
 with open(ability_namedata_file_path, mode='r', encoding="utf-8") as f:
     ability_namedata = json.load(f)
+
+with open(moves_namedata_file_path, mode='r', encoding="utf-8") as f:
+    moves_namedata = json.load(f)
+
+with open(movestable_file_path, mode='r', encoding="utf-8") as f:
+    MovesTable = json.load(f)
 
 with open(type_namedata_file_path, mode='r', encoding="utf-8") as f:
     type_namedata = json.load(f)
@@ -48,7 +94,7 @@ with open(smogon_movedata_file_path, mode='r', encoding="utf-8") as f:
     SMOGON_MOVES = json.load(f)
 
 with open(learnset_file_path, mode='r', encoding="utf-8") as f:
-    learnset = json.load(f)
+    learnset_data = json.load(f)
 
 with open(os.path.join(parent_file_path, 'input', 'moves.txt'), encoding="utf-8") as f:
     move_enum = [line.strip() for line in f if line.strip()]
@@ -123,23 +169,23 @@ def get_move_id(move_name):
 def get_ability_id_from_ability_name(ability_string):
     if not ability_string:
         return -1
-    ability_id = next((i for i, e in enumerate(ability_namedata.labelDataArray) if e['wordDataArray'][0]['str'] == ability_string), -1)
+    ability_id = next((i for i, e in enumerate(ability_namedata['labelDataArray']) if e['wordDataArray'][0]['str'] == ability_string), -1)
     return ability_id
 
 def get_pokemon_mons_no_from_name(pokemon_name):
     if not pokemon_name:
         return -1
-    mons_no = next((i for i, e in enumerate(name_data.labelDataArray) if e['wordDataArray'][0]['str'] == pokemon_name), -1)
+    mons_no = next((i for i, e in enumerate(name_data['labelDataArray']) if e['wordDataArray'][0]['str'] == pokemon_name), -1)
     return mons_no
 
 def get_nature_id(nature_string):
     if not nature_string:
         return -1
-    nature_id = next((i for i, e in enumerate(nature_namedata.labelDataArray) if e['wordDataArray'][0]['str'] == nature_string), -1)
+    nature_id = next((i for i, e in enumerate(nature_namedata['labelDataArray']) if e['wordDataArray'][0]['str'] == nature_string), -1)
     return nature_id
 
 def generate_moves_via_learnset(mons_no, level):
-    moveset = learnset['WazaOboe'][mons_no]['ar']
+    moveset = learnset_data['WazaOboe'][mons_no]['ar']
     idx = next((i for i in range(0, len(moveset), 2) if moveset[i] > level), len(moveset))
     moves = [get_move_string(moveset[i]) for i in range(0, idx, 2)]
     return [moves[-7], moves[-5], moves[-3], moves[-1]]
@@ -183,6 +229,39 @@ def get_moves(m1, m2, m3, m4, monsno, level):
     
     return moves
 
+def get_pokemon_form_id(monsno=0, id_=0):
+    return FORM_MAP[monsno].index(id_)
+
+
+def get_move_properties(move_id=0):
+    move = MovesTable['Waza'][move_id]
+    type_ = move['type']
+    damage_type = move['damageType']
+    power = move['power']
+    hit_per = move['hitPer']
+    base_pp = move.get('basePP', 0)
+    max_pp = int(base_pp * (8 / 5))
+
+    name_data = moves_namedata['labelDataArray'][move_id]['wordDataArray']
+    name = name_data[0]['str'] if name_data else 'None'
+    desc = get_move_description(move_id)
+
+    return {
+        'name': name,
+        'desc': desc,
+        'type': type_,
+        'damageType': damage_type,
+        'maxPP': max_pp,
+        'power': power,
+        'accuracy': hit_per,
+    }
+
+def get_move_description(move_id=0):
+    word_data = move_info_data['labelDataArray'][move_id]['wordDataArray']
+    description = ' '.join(wd['str'] for wd in word_data)
+    return description
+
+
 def get_pokemon_name_dictionary():
     pokemon = {}
     for (idx, p) in enumerate(personal_data["Personal"]):
@@ -192,3 +271,104 @@ def get_pokemon_name_dictionary():
             pokemon[str(p["monsno"])] = []
         pokemon[str(p["monsno"])].append(get_form_name(p["id"]))
     return pokemon
+
+def get_egg_moves(dex_id=0):
+    monsno = personal_data['Personal'][dex_id]['monsno']
+    form_no = get_pokemon_form_id(monsno, dex_id)
+    egg_moves = [e['wazaNo'] for e in egg_learnset['Data'] if e['no'] == monsno and e['formNo'] == form_no]
+    return [{'level': 'egg', 'moveId': move_id} for move_id in egg_moves]
+
+
+def parse_tm_learnset_section(dec):
+    return bin(dec)[2:].zfill(32)[::-1]
+
+
+def get_tech_machine_learnset(m1, m2, m3, m4):
+    learnset = [parse_tm_learnset_section(m) for m in (m1, m2, m3, m4)]
+    learnset = [int(bit) for bits in learnset for bit in bits]
+
+    can_learn = []
+    for i, has_move in enumerate(learnset):
+        if not has_move:
+            continue
+
+        tm = ItemTable['WazaMachine'][i]
+        can_learn.append({'level': 'tm', 'moveId': tm['wazaNo']})
+
+    return can_learn
+
+
+
+
+def get_pokemon_learnset(monsno=0):
+    learnset = learnset_data['WazaOboe'][monsno]['ar']
+    move_list = [{'level': learnset[i], 'moveId': learnset[i + 1]} for i in range(0, len(learnset), 2)]
+
+    pokemon_learnset = {}
+    for e in move_list:
+        level = e['level']
+        move_id = e['moveId']
+        if move_id not in _move_properties_cache:
+            _move_properties_cache[move_id] = get_move_properties(move_id)
+        name = _move_properties_cache[move_id]['name']
+        pokemon_learnset[name] = level
+
+    return pokemon_learnset
+
+def get_weight(monsno=0):
+    weightString = pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] if (pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0] is not None) else '0'
+    weightString = weightString.replace(u'\xa0', u' ')
+    poundsString = weightString.split(u" ")[0]
+
+    pounds = float(poundsString.strip())
+
+    poundsInKilogram = pounds * 0.453592
+    return round(poundsInKilogram, 2)
+
+def get_height(monsno=0):
+    height_string = pkmn_height_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] or '0'
+    feet_string, inches_string = height_string.split("'")
+    inches = float(inches_string[:-1])
+    feet = int(feet_string)
+
+    feet_in_centimeters = feet * 30.48
+    inches_in_centimeters = inches * 2.54
+    return round((feet_in_centimeters + inches_in_centimeters) / 100, 2)
+
+def get_grass_knot_power(weightkg):
+    if weightkg >= 200:
+        return 120
+    elif weightkg >= 100:
+        return 100
+    elif weightkg >= 50:
+        return 80
+    elif weightkg >= 25:
+        return 60
+    elif weightkg >= 10:
+        return 40
+    else:
+        return 20
+
+
+def get_pokemon_info(monsno=0):
+    p = personal_data['Personal'][monsno]
+    return {
+        'monsno': monsno,
+        'name': get_pokemon_name(monsno),
+        'ability1': get_ability_string(p['tokusei1']),
+        'ability2': get_ability_string(p['tokusei2']),
+        'abilityH': get_ability_string(p['tokusei3']),
+        'learnset': get_pokemon_learnset(monsno),
+        'tmLearnset': get_tech_machine_learnset(p['machine1'], p['machine2'], p['machine3'], p['machine4']),
+        'eggLearnset': get_egg_moves(monsno),
+        'baseStats': {
+            'hp': p['basic_hp'], 'atk': p['basic_atk'], 'def': p['basic_def'], 
+            'spa': p['basic_spatk'], 'spd': p['basic_spdef'], 'spe': p['basic_agi']
+        },
+        'baseStatsTotal': p['basic_hp'] + p['basic_atk'] + p['basic_def'] + p['basic_spatk'] + p['basic_spdef'] + p['basic_agi'],
+        'weight': get_weight(monsno),
+        'height': get_height(monsno),
+        'grassKnotPower': get_grass_knot_power(get_weight(monsno)),
+        'type1': get_type_name(p['type1']),
+        'type2': get_type_name(p['type2'])
+    }
