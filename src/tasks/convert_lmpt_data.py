@@ -55,11 +55,13 @@ def create_diff_forms_dictionary(form_dict):
 
         for (idx, mon) in enumerate(mons_array):
             if(idx != 0 or isSpecialPokemon(current_pokemon_name)):
-                tracker_monsno = -(int(mons_no) + idx)
+                tracker_monsno = -(int(mons_no) + idx - 1)
+                print(current_pokemon_name, int(mons_no), idx, tracker_monsno)
                 if isSpecialPokemon(current_pokemon_name):
                     tracker_monsno = int(mons_no)
                 
                 diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
+                print(diff_forms[current_pokemon_name + (str(idx or 1)) ])
     return diff_forms
 
 def getTrainerIdsFromDocumentation():
