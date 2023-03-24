@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import unicodedata
-from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name
+from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, get_form_pokemon_personal_id
 
 def load_json_from_file(filepath):
     with open(filepath, mode="r", encoding="utf-8") as f:
@@ -59,12 +59,12 @@ def create_diff_forms_dictionary(form_dict):
         for (idx, mon) in enumerate(mons_array):
             if(idx != 0 or isSpecialPokemon(current_pokemon_name)):
                 tracker_monsno = -(int(mons_no) + idx - 1)
-                print(current_pokemon_name, int(mons_no), idx, tracker_monsno)
+                #print(current_pokemon_name, int(mons_no), idx, tracker_monsno)
                 if isSpecialPokemon(current_pokemon_name):
                     tracker_monsno = int(mons_no)
                 
                 diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
-                print(diff_forms[current_pokemon_name + (str(idx or 1)) ])
+                #print(diff_forms[current_pokemon_name + (str(idx or 1)) ])
     return diff_forms
 
 def getTrainerIdsFromDocumentation():
@@ -187,6 +187,7 @@ def HoneyTreeData():
     return(honey_trees)
 
 def bad_encounter_data(pkmn_name, route):
+    print('BAD ENCOUNTER', pkmn_name, route)
     bad_encounters.append({pkmn_name, route})
     return
 
@@ -235,8 +236,16 @@ def getEncounterData():
                                                     routes[key1] = [diff_forms[pokedex[str(dexNum)]+str(formNo)][1]]
                                                 else:
                                                     pkmn_key = pokedex[str(dexNum)] + str(formNo)
-                                                    if pkmn_key not in diff_forms.keys():
-                                                        bad_encounter_data(pokedex[str(dexNum)], key1)
+                                                    temp_form_no = formNo
+                                                    if isSpecialPokemon(get_pokemon_name(int(dexNum))):
+                                                        temp_form_no = 0
+                                                    
+                                                    pokemonPersonalId = get_form_pokemon_personal_id(dexNum, temp_form_no)
+
+                                                    if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId)):
+                                                        bad_encounter_data(get_form_name(pokemonPersonalId), route)
+                                                    elif pkmn_key not in diff_forms.keys():
+                                                        bad_encounter_data(pokedex[str(dexNum)], route)
                                                     else:
                                                         routes[key1].append(diff_forms[pkmn_key][1])
                                                         routes[key1] = list(set(routes[key1]))
@@ -263,6 +272,8 @@ def getEncounterData():
     my_keys.sort(key = lambda x: int(x.split('-')[1]))
     sorted_routes = {i: routes[i] for i in my_keys}
 
+    with open(os.path.join(output_file_path, 'bad_encounters.json'), 'w') as output:
+        output.write(json.dumps(bad_encounters, default=tuple))
     with open(os.path.join(output_file_path, 'Encounter_output.json'), 'w') as output:
         output.write(json.dumps(sorted_routes))
         
