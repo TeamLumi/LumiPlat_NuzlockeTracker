@@ -12,8 +12,11 @@ def load_json_from_file(filepath):
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
+resources_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources")
 honeywork_cpp_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "UPDATE_THIS", "honeywork.cpp")
 honeyroutes_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "honeyroutes.json")
+output_file_path =os.path.join(repo_file_path, "src", "tasks", "output")
+
 POKEMON_NAMES = get_pokemon_name_dictionary()
 bad_encounters = []
 
@@ -82,9 +85,9 @@ def load_data():
         "raw_abilities": os.path.join(input_file_path, "english_ss_tokusei.json"),
         "raw_pokedex": os.path.join(input_file_path, "english_ss_monsname.json"),
         "raw_items": os.path.join(input_file_path, "english_ss_itemname.json"),
-        "routes": "Resources/Routes.json",
-        "gym_leaders": "Resources/NewGymLeaders.json",
-        "honey_routes": "Resources/honeyroutes.json"
+        "routes": os.path.join(resources_filepath, "Routes.json"),
+        "gym_leaders": os.path.join(resources_filepath, "NewGymLeaders.json"),
+        "honey_routes": os.path.join(resources_filepath, "honeyroutes.json"),
     }
     for name, filepath in files.items():
         data[name] = load_json_from_file(filepath)
@@ -155,7 +158,7 @@ def GetTrainerData():
                 full_list.append(trainers_list)
         dic['1'] = full_list
 
-    with open("output/Trainer_output.json", "w") as output:
+    with open(os.path.join(output_file_path, 'Trainer_output.json'), "w") as output:
         output.write(json.dumps(dic))
 
 def HoneyTreeData():
@@ -260,7 +263,7 @@ def getEncounterData():
     my_keys.sort(key = lambda x: int(x.split('-')[1]))
     sorted_routes = {i: routes[i] for i in my_keys}
 
-    with open('output/Encounter_output.json', 'w') as output:
+    with open(os.path.join(output_file_path, 'Encounter_output.json'), 'w') as output:
         output.write(json.dumps(sorted_routes))
         
 getEncounterData()
