@@ -418,6 +418,6 @@ def get_pokemon_info(personalId=0):
         'weight': get_weight(personalId),
         'height': get_height(personalId),
         'grassKnotPower': get_grass_knot_power(get_weight(personalId)),
-        'type1': get_type_name(p['type1']),
-        'type2': get_type_name(p['type2'])
+        'type': get_type_name(p['type1']),
+        'dualtype': get_type_name(p['type2'])
     }

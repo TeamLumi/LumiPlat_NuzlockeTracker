@@ -64,9 +64,6 @@ for index, current_pokemon in enumerate(personal_data['Personal']):
         if gender:
             species_data[form_name]['gender'] = gender
 
-import os
-import json
-
 def create_species_file(lumi_mons):
     species_file_path = os.path.join(os.path.dirname(__file__), 'species.txt')
     with open(species_file_path, 'r', encoding='utf-8') as f:

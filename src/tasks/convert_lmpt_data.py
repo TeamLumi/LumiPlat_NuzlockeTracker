@@ -51,6 +51,7 @@ def create_diff_forms_dictionary(form_dict):
     Add the current value as the second value in the array
     Add the slugged current value as the third value in the array
     """
+    print(form_dict)
     diff_forms = {}
     for mons_no in form_dict.keys():
         mons_array = form_dict[mons_no]
@@ -58,13 +59,11 @@ def create_diff_forms_dictionary(form_dict):
 
         for (idx, mon) in enumerate(mons_array):
             if(idx != 0 or isSpecialPokemon(current_pokemon_name)):
-                tracker_monsno = -(int(mons_no) + idx - 1)
-                #print(current_pokemon_name, int(mons_no), idx, tracker_monsno)
+                tracker_monsno = int(mons_no) + (2**16 * idx)
                 if isSpecialPokemon(current_pokemon_name):
                     tracker_monsno = int(mons_no)
                 
                 diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
-                #print(diff_forms[current_pokemon_name + (str(idx or 1)) ])
     return diff_forms
 
 def getTrainerIdsFromDocumentation():
@@ -276,6 +275,73 @@ def getEncounterData():
         output.write(json.dumps(bad_encounters, default=tuple))
     with open(os.path.join(output_file_path, 'Encounter_output.json'), 'w') as output:
         output.write(json.dumps(sorted_routes))
+
+def pathfinding():    
+
+    with open("Resources\EvolveTable.json", "r") as f:
+        graphing = json.load(f)
+    graph = graphing["Evolve"]
+
+    evolve = {}
+    for node in graph:
+        evolve[node["id"]] = {"path": [], "method": [], "level": []}
+
+    ### Currently the Evolve Table does not work for additional forms
+    ### Hence the reason for limiting the range to 905
+    for pokemon in range(1, 906):
+        queue = []
+        queue.append(pokemon)
+        new_queue = []
+
+        if pokemon not in evolve[pokemon]["path"]:
+            evolve[pokemon]["path"].append(pokemon)
         
+        while queue:
+            current_mon = queue.pop(0)
+            adjacent_nodes = graph[current_mon]["ar"]
+            if len(adjacent_nodes) != 0:
+                next_node = adjacent_nodes[2]
+                evolve[next_node]["path"] = evolve[current_mon]["path"] + [next_node]
+                for i in range(2, len(adjacent_nodes), 5):
+                    new_queue.append(adjacent_nodes[i])
+
+                    while new_queue:
+                        curr_mon = new_queue.pop(0)
+
+                        ### This section is for the current pokemon
+                        evolve[curr_mon]["path"].append(pokemon)
+                        evolve[curr_mon]["path"].append(curr_mon)
+                        evolve[curr_mon]["path"] = list(dict.fromkeys(evolve[curr_mon]["path"]))
+
+                        ### This section is for the first pokemon in the chain
+                        evolve[evolve[curr_mon]["path"][0]]["path"].append(curr_mon)
+                        evolve[evolve[curr_mon]["path"][0]]["path"] = [x for i, x in enumerate(evolve[evolve[curr_mon]["path"][0]]["path"]) if x not in evolve[evolve[curr_mon]["path"][0]]["path"][:i]]
+
+                        ### This section is for the second pokemon in the chain
+                        if len(evolve[pokemon]["path"]) > 1:
+                            evolve[pokemon]["path"].append(curr_mon)
+                            evolve[pokemon]["path"] = [x for i, x in enumerate(evolve[pokemon]["path"]) if evolve[pokemon]["path"].index(x) == i]
+                    
+                    ### Dewpider (751) currently evolves into Dewpider and creates an infinite loop
+                    if current_mon != 751 and current_mon < 905:
+                        new_queue.append(adjacent_nodes[i])
+
+                if current_mon != 751 and current_mon < 905:
+                    queue.append(next_node)
+
+            if not queue:
+                queue = new_queue
+                new_queue = []
+        for method in evolve[pokemon]["path"]:
+            for i in range(0, len(graph[method]["ar"]), 5):
+                evolve[pokemon]["method"].append(graph[method]["ar"][i])
+            for i in range(4, len(graph[method]["ar"]), 5):
+                evolve[pokemon]["level"].append(graph[method]["ar"][i])
+
+    with open("output.json", "w") as output:
+        output.write(json.dumps(evolve))
+    return evolve
+
+
 getEncounterData()
 GetTrainerData()
