@@ -19,7 +19,6 @@
 .gymPokemon {
   display: flex;
   flex-flow: column nowrap;
-  font-size: var(--font-size-4);
   gap: var(--spacing-3);
   overflow: auto;
 
@@ -27,7 +26,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-flow: column nowrap;
-    font-size: var(--font-size-4);
     border-radius: 4px;
     gap: var(--spacing-2);
     padding: var(--spacing-2);
@@ -36,7 +34,6 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      font-size: var(--font-size-4);
       gap: var(--spacing-7);
 
       .pokemonName {
@@ -53,7 +50,7 @@
         }
 
         > span {
-          font-size: var(--font-size-5);
+          font-size: var(--font-size-4);
         }
 
         .totem {
@@ -66,14 +63,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 5.25rem;
-        width: 6.75rem;
+        height: 3.5rem;
+        width: 4.5rem;
       }
 
       .pokemonDetails {
         display: flex;
         flex-flow: column nowrap;
-        font-size: var(--font-size-4);
         gap: var(--spacing-2);
       }
 
@@ -82,22 +78,20 @@
         flex-flow: column nowrap;
         align-items: center;
         gap: var(--spacing-1);
-        font-size: var(--font-size-4);
         color: var(--contrast);
 
         .item {
           display: flex;
           align-items: center;
           padding-left: var(--spacing-2);
-          font-size: var(--font-size-4);
         }
 
         > span {
-          font-size: var(--font-size-4);
+          font-size: var(--font-size-2);
         }
 
         .value {
-          font-size: var(--font-size-4);
+          font-size: var(--font-size-3);
         }
       }
     }
@@ -107,14 +101,12 @@
       padding-left: 90px;
       margin-right: 90px;
       font-weight: bold;
-      color: var(--contrast);
     }
 
     .stat::after {
       content: "IVs / EVs";
       margin-left: 90px;
       font-weight: bold;
-      color: var(--contrast);
     }
 
     
@@ -135,15 +127,16 @@
         grid-template-rows: var(--spacing-6) var(--spacing-0) minmax(0, 1fr);
         flex: 1 1 15%;
         align-items: left;
-        font-size: var(--font-size-4);
-        color: var(--contrast);
+        font-size: var(--font-size-3);
+        font-weight: bold;
       }
 
       .stats {
         display: grid;
         grid-template-columns: var(--spacing-9) var(--spacing-8) minmax(0, 1fr);
         flex: 1 1 20%;
-        font-size: var(--font-size-4);
+        font-size: var(--font-size-3);
+        font-weight: bold;
         .statLabel {
           color: var(--contrast);
         }
