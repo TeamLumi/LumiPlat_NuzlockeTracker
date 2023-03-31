@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 import { FixedSizeList, ListChildComponentProps as RowProps } from 'react-window';
 import Confirm from 'semantic-ui-react/dist/commonjs/addons/Confirm';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
+import { useNavigate } from 'react-router-dom';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import Popup from 'semantic-ui-react/dist/commonjs/modules/Popup';
 import { shallow } from 'zustand/shallow';
@@ -16,6 +17,7 @@ import {
   Pokemon,
   ScrollList,
   Swap,
+  Trainers,
 } from 'components/Tracker/elements';
 import { TYPE_COLOR } from 'constants/colors';
 import { POKEMAP } from 'constants/pokemon';
@@ -96,6 +98,20 @@ const Encounters = React.memo(function Encounters() {
   const handleScroll = (index: number) => {
     listRef.current?.scrollToItem(index + 1, 'center');
   };
+  
+  const navigate = useNavigate();  
+  
+  const handleOpen = (e: React.MouseEvent<HTMLDivElement, MouseEvent>, index: number) => {
+    e.preventDefault();
+    e.stopPropagation();
+    navigate(`/badgedetail/${selectedGame?.value}/${index + 13}`);
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>, index: number) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      navigate(`/badgedetail/${selectedGame?.value}/${index + 13}`);
+    }
+  };
 
   const renderRow: React.FC<RowProps> = ({ index, style }) => {
     const encounter = filteredEncounters[index];
@@ -118,6 +134,16 @@ const Encounters = React.memo(function Encounters() {
         >
           <div className={styles.header}>
             <span className={styles.location}>{encounter.location}</span>
+            <div
+              className={styles.question}
+              data-testid={`badge-detail-${index}`}
+              onClick={(e) => handleOpen(e, index)}
+              onKeyPress={(e) => handleKeyPress(e, index)}
+              role="button"
+              tabIndex={0}
+            >
+              <Icon name="question" />
+            </div>
             <div className={styles.buttons}>
               {!!encounter.pokemon && <Detail encounter={encounter} />}
               <Popup
@@ -234,7 +260,7 @@ const Encounters = React.memo(function Encounters() {
           <div className={styles.list} data-testid="encounters-list">
             {/* @ts-ignore */}
             <FixedSizeList
-              height={690}
+              height={2000}
               itemCount={filteredEncounters?.length}
               itemSize={itemSize}
               ref={listRef}

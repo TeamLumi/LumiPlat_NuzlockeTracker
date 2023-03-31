@@ -6,10 +6,11 @@
   flex-flow: column nowrap;
   gap: var(--spacing-1);
   font-weight: bold;
+  width: 33%;
   height: 100%;
-  width: 50%;
   min-height: 7rem;
   position: relative;
+  margin: 0;
 
   .container {
     display: flex;
@@ -18,7 +19,37 @@
     > div {
       flex: 1;
     }
+    
+    .question {
+      display: grid;
+      place-items: center;
+      position: absolute;
+      right: var(--spacing-1);
+      top: var(--spacing-1);
+      border: 2px solid #333;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      font-size: var(--font-size-2);
+      width: var(--spacing-7);
+      height: var(--spacing-7);
+      border-radius: 50%;
+      padding: 0;
+      margin: 0;
+      
+      &:focus,
+      &:hover {
+        background-color: #333;
+        > i {
+          color: #fff;
+        }
+      }
 
+      > i {
+        height: unset;
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+      
     .selector {
       display: flex;
       flex-flow: column nowrap;
