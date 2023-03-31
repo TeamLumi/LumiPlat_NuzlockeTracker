@@ -1,7 +1,6 @@
 import re
 import json
 import os
-import csv
 import unicodedata
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary
 
@@ -13,7 +12,6 @@ def load_json_from_file(filepath):
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
 POKEMON_NAMES = get_pokemon_name_dictionary()
-bad_encounters = []
 
 def get_lumi_data(raw_data, callback):
     data = {}
@@ -31,45 +29,28 @@ def slugify(value):
     value = re.sub('[^\w\s-]', '', value).strip().lower()
     return re.sub('[-\s]+', '-', value)
 
-def isSpecialPokemon(current_pokemon_name):
-    """
-    Returns true if the name of the Pokemon is Perrserker, Obstagoon, Indeedee, Meowstic or Sneasler.
-    This is to retain intended behaviour the app depends on
-    """
-    return current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"
-
-def create_diff_forms_dictionary(form_dict):
-    """
+"""
     Each monsno will have an array of all the Pokemon names and forms.
     Add the current index to the name of the first object in the list as the key
     Find out why the number is what it is
     Add the current value as the second value in the array
     Add the slugged current value as the third value in the array
-    """
+"""
+def create_diff_forms_dictionary(form_dict):
     diff_forms = {}
     for mons_no in form_dict.keys():
         mons_array = form_dict[mons_no]
-        current_pokemon_name = get_pokemon_name(int(mons_no))
-
         for (idx, mon) in enumerate(mons_array):
-            if(idx != 0 or isSpecialPokemon(current_pokemon_name)):
-                tracker_monsno = -(int(mons_no) + idx)
-                if isSpecialPokemon(current_pokemon_name):
+            if(idx != 0):
+                current_pokemon_name = get_pokemon_name(int(mons_no))
+                tracker_monsno = -int(mons_no)
+                if(current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"):
+                    print(current_pokemon_name)
                     tracker_monsno = int(mons_no)
                 
-                diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
+                diff_forms[current_pokemon_name + str(idx)] = [tracker_monsno, mon, slugify(mon)]
     return diff_forms
 
-def getTrainerIdsFromDocumentation():
-    doc_filepath = os.path.join(input_file_path, "docs.csv")
-    trainer_IDs = []
-    with open(doc_filepath, "r")as doc_csv:
-        csvreader = csv.reader(doc_csv)
-        for row in csvreader:
-            if row[0].isdigit():
-                trainer_IDs.append(int(row[0]))
-        return trainer_IDs
-        
 def load_data():
     data = {}
     files = {
@@ -77,6 +58,7 @@ def load_data():
         "raw_trainer_data": os.path.join(input_file_path, "TrainerTable.json"),
         "raw_abilities": os.path.join(input_file_path, "english_ss_tokusei.json"),
         "raw_pokedex": os.path.join(input_file_path, "english_ss_monsname.json"),
+        "diff_forms": os.path.join(input_file_path, "english_ss_zkn_form.json"),
         "raw_items": os.path.join(input_file_path, "english_ss_itemname.json"),
         "routes": "src/tasks/Resources/Routes.json",
         "gym_leaders": "src/tasks/Resources/NewGymLeaders.json",
@@ -85,12 +67,12 @@ def load_data():
     for name, filepath in files.items():
         data[name] = load_json_from_file(filepath)
 
+    print(POKEMON_NAMES['3'])
     data["abilities"] = get_lumi_data(data["raw_abilities"], get_ability_string)
     data["pokedex"] = get_lumi_data(data["raw_pokedex"], get_pokemon_name)
     data["items"] = get_lumi_data(data["raw_items"], get_item_string)
     data["diff_forms"] = create_diff_forms_dictionary(POKEMON_NAMES)
-    data["trainer_ids"] = getTrainerIdsFromDocumentation()
-
+    print(data["diff_forms"])
     return data
 
 def GetTrainerData():
@@ -176,9 +158,6 @@ def HoneyTreeData():
                     honey_trees[honey_routes[key]] = values
     return(honey_trees)
 
-def bad_encounter_data(pkmn_name, route):
-    bad_encounters.append({pkmn_name, route})
-    return
 
 def getEncounterData():
     full_data = load_data()
@@ -228,16 +207,11 @@ def getEncounterData():
                                                     else:
                                                         if dexNum == "29" or dexNum == "32": #This is specifically for the nidorans -_-
                                                             print(dexNum)
-                                                            print(key1)
                                                             routes[key1].append(diff_forms[dexNum][2])
                                                             print(routes[key1])
                                                         else:
-                                                            pkmn_key = pokedex[str(dexNum)] + str(formNo)
-                                                            if pkmn_key not in diff_forms.keys():
-                                                                bad_encounter_data(pokedex[str(dexNum)], key1)
-                                                            else:
-                                                                routes[key1].append(diff_forms[pokedex[str(dexNum)]+str(formNo)][1])
-                                                                routes[key1] = list(set(routes[key1]))
+                                                            routes[key1].append(diff_forms[pokedex[str(dexNum)]+str(formNo)][1])
+                                                            routes[key1] = list(set(routes[key1]))
                                     else:
                                         continue            
         ##This is for adding the Trophy Garden daily mons
