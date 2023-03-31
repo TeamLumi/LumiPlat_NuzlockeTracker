@@ -121,8 +121,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   <PokemonType pokemon={poke} />
                   {!!pokemon?.ability && (
                     <div className={styles.pokemonLabel}>
-                      <span>{t('ability')}:</span>
-                      <span className={styles.value}>{pokemon?.ability}</span>
+                      <span className={styles.value}>{t('ability')}: {pokemon?.ability}</span>
                     </div>
                   )}
                   {!!pokemon?.item && (
