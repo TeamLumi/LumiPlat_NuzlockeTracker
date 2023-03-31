@@ -5,10 +5,6 @@ import csv
 import unicodedata
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, get_form_pokemon_personal_id
 
-def load_json_from_file(filepath):
-    with open(filepath, mode="r", encoding="utf-8") as f:
-        return json.load(f)
-
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
@@ -51,15 +47,18 @@ def create_diff_forms_dictionary(form_dict):
     Add the current value as the second value in the array
     Add the slugged current value as the third value in the array
     """
-    print(form_dict)
     diff_forms = {}
+    forms = GenForms()
     for mons_no in form_dict.keys():
         mons_array = form_dict[mons_no]
         current_pokemon_name = get_pokemon_name(int(mons_no))
 
         for (idx, mon) in enumerate(mons_array):
-            if(idx != 0 or isSpecialPokemon(current_pokemon_name)):
-                tracker_monsno = int(mons_no) + (2**16 * idx)
+            if idx != 0 or isSpecialPokemon(current_pokemon_name):
+                mon_zeros = 3 - len(str(mons_no))
+                form_zeros = 3 - len(str(idx))
+                if f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}" in forms.keys():
+                    tracker_monsno = forms[f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}"]
                 if isSpecialPokemon(current_pokemon_name):
                     tracker_monsno = int(mons_no)
                 
@@ -276,21 +275,20 @@ def getEncounterData():
     with open(os.path.join(output_file_path, 'Encounter_output.json'), 'w') as output:
         output.write(json.dumps(sorted_routes))
 
-def pathfinding():    
+def pathfinding():
 
     with open("Resources\EvolveTable.json", "r") as f:
         graphing = json.load(f)
     graph = graphing["Evolve"]
-
+    forms = GenForms()
     evolve = {}
     for node in graph:
-        evolve[node["id"]] = {"path": [], "method": [], "level": []}
+        evolve[node["id"]] = {"path": [], "method": [], "ar": []}
 
-    ### Currently the Evolve Table does not work for additional forms
-    ### Hence the reason for limiting the range to 905
-    for pokemon in range(1, 906):
+    for pokemon in evolve.keys():
         queue = []
         queue.append(pokemon)
+        queue.append(0)
         new_queue = []
 
         if pokemon not in evolve[pokemon]["path"]:
@@ -298,15 +296,32 @@ def pathfinding():
         
         while queue:
             current_mon = queue.pop(0)
+            current_form = queue.pop(0)
+            mon_zeros = 3 - len(str(current_mon))
+            form_zeros = 3 - len(str(current_form))
+            if f"ZKN_FORM_{mon_zeros*'0'}{current_mon}_{form_zeros*'0'}{current_form}" in forms.keys():
+                current_mon = forms[f"ZKN_FORM_{mon_zeros*'0'}{current_mon}_{form_zeros*'0'}{current_form}"]
             adjacent_nodes = graph[current_mon]["ar"]
             if len(adjacent_nodes) != 0:
-                next_node = adjacent_nodes[2]
-                evolve[next_node]["path"] = evolve[current_mon]["path"] + [next_node]
+                next_mon = adjacent_nodes[2]
+                next_form = adjacent_nodes[3]
+                mon_zeros = 3 - len(str(next_mon))
+                form_zeros = 3 - len(str(next_form))
+                if f"ZKN_FORM_{mon_zeros*'0'}{next_mon}_{form_zeros*'0'}{next_form}" in forms.keys():
+                    next_mon = forms[f"ZKN_FORM_{mon_zeros*'0'}{next_mon}_{form_zeros*'0'}{next_form}"]
+
+                evolve[next_mon]["path"] = evolve[current_mon]["path"] + [next_mon]
                 for i in range(2, len(adjacent_nodes), 5):
                     new_queue.append(adjacent_nodes[i])
-
+                    new_queue.append(adjacent_nodes[i + 1])
                     while new_queue:
                         curr_mon = new_queue.pop(0)
+                        curr_form = new_queue.pop(0)
+
+                        mon_zeros = 3 - len(str(curr_mon))
+                        form_zeros = 3 - len(str(curr_form))
+                        if f"ZKN_FORM_{mon_zeros*'0'}{curr_mon}_{form_zeros*'0'}{curr_form}" in forms.keys():
+                            curr_mon = forms[f"ZKN_FORM_{mon_zeros*'0'}{curr_mon}_{form_zeros*'0'}{curr_form}"]
 
                         ### This section is for the current pokemon
                         evolve[curr_mon]["path"].append(pokemon)
@@ -318,29 +333,97 @@ def pathfinding():
                         evolve[evolve[curr_mon]["path"][0]]["path"] = [x for i, x in enumerate(evolve[evolve[curr_mon]["path"][0]]["path"]) if x not in evolve[evolve[curr_mon]["path"][0]]["path"][:i]]
 
                         ### This section is for the second pokemon in the chain
-                        if len(evolve[pokemon]["path"]) > 1:
-                            evolve[pokemon]["path"].append(curr_mon)
-                            evolve[pokemon]["path"] = [x for i, x in enumerate(evolve[pokemon]["path"]) if evolve[pokemon]["path"].index(x) == i]
-                    
-                    ### Dewpider (751) currently evolves into Dewpider and creates an infinite loop
-                    if current_mon != 751 and current_mon < 905:
-                        new_queue.append(adjacent_nodes[i])
+                        if len(evolve[curr_mon]["path"]) > 1:
+                            evolve[evolve[curr_mon]["path"][1]]["path"].append(curr_mon)
+                            evolve[evolve[curr_mon]["path"][1]]["path"] = [x for i, x in enumerate(evolve[evolve[curr_mon]["path"][1]]["path"]) if x not in evolve[evolve[curr_mon]["path"][1]]["path"][:i]]
 
-                if current_mon != 751 and current_mon < 905:
-                    queue.append(next_node)
+                        if len(evolve[curr_mon]["path"]) > 2:
+                            evolve[evolve[curr_mon]["path"][2]]["path"].append(curr_mon)
+                            evolve[evolve[curr_mon]["path"][2]]["path"] = [x for i, x in enumerate(evolve[evolve[curr_mon]["path"][2]]["path"]) if x not in evolve[evolve[curr_mon]["path"][2]]["path"][:i]]
+
+                    ### Dewpider (751) currently evolves into Dewpider and creates an infinite loop
+                    if current_mon != 751:
+                        new_queue.append(adjacent_nodes[i])
+                        new_queue.append(adjacent_nodes[i + 1])
+
+                if current_mon != 751:
+                    queue.append(next_mon)
+                    queue.append(next_form)
 
             if not queue:
                 queue = new_queue
                 new_queue = []
-        for method in evolve[pokemon]["path"]:
-            for i in range(0, len(graph[method]["ar"]), 5):
-                evolve[pokemon]["method"].append(graph[method]["ar"][i])
-            for i in range(4, len(graph[method]["ar"]), 5):
-                evolve[pokemon]["level"].append(graph[method]["ar"][i])
+        for extra in evolve[pokemon]["path"]:
+            for i in range(0, len(graph[extra]["ar"]), 5):
+                evolve[pokemon]["method"].append(graph[extra]["ar"][i])
+            evolve[pokemon]["ar"].append(graph[extra]["ar"])
+    
+    for form in forms:
+        for pokemon in evolve.keys():
+            if int(pokemon) == int(form[-7:-4]):
+                for evolution in evolve[pokemon]["path"]:
+                    if len(graph[forms[form]]["ar"]) == 0:
+                        if evolution in evolve[evolve[forms[form]]["path"][0]]["path"]:
+                            evolve[evolution]["path"].append(forms[form])
+                        if len(evolve[forms[form]]["path"]) < 2:
+                            evolution_path = evolve[evolution]["path"] + evolve[forms[form]]["path"]
+                            new_path = []
+                            for path_element in evolution_path:
+                                if path_element not in new_path:
+                                    new_path.append(path_element)
+                            evolve[forms[form]]["path"] = new_path
+                            evolve[evolution]["path"] = new_path
 
-    with open("output.json", "w") as output:
-        output.write(json.dumps(evolve))
+    for pokemon in evolve.keys():
+        new_path = []
+        for path_element in evolve[pokemon]["path"]:
+            if path_element not in new_path:
+                new_path.append(path_element)
+        evolve[pokemon]["path"] = new_path
+    with open("output.json", "w", encoding = "utf-8") as output:
+        json.dump(evolve, output, ensure_ascii=False)
     return evolve
+
+def pokedex_info():
+    pokedex = []
+    evolutions = pathfinding()
+    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+    for pokemon in evolutions.keys():
+        if pokemon < 905:
+            poke_info = get_pokemon_info(pokemon)
+            poke_name = get_pokemon_name(pokemon)
+            dex_info = {
+                "value": pokemon,
+                "text": poke_name,
+                "type": poke_info["type"].upper()
+                }
+            if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+                dex_info["dualtype"] = poke_info["dualtype"].upper()
+            dex_info["evolve"] = evolutions[pokemon]["path"]
+            dex_info["generation"] = 8
+
+        else:
+            sorted_dict = dict(sorted(diff_forms.items(), key=lambda x: x[1][0]))
+            keys = list(sorted_dict.keys())
+            dex_info = {}
+            pokemon_info = get_pokemon_info(diff_forms[keys[pokemon - 903]][0])
+            pokemon_name = diff_forms[keys[pokemon - 903]][1]
+            dex_num = diff_forms[keys[pokemon - 903]][0]
+            if dex_num > 905:
+                dex_info = {
+                    "value": dex_num,
+                    "text": pokemon_name,
+                    "type": pokemon_info["type"].upper()
+                    }
+                if "dualtype" in pokemon_info.keys() and pokemon_info["dualtype"] != 0:
+                    dex_info["dualtype"] = pokemon_info["dualtype"].upper()
+                dex_info["evolve"] = evolutions[dex_num]["path"]
+                dex_info["generation"] = 8
+
+        pokedex.append(dex_info)
+    with open("output\pokedex_info.json", "w", encoding="utf-8") as output:
+        json.dump(pokedex, output, ensure_ascii=False)
+    return pokedex
 
 
 getEncounterData()

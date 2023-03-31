@@ -245,12 +245,6 @@ def get_pokemon_form_id(monsno=0, id_=0):
     """
     return FORM_MAP[monsno].index(id_)
 
-def get_form_pokemon_personal_id(monsno=0, formNo=0):
-    try:
-        return FORM_MAP[int(monsno)][int(formNo)]
-    except IndexError:
-        return None
-
 
 def get_move_properties(move_id=0):
     """
@@ -355,27 +349,35 @@ def get_weight(monsno=0):
     """
     Returns the weight per the metric system
     """
-    weightString = pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] if (pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0] is not None) else '0'
-    weightString = weightString.replace(u'\xa0', u' ')
-    poundsString = weightString.split(u" ")[0]
+    monsno = int(monsno)
+    if monsno != 0:
+        weightString = pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] if (pkmn_weight_data['labelDataArray'][monsno]['wordDataArray'][0] is not None) else '0'
+        weightString = weightString.replace(u'\xa0', u' ')
+        poundsString = weightString.split(u" ")[0]
+        poundsString = poundsString.strip()
+        pounds = float(poundsString)
 
-    pounds = float(poundsString.strip())
-
-    poundsInKilogram = pounds * 0.453592
-    return round(poundsInKilogram, 2)
+        poundsInKilogram = pounds * 0.453592
+        return round(poundsInKilogram, 2)
+    else:
+        return 0
 
 def get_height(monsno=0):
     """
     Returns the Pokemon's height per the metric sytem.
     """
-    height_string = pkmn_height_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] or '0'
-    feet_string, inches_string = height_string.split("'")
-    inches = float(inches_string[:-1])
-    feet = int(feet_string)
+    monsno = int(monsno)
+    if monsno != 0:
+        height_string = pkmn_height_data['labelDataArray'][monsno]['wordDataArray'][0]['str'] or '0'
+        feet_string, inches_string = height_string.split("'")
+        inches = float(inches_string[:-1])
+        feet = int(feet_string)
 
-    feet_in_centimeters = feet * 30.48
-    inches_in_centimeters = inches * 2.54
-    return round((feet_in_centimeters + inches_in_centimeters) / 100, 2)
+        feet_in_centimeters = feet * 30.48
+        inches_in_centimeters = inches * 2.54
+        return round((feet_in_centimeters + inches_in_centimeters) / 100, 2)
+    else:
+        return 0
 
 def get_grass_knot_power(weightkg):
     """
@@ -399,17 +401,18 @@ def get_pokemon_info(personalId=0):
     """
     BDSP works on an ID system, thus it is imperative to be able to swap between monsno and "ID", which is the index of the Pokemon in any of the relevant Pokemon gamefiles. 
     """
-    p = personal_data['Personal'][personalId]
-    return {
+    p = personal_data['Personal'][int(personalId)]
+
+    info_dict = {
         'id': p['id'],
         'monsno': p['monsno'],
-        'name': get_pokemon_name(personalId),
+        'name': get_pokemon_name(int(personalId)),
         'ability1': get_ability_string(p['tokusei1']),
         'ability2': get_ability_string(p['tokusei2']),
         'abilityH': get_ability_string(p['tokusei3']),
-        'learnset': get_pokemon_learnset(personalId),
+        'learnset': get_pokemon_learnset(int(personalId)),
         'tmLearnset': get_tech_machine_learnset(p['machine1'], p['machine2'], p['machine3'], p['machine4']),
-        'eggLearnset': get_egg_moves(personalId),
+        'eggLearnset': get_egg_moves(int(personalId)),
         'baseStats': {
             'hp': p['basic_hp'], 'atk': p['basic_atk'], 'def': p['basic_def'], 
             'spa': p['basic_spatk'], 'spd': p['basic_spdef'], 'spe': p['basic_agi']
@@ -418,6 +421,19 @@ def get_pokemon_info(personalId=0):
         'weight': get_weight(personalId),
         'height': get_height(personalId),
         'grassKnotPower': get_grass_knot_power(get_weight(personalId)),
-        'type': get_type_name(p['type1']),
-        'dualtype': get_type_name(p['type2'])
+        'type': get_type_name(p['type1'])
     }
+    if p['type2'] != p['type1']:
+        info_dict['dualtype'] = get_type_name(p['type2'])
+    else:
+        info_dict['dualtype'] = 0
+    return info_dict
+
+def GenForms():
+    forms_list = form_namedata["labelDataArray"]
+    forms = {}
+    for all_forms in forms_list:
+        if all_forms["arrayIndex"] != 0 and int(all_forms["labelName"][-3:]) > 000:
+            forms[all_forms["labelName"]] = all_forms["arrayIndex"]
+    return forms
+
