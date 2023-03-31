@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import unicodedata
-from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, get_form_pokemon_personal_id
+from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id
 
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -74,7 +74,11 @@ def getTrainerIdsFromDocumentation():
             if row[0].isdigit():
                 trainer_IDs.append(int(row[0]))
         return trainer_IDs
-        
+
+def load_json_from_file(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 def load_data():
     data = {}
     files = {
@@ -277,7 +281,7 @@ def getEncounterData():
 
 def pathfinding():
 
-    with open(os.path.join(output_file_path, 'Encounter_output.json'), "r", encoding="utf-8") as f:
+    with open(os.path.join(input_file_path, 'EvolveTable.json'), "r", encoding="utf-8") as f:
         graphing = json.load(f)
     graph = graphing["Evolve"]
     forms = GenForms()
@@ -406,7 +410,6 @@ def getPokedexInfo():
         else:
             sorted_dict = dict(sorted(diff_forms.items(), key=lambda x: x[1][0]))
             keys = list(sorted_dict.keys())
-            dex_info = {}
             pokemon_info = get_pokemon_info(diff_forms[keys[pokemon - 903]][0])
             pokemon_name = diff_forms[keys[pokemon - 903]][1]
             dex_num = diff_forms[keys[pokemon - 903]][0]
@@ -426,6 +429,6 @@ def getPokedexInfo():
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-getPokedexInfo()
 getEncounterData()
 GetTrainerData()
+getPokedexInfo()

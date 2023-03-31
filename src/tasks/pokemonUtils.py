@@ -245,6 +245,12 @@ def get_pokemon_form_id(monsno=0, id_=0):
     """
     return FORM_MAP[monsno].index(id_)
 
+def get_form_pokemon_personal_id(monsno=0, formNo=0):
+    try:
+        return FORM_MAP[int(monsno)][int(formNo)]
+    except IndexError:
+        return None
+
 
 def get_move_properties(move_id=0):
     """
@@ -436,4 +442,3 @@ def GenForms():
         if all_forms["arrayIndex"] != 0 and int(all_forms["labelName"][-3:]) > 000:
             forms[all_forms["labelName"]] = all_forms["arrayIndex"]
     return forms
-
