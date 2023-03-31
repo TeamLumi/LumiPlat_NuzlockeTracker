@@ -1,4 +1,4 @@
-import { calculate, Field, Move, Pokemon, Result } from 'lumi-calc/calc';
+import { calculate, Field, Move, Pokemon, Result } from '../lumi-calc/calc/dist';
 import type { StatusName } from '@smogon/calc/dist/data/interface';
 import { useCallback, useMemo } from 'react';
 import { FORBIDDEN_ITEMS, GenderCalc } from 'constants/calculator';
