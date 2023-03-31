@@ -9,7 +9,7 @@ from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, ge
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
 resources_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources")
-honeywork_cpp_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "UPDATE_THIS", "honeywork.cpp")
+honeywork_cpp_filepath = os.path.join(input_file_path, "honeywork.cpp")
 honeyroutes_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "honeyroutes.json")
 output_file_path =os.path.join(repo_file_path, "src", "tasks", "output")
 
@@ -100,13 +100,13 @@ def load_data():
 
 def GetTrainerData():
     full_data = load_data()
-    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
-    data, abilityList, pokedex, itemList, gymLeaderList = (
+    data, abilityList, pokedex, itemList, gymLeaderList, diff_forms = (
         full_data["raw_trainer_data"],
         full_data["abilities"],
         full_data["pokedex"],
         full_data["items"],
-        full_data["gym_leaders"]
+        full_data["gym_leaders"],
+        full_data["diff_forms"]
     )
     gender = {"0": "MALE", "1": "FEMALE", "2": "NEUTRAL"}
 
@@ -191,11 +191,11 @@ def bad_encounter_data(pkmn_name, route):
 
 def getEncounterData():
     full_data = load_data()
-    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
-    data, pokedex, routeNames = (
+    data, pokedex, routeNames, diff_forms = (
         full_data["raw_encounters"],
         full_data["pokedex"],
-        full_data["routes"]
+        full_data["routes"],
+        full_data["diff_forms"]
     )
 
     routes = {}
@@ -277,7 +277,7 @@ def getEncounterData():
 
 def pathfinding():
 
-    with open("Resources\EvolveTable.json", "r") as f:
+    with open(os.path.join(output_file_path, 'Encounter_output.json'), "r", encoding="utf-8") as f:
         graphing = json.load(f)
     graph = graphing["Evolve"]
     forms = GenForms()
@@ -342,6 +342,7 @@ def pathfinding():
                             evolve[evolve[curr_mon]["path"][2]]["path"] = [x for i, x in enumerate(evolve[evolve[curr_mon]["path"][2]]["path"]) if x not in evolve[evolve[curr_mon]["path"][2]]["path"][:i]]
 
                     ### Dewpider (751) currently evolves into Dewpider and creates an infinite loop
+                    ### These can be taken away once that is fixed
                     if current_mon != 751:
                         new_queue.append(adjacent_nodes[i])
                         new_queue.append(adjacent_nodes[i + 1])
@@ -380,11 +381,11 @@ def pathfinding():
             if path_element not in new_path:
                 new_path.append(path_element)
         evolve[pokemon]["path"] = new_path
-    with open("output.json", "w", encoding = "utf-8") as output:
+    with open(os.path.join(output_file_path, "evolution.json"), "w", encoding = "utf-8") as output:
         json.dump(evolve, output, ensure_ascii=False)
     return evolve
 
-def pokedex_info():
+def getPokedexInfo():
     pokedex = []
     evolutions = pathfinding()
     diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
@@ -421,10 +422,10 @@ def pokedex_info():
                 dex_info["generation"] = 8
 
         pokedex.append(dex_info)
-    with open("output\pokedex_info.json", "w", encoding="utf-8") as output:
+    with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-
+getPokedexInfo()
 getEncounterData()
 GetTrainerData()
