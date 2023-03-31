@@ -1,7 +1,6 @@
 import re
 import json
 import os
-import unicodedata
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary
 
 def load_json_from_file(filepath):
@@ -19,16 +18,6 @@ def get_lumi_data(raw_data, callback):
         data[str(idx)] = callback(idx)
     return data
 
-def slugify(value):
-    """
-    Converts to lowercase, removes non-word characters (alphanumerics and
-    underscores) and converts spaces to hyphens. Also strips leading and
-    trailing whitespace.
-    """
-    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
-    value = re.sub('[^\w\s-]', '', value).strip().lower()
-    return re.sub('[-\s]+', '-', value)
-
 """
     Each monsno will have an array of all the Pokemon names and forms.
     Add the current index to the name of the first object in the list as the key
@@ -36,15 +25,8 @@ def slugify(value):
     Add the current value as the second value in the array
     Add the slugged current value as the third value in the array
 """
-def create_diff_forms_dictionary(form_dict):
-    diff_forms = {}
-    for mons_no in form_dict.keys():
-        mons_array = form_dict[mons_no]
-        for (idx, mon) in enumerate(mons_array):
-            if(idx != 0):
-                current_pokemon_name = get_pokemon_name(int(mons_no))
-                diff_forms[current_pokemon_name + str(idx)] = [int(mons_no), mon, slugify(mon)]
-    return diff_forms
+def create_diff_forms_dictionary(form_data):
+    return
 def load_data():
     data = {}
     files = {
@@ -65,8 +47,7 @@ def load_data():
     data["abilities"] = get_lumi_data(data["raw_abilities"], get_ability_string)
     data["pokedex"] = get_lumi_data(data["raw_pokedex"], get_pokemon_name)
     data["items"] = get_lumi_data(data["raw_items"], get_item_string)
-    data["diff_forms"] = create_diff_forms_dictionary(POKEMON_NAMES)
-    print(data["diff_forms"])
+    
     return data
 
 def GetTrainerData():
