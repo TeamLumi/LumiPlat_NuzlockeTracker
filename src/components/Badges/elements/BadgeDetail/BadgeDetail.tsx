@@ -1,4 +1,4 @@
-import { calculate, Field, Move, Pokemon, Result } from 'lumi-calc/dist/calc/index.js';
+import { Pokemon } from 'src/lumi-calc/dist/calc/index.js';
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Radio from 'semantic-ui-react/dist/commonjs/addons/Radio';
