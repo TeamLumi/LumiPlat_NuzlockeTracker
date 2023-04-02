@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import unicodedata
-from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id
+from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id, create_diff_forms_dictionary, isSpecialPokemon
 
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -22,48 +22,7 @@ def get_lumi_data(raw_data, callback):
         data[str(idx)] = callback(idx)
     return data
 
-def slugify(value):
-    """
-    Converts to lowercase, removes non-word characters (alphanumerics and
-    underscores) and converts spaces to hyphens. Also strips leading and
-    trailing whitespace.
-    """
-    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
-    value = re.sub('[^\w\s-]', '', value).strip().lower()
-    return re.sub('[-\s]+', '-', value)
 
-def isSpecialPokemon(current_pokemon_name):
-    """
-    Returns true if the name of the Pokemon is Perrserker, Obstagoon, Indeedee, Meowstic or Sneasler.
-    This is to retain intended behaviour the app depends on
-    """
-    return current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"
-
-def create_diff_forms_dictionary(form_dict):
-    """
-    Each monsno will have an array of all the Pokemon names and forms.
-    Add the current index to the name of the first object in the list as the key
-    Find out why the number is what it is
-    Add the current value as the second value in the array
-    Add the slugged current value as the third value in the array
-    """
-    diff_forms = {}
-    forms = GenForms()
-    for mons_no in form_dict.keys():
-        mons_array = form_dict[mons_no]
-        current_pokemon_name = get_pokemon_name(int(mons_no))
-
-        for (idx, mon) in enumerate(mons_array):
-            if idx != 0 or isSpecialPokemon(current_pokemon_name):
-                mon_zeros = 3 - len(str(mons_no))
-                form_zeros = 3 - len(str(idx))
-                if f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}" in forms.keys():
-                    tracker_monsno = forms[f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}"]
-                if isSpecialPokemon(current_pokemon_name):
-                    tracker_monsno = int(mons_no)
-                
-                diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
-    return diff_forms
 
 def getTrainerIdsFromDocumentation():
     doc_filepath = os.path.join(input_file_path, "docs.csv")
@@ -393,36 +352,25 @@ def getPokedexInfo():
     pokedex = []
     evolutions = pathfinding()
     diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+    forms = GenForms()
     for pokemon in evolutions.keys():
-        if pokemon < 905:
-            poke_info = get_pokemon_info(pokemon)
-            poke_name = get_pokemon_name(pokemon)
-            dex_info = {
-                "value": pokemon,
-                "text": poke_name,
-                "type": poke_info["type"].upper()
-                }
-            if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-                dex_info["dualtype"] = poke_info["dualtype"].upper()
-            dex_info["evolve"] = evolutions[pokemon]["path"]
-            dex_info["generation"] = 8
+        poke_info = get_pokemon_info(pokemon)
+        poke_name = get_pokemon_name(pokemon)
+        for key, value in forms.items():
+            if value == pokemon:
+                monsno = key[-7:-4]
+                if get_pokemon_name(int(monsno)) not in poke_name:
+                    poke_name = get_pokemon_name(int(monsno)) + ' ' + poke_name
+        dex_info = {
+            "value": pokemon,
+            "text": poke_name,
+            "type": poke_info["type"].upper()
+            }
+        if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+            dex_info["dualtype"] = poke_info["dualtype"].upper()
+        dex_info["evolve"] = evolutions[pokemon]["path"]
+        dex_info["generation"] = 8
 
-        else:
-            sorted_dict = dict(sorted(diff_forms.items(), key=lambda x: x[1][0]))
-            keys = list(sorted_dict.keys())
-            pokemon_info = get_pokemon_info(diff_forms[keys[pokemon - 903]][0])
-            pokemon_name = diff_forms[keys[pokemon - 903]][1]
-            dex_num = diff_forms[keys[pokemon - 903]][0]
-            if dex_num > 905:
-                dex_info = {
-                    "value": dex_num,
-                    "text": pokemon_name,
-                    "type": pokemon_info["type"].upper()
-                    }
-                if "dualtype" in pokemon_info.keys() and pokemon_info["dualtype"] != 0:
-                    dex_info["dualtype"] = pokemon_info["dualtype"].upper()
-                dex_info["evolve"] = evolutions[dex_num]["path"]
-                dex_info["generation"] = 8
 
         pokedex.append(dex_info)
     with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:

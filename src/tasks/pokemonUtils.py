@@ -1,5 +1,7 @@
 import os
 import json
+import unicodedata
+import re 
 
 parent_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 namedata_file_path = os.path.join(parent_file_path, 'input', 'english_ss_monsname.json')
@@ -111,8 +113,13 @@ def make_ability_object(ha):
     return {0: abilitiyString}
 
 def get_pokemon_name(mons_no):
+
     try:
-        pokemon_name = name_data["labelDataArray"][mons_no]["wordDataArray"][0]["str"]
+        if mons_no < len(name_data["labelDataArray"]):
+            pokemon_name = name_data["labelDataArray"][mons_no]["wordDataArray"][0]["str"]
+        else:
+            pokemon_name = get_form_name(mons_no)
+
         pokemon_name = pokemon_name.replace('♀', '-F')
         pokemon_name = pokemon_name.replace('♂', '-M')
         pokemon_name = pokemon_name.replace('’', '\u2019')
@@ -402,6 +409,49 @@ def get_grass_knot_power(weightkg):
     else:
         return 20
 
+def slugify(value):
+    """
+    Converts to lowercase, removes non-word characters (alphanumerics and
+    underscores) and converts spaces to hyphens. Also strips leading and
+    trailing whitespace.
+    """
+    value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    value = re.sub('[^\w\s-]', '', value).strip().lower()
+    return re.sub('[-\s]+', '-', value)
+
+def isSpecialPokemon(current_pokemon_name):
+    """
+    Returns true if the name of the Pokemon is Perrserker, Obstagoon, Indeedee, Meowstic or Sneasler.
+    This is to retain intended behaviour the app depends on
+    """
+    return current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"
+
+def create_diff_forms_dictionary(form_dict):
+    """
+    Each monsno will have an array of all the Pokemon names and forms.
+    Add the current index to the name of the first object in the list as the key
+    Find out why the number is what it is
+    Add the current value as the second value in the array
+    Add the slugged current value as the third value in the array
+    """
+    diff_forms = {}
+    forms = GenForms()
+    for mons_no in form_dict.keys():
+        mons_array = form_dict[mons_no]
+        current_pokemon_name = get_pokemon_name(int(mons_no))
+
+        for (idx, mon) in enumerate(mons_array):
+            if idx != 0 or isSpecialPokemon(current_pokemon_name):
+                mon_zeros = 3 - len(str(mons_no))
+                form_zeros = 3 - len(str(idx))
+                if f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}" in forms.keys():
+                    tracker_monsno = forms[f"ZKN_FORM_{mon_zeros*'0'}{mons_no}_{form_zeros*'0'}{idx}"]
+                if isSpecialPokemon(current_pokemon_name):
+                    tracker_monsno = int(mons_no)
+                
+                diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
+    return diff_forms
+
 
 def get_pokemon_info(personalId=0):
     """
@@ -429,6 +479,7 @@ def get_pokemon_info(personalId=0):
         'grassKnotPower': get_grass_knot_power(get_weight(personalId)),
         'type': get_type_name(p['type1'])
     }
+                
     if p['type2'] != p['type1']:
         info_dict['dualtype'] = get_type_name(p['type2'])
     else:

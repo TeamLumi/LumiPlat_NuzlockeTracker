@@ -2,7 +2,7 @@ import type { TPokemon } from 'constants/types';
 import data from 'tasks/output/pokedex_info.json'
 
 const POKEMON: TPokemon[] = data;
-const ExtraPokemon: Tpokemon[] = [
+const ExtraPokemon: TPokemon[] = [
     {
         "value": 412,
         "text": "Burmy",
