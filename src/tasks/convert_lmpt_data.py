@@ -110,7 +110,7 @@ def GetTrainerData():
                                 }
                                 if 'content' not in fights:
                                     fights['content'] = [pokemon]
-                                    fights["game"] = gym_leader + " Team " + str(trainer_ids.index(trainer_id) + 1)
+                                    fights["game"] = " Team " + str(trainer_ids.index(trainer_id) + 1)
                                     fights["name"] = gym_leader
                                     fights["type"] = battle_type
                                 else:

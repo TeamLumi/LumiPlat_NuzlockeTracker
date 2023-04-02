@@ -176,7 +176,7 @@ const FILTERS = {...staticEncounters};
 
 for (const key in wildEncounters) {
   if (FILTERS.hasOwnProperty(key)) {
-    FILTERS[key] = `${FILTERS[key]}-${wildEncounters[key]}`;
+    FILTERS[key] = [`${FILTERS[key][0]}-${wildEncounters[key]}`];
   } else {
     FILTERS[key] = wildEncounters[key]
   }

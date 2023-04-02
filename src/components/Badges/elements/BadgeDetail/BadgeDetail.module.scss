@@ -102,20 +102,6 @@
       }
     }
     
-    .stat::before {
-      content: "Total Stats";
-      padding-left: 90px;
-      margin-right: 90px;
-      font-weight: bold;
-      color: var(--contrast);
-    }
-
-    .stat::after {
-      content: "IVs / EVs";
-      margin-left: 90px;
-      font-weight: bold;
-      color: var(--contrast);
-    }
 
     
     .extendedDetails {
@@ -129,21 +115,54 @@
       > div {
         flex: 1;
       }
-
-      .iv {
+      .titleContainer {
         display: grid;
-        grid-template-rows: var(--spacing-6) var(--spacing-0) minmax(0, 1fr);
+        grid-template-columns: auto auto;
+        row-gap: var(--spacing-2);
+        
+      }
+      
+      .ivEv {
+        display: grid;
+        grid-template-rows: var(--spacing-6);
         flex: 1 1 15%;
         align-items: left;
         font-size: var(--font-size-4);
         color: var(--contrast);
+        
+        .addStats {
+          font-weight: bold;
+          color: var(--contrast);
+          display: block;
+          margin-right: var(--spacing-6);
+          margin-left: var(--spacing-9);
+          margin-top: var(--spacing-1);
+          margin-bottom: var(--spacing-1);
+          align-items: center;
+        }
+      }
+      
+      .stats .totalStats {
+        font-weight: bold;
+        color: var(--contrast);
+        display: block;
+        grid-row: 1;
+        grid-column: 1 / 4;
+        margin-right: var(--spacing-6);
+        margin-left: var(--spacing-9);
+        margin-top: var(--spacing-1);
+        margin-bottom: var(--spacing-1);
+        align-items: center;
       }
 
       .stats {
         display: grid;
         grid-template-columns: var(--spacing-9) var(--spacing-8) minmax(0, 1fr);
+        grid-template-rows: auto;
         flex: 1 1 20%;
         font-size: var(--font-size-4);
+        
+        
         .statLabel {
           color: var(--contrast);
         }
