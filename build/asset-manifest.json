@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5411384.css",
-    "main.js": "/static/js/main.9a66400a.js",
+    "main.css": "/static/css/main.3e94e536.css",
+    "main.js": "/static/js/main.0dfc0dfe.js",
     "static/js/255.b66b8e8c.chunk.js": "/static/js/255.b66b8e8c.chunk.js",
     "static/media/pokemon.png": "/static/media/pokemon.780298691c6b6f73424e.png",
     "static/media/pokemon-shiny.png": "/static/media/pokemon-shiny.b53090fa2e7d8aeca7e5.png",
@@ -22,12 +22,8 @@
     "static/media/outline-icons.ttf": "/static/media/outline-icons.5367103510b27b784827.ttf",
     "static/media/outline-icons.woff": "/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/fainted.svg": "/static/media/fainted.7678a0a7dac0c35721ffcf08c1fe8021.svg",
+    "static/media/Sky.jpg": "/static/media/Sky.76de1d358f7d81655130.jpg",
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
-    "static/media/Crag.JPG": "/static/media/Crag.ebf4dd4bdb0aeeb595e7.JPG",
-    "static/media/google-play-badge.png": "/static/media/google-play-badge.9501abd32c77d45c2c46.png",
-    "static/media/Grass.JPG": "/static/media/Grass.376a34dba110bb6e0faa.JPG",
-    "static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg": "/static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.51aaa06a208ecbc0e99080714633e8a2.svg",
-    "static/media/Sky.JPG": "/static/media/Sky.19a1178a57661d20ad42.JPG",
     "static/media/team.svg": "/static/media/team.3f13f6e5bea772e877e734ea0b440bf0.svg",
     "static/media/caught.svg": "/static/media/caught.9d724bddc5612e62531bd7176ba87a2f.svg",
     "static/media/failed.svg": "/static/media/failed.a91bc86fd946760bc17b6d9839065fa4.svg",
@@ -42,7 +38,6 @@
     "static/media/psychic.svg": "/static/media/psychic.78ea819345ee106910c7a7a3e1222b28.svg",
     "static/media/flying.svg": "/static/media/flying.a6f5705a5d4c9e22c00be522cc416b2c.svg",
     "static/media/poison.svg": "/static/media/poison.5a7ee939be7ec8cd612d94c328c61621.svg",
-    "static/media/English_get.svg": "/static/media/English_get.3dc823b0f450f4000b7325fd53858148.svg",
     "static/media/ghost.svg": "/static/media/ghost.64cabe83ebc21730e6757ff1a067441e.svg",
     "static/media/water.svg": "/static/media/water.718e15517643328ffd0e95c033dae992.svg",
     "static/media/ice.svg": "/static/media/ice.e0288009e9d96423f19895862e907d28.svg",
@@ -54,12 +49,12 @@
     "static/media/dark.svg": "/static/media/dark.db620f393eba5193bb25532df5b346e6.svg",
     "static/media/normal.svg": "/static/media/normal.fde99fed5894d4079a2bc1307dff4d7e.svg",
     "static/media/electric.svg": "/static/media/electric.46b4601a5ec401b7ceb5889a95e88708.svg",
-    "main.a5411384.css.map": "/static/css/main.a5411384.css.map",
-    "main.9a66400a.js.map": "/static/js/main.9a66400a.js.map",
+    "main.3e94e536.css.map": "/static/css/main.3e94e536.css.map",
+    "main.0dfc0dfe.js.map": "/static/js/main.0dfc0dfe.js.map",
     "255.b66b8e8c.chunk.js.map": "/static/js/255.b66b8e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5411384.css",
-    "static/js/main.9a66400a.js"
+    "static/css/main.3e94e536.css",
+    "static/js/main.0dfc0dfe.js"
   ]
 }
