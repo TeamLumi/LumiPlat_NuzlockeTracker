@@ -24,6 +24,8 @@ All Pokémon included up to generation 8.
 
 Built with ReactJS, Create-React-App, Zustand and Semantic UI.
 
+For best results use incognito mode and export your teams with the export button frequently.
+
 ⚠️DO NOT USE ANY POKEMON WITH A BAD EGG IMAGE IN THE CALCULATOR⚠️
 
 ### Discord
