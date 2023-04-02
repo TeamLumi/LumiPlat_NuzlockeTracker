@@ -1,6 +1,0 @@
-[submodule "src/lumi-calc/calc"]
-	path = src/lumi-calc/calc
-	url = https://github.com/Denmark14/lumi-calc
-[submodule "src/lumi-calc"]
-	path = src/lumi-calc
-	url = https://github.com/Denmark14/lumi-calc
