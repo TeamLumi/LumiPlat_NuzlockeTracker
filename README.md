@@ -1,22 +1,26 @@
-# Luminescent Platinum Nuzlocke Tracker
+# Nuzlocke Tracker
+
+[![CodeQL](https://github.com/diballesteros/nuzlocke/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/diballesteros/nuzlocke/actions/workflows/codeql-analysis.yml) [![Nuzlocke Tracker](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/vrp6hz/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/vrp6hz/runs) [![Netlify Status](https://api.netlify.com/api/v1/badges/1a2636a6-8db8-4386-8033-d280495aaf91/deploy-status)](https://app.netlify.com/sites/nuzlocke/deploys) ![GitHub release](https://img.shields.io/github/release/diballesteros/nuzlocke.svg?style=flat-square) [![Issues](https://img.shields.io/github/issues-raw/diballesteros/nuzlocke.svg?maxAge=25000)](https://github.com/diballesteros/nuzlocke/issues) [![codecov](https://codecov.io/gh/diballesteros/nuzlocke/branch/master/graph/badge.svg?token=SQPSF96J1S)](https://codecov.io/gh/diballesteros/nuzlocke)
 
 ## Table of Contents
 
 - [About](#about)
-  - [Discord](#Discord)
   - [Features](#🚀-features)
   - [How it works](#✨-how-it-works)
 - [Getting started](#getting-started)
+- [Running the tests](#running-the-tests)
+- [Roadmap](#roadmap)
 - [Deployment](#deployment)
 - [Versioning](#versioning)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 - [Legal](#legal)
+- [Contact](#contact)
 
 ## About
 
-https://lumiplat.netlify.app
+https://nuzlocke.netlify.app
 
 Web app to track and record encounters in any Pokémon game. Including custom games!
 
@@ -24,19 +28,11 @@ All Pokémon included up to generation 8.
 
 Built with ReactJS, Create-React-App, Zustand and Semantic UI.
 
-For best results use incognito mode and export your teams with the export button frequently.
-
-⚠️DO NOT USE ANY POKEMON WITH A BAD EGG IMAGE IN THE CALCULATOR⚠️
-
-### Discord
-
-Join us on our [Discord](https://discord.gg/luminescent) to report any features you would like added or any issues that you come up against.
-
 ### 🚀 Features
 
 - Record your encounters with detailed information, including: pokemon, level, gender, ability, nature, item and more!
 - Accurate encounter tables for every location
-- Level caps for all gym leaders and it's customizable!
+- Level caps for all base games - customizable!
 - Add and edit custom games and custom encounter locations
 - Search and filter through all encounters - including only missing encounters
 - Export, import and share Nuzlocke runs with others!
@@ -46,7 +42,7 @@ Join us on our [Discord](https://discord.gg/luminescent) to report any features 
 - Dupes clause alerts
 - Works offline
 - Nickname randomizer
-- Details on all Gym and Elite Four pokémon and even other Bosses (in the calculator) with IVs and EVs
+- Details on all gym and Elite Four pokémon for all base games
 - Download a summary image
 - Build an ideal team with the Team Builder!
 - Quick access to details on type effectiveness and natures
@@ -99,8 +95,8 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/TeamLumi/LumiPlat_NuzlockeTracker.git
-   cd LumiPlat_NuzlockeTracker
+   git clone https://github.com/diballesteros/nuzlocke.git
+   cd nuzlocke
    ```
 2. Install NPM packages
    ```sh
@@ -127,13 +123,21 @@ This will run the unit tests:
 yarn test
 ```
 
+## Roadmap
+
+See the [open issues](https://github.com/diballesteros/nuzlocke/issues) for a list of proposed features (and known issues).
+
 ## Deployment
 
 The project automatically deploys to [Netlify](https://www.netlify.com/) when changes are detected on the **master** branch.
 
+## Versioning
+
+We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags](https://github.com/diballesteros/nuzlocke/releases) on this repository.
+
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/TeamLumi/LumiPlat_NuzlockeTracker/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/diballesteros/nuzlocke/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
@@ -153,3 +157,6 @@ This project is licensed under the BSD-3-Clause License - see the [LICENSE](http
 
 Pokémon © 2002-2021 Pokémon. © 1995-2021 Nintendo/Creatures Inc./GAME FREAK inc. TM, ® and Pokémon character names are trademarks of Nintendo.
 
+## Contact
+
+Diego Ballesteros - [@relatablecoder](https://twitter.com/relatablecoder) - diballesteros@gmail.com
