@@ -5,6 +5,7 @@ import { ReactComponent as MicrosoftSVG } from 'assets/svg/English_get.svg';
 import nexus from 'assets/img/nexus-mods-logo.png'
 import styles from './About.module.scss';
 
+
 function About(): JSX.Element {
   const { t } = useTranslation('about');
   return (
@@ -23,6 +24,34 @@ function About(): JSX.Element {
             How data storage works
           </a>
         </p>
+        <div>
+          <h3>Features:</h3>
+          <ul>
+            <li>Record your encounters with detailed information, including: pokemon, level, gender, ability, nature, item and more!</li>
+            <li>Accurate encounter tables for every location</li>
+            <li>Level caps for all gym leaders and it's customizable!</li>
+            <li>Add and edit custom games and custom encounter locations</li>
+            <li>Search and filter through all encounters - including only missing encounters</li>
+            <li>Export, import and share Nuzlocke runs with others!</li>
+            <li>Fully integrated damage calculator</li>
+            <li>Share, add and edit custom rules and rulesets - including smart rules that alert if they're broken</li>
+            <li>View overview and summary of your nuzlocke run</li>
+            <li>Dupes clause alerts</li>
+            <li>Works offline</li>
+            <li>Nickname randomizer</li>
+            <li>Details on all Gym and Elite Four pokémon and even other Bosses (in the calculator) with IVs and EVs</li>
+            <li>Download a summary image</li>
+            <li>Build an ideal team with the Team Builder!</li>
+            <li>Quick access to details on type effectiveness and natures</li>
+            <li>Encounter suggestions</li>
+            <li>Soul Link integrations</li>
+            <li>Warnings/Suggestions:</li>
+            <ul>
+              <li><b>⚠️DO NOT USE ANY POKEMON WITH A BAD EGG IMAGE IN THE CALCULATOR⚠️</b></li>
+              <li>For best results use incognito mode and export your teams with the export button frequently.</li>
+            </ul>
+          </ul>
+        </div>
         <h3>{t('credits')}:</h3>
         <ul className={styles.credits}>
           <li>
