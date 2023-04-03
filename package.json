@@ -56,7 +56,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
-    "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./src/lumi-calc/calc && npm i && cd ./src/lumi-calc/import && npm i"
+    "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./calc && npm i && cd ../import && npm i"
   },
   "eslintConfig": {
     "extends": [
