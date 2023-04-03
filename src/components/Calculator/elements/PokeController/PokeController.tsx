@@ -146,7 +146,6 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
               data-testid="gym-filter"
               disabled={derivedShow}
               inline
-              fluid
               labeled
               onChange={(e, data) => setSelectedDetail(data.value)}
               options={detailsToOptions}
