@@ -1,6 +1,3 @@
-import fs from 'fs'
-import path from 'path'
-console.log(fs.readFileSync(path.join(__dirname, 'lumi-calc', 'dist', 'calc')));
 import { Pokemon } from '../../../../lumi-calc/dist/calc';
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
