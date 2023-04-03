@@ -1,4 +1,4 @@
-import { Result } from 'lumi-calc/dist/calc/index.js';
+import { Result } from 'lumi_calc/dist/calc/index.js';
 import { assertIndex, assertResult, getPokemon, getResults } from 'hooks/useCalculate';
 import { getDesc } from './elements/CalculatorHeader/CalculatorHeader';
 
