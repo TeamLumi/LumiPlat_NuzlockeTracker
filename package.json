@@ -56,8 +56,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
-    "generate-data": "cd .\\src\\lumi-calc\\ && npm run predeploy && cd .. && npm run create-pokemon",
-    "create-pokemon": "node ./src/tasks/convertCalcFilesToTracker.js"
+    "generate-data": "cd .\\src\\lumi-calc\\ && npm run predeploy && cd .. && npm run create-pokemon"
   },
   "eslintConfig": {
     "extends": [
