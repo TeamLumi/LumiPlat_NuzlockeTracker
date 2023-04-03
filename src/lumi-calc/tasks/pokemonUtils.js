@@ -132,19 +132,12 @@ function getGender(sex) {
 }
 
 function getMoveString(id = 0) {
-    const str = makeSmogonCompatible(moveEnum[id], id);
-    return str;
-}
-
-function makeSmogonCompatible(str, id) {
-    let s = str
-        .replaceAll('’', "\'");
-
-    if (!isSmogonCompatible(s)) {
-        throw Error(`Incompatible move string found: ID - ${id}, String: ${str}, ${s}`)
+    const str = moveEnum[id];
+    if (!isSmogonCompatible(str)) {
+        throw Error(`Incompatible move string found: ID - ${id}, String: ${str}`)
     }
 
-    return s;
+    return str;
 }
 
 function generateMovesViaLearnset(monsNo, level) {
