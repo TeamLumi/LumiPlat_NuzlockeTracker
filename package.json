@@ -50,14 +50,13 @@
     "start": "react-scripts start",
     "httpss": "HTTPS=true react-scripts start",
     "develop:ci": "CHOKIDAR_USEPOLLING=1 react-scripts -r @cypress/instrument-cra start --config-file=cypress.config.ts",
-    "build": "react-scripts build",
+    "build": "npm run build-calc && react-scripts build",
     "e2e": "cypress open",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
-    "generate-data": "cd .\\src\\lumi-calc\\ && npm run predeploy && cd .. && npm run create-pokemon",
-    "create-pokemon": "node ./src/tasks/convertCalcFilesToTracker.js"
+    "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./src/lumi-calc/calc && npm i && cd ./src/lumi-calc/import && npm i"
   },
   "eslintConfig": {
     "extends": [

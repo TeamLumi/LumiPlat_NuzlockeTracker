@@ -15292,7 +15292,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "0": "Sand Force"
     },
     "otherFormes": [
-      "Shellos East Sea"
+      "East Sea"
     ]
   },
   "Gastrodon": {
@@ -27234,27 +27234,6 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "Sunshine Form"
     ],
     "baseSpecies": "Cherrim"
-  },
-  "Shellos East Sea": {
-    "types": [
-      "Water"
-    ],
-    "bs": {
-      "hp": 76,
-      "at": 48,
-      "df": 48,
-      "sa": 57,
-      "sd": 62,
-      "sp": 34
-    },
-    "weightkg": 6.3,
-    "abilities": {
-      "0": "Sand Force"
-    },
-    "otherFormes": [
-      "Shellos East Sea"
-    ],
-    "baseSpecies": "Shellos"
   },
   "East Sea": {
     "types": [

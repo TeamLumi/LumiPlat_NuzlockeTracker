@@ -15,5 +15,6 @@
     "strict": true,
     "target": "es3",
     "removeComments": true,
+    "skipLibCheck": true
   }
 }
