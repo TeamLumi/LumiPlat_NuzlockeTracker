@@ -1,4 +1,4 @@
-import { Pokemon } from 'lumi-calc/calc/dist';
+import { Pokemon } from '../../../../lumi-calc/dist/calc';
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Radio from 'semantic-ui-react/dist/commonjs/addons/Radio';
@@ -121,7 +121,8 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   <PokemonType pokemon={poke} />
                   {!!pokemon?.ability && (
                     <div className={styles.pokemonLabel}>
-                      <span className={styles.value}>{t('ability')}: {pokemon?.ability}</span>
+                      <span className={styles.value}>{t('ability')}:</span> 
+                      <span className={styles.value}>{pokemon?.ability}</span>                      
                     </div>
                   )}
                   {!!pokemon?.item && (
@@ -137,10 +138,10 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   )}
                 </div>
               </div>
-              <span className={styles.stat}></span>
               <div className={styles.extendedDetails}>
                 {stats?.stats && (
                   <div className={styles.stats}>
+                    <span className={styles.totalStats}>Total Stats</span>
                     {Object.entries(stats.stats).map(([key, value]) => (
                       <React.Fragment key={`${key}-${value}`}>
                         <span className={styles.statLabel}>{key.toUpperCase()}:</span>
@@ -159,6 +160,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                 )}
                 {stats?.ivs && stats?.evs && (
                   <div className={styles.ivEv}>
+                    <span className={styles.addStats}>IVs / EVs</span>
                     {Object.keys(stats.ivs).map((key) => (
                       <div key={key} className={styles.ivEvWrapper}>
                         <span className={styles.iv}>

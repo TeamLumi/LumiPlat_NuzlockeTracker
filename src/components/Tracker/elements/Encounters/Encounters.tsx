@@ -234,7 +234,7 @@ const Encounters = React.memo(function Encounters() {
           <div className={styles.list} data-testid="encounters-list">
             {/* @ts-ignore */}
             <FixedSizeList
-              height={690}
+              height={4000}
               itemCount={filteredEncounters?.length}
               itemSize={itemSize}
               ref={listRef}
