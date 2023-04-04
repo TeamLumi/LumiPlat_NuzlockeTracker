@@ -7,7 +7,7 @@ const ExtraPokemon: TPokemon[] = [
         "value": 412,
         "text": "Burmy",
         "type": "BUG",
-        "evolve": [ 412, 413, 414, 1061, 1062, 1063, 1064 ],
+        "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
@@ -15,7 +15,7 @@ const ExtraPokemon: TPokemon[] = [
         "text": "Wormadam",
         "type": "BUG",
         "dualtype": "GRASS",
-        "evolve": [ 412, 413, 1061, 1062, 1063, 1064 ],
+        "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
@@ -27,48 +27,33 @@ const ExtraPokemon: TPokemon[] = [
         "generation": 8
     },
     {
-        "value": 1061,
+        "value": 1172,
         "text": "Burmy Sandy Cloak",
         "type": "BUG",
-        "evolve": [ 412, 413, 414, 1061, 1062, 1063, 1064 ],
+        "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
-        "value": 1062,
+        "value": 1173,
         "text": "Burmy Trash Cloak",
         "type": "BUG",
-        "evolve": [ 412, 413, 414, 1061, 1062, 1063, 1064 ],
+        "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
-        "value": 1063,
+        "value": 1174,
         "text": "Wormadam Sandy Cloak",
         "type": "BUG",
         "dualtype": "GROUND",
-        "evolve": [ 412, 413, 1061, 1062, 1063, 1064 ],
+        "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
-        "value": 1064,
+        "value": 1175,
         "text": "Wormadam Trash Cloak",
         "type": "BUG",
         "dualtype": "STEEL",
-        "evolve": [ 412, 413, 1061, 1062, 1063, 1064 ],
-        "generation": 8
-    },
-    {
-        "value": 1066,
-        "text": "Shellos (East)",
-        "type": "WATER",
-        "evolve": [ 422, 423, 1066, 1067 ],
-        "generation": 8
-    },
-    {
-        "value": 1067,
-        "text": "Gastrodon (East)",
-        "type": "WATER",
-        "dualtype": "GROUND",
-        "evolve": [ 422, 423, 1066, 1067 ],
+        "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8
     },
     {
@@ -76,15 +61,15 @@ const ExtraPokemon: TPokemon[] = [
         "text": "Onix",
         "type": "ROCK",
         "dualtype": "GROUND",
-        "evolve": [ 95, 208, 1023 ],
+        "evolve": [ 95, 208, 1134 ],
         "generation": 8
     },
     {
-        "value": 969,
+        "value": 1074,
         "text": "Crystal Onix",
         "type": "ROCK",
         "dualtype": "ICE",
-        "evolve": [ 969 ],
+        "evolve": [ 1074 ],
         "generation": 8
     },
     {
@@ -92,67 +77,37 @@ const ExtraPokemon: TPokemon[] = [
         "text": "Steelix",
         "type": "STEEL",
         "dualtype": "GROUND",
-        "evolve": [ 95, 208, 1023 ],
+        "evolve": [ 95, 208, 1134 ],
         "generation": 8
     },
     {
-        "value": 1023,
+        "value": 1134,
         "text": "Mega Steelix",
         "type": "STEEL",
         "dualtype": "GROUND",
-        "evolve": [ 95, 208, 1023 ],
+        "evolve": [ 95, 208, 1134 ],
         "generation": 8
     },
     {
-        "value": 1104,
-        "text": "Galarian Darumaka",
+        "value": 1215,
+        "text": "Darumaka Galarian Darumaka",
         "type": "ICE",
-        "evolve": [ 1104, 1106, 1107 ],
+        "evolve": [ 1215, 1217, 1218 ],
         "generation": 8
     },
     {
-        "value": 1105,
-        "text": "Zen Mode",
-        "type": "FIRE",
-        "dualtype": "PSYCHIC",
-        "evolve": [ 554, 555, 1105 ],
-        "generation": 8
-    },
-    {
-        "value": 1106,
-        "text": "Galarian Standard Mode",
+        "value": 1217,
+        "text": "Darmanitan Galarian Standard Mode",
         "type": "ICE",
-        "evolve": [ 1104, 1106, 1107 ],
+        "evolve": [ 1215, 1217, 1218 ],
         "generation": 8
     },
     {
-        "value": 1107,
-        "text": "Galarian Zen Mode",
+        "value": 1218,
+        "text": "Darmanitan Galarian Zen Mode",
         "type": "FIRE",
         "dualtype": "ICE",
-        "evolve": [ 1104, 1106, 1107 ],
-        "generation": 8
-    },
-    {
-        "value": 554,
-        "text": "Darumaka",
-        "type": "FIRE",
-        "evolve": [ 554, 555, 1105 ],
-        "generation": 8
-    },
-    {
-        "value": 555,
-        "text": "Darmanitan",
-        "type": "FIRE",
-        "evolve": [ 554, 555, 1105 ],
-        "generation": 8
-    },
-    {
-        "value": 905,
-        "text": "Enamorus",
-        "type": "FAIRY",
-        "dualtype": "FLYING",
-        "evolve": [ 905, 1344 ],
+        "evolve": [ 1215, 1217, 1218 ],
         "generation": 8
     }
 ]
