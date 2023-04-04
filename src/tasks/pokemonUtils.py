@@ -114,6 +114,7 @@ def make_ability_object(ha):
 
 def get_pokemon_name(mons_no = 0):
     try:
+        pokemon_name = ""
         if mons_no < len(name_data["labelDataArray"]):
             pokemon_name = name_data["labelDataArray"][mons_no]["wordDataArray"][0]["str"]
         else:
