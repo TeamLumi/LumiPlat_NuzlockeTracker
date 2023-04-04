@@ -33,6 +33,7 @@
     "i18next": "^22.4.10",
     "immer": "^9.0.15",
     "path": "^0.12.7",
+    "python3": "^0.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^11.18.6",
@@ -57,7 +58,7 @@
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
     "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./calc && npm i && cd ../import && npm i && cd .. && npm run build",
-    "convert-data": "python ./src/tasks/convert_lmpt_data.py"
+    "convert-data": "python3 ./src/tasks/convert_lmpt_data.py"
   },
   "eslintConfig": {
     "extends": [

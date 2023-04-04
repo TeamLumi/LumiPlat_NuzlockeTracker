@@ -1,6 +1,8 @@
 import data from 'tasks/output/Encounter_output.json'
 
-const staticEncounters: { [key in string]: string[] } = {
+type EncounterTable = {[key in string]: string[]}
+
+const staticEncounters: EncounterTable = {
   'lmpt-0': ['Turtwig', 'Chimchar', 'Piplup'],
   'lmpt-1': ['Eevee'],
   'lmpt-3': ['Eevee'],
@@ -31,7 +33,7 @@ const staticEncounters: { [key in string]: string[] } = {
   'lmpt-11': ['Omanyte', 'Kabuto', 'Lileep', 'Anorith', 'Shieldon', 'Cranidos', 'Aerodactyl'],
   'lmpt-14': ['Chikorita', 'Cyndaquil', 'Totodile'],
   'lmpt-19': ['Porygon'],
-  'lmpt-20': ['Stiched Gengar', 'Rotom'],
+  'lmpt-20': ['Stitched Gengar', 'Rotom'],
   'lmpt-22': ['Gabite'],
   'lmpt-27': [
     'Pichu',
@@ -170,17 +172,20 @@ const staticEncounters: { [key in string]: string[] } = {
   'lmpt-106': ['Arceus'],
 };
 
-const wildEncounters: { [key in string]: string[] } = data;
+const wildEncounters: EncounterTable = data;
 
-const FILTERS = {...staticEncounters};
+const FILTERS: EncounterTable = {}
 
-for (const key in wildEncounters) {
-  if (FILTERS.hasOwnProperty(key)) {
-    FILTERS[key] = [`${FILTERS[key][0]}-${wildEncounters[key]}`];
-  } else {
-    FILTERS[key] = wildEncounters[key]
-  }
+for (const [routeId, encounters] of Object.entries(wildEncounters)) {
+  FILTERS[routeId] = encounters;
 }
 
+
+for (const [routeId, encounters] of Object.entries(staticEncounters)) {
+  if(!Object.hasOwn(wildEncounters, routeId)) {
+    FILTERS[routeId] = [];
+  }
+  FILTERS[routeId].push(...encounters)
+}
 
 export default FILTERS;
