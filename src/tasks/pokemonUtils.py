@@ -128,16 +128,18 @@ def get_pokemon_name(mons_no = 0):
         print(mons_no, e)
 
 def get_form_name(id):
-    if id == 1131:
+    if id == 1242:
         return 'Ash-Greninja'
-    elif id == 1174:
+    elif id == 1285:
         return 'Meowstic-F'
-    elif id == 1199:
+    elif id == 1310:
         return 'Rockruff Own-Tempo'
-    elif id == 1330:
+    elif id == 1441:
         return 'Indeedee-F'
-    elif id == 1343:
+    elif id == 1454:
         return 'Basculegion-F'
+    elif id == 1456:
+        return 'Oinkologne-F'
     else:
         name = form_namedata['labelDataArray'][id]['wordDataArray'][0]['str']
         if(name == ""):
