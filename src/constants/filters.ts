@@ -182,7 +182,7 @@ for (const [routeId, encounters] of Object.entries(wildEncounters)) {
 
 
 for (const [routeId, encounters] of Object.entries(staticEncounters)) {
-  if(!Object.hasOwn(wildEncounters, routeId)) {
+  if(!Object.hasOwnProperty(wildEncounters, routeId)) {
     FILTERS[routeId] = [];
   }
   FILTERS[routeId].push(...encounters)
