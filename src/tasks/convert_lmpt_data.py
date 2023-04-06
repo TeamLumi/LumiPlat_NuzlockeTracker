@@ -49,6 +49,7 @@ def load_data():
         "routes": os.path.join(resources_filepath, "Routes.json"),
         "gym_leaders": os.path.join(resources_filepath, "NewGymLeaders.json"),
         "honey_routes": os.path.join(resources_filepath, "honeyroutes.json"),
+        "name_routes": os.path.join(resources_filepath, "NameRoutes.json"),
     }
     for name, filepath in files.items():
         data[name] = load_json_from_file(filepath)
@@ -147,18 +148,19 @@ def HoneyTreeData():
                     honey_trees[honey_routes[key]] = values
     return(honey_trees)
 
-def bad_encounter_data(pkmn_name, route):
-    print('BAD ENCOUNTER', pkmn_name, route)
-    bad_encounters.append({pkmn_name, route})
+def bad_encounter_data(pkmn_name, routeName, route):
+    print('BAD ENCOUNTER', pkmn_name, routeName, route)
+    bad_encounters.append({pkmn_name, routeName, route})
     return
 
 def getEncounterData():
     full_data = load_data()
-    data, pokedex, routeNames, diff_forms = (
+    data, pokedex, routeNames, diff_forms, name_routes = (
         full_data["raw_encounters"],
         full_data["pokedex"],
         full_data["routes"],
-        full_data["diff_forms"]
+        full_data["diff_forms"],
+        full_data["name_routes"]
     )
 
     routes = {}
@@ -203,10 +205,10 @@ def getEncounterData():
                                                     
                                                     pokemonPersonalId = get_form_pokemon_personal_id(dexNum, temp_form_no)
 
-                                                    if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId)):
-                                                        bad_encounter_data(get_form_name(pokemonPersonalId), route)
+                                                    if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId) or "Totem " in get_form_name(pokemonPersonalId)):
+                                                        bad_encounter_data(get_form_name(pokemonPersonalId), name_routes[key1], route)
                                                     elif pkmn_key not in diff_forms.keys():
-                                                        bad_encounter_data(pokedex[str(dexNum)], route)
+                                                        bad_encounter_data(pokedex[str(dexNum)], name_routes[key1], route)
                                                     else:
                                                         routes[key1].append(diff_forms[pkmn_key][1])
                                                         routes[key1] = list(set(routes[key1]))

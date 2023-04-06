@@ -54,9 +54,10 @@ function getFormName(id) {
         default:
             let name = formNames.labelDataArray[id].wordDataArray[0].str;
             const dexNum = formNames.labelDataArray[id].labelName.slice(-7, -4);
-            if (name === "") return get_pokemon_name(id);
-            if (!get_pokemon_name(Number(dexNum)).includes(name)) {
-                name = get_pokemon_name(int(dexNum)) + ' ' + name
+            const formName = getPokemonName(parseInt(dexNum))
+            if (name === "") return getPokemonName(id);
+            if (!name.includes(formName)) {
+                name = formName + ' ' + name
             }
             return name
     }
@@ -86,25 +87,6 @@ function isSmogonCompatible(str) {
     }
 
     return false;
-}
-
-function getFormName(id) {
-    switch (id) {
-        case 1131:
-            return 'Ash-Greninja'
-        case 1174:
-            return 'Meowstic-F'
-        case 1199:
-            return 'Rockruff Own-Tempo'
-        case 1330:
-            return 'Indeedee-F'
-        case 1343:
-            return 'Basculegion-F'
-        case 1456:
-            return 'Oinkologne-F'            
-        default:
-            return formNames.labelDataArray[id].wordDataArray[0].str;
-    }
 }
 
 function getMoveId(moveName) {
