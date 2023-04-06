@@ -25,7 +25,7 @@ function makeAbilityObject(ha) {
     return { 0: abilitiyString };
 }
 
-function getPokemonName(monsNo) {
+function getPokemonName(monsNo = 0) {
     try {
         const pokemonName = NameData.labelDataArray[monsNo].wordDataArray[0].str;
         pokemonName.replace('♀', '-F')
@@ -52,11 +52,11 @@ function getFormName(id) {
         case 1456:
             return 'Oinkologne-F'
         default:
-            const name = formNames.labelDataArray[id].wordDataArray[0].str;
+            let name = formNames.labelDataArray[id].wordDataArray[0].str;
             const dexNum = formNames.labelDataArray[id].labelName.slice(-7, -4);
             if (name === "") return get_pokemon_name(id);
-            if (!name.includes(get_pokemon_name(Number(dexNum)))) {
-                const name = get_pokemon_name(int(dexNum)) + ' ' + name
+            if (!get_pokemon_name(Number(dexNum)).includes(name)) {
+                name = get_pokemon_name(int(dexNum)) + ' ' + name
             }
             return name
     }
@@ -86,6 +86,25 @@ function isSmogonCompatible(str) {
     }
 
     return false;
+}
+
+function getFormName(id) {
+    switch (id) {
+        case 1131:
+            return 'Ash-Greninja'
+        case 1174:
+            return 'Meowstic-F'
+        case 1199:
+            return 'Rockruff Own-Tempo'
+        case 1330:
+            return 'Indeedee-F'
+        case 1343:
+            return 'Basculegion-F'
+        case 1456:
+            return 'Oinkologne-F'            
+        default:
+            return formNames.labelDataArray[id].wordDataArray[0].str;
+    }
 }
 
 function getMoveId(moveName) {

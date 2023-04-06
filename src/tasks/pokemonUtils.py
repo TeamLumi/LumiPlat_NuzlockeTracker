@@ -141,6 +141,8 @@ def get_form_name(id):
         return 'Basculegion-F'
     elif id == 1456:
         return 'Oinkologne-F'
+    elif id == 1067:
+        return "Galarian Farfetch'd"
     else:
         name = form_namedata['labelDataArray'][id]['wordDataArray'][0]['str']
         dexNum = form_namedata['labelDataArray'][id]['labelName'][-7:-4]

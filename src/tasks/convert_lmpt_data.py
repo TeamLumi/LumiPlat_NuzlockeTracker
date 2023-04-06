@@ -353,20 +353,34 @@ def getPokedexInfo():
     evolutions = pathfinding()
     diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
     for pokemon in evolutions.keys():
-        poke_info = get_pokemon_info(pokemon)
-        poke_name = get_pokemon_name(pokemon)
-        dex_info = {
-            "value": pokemon,
-            "text": poke_name,
-            "type": poke_info["type"].upper()
-            }
-        if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-            dex_info["dualtype"] = poke_info["dualtype"].upper()
-        dex_info["evolve"] = evolutions[pokemon]["path"]
-        dex_info["generation"] = 8
+        if pokemon < 1456:
+            if pokemon < 905:
+                poke_info = get_pokemon_info(pokemon)
+                poke_name = get_pokemon_name(pokemon)
+                dex_info = {
+                    "value": pokemon,
+                    "text": poke_name,
+                    "type": poke_info["type"].upper()
+                    }
+                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+                    dex_info["dualtype"] = poke_info["dualtype"].upper()
+                dex_info["evolve"] = evolutions[pokemon]["path"]
+                dex_info["generation"] = 8
+            if pokemon > 1010:
+                poke_info = get_pokemon_info(pokemon)
+                poke_name = get_pokemon_name(pokemon)
+                dex_info = {
+                    "value": pokemon,
+                    "text": poke_name,
+                    "type": poke_info["type"].upper()
+                    }
+                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+                    dex_info["dualtype"] = poke_info["dualtype"].upper()
+                dex_info["evolve"] = evolutions[pokemon]["path"]
+                dex_info["generation"] = 8
 
 
-        pokedex.append(dex_info)
+            pokedex.append(dex_info)
     with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex

@@ -443,11 +443,7 @@ export const SPECIAL_NAMES: Record<string, string> = {
 
 export const SMOGON_NAMES: Record<string, string> = {
   'Nidoran-F': 'Nidoran♀',
-  'Nidoran-M': 'Nidoran♂',
-  'Cherrim Sunshine Form': 'Sunshine Form',
-  'Shellos East Sea': 'Shellos East Sea',
-  'Gastrodon East Sea': 'East Sea',
-  
+  'Nidoran-M': 'Nidoran♂'  
 };
 
 export const EXTRA_ITEMS = ['Amulet Coin', 'Soothe Bell', 'Exp. Share'];
