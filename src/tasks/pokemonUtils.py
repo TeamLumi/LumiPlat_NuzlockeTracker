@@ -20,6 +20,7 @@ move_info_file_path = os.path.join(parent_file_path, 'input', 'english_ss_wazain
 pkmn_height_file_path = os.path.join(parent_file_path, 'input', 'english_ss_zkn_height.json')
 pkmn_weight_file_path = os.path.join(parent_file_path, 'input', 'english_ss_zkn_weight.json')
 item_table_file_path = os.path.join(parent_file_path, 'input', 'ItemTable.json')
+output_file_path =os.path.join(parent_file_path, "src", "tasks", "output")
 
 move_enum = 0
 name_data = 0
@@ -142,8 +143,11 @@ def get_form_name(id):
         return 'Oinkologne-F'
     else:
         name = form_namedata['labelDataArray'][id]['wordDataArray'][0]['str']
+        dexNum = form_namedata['labelDataArray'][id]['labelName'][-7:-4]
         if(name == ""):
             return get_pokemon_name(id)
+        if(get_pokemon_name(int(dexNum)) not in name):
+            return get_pokemon_name(int(dexNum)) + ' ' + name
         return name
     
 def get_item_string(item_id):

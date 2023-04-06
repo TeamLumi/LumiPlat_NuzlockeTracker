@@ -352,15 +352,9 @@ def getPokedexInfo():
     pokedex = []
     evolutions = pathfinding()
     diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
-    forms = GenForms()
     for pokemon in evolutions.keys():
         poke_info = get_pokemon_info(pokemon)
         poke_name = get_pokemon_name(pokemon)
-        for key, value in forms.items():
-            if value == pokemon:
-                monsno = key[-7:-4]
-                if get_pokemon_name(int(monsno)) not in poke_name:
-                    poke_name = get_pokemon_name(int(monsno)) + ' ' + poke_name
         dex_info = {
             "value": pokemon,
             "text": poke_name,

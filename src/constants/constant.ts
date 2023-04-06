@@ -368,20 +368,20 @@ export const SPECIAL_NAMES: Record<string, string> = {
   'Tapu Lele': 'tapu-lele',
   'Tapu Bulu': 'tapu-bulu',
   'Tapu Fini': 'tapu-fini',
-  'Shellos (East)': 'shellos-east',
-  'Gastrodon (East)': 'gastrodon-east',
+  'Shellos East Sea': 'shellos-east',
+  'Gastrodon East Sea': 'gastrodon-east',
   'Heat Rotom': 'rotom-heat',
   'Wash Rotom': 'rotom-wash',
   'Frost Rotom': 'rotom-frost',
   'Fan Rotom': 'rotom-fan',
   'Mow Rotom': 'rotom-mow',
-  'Sunshine Form': 'cherrim-sunshine',
-  'Rainy Form': 'castform-rain',
-  'Snowy Form': 'castform-hail',
-  'Sunny Form': 'castform-sun',
-  'School Form': 'wishiwashi',
-  'Dusk Form': 'lycanroc-dusk',
-  'Midnight Form': 'lycanroc-midnight',
+  'Cherrim Sunshine Form': 'cherrim-sunshine',
+  'Castform Rainy Form': 'castform-rain',
+  'Castform Snowy Form': 'castform-hail',
+  'Castform Sunny Form': 'castform-sun',
+  'Wishiwashi School Form': 'wishiwashi',
+  'Lycanroc Dusk Form': 'lycanroc-dusk',
+  'Lycanroc Midnight Form': 'lycanroc-midnight',
   
   
   'Alolan Rattata': 'rattata-alola',
@@ -444,9 +444,9 @@ export const SPECIAL_NAMES: Record<string, string> = {
 export const SMOGON_NAMES: Record<string, string> = {
   'Nidoran-F': 'Nidoran♀',
   'Nidoran-M': 'Nidoran♂',
-  'Cherrim Sunshine': 'Sunshine Form',
-  'Shellos (East)': 'Shellos East Sea',
-  'Gastrodon (East)': 'East Sea',
+  'Cherrim Sunshine Form': 'Sunshine Form',
+  'Shellos East Sea': 'Shellos East Sea',
+  'Gastrodon East Sea': 'East Sea',
   
 };
 
