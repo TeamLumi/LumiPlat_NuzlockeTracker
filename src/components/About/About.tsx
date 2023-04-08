@@ -45,11 +45,7 @@ function About(): JSX.Element {
             <li>Quick access to details on type effectiveness and natures</li>
             <li>Encounter suggestions</li>
             <li>Soul Link integrations</li>
-            <li>Warnings/Suggestions:</li>
-            <ul>
-              <li><b>⚠️DO NOT USE ANY POKEMON WITH A BAD EGG IMAGE IN THE CALCULATOR⚠️</b></li>
-              <li>For best results use incognito mode and export your teams with the export button frequently.</li>
-            </ul>
+            <li>For best results use incognito mode and export your teams with the export button frequently.</li>
           </ul>
         </div>
         <h3>{t('credits')}:</h3>

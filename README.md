@@ -26,8 +26,6 @@ Built with ReactJS, Create-React-App, Zustand and Semantic UI.
 
 For best results use incognito mode and export your teams with the export button frequently.
 
-⚠️DO NOT USE ANY POKEMON WITH A BAD EGG IMAGE IN THE CALCULATOR⚠️
-
 ### Discord
 
 Join us on our [Discord](https://discord.gg/luminescent) to report any features you would like added or any issues that you come up against.
