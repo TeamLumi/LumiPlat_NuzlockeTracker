@@ -356,7 +356,7 @@ def getPokedexInfo():
     diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
     for pokemon in evolutions.keys():
         if pokemon < 1456:
-            if pokemon < 905:
+            if pokemon < 906:
                 poke_info = get_pokemon_info(pokemon)
                 poke_name = get_pokemon_name(pokemon)
                 dex_info = {
