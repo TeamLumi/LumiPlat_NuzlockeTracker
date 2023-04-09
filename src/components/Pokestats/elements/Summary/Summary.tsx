@@ -21,7 +21,7 @@ function Summary(): JSX.Element {
     const newFile = await toast.promise(toPng(summaryRef.current, { cacheBust: true }), {
       pending: 'Generating Image',
       success: t('image_downloaded'),
-      error: 'Image was unable to download',
+      error: t('unable_download'),
     });
     if (newFile) {
       const link = document.createElement('a');
@@ -35,7 +35,7 @@ function Summary(): JSX.Element {
     const newFile = await toast.promise(toBlob(summaryRef.current), {
       pending: 'Generating Image',
       success: t('image_generated'),
-      error: 'Image was unable to generate',
+      error: t('unable_generate'),
     });
     const data = {
       files: [
@@ -54,7 +54,7 @@ function Summary(): JSX.Element {
       toast.promise(navigator.share(data), {
         pending: 'Validating sharing options',
         success: t('share_image'),
-        error: 'Image was unable to share',
+        error: t('unable_share'),
       });
     } catch (err) {
       toast.error<void>(t('unable_share'));

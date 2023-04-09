@@ -12,7 +12,9 @@ import type { Type } from 'constants/types';
 import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
+import useWindowSize from 'hooks/useWindowSize';
 import styles from 'assets/styles/Selector.module.scss';
+
 
 interface PokemonSelectorProps {
   children: React.ReactNode;
@@ -38,6 +40,9 @@ function PokemonSelector({
   const values = useFilter();
   const itemSize = useRemtoPx();
   const toggleShowAllTooltip = useStore(useCallback((state) => state.toggleShowAllTooltip, []));
+  
+  const { height: windowHeight } = useWindowSize();
+  const listHeight = 9 * windowHeight / 16;
 
   const filteredPokemon = useMemo(() => {
     let filtered = POKEMON.filter(
@@ -143,7 +148,7 @@ function PokemonSelector({
         )}
         {/* @ts-ignore */}
         <FixedSizeList
-          height={400}
+          height={listHeight}
           itemCount={filteredPokemon.length}
           itemSize={itemSize}
           width="100%"
