@@ -176,11 +176,11 @@ function App(): JSX.Element {
             <Icon name="upload" />
             {t('import', { ns: 'import' })}
           </Menu.Item>
-          {/*
           <Menu.Item as="div" data-testid="report" onClick={() => handleRoute('/report')}>
             {t('report')}
             <Icon name="bug" />
           </Menu.Item>
+          {/*
           <Menu.Item as="div" data-testid="changelog" onClick={() => handleRoute('/changelog')}>
             Changelog
             {newVersion !== process.env.REACT_APP_VERSION && (
