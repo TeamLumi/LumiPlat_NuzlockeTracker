@@ -11,6 +11,8 @@ import type { PokemonDetail } from 'constants/types';
 import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import styles from 'assets/styles/Selector.module.scss';
+import useWindowSize from 'hooks/useWindowSize';
+
 
 interface DetailSelectorProps {
   children: React.ReactNode;
@@ -29,6 +31,8 @@ function DetailSelector({
   const [open, setOpen] = useState(false);
   const itemSize = useRemtoPx();
   const values = useFilter();
+  const { height: windowHeight } = useWindowSize();
+  const listHeight = 9 * windowHeight / 16;
   const filteredEncounters = details?.filter((p) => {
     const foundPokemon = POKEMAP.get(p.id);
     return (
@@ -89,7 +93,7 @@ function DetailSelector({
         <Filter hideGen={!!limitGen} values={values} />
         {/* @ts-ignore */}
         <FixedSizeList
-          height={400}
+          height={listHeight}
           itemCount={filteredEncounters?.length ?? 0}
           itemSize={itemSize}
           width="100%"

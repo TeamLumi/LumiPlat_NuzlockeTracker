@@ -26,3 +26,7 @@
     }
   }
 }
+
+:global(.ui.dropdown.visible .menu) {
+  max-height: 300px;
+}

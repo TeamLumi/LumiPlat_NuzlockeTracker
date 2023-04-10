@@ -130,9 +130,11 @@ function App(): JSX.Element {
           <Menu.Menu className={styles.header}>
             <h1>Nuzlocke Tracker</h1>
           </Menu.Menu>
+          {/*
           <Menu.Menu position="right">
             <Auth />
           </Menu.Menu>
+          */}
         </Menu>
       </header>
       <Sidebar.Pushable>
