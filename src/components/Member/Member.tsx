@@ -26,6 +26,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
   const deleteTeamMember = useStore(useCallback((state) => state.deleteTeamMember, []));
   const darkMode = useStore(useCallback((state) => state.darkMode, []));
   const [expanded, setExpanded] = useState(false);
+  const legalAbilities = pokemon.abilities;
 
   return (
     <>
@@ -80,7 +81,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
           onChange={(e, data) =>
             changeTeamMember(index, { ...pokemonDetail, ability: data.value as string })
           }
-          options={[...new Set(ABILITIES[8])].map((smogonAbility) => {
+          options={[...new Set(legalAbilities)].map((smogonAbility) => {
             return { text: smogonAbility, value: smogonAbility };
           })}
           placeholder={t('select_ability', { ns: 'calculator' })}

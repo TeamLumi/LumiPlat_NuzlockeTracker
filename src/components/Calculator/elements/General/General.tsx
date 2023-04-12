@@ -12,6 +12,7 @@ import type { TEncounter } from 'constants/types';
 import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
 import styles from './General.module.scss';
+import { POKEMAP } from 'constants/pokemon';
 
 interface GeneralProps {
   encounters?: TEncounter[];
@@ -22,6 +23,8 @@ function General({ encounters, pokemon }: GeneralProps): JSX.Element {
   const { t } = useTranslation('calculator');
   const form = useStore(useCallback((state) => state.calcs[state?.selectedGame?.value]?.form, []));
   const update = useStore(useCallback((state) => state.updateDefaultValues, []));
+  const pokemonStats = POKEMAP.get(form[`pokemon${pokemon}`]);
+  const legalAbilities = pokemonStats.abilities;
   const increment = () => {
     const currentLevel = form[`level${pokemon}`];
     if (currentLevel < 100) {
@@ -102,7 +105,7 @@ function General({ encounters, pokemon }: GeneralProps): JSX.Element {
             inline
             lazyLoad
             onChange={(e, data) => update({ [`ability${pokemon}`]: data.value })}
-            options={[...new Set(ABILITIES[8])].map((smogonAbility) => {
+            options={[...new Set(legalAbilities)].map((smogonAbility) => {
               return { text: smogonAbility, value: smogonAbility };
             })}
             placeholder={t('select_ability')}

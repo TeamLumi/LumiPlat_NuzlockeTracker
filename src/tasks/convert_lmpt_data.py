@@ -368,6 +368,9 @@ def getPokedexInfo():
                     dex_info["dualtype"] = poke_info["dualtype"].upper()
                 dex_info["evolve"] = evolutions[pokemon]["path"]
                 dex_info["generation"] = 8
+                dex_info["evolve"] = evolutions[pokemon]["path"]
+                dex_info["generation"] = 8
+                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
             if pokemon > 1010:
                 poke_info = get_pokemon_info(pokemon)
                 poke_name = get_pokemon_name(pokemon)
@@ -380,6 +383,7 @@ def getPokedexInfo():
                     dex_info["dualtype"] = poke_info["dualtype"].upper()
                 dex_info["evolve"] = evolutions[pokemon]["path"]
                 dex_info["generation"] = 8
+                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
 
 
             pokedex.append(dex_info)

@@ -63,6 +63,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const [evspeed, setEvspeed] = useState(encounter?.details?.evspeed);
   const [evspdef, setEvspdef] = useState(encounter?.details?.evspdef);
   const [soulLink, setSoulLink] = useState(encounter?.details?.soulink);
+  const legalAbilities = foundPokemon.abilities;
 
   const limitGen = GAME_GENERATION[selectedGame?.value] || undefined;
   const foundSoulLink = POKEMAP.get(soulLink);
@@ -268,7 +269,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                   inline
                   lazyLoad
                   onChange={(e, data) => setAbility(data.value as unknown as string)}
-                  options={[...new Set(ABILITIES[8])].map((smogonAbility) => {
+                  options={[...new Set(legalAbilities)].map((smogonAbility) => {
                     return { text: smogonAbility, value: smogonAbility };
                   })}
                   placeholder={t('select_ability', { ns: 'calculator' })}
