@@ -4,7 +4,8 @@
   "device": "Dispositivo",
   "os": "SO",
   "report_a_bug": "Reportar un bug o sugerir una función",
-  "selected_game": "Juego seleccionado",
+  "title": "Título de la Solicitud",
   "send": "Enviar",
-  "type": "Tipo"
+  "type": "Tipo",
+  "legal": "Puede que la información que usted proporciona sea utilizada para abrir un issue en GitHub. Estos datos son completamente anónimos y no incluirán ninguna información personal identificable. Al enviar esta información, acepta que pueda ser compartida públicamente en GitHub. Por favor, asegúrese de estar cómodo con esto antes de enviar su información."
 }

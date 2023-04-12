@@ -12,7 +12,9 @@ function About(): JSX.Element {
     <Page header={t('about')}>
       <div className={styles.about}>
         <p>
-          {'Thank you for using Nuzlocke Tracker! Me and fellow contributors are actively improving this app in our free time. This app is also currently under development. If you see anything not working properly, please let us know on our discord channel.'}
+          {'Thank you for using the Nuzlocke Tracker! Me and fellow contributors are actively improving this app in our free time. This app is also currently under development. If you see anything not working properly, please let us know on our '}
+           <a href="https://discord.gg/luminescent" title="Discord" rel="noopener noreferrer" target="_blank"> Discord </a> 
+           {' channel or in the Report tab.'}
         </p>
         <p>
           {t('warning_message')}{' '}

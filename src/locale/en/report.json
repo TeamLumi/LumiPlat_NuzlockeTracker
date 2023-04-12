@@ -4,7 +4,8 @@
   "device": "Device",
   "os": "OS",
   "report_a_bug": "Report a bug or suggest a feature",
-  "selected_game": "Selected game",
+  "title": "Title of Request",
   "send": "Send",
-  "type": "Type"
+  "type": "Type",
+  "legal": "The information you provide may be used to open an issue in GitHub. This data is fully anonymous and will not include any personally identifiable information. By submitting this information, you agree that it may be shared publicly on GitHub. Please ensure that you are comfortable with this before submitting your information."
 }

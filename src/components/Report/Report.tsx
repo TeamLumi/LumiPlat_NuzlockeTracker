@@ -9,6 +9,9 @@ function Report(): JSX.Element {
     <Page header={t('report_a_bug')}>
       <form className={modalStyles.modalColor} name="contact" method="post">
         <input type="hidden" name="form-name" value="contact" />
+        <p>
+          {t('legal')}
+        </p>        
         <label style={{ display: 'flex', flexFlow: 'column nowrap' }}>
           {t('type')}:
           <select name="type" data-testid="report-type">
@@ -45,7 +48,7 @@ function Report(): JSX.Element {
           </select>
         </label>
         <label style={{ display: 'flex', flexFlow: 'column nowrap' }}>
-          {t('selected_game')}:
+          {t('title')}:
           <input
             maxLength={100}
             name="selectedgame"

@@ -4,7 +4,8 @@
   "device": "Gerät",
   "os": "OS",
   "report_a_bug": "Einen Fehler melden oder eine Funktion vorschlagen",
-  "selected_game": "Ausgewähltes Spiel",
+  "title": "Titel der Anfrage",
   "send": "Senden",
-  "type": "Typ"
+  "type": "Typ",
+  "legal": "Die von Ihnen bereitgestellten Informationen können verwendet werden, um ein Issue in GitHub zu erstellen. Diese Daten sind vollständig anonym und enthalten keine persönlichen Informationen. Durch die Übermittlung dieser Daten stimmen Sie zu, dass sie öffentlich auf GitHub geteilt werden dürfen. Bitte stellen Sie sicher, dass Sie damit einverstanden sind, bevor Sie Ihre Daten senden."
 }

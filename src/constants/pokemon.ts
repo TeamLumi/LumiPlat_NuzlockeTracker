@@ -90,7 +90,7 @@ const ExtraPokemon: TPokemon[] = [
     },
     {
         "value": 1215,
-        "text": "Darumaka Galarian Darumaka",
+        "text": "Galarian Darumaka",
         "type": "ICE",
         "evolve": [ 1215, 1217, 1218 ],
         "generation": 8

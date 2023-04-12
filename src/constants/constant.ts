@@ -415,7 +415,7 @@ export const SPECIAL_NAMES: Record<string, string> = {
   'Galarian Corsola': 'corsola-galar',
   'Galarian Zigzagoon': 'zigzagoon-galar',
   'Galarian Linoone': 'linoone-galar',
-  'Darumaka Galarian Darumaka': 'darumaka-galar',
+  'Galarian Darumaka': 'darumaka-galar',
   'Darmanitan Galarian Standard Mode': 'darmanitan-galar',
   'Darmanitan Galarian Zen Mode': 'darmanitan-galar-zen',
   'Darmanitan Zen Mode': 'darmanitan-zen',

@@ -202,6 +202,7 @@ export interface TPokemon {
   text: string;
   type: Type;
   value: number;
+  abilities?: number[];
 }
 
 export type TStatus = {
