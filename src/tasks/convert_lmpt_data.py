@@ -11,18 +11,19 @@ input_file_path = os.path.join(repo_file_path, 'input')
 resources_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources")
 honeywork_cpp_filepath = os.path.join(input_file_path, "honeywork.cpp")
 honeyroutes_filepath = os.path.join(repo_file_path, "src", "tasks", "Resources", "honeyroutes.json")
-output_file_path =os.path.join(repo_file_path, "src", "tasks", "output")
-
+output_file_path = os.path.join(repo_file_path, "src", "tasks", "output")
+gym_leader_file_path = os.path.join(resources_filepath, "NewGymLeaders.json")
 POKEMON_NAMES = get_pokemon_name_dictionary()
 bad_encounters = []
+
+with open(gym_leader_file_path, mode='r', encoding="utf-8") as f:
+    gym_leader_data = json.load(f)
 
 def get_lumi_data(raw_data, callback):
     data = {}
     for (idx, _) in enumerate(raw_data["labelDataArray"]):
         data[str(idx)] = callback(idx)
     return data
-
-
 
 def getTrainerIdsFromDocumentation():
     doc_filepath = os.path.join(input_file_path, "docs.csv")
@@ -47,9 +48,11 @@ def load_data():
         "raw_pokedex": os.path.join(input_file_path, "english_ss_monsname.json"),
         "raw_items": os.path.join(input_file_path, "english_ss_itemname.json"),
         "routes": os.path.join(resources_filepath, "Routes.json"),
-        "gym_leaders": os.path.join(resources_filepath, "NewGymLeaders.json"),
-        "honey_routes": os.path.join(resources_filepath, "honeyroutes.json"),
         "name_routes": os.path.join(resources_filepath, "NameRoutes.json"),
+        "honey_routes": os.path.join(resources_filepath, "honeyroutes.json"),
+        "trainer_names": os.path.join(input_file_path, 'english_dp_trainers_name.json'),
+        "trainer_labels": os.path.join(input_file_path, 'english_dp_trainers_type.json')
+
     }
     for name, filepath in files.items():
         data[name] = load_json_from_file(filepath)
@@ -62,14 +65,13 @@ def load_data():
 
     return data
 
-def GetTrainerData():
+def getTrainerData(gymLeaderList):
     full_data = load_data()
-    data, abilityList, pokedex, itemList, gymLeaderList, diff_forms = (
+    trainer_data, abilityList, pokedex, itemList, diff_forms = (
         full_data["raw_trainer_data"],
         full_data["abilities"],
         full_data["pokedex"],
         full_data["items"],
-        full_data["gym_leaders"],
         full_data["diff_forms"]
     )
     gender = {"0": "MALE", "1": "FEMALE", "2": "NEUTRAL"}
@@ -82,7 +84,7 @@ def GetTrainerData():
                 trainers_list = []
                 for trainer_id in trainer_ids:
                     fights = {}
-                    trainer = next((t for t in data["TrainerPoke"] if t["ID"] == trainer_id), None)
+                    trainer = next((t for t in trainer_data["TrainerPoke"] if t["ID"] == trainer_id), None)
                     if trainer:
                         for poke_num in range(1,7):
                             level = trainer[f"P{poke_num}Level"]
@@ -109,13 +111,13 @@ def GetTrainerData():
                                     "evspdef": trainer[f"P{poke_num}EffortSpDef"],
                                     "evspeed": trainer[f"P{poke_num}EffortAgi"]
                                 }
-                                if 'content' not in fights:
-                                    fights['content'] = [pokemon]
+                                if "content" not in fights:
+                                    fights["content"] = [pokemon]
                                     fights["game"] = " Team " + str(trainer_ids.index(trainer_id) + 1)
                                     fights["name"] = gym_leader
                                     fights["type"] = battle_type
                                 else:
-                                    fights['content'].append(pokemon)
+                                    fights["content"].append(pokemon)
                     trainers_list.append(fights)
                 full_list.append(trainers_list)
         dic['1'] = full_list
@@ -128,11 +130,11 @@ def HoneyTreeData():
     array_regex = r"\[(.*?)\]\s*=\s*\{(.*?)\}"
 
     with open(honeywork_cpp_filepath, "r") as file, open(honeyroutes_filepath, "r") as honey:
-        data = file.read()
+        honey_data = file.read()
         honey_routes = json.load(honey)
 
     # Extract honey trees data
-    match = re.search(const_regex, data)
+    match = re.search(const_regex, honey_data)
     if match:
         values_str = match.group(1)
         honey_trees = {}
@@ -155,7 +157,7 @@ def bad_encounter_data(pkmn_name, routeName, route):
 
 def getEncounterData():
     full_data = load_data()
-    data, pokedex, routeNames, diff_forms, name_routes = (
+    encounter_data, pokedex, routeNames, diff_forms, name_routes = (
         full_data["raw_encounters"],
         full_data["pokedex"],
         full_data["routes"],
@@ -164,7 +166,7 @@ def getEncounterData():
     )
 
     routes = {}
-    for area in data['table']:
+    for area in encounter_data['table']:
         for key in area.keys():
             if type(area[key]) != int:
                 if type(area[key][0]) == dict:
@@ -215,14 +217,14 @@ def getEncounterData():
                                 else:
                                     continue            
     ##This is for adding the Trophy Garden daily mons
-    for mon in data['urayama']:
+    for mon in encounter_data['urayama']:
         routes['lmpt-39'].append(pokedex[str(mon['monsNo'])])
 
     ##This is for adding all of the Honey Tree encounters to the list
-    honey_data = HoneyTreeData()
+    honey_encounter_data = HoneyTreeData()
 
-    for key in honey_data.keys():
-        for mon in honey_data[key]:
+    for key in honey_encounter_data.keys():
+        for mon in honey_encounter_data[key]:
             if str(key) not in routes.keys():
                 routes[key] = [mon.capitalize()]
             if mon.capitalize() not in routes[key]:
@@ -391,6 +393,6 @@ def getPokedexInfo():
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-getEncounterData()
-GetTrainerData()
-getPokedexInfo()
+#getEncounterData()
+getTrainerData(gym_leader_data)
+#getPokedexInfo()

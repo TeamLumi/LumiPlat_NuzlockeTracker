@@ -54,29 +54,29 @@
       "Lindsay (Eterna Gym)": [ 269 ],
       "Mira (Wayward Cave)": [ 1944 ],
       "Aaron (Hearthome City)": [ 943 ],
-      "Lucian [Solaceon Ruins]": [ 1939 ],
-      "Bertha [Veilstone City]": [ 945 ],
-      "Darach [Renegade Park]": [ 957 ],
-      "Riley [Iron Island]": [ 958 ],
-      "Flint [Sunnyshore City]": [ 946 ],
-      "Marley [Victory Road]": [ 707 ]
+      "Lucian (Solaceon Ruins)": [ 1939 ],
+      "Bertha (Veilstone City)": [ 945 ],
+      "Darach (Renegade Park)": [ 957 ],
+      "Riley (Iron Island)": [ 958 ],
+      "Flint (Sunnyshore City)": [ 946 ],
+      "Marley (Victory Road)": [ 707 ]
     }
   ],
   "Evil": [
     {
-      "Mars [Valley Windworks]": [ 875 ],
-      "Jupiter [Eterna City HQ]": [ 876 ],
-      "Saturn [Pokemon Mansion]": [ 877 ],
-      "Mr. Backlot [Pokemon Mansion]": [ 878 ],
-      "Cyrus [Celestic Town]": [ 879 ],
+      "Mars (Valley Windworks)": [ 875 ],
+      "Jupiter (Eterna City HQ)": [ 876 ],
+      "Saturn (Pokemon Mansion)": [ 877 ],
+      "Mr. Backlot (Pokemon Mansion)": [ 878 ],
+      "Cyrus (Celestic Town)": [ 879 ],
       "Saturn (Lake Valor)": [ 880 ],
       "Mars (Lake Verity)": [ 881 ],
-      "Cyrus [Galactic HQ]": [ 882 ],
-      "Saturn [Galatic HQ]": [ 1064 ],
-      "Mars [Spear Pillar]": [ 884 ],
-      "Jupiter [Spear Pillar]": [ 885 ],
-      "Cyrus [Distortion World] (DOUBLES)": [ 886 ],
-      "Cyrus [Distortion World]": [ 887, 888, 889, 890 ]
+      "Cyrus (Galactic HQ)": [ 882 ],
+      "Saturn (Galatic HQ)": [ 1064 ],
+      "Mars (Spear Pillar)": [ 884 ],
+      "Jupiter (Spear Pillar)": [ 885 ],
+      "Cyrus (Distortion World) (DOUBLES)": [ 886 ],
+      "Cyrus (Distortion World)": [ 887, 888, 889, 890 ]
     }
   ]
 }
