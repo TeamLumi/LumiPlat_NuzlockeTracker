@@ -1,0 +1,63 @@
+ev_uga04_first:
+	_EVENT_START()
+	_OBJ_ANIME('UGA04_MOUNT', 'anm_ug_mount_00')
+	_OBJ_ANIME('HERO', 'anm_ug_player_00')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('UGA04_MOUNT', 'anm_ug_mount_00_g')
+	_OBJ_ANIME_WAIT()
+	_PLAYER_NAME(0)
+	_TALK_KEYWAIT('dlp_underground%DLP_underground_243')
+	_TALK_CLOSE()
+	_OBJ_ANIME('UGA04_MOUNT', 'anm_ug_mount_01')
+	_OBJ_ANIME_WAIT()
+	_SE_PLAY('S_UND002')
+	_UG_LEAVE_HOYUTA('UGA04_MOUNT', 20, 0)
+	_OBJ_DEL('UGA04_MOUNT')
+	_FLAG_SET(#FV_UG_MOUNT)
+	_LDVAL(@WK_SCENE_UG, 1)
+	_LDVAL(@WK_SCENE_C08R0401, 100)
+	_SET_SYS_FLAG($SYS_FLAG_UG_FIRST)
+	_CALL('ev_block_doc_end')
+	_EVENT_END()
+	_END()
+anm_ug_player_00:
+	_AC_WAIT(8)
+	_AC_DIR_R(8)
+	_ACMD_END()
+anm_ug_mount_00:
+	_AC_DIR_L(8)
+	_ACMD_END()
+anm_ug_mount_00_g:
+	_AC_MARK_GYOE(1)
+	_AC_WAIT(8)
+	_ACMD_END()
+anm_ug_mount_01:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_ug_mount_02:
+	_AC_INDEX_ANIME(15)
+	_AC_WAIT(80)
+	_AC_VANISH_ON()
+	_ACMD_END()
+ev_uga_kasekihori_fast:
+	_IF_FLAGOFF_CALL(#FE_DONE_KASEKIHORI, 'ev_uga_kasekihori_tips')
+	_FLAG_SET(#FE_DONE_KASEKIHORI)
+	_TALK_OBJ_END()
+	_END()
+ev_uga_kasekihori_tips:
+	_EASY_OBJ_MSG('dlp_underground%DLP_underground_329')
+	_RET()
+ev_uga_kakurega_fast:
+	_IF_FLAGOFF_CALL(#FE_DONE_KAKUREGA, 'ev_uga_kakurega_tips')
+	_FLAG_SET(#FE_DONE_KAKUREGA)
+	_TALK_OBJ_END()
+	_END()
+ev_uga_kakurega_tips:
+	_RET()
+ev_uga_himitukiti_fast:
+	_IF_FLAGOFF_CALL(#FE_DONE_HIMITUKITI, 'ev_uga_himitukiti_tips')
+	_FLAG_SET(#FE_DONE_HIMITUKITI)
+	_TALK_OBJ_END()
+	_END()
+ev_uga_himitukiti_tips:
+	_RET()

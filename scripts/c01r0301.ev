@@ -1,0 +1,13 @@
+ev_c01r0301_man3:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario1%43-msg_c01r0301_man3_01')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0301_girl1:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario1%43-msg_c01r0301_girl1_01_1')
+	_TALK_KEYWAIT('dp_scenario1%43-msg_c01r0301_girl1_01_2', 1)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

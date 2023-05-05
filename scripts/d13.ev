@@ -1,0 +1,5 @@
+ev_d13_boy1a:
+	_END()
+ev_d13_sign1:
+	_EASY_BOARD_MSG('msg_d13_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

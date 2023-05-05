@@ -1,0 +1,7 @@
+SP_T03PC0103_SCENE:
+	_JUMP('sp_t03pc0103_tbl')
+	_SP_EVENT_DATA_END()
+sp_t03pc0103_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_PC0103, 0, 'ev_connect_global_first_visit')
+	_SCENE_CHANGE_DATA(@UNION_TEMP0, 1, 'ev_connect_global_menu_back01')
+	_SCENE_CHANGE_END()

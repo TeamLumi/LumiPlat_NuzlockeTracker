@@ -1,0 +1,9 @@
+ev_c03r0501_boy2:
+	_EASY_OBJ_MSG('dp_scenario1%79-msg_c03r0501_boy2_01')
+	_END()
+ev_c03r0501_middlewoman1:
+	_EASY_OBJ_MSG('dp_scenario1%79-msg_c03r0501_middlewoman1_01')
+	_END()
+ev_c03r0501_purin:
+	_EASY_VOICE_MSG('dp_scenario1%79-msg_c03r0501_purin_01', 'PLAY_PV_EV_025_00_02')
+	_END()

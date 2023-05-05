@@ -1,0 +1,24 @@
+ev_t07r0201_explore:
+	_EASY_OBJ_MSG('dp_scenario3%54-msg_t07r0201_explore_01')
+	_END()
+ev_t07r0201_oldman2:
+	_EASY_OBJ_MSG('dp_scenario3%54-msg_t07r0201_oldman2_01')
+	_END()
+ev_t07r0201_babyboy1:
+	_TALK_OBJ_START()
+	_GET_MY_SEX(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 't07r0201_babyboy1_male')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 't07r0201_babyboy1_female')
+	_END()
+t07r0201_babyboy1_male:
+	_TALKMSG('dp_scenario3%54-msg_t07r0201_babyboy1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+t07r0201_babyboy1_female:
+	_TALKMSG('dp_scenario3%54-msg_t07r0201_babyboy1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

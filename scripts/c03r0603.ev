@@ -1,0 +1,6 @@
+ev_c03r0603_assistantm:
+	_EASY_OBJ_MSG('msg_c03r0603_assistantm_01')
+	_END()
+ev_c03r0603_man3:
+	_EASY_OBJ_MSG('msg_c03r0603_man3_01')
+	_END()

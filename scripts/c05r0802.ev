@@ -1,0 +1,30 @@
+ev_c05r0802_flag_change:
+	_LDVAL(@WK_ELEVATOR_FLOOR, 1)
+	_LDVAL(@LOCALWORK1, 0)
+	_DOOR_TRANSITION_ZONE_SET('C05R0103_D01', 'C05R0803', 0)
+	_END()
+ev_c05r0802_door_exit:
+	_SET_DOOR_OBJ('C05R0103_D01')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 3, 'door_exit_elevator')
+	_END()
+ev_c05r0802_oldman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%51-msg_c05r0802_oldman2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r0802_oldwoman2:
+	_EASY_OBJ_MSG('dp_scenario2%51-msg_c05r0802_oldwoman2_01')
+	_END()
+ev_c05r0802_oldman1:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%51-msg_c05r0802_oldman1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c05r0802_oldwoman1:
+	_EASY_OBJ_MSG('dp_scenario2%51-msg_c05r0802_oldwoman1_01')
+	_END()

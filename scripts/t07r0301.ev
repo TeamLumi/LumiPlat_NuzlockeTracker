@@ -1,0 +1,22 @@
+ev_t07r0301_bigman:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_HIIDORAN_EVENT, 'ev_t07r0301_bigman_02')
+	_TALK_KEYWAIT('dp_scenario3%55-msg_t07r0301_bigman_01_1')
+	_TALK_KEYWAIT('dp_scenario3%55-msg_t07r0301_bigman_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('T07R0301_BIGMAN', 'anm_t07r0301_bigman_turn_up')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()
+ev_t07r0301_bigman_02:
+	_TALK_KEYWAIT('dp_scenario3%55-msg_t07r0301_bigman_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_OBJ_ANIME('T07R0301_BIGMAN', 'anm_t07r0301_bigman_turn_up')
+	_OBJ_ANIME_WAIT()
+	_TALK_OBJ_END()
+	_END()
+anm_t07r0301_bigman_turn_up:
+	_AC_DIR_U(8)
+	_ACMD_END()

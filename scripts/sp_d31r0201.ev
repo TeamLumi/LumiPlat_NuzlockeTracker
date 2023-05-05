@@ -1,0 +1,17 @@
+SP_D31R0201_INIT:
+	_SP_EVENT_DATA_END()
+SP_D31R0201_OBJ:
+	_SP_EVENT_DATA_END()
+SP_D31R0201_SCENE:
+	_JUMP('sp_d31r0201_tbl')
+	_SP_EVENT_DATA_END()
+SP_D31R0201_FLAG:
+	_JUMP('ev_d31r0201_flag_change')
+	_SP_EVENT_DATA_END()
+sp_d31r0201_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0201, 1, 'ev_tower_ret_common_clear_01')
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0201, 2, 'ev_tower_continue_common_01')
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0201, 3, 'ev_tower_ret_cancel_common_01')
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0201, 4, 'ev_tower_ret_common_lose_01')
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0201, 255, 'ev_tower_gate_common_continue_ng')
+	_SCENE_CHANGE_END()

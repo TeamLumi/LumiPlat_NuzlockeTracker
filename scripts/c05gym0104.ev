@@ -1,0 +1,52 @@
+ev_c05gym0104_flag_change:
+	_FLAG_RESET(#FE_SAVE_GIMMICK_002)
+	_IF_FLAGON_CALL(#FE_SAVE_GIMMICK_003, 'ev_c05gym0104_lift_event_off')
+	_DOOR_TRANSITION_ZONE_SET('P_RO_059_Door_01_D01', 'C05GYM0105', 0)
+	_DOOR_TRANSITION_ZONE_SET('P_RO_059_Door_01_D02', 'C05GYM0106', 0)
+	_DOOR_TRANSITION_ZONE_SET('P_RO_059_Door_01_D03', 'C05GYM0107', 0)
+	_INIT_GHOST_GYM()
+	_END()
+ev_c05gym0104_lift_event_off:
+	_FLAG_SET(#FE_SAVE_GIMMICK_002)
+	_RET()
+pos_c05gym0104_lift:
+	_MOVE_GHOST_GYM_LIFT()
+	_GET_NOW_ZONE_ID(@SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 79, 'pos_c05gym0104_lift_f1')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 81, 'pos_c05gym0104_lift_f2')
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 83, 'pos_c05gym0104_lift_f3')
+	_END()
+pos_c05gym0104_lift_f1:
+	_IF_FLAGON_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0104_lift_event_set1')
+	_IF_FLAGOFF_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0104_lift_event_set2')
+	_END()
+pos_c05gym0104_lift_f2:
+	_IF_FLAGON_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0106_lift_event_set1')
+	_IF_FLAGOFF_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0106_lift_event_set2')
+	_END()
+pos_c05gym0104_lift_f3:
+	_IF_FLAGON_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0108_lift_event_set1')
+	_IF_FLAGOFF_CALL(#FE_SAVE_GIMMICK_002, 'ev_c05gym0108_lift_event_set2')
+	_END()
+ev_c05gym0104_lift_event_set1:
+	_FLAG_SET(#FE_SAVE_GIMMICK_003)
+	_RET()
+ev_c05gym0104_lift_event_set2:
+	_FLAG_RESET(#FE_SAVE_GIMMICK_003)
+	_RET()
+ev_c05gym0104_ans:
+	_TALK_OBJ_START()
+	_SE_PLAY('S_FI109')
+	_TALKMSG('dp_scenario2%36-msg_c05gym0104_sign1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_EVENT_END()
+	_END()
+ev_c05gym0104_question:
+	_TALK_OBJ_START()
+	_SE_PLAY('S_FI108')
+	_TALKMSG('dp_scenario2%36-msg_c05gym0104_sign1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()

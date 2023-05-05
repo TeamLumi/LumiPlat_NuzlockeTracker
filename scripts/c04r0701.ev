@@ -1,0 +1,26 @@
+ev_c04r0701_flag_change:
+	_OBJ_DEL('C04R0701_MAN')
+	_END()
+ev_c04r0701_oldman1:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_c04r0701_oldman1_02')
+	_END()
+ev_c04r0701_oldwoman1:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_c04r0701_oldwoman1_02')
+	_END()
+ev_c04r0701_man:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario3%00_msg_c04r0701_man_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c04r0701_man_1')
+	_TALKMSG('dp_scenario3%00_msg_c04r0701_man_02')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c04r0701_man_1')
+	_TALKMSG('dp_scenario3%00_msg_c04r0701_man_03')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0701_man_1:
+	_TALKMSG('dp_scenario3%00_msg_c04r0701_man_04')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

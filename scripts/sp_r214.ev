@@ -1,0 +1,6 @@
+SP_R214_INIT:
+	_JUMP('ev_r214_init_change')
+	_SP_EVENT_DATA_END()
+SP_R214_FLAG:
+	_JUMP('ev_r214_flag_change')
+	_SP_EVENT_DATA_END()

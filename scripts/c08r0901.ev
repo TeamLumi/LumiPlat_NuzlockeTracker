@@ -1,0 +1,8 @@
+ev_c08r0901_assistantm:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario3%13-msg_c08r0901_assistantm_01_1')
+	_TALKMSG('dp_scenario3%13-msg_c08r0901_assistantm_01_2')
+	_TALK_KEYWAIT('dp_scenario3%13-msg_c08r0901_assistantm_01_3')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
