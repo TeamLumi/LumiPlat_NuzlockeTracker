@@ -219,19 +219,15 @@ anm_c11_action_29:
 	_AC_WAIT(8)
 	_AC_DIR_D(4)
 	_ACMD_END()
-ev_c11_rivalfight_get_rival_team:
+c11_rival_support:
 	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_c11_rand_double_rival_02')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_c11_rand_double_rival_03')
-	_JUMP('ev_c11_rand_double_rival_01')
-ev_c11_rand_double_rival_02:
 	_LDVAL(@SCWK_TEMP0, 667)
-	_RET()
-ev_c11_rand_double_rival_03:
-	_LDVAL(@SCWK_TEMP0, 668)
-	_RET()
-ev_c11_rand_double_rival_01:
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_c11_rival_support_id_ret')
 	_LDVAL(@SCWK_TEMP0, 666)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_c11_rival_support_id_ret')
+	_LDVAL(@SCWK_TEMP0, 668)
+	_JUMP('ev_c11_rival_support_id_ret')
+ev_c11_rival_support_id_ret:
 	_RET()
 ev_c11_rivalfight_yes:
 	_RIVAL_NAME(0)
@@ -248,7 +244,7 @@ ev_c11_rivalfight_yes:
 	_OBJ_ANIME_WAIT()
 	_TALK_KEYWAIT('dp_scenario3%00_msg_c11_flintduo_2')
 	_TALK_CLOSE()
-	_CALL('ev_c11_rivalfight_get_rival_team')
+	_CALL('c11_rival_support')
 	_TRAINER_MULTI_BTL_SET(@SCWK_TEMP0, 703, 708)
 	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c11_rivalfight_duo_lose')

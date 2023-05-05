@@ -87,80 +87,6 @@ def get_map_info(label_name):
     match = next((e for e in zone_data if e['ZoneID'] == label_name), None)
     return get_area_display_name(match['MSLabel']) if match and len(match['MSLabel']) > 0 else get_area_name(match['PokePlaceName'])
 
-def get_trainer_data(event, zoneID, trainerID):
-    '''
-    The event variable is for the place_datas function
-    The zoneID and trainerID is for the ev_script function
-    Make sure that when you call one or the other that the opposite variable(s) is(are) None
-    i.e: get_trainer_data(event, None, None) or get_trainer_data(None, zoneID, trainerID)
-    '''
-    trainer = {}
-    if event is not None:
-        trainer_data = TRAINER_TABLE['TrainerData'][event['TrainerID']]
-        trainer_type = TRAINER_TABLE['TrainerType'][trainer_data['TypeID']]
-        trainer_label = get_trainer_label(trainer_type['LabelTrType'])
-        if not trainer_label:
-            print("This trainer doesn't have a label in game:", trainer_type['LabelTrType'], event['TrainerID'])
-        trainer_name = get_trainer_name(trainer_data['NameLabel'])
-        if not trainer_name:
-            trainer_name = trainer_data['NameLabel'].split("_")[-1].capitalize()
-            print("This trainer doesn't have a name in game:", trainer_data['NameLabel'], event['TrainerID'])
-        areaName = get_map_info(event['zoneID'])
-        zones = areas[int(event['zoneID']) + 1]
-        zoneName = zones[3] if zones[3] != '' else zones[4]
-        for name, route in name_routes.items():
-            if areaName in route:
-                areaName = name
-        if areaName == "Galactic HQ":
-            areaName = "lmpt-33"
-        #if "lmpt" not in areaName:
-        #    print("This doesn't have a TrackerID yet:", areaName, event['zoneID'])
-        trainer = {
-            'areaName': areaName,
-            'zoneName': zoneName,
-            'zoneId': int(event['zoneID']),
-            'trainerId': event['TrainerID'],
-            'rematch': 0,
-            'name': trainer_name,
-            'type': trainer_label,
-            'method': "Place Data",
-            'format': "Singles",
-            'link': ""
-        }
-        return trainer
-    else:
-        trainer_data = TRAINER_TABLE['TrainerData'][trainerID]
-        trainer_type = TRAINER_TABLE['TrainerType'][trainer_data['TypeID']]
-        trainer_label = get_trainer_label(trainer_type['LabelTrType'])
-        if not trainer_label:
-            print("This trainer doesn't have a label in game:", trainer_type['LabelTrType'], trainerID)        
-        trainer_name = get_trainer_name(trainer_data['NameLabel'])
-        if not trainer_name:
-            trainer_name = trainer_data['NameLabel'].split("_")[-1].capitalize()
-            print("This trainer doesn't have a name in game:", trainer_data['NameLabel'], trainerID)
-        areaName = get_map_info(zoneID)
-        zones = areas[zoneID + 1]
-        zoneName = zones[3] if zones[3] != '' else zones[4]
-        if zoneName == '':
-            zoneName = areaName
-        for name, route in name_routes.items():
-            if areaName in route:
-                areaName = name
-        if areaName == "Galactic HQ":
-            areaName = "lmpt-33"
-        #if "lmpt" not in areaName:
-        #    print("This doesn't have a TrackerID yet:", areaName, zoneID)
-        trainer = {
-            'areaName': areaName,
-            'zoneName': zoneName,
-            'zoneId': int(zoneID),
-            'trainerId': trainerID,
-            'rematch': 0,
-            'name': trainer_name,
-            'type': trainer_label,
-            'method': "Scripted"
-        }
-        return trainer
 
 def get_trainer_data_from_place_datas():
     trainers = []
@@ -168,8 +94,10 @@ def get_trainer_data_from_place_datas():
         with open(os.path.join(repo_file_path, 'placedatas', bdsp_location_file), 'r') as f:
             data = json.load(f)
         for event in data['Data']:
-            if event['TrainerID'] > 0 and event['TrainerID'] < 10000 and event['zoneID'] != -1:
-                trainer = get_trainer_data(event, None, None)
+            trainerID = event['TrainerID']
+            zoneID = event['zoneID']
+            if trainerID > 0 and trainerID < 10000 and zoneID != -1:
+                trainer = diff_trainer_data(event, None, None)
                 trainers.append(trainer)
     return trainers
 
@@ -201,17 +129,18 @@ def process_files(folder_path, callback):
     trainers_list = []
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
-        if os.path.isfile(file_path):
-            if os.path.exists(file_path):
-                trainers = callback(file_path)
-                for trainer in trainers:
-                    if trainer not in trainers_list:
-                        trainers_list.append(trainer)
-                    else:
-                        continue
+        if not os.path.isfile(file_path):
+            print("This is not a valid file path:", file_path)
+            break
+        if not os.path.exists(file_path):
+            print("This file path does not exist:", file_path)
+            break
+        trainers = callback(file_path)
+        for trainer in trainers:
+            if trainer not in trainers_list:
+                trainers_list.append(trainer)
             else:
-                print(f"File {file_path} does not exist")
-                break
+                continue
 
     data = get_trainer_data_from_place_datas()
     for battle in trainers_list:
@@ -227,180 +156,287 @@ def parse_ev_script_file(file_path):
     The purpose of this function is to parse a text file and find every instance of the substring _TRAINER_BTL_SET or _TRAINER_MULTI_BTL_SET.
     """
     trainers = []
+    trainer_battle = '_TRAINER_BTL_SET'
+    multi_trainer_battle = '_TRAINER_MULTI_BTL_SET'
+
     with open(file_path, 'r', encoding="utf8") as f:
         for line in f:
             substrings = line.split('\n')
             for substring in substrings:
-                if '_TRAINER_BTL_SET' in substring or '_TRAINER_MULTI_BTL_SET' in substring:
-                    areaName = file_path.split("/")[-1].split(".")[0].upper()
-                    zoneID = None
-                    for places in areas:
-                        if areaName in places:
-                            zoneID = int(areas.index(places) - 1)
-                            break
-                        else:
-                            continue
+                areaName = file_path.split("/")[-1].split(".")[0].upper()
+                zoneID = get_zoneID(areaName)
+                gym_leader_lookup = f"ev_{areaName.lower()}_randomteam"
+                
+                if trainer_battle in substring or multi_trainer_battle in substring:
+                    args = parse_trainer_btl_set(substring.strip())
+                else:
+                    continue
 
-                    if zoneID != None:
-                        args = parse_trainer_btl_set(substring.strip())
-                        if -1 not in args:
-                            trainerID1 = args[0].strip()
-                            trainerID2 = ""
-                            trainerID3 = ""
-                            if len(args) >= 2:
-                                trainerID2 = args[1].strip()
-                            if len(args) > 2:
-                                trainerID3 = args[2].strip()
+                if zoneID == None:
+                    print("This trainer is currently not supported or is not in a recognized area:", args[0].strip("'"), areaName)                                
+                    continue
 
-                            if len(trainerID3) > 0:
-                                if trainerID3.isnumeric():
-                                    ### This section is currently all messed up.
-                                    ### It could really use some more standardization on function names
-                                    
-                                    trainers += get_support_trainers_data(file_path, areaName, "male", zoneID)
-                                    trainers += get_support_trainers_data(file_path, areaName, "female", zoneID)
-                                    trainer2, trainer3 = get_multi_trainers(trainerID2, trainerID3, zoneID, "Multi")
-                                    trainers.append(trainer2)
-                                    trainers.append(trainer3)
-                                elif trainerID3[0] == "@":
-                                    ### This section is currently all messed up.
-                                    ### It could really use some more standardization on function names
+                if -1 in args:
+                    print("There is something wrong with the args from this area", areaName, args[0])
+                    continue
 
-                                    trainers += get_support_trainers_data(file_path, areaName, "male", zoneID)
-                                    trainers += get_support_trainers_data(file_path, areaName, "female", zoneID)
+                trainerID1 = args[0].strip()
+                trainerID2, trainerID3 = "", ""
+                if len(args) >= 2:
+                    trainerID2 = args[1].strip()
+                if len(args) > 2:
+                    trainerID3 = args[2].strip()
 
-                                    temp_enemy_IDs = parse_random_teams(file_path, f"pos_{areaName.lower()}_gingakanbu", 2, "Evil")
-                                    if temp_enemy_IDs:
-                                        trainerID2 = temp_enemy_IDs[0]
-                                        trainerID3 = temp_enemy_IDs[1]
-                                        trainer2, trainer3 = get_multi_trainers(trainerID2, trainerID3, zoneID, "Multi")
-                                        trainers.append(trainer2)
-                                        trainers.append(trainer3)
-                                    else:
-                                        print("Unable to find Multi Trainer opponent teams", areaName, substring)
+                ### Multi trainer data here
+                if len(trainerID3) > 0:
+                    multi_trainers = get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3)
+                    for trainer in multi_trainers:
+                        trainers.append(trainer)
 
-                            # This second section is for if the trainerID is bog standard just calling a number from the TTable
-                            elif trainerID1.isnumeric() and int(trainerID2) == 0:
-                                trainer = get_trainer_data(None, zoneID, int(trainerID1))
-                                trainer["format"] = "Single"
-                                trainer["link"] = ""
-                                trainers.append(trainer)
-                            elif trainerID1.isnumeric() and int(trainerID2) != 0:
-                                trainer1, trainer2 = get_multi_trainers(trainerID1, trainerID2, zoneID, "Double")
-                                trainers.append(trainer1)
-                                trainers.append(trainer2)
+                # This second section is for if the trainerID is bog standard just calling a number from the TTable
+                elif trainerID1.isnumeric() and int(trainerID2) == 0:
+                    trainer = diff_trainer_data(None, zoneID, int(trainerID1))
+                    trainer["format"] = "Single"
+                    trainer["link"] = ""
+                    trainers.append(trainer)
+                elif trainerID1.isnumeric() and int(trainerID2) != 0:
+                    trainer1, trainer2 = get_multi_trainers(trainerID1, trainerID2, zoneID, "Double")
+                    trainers.append(trainer1)
+                    trainers.append(trainer2)
 
-                            # This next section is for the temp variables that are called like @SCWK_TEMP3
-                            elif trainerID1[0] == "@" and len(trainerID2) == 1:
-                                if "GYM" in areaName:
-                                    temp_gym_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_randomteam", 4, None)
-                                    for ID in temp_gym_IDs:
-                                        trainer = get_single_trainer(zoneID, ID, temp_gym_IDs, None)
-                                        trainers.append(trainer)
-                                elif "C10" in areaName and "R0101" not in areaName:
-                                    temp_e4_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_randomteam", 4, None)
-                                    for ID in temp_e4_IDs:
-                                        trainer = get_single_trainer(zoneID, ID, temp_e4_IDs, None)
-                                        trainers.append(trainer)
-                                else:
-                                    trainer = []
-                                    for mon in ["piplup", "turtwig" ,"chimchar"]:
-                                        temp_rival_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_randomteam_barry_{mon}", 4, None)
-                                        for ID in temp_rival_IDs:
-                                            trainer = get_single_trainer(zoneID, ID, temp_rival_IDs, mon)
-                                            trainers.append(trainer)
-                                    if trainer == []:
-                                        temp_tg_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_randomteam_cyrus", 4, None)
-                                        for ID in temp_tg_IDs:
-                                            trainer = get_single_trainer(zoneID, ID, temp_tg_IDs, None)
-                                            trainers.append(trainer)
-                                    if trainer == []:
-                                        master_trainer_types = ["fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"]
-                                        temp_master_IDs = parse_random_teams(file_path, f"", len(master_trainer_types), "Masters")
-                                        for ID in temp_master_IDs:
-                                            trainer = get_single_trainer(zoneID, ID, temp_master_IDs, master_trainer_types[temp_master_IDs.index(ID)])
-                                            trainers.append(trainer)
-                                    if trainer == []:
-                                        temp_celebi_IDs = parse_random_teams(file_path, f"", 7, "Celebi")
-                                        for ID in temp_celebi_IDs:
-                                            trainer = get_single_trainer(zoneID, ID, temp_celebi_IDs, "Celebi")
-                                            trainers.append(trainer)
-                                    if trainer == []:
-                                        print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args[0])
-                                        '''
-                                        ### This section is currently in the progress of being improved and finalized in ev_script.
-
-                                        for support in ["lucas", "dawn"]:
-                                            temp_support_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_support_{support}", 3, None)
-                                            for ID in temp_support_IDs:
-                                                trainer = get_trainer_data(None, zoneID, int(ID))
-                                                trainer["name"] = f"{trainer['name']} {mon} Team {str(temp_rival_IDs.index(ID) + 1)}"
-                                                trainer["format"] = "Single"
-                                                trainer["link"] = ""
-                                                trainers.append(trainer)
-                                        '''
-
-                            # This last section is for the trainers that are called by name in the scripts like TR_BATTLEG_01 or something like that.
-                            elif len(trainerID1) > 0 and trainerID1[0] != "@":
-                                temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
-                                trainer = get_trainer_data(None, zoneID, int(temp_trainerID1))
-                                trainer["format"] = "Single"
-                                trainer["link"] = ""
-                                trainers.append(trainer)
-                            elif len(trainerID1) > 0 and len(trainerID2) > 1 and trainerID1[0] != "@":
-                                temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
-                                temp_trainerID2 = get_trainer_id_from_partial(trainerID2)
-                                trainer1, trainer2 = get_multi_trainers(temp_trainerID1, temp_trainerID2, zoneID, "Double")
-                                trainers.append(trainer1)
-                                trainers.append(trainer2)
-                            else:
-                                print(areaName, trainerID1, trainerID2)
-                                pass
-                        else:
-                            print("There is something wrong with the args from this area", areaName, args[0])
+                # This next section is for the temp variables that are called like @SCWK_TEMP3
+                elif trainerID1[0] == "@" and len(trainerID2) == 1:
+                    if "GYM" in areaName:
+                        gym_leaders = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, gym_leader_lookup, 4)
+                        for gym_leader in gym_leaders:
+                            trainers.append(gym_leader)
+                    elif "C10" in areaName and "R0101" not in areaName:
+                        e4_trainers = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, gym_leader_lookup, 4)
+                        for e4_trainer in e4_trainers:
+                            trainers.append(e4_trainer)
                     else:
-                        args = parse_trainer_btl_set(substring.strip())
-                        print("This trainer is currently not supported or is not in a recognized area:", args[0].strip("'"), areaName)                                
+                        assorted_trainers = get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, args)
+                        for assorted_trainer in assorted_trainers:
+                            trainers.append(assorted_trainer)
+
+                # This last section is for the trainers that are called by name in the scripts like TR_BATTLEG_01 or something like that.
+                elif len(trainerID1) > 0 and trainerID1[0] != "@":
+                    temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
+                    trainer = diff_trainer_data(None, zoneID, int(temp_trainerID1))
+                    trainer["format"] = "Single"
+                    trainer["link"] = ""
+                    trainers.append(trainer)
+                elif len(trainerID1) > 0 and len(trainerID2) > 1 and trainerID1[0] != "@":
+                    temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
+                    temp_trainerID2 = get_trainer_id_from_partial(trainerID2)
+                    trainer1, trainer2 = get_multi_trainers(temp_trainerID1, temp_trainerID2, zoneID, "Double")
+                    trainers.append(trainer1)
+                    trainers.append(trainer2)
+                else:
+                    print(areaName, trainerID1, trainerID2)
+                    continue
         return trainers
+
+def get_trainer_data(zoneID, trainerID):
+    trainer_data = TRAINER_TABLE['TrainerData'][trainerID]
+    trainer_type = TRAINER_TABLE['TrainerType'][trainer_data['TypeID']]
+    trainer_label = get_trainer_label(trainer_type['LabelTrType'])
+    if not trainer_label:
+        print("This trainer doesn't have a label in game:", trainer_type['LabelTrType'], trainerID)        
+    trainer_name = get_trainer_name(trainer_data['NameLabel'])
+    if not trainer_name:
+        trainer_name = trainer_data['NameLabel'].split("_")[-1].capitalize()
+        print("This trainer doesn't have a name in game:", trainer_data['NameLabel'], trainerID)
+    special_area_name = "Galactic HQ"
+    areaName = get_map_info(zoneID)
+    zones = areas[zoneID + 1]
+    zoneName = zones[3] if zones[3] != '' else zones[4]
+    if zoneName == '':
+        zoneName = areaName
+    for name, route in name_routes.items():
+        if areaName in route:
+            areaName = name
+    if areaName == special_area_name:
+        areaName = "lmpt-33"
+    trainer = {
+        'areaName': areaName,
+        'zoneName': zoneName,
+        'zoneId': int(zoneID),
+        'trainerId': trainerID,
+        'rematch': 0,
+        'name': trainer_name,
+        'type': trainer_label,
+        'method': "",
+        'format': "",
+        'link': ""
+    }
+    return trainer
+
+def diff_trainer_data(event, zoneID, trainerID):
+    '''
+    The event variable is for the place_datas function
+    The zoneID and trainerID is for the ev_script function
+    Make sure that when you call one or the other that the opposite variable(s) is(are) None
+    i.e: diff_trainer_data(event, None, None) or diff_trainer_data(None, zoneID, trainerID)
+    '''
+    trainer = {}
+    galactic_hq = "Galactic HQ"
+    if event is not None:
+        zoneID = int(event['zoneID'])
+        trainerID = int(event['TrainerID'])
+        trainer = get_trainer_data(zoneID, trainerID)
+        trainer['method'] = "Place Data"
+        trainer['format'] = "Single"
+        return trainer
+    else:
+        trainer = get_trainer_data(zoneID, trainerID)
+        trainer['method'] = "Scripted"
+        return trainer
+
+def get_zoneID(areaName):
+    for places in areas:
+        if areaName in places:
+            zoneID = int(areas.index(places) - 1)
+            return zoneID
+        else:
+            continue
+
+def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3):
+    trainers = []
+    if trainerID3.isnumeric():
+        
+        trainers += get_support_trainers_data(file_path, areaName, "male", zoneID)
+        trainers += get_support_trainers_data(file_path, areaName, "female", zoneID)
+        trainer2, trainer3 = get_multi_trainers(trainerID2, trainerID3, zoneID, "Multi")
+        trainers.append(trainer2)
+        trainers.append(trainer3)
+    elif trainerID3[0] == "@":
+
+        trainers += get_support_trainers_data(file_path, areaName, "male", zoneID)
+        trainers += get_support_trainers_data(file_path, areaName, "female", zoneID)
+        team_galactic_lookup = f"pos_{areaName.lower()}_gingakanbu"
+
+        temp_enemy_IDs = parse_random_teams(file_path, team_galactic_lookup, 2, "Evil")
+        if temp_enemy_IDs:
+            trainerID2 = temp_enemy_IDs[0]
+            trainerID3 = temp_enemy_IDs[1]
+            trainer2, trainer3 = get_multi_trainers(trainerID2, trainerID3, zoneID, "Multi")
+            trainers.append(trainer2)
+            trainers.append(trainer3)
+        else:
+            print("Unable to find Multi Trainer (variable) opponent teams", areaName, substring)
+
+    return trainers
+
+def get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, lookup, team_num):
+    trainers = []
+    if "Masters" not in lookup and "Celebi" not in lookup:
+        temp_trainer_IDs = parse_random_teams(file_path, lookup, team_num, None)
+        type = lookup.split("_")[-1].strip('"')
+        if "barry" in lookup:
+            for ID in temp_trainer_IDs:
+                trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, type)
+                trainers.append(trainer)
+            return trainers
+        for ID in temp_trainer_IDs:
+            trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, None)
+            trainers.append(trainer)
+        return trainers
+    if "Masters" in lookup:
+        temp_trainer_IDs = parse_random_teams(file_path, "", len(team_num), lookup)
+        for ID in temp_trainer_IDs:
+            master_trainer_name = team_num[temp_trainer_IDs.index(ID)]
+            trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, team_num[temp_trainer_IDs.index(ID)])
+            trainers.append(trainer)
+        return trainers
+    if "Celebi" in lookup:
+        temp_trainer_IDs = parse_random_teams(file_path, "", team_num, lookup)
+        for ID in temp_trainer_IDs:
+            trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, lookup)
+            trainers.append(trainer)
+        return trainers
+
+def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, args):
+    trainer = []
+    trainers = []
+    cyrus_lookup = f"ev_{areaName.lower()}_randomteam_cyrus"
+    master_trainer_types = ["fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"]
+    starters = ["piplup", "turtwig" ,"chimchar"]
+    for starter in starters:
+        rival_lookup = f"ev_{areaName.lower()}_randomteam_barry_{starter}"
+        rival_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, rival_lookup, 4)
+        for rival in rival_teams:
+            trainer = rival
+            trainers.append(trainer)
+    if trainer == []:
+        cyrus_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, cyrus_lookup, 4)
+        for cyrus in cyrus_teams:
+            trainer = cyrus
+            trainers.append(trainer)
+    if trainer == []:
+        master_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, "Masters", master_trainer_types)
+        for master in master_teams:
+            trainer = master
+            trainers.append(trainer)
+    if trainer == []:
+        celebi_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, "Celebi", 7)
+        for celebi_team in celebi_teams:
+            trainer = celebi_team
+            trainers.append(trainer)
+    if trainer == []:
+        print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args[0])
+        '''
+        ### This section is currently in the progress of being improved and finalized in ev_script.
+
+        for support in ["lucas", "dawn"]:
+            temp_support_IDs = parse_random_teams(file_path, f"ev_{areaName.lower()}_support_{support}", 3, None)
+            for ID in temp_support_IDs:
+                trainer = diff_trainer_data(None, zoneID, int(ID))
+                trainer["name"] = f"{trainer['name']} {mon} Team {str(temp_rival_IDs.index(ID) + 1)}"
+                trainer["format"] = "Single"
+                trainer["link"] = ""
+                trainers.append(trainer)
+        '''
+    return trainers
 
 def get_support_trainers_data(file_path, area_name, support_name, zoneID):
     """
     The purpose of this function is to get the support trainers data
     """
     temp_support_IDs = []
+    bad_support_lookup1 = f"ev_r207_func_17" ### These bad lookups are for Lucas and Dawn on Route 207
+    bad_support_lookup2 = f"ev_r207_func_20"
+    rival_multi_lookup = f"{area_name.lower()}_rival_support"
 
     for support in [support_name]:
-        temp_support_IDs = parse_random_teams(file_path, f"{area_name.lower()}_{support}_100", 3, None)
+        current_support_lookup = f"{area_name.lower()}_{support}_100" ### This is for Lucas and Dawn in C01 and C07. Is this the most optimal? Maybe?
+        temp_support_IDs = parse_random_teams(file_path, current_support_lookup, 3, None)
     if temp_support_IDs == []:
-        temp_support_IDs = parse_random_teams(file_path, f"ev_{area_name.lower()}_rivalfight_get_rival_team", 3, None)
-    if temp_support_IDs == []:
-        temp_support_IDs = parse_random_teams(file_path, f"{area_name.lower()}_rival_support", 3, None)
+        temp_support_IDs = parse_random_teams(file_path, rival_multi_lookup, 3, None)
     if temp_support_IDs == [] and support_name != None:
         for support in [support_name]:
             if support == "male":
-                temp_support_IDs = parse_random_teams(file_path, f"ev_r207_func_17", 3, None)
+                temp_support_IDs = parse_random_teams(file_path, bad_support_lookup1, 3, None)
                 break
             elif support == "female":
-                temp_support_IDs = parse_random_teams(file_path, f"ev_r207_func_20", 3, None)
+                temp_support_IDs = parse_random_teams(file_path, bad_support_lookup2, 3, None)
                 break
-    if temp_support_IDs == []:
-        temp_support_IDs = parse_random_teams(file_path, f"ev_r212ar0101_func_19", 3, None)
     if temp_support_IDs == []:
         print("Support Trainers still needs more work", area_name, zoneID)
     trainers = []
     for ID in temp_support_IDs:
-        trainer = get_trainer_data(None, zoneID, int(ID))
+        trainer = diff_trainer_data(None, zoneID, int(ID))
         trainer["format"] = "Multi"
         trainer["link"] = "Support"
         trainers.append(trainer)
     return trainers
 
 def get_single_trainer(zoneID, ID, temp_IDs, name):
-    trainer = get_trainer_data(None, zoneID, int(ID))
+    trainer = diff_trainer_data(None, zoneID, int(ID))
     starters = ["piplup", "turtwig" ,"chimchar"]
     master_trainer_types = ["fire", "water", "electric", "grass", "ice", "fighting", "poison", "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"]
     if name in starters:
-        trainer["name"] = f"{trainer['name']} {name} Team {str(temp_IDs.index(ID) + 1)}"
+        trainer["name"] = f"{trainer['name']} {name.capitalize()} Team {str(temp_IDs.index(ID) + 1)}"
     elif name in master_trainer_types:
         trainer["name"] = f"{name.capitalize()} Master Trainer {trainer['name']}"
     elif name == "Celebi":
@@ -421,16 +457,16 @@ def get_multi_trainers(trainerID1, trainerID2, zoneID, format):
     '''
     trainers = []
     trainerID2_used = False
+    
     for trainerID in [trainerID1, trainerID2]:
-        if trainerID:
-            trainer = get_trainer_data(None, zoneID, int(trainerID))
-            trainer["format"] = format
-            if trainerID2_used == False or not trainerID2:
-                trainer["link"] = trainerID2
-                trainerID2_used = True
-            else:
-                trainer["link"] = trainerID1
-            trainers.append(trainer)
+        trainer = diff_trainer_data(None, zoneID, int(trainerID))
+        trainer["format"] = format
+        if trainerID2_used == False or not trainerID2:
+            trainer["link"] = trainerID2
+            trainerID2_used = True
+        else:
+            trainer["link"] = trainerID1
+        trainers.append(trainer)
     return trainers
 
 def parse_trainer_btl_set(substring):
@@ -468,52 +504,31 @@ def parse_random_teams(file_path, lookup, count, type):
         found_lookup = False
         trainers = []
         for line in f:
+            if match_count == count:
+                break
             substrings = line.split('\n')
             for substring in substrings:
+                if match_count == count:
+                    break
                 if not found_lookup:
                     if substring.startswith(lookup) and "rematch" not in substring:
                         found_lookup = True
-                    elif substring.startswith(lookup) and "rematch" in substring:
-                        print("Rematch is in this string: {substring}")
                 else:
+                    regex_lookup = "LDVAL"
                     if type == "Masters":
-                        if "_LDVAL(@SCWK_PARAM1" in substring:
-                            match = re.split(ldval_pattern, substring)[2]
-                            if match:
-                                trainer_id = match.strip("'")
-                                trainers.append(trainer_id)
-                                match_count += 1
-                                if match_count == count:
-                                    break
+                        regex_lookup = "_LDVAL(@SCWK_PARAM1"
                     elif type == "Celebi":
-                        if "_LDVAL(@CON_TEMP05" in substring:
-                            match = re.split(ldval_pattern, substring)[2]
-                            if match:
-                                trainer_id = match.strip("'")
-                                trainers.append(trainer_id)
-                                match_count += 1
-                                if match_count == count:
-                                    break
+                        regex_lookup = "_LDVAL(@CON_TEMP05"
                     elif type == "Evil":
-                        if "LDVAL(@SCWK_TEMP" in substring:
-                            match = re.split(ldval_pattern, substring)[2]
-                            if match:
-                                trainer_id = match.strip("'")
-                                trainers.append(trainer_id)
-                                match_count += 1
-                                if match_count == count:
-                                    break
-                    elif "LDVAL" in substring:
+                        regex_lookup = "LDVAL(@SCWK_TEMP"
+                    
+                    if regex_lookup in substring:
                         match = re.split(ldval_pattern, substring)[2]
                         if match:
                             trainer_id = match.strip("'")
                             trainers.append(trainer_id)
                             match_count += 1
-                            if match_count == count:
-                                break
-            if match_count == count:
-                break
     return trainers
+        
 
 process_files(os.path.join(repo_file_path, "scripts"), parse_ev_script_file)
-
