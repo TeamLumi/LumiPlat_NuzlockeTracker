@@ -376,6 +376,9 @@ def getPokedexInfo():
             if pokemon > 1010:
                 poke_info = get_pokemon_info(pokemon)
                 poke_name = get_pokemon_name(pokemon)
+                for poke_form in diff_forms.keys():
+                    if poke_name in diff_forms[poke_form]:
+                        form_number = diff_forms[poke_form][3]
                 dex_info = {
                     "value": pokemon,
                     "text": poke_name,
@@ -386,13 +389,17 @@ def getPokedexInfo():
                 dex_info["evolve"] = evolutions[pokemon]["path"]
                 dex_info["generation"] = 8
                 dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
+                dex_info["form"] = int(form_number)
 
 
             pokedex.append(dex_info)
+        else:
+            continue
     with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-#getEncounterData()
+getEncounterData()
 getTrainerData(gym_leader_data)
-#getPokedexInfo()
+getPokedexInfo()
+
