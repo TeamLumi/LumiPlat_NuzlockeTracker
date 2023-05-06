@@ -127,7 +127,6 @@ def get_map_info(label_name):
     match = next((e for e in zone_data if e['ZoneID'] == label_name), None)
     return get_area_display_name(match['MSLabel']) if match and len(match['MSLabel']) > 0 else get_area_name(match['PokePlaceName'])
 
-
 def get_trainer_data_from_place_datas():
     trainers = []
     for bdsp_location_file in bdsp_location_files:
@@ -195,7 +194,7 @@ def parse_ev_script_file(file_path):
     """
     trainers = []
 
-    with open(file_path, 'r', encoding="utf8") as f:
+    with open(file_path, 'r', encoding="utf-8") as f:
         for line in f:
             substrings = line.split('\n')
             for substring in substrings:
@@ -208,12 +207,12 @@ def parse_ev_script_file(file_path):
                 else:
                     continue
 
-                if not zoneID:
-                    print("The trainers in this area are currently not supported:", areaName, args[0])
+                if zoneID is None or zoneID < 0:
+                    print("The trainers in this area are currently not supported:", zoneID, areaName, args[0])
                     raise UnsupportedTrainer
 
                 if -1 in args:
-                    print("There is something wrong with the args from this area", areaName, args[0])
+                    print("There is something wrong with the args from this area", zoneID, areaName, args[0])
                     raise InvalidArg
 
                 trainerID1 = args[0].strip()
@@ -267,7 +266,7 @@ def parse_ev_script_file(file_path):
                 else:
                     print("There is Missing Data here:", areaName, trainerID1, trainerID2)
                     raise MissingData
-        return trainers
+    return trainers
 
 def get_trainer_data(zoneID, trainerID):
     trainer_data = TRAINER_TABLE['TrainerData'][trainerID]
@@ -378,13 +377,15 @@ def get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, lo
             trainers.append(trainer)
         return trainers
 
-    if MASTER_TRAINER in lookup:
+    if MASTER_TRAINER == lookup:
         temp_master_IDs = parse_random_teams(file_path, "", len(team_num), lookup)
         add_trainers(zoneID, temp_master_IDs, team_num)
+        return trainers
 
-    elif CELEBI in lookup:
+    elif CELEBI == lookup:
         temp_celebi_IDs = parse_random_teams(file_path, "", team_num, lookup)
         add_trainers(zoneID, temp_celebi_IDs, [lookup] * len(temp_celebi_IDs))
+        return trainers
         
     else:
         if "barry" in lookup:
@@ -429,7 +430,7 @@ def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
             trainers.extend(celebi_teams)
             return trainers
     if count_keeper == []:
-        print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args[0])
+        print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args)
         '''
         ### This section is currently in the progress of being improved and finalized in ev_script.
 
@@ -540,7 +541,15 @@ def parse_random_teams(file_path, lookup, count, type):
     ev_c02_randomteam_barry_turtwig
     ev_c02_randomteam_barry_turtwig_rematch
     '''
-    with open(file_path, 'r', encoding="utf8") as f:
+    regex_lookup_dict = {
+        MASTER_TRAINER: MASTER_TRAINER_LOOKUP,
+        CELEBI: CELEBI_LOOKUP,
+        EVIL_TYPE: EVIL_LOOKUP,
+        None: LDVAL_LOOKUP,
+    }
+    regex_lookup = regex_lookup_dict.get(type)
+
+    with open(file_path, 'r', encoding="utf-8") as f:
         match_count = 0
         found_lookup = False
         trainers = []
@@ -555,13 +564,6 @@ def parse_random_teams(file_path, lookup, count, type):
                     if substring.startswith(lookup) and REMATCH_SUBSTRING not in substring:
                         found_lookup = True
                 else:
-                    regex_lookup = LDVAL_LOOKUP
-                    if type == MASTER_TRAINER:
-                        regex_lookup = MASTER_TRAINER_LOOKUP
-                    elif type == CELEBI:
-                        regex_lookup = CELEBI_LOOKUP
-                    elif type == EVIL_TYPE:
-                        regex_lookup = EVIL_LOOKUP 
                     if regex_lookup in substring:
                         match = re.split(ldval_pattern, substring)[2]
                         if match:
