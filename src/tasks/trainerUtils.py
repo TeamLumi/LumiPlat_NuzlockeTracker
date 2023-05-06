@@ -52,6 +52,12 @@ MASTER_TRAINER = "Master"
 BAD_SUPPORT_LOOKUP1 = "ev_r207_func_17" ### These bad lookups are for Lucas and Dawn on Route 207
 BAD_SUPPORT_LOOKUP2 = "ev_r207_func_20"
 SUPPORT_LINK = "Support"
+LDVAL_LOOKUP = "LDVAL"
+MASTER_TRAINER_LOOKUP = "_LDVAL(@SCWK_PARAM1"
+CELEBI_LOOKUP = "_LDVAL(@CON_TEMP05"
+EVIL_LOOKUP = "LDVAL(@SCWK_TEMP"
+REMATCH_SUBSTRING = "rematch"
+
 
 class UnsupportedTrainer(Exception):
     pass
@@ -172,10 +178,11 @@ def process_files(folder_path, callback):
         except (UnsupportedTrainer, MissingData):
             continue
         trainers_set = set(frozenset(d.items()) for d in trainers)
-        trainer_list = [dict(s) for s in trainers_set]
+        trainers_list += [dict(s) for s in trainers_set]
 
     data = get_trainer_data_from_place_datas()
-    data.extend(trainers_list)
+    for battle in trainers_list:
+        data.append(battle)
     sorted_data = sorted(data, key=lambda x: x['zoneId'])
     with open(os.path.join(output_file_path, 'trainer_info.json'), 'w', encoding='utf-8') as f:
         json.dump(sorted_data, f)
@@ -201,7 +208,7 @@ def parse_ev_script_file(file_path):
                 else:
                     continue
 
-                if zoneID == -1:
+                if not zoneID:
                     print("The trainers in this area are currently not supported:", areaName, args[0])
                     raise UnsupportedTrainer
 
@@ -364,56 +371,64 @@ def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, 
 
 def get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, lookup, team_num):
     trainers = []
-    if MASTER_TRAINER not in lookup and CELEBI not in lookup:
-        temp_trainer_IDs = parse_random_teams(file_path, lookup, team_num, None)
-        types = lookup.split("_")[-1].strip('"')
-        if "barry" in lookup:
-            for ID in temp_trainer_IDs:
-                trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, types)
-                trainers.append(trainer)
-            return trainers
-        for ID in temp_trainer_IDs:
-            trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, None)
+
+    def add_trainers(zoneID, trainer_ids, team_types=None):
+        for trainer_id, team_type in zip(trainer_ids, team_types or []):
+            trainer = get_single_trainer(zoneID, trainer_id, trainer_ids, team_type)
             trainers.append(trainer)
-        return trainers
-    if "Master" in lookup:
-        print(team_num)
-        temp_trainer_IDs = parse_random_teams(file_path, "", len(team_num), "Master")
-        print("Is is here?")
-        for ID in temp_trainer_IDs:
-            master_trainer_name = team_num[temp_trainer_IDs.index(ID)]
-            trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, master_trainer_name)
-            print("Or there?")
-            trainers.append(trainer)
-        return trainers
-    if CELEBI in lookup:
-        temp_trainer_IDs = parse_random_teams(file_path, "", team_num, lookup)
-        for ID in temp_trainer_IDs:
-            trainers.append(get_single_trainer(zoneID, ID, temp_trainer_IDs, lookup))
         return trainers
 
+    if MASTER_TRAINER in lookup:
+        temp_master_IDs = parse_random_teams(file_path, "", len(team_num), lookup)
+        add_trainers(zoneID, temp_master_IDs, team_num)
+
+    elif CELEBI in lookup:
+        temp_celebi_IDs = parse_random_teams(file_path, "", team_num, lookup)
+        add_trainers(zoneID, temp_celebi_IDs, [lookup] * len(temp_celebi_IDs))
+        
+    else:
+        if "barry" in lookup:
+            temp_trainer_IDs = parse_random_teams(file_path, lookup, team_num, None)
+            team_type = lookup.split("_")[-1].strip('"')
+            for ID in temp_trainer_IDs:
+                trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, team_type)
+                trainers.append(trainer)
+            return trainers
+        else:
+            temp_trainer_IDs = parse_random_teams(file_path, lookup, team_num, None)
+            add_trainers(zoneID, temp_trainer_IDs)
+            for ID in temp_trainer_IDs:
+                trainer = get_single_trainer(zoneID, ID, temp_trainer_IDs, None)
+                trainers.append(trainer)
+            return trainers
+
+
 def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, args):
-    trainer = []
+    count_keeper = []
     trainers = []
     cyrus_lookup = f"ev_{areaName.lower()}_randomteam_cyrus"
     for starter in STARTERS:
         rival_lookup = f"ev_{areaName.lower()}_randomteam_barry_{starter}"
         rival_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, rival_lookup, 4)
-        trainers.extend(rival_teams)
-        print(len(rival_teams), args)
-    if trainer == []:
+        if rival_teams:
+            trainers.extend(rival_teams)
+            return trainers
+    if count_keeper == []:
         cyrus_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, cyrus_lookup, 4)
-        trainers.extend(cyrus_teams)
-    if trainer == []:
-        print("The problem starts here")
-        master_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, "Master", MASTER_TRAINER_TYPES)
-        trainers.extend(master_teams)
-    if trainer == []:
+        if cyrus_teams:
+            trainers.extend(cyrus_teams)
+            return trainers
+    if count_keeper == []:
+        master_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, MASTER_TRAINER, MASTER_TRAINER_TYPES)
+        if master_teams:
+            trainers.extend(master_teams)
+            return trainers
+    if count_keeper == []:
         celebi_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, CELEBI, 7)
-        for celebi_team in celebi_teams:
-            trainer = celebi_team
-            trainers.append(trainer)
-    if trainer == []:
+        if celebi_teams:
+            trainers.extend(celebi_teams)
+            return trainers
+    if count_keeper == []:
         print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args[0])
         '''
         ### This section is currently in the progress of being improved and finalized in ev_script.
@@ -537,18 +552,16 @@ def parse_random_teams(file_path, lookup, count, type):
                 if match_count == count:
                     break
                 if not found_lookup:
-                    if substring.startswith(lookup) and "rematch" not in substring:
+                    if substring.startswith(lookup) and REMATCH_SUBSTRING not in substring:
                         found_lookup = True
                 else:
-                    regex_lookup = "LDVAL"
-                    if type == "Masters":
-                        print("Does it get here?")
-                        regex_lookup = "_LDVAL(@SCWK_PARAM1"
-                    elif type == "Celebi":
-                        regex_lookup = "_LDVAL(@CON_TEMP05"
-                    elif type == "Evil":
-                        regex_lookup = "LDVAL(@SCWK_TEMP"
-                    
+                    regex_lookup = LDVAL_LOOKUP
+                    if type == MASTER_TRAINER:
+                        regex_lookup = MASTER_TRAINER_LOOKUP
+                    elif type == CELEBI:
+                        regex_lookup = CELEBI_LOOKUP
+                    elif type == EVIL_TYPE:
+                        regex_lookup = EVIL_LOOKUP 
                     if regex_lookup in substring:
                         match = re.split(ldval_pattern, substring)[2]
                         if match:
@@ -556,6 +569,5 @@ def parse_random_teams(file_path, lookup, count, type):
                             trainers.append(trainer_id)
                             match_count += 1
     return trainers
-        
 
 process_files(os.path.join(repo_file_path, "scripts"), parse_ev_script_file)
