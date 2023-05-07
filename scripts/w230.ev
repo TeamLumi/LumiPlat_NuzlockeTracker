@@ -1,0 +1,37 @@
+ev_w230_flag_change:
+	_IF_FLAGON_CALL(#FV_C11_STOP, 'ev_w230_mans_chap')
+	_END()
+ev_w230_mans_chap:
+	_LDVAL(@LOCALWORK31, 1)
+	_RET()
+ev_w230_sign1:
+	_EASY_BOARD_MSG('dp_scenario3%40-msg_w230_sign1_01', 'BOARD_TYPE_ROAD', 0, 2)
+	_END()
+ev_w230_stop_01:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario3%40-msg_w230_stop_01_1')
+	_TALKMSG('dp_scenario3%40-msg_w230_stop_01_2')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_w230_stop_02:
+	_EASY_OBJ_MSG('dp_scenario3%40-msg_w230_stop_02')
+	_END()
+pos_c11_pw_man_out02:
+	_EVENT_START()
+	_OBJ_ANIME('HERO', 'anm_c11_pw_man_out02')
+	_OBJ_ANIME_WAIT()
+	_NAMINORI_END()
+	_OBJ_ANIME('HERO', 'anm_c11_pw_man_out03')
+	_OBJ_ANIME_WAIT()
+	_EVENT_END()
+	_END()
+	_OBJ_ANIME_WAIT()
+	_END()
+anm_c11_pw_man_out02:
+	_AC_DIR_L(8)
+	_AC_WORLD_Z(430.500000, 8)
+	_ACMD_END()
+anm_c11_pw_man_out03:
+	_AC_WORLD_X(681, 8)
+	_ACMD_END()

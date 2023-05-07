@@ -185,24 +185,24 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 183,リーグ:殿堂入りの部屋,League : Hall of Fame Room,Pokemon League,Hall of Fame,prefab_map/c10r0113,C10R0113
 184,リーグ:リーグ専用 PC2F,League: League DEDICATED PC2F,Pokemon League,,prefab_map/t02pc0102,C10R0114
 185,リーグ:リーグ専用 PCB1,League: League Dedicated PCB1,Pokemon League,,prefab_map/t02pc0103,C10R0115
-186,ファイトエリア,Fight Area,,Fight Area,fields/area014,C11
-187,ファイトエリア:フレンドリィショップ,Fight Area: Friendly Shop,,Fight Area: Poké Mart,prefab_map/t02fs0101,C11FS0101
-188,ファイトエリア:ポケモンセンター 1F,Fight Area : Pokémon Center 1F,,Fight Area: Pokémon Center 1F,prefab_map/t02pc0101,C11PC0101
-189,ファイトエリア:ポケモンセンター 2F,Fight Area : Pokémon Center 2F,,Fight Area: Pokémon Center 2F,prefab_map/t02pc0102,C11PC0102
-190,ファイトエリア:ポケモンセンター B1F,Fight Area : Pokémon Center B1F,,Fight Area: Pokémon Center B1F,prefab_map/t02pc0103,C11PC0103
-191,ファイトエリア:バトルパークゲート,Fight Area: Battle Park Gate,,,prefab_map/c04r0401,C11R0101
-192,ファイトエリア:225ゲート,Fight area: 225 gates,,Fight Area: Route 225 Gate,prefab_map/c05r0301,C11R0201
-193,ファイトエリア:民家1,Fight Area : Private House 1,,Fight Area: Private House 1 (),prefab_map/t01r0301,C11R0301
-194,ファイトエリア:民家2,Fight Area : Private House 2,,Fight Area: Private House 2 (),prefab_map/t01r0301,C11R0401
+186,ファイトエリア,Fight Area,Fight Area,Fight Area,fields/area014,C11
+187,ファイトエリア:フレンドリィショップ,Fight Area: Friendly Shop,Fight Area,Fight Area: Poké Mart,prefab_map/t02fs0101,C11FS0101
+188,ファイトエリア:ポケモンセンター 1F,Fight Area : Pokémon Center 1F,Fight Area,Fight Area: Pokémon Center 1F,prefab_map/t02pc0101,C11PC0101
+189,ファイトエリア:ポケモンセンター 2F,Fight Area : Pokémon Center 2F,Fight Area,Fight Area: Pokémon Center 2F,prefab_map/t02pc0102,C11PC0102
+190,ファイトエリア:ポケモンセンター B1F,Fight Area : Pokémon Center B1F,Fight Area,Fight Area: Pokémon Center B1F,prefab_map/t02pc0103,C11PC0103
+191,ファイトエリア:バトルパークゲート,Fight Area: Battle Park Gate,Fight Area,,prefab_map/c04r0401,C11R0101
+192,ファイトエリア:225ゲート,Fight area: 225 gates,Fight Area,Fight Area: Route 225 Gate,prefab_map/c05r0301,C11R0201
+193,ファイトエリア:民家1,Fight Area : Private House 1,Fight Area,Fight Area: Private House 1 (),prefab_map/t01r0301,C11R0301
+194,ファイトエリア:民家2,Fight Area : Private House 2,Fight Area,Fight Area: Private House 2 (),prefab_map/t01r0301,C11R0401
 195,クロガネたんこう:クロガネたんこう B1,KuroganeTanko : Kurogane Tantko B1,,Oreburgh Mine 1F,prefab_map/d01r0101,D01R0101
 196,クロガネたんこう:クロガネたんこう B2,KuroganeTanko : Kurogane Tantko B2,,Oreburgh Mine B1F,prefab_map/d01r0102,D01R0102
 197,たにまのはつでんしょ（フィールド）,Tani-no-8 Densho (Field),,Valley Windworks,fields/area003,D02
 198,たにまのはつでんしょ,Tanimano-no-Honsho,,Valley Windworks,prefab_map/d02r0101,D02R0101
-199,ハクタイのもり（フィールド）,Hakutai's Weight (Field),,Eterna Forest,fields/area003,D03
+199,ハクタイのもり（フィールド）,Hakutai's Weight (Field),,Eterna Forest(Cut Tree Path),fields/area003,D03
 200,ハクタイのもり,Hakutai's Weight,,Eterna Forest,prefab_map/d03r0101,D03R0101
-201,タタラせいてつしょ（フィールド）,Tatara Setsutsusho (Field),,Fuego Ironworks,fields/area003,D04
-202,タタラせいてつしょ,Tatara Setsutsu,,Fuego Ironworks,prefab_map/d04r0101,D04R0101
-203,てんがんざん:てんがんざんー1,Tenganzan : Tenganzan1,,Mt. Coronet,prefab_map/d05r0101,D05R0101
+201,タタラせいてつしょ（フィールド）,Tatara Setsutsusho (Field),,Fuego Ironworks (Outside),fields/area003,D04
+202,タタラせいてつしょ,Tatara Setsutsu,,Fuego Ironworks (Inside),prefab_map/d04r0101,D04R0101
+203,てんがんざん:てんがんざんー1,Tenganzan : Tenganzan1,,Mt. Coronet Route 207 Entrance,prefab_map/d05r0101,D05R0101
 204,てんがんざん:てんがんざんー2,Tenganzan : Tenganzan2,,Mt. Coronet 2F,prefab_map/d05r0102,D05R0102
 205,てんがんざん:てんがんざんー3,Tenganzan : Tenganzan3,,Mt. Coronet 3F,prefab_map/d05r0103,D05R0103
 206,てんがんざんー外周,Tenganzan - Outer Circumference,,Mt. Coronet Snow Area,prefab_map/d05r0104,D05R0104
@@ -213,8 +213,8 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 211,てんがんざん:てんがんざんー7,Tenganzan : Tenganzan7,,Mt. Coronet 7F,prefab_map/d05r0109,D05R0109
 212,てんがんざん:てんがんざんー8,Tenganzan : TenganZan8,,Mt. Coronet Summit,prefab_map/d05r0110,D05R0110
 213,てんがんざん:てんがんざんー9,Tenganzan : Tenganzan9,,Mt. Coronet B1F,prefab_map/d05r0111,D05R0111
-214,てんがんざん:てんがんざんー10,Tenganzan : TenganZan10,,Mt. Coronet,prefab_map/d05r0112,D05R0112
-215,てんがんざん:てんがんざんー11,Tenganzan : Tenganzan11,,Mt. Coronet,prefab_map/d05r0113,D05R0113
+214,てんがんざん:てんがんざんー10,Tenganzan : TenganZan10,,Mt. Coronet Route 211 Entrance,prefab_map/d05r0112,D05R0112
+215,てんがんざん:てんがんざんー11,Tenganzan : Tenganzan11,,Mt. Coronet Route 216 Entrance,prefab_map/d05r0113,D05R0113
 216,やりのはしら（ダイヤモンド）,Diamond,,,prefab_map/d05r0114,D05R0114
 217,やりのはしら（パール）,Spear Ladder (Pearl),,,prefab_map/d05r0115,D05R0115
 218,はじまりのま（ダイヤモンド）,Beginning (Diamond),,,prefab_map/d05r0116,D05R0116
@@ -246,9 +246,9 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 244,チャンピオンロード:チャンピオンロードー1,Champion Road : Champion Road 1,,Victory Road 1F,prefab_map/d09r0101,D09R0101
 245,チャンピオンロード:チャンピオンロードー2,Champion Road : Champion Road 2,,Victory Road 2F,prefab_map/d09r0102,D09R0102
 246,チャンピオンロード:チャンピオンロードー3,Champion Road : Champion Road 3,,Victory Road B1F,prefab_map/d09r0103,D09R0103
-247,チャンピオンロード:チャンピオンロードー4,Champion Road : Champion Road 4,,Victory Road,prefab_map/d09r0104,D09R0104
-248,チャンピオンロード:チャンピオンロードー5,Champion Road : Champion Road 5,,Victory Road,prefab_map/d09r0105,D09R0105
-249,チャンピオンロード:チャンピオンロードー6,Champion Road : Champion Road 6,,Victory Road,prefab_map/d09r0106,D09R0106
+247,チャンピオンロード:チャンピオンロードー4,Champion Road : Champion Road 4,,Victory Road Nat Dex Area,prefab_map/d09r0104,D09R0104
+248,チャンピオンロード:チャンピオンロードー5,Champion Road : Champion Road 5,,Victory Road Nat Dex Area B1F,prefab_map/d09r0105,D09R0105
+249,チャンピオンロード:チャンピオンロードー6,Champion Road : Champion Road 6,,Victory Road Nat Dex Area,prefab_map/d09r0106,D09R0106
 250,パルパーク,Palpark,,,prefab_map/d10r0101,D10R0101
 251,ふれあいひろば,Fureai Hiroba,,Amity Square (Hearthome),prefab_map/d11r0101,D11R0101
 252,あれたぬけみち,Aye noke 6,,Ravaged Path,prefab_map/d12r0101,D12R0101
@@ -258,10 +258,10 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 256,クロガネゲート:クロガネゲートーB1F,Kuroganegate : KuroganegateB1F,,Oreburgh Tunnel B1F,prefab_map/d14r0102,D14R0102
 257,まんげつじま（フィールド）,Mangetsujima (Field),,,fields/area010,D15
 258,まんげつじま,Mange tsujima,,,prefab_map/d15r0101,D15R0101
-259,ハードマウンテン（フィールド）,Hard Mountain (Field),,Stark Mountain,fields/area012,D16
-260,ハードマウンテン:ハードマウンテン−1,Hard Mountain : Hard Mountain -1,,Stark Mountain,prefab_map/d16r0101,D16R0101
-261,ハードマウンテン:ハードマウンテン−2,Hard Mountain : Hard Mountain -2,,Stark Mountain,prefab_map/d16r0102,D16R0102
-262,ハードマウンテン:ハードマウンテン−3,Hard Mountain : Hard Mountain -3,,,prefab_map/d16r0103,D16R0103
+259,ハードマウンテン（フィールド）,Hard Mountain (Field),,Stark Mountain (Outside),fields/area012,D16
+260,ハードマウンテン:ハードマウンテン−1,Hard Mountain : Hard Mountain -1,,Stark Mountain (Entrance),prefab_map/d16r0101,D16R0101
+261,ハードマウンテン:ハードマウンテン−2,Hard Mountain : Hard Mountain -2,,Stark Mountain (Interior),prefab_map/d16r0102,D16R0102
+262,ハードマウンテン:ハードマウンテン−3,Hard Mountain : Hard Mountain -3,,Stark Mountain (Deeper),prefab_map/d16r0103,D16R0103
 263,おくりのみずうみ,Okukuri Mizuumi,,Sendoff Spring,prefab_map/d17r0101,D17R0101
 264,もどりのどうくつ:もどりのどうくつ,Returns : Back-to-Back Lookutsu,,Turnback Cave,prefab_map/d17r0102,D17R0102
 265,もどりのどうくつ:もどりのどうくつ,Returns : Back-to-Back Lookutsu,,Turnback Cave,prefab_map/d17r0103,D17R0103
@@ -285,25 +285,25 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 283,もどりのどうくつ:もどりのどうくつ,Returns : Back-to-Back Lookutsu,,Turnback Cave,prefab_map/d17r0109,D17R0121
 284,もどりのどうくつ:もどりのどうくつ,Returns : Back-to-Back Lookutsu,,Turnback Cave,prefab_map/d17r0109,D17R0122
 285,はなのらくえん,Hana-no-Rakuen,,Flower Paradise,fields/area008,D18
-286,キッサキしんでん:キッサキしんでん 1F,Kisaki Shin : Kisaki-shin 1F,,Snowpoint Temple,prefab_map/d20r0101,D20R0101
-287,キッサキしんでん:キッサキしんでん B1F,Kisaki-shin : Kisaki-shin B1F,,Snowpoint Temple,prefab_map/d20r0102,D20R0102
-288,キッサキしんでん:キッサキしんでん B2F,Kisaki Shin : Kisaki-shin B2F,,Snowpoint Temple,prefab_map/d20r0103,D20R0103
-289,キッサキしんでん:キッサキしんでん B3F,Kisaki Shin : Kisaki-shin B3F,,Snowpoint Temple,prefab_map/d20r0104,D20R0104
-290,キッサキしんでん:キッサキしんでん B4F,Kisaki-shin : Kisaki-shin B4F,,Snowpoint Temple,prefab_map/d20r0105,D20R0105
-291,キッサキしんでん:キッサキしんでん B5F,Kisaki Shin : Kisaki-shin B5F,,Snowpoint Temple,prefab_map/d20r0106,D20R0106
+286,キッサキしんでん:キッサキしんでん 1F,Kisaki Shin : Kisaki-shin 1F,,Snowpoint Temple 1F,prefab_map/d20r0101,D20R0101
+287,キッサキしんでん:キッサキしんでん B1F,Kisaki-shin : Kisaki-shin B1F,,Snowpoint Temple B1F,prefab_map/d20r0102,D20R0102
+288,キッサキしんでん:キッサキしんでん B2F,Kisaki Shin : Kisaki-shin B2F,,Snowpoint Temple B2F,prefab_map/d20r0103,D20R0103
+289,キッサキしんでん:キッサキしんでん B3F,Kisaki Shin : Kisaki-shin B3F,,Snowpoint Temple B3F,prefab_map/d20r0104,D20R0104
+290,キッサキしんでん:キッサキしんでん B4F,Kisaki-shin : Kisaki-shin B4F,,Snowpoint Temple B4F,prefab_map/d20r0105,D20R0105
+291,キッサキしんでん:キッサキしんでん B5F,Kisaki Shin : Kisaki-shin B5F,,Snowpoint Temple B5F,prefab_map/d20r0106,D20R0106
 292,まよいのどうくつ:まよいのどうくつ ー1,Mayu's Doutsu : Good-of-The-1,,Wayward Cave,prefab_map/d21r0101,D21R0101
 293,まよいのどうくつ:まよいのどうくつ ー2,Maya-no-Dotsu : Good-of-The-2,,Wayward Cave,prefab_map/d21r0102,D21R0102
 294,いせきマニアのあな:いせきマニアのあな,Iseki Mania's Ana : Iseki Mania,,Maniac Tunnel,prefab_map/d22r0101,D22R0101
 295,いせきマニアのあな:いせきマニアのあな,Iseki Mania's Ana : Iseki Mania,,Maniac Tunnel,prefab_map/d22r0102,D22R0102
 296,マニアトンネル,Mania Tunnel,,Maniac Tunnel,prefab_map/d22r0103,D22R0103
 297,じまんのうらにわ,I'm a lye of the oneself.,,Trophy Garden,prefab_map/d23r0101,D23R0101
-298,こうてつじま（フィールド）,Kotetsujima (Field),,Iron Island,fields/area010,D24
-299,こうてつじま:こうてつじま―1,Kotetsujima : Kotetsujima -1,,Iron Island,prefab_map/d24r0101,D24R0101
-300,こうてつじま:こうてつじま―2,Kotetsujima : Kotetsujima -2,,Iron Island,prefab_map/d24r0102,D24R0102
-301,こうてつじま:こうてつじま―3,Kotetsujima : Kotetsujima -3,,Iron Island,prefab_map/d24r0103,D24R0103
-302,こうてつじま:こうてつじま―4,Kotetsujima : Kotetsujima -4,,Iron Island,prefab_map/d24r0104,D24R0104
-303,こうてつじま:こうてつじま―5,Kotetsujima : Kotetsujima -5,,Iron Island,prefab_map/d24r0105,D24R0105
-304,こうてつじま:こうてつじま―6,Kotetsujima : Kotetsujima -6,,Iron Island,prefab_map/d24r0106,D24R0106
+298,こうてつじま（フィールド）,Kotetsujima (Field),,Iron Island (Outside),fields/area010,D24
+299,こうてつじま:こうてつじま―1,Kotetsujima : Kotetsujima -1,,Iron Island 1F,prefab_map/d24r0101,D24R0101
+300,こうてつじま:こうてつじま―2,Kotetsujima : Kotetsujima -2,,Iron Island B1F Left Cave,prefab_map/d24r0102,D24R0102
+301,こうてつじま:こうてつじま―3,Kotetsujima : Kotetsujima -3,,Iron Island B1F Right Cave,prefab_map/d24r0103,D24R0103
+302,こうてつじま:こうてつじま―4,Kotetsujima : Kotetsujima -4,,Iron Island B2F Left Cave,prefab_map/d24r0104,D24R0104
+303,こうてつじま:こうてつじま―5,Kotetsujima : Kotetsujima -5,,Iron Island B3F Right Cave,prefab_map/d24r0105,D24R0105
+304,こうてつじま:こうてつじま―6,Kotetsujima : Kotetsujima -6,,Iron Island B3F,prefab_map/d24r0106,D24R0106
 305,こうてつじま:こうてつじま―民家,Kotetsujima : Kotetsujima - Private House,,,prefab_map/c02r0501,D24R0201
 306,もりのようかん:もりのようかん 入り口広間,Mori no Yokan : Mori no Yokan Entrance Hall,,Old Chateau,prefab_map/d25r0101,D25R0101
 307,もりのようかん:もりのようかん 長い机の部屋,Mori no Yokan : Mori no Yokan Long Desk Room,,Old Chateau,prefab_map/d25r0102,D25R0102
@@ -318,8 +318,8 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 316,ギンガだんトバリビル:ギンガだんアジト 2F,Ginga DantoBaribil : Gingad dan ajito 2F,,Team Galactic HQ 2F,prefab_map/d26r0102,D26R0102
 317,ギンガだんトバリビル:ギンガだんアジト 3F,Ginga DantoBaribir : Gingadian Ajito 3F,,Team Galactic HQ 3F,prefab_map/d26r0103,D26R0103
 318,ギンガだんトバリビル:ギンガだんアジト 4F,Ginga DantoBaribir : Gingad dan ajito 4F,,Team Galactic HQ 4F,prefab_map/d26r0104,D26R0104
-319,ギンガだんトバリビル:ギンガだんアジト B1F,Ginga DantoBaribil : Gingadian Ajito B1F,,Team Galactic HQ,prefab_map/d26r0105,D26R0105
-320,ギンガだんトバリビル:ギンガだんアジト B2F,Ginga DantoBaribil : Gingad dan ajito B2F,,Team Galactic HQ,prefab_map/d26r0106,D26R0106
+319,ギンガだんトバリビル:ギンガだんアジト B1F,Ginga DantoBaribil : Gingadian Ajito B1F,,Team Galactic HQ B1F,prefab_map/d26r0105,D26R0105
+320,ギンガだんトバリビル:ギンガだんアジト B2F,Ginga DantoBaribil : Gingad dan ajito B2F,,Team Galactic HQ B2F,prefab_map/d26r0106,D26R0106
 321,ギンガだんトバリビル:ギンガだんアジト レイアイハイの部屋,Ginga Dantobaribir : Gingadian Hideihai's Room,,,prefab_map/d26r0107,D26R0107
 322,ギンガだんトバリビル:ギンガだんアジト レイアイハイの部屋への通路,Ginga Dantobariville : Aisle to the Room of Gingad dan ajito Leiaihai,,,prefab_map/d26r0108,D26R0108
 323,シンジこ:シンジこ（変化前）,Shinjiko : Shinjiko (before the change),,Lake Verity (Before),prefab_map/d27r0101,D27R0101
@@ -355,17 +355,17 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 353,範囲外など,"Out of range, etc.",,,,NOTHING
 354,201ばんどうろ,201 Bandoro,,Route 201,fields/area001,R201
 355,202ばんどうろ,202 Bandoro,,Route 202,fields/area001,R202
-356,203ばんどうろ,203 Bandoro,,Route 203,fields/area001,R204A
-357,204ばんどうろa（コトブキ側）,204 Bandoro a(Kotobuki side),,Route 204 South,fields/area001,
+356,203ばんどうろ,203 Bandoro,,Route 203,fields/area001,R203
+357,204ばんどうろa（コトブキ側）,204 Bandoro a(Kotobuki side),,Route 204 South,fields/area001,R204A
 358,204ばんどうろb（ソノオ側）,204 Bandoro b(Sonoh side),,Route 204 North,fields/area003,R204B
 359,205ばんどうろa（ソノオ側）,205 Bandoro a(Sonoh side),,Route 205 South,fields/area003,R205A
 360,205ばんどうろa:民家,205 Bandoro a: Private House,,Route 205: Rest House,prefab_map/c02r0501,R205AR0101
 361,205ばんどうろb（ハクタイ側）,205 Bandoro b(Hakutai side),,Route 205 North,fields/area003,R205B
 362,206ばんどうろ,206 Bandoro,,Route 206,fields/area002,R206
-363,206ばんどうろ:サイクリングロードゲート大,206 Bandoro : Cycling Road Gate Large,,,prefab_map/r206r0101,R206R0101
+363,206ばんどうろ:サイクリングロードゲート大,206 Bandoro : Cycling Road Gate Large,,Route 206,prefab_map/r206r0101,R206R0101
 364,207ばんどうろ,207 Bandoro,,Route 207,fields/area002,R207
 365,208ばんどうろ,208 Bandoro,,Route 208,fields/area004,R208
-366,208ばんどうろ:民家（木の実爺）,208 Bandoro : Private House (Minoru Kino),,,prefab_map/t01r0301,R208R0101
+366,208ばんどうろ:民家（木の実爺）,208 Bandoro : Private House (Minoru Kino),,Route 208,prefab_map/t01r0301,R208R0101
 367,209ばんどうろ,209 Bandoro,,Route 209,fields/area005,R209
 368,209ばんどうろ:ロストタワー1F,209 Bandoro : Lost Tower1F,,Lost Tower 1F,prefab_map/r209r0101,R209R0101
 369,209ばんどうろ:ロストタワー2F,209 Bandoro : Lost Tower2F,,Lost Tower 2F,prefab_map/r209r0102,R209R0102
@@ -373,52 +373,52 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 371,209ばんどうろ:ロストタワー4F,209 Bandoro : Lost Tower4F,,Lost Tower 4F,prefab_map/r209r0104,R209R0104
 372,209ばんどうろ:ロストタワー5F,209 Bandoro : Lost Tower5F,,Lost Tower 5F,prefab_map/r209r0105,R209R0105
 373,210ばんどうろa,210 Bandoro a,,Route 210 South,fields/area005,R210A
-374,210ばんどうろa:カフェやまごや,210 Bandoro a: Cafe Yamagoya,,Route 210,prefab_map/r210ar0101,R210AR0101
+374,210ばんどうろa:カフェやまごや,210 Bandoro a: Cafe Yamagoya,,Route 210 South,prefab_map/r210ar0101,R210AR0101
 375,210ばんどうろb,210 Bandoro b,,Route 210 North,fields/area005,R210B
-376,210ばんどうろb:民家（ドラゴンわざ婆）,210 Bandoro b: Private House (Dragon Wazaba),,,prefab_map/t01r0301,R210BR0101
+376,210ばんどうろb:民家（ドラゴンわざ婆）,210 Bandoro b: Private House (Dragon Wazaba),,Route 210 North,prefab_map/t01r0301,R210BR0101
 377,211ばんどうろa（ハクタイ側）,211 Bandoro a(Hakutai side),,Route 211 West,fields/area003,R211A
 378,211ばんどうろb（カンナギ側）,211 Bandoro b(Kanagi side),,Route 211 East,fields/area005,R211B
 379,212ばんどうろa（ノモセ側）,212 Bandoro a(Nomose side),,Route 212 North,fields/area007,R212A
-380,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,,prefab_map/r212ar0101,R212AR0101
-381,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,,prefab_map/r212ar0102,R212AR0102
-382,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,,prefab_map/r212ar0103,R212AR0103
+380,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,Route 212 North,prefab_map/r212ar0101,R212AR0101
+381,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,Route 212 North,prefab_map/r212ar0102,R212AR0102
+382,212ばんどうろa:ポケモンやしき,212 Bandoro a: Pokémon Yaski,,Route 212 South,prefab_map/r212ar0103,R212AR0103
 383,212ばんどうろb（ヨスガ側）,212 Bandoro b(Yosuga side),,Route 212 South,fields/area007,R212B
-384,212ばんどうろb:民家,212 Bandoro b: Private House,,,prefab_map/c04r0801,R212BR0101
+384,212ばんどうろb:民家,212 Bandoro b: Private House,,Route 212 South,prefab_map/c04r0801,R212BR0101
 385,213ばんどうろ,213 Bandoro,,Route 213,fields/area013,R213
-386,213ばんどうろ:213ゲート,213 Bandoro:213 Gate,,,prefab_map/r218r0101,R213R0101
-387,213ばんどうろ:足跡博士の家,213 Bandoro : Dr. Footprint's House,,,prefab_map/c05r0901,R213R0201
-388,213ばんどうろ:グランドレイクフロント,213 Bandoro : Grand Lakefront,,,prefab_map/r213r0301,R213R0301
-389,213ばんどうろ:グランドレイク客室1,213 Bandoro : Grand Lake Room 1,,,prefab_map/r213r0401,R213R0401
-390,213ばんどうろ:グランドレイク客室2,213 Bandoro : Grand Lake Room 2,,,prefab_map/r213r0401,R213R0501
-391,213ばんどうろ:グランドレイク客室3,213 Bandoro : Grand Lake Room 3,,,prefab_map/r213r0401,R213R0601
+386,213ばんどうろ:213ゲート,213 Bandoro:213 Gate,,Route 213,prefab_map/r218r0101,R213R0101
+387,213ばんどうろ:足跡博士の家,213 Bandoro : Dr. Footprint's House,,Route 213,prefab_map/c05r0901,R213R0201
+388,213ばんどうろ:グランドレイクフロント,213 Bandoro : Grand Lakefront,,Route 213,prefab_map/r213r0301,R213R0301
+389,213ばんどうろ:グランドレイク客室1,213 Bandoro : Grand Lake Room 1,,Route 213,prefab_map/r213r0401,R213R0401
+390,213ばんどうろ:グランドレイク客室2,213 Bandoro : Grand Lake Room 2,,Route 213,prefab_map/r213r0401,R213R0501
+391,213ばんどうろ:グランドレイク客室3,213 Bandoro : Grand Lake Room 3,,Route 213,prefab_map/r213r0401,R213R0601
 392,214ばんどうろ,214 Bandoro,,Route 214,fields/area013,R214
-393,214ばんどうろ:c08ゲート,214 Bandoro: c08 Gate,,,prefab_map/c05r0301,R214R0101
+393,214ばんどうろ:c08ゲート,214 Bandoro: c08 Gate,,Route 214,prefab_map/c05r0301,R214R0101
 394,215ばんどうろ,215 Bandoro,,Route 215,fields/area005,R215
 395,216ばんどうろ,216 Bandoro,,Route 216,fields/area009,R216
-396,216ばんどうろ:民家,216 Bandoro : Private House,,,prefab_map/c02r0501,R216R0101
+396,216ばんどうろ:民家,216 Bandoro : Private House,,Route 216,prefab_map/c02r0501,R216R0101
 397,217ばんどうろ,217 Bandoro,,Route 217,fields/area009,R217
-398,217ばんどうろ:民家1,217 Bandoro : Private House 1,,,prefab_map/c04r0701,R217R0101
-399,217ばんどうろ:民家2,217 Bandoro : Private House 2,,,prefab_map/c04r0701,R217R0201
+398,217ばんどうろ:民家1,217 Bandoro : Private House 1,,Route 217,prefab_map/c04r0701,R217R0101
+399,217ばんどうろ:民家2,217 Bandoro : Private House 2,,Route 217,prefab_map/c04r0701,R217R0201
 400,218ばんどうろ,218 Bandoro,,Route 218,fields/area010,R218
 401,218ばんどうろ:c01ゲート,218 Bandoro: c01 Gate,,Route 218: Jubilife Gate,prefab_map/r218r0101,R218R0101
-402,218ばんどうろ:c02ゲート,218 Bandoro: c02 Gate,,,prefab_map/r218r0101,R218R0201
+402,218ばんどうろ:c02ゲート,218 Bandoro: c02 Gate,,Route 218,prefab_map/r218r0101,R218R0201
 403,219ばんどうろ,219 Bandoro,,Route 219,fields/area001,R219
 404,221ばんどうろ,221 Bandoro,,Route 221,fields/area001,R221
-405,221ばんどうろ:パルパークゲート,221 Bandoro : Palpark Gate,,,prefab_map/r221r0101,R221R0101
-406,221ばんどうろ:民家,221 Bandoro : Private House,,,prefab_map/c04r0801,R221R0201
+405,221ばんどうろ:パルパークゲート,221 Bandoro : Palpark Gate,,Route 221,prefab_map/r221r0101,R221R0101
+406,221ばんどうろ:民家,221 Bandoro : Private House,,Route 221,prefab_map/c04r0801,R221R0201
 407,222ばんどうろ,222 Bandoro,,Route 222,fields/area013,R222
 408,222ばんどうろ:民家1,222 Bandoro : Private House 1,,Route 222,prefab_map/t01r0301,R222R0101
 409,222ばんどうろ:民家2,222 Bandoro : Private House 2,,Route 222,prefab_map/t01r0301,R222R0201
-410,222ばんどうろ:ｃ08ゲート,222 Bandoro: c08 Gate,,,prefab_map/r218r0101,R222R0301
+410,222ばんどうろ:ｃ08ゲート,222 Bandoro: c08 Gate,,Route 222,prefab_map/r218r0101,R222R0301
 411,224ばんどうろ,224 Bandoro,,Route 224,fields/area008,R224
 412,225ばんどうろ,225 Bandoro,,Route 225,fields/area012,R225
-413,225ばんどうろ:民家,225 Bandoro : Private House,,,prefab_map/t01r0301,R225R0101
+413,225ばんどうろ:民家,225 Bandoro : Private House,,Route 225,prefab_map/t01r0301,R225R0101
 414,227ばんどうろ,227 Bandoro,,Route 227,fields/area012,R227
-415,227ばんどうろ:民家,227 Bandoro : Private House,,,prefab_map/c02r0501,R227R0101
+415,227ばんどうろ:民家,227 Bandoro : Private House,,Route 227,prefab_map/c02r0501,R227R0101
 416,228ばんどうろ,228 Bandoro,,Route 228,fields/area014,R228
-417,228ばんどうろ:W226ゲート,228 Bandoro : W226 Gate,,,prefab_map/r218r0101,R228R0101
-418,228ばんどうろ:民家1,228 Bandoro : Private House 1,,,prefab_map/c04r0801,R228R0201
-419,228ばんどうろ:民家2,228 Bandoro : Private House 2,,,prefab_map/c05r0901,R228R0301
+417,228ばんどうろ:W226ゲート,228 Bandoro : W226 Gate,,Route 228,prefab_map/r218r0101,R228R0101
+418,228ばんどうろ:民家1,228 Bandoro : Private House 1,,Route 228,prefab_map/c04r0801,R228R0201
+419,228ばんどうろ:民家2,228 Bandoro : Private House 2,,Route 228,prefab_map/c05r0901,R228R0301
 420,229ばんどうろ,229 Bandoro,,Route 229,fields/area014,R229
 421,レコードコーナー（未使用）,Record corner (unused),,,,RECORD
 422,フタバタウン,Footaba Town,Twinleaf,Twinleaf Town,fields/area001,T01
@@ -464,30 +464,30 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 462,カンナギ:民家2,Kannagi : Private House 2,Celestic,Private House 2 (),prefab_map/c04r0701,T05R0301
 463,カンナギ:民家3,Kannagi : Private House 3,Celestic,Private House 3 (),prefab_map/c04r0701,T05R0401
 464,カンナギ:ほこら,Kannagi : Hokora,,,prefab_map/t05r0501,T05R0501
-465,サバイバルエリア,Survival Area,,Survival Area,fields/area012,T06
-466,サバイバルエリア:フレンドリィショップ,Survival Area: Friendly Shop,,Survival Area: Poké Mart,prefab_map/t02fs0101,T06FS0101
-467,サバイバルエリア:ポケモンセンター 1F,Survival Area : Pokémon Center 1F,,Survival Area: Pokémon Center 1F,prefab_map/t02pc0101,T06PC0101
-468,サバイバルエリア:ポケモンセンター 2F,Survival Area : Pokémon Center 2F,,Survival Area: Pokémon Center 2F,prefab_map/t02pc0102,T06PC0102
-469,サバイバルエリア:ポケモンセンター B1F,Survival Area : Pokémon Center B1F,,Survival Area: Pokémon Center B1F,prefab_map/t02pc0103,T06PC0103
-470,サバイバルエリア:民家1,Survival area: Private house 1,,Survival Area: Private House 1 (),prefab_map/t01r0301,T06R0101
-471,サバイバルエリア:民家2,Survival Area : Private House 2,,Survival Area: Private House 2 (),prefab_map/c05r0901,T06R0201
-472,サバイバルエリア:民家3,Survival area: Private house 3,,Survival Area: Private House 3 (),prefab_map/t01r0301,T06R0301
-473,リゾートエリア,Resort Area,,Resort Area,fields/area014,T07
-474,リゾートエリア:フレンドリィショップ,Resort Area: Friendly Shop,,Resort Area: Poké Mart,prefab_map/t02fs0101,T07FS0101
-475,リゾートエリア:ポケモンセンター 1F,Resort Area: Pokémon Center 1F,,Resort Area: Pokémon Center 1F,prefab_map/t02pc0101,T07PC0101
-476,リゾートエリア:ポケモンセンター 2F,Resort Area: Pokémon Center 2F,,Resort Area: Pokémon Center 2F,prefab_map/t02pc0102,T07PC0102
-477,リゾートエリア:ポケモンセンター B1F,Resort Area: Pokémon Center B1F,,Resort Area: Pokémon Center B1F,prefab_map/t02pc0103,T07PC0103
-478,リゾートエリア:リボンシンジケート1F,Resort Area: Ribbon Syndicate 1F,,Resort Area: Ribbon Syndicate 1F,prefab_map/t07r0101,T07R0101
-479,リゾートエリア:リボンシンジケート2F,Resort Area: Ribbon Syndicate 2F,,Resort Area: Ribbon Syndicate 2F,prefab_map/t07r0102,T07R0102
-480,リゾートエリア:リボンシンジケートEV,Resort Area: Ribbon Syndicate EV,,Resort Area: Ribbon Syndicate Elevator,prefab_map/c01r0208,T07R0103
-481,リゾートエリア:民家1,Resort area: Private house 1,,Resort Area: Private House 1 (),prefab_map/t01r0301,T07R0201
-482,リゾートエリア:民家2,Resort area: Private house 2,,Resort Area: Private House 2 (),prefab_map/t01r0301,T07R0301
+465,サバイバルエリア,Survival Area,Survival Area,Survival Area,fields/area012,T06
+466,サバイバルエリア:フレンドリィショップ,Survival Area: Friendly Shop,Survival Area,Survival Area: Poké Mart,prefab_map/t02fs0101,T06FS0101
+467,サバイバルエリア:ポケモンセンター 1F,Survival Area : Pokémon Center 1F,Survival Area,Survival Area: Pokémon Center 1F,prefab_map/t02pc0101,T06PC0101
+468,サバイバルエリア:ポケモンセンター 2F,Survival Area : Pokémon Center 2F,Survival Area,Survival Area: Pokémon Center 2F,prefab_map/t02pc0102,T06PC0102
+469,サバイバルエリア:ポケモンセンター B1F,Survival Area : Pokémon Center B1F,Survival Area,Survival Area: Pokémon Center B1F,prefab_map/t02pc0103,T06PC0103
+470,サバイバルエリア:民家1,Survival area: Private house 1,Survival Area,Survival Area: Private House 1 (),prefab_map/t01r0301,T06R0101
+471,サバイバルエリア:民家2,Survival Area : Private House 2,Survival Area,Survival Area: Private House 2 (),prefab_map/c05r0901,T06R0201
+472,サバイバルエリア:民家3,Survival area: Private house 3,Survival Area,Survival Area: Private House 3 (),prefab_map/t01r0301,T06R0301
+473,リゾートエリア,Resort Area,Resort Area,Resort Area,fields/area014,T07
+474,リゾートエリア:フレンドリィショップ,Resort Area: Friendly Shop,Resort Area,Resort Area: Poké Mart,prefab_map/t02fs0101,T07FS0101
+475,リゾートエリア:ポケモンセンター 1F,Resort Area: Pokémon Center 1F,Resort Area,Resort Area: Pokémon Center 1F,prefab_map/t02pc0101,T07PC0101
+476,リゾートエリア:ポケモンセンター 2F,Resort Area: Pokémon Center 2F,Resort Area,Resort Area: Pokémon Center 2F,prefab_map/t02pc0102,T07PC0102
+477,リゾートエリア:ポケモンセンター B1F,Resort Area: Pokémon Center B1F,Resort Area,Resort Area: Pokémon Center B1F,prefab_map/t02pc0103,T07PC0103
+478,リゾートエリア:リボンシンジケート1F,Resort Area: Ribbon Syndicate 1F,Resort Area,Resort Area: Ribbon Syndicate 1F,prefab_map/t07r0101,T07R0101
+479,リゾートエリア:リボンシンジケート2F,Resort Area: Ribbon Syndicate 2F,Resort Area,Resort Area: Ribbon Syndicate 2F,prefab_map/t07r0102,T07R0102
+480,リゾートエリア:リボンシンジケートEV,Resort Area: Ribbon Syndicate EV,Resort Area,Resort Area: Ribbon Syndicate Elevator,prefab_map/c01r0208,T07R0103
+481,リゾートエリア:民家1,Resort area: Private house 1,Resort Area,Resort Area: Private House 1 (),prefab_map/t01r0301,T07R0201
+482,リゾートエリア:民家2,Resort area: Private house 2,Resort Area,Resort Area: Private House 2 (),prefab_map/t01r0301,T07R0301
 483,炭鉱マップ,Coal Mine Map,,,,UG
 484,ユニオンルーム（未使用）,Union Room (unused),,,,UNION
 485,220ばんすいどう,220 Bansu-i-do,,Route 220,fields/area001,W220
 486,223ばんすいどう,223 Bansu-do,,Route 223,fields/area008,W223
 487,226ばんすいどう,226 Bansu-do,,Route 226,fields/area012,W226
-488,226ばんすいどう:民家,226 Bansu-do : Private house,,Route 226: Private house,prefab_map/c04r0801,W226R0101
+488,226ばんすいどう:民家,226 Bansu-do : Private house,,Route 226,prefab_map/c04r0801,W226R0101
 489,230ばんすいどう,230 Bansu-do,,Route 230,fields/area014,W230
 490,うみわれのみち,Umi Michi,,,fields/area008,W231
 491,コミュニティルーム,Community Room,,,prefab_map/union01,UNION01

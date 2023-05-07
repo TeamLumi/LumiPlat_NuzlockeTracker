@@ -1,0 +1,5 @@
+ev_d06_flag_change:
+	_ARRIVE_FLAG_SET('FLAG_ARRIVE_D06')
+	_END()
+ev_d06:
+	_END()

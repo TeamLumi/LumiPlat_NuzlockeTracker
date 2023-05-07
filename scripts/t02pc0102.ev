@@ -1,0 +1,3 @@
+ev_t02pc0102_girl1:
+	_EASY_OBJ_MSG('dp_scenario1%15-msg_t02pc0102_girl1_01')
+	_END()

@@ -1,0 +1,26 @@
+ev_r229_middleman1:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_R229_ITEM_GET, 'ev_r229_middleman1_02')
+	_TALK_KEYWAIT('dp_scenario3%41-msg_r229_middleman1_01')
+	_LDVAL(@SCWK_TEMP0, 92)
+	_LDVAL(@SCWK_TEMP1, 1)
+	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r229_middleman1_item_event_fail')
+	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_FLAG_SET(#FE_R229_ITEM_GET)
+	_JUMP('ev_r229_middleman1_02')
+	_JUMP('ev_r229_middleman1_02')
+ev_r229_middleman1_02:
+	_TALKMSG('dp_scenario3%41-msg_r229_middleman1_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r229_middleman1_item_event_fail:
+	_CHG_COMMON_SCR('ev_item_event_fail')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_r229_sign1:
+	_EASY_BOARD_MSG('dp_scenario3%41-msg_r229_sign1_01', 'BOARD_TYPE_ROAD', 0, 4)
+	_END()

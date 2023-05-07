@@ -1,0 +1,6 @@
+SP_L02_INIT:
+	_JUMP('ev_l02_init_change')
+	_SP_EVENT_DATA_END()
+SP_L02_FLAG:
+	_JUMP('ev_l02_flag_change')
+	_SP_EVENT_DATA_END()

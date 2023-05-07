@@ -1,0 +1,13 @@
+ev_c01r0801_boy2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario1%55-msg_c01r0801_boy2_01_1')
+	_TALK_KEYWAIT('dp_scenario1%55-msg_c01r0801_boy2_01_2', 1)
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0801_pikachu:
+	_EASY_VOICE_MSG('dp_scenario1%55-msg_c01r0801_pikachu_01', 'PLAY_PV_EV_025_00_02')
+	_END()
+ev_c01r0801_middleman2:
+	_EASY_OBJ_MSG('dp_scenario1%55-msg_c01r0801_middleman2_01')
+	_END()

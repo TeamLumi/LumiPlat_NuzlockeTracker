@@ -1,0 +1,195 @@
+ev_tv_interview_01:
+	_LDVAL(@SCWK_PARAM0, 1)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_02:
+	_LDVAL(@SCWK_PARAM0, 2)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_03:
+	_LDVAL(@SCWK_PARAM0, 3)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_04:
+	_LDVAL(@SCWK_PARAM0, 4)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_05:
+	_LDVAL(@SCWK_PARAM0, 5)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_06:
+	_LDVAL(@SCWK_PARAM0, 6)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_07:
+	_LDVAL(@SCWK_PARAM0, 7)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_08:
+	_LDVAL(@SCWK_PARAM0, 8)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_09:
+	_LDVAL(@SCWK_PARAM0, 9)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_10:
+	_LDVAL(@SCWK_PARAM0, 10)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_11:
+	_LDVAL(@SCWK_PARAM0, 11)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_12:
+	_LDVAL(@SCWK_PARAM0, 12)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_13:
+	_LDVAL(@SCWK_PARAM0, 13)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_14:
+	_LDVAL(@SCWK_PARAM0, 14)
+	_JUMP('ev_tv_interview_common')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_common:
+	_TALK_OBJ_START()
+	_TV_INTERVIEWER_CHECK(@SCWK_PARAM0, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_tv_interview_after')
+	_TALKMSG('dp_tvshow%109-msg_tv_interview_00_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_tv_interview_accept')
+	_JUMP('ev_tv_interview_refuse')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_accept:
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 2, 'ev_tv_interview_msg_2')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 4, 'ev_tv_interview_msg_4')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 6, 'ev_tv_interview_msg_6')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 7, 'ev_tv_interview_msg_7')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 10, 'ev_tv_interview_msg_10')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 11, 'ev_tv_interview_msg_11')
+	_IFVAL_CALL(@SCWK_PARAM0, 'EQ', 13, 'ev_tv_interview_msg_13')
+	_IFVAL_JUMP(@SCWK_PARAM0, 'EQ', 10, 'ev_tv_interview_ask_poketype')
+	_IFVAL_JUMP(@SCWK_PARAM0, 'EQ', 14, 'ev_tv_interview_ask_decotype')
+	_TV_INTERVIEW_ENTRY(@SCWK_PARAM0, 0)
+	_JUMP('ev_tv_interview_end')
+	_JUMP('ev_tv_interview_msg_2')
+ev_tv_interview_msg_2:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_02')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_msg_4:
+	_FRONT_POKEMON(@SCWK_PARAM1)
+	_POKEMON_NAME(0, @SCWK_PARAM1)
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_04')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_msg_6:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_06_1')
+	_GET_POKETCH_APP_ID(@SCWK_TEMP1)
+	_POKETCH_NAME(0, @SCWK_TEMP1)
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_06_2')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_msg_7:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_07')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_msg_11:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_11')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_msg_13:
+	_TV_INTERVIEW_STR_WORD_SET(9, 0)
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_13')
+	_TALK_CLOSE()
+	_RET()
+ev_tv_interview_patrun01:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER1_01')
+	_RET()
+ev_tv_interview_patrun02:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER2_01')
+	_RET()
+ev_tv_interview_patrun03:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER4_01')
+	_RET()
+ev_tv_interview_patrun04:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER3_01')
+	_RET()
+ev_tv_interview_patrun05:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER5_01')
+	_RET()
+ev_tv_interview_patrun06:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER7_01')
+	_RET()
+ev_tv_interview_patrun07:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER6_01')
+	_RET()
+ev_tv_interview_patrun08:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_LEADER8_01')
+	_RET()
+ev_tv_interview_patrun09:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_BIGFOUR1_01')
+	_RET()
+ev_tv_interview_patrun10:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_BIGFOUR2_01')
+	_RET()
+ev_tv_interview_patrun11:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_BIGFOUR3_01')
+	_RET()
+ev_tv_interview_patrun12:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_BIGFOUR4_01')
+	_RET()
+ev_tv_interview_patrun13:
+	_SPEAKERS_NAME(1, '%DP_Trainers_Name_TR_CHAMPION_01')
+	_RET()
+ev_tv_interview_ask_poketype:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_10')
+	_TALK_CLOSE()
+	_OPEN_SPECIAL_WIN_LABEL(0)
+	_WAIT_SPECIAL_WIN_LABEL(@SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_tv_interview_cancel')
+	_TV_INTERVIEW_ENTRY(@SCWK_PARAM0, @SCWK_TEMP0)
+	_JUMP('ev_tv_interview_after')
+	_JUMP('ev_tv_interview_end')
+ev_tv_interview_ask_decotype:
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_14_3')
+	_TALK_CLOSE()
+	_OPEN_SPECIAL_WIN_LABEL(1)
+	_WAIT_SPECIAL_WIN_LABEL(@SCWK_TEMP0)
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_tv_interview_cancel')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 'ev_tv_interview_patrun01')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 1, 'ev_tv_interview_patrun02')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 2, 'ev_tv_interview_patrun03')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 3, 'ev_tv_interview_patrun04')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 4, 'ev_tv_interview_patrun05')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 5, 'ev_tv_interview_patrun06')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 6, 'ev_tv_interview_patrun07')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 7, 'ev_tv_interview_patrun08')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 8, 'ev_tv_interview_patrun09')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 9, 'ev_tv_interview_patrun10')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 10, 'ev_tv_interview_patrun11')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 11, 'ev_tv_interview_patrun12')
+	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 12, 'ev_tv_interview_patrun13')
+	_TALK_KEYWAIT('dp_tvshow%109-msg_tv_interview_14_4')
+	_TV_INTERVIEW_ENTRY(@SCWK_PARAM0, @SCWK_TEMP0)
+	_JUMP('ev_tv_interview_end')
+	_JUMP('ev_tv_interview_end')
+ev_tv_interview_after:
+	_TALKMSG('dp_tvshow%109-msg_tv_interview_00_03')
+	_LAST_KEYWAIT()
+	_JUMP('ev_tv_interview_end')
+	_JUMP('ev_tv_interview_end')
+ev_tv_interview_refuse:
+	_JUMP('ev_tv_interview_end')
+ev_tv_interview_cancel:
+	_TALKMSG('dp_tvshow%109-msg_tv_interview_00_02')
+	_LAST_KEYWAIT()
+	_JUMP('ev_tv_interview_end')
+	_JUMP('ev_tv_interview_end')
+ev_tv_interview_end:
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

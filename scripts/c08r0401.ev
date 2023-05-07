@@ -1,0 +1,10 @@
+ev_c08r0401_oldman2:
+	_EASY_OBJ_MSG('dp_scenario3%5-msg_c08r0401_oldman2_01')
+	_END()
+ev_c08r0401_oldwoman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario3%5-msg_c08r0401_oldwoman2_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

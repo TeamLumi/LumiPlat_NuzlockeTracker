@@ -1,0 +1,6 @@
+ev_r225_sign1:
+	_EASY_BOARD_MSG('dp_scenario3%29-msg_r225_sign1_01', 'BOARD_TYPE_ROAD', 0, 4)
+	_END()
+ev_r225_sign2:
+	_EASY_BOARD_MSG('dp_scenario3%29-msg_r225_sign2_01', 'BOARD_TYPE_ROAD', 0, 1)
+	_END()

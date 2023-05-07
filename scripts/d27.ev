@@ -1,0 +1,5 @@
+ev_d27_flag_change:
+	_ARRIVE_FLAG_SET('FLAG_ARRIVE_D27')
+	_END()
+ev_d27:
+	_END()

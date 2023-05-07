@@ -1,0 +1,12 @@
+SP_R206_OBJ:
+	_OBJ_CHANGE_LABEL('ev_r206_obj_change')
+	_SP_EVENT_DATA_END()
+SP_R206_SCENE:
+	_JUMP('sp_r206_tbl')
+	_SP_EVENT_DATA_END()
+SP_R206_FLAG:
+	_JUMP('ev_r206_flag_change')
+	_SP_EVENT_DATA_END()
+sp_r206_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_CYCLINGROAD, 1, 'ev_r206_bgm_start')
+	_SCENE_CHANGE_END()

@@ -1,0 +1,3 @@
+ev_t06r0301_mount:
+	_EASY_OBJ_MSG('dp_scenario3%61-msg_t06r0301_mount_01')
+	_END()

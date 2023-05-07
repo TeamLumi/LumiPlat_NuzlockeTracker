@@ -1,0 +1,8 @@
+SP_T04_FLAG:
+	_JUMP('ev_t04_flag_change')
+	_SP_EVENT_DATA_END()
+SP_T04_OBJ:
+	_JUMP('ev_sodateya_m_init_dir')
+	_SP_EVENT_DATA_END()
+SP_T04_SCENE:
+	_SP_EVENT_DATA_END()

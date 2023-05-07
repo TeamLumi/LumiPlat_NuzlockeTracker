@@ -1,0 +1,3 @@
+sp_ug_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_UG, 0, 'ev_ug_first')
+	_SCENE_CHANGE_END()

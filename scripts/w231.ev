@@ -1,0 +1,10 @@
+ev_w231_flag_change:
+	_IF_FLAGON_JUMP(#FE_R224_EVENT_CLEAR, 'ev_w231_flag_change_end1')
+	_END()
+ev_w231_flag_change_end1:
+	_FIND_BG_ENABLE(0, 'Offset/R224/R224b')
+	_FIND_BG_ENABLE(0, 'Offset/W231')
+	_FIND_BG_ENABLE(0, 'Offset/D18')
+	_USE_SUB_ATTRIBUTE()
+	_FIND_BG_DISABLE(0, 'Offset/R224/R224')
+	_END()

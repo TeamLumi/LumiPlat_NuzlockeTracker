@@ -1,0 +1,15 @@
+SP_D31R0205_INIT:
+	_SP_EVENT_DATA_END()
+SP_D31R0205_OBJ:
+	_JUMP('ev_d31r0205_obj_change')
+	_SP_EVENT_DATA_END()
+SP_D31R0205_SCENE:
+	_JUMP('sp_d31r0205_tbl')
+	_SP_EVENT_DATA_END()
+SP_D31R0205_FLAG:
+	_JUMP('ev_d31r0205_flag_change')
+	_SP_EVENT_DATA_END()
+sp_d31r0205_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0205, 1, 'ev_tower_rooms_common_entry')
+	_SCENE_CHANGE_DATA(@WK_SCENE_D31R0205, 2, 'ev_tower_rooms_common_continue')
+	_SCENE_CHANGE_END()

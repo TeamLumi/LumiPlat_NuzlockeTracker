@@ -1,0 +1,3 @@
+SP_C10R0108_FLAG:
+	_JUMP('ev_c10r0108_flag_change')
+	_SP_EVENT_DATA_END()
