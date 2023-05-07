@@ -60,6 +60,7 @@ EVIL_LOOKUP = "LDVAL(@SCWK_TEMP"
 REMATCH_SUBSTRING = "rematch"
 DESIRED_ORDER = [ 'areaName', 'zoneName', 'zoneId', 'trainerId', 'rematch', 'name', 'type', 'method', 'format', 'link' ]
 STARTER = ["piplup", "turtwig", "chimchar"]
+BARRY = "barry"
 
 class UnsupportedTrainer(Exception):
     pass
@@ -183,7 +184,7 @@ def get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, lo
         return trainers
         
     else:
-        if "barry" in lookup:
+        if BARRY in lookup:
             temp_trainer_IDs = parse_randomized_teams(file_path, lookup, team_num, None)
             for ID in temp_trainer_IDs:
                 team_type = lookup.split("_")[-1].strip('"')
@@ -204,8 +205,8 @@ def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
     for starter in STARTER:
         rival_lookup = f"ev_{areaName.lower()}_randomteam_barry_{starter}"
         rival_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, rival_lookup, 4)
-    if rival_teams:
         trainers.extend(rival_teams)
+    if rival_teams:
         return trainers
     if count_keeper == []:
         cyrus_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, cyrus_lookup, 4)
@@ -241,16 +242,24 @@ def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
 def get_single_trainer(zoneID, ID, temp_IDs, name):
     trainer = diff_trainer_data(None, zoneID, int(ID))
     if name in STARTERS:
+        # This is for Rival Battles for right now, it may have Lucas/Dawn battles eventually?
         trainer["name"] = f"{trainer['name']} {name.capitalize()} Team {str(temp_IDs.index(ID) + 1)}"
+        trainer['method'] = SCRIPTED_METHOD
+        trainer['format'] = SINGLE_FORMAT
         return trainer
     elif name in MASTER_TRAINER_TYPES:
         trainer["name"] = f"{name.capitalize()} Master Trainer {trainer['name']}"
+        trainer['method'] = SCRIPTED_METHOD
+        trainer['format'] = SINGLE_FORMAT
         return trainer
     elif name == CELEBI:
-        trainer["name"] = f"{trainer['name']}"
+        trainer['method'] = SCRIPTED_METHOD
+        trainer['format'] = SINGLE_FORMAT
         return trainer
     elif len(temp_IDs) > 1:
         trainer["name"] = f"{trainer['name']} Team {str(temp_IDs.index(ID) + 1)}"
+        trainer['method'] = SCRIPTED_METHOD
+        trainer['format'] = SINGLE_FORMAT
         return trainer
 
     trainer["name"] = f"{trainer['name']}"
@@ -356,12 +365,12 @@ def get_support_trainers_data(file_path, area_name, support_name, zoneID):
         temp_support_IDs = get_bad_support_IDs(support_name, file_path)
     if temp_support_IDs == []:
         temp_support_IDs = parse_randomized_teams(file_path, rival_multi_lookup, 3, None)
-        print(area_name, temp_support_IDs)
     if temp_support_IDs == []:
         print("Support Trainers still needs more work", area_name, zoneID)
         raise SupportTrainerError
     for ID in temp_support_IDs:
         trainer = get_trainer_data(zoneID, int(ID))
+        trainer["method"] = SCRIPTED_METHOD
         trainer["format"] = MULTI_FORMAT
         trainer["link"] = SUPPORT_LINK
         trainers.append(trainer)
@@ -420,12 +429,14 @@ def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
         return trainers
 
     temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
+    print(temp_trainerID1, zoneID)
     trainer = diff_trainer_data(None, zoneID, int(temp_trainerID1))
     trainer["format"] = SINGLE_FORMAT
     trainer["link"] = ""
     trainers.append(trainer)
     if trainers == []:
         print("There's something wrong with the Named Trainer Data!!")
+    print(trainers)
     return trainers
 
 def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3):
@@ -521,7 +532,7 @@ def get_all_trainer_data(file_path, areaName, zoneID, args):
         return trainers
     # This last section is for the trainers that are called by name in the scripts like BATTLEG_01 or something like that.
     elif len(trainerID1) > 0 and trainerID1[0] != "@":
-        get_named_trainer_data(zoneID, trainerID1, trainerID2, args)
+        trainers.extend(get_named_trainer_data(zoneID, trainerID1, trainerID2, args))
         return trainers
     else:
         print("There is Missing Data here:", areaName, trainerID1, trainerID2)
