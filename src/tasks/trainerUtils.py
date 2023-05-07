@@ -226,18 +226,6 @@ def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
     if count_keeper == []:
         print("Lucas and Dawn's Single Battles are not yet supported:", areaName, args)
         return trainers
-        '''
-        ### This section is currently in the progress of being improved and finalized in ev_script.
-
-        for support in ["lucas", "dawn"]:
-            temp_support_IDs = parse_randomized_teams(file_path, f"ev_{areaName.lower()}_support_{support}", 3, None)
-            for ID in temp_support_IDs:
-                trainer = diff_trainer_data(None, zoneID, int(ID))
-                trainer["name"] = f"{trainer['name']} {mon} Team {str(temp_rival_IDs.index(ID) + 1)}"
-                trainer["format"] = "Single"
-                trainer["link"] = ""
-                trainers.append(trainer)
-        '''
 
 def get_single_trainer(zoneID, ID, temp_IDs, name):
     trainer = diff_trainer_data(None, zoneID, int(ID))
@@ -611,10 +599,10 @@ def process_files(folder_path, callback):
         except (FileNotFoundError, IsADirectoryError):
             print(f"{file_path} is not a valid file path or does not exist")
             return
-        except (UnsupportedTrainer, MissingData):
-            continue
-        except SupportTrainerError:
+        except (MissingData, SupportTrainerError):
             return
+        except UnsupportedTrainer:
+            continue
         trainers_set.update([frozenset(d.items()) for d in trainers])
     trainers_list = [dict(s) for s in trainers_set]
 
