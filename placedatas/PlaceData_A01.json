@@ -2664,7 +2664,7 @@
         },
         {
             "ID": "TR_TANPAN_01",
-            "zoneID": 354,
+            "zoneID": 355,
             "TrainerID": 1,
             "ObjectGraphicIndex": 72,
             "ColorIndex": 0,
@@ -2703,7 +2703,7 @@
         },
         {
             "ID": "TR_MINI_01",
-            "zoneID": 354,
+            "zoneID": 355,
             "TrainerID": 3,
             "ObjectGraphicIndex": 94,
             "ColorIndex": 0,
@@ -2742,7 +2742,7 @@
         },
         {
             "ID": "TR_TANPAN_02",
-            "zoneID": 354,
+            "zoneID": 355,
             "TrainerID": 2,
             "ObjectGraphicIndex": 72,
             "ColorIndex": 0,
