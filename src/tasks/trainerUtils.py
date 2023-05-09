@@ -28,7 +28,7 @@ trainer_names = 0
 areas = 0
 
 ldval_pattern = r"_LDVAL\(@(.*),\s?([1-9][0-9]*)\)"
-trainer_pattern = r"_TRAINER_BTL_SET\s*\(\s*('?[^']+'?|@\w+|\d+)\s*(?:,\s*('?[^']+'?|@\w+|\d+)\s*)?\)"
+trainer_pattern = r"_TRAINER_BTL_SET\s*\(\s*('?[^']+'?|@\w+|\d+)\s*,\s*('?[^']+'?|@\w+|\d+)\s*\)"
 multi_trainer_pattern = r"_TRAINER_MULTI_BTL_SET\s*\(\s*((?:'[^']*'|@\w+|\d+)\s*(?:,\s*(?:'[^']*'|@\w+|\d+)\s*)*)\)"
 
 TRAINER_BATTLE = '_TRAINER_BTL_SET'
@@ -266,8 +266,6 @@ def get_trainer_data(zoneID, trainerID, method):
     if not trainer_name:
         trainer_name = trainer_data['NameLabel'].split("_")[-1].capitalize()
         print("This trainer doesn't have a name in game:", trainer_data['NameLabel'], trainerID)
-    if method == PLACE_DATA_METHOD:
-        zoneID += 1
     areaName = get_map_info(zoneID)
     zones = areas[zoneID + 1]
     zoneName = zones[3] if zones[3] != '' else zones[4]
@@ -406,7 +404,7 @@ def get_multi_trainers(trainerID1, trainerID2, zoneID, format):
 def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
 
     trainers = []
-    if len(trainerID2) > 1:
+    if len(trainerID2) > 0:
         ### This code is not being called at all.
         ### This either means that there is currently no double trainer battles with the named variables
         ### OR I'm missing it somewhere earlier down the line
@@ -426,7 +424,7 @@ def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
         print("There's something wrong with the Named Trainer Data!!")
     return trainers
 
-def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3):
+def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3, substring):
 
     def get_multi_support_trainers(file_path, areaName, zoneID):
         return [
@@ -483,7 +481,7 @@ def get_temp_var_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
 def get_standard_trainer_data(trainerID1, trainerID2, zoneID):
 
     trainers = []
-    if int(trainerID2) != 0:
+    if trainerID2.isnumeric():
         trainer1, trainer2 = get_multi_trainers(trainerID1, trainerID2, zoneID, DOUBLE_FORMAT)
         trainers.append(trainer1)
         trainers.append(trainer2)
@@ -494,10 +492,10 @@ def get_standard_trainer_data(trainerID1, trainerID2, zoneID):
     trainers.append(trainer)
     return trainers
 
-def get_all_trainer_data(file_path, areaName, zoneID, args):
+def get_all_trainer_data(file_path, areaName, zoneID, args, substring):
 
     trainers = []
-    trainerID1 = args[0].strip()
+    trainerID1 = args[0]
     trainerID2, trainerID3 = "", ""
     if len(args) >= 2:
         trainerID2 = args[1].strip()
@@ -506,7 +504,7 @@ def get_all_trainer_data(file_path, areaName, zoneID, args):
 
     ### Multi trainer data here
     if len(trainerID3) > 0:
-        trainers.extend(get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3))
+        trainers.extend(get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3, substring))
         return trainers
 
     # This second section is for if the trainerID is bog standard just calling a number from the TTable
@@ -514,11 +512,11 @@ def get_all_trainer_data(file_path, areaName, zoneID, args):
         trainers.extend(get_standard_trainer_data(trainerID1, trainerID2, zoneID))
         return trainers
     # This next section is for the temp variables that are called like @SCWK_TEMP3
-    elif trainerID1[0] == "@" and len(trainerID2) == 1:
+    elif trainerID1[0] == "@":
         trainers.extend(get_temp_var_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, args))
         return trainers
     # This last section is for the trainers that are called by name in the scripts like BATTLEG_01 or something like that.
-    elif len(trainerID1) > 0 and trainerID1[0] != "@":
+    elif not trainerID1.isnumeric():
         trainers.extend(get_named_trainer_data(zoneID, trainerID1, trainerID2, args))
         return trainers
     else:
@@ -529,20 +527,22 @@ def parse_trainer_btl_set(substring):
     match = re.search(trainer_pattern, substring)
     match2 = re.split(multi_trainer_pattern, substring)
     if match:
-        arg1 = match.group(1).split(',')[0].strip("'")
-        args = [arg1]
-        if len(match.group(1).split(',')) > 1:
-            arg2 = match.group(1).split(',')[1].strip("'")
-            args = [arg1, arg2]
-        return(args)
+        arg1, arg2 = match.groups()
+        if len(arg2) > 1:
+            args = [arg1.strip("'"), arg2.strip("'")]
+            return args
+        return[arg1]
+    elif "MORIMOTO" in substring:
+        return ['MORIMOTO_01']
     elif match2:
+        print(match2)
         arg1 = match2[1].split(",")[0].strip("'")
         arg2 = match2[1].split(",")[1].strip("'")
         arg3 = match2[1].split(",")[2].strip("'")
         args = [arg1, arg2, arg3]
-        return(args)
+        return args
     else:
-        return -1, substring
+        return substring
 
 def parse_ev_script_file(file_path):
     """
@@ -575,11 +575,11 @@ def parse_ev_script_file(file_path):
                     print("The trainers in this area are currently not supported:", zoneID, areaName, args[0])
                     raise UnsupportedTrainer
 
-                if -1 in args:
+                if substring in args:
                     print("There is something wrong with the args from this area", zoneID, areaName, args[0])
                     raise InvalidArg
 
-                trainers.extend(get_all_trainer_data(file_path, areaName, zoneID, args))
+                trainers.extend(get_all_trainer_data(file_path, areaName, zoneID, args, substring))
                 
     return trainers
 

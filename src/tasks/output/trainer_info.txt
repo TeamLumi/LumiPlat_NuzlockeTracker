@@ -274,7 +274,7 @@ Recover
 
 
 6
-Lass Samantha (Route 204 South)
+Lass Samantha (Route 203)
 Level Cap:
 Format: Single
 
@@ -319,7 +319,7 @@ Sleep Powder
 
 
 7
-Lass Sarah (Route 204 South)
+Lass Sarah (Route 203)
 Level Cap:
 Format: Single
 
@@ -478,7 +478,7 @@ Taunt
 
 
 4
-Youngster Michael (Route 204 South)
+Youngster Michael (Route 203)
 Level Cap:
 Format: Single
 
@@ -523,7 +523,7 @@ Focus Energy
 
 
 247
-Lass Kaitlin (Route 204 South)
+Lass Kaitlin (Route 203)
 Level Cap:
 Format: Single
 
@@ -589,6 +589,25 @@ Razor Leaf
 280
 Interviewers Roxy (Jubilife City)
 Level Cap:
+Format: Single
+
+Ralts
+10
+Docile
+Synchronize
+
+None
+Teleport
+Confusion
+Disarming Voice
+Psybeam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+280
+Interviewers Roxy (Jubilife City)
+Level Cap:
 Format: Double
 
 Ralts
@@ -604,6 +623,25 @@ Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 281
+
+281
+Interviewers Oli (Jubilife City)
+Level Cap:
+Format: Single
+
+Magnemite
+10
+Quirky
+Magnet Pull
+
+None
+Thunder Wave
+Magnet Bomb
+Spark
+Electro Ball
+25/25/25/25/25/25
+0/0/0/0/0/0
+
 
 281
 Interviewers Oli (Jubilife City)
@@ -652,6 +690,70 @@ Karate Chop
 Low Sweep
 Foresight
 Brick Break
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+282
+Cameraman Tevin (Jubilife City)
+Level Cap:
+Format: Single
+
+Mime Jr.
+10
+Bashful
+Technician
+
+None
+Copycat
+Meditate
+Double Slap
+Encore
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Machop
+10
+Bashful
+Guts
+
+None
+Karate Chop
+Low Sweep
+Foresight
+Brick Break
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+283
+Reporter Kinsey (Jubilife City)
+Level Cap:
+Format: Single
+
+Drifloon
+10
+Bashful
+Aftermath
+
+None
+Minimize
+Gust
+Focus Energy
+Payback
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Shinx
+10
+Hardy
+Guts
+
+None
+Thunder Shock
+Quick Attack
+Spark
+Bite
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -720,6 +822,38 @@ Copycat
 0/0/0/0/0/0
 
 
+284
+Idol Grace (Jubilife City)
+Level Cap:
+Format: Single
+
+Igglybuff
+10
+Docile
+Cute Charm
+
+None
+Defense Curl
+Pound
+Sweet Kiss
+Copycat
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Cleffa
+10
+Quirky
+Cute Charm
+
+None
+Sweet Kiss
+Encore
+Sing
+Copycat
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 332
 Guitarist Arturo (Jubilife City)
 Level Cap:
@@ -748,6 +882,70 @@ Screech
 Eerie Impulse
 Thunder Shock
 Rollout
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+332
+Guitarist Arturo (Jubilife City)
+Level Cap:
+Format: Single
+
+Kricketot
+10
+Bashful
+Shed Skin
+
+None
+Growl
+Bug Bite
+String Shot
+Struggle Bug
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Voltorb
+10
+Bashful
+Soundproof
+
+None
+Screech
+Eerie Impulse
+Thunder Shock
+Rollout
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+349
+Clown Lee (Jubilife City)
+Level Cap:
+Format: Single
+
+Aipom
+10
+Docile
+Run Away
+
+None
+Sand Attack
+Astonish
+Tickle
+Baton Pass
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Abra
+10
+Docile
+Synchronize
+
+None
+Teleport
+(No Move)
+(No Move)
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -825,204 +1023,6 @@ Play Nice
 Charm
 Sweet Kiss
 Thunder Wave
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-280
-Interviewers Roxy (Jubilife City)
-Level Cap:
-Format: Single
-
-Ralts
-10
-Docile
-Synchronize
-
-None
-Teleport
-Confusion
-Disarming Voice
-Psybeam
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-281
-Interviewers Oli (Jubilife City)
-Level Cap:
-Format: Single
-
-Magnemite
-10
-Quirky
-Magnet Pull
-
-None
-Thunder Wave
-Magnet Bomb
-Spark
-Electro Ball
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-282
-Cameraman Tevin (Jubilife City)
-Level Cap:
-Format: Single
-
-Mime Jr.
-10
-Bashful
-Technician
-
-None
-Copycat
-Meditate
-Double Slap
-Encore
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Machop
-10
-Bashful
-Guts
-
-None
-Karate Chop
-Low Sweep
-Foresight
-Brick Break
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-283
-Reporter Kinsey (Jubilife City)
-Level Cap:
-Format: Single
-
-Drifloon
-10
-Bashful
-Aftermath
-
-None
-Minimize
-Gust
-Focus Energy
-Payback
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Shinx
-10
-Hardy
-Guts
-
-None
-Thunder Shock
-Quick Attack
-Spark
-Bite
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-284
-Idol Grace (Jubilife City)
-Level Cap:
-Format: Single
-
-Igglybuff
-10
-Docile
-Cute Charm
-
-None
-Defense Curl
-Pound
-Sweet Kiss
-Copycat
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Cleffa
-10
-Quirky
-Cute Charm
-
-None
-Sweet Kiss
-Encore
-Sing
-Copycat
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-332
-Guitarist Arturo (Jubilife City)
-Level Cap:
-Format: Single
-
-Kricketot
-10
-Bashful
-Shed Skin
-
-None
-Growl
-Bug Bite
-String Shot
-Struggle Bug
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Voltorb
-10
-Bashful
-Soundproof
-
-None
-Screech
-Eerie Impulse
-Thunder Shock
-Rollout
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-349
-Clown Lee (Jubilife City)
-Level Cap:
-Format: Single
-
-Aipom
-10
-Docile
-Run Away
-
-None
-Sand Attack
-Astonish
-Tickle
-Baton Pass
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Abra
-10
-Docile
-Synchronize
-
-None
-Teleport
-(No Move)
-(No Move)
-(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1118,7 +1118,7 @@ Foresight
 
 
 189
-Camper Curtis (Oreburgh Tunnel B1F)
+Camper Curtis (Oreburgh Tunnel 1F)
 Level Cap:
 Format: Single
 
@@ -1150,7 +1150,7 @@ Magnitude
 
 
 253
-Picnicker Diana (Oreburgh Tunnel B1F)
+Picnicker Diana (Oreburgh Tunnel 1F)
 Level Cap:
 Format: Single
 
@@ -1182,7 +1182,7 @@ Double Kick
 
 
 246
-Lass Madeline (Route 204 South)
+Lass Madeline (Route 203)
 Level Cap:
 Format: Single
 
@@ -1214,7 +1214,7 @@ Leech Seed
 
 
 270
-Youngster Dallas (Route 204 South)
+Youngster Dallas (Route 203)
 Level Cap:
 Format: Single
 
@@ -1246,7 +1246,7 @@ Rapid Spin
 
 
 271
-Youngster Sebastian (Route 204 South)
+Youngster Sebastian (Route 203)
 Level Cap:
 Format: Single
 
@@ -2789,6 +2789,25 @@ Absorb
 1/0/0/0/0/0
 
 
+5
+Youngster Tyler (Route 203)
+Level Cap:
+Format: Single
+
+Magikarp
+11
+Serious
+Swift Swim
+
+None
+Splash
+Tackle
+Flail
+Bounce
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 745
 Pokémon Trainer Cedric Turtwig (Route 203) [Team 1]
 Level Cap:
@@ -3329,27 +3348,8 @@ Curse
 0/0/0/0/0/0
 
 
-5
-Youngster Tyler (Route 204 South)
-Level Cap:
-Format: Single
-
-Magikarp
-11
-Serious
-Swift Swim
-
-None
-Splash
-Tackle
-Flail
-Bounce
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
 148
-Worker Colin (Valley Windworks)
+Worker Colin (Oreburgh Mine B1F)
 Level Cap:
 Format: Single
 
@@ -3394,7 +3394,7 @@ Brick Break
 
 
 149
-Worker Mason (Valley Windworks)
+Worker Mason (Oreburgh Mine B1F)
 Level Cap:
 Format: Single
 
@@ -3503,7 +3503,7 @@ Iron Defense
 Paired with 317
 
 173
-Youngster Jonathon (Oreburgh City)
+Youngster Jonathon (Oreburgh Gym)
 Level Cap:
 Format: Single
 
@@ -3548,7 +3548,7 @@ Mud Shot
 
 
 174
-Youngster Darius (Oreburgh City)
+Youngster Darius (Oreburgh Gym)
 Level Cap:
 Format: Single
 
@@ -3593,7 +3593,7 @@ Ancient Power
 
 
 9
-Aroma Lady Teighler (Route 205 South)
+Aroma Lady Teighler (Route 204 North)
 Level Cap:
 Format: Single
 
@@ -3830,7 +3830,7 @@ Peck
 Paired with Support
 
 224
-Team Galactic Grunt (Eterna Forest(Cut Tree Path))
+Team Galactic Grunt (Valley Windworks)
 Level Cap:
 Format: Single
 
@@ -3875,7 +3875,7 @@ Iron Defense
 
 
 8
-Bug Catcher Brandon (Route 205 South)
+Bug Catcher Brandon (Route 204 North)
 Level Cap:
 Format: Single
 
@@ -3907,7 +3907,7 @@ Sing
 
 
 223
-Team Galactic Grunt (Eterna Forest(Cut Tree Path))
+Team Galactic Grunt (Valley Windworks)
 Level Cap:
 Format: Single
 
@@ -3941,7 +3941,7 @@ Sludge
 221
 Team Galactic Grunt (Floral Path (Floaroma))
 Level Cap:
-Format: Single
+Format: Double
 
 Zubat
 15
@@ -3968,10 +3968,42 @@ Night Shade
 Shadow Sneak
 25/25/25/25/25/25
 0/0/0/0/0/0
+Paired with 222
 
+222
+Team Galactic Grunt (Floral Path (Floaroma))
+Level Cap:
+Format: Double
+
+Croagunk
+15
+Bashful
+Anticipation
+
+None
+Mud-Slap
+Poison Sting
+Torment
+Feint Attack
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Ledyba
+15
+Serious
+Iron Fist
+
+None
+Safeguard
+Mach Punch
+Aerial Ace
+Roost
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 221
 
 10
-Twins Liv (Route 205 South)
+Twins Liv (Route 204 North)
 Level Cap:
 Format: Single
 
@@ -3990,7 +4022,7 @@ Wish
 
 
 11
-Twins Liz (Route 205 South)
+Twins Liz (Route 204 North)
 Level Cap:
 Format: Single
 
@@ -4009,7 +4041,7 @@ Switcheroo
 
 
 12
-Camper Jacob (Route 205: Rest House)
+Camper Jacob (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4054,7 +4086,7 @@ Aqua Jet
 
 
 14
-Hiker Daniel (Route 205: Rest House)
+Hiker Daniel (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4099,7 +4131,7 @@ Ancient Power
 
 
 287
-Camper Zackary (Route 205: Rest House)
+Camper Zackary (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4525,7 +4557,7 @@ Tackle
 
 
 150
-Bug Catcher Jack (Fuego Ironworks (Outside))
+Bug Catcher Jack (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4570,7 +4602,7 @@ Psybeam
 
 
 15
-Hiker Nicholas (Route 205: Rest House)
+Hiker Nicholas (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4602,7 +4634,7 @@ Dragon Breath
 
 
 16
-Battle Girl Kelsey (Route 205: Rest House)
+Battle Girl Kelsey (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4647,7 +4679,7 @@ Bullet Punch
 
 
 17
-Aroma Lady Elizabeth (Route 205: Rest House)
+Aroma Lady Elizabeth (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4679,7 +4711,7 @@ Sludge
 
 
 345
-Picnicker Karina (Route 205: Rest House)
+Picnicker Karina (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4711,7 +4743,7 @@ Focus Energy
 
 
 153
-Lass Briana (Fuego Ironworks (Outside))
+Lass Briana (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4743,7 +4775,7 @@ Helping Hand
 
 
 154
-Psychic Elijah (Fuego Ironworks (Outside))
+Psychic Elijah (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4788,7 +4820,7 @@ Ancient Power
 
 
 155
-Psychic Lindsey (Fuego Ironworks (Outside))
+Psychic Lindsey (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4833,7 +4865,7 @@ Ominous Wind
 
 
 13
-Picnicker Siena (Route 205: Rest House)
+Picnicker Siena (Route 205 South)
 Level Cap:
 Format: Single
 
@@ -4852,7 +4884,7 @@ Nuzzle
 
 
 151
-Bug Catcher Phillip (Fuego Ironworks (Outside))
+Bug Catcher Phillip (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4884,7 +4916,7 @@ Focus Energy
 
 
 152
-Bug Catcher Donald (Fuego Ironworks (Outside))
+Bug Catcher Donald (Eterna Forest)
 Level Cap:
 Format: Single
 
@@ -4916,7 +4948,7 @@ Venoshock
 
 
 18
-Fisher Andrew (Route 206)
+Fisher Andrew (Route 205 North)
 Level Cap:
 Format: Single
 
@@ -4961,7 +4993,7 @@ Bounce
 
 
 19
-Fisher Joseph (Route 206)
+Fisher Joseph (Route 205 North)
 Level Cap:
 Format: Single
 
@@ -5063,6 +5095,70 @@ Aerial Ace
 12/252/0/0/244/0
 
 
+301
+Psychic Kody (Eterna Forest)
+Level Cap:
+Format: Single
+
+Mime Jr.
+18
+Docile
+Technician
+
+None
+Double Slap
+Encore
+Mimic
+Protect
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Mr. Mime
+20
+Quirky
+Technician
+
+None
+Encore
+Mimic
+Protect
+Psybeam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+304
+Psychic Rachael (Eterna Forest)
+Level Cap:
+Format: Single
+
+Chingling
+18
+Quirky
+Levitate
+
+None
+Yawn
+Last Resort
+Extrasensory
+Entrainment
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Chimecho
+20
+Bashful
+Levitate
+
+None
+Yawn
+Light Screen
+Take Down
+Uproar
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 737
 Pokémon Trainer Cheryl (Eterna Forest)
 Level Cap:
@@ -5121,72 +5217,8 @@ Thunderbolt
 248/0/252/0/8/0
 
 
-301
-Psychic Kody (Fuego Ironworks (Outside))
-Level Cap:
-Format: Single
-
-Mime Jr.
-18
-Docile
-Technician
-
-None
-Double Slap
-Encore
-Mimic
-Protect
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Mr. Mime
 20
-Quirky
-Technician
-
-None
-Encore
-Mimic
-Protect
-Psybeam
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-304
-Psychic Rachael (Fuego Ironworks (Outside))
-Level Cap:
-Format: Single
-
-Chingling
-18
-Quirky
-Levitate
-
-None
-Yawn
-Last Resort
-Extrasensory
-Entrainment
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Chimecho
-20
-Bashful
-Levitate
-
-None
-Yawn
-Light Screen
-Take Down
-Uproar
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-20
-Fisher Zachary (Route 206)
+Fisher Zachary (Route 205 North)
 Level Cap:
 Format: Single
 
@@ -5353,7 +5385,7 @@ Roar
 
 
 65
-Ninja Boy Zach (Route 211 East)
+Ninja Boy Zach (Route 211 West)
 Level Cap:
 Format: Single
 
@@ -5398,7 +5430,7 @@ Quick Guard
 
 
 250
-Hiker Louis (Route 211 East)
+Hiker Louis (Route 211 West)
 Level Cap:
 Format: Single
 
@@ -5475,7 +5507,7 @@ Confuse Ray
 
 
 64
-Bird Keeper Alexandra (Route 211 East)
+Bird Keeper Alexandra (Route 211 West)
 Level Cap:
 Format: Single
 
@@ -5520,7 +5552,7 @@ Facade
 
 
 67
-Ninja Boy Nick (Route 212 North)
+Ninja Boy Nick (Route 211 East)
 Level Cap:
 Format: Single
 
@@ -5660,7 +5692,7 @@ Thunder Fang
 
 
 333
-Ruin Maniac Harry (Route 212 North)
+Ruin Maniac Harry (Route 211 East)
 Level Cap:
 Format: Single
 
@@ -5737,7 +5769,7 @@ Giga Drain
 
 
 66
-Black Belt Sean (Route 212 North)
+Black Belt Sean (Route 211 East)
 Level Cap:
 Format: Single
 
@@ -5756,7 +5788,7 @@ Fury Attack
 
 
 68
-Bird Keeper Katherine (Route 212 North)
+Bird Keeper Katherine (Route 211 East)
 Level Cap:
 Format: Single
 
@@ -6372,7 +6404,7 @@ Take Down
 
 
 30
-Camper Anthony (Route 208)
+Camper Anthony (Route 207)
 Level Cap:
 Format: Single
 
@@ -6417,7 +6449,7 @@ Flamethrower
 
 
 31
-Picnicker Lauren (Route 208)
+Picnicker Lauren (Route 207)
 Level Cap:
 Format: Single
 
@@ -6686,7 +6718,7 @@ Crunch
 
 
 29
-Youngster Austin (Route 208)
+Youngster Austin (Route 207)
 Level Cap:
 Format: Single
 
@@ -6718,7 +6750,7 @@ Cross Poison
 
 
 32
-Hiker Kevyn (Route 208)
+Hiker Kevyn (Route 207)
 Level Cap:
 Format: Single
 
@@ -6750,7 +6782,7 @@ Take Down
 
 
 33
-Hiker Justin (Route 208)
+Hiker Justin (Route 207)
 Level Cap:
 Format: Single
 
@@ -7375,7 +7407,7 @@ Protect
 
 
 34
-Battle Girl Helen (Route 208)
+Battle Girl Helen (Route 207)
 Level Cap:
 Format: Single
 
@@ -7510,7 +7542,7 @@ Sketch
 
 
 42
-Pokémon Breeder Albert (Lost Tower 1F)
+Pokémon Breeder Albert (Route 209)
 Level Cap:
 Format: Single
 
@@ -7594,7 +7626,7 @@ Dazzling Gleam
 
 
 43
-Pokémon Breeder Jennifer (Lost Tower 1F)
+Pokémon Breeder Jennifer (Route 209)
 Level Cap:
 Format: Single
 
@@ -8262,7 +8294,7 @@ Payback
 
 
 46
-Poké Kid Danielle (Lost Tower 1F)
+Poké Kid Danielle (Route 209)
 Level Cap:
 Format: Single
 
@@ -8751,7 +8783,7 @@ Brick Break
 
 
 44
-Cowgirl Shelley (Lost Tower 1F)
+Cowgirl Shelley (Route 209)
 Level Cap:
 Format: Single
 
@@ -8783,7 +8815,7 @@ Super Fang
 
 
 44
-Cowgirl Shelley (Lost Tower 1F)
+Cowgirl Shelley (Route 209)
 Level Cap:
 Format: Single
 
@@ -8815,7 +8847,7 @@ Super Fang
 
 
 44
-Cowgirl Shelley (Lost Tower 1F)
+Cowgirl Shelley (Route 209)
 Level Cap:
 Format: Single
 
@@ -8847,7 +8879,7 @@ Super Fang
 
 
 218
-Twins Emma (Lost Tower 1F)
+Twins Emma (Route 209)
 Level Cap:
 Format: Single
 
@@ -8866,7 +8898,7 @@ Scary Face
 
 
 219
-Twins Lil (Lost Tower 1F)
+Twins Lil (Route 209)
 Level Cap:
 Format: Single
 
@@ -8885,7 +8917,7 @@ Acid Armor
 
 
 404
-Poké Fan Rebekah (Lost Tower 5F)
+Poké Fan Rebekah (Lost Tower 4F)
 Level Cap:
 Format: Single
 
@@ -8940,25 +8972,6 @@ Charm
 Facade
 25/25/25/25/25/25
 0/0/0/0/0/0
-
-
-963
-Team Galactic Grunt (Route 212 North)
-Level Cap:
-Format: Single
-
-Kricketune
-30
-Naive
-Technician
-
-None
-Slash
-Night Slash
-X-Scissor
-Screech
-31/31/31/31/31/31
-0/252/0/252/0/0
 
 
 69
@@ -9023,6 +9036,25 @@ Air Slash
 Acrobatics
 25/25/25/25/25/25
 0/0/0/0/0/0
+
+
+963
+Team Galactic Grunt (Route 212 North)
+Level Cap:
+Format: Single
+
+Kricketune
+30
+Naive
+Technician
+
+None
+Slash
+Night Slash
+X-Scissor
+Screech
+31/31/31/31/31/31
+0/252/0/252/0/0
 
 
 968
@@ -9147,7 +9179,7 @@ Gyro Ball
 
 
 45
-Jogger Richard (Lost Tower 1F)
+Jogger Richard (Route 209)
 Level Cap:
 Format: Single
 
@@ -9166,7 +9198,7 @@ Jump Kick
 
 
 47
-Young Couple Ty (Lost Tower 1F)
+Young Couple Ty (Route 209)
 Level Cap:
 Format: Single
 
@@ -9185,7 +9217,7 @@ Moonblast
 
 
 48
-Young Couple Sue (Lost Tower 1F)
+Young Couple Sue (Route 209)
 Level Cap:
 Format: Single
 
@@ -9204,7 +9236,7 @@ Thunderbolt
 
 
 233
-Jogger Raul (Lost Tower 1F)
+Jogger Raul (Route 209)
 Level Cap:
 Format: Single
 
@@ -9223,7 +9255,7 @@ Drill Run
 
 
 405
-Youngster Oliver (Lost Tower 3F)
+Youngster Oliver (Lost Tower 2F)
 Level Cap:
 Format: Single
 
@@ -9268,7 +9300,7 @@ Air Cutter
 
 
 403
-Poké Fan Leonard (Lost Tower 4F)
+Poké Fan Leonard (Lost Tower 3F)
 Level Cap:
 Format: Single
 
@@ -9639,7 +9671,7 @@ Double-Edge
 
 
 199
-Collector Fernando (Route 210 North)
+Collector Fernando (Route 210 South)
 Level Cap:
 Format: Single
 
@@ -9671,7 +9703,7 @@ Dragon Rush
 
 
 200
-Collector Edwin (Route 210 North)
+Collector Edwin (Route 210 South)
 Level Cap:
 Format: Single
 
@@ -11079,7 +11111,7 @@ Bulldoze
 
 
 234
-Black Belt Colby (Veilstone City)
+Black Belt Colby (Veilstone Gym)
 Level Cap:
 Format: Single
 
@@ -11150,7 +11182,7 @@ Focus Punch
 
 
 402
-Roughneck Kirby (Lost Tower 4F)
+Roughneck Kirby (Lost Tower 3F)
 Level Cap:
 Format: Single
 
@@ -11169,7 +11201,7 @@ Draining Kiss
 
 
 406
-Ranchers Beth (Lost Tower 5F)
+Ranchers Beth (Lost Tower 4F)
 Level Cap:
 Format: Single
 
@@ -11188,7 +11220,7 @@ Thunderbolt
 
 
 407
-Ranchers Bob (Lost Tower 5F)
+Ranchers Bob (Lost Tower 4F)
 Level Cap:
 Format: Single
 
@@ -11207,7 +11239,7 @@ Flare Blitz
 
 
 408
-Young Couple Mike (Lost Tower 5F)
+Young Couple Mike (Lost Tower 4F)
 Level Cap:
 Format: Single
 
@@ -11226,7 +11258,7 @@ Moonblast
 
 
 409
-Young Couple Nat (Lost Tower 5F)
+Young Couple Nat (Lost Tower 4F)
 Level Cap:
 Format: Single
 
@@ -11321,7 +11353,7 @@ Magnet Rise
 
 
 278
-Waitress Kati (Route 210 North)
+Waitress Kati (Route 210 South)
 Level Cap:
 Format: Single
 
@@ -11817,7 +11849,7 @@ Infestation
 
 
 229
-Ruin Maniac Calvin (Route 216)
+Ruin Maniac Calvin (Route 215)
 Level Cap:
 Format: Single
 
@@ -11849,7 +11881,7 @@ Crunch
 
 
 97
-Black Belt Gregory (Route 212 North)
+Black Belt Gregory (Route 211 East)
 Level Cap:
 Format: Single
 
@@ -12016,7 +12048,7 @@ Psychic
 
 
 98
-Black Belt Derek (Route 216)
+Black Belt Derek (Route 215)
 Level Cap:
 Format: Single
 
@@ -12048,7 +12080,7 @@ Close Combat
 
 
 99
-Black Belt Nathaniel (Route 216)
+Black Belt Nathaniel (Route 215)
 Level Cap:
 Format: Single
 
@@ -12080,7 +12112,7 @@ Close Combat
 
 
 100
-Jogger Scott (Route 216)
+Jogger Scott (Route 215)
 Level Cap:
 Format: Single
 
@@ -12099,7 +12131,7 @@ Take Down
 
 
 232
-Jogger Craig (Route 216)
+Jogger Craig (Route 215)
 Level Cap:
 Format: Single
 
@@ -12208,7 +12240,7 @@ Psychic
 Paired with 674
 
 235
-Black Belt Darren (Veilstone City)
+Black Belt Darren (Veilstone Gym)
 Level Cap:
 Format: Single
 
@@ -12253,7 +12285,7 @@ Mach Punch
 
 
 236
-Black Belt Rafael (Veilstone City)
+Black Belt Rafael (Veilstone Gym)
 Level Cap:
 Format: Single
 
@@ -12336,7 +12368,7 @@ Icicle Crash
 
 
 202
-Ace Trainer Dennis (Route 216)
+Ace Trainer Dennis (Route 215)
 Level Cap:
 Format: Single
 
@@ -12381,7 +12413,7 @@ Amnesia
 
 
 211
-Ace Trainer Maya (Route 216)
+Ace Trainer Maya (Route 215)
 Level Cap:
 Format: Single
 
@@ -12780,7 +12812,7 @@ U-turn
 Paired with Support
 
 237
-Black Belt Jeffery (Veilstone City)
+Black Belt Jeffery (Veilstone Gym)
 Level Cap:
 Format: Single
 
@@ -13017,177 +13049,6 @@ Shadow Sneak
 0/244/0/0/12/248
 
 
-411
-Artist Ismael (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Smeargle
-37
-Bashful
-Own Tempo
-
-None
-Sketch
-Sketch
-Sketch
-Sketch
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-413
-Cameraman Darryl (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Magneton
-37
-Bashful
-Magnet Pull
-
-None
-Tri Attack
-Flash Cannon
-Screech
-Thunderbolt
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-414
-Collector Eugene (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Milotic
-37
-Hardy
-Marvel Scale
-
-None
-Hypnosis
-Attract
-Moonblast
-Dragon Pulse
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-416
-PI Kendrick (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Rhydon
-37
-Serious
-Reckless
-
-None
-Rock Slide
-Poison Jab
-Hammer Arm
-Megahorn
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-417
-Gentleman Leonardo (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Chatot
-37
-Docile
-Soundproof
-
-None
-Roost
-Agility
-Echoed Voice
-Hyper Voice
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-420
-Rich Boy Roman (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Arcanine
-37
-Hardy
-Intimidate
-
-None
-Agility
-Fire Fang
-Reversal
-Burn Up
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-423
-School Kid Esteban (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Quagsire
-37
-Serious
-Unaware
-
-None
-Yawn
-Body Slam
-Earthquake
-Counter
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-424
-Scientist Emilio (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Alakazam
-37
-Quirky
-Synchronize
-
-None
-Psycho Cut
-Recover
-Psychic
-Calm Mind
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-427
-Veteran Emanuel (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Blaziken
-37
-Quirky
-Blaze
-
-None
-Sky Uppercut
-Flamethrower
-Blaze Kick
-Slash
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
 410
 Aroma Lady Alison (Valor Lakefront)
 Level Cap:
@@ -13207,6 +13068,25 @@ Moonblast
 0/0/0/0/0/0
 
 
+410
+Aroma Lady Alison (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Meganium
+37
+Quirky
+Serene Grace
+
+None
+Sweet Scent
+Petal Dance
+Body Slam
+Moonblast
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 414
+
 411
 Artist Ismael (Valor Lakefront)
 Level Cap:
@@ -13225,6 +13105,25 @@ Sketch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+411
+Artist Ismael (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Smeargle
+37
+Bashful
+Own Tempo
+
+None
+Sketch
+Sketch
+Sketch
+Sketch
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 426
 
 412
 Pokémon Breeder Kaylee (Valor Lakefront)
@@ -13245,6 +13144,25 @@ Belly Drum
 0/0/0/0/0/0
 
 
+412
+Pokémon Breeder Kaylee (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Azumarill
+37
+Bashful
+Thick Fat
+
+None
+Play Rough
+Aqua Ring
+Ice Punch
+Belly Drum
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 424
+
 413
 Cameraman Darryl (Valor Lakefront)
 Level Cap:
@@ -13263,6 +13181,25 @@ Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+413
+Cameraman Darryl (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Magneton
+37
+Bashful
+Magnet Pull
+
+None
+Tri Attack
+Flash Cannon
+Screech
+Thunderbolt
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 422
 
 414
 Collector Eugene (Valor Lakefront)
@@ -13283,6 +13220,25 @@ Dragon Pulse
 0/0/0/0/0/0
 
 
+414
+Collector Eugene (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Milotic
+37
+Hardy
+Marvel Scale
+
+None
+Hypnosis
+Attract
+Moonblast
+Dragon Pulse
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 410
+
 415
 Poké Fan Meredith (Valor Lakefront)
 Level Cap:
@@ -13301,6 +13257,25 @@ Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+415
+Poké Fan Meredith (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Pachirisu
+37
+Quirky
+Volt Absorb
+
+Sitrus Berry
+Thunder Wave
+Thunderbolt
+Fake Tears
+Super Fang
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 423
 
 416
 PI Kendrick (Valor Lakefront)
@@ -13321,6 +13296,25 @@ Megahorn
 0/0/0/0/0/0
 
 
+416
+PI Kendrick (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Rhydon
+37
+Serious
+Reckless
+
+None
+Rock Slide
+Poison Jab
+Hammer Arm
+Megahorn
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 425
+
 417
 Gentleman Leonardo (Valor Lakefront)
 Level Cap:
@@ -13339,6 +13333,25 @@ Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+417
+Gentleman Leonardo (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Chatot
+37
+Docile
+Soundproof
+
+None
+Roost
+Agility
+Echoed Voice
+Hyper Voice
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 418
 
 418
 Madame Rebecca (Valor Lakefront)
@@ -13359,6 +13372,25 @@ Nasty Plot
 0/0/0/0/0/0
 
 
+418
+Madame Rebecca (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Persian
+37
+Docile
+Limber
+
+None
+Power Gem
+Assurance
+Hypnosis
+Nasty Plot
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 417
+
 419
 Lass Blythe (Valor Lakefront)
 Level Cap:
@@ -13377,6 +13409,25 @@ Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+419
+Lass Blythe (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Lopunny
+37
+Docile
+Scrappy
+
+None
+Charm
+Dizzy Punch
+Flail
+Bounce
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 427
 
 420
 Rich Boy Roman (Valor Lakefront)
@@ -13397,6 +13448,25 @@ Burn Up
 0/0/0/0/0/0
 
 
+420
+Rich Boy Roman (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Arcanine
+37
+Hardy
+Intimidate
+
+None
+Agility
+Fire Fang
+Reversal
+Burn Up
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 421
+
 421
 Lady Kylie (Valor Lakefront)
 Level Cap:
@@ -13415,6 +13485,25 @@ Moonlight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+421
+Lady Kylie (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Vileplume
+37
+Quirky
+Chlorophyll
+
+None
+Mega Drain
+Leaf Blade
+Giga Drain
+Moonlight
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 420
 
 422
 Reporter Valerie (Valor Lakefront)
@@ -13435,6 +13524,25 @@ Rest
 0/0/0/0/0/0
 
 
+422
+Reporter Valerie (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Loudred
+37
+Bashful
+Scrappy
+
+None
+Fake Tears
+Hyper Voice
+Roar
+Rest
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 413
+
 423
 School Kid Esteban (Valor Lakefront)
 Level Cap:
@@ -13453,6 +13561,25 @@ Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+423
+School Kid Esteban (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Quagsire
+37
+Serious
+Unaware
+
+None
+Yawn
+Body Slam
+Earthquake
+Counter
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 415
 
 424
 Scientist Emilio (Valor Lakefront)
@@ -13473,6 +13600,25 @@ Calm Mind
 0/0/0/0/0/0
 
 
+424
+Scientist Emilio (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Alakazam
+37
+Quirky
+Synchronize
+
+None
+Psycho Cut
+Recover
+Psychic
+Calm Mind
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 412
+
 425
 Beauty Gabriella (Valor Lakefront)
 Level Cap:
@@ -13491,6 +13637,25 @@ Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+425
+Beauty Gabriella (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Lumineon
+37
+Serious
+Swift Swim
+
+None
+Flail
+Safeguard
+Aqua Tail
+Aqua Ring
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 416
 
 426
 Beauty Harley (Valor Lakefront)
@@ -13511,6 +13676,25 @@ Psych Up
 0/0/0/0/0/0
 
 
+426
+Beauty Harley (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Golduck
+37
+Hardy
+Damp
+
+None
+Aqua Tail
+Power Gem
+Psychic
+Psych Up
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 411
+
 427
 Veteran Emanuel (Valor Lakefront)
 Level Cap:
@@ -13529,6 +13713,25 @@ Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+427
+Veteran Emanuel (Valor Lakefront)
+Level Cap:
+Format: Double
+
+Blaziken
+37
+Quirky
+Blaze
+
+None
+Sky Uppercut
+Flamethrower
+Blaze Kick
+Slash
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 419
 
 76
 Fisher Juan (Route 212 South)
@@ -13832,7 +14035,7 @@ Future Sight
 
 
 217
-Fisher Erick (Pastoria City)
+Fisher Erick (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -13877,7 +14080,7 @@ X-Scissor
 
 
 261
-Sailor Damian (Pastoria City)
+Sailor Damian (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -13922,7 +14125,7 @@ Future Sight
 
 
 307
-Fisher Walter (Pastoria City)
+Fisher Walter (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -13967,7 +14170,7 @@ Bounce
 
 
 364
-Sailor Samson (Pastoria City)
+Sailor Samson (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -14012,7 +14215,7 @@ Bounce
 
 
 373
-Tuber Jacky (Pastoria City)
+Tuber Jacky (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -14057,7 +14260,7 @@ Belly Drum
 
 
 374
-Tuber Caitlyn (Pastoria City)
+Tuber Caitlyn (Pastoria Gym)
 Level Cap:
 Format: Single
 
@@ -16488,7 +16691,7 @@ Seed Bomb
 
 
 273
-Tuber Trenton (Route 221)
+Tuber Trenton (Route 219)
 Level Cap:
 Format: Single
 
@@ -16533,7 +16736,7 @@ Curse
 
 
 670
-Worker Dillan (Mt. Coronet Route 207 Entrance)
+Worker Dillan (Fuego Ironworks (Inside))
 Level Cap:
 Format: Single
 
@@ -16578,7 +16781,7 @@ Scary Face
 
 
 671
-Worker Holden (Mt. Coronet Route 207 Entrance)
+Worker Holden (Fuego Ironworks (Inside))
 Level Cap:
 Format: Single
 
@@ -16623,7 +16826,7 @@ Magnet Rise
 
 
 672
-Worker Conrad (Mt. Coronet Route 207 Entrance)
+Worker Conrad (Fuego Ironworks (Inside))
 Level Cap:
 Format: Single
 
@@ -16670,7 +16873,7 @@ Inferno
 670
 Worker Dillan (Iron Island B3F Right Cave)
 Level Cap:
-Format: Single
+Format: Double
 
 Machop
 42
@@ -16710,7 +16913,52 @@ Cross Chop
 Scary Face
 25/25/25/25/25/25
 0/0/0/0/0/0
+Paired with 671
 
+671
+Worker Holden (Iron Island B3F Right Cave)
+Level Cap:
+Format: Double
+
+Magnemite
+42
+Serious
+Magnet Pull
+
+None
+Screech
+Thunderbolt
+Lock-On
+Magnet Rise
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Magnemite
+42
+Hardy
+Magnet Pull
+
+None
+Screech
+Thunderbolt
+Lock-On
+Magnet Rise
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Steelix
+45
+Serious
+Rock Head
+
+None
+Stone Edge
+Double-Edge
+Sandstorm
+Magnet Rise
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 670
 
 55
 Veteran Brian (Route 210 North)
@@ -16848,7 +17096,7 @@ Mirror Coat
 
 
 260
-Sailor Skyler (Route 218: Jubilife Gate)
+Sailor Skyler (Route 218)
 Level Cap:
 Format: Single
 
@@ -16893,7 +17141,7 @@ Earthquake
 
 
 275
-Tuber Mariel (Route 221)
+Tuber Mariel (Route 219)
 Level Cap:
 Format: Single
 
@@ -16970,7 +17218,7 @@ Fell Stinger
 
 
 120
-Swimmer Adrian (Route 223)
+Swimmer Adrian (Route 220)
 Level Cap:
 Format: Single
 
@@ -17015,7 +17263,7 @@ Heal Pulse
 
 
 123
-Swimmer Jessica (Route 223)
+Swimmer Jessica (Route 220)
 Level Cap:
 Format: Single
 
@@ -17060,7 +17308,7 @@ Soak
 
 
 125
-Swimmer Katelyn (Route 223)
+Swimmer Katelyn (Route 220)
 Level Cap:
 Format: Single
 
@@ -17537,7 +17785,7 @@ U-turn
 
 
 118
-Fisher Miguel (Route 218: Jubilife Gate)
+Fisher Miguel (Route 218)
 Level Cap:
 Format: Single
 
@@ -17569,7 +17817,7 @@ Coil
 
 
 225
-Guitarist Tony (Route 218: Jubilife Gate)
+Guitarist Tony (Route 218)
 Level Cap:
 Format: Single
 
@@ -17646,7 +17894,7 @@ Rain Dance
 
 
 121
-Swimmer Erik (Route 223)
+Swimmer Erik (Route 220)
 Level Cap:
 Format: Single
 
@@ -17678,7 +17926,7 @@ Aqua Ring
 
 
 124
-Swimmer Erica (Route 223)
+Swimmer Erica (Route 220)
 Level Cap:
 Format: Single
 
@@ -17710,7 +17958,7 @@ Mirror Coat
 
 
 371
-Swimmer Claire (Route 223)
+Swimmer Claire (Route 220)
 Level Cap:
 Format: Single
 
@@ -17894,7 +18142,7 @@ Hyper Beam
 
 
 172
-Veteran Grant (Fullmoon Island)
+Veteran Grant (Oreburgh Tunnel B1F)
 Level Cap:
 Format: Single
 
@@ -17958,7 +18206,7 @@ Hyper Voice
 
 
 119
-Fisher Luc (Route 218: Jubilife Gate)
+Fisher Luc (Route 218)
 Level Cap:
 Format: Single
 
@@ -18209,7 +18457,7 @@ Healing Wish
 
 
 122
-Swimmer Vincent (Route 223)
+Swimmer Vincent (Route 220)
 Level Cap:
 Format: Single
 
@@ -18228,7 +18476,7 @@ Bounce
 
 
 181
-Worker Gary (Canalave City)
+Worker Gary (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -18299,7 +18547,7 @@ Body Press
 
 
 288
-Camper Lawrence (Iron Island B1F Right Cave)
+Camper Lawrence (Iron Island B1F Left Cave)
 Level Cap:
 Format: Single
 
@@ -18344,7 +18592,7 @@ Hydro Pump
 
 
 346
-Picnicker Summer (Iron Island B2F Left Cave)
+Picnicker Summer (Iron Island B1F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18389,7 +18637,7 @@ Thunderbolt
 
 
 341
-Hiker Damon (Iron Island B3F)
+Hiker Damon (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18556,7 +18804,7 @@ Swords Dance
 
 
 342
-Hiker Maurice (Iron Island B3F)
+Hiker Maurice (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18588,7 +18836,7 @@ Stone Edge
 
 
 379
-Worker Brendon (Iron Island B3F)
+Worker Brendon (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18620,7 +18868,7 @@ Dynamic Punch
 
 
 380
-Worker Quentin (Iron Island B3F)
+Worker Quentin (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18652,7 +18900,7 @@ Stone Edge
 
 
 180
-Worker Jackson (Canalave City)
+Worker Jackson (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -18697,7 +18945,7 @@ Hyper Beam
 
 
 377
-Worker Willy (Iron Island B3F Right Cave)
+Worker Willy (Iron Island B2F Left Cave)
 Level Cap:
 Format: Single
 
@@ -18742,7 +18990,7 @@ Hyper Beam
 
 
 378
-Worker Braden (Iron Island B3F Right Cave)
+Worker Braden (Iron Island B2F Left Cave)
 Level Cap:
 Format: Single
 
@@ -18761,7 +19009,7 @@ Eruption
 
 
 285
-Battle Girl Tylor (Iron Island B3F)
+Battle Girl Tylor (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18793,7 +19041,7 @@ Screech
 
 
 295
-Ace Trainer Jonah (Iron Island B3F)
+Ace Trainer Jonah (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18838,7 +19086,7 @@ Double-Edge
 
 
 298
-Ace Trainer Brenda (Iron Island B3F)
+Ace Trainer Brenda (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -18883,7 +19131,7 @@ Reversal
 
 
 336
-Black Belt Kendal (Iron Island B3F)
+Black Belt Kendal (Iron Island B3F Right Cave)
 Level Cap:
 Format: Single
 
@@ -20007,7 +20255,7 @@ Iron Head
 
 
 279
-Worker Gerardo (Canalave City)
+Worker Gerardo (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -20039,7 +20287,7 @@ Double-Edge
 
 
 323
-Team Galactic Grunt (Verity Cavern)
+Team Galactic Grunt (Lake Verity (After))
 Level Cap:
 Format: Single
 
@@ -20084,7 +20332,7 @@ Leaf Storm
 
 
 329
-Team Galactic Grunt (Verity Cavern)
+Team Galactic Grunt (Lake Verity (After))
 Level Cap:
 Format: Single
 
@@ -20129,7 +20377,7 @@ Hurricane
 
 
 203
-Ace Trainer Cesar (Canalave City)
+Ace Trainer Cesar (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -20174,7 +20422,7 @@ Rock Slide
 
 
 207
-Ace Trainer Breanna (Canalave City)
+Ace Trainer Breanna (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -20303,7 +20551,7 @@ Bullet Punch
 
 
 322
-Team Galactic Grunt (Verity Cavern)
+Team Galactic Grunt (Lake Verity (After))
 Level Cap:
 Format: Single
 
@@ -20335,7 +20583,7 @@ Megahorn
 
 
 328
-Team Galactic Grunt (Verity Cavern)
+Team Galactic Grunt (Lake Verity (After))
 Level Cap:
 Format: Single
 
@@ -20367,7 +20615,7 @@ Hurricane
 
 
 320
-Team Galactic Grunt (Lake Valor (After))
+Team Galactic Grunt (Lake Valor (Before))
 Level Cap:
 Format: Single
 
@@ -20386,7 +20634,7 @@ Sucker Punch
 
 
 321
-Team Galactic Grunt (Lake Valor (After))
+Team Galactic Grunt (Lake Valor (Before))
 Level Cap:
 Format: Single
 
@@ -20405,7 +20653,7 @@ Flare Blitz
 
 
 327
-Team Galactic Grunt (Lake Valor (After))
+Team Galactic Grunt (Lake Valor (Before))
 Level Cap:
 Format: Single
 
@@ -20559,7 +20807,7 @@ Nasty Plot
 
 
 164
-Black Belt David (Canalave City)
+Black Belt David (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -20578,7 +20826,7 @@ Blaze Kick
 
 
 239
-Black Belt Ricky (Canalave City)
+Black Belt Ricky (Canalave Gym)
 Level Cap:
 Format: Single
 
@@ -21138,7 +21386,7 @@ Iron Head
 
 
 192
-Ace Trainer Sergio (Snowpoint City)
+Ace Trainer Sergio (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21183,7 +21431,7 @@ Rock Slide
 
 
 194
-Ace Trainer Savannah (Snowpoint City)
+Ace Trainer Savannah (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21228,7 +21476,7 @@ Surf
 
 
 195
-Ace Trainer Alicia (Snowpoint City)
+Ace Trainer Alicia (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21273,7 +21521,7 @@ Sheer Cold
 
 
 653
-Ace Trainer Anton (Snowpoint City)
+Ace Trainer Anton (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21318,7 +21566,7 @@ Crunch
 
 
 654
-Ace Trainer Brenna (Snowpoint City)
+Ace Trainer Brenna (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21363,7 +21611,7 @@ Blizzard
 
 
 330
-Team Galactic Grunt (Team Galactic HQ 2F)
+Team Galactic Grunt (Team Galactic HQ 1F)
 Level Cap:
 Format: Single
 
@@ -21408,7 +21656,7 @@ Destiny Bond
 
 
 656
-Scientist Fredrick (Team Galactic HQ 2F)
+Scientist Fredrick (Team Galactic HQ 1F)
 Level Cap:
 Format: Single
 
@@ -21453,7 +21701,7 @@ Zap Cannon
 
 
 331
-Team Galactic Grunt (Team Galactic HQ 3F)
+Team Galactic Grunt (Team Galactic HQ 2F)
 Level Cap:
 Format: Single
 
@@ -21498,7 +21746,7 @@ Dark Pulse
 
 
 386
-Team Galactic Grunt (Team Galactic HQ 3F)
+Team Galactic Grunt (Team Galactic HQ 2F)
 Level Cap:
 Format: Single
 
@@ -21543,7 +21791,7 @@ Megahorn
 
 
 381
-Team Galactic Grunt (Galactic HQ)
+Team Galactic Grunt (Team Galactic HQ B2F)
 Level Cap:
 Format: Single
 
@@ -21846,7 +22094,7 @@ Agility
 Paired with 735
 
 193
-Ace Trainer Isaiah (Snowpoint City)
+Ace Trainer Isaiah (Snowpoint Gym)
 Level Cap:
 Format: Single
 
@@ -21878,7 +22126,7 @@ Future Sight
 
 
 388
-Team Galactic Grunt (Mt. Coronet Snow Area)
+Team Galactic Grunt (Mt. Coronet 3F)
 Level Cap:
 Format: Single
 
@@ -21923,7 +22171,7 @@ Perish Song
 
 
 396
-Team Galactic Grunt (Mt. Coronet Snow Area)
+Team Galactic Grunt (Mt. Coronet 3F)
 Level Cap:
 Format: Single
 
@@ -21968,7 +22216,7 @@ Double-Edge
 
 
 389
-Team Galactic Grunt (Mt. Coronet 5F)
+Team Galactic Grunt (Mt. Coronet 4F)
 Level Cap:
 Format: Single
 
@@ -22013,7 +22261,7 @@ Megahorn
 
 
 397
-Team Galactic Grunt (Mt. Coronet B1F)
+Team Galactic Grunt (Mt. Coronet Summit)
 Level Cap:
 Format: Single
 
@@ -22058,7 +22306,7 @@ Dark Pulse
 
 
 384
-Team Galactic Grunt (Team Galactic HQ 3F)
+Team Galactic Grunt (Team Galactic HQ 2F)
 Level Cap:
 Format: Single
 
@@ -22090,7 +22338,7 @@ Gunk Shot
 
 
 383
-Team Galactic Grunt (Team Galactic HQ 4F)
+Team Galactic Grunt (Team Galactic HQ 3F)
 Level Cap:
 Format: Single
 
@@ -22122,7 +22370,7 @@ Gunk Shot
 
 
 385
-Team Galactic Grunt (Team Galactic HQ 4F)
+Team Galactic Grunt (Team Galactic HQ 3F)
 Level Cap:
 Format: Single
 
@@ -22154,7 +22402,7 @@ Gunk Shot
 
 
 387
-Team Galactic Grunt (Team Galactic HQ 4F)
+Team Galactic Grunt (Team Galactic HQ 3F)
 Level Cap:
 Format: Single
 
@@ -22186,7 +22434,7 @@ Coil
 
 
 395
-Team Galactic Grunt (Team Galactic HQ 4F)
+Team Galactic Grunt (Team Galactic HQ 3F)
 Level Cap:
 Format: Single
 
@@ -22231,7 +22479,7 @@ Leaf Storm
 
 
 382
-Team Galactic Grunt (Galactic HQ)
+Team Galactic Grunt (Team Galactic HQ B2F)
 Level Cap:
 Format: Single
 
@@ -22295,7 +22543,7 @@ Sheer Cold
 
 
 390
-Team Galactic Grunt (Mt. Coronet 5F)
+Team Galactic Grunt (Mt. Coronet 4F)
 Level Cap:
 Format: Single
 
@@ -22327,7 +22575,7 @@ Memento
 
 
 393
-Team Galactic Grunt (Mt. Coronet 7F)
+Team Galactic Grunt (Mt. Coronet 6F)
 Level Cap:
 Format: Single
 
@@ -22372,7 +22620,7 @@ Zap Cannon
 
 
 398
-Team Galactic Grunt (Mt. Coronet 7F)
+Team Galactic Grunt (Mt. Coronet 6F)
 Level Cap:
 Format: Single
 
@@ -22417,7 +22665,7 @@ Bug Buzz
 
 
 399
-Team Galactic Grunt (Mt. Coronet Summit)
+Team Galactic Grunt (Mt. Coronet 7F)
 Level Cap:
 Format: Single
 
@@ -22475,7 +22723,7 @@ Guillotine
 
 
 391
-Team Galactic Grunt (Mt. Coronet B1F)
+Team Galactic Grunt (Mt. Coronet Summit)
 Level Cap:
 Format: Single
 
@@ -22507,7 +22755,7 @@ Belch
 
 
 655
-Scientist Darrius (Team Galactic HQ 3F)
+Scientist Darrius (Team Galactic HQ 2F)
 Level Cap:
 Format: Single
 
@@ -23016,7 +23264,7 @@ Freeze-Dry
 
 
 392
-Team Galactic Grunt (Mt. Coronet B1F)
+Team Galactic Grunt (Mt. Coronet Summit)
 Level Cap:
 Format: Single
 
@@ -24252,7 +24500,7 @@ Liquidation
 
 
 363
-Sailor Zachariah (Route 226)
+Sailor Zachariah (Route 223)
 Level Cap:
 Format: Single
 
@@ -24852,7 +25100,7 @@ Hurricane
 
 
 136
-Swimmer Wesley (Route 226)
+Swimmer Wesley (Route 223)
 Level Cap:
 Format: Single
 
@@ -24897,7 +25145,7 @@ Acupressure
 
 
 138
-Swimmer Francisco (Route 226)
+Swimmer Francisco (Route 223)
 Level Cap:
 Format: Single
 
@@ -24942,7 +25190,7 @@ Hydro Pump
 
 
 139
-Swimmer Colton (Route 226)
+Swimmer Colton (Route 223)
 Level Cap:
 Format: Single
 
@@ -24987,7 +25235,7 @@ Hydro Pump
 
 
 141
-Swimmer Oscar (Route 226)
+Swimmer Oscar (Route 223)
 Level Cap:
 Format: Single
 
@@ -25032,7 +25280,7 @@ Fissure
 
 
 144
-Swimmer Paige (Route 226)
+Swimmer Paige (Route 223)
 Level Cap:
 Format: Single
 
@@ -25077,7 +25325,7 @@ Hydro Pump
 
 
 145
-Swimmer Crystal (Route 226)
+Swimmer Crystal (Route 223)
 Level Cap:
 Format: Single
 
@@ -25122,7 +25370,7 @@ Flail
 
 
 147
-Swimmer Gabrielle (Route 226)
+Swimmer Gabrielle (Route 223)
 Level Cap:
 Format: Single
 
@@ -25199,7 +25447,7 @@ Charge
 
 
 205
-Ace Trainer Zachery (Sunyshore City)
+Ace Trainer Zachery (Sunyshore Gym)
 Level Cap:
 Format: Single
 
@@ -25257,7 +25505,7 @@ Sucker Punch
 
 
 209
-Ace Trainer Destiny (Sunyshore City)
+Ace Trainer Destiny (Sunyshore Gym)
 Level Cap:
 Format: Single
 
@@ -25315,7 +25563,7 @@ Howl
 
 
 227
-Guitarist Preston (Sunyshore City)
+Guitarist Preston (Sunyshore Gym)
 Level Cap:
 Format: Single
 
@@ -25347,7 +25595,7 @@ Supersonic
 
 
 228
-Guitarist Lonnie (Sunyshore City)
+Guitarist Lonnie (Sunyshore Gym)
 Level Cap:
 Format: Single
 
@@ -25379,7 +25627,7 @@ Thunder
 
 
 142
-Swimmer Miranda (Route 226)
+Swimmer Miranda (Route 223)
 Level Cap:
 Format: Single
 
@@ -25411,7 +25659,7 @@ Soak
 
 
 143
-Swimmer Aubree (Route 226)
+Swimmer Aubree (Route 223)
 Level Cap:
 Format: Single
 
@@ -25863,7 +26111,7 @@ Dark Pulse
 
 
 137
-Swimmer Ricardo (Route 226)
+Swimmer Ricardo (Route 223)
 Level Cap:
 Format: Single
 
@@ -25882,7 +26130,7 @@ Sludge Wave
 
 
 140
-Swimmer Troy (Route 226)
+Swimmer Troy (Route 223)
 Level Cap:
 Format: Single
 
@@ -25901,7 +26149,7 @@ Hyper Beam
 
 
 146
-Swimmer Cassandra (Route 226)
+Swimmer Cassandra (Route 223)
 Level Cap:
 Format: Single
 
@@ -26424,7 +26672,7 @@ Swords Dance
 
 
 158
-Ace Trainer Mariah (Victory Road 2F)
+Ace Trainer Mariah (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -26495,7 +26743,7 @@ Power Gem
 
 
 165
-Bird Keeper Hana (Victory Road 2F)
+Bird Keeper Hana (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -26553,7 +26801,7 @@ Roost
 
 
 166
-Psychic Bryce (Victory Road 2F)
+Psychic Bryce (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -26611,7 +26859,7 @@ Hyper Voice
 
 
 335
-Black Belt Miles (Victory Road 2F)
+Black Belt Miles (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -26669,7 +26917,7 @@ Double-Edge
 
 
 156
-Ace Trainer Omar (Victory Road B1F)
+Ace Trainer Omar (Victory Road 2F)
 Level Cap:
 Format: Single
 
@@ -26740,7 +26988,7 @@ Ice Shard
 
 
 159
-Ace Trainer Sydney (Victory Road B1F)
+Ace Trainer Sydney (Victory Road 2F)
 Level Cap:
 Format: Single
 
@@ -26811,7 +27059,7 @@ Wild Charge
 
 
 157
-Ace Trainer Henry (Victory Road Nat Dex Area)
+Ace Trainer Henry (Victory Road B1F)
 Level Cap:
 Format: Single
 
@@ -26882,7 +27130,7 @@ Aura Sphere
 
 
 167
-Psychic Valencia (Victory Road Nat Dex Area)
+Psychic Valencia (Victory Road B1F)
 Level Cap:
 Format: Single
 
@@ -26940,7 +27188,7 @@ Confuse Ray
 
 
 160
-Veteran Edgar (Victory Road 2F)
+Veteran Edgar (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -27011,7 +27259,7 @@ Earth Power
 
 
 163
-Dragon Tamer Clinton (Victory Road 2F)
+Dragon Tamer Clinton (Victory Road 1F)
 Level Cap:
 Format: Single
 
@@ -27069,7 +27317,7 @@ Fire Fang
 
 
 161
-Veteran Clayton (Victory Road B1F)
+Veteran Clayton (Victory Road 2F)
 Level Cap:
 Format: Single
 
@@ -27140,7 +27388,7 @@ Fire Punch
 
 
 170
-Double Team Al (Victory Road B1F)
+Double Team Al (Victory Road 2F)
 Level Cap:
 Format: Single
 
@@ -27172,7 +27420,7 @@ Leaf Storm
 
 
 171
-Double Team Kay (Victory Road B1F)
+Double Team Kay (Victory Road 2F)
 Level Cap:
 Format: Single
 
@@ -27204,7 +27452,7 @@ Last Resort
 
 
 162
-Dragon Tamer Andre (Victory Road Nat Dex Area)
+Dragon Tamer Andre (Victory Road B1F)
 Level Cap:
 Format: Single
 
@@ -27262,7 +27510,7 @@ Crunch
 
 
 168
-Double Team Jo (Victory Road Nat Dex Area)
+Double Team Jo (Victory Road B1F)
 Level Cap:
 Format: Single
 
@@ -27294,7 +27542,7 @@ Leech Life
 
 
 169
-Double Team Pat (Victory Road Nat Dex Area)
+Double Team Pat (Victory Road B1F)
 Level Cap:
 Format: Single
 
@@ -27326,7 +27574,7 @@ Attract
 
 
 286
-Bird Keeper Autumn (Victory Road Nat Dex Area B1F)
+Bird Keeper Autumn (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27371,7 +27619,7 @@ Destiny Bond
 
 
 297
-Ace Trainer Arthur (Victory Road Nat Dex Area B1F)
+Ace Trainer Arthur (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27416,7 +27664,7 @@ Thunder
 
 
 300
-Ace Trainer Clarice (Victory Road Nat Dex Area B1F)
+Ace Trainer Clarice (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27461,7 +27709,7 @@ Feint
 
 
 302
-Psychic Landon (Victory Road Nat Dex Area B1F)
+Psychic Landon (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27506,7 +27754,7 @@ Dazzling Gleam
 
 
 303
-Psychic Deandre (Victory Road Nat Dex Area B1F)
+Psychic Deandre (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27551,7 +27799,7 @@ Destiny Bond
 
 
 305
-Psychic Desiree (Victory Road Nat Dex Area B1F)
+Psychic Desiree (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27596,7 +27844,7 @@ Swagger
 
 
 306
-Psychic Kendra (Victory Road Nat Dex Area B1F)
+Psychic Kendra (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27641,7 +27889,7 @@ Safeguard
 
 
 337
-Black Belt Eddie (Victory Road Nat Dex Area B1F)
+Black Belt Eddie (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27686,7 +27934,7 @@ Fake Out
 
 
 338
-Black Belt Willie (Victory Road Nat Dex Area B1F)
+Black Belt Willie (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27731,7 +27979,7 @@ Gunk Shot
 
 
 294
-Dragon Tamer Joe (Victory Road Nat Dex Area B1F)
+Dragon Tamer Joe (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27776,7 +28024,7 @@ Rain Dance
 
 
 296
-Ace Trainer Micah (Victory Road Nat Dex Area B1F)
+Ace Trainer Micah (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27821,7 +28069,7 @@ Quick Attack
 
 
 299
-Ace Trainer Brandi (Victory Road Nat Dex Area B1F)
+Ace Trainer Brandi (Victory Road Nat Dex Area)
 Level Cap:
 Format: Single
 
@@ -27949,6 +28197,96 @@ Healing Wish
 1/0/0/0/0/0
 
 
+375
+Veteran Terrell (Victory Road Nat Dex Area)
+Level Cap:
+Format: Single
+
+Parasect
+66
+Quirky
+Effect Spore
+
+None
+Leech Life
+Seed Bomb
+Spore
+Cross Poison
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Quagsire
+66
+Quirky
+Unaware
+
+None
+Muddy Water
+Earth Power
+Ice Punch
+Recover
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Houndoom
+66
+Bashful
+Intimidate
+
+None
+Fire Blast
+Sludge Bomb
+Dark Pulse
+Will-O-Wisp
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+376
+Veteran Brenden (Victory Road Nat Dex Area)
+Level Cap:
+Format: Single
+
+Forretress
+66
+Serious
+Sturdy
+
+None
+Double-Edge
+Magnet Rise
+Zap Cannon
+Heavy Slam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Kabutops
+66
+Bashful
+Swift Swim
+
+None
+Metal Sound
+Leech Life
+Liquidation
+Stone Edge
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Donphan
+66
+Hardy
+Sturdy
+
+None
+Ice Shard
+Giga Impact
+Play Rough
+Head Smash
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 707
 Pokémon Trainer Marley (Victory Road Nat Dex Area)
 Level Cap:
@@ -28033,98 +28371,8 @@ Extreme Speed
 0/252/0/0/0/252
 
 
-375
-Veteran Terrell (Victory Road Nat Dex Area B1F)
-Level Cap:
-Format: Single
-
-Parasect
-66
-Quirky
-Effect Spore
-
-None
-Leech Life
-Seed Bomb
-Spore
-Cross Poison
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Quagsire
-66
-Quirky
-Unaware
-
-None
-Muddy Water
-Earth Power
-Ice Punch
-Recover
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Houndoom
-66
-Bashful
-Intimidate
-
-None
-Fire Blast
-Sludge Bomb
-Dark Pulse
-Will-O-Wisp
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
-376
-Veteran Brenden (Victory Road Nat Dex Area B1F)
-Level Cap:
-Format: Single
-
-Forretress
-66
-Serious
-Sturdy
-
-None
-Double-Edge
-Magnet Rise
-Zap Cannon
-Heavy Slam
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Kabutops
-66
-Bashful
-Swift Swim
-
-None
-Metal Sound
-Leech Life
-Liquidation
-Stone Edge
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Donphan
-66
-Hardy
-Sturdy
-
-None
-Ice Shard
-Giga Impact
-Play Rough
-Head Smash
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
 212
-Psychic Maxwell (Route 225)
+Psychic Maxwell (Route 224)
 Level Cap:
 Format: Single
 
@@ -28182,7 +28430,7 @@ Explosion
 
 
 213
-Psychic Brittney (Route 225)
+Psychic Brittney (Route 224)
 Level Cap:
 Format: Single
 
@@ -28240,7 +28488,7 @@ Moonblast
 
 
 230
-Ruin Maniac Larry (Route 225)
+Ruin Maniac Larry (Route 224)
 Level Cap:
 Format: Single
 
@@ -28298,7 +28546,7 @@ Head Smash
 
 
 238
-Black Belt Carl (Route 225)
+Black Belt Carl (Route 224)
 Level Cap:
 Format: Single
 
@@ -28356,7 +28604,7 @@ Earthquake
 
 
 201
-Dragon Tamer Hayden (Route 225)
+Dragon Tamer Hayden (Route 224)
 Level Cap:
 Format: Single
 
@@ -28414,7 +28662,7 @@ Wing Attack
 
 
 206
-Ace Trainer Ruben (Route 225)
+Ace Trainer Ruben (Route 224)
 Level Cap:
 Format: Single
 
@@ -28472,7 +28720,7 @@ Quick Attack
 
 
 210
-Ace Trainer Jamie (Route 225)
+Ace Trainer Jamie (Route 224)
 Level Cap:
 Format: Single
 
@@ -28530,7 +28778,7 @@ Aerial Ace
 
 
 277
-Veteran Armando (Route 225)
+Veteran Armando (Route 224)
 Level Cap:
 Format: Single
 
@@ -29628,7 +29876,7 @@ Iron Head
 
 
 473
-Swimmer Kurt (Seabreak Path)
+Swimmer Kurt (Route 230)
 Level Cap:
 Format: Single
 
@@ -30022,7 +30270,7 @@ Bug Buzz
 
 
 474
-Swimmer Sam (Seabreak Path)
+Swimmer Sam (Route 230)
 Level Cap:
 Format: Single
 
@@ -30067,7 +30315,7 @@ Horn Drill
 
 
 476
-Swimmer Joanna (Seabreak Path)
+Swimmer Joanna (Route 230)
 Level Cap:
 Format: Single
 
@@ -30802,7 +31050,7 @@ Fissure
 
 
 472
-Swimmer Glenn (Seabreak Path)
+Swimmer Glenn (Route 230)
 Level Cap:
 Format: Single
 
@@ -30834,7 +31082,7 @@ Hyper Voice
 
 
 477
-Swimmer Sophia (Seabreak Path)
+Swimmer Sophia (Route 230)
 Level Cap:
 Format: Single
 
@@ -30866,7 +31114,7 @@ Hydro Pump
 
 
 478
-Swimmer Mallory (Seabreak Path)
+Swimmer Mallory (Route 230)
 Level Cap:
 Format: Single
 
@@ -31266,7 +31514,7 @@ Aura Sphere
 
 
 453
-Ace Trainer Sandra (Mystery Zone)
+Ace Trainer Sandra (Route 229)
 Level Cap:
 Format: Single
 
@@ -31324,7 +31572,7 @@ Strength Sap
 
 
 467
-Pokémon Ranger Deshawn (Mystery Zone)
+Pokémon Ranger Deshawn (Route 229)
 Level Cap:
 Format: Single
 
@@ -32219,7 +32467,7 @@ Hydro Pump
 
 
 450
-Ace Trainer Dana (Mystery Zone)
+Ace Trainer Dana (Route 229)
 Level Cap:
 Format: Single
 
@@ -32598,7 +32846,7 @@ Heavy Slam
 
 
 441
-Ace Trainer Felix (Mystery Zone)
+Ace Trainer Felix (Route 229)
 Level Cap:
 Format: Single
 
@@ -33605,7 +33853,7 @@ U-turn
 
 
 433
-Dragon Tamer Darien (Stark Mountain (Entrance))
+Dragon Tamer Darien (Stark Mountain (Outside))
 Level Cap:
 Format: Single
 
@@ -33624,7 +33872,7 @@ Hurricane
 
 
 431
-Bird Keeper Krystal (Stark Mountain (Deeper))
+Bird Keeper Krystal (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33669,7 +33917,7 @@ Hurricane
 
 
 436
-Dragon Tamer Drake (Stark Mountain (Deeper))
+Dragon Tamer Drake (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33714,7 +33962,7 @@ Rain Dance
 
 
 437
-Dragon Tamer Kenny (Stark Mountain (Deeper))
+Dragon Tamer Kenny (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33759,7 +34007,7 @@ Sky Attack
 
 
 444
-Ace Trainer Keenan (Stark Mountain (Deeper))
+Ace Trainer Keenan (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33804,7 +34052,7 @@ Giga Impact
 
 
 445
-Ace Trainer Stefan (Stark Mountain (Deeper))
+Ace Trainer Stefan (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33849,7 +34097,7 @@ Heavy Slam
 
 
 446
-Ace Trainer Skyler (Stark Mountain (Deeper))
+Ace Trainer Skyler (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33894,7 +34142,7 @@ Shock Wave
 
 
 447
-Ace Trainer Abel (Stark Mountain (Deeper))
+Ace Trainer Abel (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33939,7 +34187,7 @@ Confuse Ray
 
 
 454
-Ace Trainer Kassandra (Stark Mountain (Deeper))
+Ace Trainer Kassandra (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -33984,7 +34232,7 @@ Fire Punch
 
 
 455
-Ace Trainer Jasmin (Stark Mountain (Deeper))
+Ace Trainer Jasmin (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34029,7 +34277,7 @@ Focus Blast
 
 
 456
-Ace Trainer Natasha (Stark Mountain (Deeper))
+Ace Trainer Natasha (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34074,7 +34322,7 @@ Rock Slide
 
 
 457
-Ace Trainer Monique (Stark Mountain (Deeper))
+Ace Trainer Monique (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34119,7 +34367,7 @@ Guillotine
 
 
 459
-Psychic Sterling (Stark Mountain (Deeper))
+Psychic Sterling (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34164,7 +34412,7 @@ Explosion
 
 
 461
-Psychic Chelsey (Stark Mountain (Deeper))
+Psychic Chelsey (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34209,7 +34457,7 @@ Hurricane
 
 
 464
-Black Belt Ray (Stark Mountain (Deeper))
+Black Belt Ray (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34254,7 +34502,7 @@ Earthquake
 
 
 465
-Black Belt Jarrett (Stark Mountain (Deeper))
+Black Belt Jarrett (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
@@ -34299,7 +34547,7 @@ Double-Edge
 
 
 480
-Veteran Harlan (Stark Mountain (Deeper))
+Veteran Harlan (Stark Mountain (Interior))
 Level Cap:
 Format: Single
 
