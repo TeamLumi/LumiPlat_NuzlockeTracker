@@ -140,7 +140,7 @@ def get_trainer_data_from_place_datas():
             data = json.load(f)
         for event in data['Data']:
             trainerID = event['TrainerID']
-            zoneID = event['zoneID']
+            zoneID = event['zoneID'] + 1
             if trainerID > 0 and trainerID < 10000 and zoneID != -1:
                 trainer = diff_trainer_data(event, None, None)
                 trainers.append(trainer)
@@ -417,14 +417,12 @@ def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
         return trainers
 
     temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
-    print(temp_trainerID1, zoneID)
     trainer = diff_trainer_data(None, zoneID, int(temp_trainerID1))
     trainer["format"] = SINGLE_FORMAT
     trainer["link"] = ""
     trainers.append(trainer)
     if trainers == []:
         print("There's something wrong with the Named Trainer Data!!")
-    print(trainers)
     return trainers
 
 def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, trainerID3):
@@ -614,5 +612,3 @@ def process_files(folder_path, callback):
     with open(os.path.join(output_file_path, 'trainer_info.json'), 'w', encoding='utf-8') as f:
         json.dump(sorted_data, f)
     return sorted_data
-
-process_files(os.path.join(repo_file_path, "scripts"), parse_ev_script_file)
