@@ -140,7 +140,7 @@ def get_trainer_data_from_place_datas():
             data = json.load(f)
         for event in data['Data']:
             trainerID = event['TrainerID']
-            zoneID = event['zoneID'] + 1
+            zoneID = event['zoneID']
             if trainerID > 0 and trainerID < 10000 and zoneID != -1:
                 trainer = diff_trainer_data(event, None, None)
                 trainers.append(trainer)
@@ -256,7 +256,7 @@ def get_single_trainer(zoneID, ID, temp_IDs, name):
     
     return trainer
 
-def get_trainer_data(zoneID, trainerID):
+def get_trainer_data(zoneID, trainerID, method):
     trainer_data = TRAINER_TABLE['TrainerData'][trainerID]
     trainer_type = TRAINER_TABLE['TrainerType'][trainer_data['TypeID']]
     trainer_label = get_trainer_label(trainer_type['LabelTrType'])
@@ -266,7 +266,8 @@ def get_trainer_data(zoneID, trainerID):
     if not trainer_name:
         trainer_name = trainer_data['NameLabel'].split("_")[-1].capitalize()
         print("This trainer doesn't have a name in game:", trainer_data['NameLabel'], trainerID)
-    
+    if method == PLACE_DATA_METHOD:
+        zoneID += 1
     areaName = get_map_info(zoneID)
     zones = areas[zoneID + 1]
     zoneName = zones[3] if zones[3] != '' else zones[4]
@@ -357,7 +358,7 @@ def get_support_trainers_data(file_path, area_name, support_name, zoneID):
         print("Support Trainers still needs more work", area_name, zoneID)
         raise SupportTrainerError
     for ID in temp_support_IDs:
-        trainer = get_trainer_data(zoneID, int(ID))
+        trainer = get_trainer_data(zoneID, int(ID), SCRIPTED_METHOD)
         trainer["method"] = SCRIPTED_METHOD
         trainer["format"] = MULTI_FORMAT
         trainer["link"] = SUPPORT_LINK
@@ -375,12 +376,12 @@ def diff_trainer_data(event, zoneID, trainerID):
     if event is not None:
         zoneID = int(event['zoneID'])
         trainerID = int(event['TrainerID'])
-        trainer = get_trainer_data(zoneID, trainerID)
+        trainer = get_trainer_data(zoneID, trainerID, PLACE_DATA_METHOD)
         trainer['method'] = PLACE_DATA_METHOD
         trainer['format'] = SINGLE_FORMAT
         return trainer
     else:
-        trainer = get_trainer_data(zoneID, trainerID)
+        trainer = get_trainer_data(zoneID, trainerID, SCRIPTED_METHOD)
         trainer['method'] = SCRIPTED_METHOD
         return trainer
 
@@ -562,6 +563,8 @@ def parse_ev_script_file(file_path):
             for substring in substrings:
                 areaName = file_path.split("/")[-1].split(".")[0].upper()
                 zoneID = get_zoneID(areaName)
+                if areaName == "SODATEYA":
+                    zoneID = 446
                 
                 if TRAINER_BATTLE in substring or MULTI_TRAINER_BATTLE in substring:
                     args = parse_trainer_btl_set(substring.strip())
