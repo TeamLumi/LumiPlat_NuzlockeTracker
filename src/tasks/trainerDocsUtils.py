@@ -31,6 +31,9 @@ def sort_dicts_by_key(dicts_list, sort_key):
 
 def get_avg_trainer_level(trainer_team):
     mon_count = len(trainer_team)
+    if len(trainer_team) == 0:
+        print("Trainer is less than 1")
+        return 0
     total_levels = 0
     for mon in trainer_team:
         total_levels += mon['level']
