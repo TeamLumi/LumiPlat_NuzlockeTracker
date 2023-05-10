@@ -360,52 +360,44 @@ def pathfinding():
         json.dump(evolve, output, ensure_ascii=False)
     return evolve
 
+def get_mon_dex_info(pokemon, evolve):
+    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+    poke_info = get_pokemon_info(pokemon)
+    poke_name = get_pokemon_name(pokemon)
+    dex_info = {
+        "value": pokemon,
+        "text": poke_name,
+        "type": poke_info["type"].upper()
+        }
+    if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+        dex_info["dualtype"] = poke_info["dualtype"].upper()
+    dex_info["evolve"] = evolve
+    dex_info["generation"] = 8
+    dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
+    if pokemon > 1010:
+        for poke_form in diff_forms.keys():
+            if poke_name in diff_forms[poke_form]:
+                form_number = diff_forms[poke_form][3]
+        dex_info["form"] = int(form_number)
+
+    return dex_info
+
 def getPokedexInfo():
     pokedex = []
     evolutions = pathfinding()
-    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+
     for pokemon in evolutions.keys():
-        if pokemon < 1456:
-            if pokemon < 906:
-                poke_info = get_pokemon_info(pokemon)
-                poke_name = get_pokemon_name(pokemon)
-                dex_info = {
-                    "value": pokemon,
-                    "text": poke_name,
-                    "type": poke_info["type"].upper()
-                    }
-                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-                    dex_info["dualtype"] = poke_info["dualtype"].upper()
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
-            if pokemon > 1010:
-                poke_info = get_pokemon_info(pokemon)
-                poke_name = get_pokemon_name(pokemon)
-                for poke_form in diff_forms.keys():
-                    if poke_name in diff_forms[poke_form]:
-                        form_number = diff_forms[poke_form][3]
-                dex_info = {
-                    "value": pokemon,
-                    "text": poke_name,
-                    "type": poke_info["type"].upper()
-                    }
-                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-                    dex_info["dualtype"] = poke_info["dualtype"].upper()
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
-                dex_info["form"] = int(form_number)
-
-
-            pokedex.append(dex_info)
-        else:
+        if pokemon >= 1456:
             continue
+        evolve = evolutions[pokemon]["path"]
+        if pokemon < 906 or pokemon > 1010:
+            dex_info = get_mon_dex_info(pokemon, evolve)
+
+
+        pokedex.append(dex_info)
     with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-getEncounterData()
-
+#getEncounterData()
+getPokedexInfo()
