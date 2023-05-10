@@ -58,6 +58,7 @@
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
     "convert-data": "python3 ./src/tasks/convert_lmpt_data.py",
+    "get-trainer-docs": "python3 ./src/tasks/trainerDocsUtils.py",
     "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./calc && npm i && cd ../import && npm i && cd .. && npm run build"
   },
   "eslintConfig": {
