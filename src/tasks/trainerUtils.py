@@ -9,6 +9,7 @@ input_file_path = os.path.join(repo_file_path, 'input')
 output_file_path =os.path.join(parent_file_path, "output")
 resources_file_path = os.path.join(parent_file_path, "Resources")
 name_routes_file_path = os.path.join(resources_file_path, "NameRoutes.json")
+special_trainer_name_file_path = os.path.join(resources_file_path, "SpecialTrainerNames.json")
 
 trainers_file_path = os.path.join(input_file_path, 'english_dp_trainers_name.json')
 map_info_file_path = os.path.join(input_file_path, 'MapInfo.json')
@@ -82,6 +83,9 @@ with open(areas_file_path, encoding="utf-8") as f:
 
 with open(trainer_table_file_path, mode='r', encoding="utf-8") as f:
     TRAINER_TABLE = json.load(f)
+
+with open(special_trainer_name_file_path, mode='r', encoding="utf-8") as f:
+    special_trainer_names = json.load(f)
 
 with open(name_routes_file_path, mode='r', encoding="utf-8") as f:
     name_routes = json.load(f)
@@ -402,20 +406,24 @@ def get_multi_trainers(trainerID1, trainerID2, zoneID, format):
     return trainers
 
 def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
-
     trainers = []
+
     if len(trainerID2) > 0:
-        ### This code is not being called at all.
-        ### This either means that there is currently no double trainer battles with the named variables
-        ### OR I'm missing it somewhere earlier down the line
         temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
         temp_trainerID2 = get_trainer_id_from_partial(trainerID2)
+        if temp_trainerID1 > 651 or temp_trainerID2 > 651:
+            temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
+            temp_trainerID2 = special_trainer_names[trainerID2.strip("'")]            
+            
         trainer1, trainer2 = get_multi_trainers(temp_trainerID1, temp_trainerID2, zoneID, DOUBLE_FORMAT)
         trainers.append(trainer1)
         trainers.append(trainer2)
         return trainers
 
     temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
+    if temp_trainerID1 > 651:
+        temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
+
     trainer = diff_trainer_data(None, zoneID, int(temp_trainerID1))
     trainer["format"] = SINGLE_FORMAT
     trainer["link"] = ""

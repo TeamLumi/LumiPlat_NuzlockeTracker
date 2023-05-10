@@ -567,25 +567,6 @@ Bubble Beam
 0/0/0/0/0/0
 
 
-685
-Pokémon Trainer Lucas (Route 213)
-Level Cap:
-Format: Single
-
-Turtwig
-9
-Bashful
-Overgrow
-
-None
-Withdraw
-Absorb
-Leafage
-Razor Leaf
-0/0/0/0/0/0
-0/0/0/0/0/0
-
-
 280
 Interviewers Roxy (Jubilife City)
 Level Cap:
@@ -3828,6 +3809,51 @@ Peck
 25/25/25/25/25/25
 92/0/252/148/0/0
 Paired with Support
+
+669
+Team Galactic Grunt (Valley Windworks)
+Level Cap:
+Format: Single
+
+Poochyena
+14
+Hardy
+Run Away
+
+None
+Mud-Slap
+Odor Sleuth
+Assurance
+Roar
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Gulpin
+14
+Bashful
+Liquid Ooze
+
+None
+Smog
+Poison Gas
+Amnesia
+Acid Spray
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Houndour
+14
+Serious
+Intimidate
+
+None
+Bite
+Roar
+Smog
+Thunder Fang
+25/25/25/25/25/25
+0/0/0/0/0/0
+
 
 224
 Team Galactic Grunt (Valley Windworks)
@@ -11880,38 +11906,6 @@ Crunch
 0/0/0/0/0/0
 
 
-97
-Black Belt Gregory (Route 211 East)
-Level Cap:
-Format: Single
-
-Primeape
-34
-Serious
-Vital Spirit
-
-None
-Cross Chop
-Skull Bash
-Night Slash
-Close Combat
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Hitmonchan
-34
-Hardy
-Keen Eye
-
-None
-Fire Punch
-Feint
-Detect
-Close Combat
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-
 877
 Commander Saturn (Route 212 North)
 Level Cap:
@@ -12043,6 +12037,38 @@ Zen Headbutt
 Magic Coat
 Crunch
 Psychic
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
+97
+Black Belt Gregory (Route 215)
+Level Cap:
+Format: Single
+
+Primeape
+34
+Serious
+Vital Spirit
+
+None
+Cross Chop
+Skull Bash
+Night Slash
+Close Combat
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Hitmonchan
+34
+Hardy
+Keen Eye
+
+None
+Fire Punch
+Feint
+Detect
+Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15013,6 +15039,25 @@ Poison Jab
 248/216/8/0/36/0
 
 
+673
+Team Galactic Grunt (Valor Lakefront)
+Level Cap:
+Format: Single
+
+Toxicroak
+41
+Hardy
+Anticipation
+
+None
+Nasty Plot
+Toxic
+Sucker Punch
+Cross Chop
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 366
 Ninja Boy Fabian (Route 210 South)
 Level Cap:
@@ -16870,96 +16915,6 @@ Inferno
 0/0/0/0/0/0
 
 
-670
-Worker Dillan (Iron Island B3F Right Cave)
-Level Cap:
-Format: Double
-
-Machop
-42
-Bashful
-Guts
-
-None
-Bulk Up
-Cross Chop
-Scary Face
-Dynamic Punch
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Machoke
-43
-Docile
-Guts
-
-None
-Dual Chop
-Bulk Up
-Cross Chop
-Scary Face
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Machamp
-44
-Quirky
-Guts
-
-None
-Dual Chop
-Bulk Up
-Cross Chop
-Scary Face
-25/25/25/25/25/25
-0/0/0/0/0/0
-Paired with 671
-
-671
-Worker Holden (Iron Island B3F Right Cave)
-Level Cap:
-Format: Double
-
-Magnemite
-42
-Serious
-Magnet Pull
-
-None
-Screech
-Thunderbolt
-Lock-On
-Magnet Rise
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Magnemite
-42
-Hardy
-Magnet Pull
-
-None
-Screech
-Thunderbolt
-Lock-On
-Magnet Rise
-25/25/25/25/25/25
-0/0/0/0/0/0
-
-Steelix
-45
-Serious
-Rock Head
-
-None
-Stone Edge
-Double-Edge
-Sandstorm
-Magnet Rise
-25/25/25/25/25/25
-0/0/0/0/0/0
-Paired with 670
-
 55
 Veteran Brian (Route 210 North)
 Level Cap:
@@ -18680,6 +18635,96 @@ Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
+
+661
+Team Galactic Grunt (Iron Island B3F Right Cave)
+Level Cap:
+Format: Double
+
+Purugly
+46
+Docile
+Thick Fat
+
+None
+Swagger
+Play Rough
+Attract
+Body Slam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Toxicroak
+46
+Bashful
+Anticipation
+
+None
+Toxic
+Sucker Punch
+Cross Chop
+Sludge Bomb
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Skuntank
+46
+Serious
+Stench
+
+None
+Crunch
+Belch
+Sludge Bomb
+Play Rough
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 662
+
+662
+Team Galactic Grunt (Iron Island B3F Right Cave)
+Level Cap:
+Format: Double
+
+Golbat
+46
+Quirky
+Inner Focus
+
+None
+Air Slash
+Haze
+Zen Headbutt
+Nasty Plot
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Houndoom
+46
+Quirky
+Intimidate
+
+None
+Embargo
+Foul Play
+Nasty Plot
+Flare Blitz
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Muk
+46
+Serious
+Stench
+
+None
+Sludge Bomb
+Acid Armor
+Gunk Shot
+Memento
+25/25/25/25/25/25
+0/0/0/0/0/0
+Paired with 661
 
 126
 Swimmer Dillon (Route 221)
@@ -34694,174 +34739,6 @@ Rest
 248/4/4/0/252/0
 
 
-678
-Gym Leader Wake (Valley Windworks)
-Level Cap:
-Format: Single
-
-Quagsire
-81
-Quirky
-Unaware
-
-Damp Rock
-Rain Dance
-Earthquake
-Aqua Tail
-Recover
-25/25/25/25/25/25
-252/0/252/0/4/0
-
-Gyarados
-81
-Hardy
-Intimidate
-
-Focus Sash
-Aqua Tail
-Dragon Dance
-Outrage
-Earthquake
-25/25/25/25/25/25
-0/252/0/0/4/252
-
-Poliwrath
-81
-Serious
-Water Absorb
-
-Leftovers
-Substitute
-Focus Punch
-Waterfall
-Ice Punch
-25/25/25/25/25/25
-252/0/0/160/0/96
-
-Ludicolo
-81
-Hardy
-Swift Swim
-
-Mystic Water
-Hydro Pump
-Ice Beam
-Energy Ball
-Rain Dance
-25/25/25/25/25/25
-0/0/0/252/4/252
-
-Sharpedo
-81
-Serious
-Rough Skin
-
-Focus Sash
-Waterfall
-Crunch
-Ice Fang
-Zen Headbutt
-25/25/25/25/25/25
-0/252/0/252/0/4
-
-Floatzel
-82
-Docile
-Swift Swim
-
-Choice Band
-Aqua Tail
-Crunch
-Ice Punch
-Low Kick
-25/25/25/25/25/25
-0/0/0/252/4/252
-
-
-682
-Gym Leader Byron (Valor Lakefront)
-Level Cap:
-Format: Single
-
-Bronzong
-81
-Hardy
-Levitate
-
-Leftovers
-Toxic
-Protect
-Gyro Ball
-Zen Headbutt
-25/25/25/25/25/25
-252/0/4/0/252/0
-
-Magnezone
-81
-Serious
-Magnet Pull
-
-Wise Glasses
-Thunderbolt
-Flash Cannon
-Bug Buzz
-Light Screen
-25/25/25/25/25/25
-0/0/4/252/0/252
-
-Steelix
-81
-Hardy
-Rock Head
-
-Sitrus Berry
-Earthquake
-Iron Tail
-Stone Edge
-Fire Fang
-25/25/25/25/25/25
-4/252/252/0/0/0
-
-Forretress
-81
-Quirky
-Sturdy
-
-Muscle Band
-Power Trick
-Drill Run
-Gyro Ball
-Explosion
-25/25/25/25/25/25
-252/0/252/0/4/0
-
-Aggron
-81
-Serious
-Sturdy
-
-Hard Stone
-Head Smash
-Dragon Rush
-Earthquake
-Iron Tail
-25/25/25/25/25/25
-4/252/252/0/0/0
-
-Bastiodon
-82
-Docile
-Sturdy
-
-Focus Sash
-Metal Burst
-Fissure
-Stone Edge
-Iron Tail
-25/25/25/25/25/25
-252/0/4/0/252/0
-
-
 1059
 Commander Mars (Stark Mountain (Entrance))
 Level Cap:
@@ -35279,6 +35156,90 @@ Zen Headbutt
 Earthquake
 Ice Punch
 31/31/31/31/31/31
+0/0/0/0/0/0
+
+
+706
+GAME FREAK’s Morimoto (Route 213)
+Level Cap:
+Format: Single
+
+Togekiss
+88
+Quirky
+Super Luck
+
+Light Clay
+Moonblast
+Reflect
+Light Screen
+Air Slash
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Gardevoir
+88
+Quirky
+Synchronize
+
+Wise Glasses
+Psychic
+Focus Blast
+Moonblast
+Thunder Wave
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Ampharos
+88
+Bashful
+Static
+
+Leftovers
+Discharge
+Focus Blast
+Dragon Pulse
+Tail Glow
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Roserade
+88
+Serious
+Technician
+
+Focus Sash
+Sleep Powder
+Sludge Bomb
+Grass Knot
+Dazzling Gleam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Starmie
+88
+Hardy
+Illuminate
+
+Life Orb
+Surf
+Psychic
+Thunderbolt
+Ice Beam
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Infernape
+88
+Docile
+Blaze
+
+Expert Belt
+Overheat
+Close Combat
+Thunder Punch
+Fake Out
+25/25/25/25/25/25
 0/0/0/0/0/0
 
 
