@@ -76,13 +76,6 @@ def get_trainer_name(label_name):
     match = next((e for e in label_data_array if e['labelName'] == label_name), None)
     return match['wordDataArray'][0]['str'] if match else None
 
-def get_trainer_id_from_partial(label_name):
-    label_data_array = trainer_names['labelDataArray']
-    for e in label_data_array:
-        if e['labelName'].endswith(str(label_name.strip("'"))):
-            return e['labelIndex']
-    return None
-
 def get_trainer_label(label_name):
     label_data_array = trainer_labels['labelDataArray']
     match = next((e for e in label_data_array if e['labelName'] == label_name), None)
@@ -375,20 +368,15 @@ def get_named_trainer_data(zoneID, trainerID1, trainerID2, args):
     trainers = []
 
     if len(trainerID2) > 0:
-        temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
-        temp_trainerID2 = get_trainer_id_from_partial(trainerID2)
-        if temp_trainerID1 > 651 or temp_trainerID2 > 651:
-            temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
-            temp_trainerID2 = special_trainer_names[trainerID2.strip("'")]            
+        temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
+        temp_trainerID2 = special_trainer_names[trainerID2.strip("'")]            
             
         trainer1, trainer2 = get_multi_trainers(temp_trainerID1, temp_trainerID2, zoneID, constants.DOUBLE_FORMAT)
         trainers.append(trainer1)
         trainers.append(trainer2)
         return trainers
 
-    temp_trainerID1 = get_trainer_id_from_partial(trainerID1)
-    if temp_trainerID1 > 651:
-        temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
+    temp_trainerID1 = special_trainer_names[trainerID1.strip("'")]
 
     trainer = diff_trainer_data(None, zoneID, int(temp_trainerID1))
     trainer["format"] = constants.SINGLE_FORMAT
