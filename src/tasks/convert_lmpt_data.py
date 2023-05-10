@@ -361,7 +361,7 @@ def pathfinding():
     return evolve
 
 def get_mon_dex_info(pokemon, evolve):
-    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+    diff_forms = full_data['diff_forms']
     poke_info = get_pokemon_info(pokemon)
     poke_name = get_pokemon_name(pokemon)
     dex_info = {
@@ -374,11 +374,16 @@ def get_mon_dex_info(pokemon, evolve):
     dex_info["evolve"] = evolve
     dex_info["generation"] = 8
     dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
+    dex_info["dexNum"] = pokemon
+    dex_info["form"] = 0
     if pokemon > 1010:
         for poke_form in diff_forms.keys():
             if poke_name in diff_forms[poke_form]:
-                form_number = diff_forms[poke_form][3]
+                form_number = diff_forms[poke_form][4]
+                og_num = diff_forms[poke_form][3]
+        dex_info["dexNum"] = og_num
         dex_info["form"] = int(form_number)
+        return dex_info
 
     return dex_info
 
