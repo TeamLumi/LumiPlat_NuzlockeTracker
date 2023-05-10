@@ -5,8 +5,8 @@ import math
 
 from trainerUtils import process_files, parse_ev_script_file
 from pokemonUtils import get_pokemon_from_trainer_info, get_pokemon_name
+import constants
 
-TEAM_REGEX = "Team \d+"
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 input_file_path = os.path.join(repo_file_path, 'input')
 output_file_path = os.path.join(repo_file_path, "src", "tasks", "output")
@@ -50,7 +50,7 @@ def sort_trainers_by_level(trainer_info):
     return sorted_trainers_by_level
 
 def get_trainer_docs_name(name, zone_name):
-    if re.findall(TEAM_REGEX, name):
+    if re.findall(constants.TEAM_REGEX, name):
         split_name = name.split()
         trainer_name = split_name[:-2]
         team_name = split_name[-2:]
