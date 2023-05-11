@@ -73,42 +73,42 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 71,ハクタイ:民家2,Hakutai : Private House 2,Eterna City,Private House 2 (west of Gym),prefab_map/c04r0701,C04R0601
 72,ハクタイ:民家3,Hakutai : Private Houses 3,Eterna City,Private House 3 (south of Statue),prefab_map/c04r0701,C04R0701
 73,ハクタイ:民家（地下オヤジの家）,Hakutai : Private House (House of The Underground Oyaji),Eterna City,Underground Man's House,prefab_map/c04r0801,C04R0801
-74,ヨスガシティ,Josga City,HeartHome City,Hearthome City,fields/area004,C05
-75,ヨスガ:フレンドリィショップ,Josga : Friendly Shop,HeartHome City,Poké Mart,prefab_map/t02fs0101,C05FS0101
-76,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0101,C05GYM0101
-77,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0102
-78,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0103
-79,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0104,C05GYM0104
-80,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0105
-81,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0104,C05GYM0106
-82,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0107
-83,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0104,C05GYM0108
-84,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0109
-85,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0110
-86,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0111
-87,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0102,C05GYM0112
-88,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),HeartHome Gym,HeartHome Gym,prefab_map/c05gym0113,C05GYM0113
-89,ヨスガ:ポケモンセンター 1F,Yosuga : Pokémon Center 1F,HeartHome City,Pokémon Center 1F,prefab_map/t02pc0101,C05PC0101
-90,ヨスガ:ポケモンセンター 2F,Yosuga : Pokémon Center 2F,HeartHome City,Pokémon Center 2F,prefab_map/t02pc0102,C05PC0102
-91,ヨスガ:ポケモンセンター B1F,Yosuga : Pokémon Center B1F,HeartHome City,Pokémon Center B1F,prefab_map/t02pc0103,C05PC0103
-92,ヨスガ:一般EVビル1 1F,Yosuga : General EV Building 1 1F,HeartHome City,Building 1 1F (east of Fanclub),prefab_map/c05r0101,C05R0101
-93,ヨスガ:一般EVビル1 2F,Yosuga : General EV Building 1 2F,HeartHome City,Building 1 2F (east of Fanclub),prefab_map/c05r0102,C05R0102
-94,ヨスガ:一般EVビル1 EV,Yosuga : General EV Building 1 EV,HeartHome City,Building 1 Elevator (east of Fanclub),prefab_map/c01r0208,C05R0103
-95,ヨスガ:大好きクラブ,Josga : My favorite club,HeartHome City,Pokémon Fan Club,prefab_map/c05r0201,C05R0201
-96,ヨスガ:自然公園ゲート（縦）,Yosuga : Nature Park Gate (Portrait),HeartHome City,Amity Square West Gate,prefab_map/c05r0301,C05R0301
-97,ヨスガ:自然公園ゲート（縦）,Yosuga : Nature Park Gate (Portrait),HeartHome City,Amity Square East Gate,prefab_map/c05r0301,C05R0401
-98,ヨスガ:208ゲート,Yosga : 208 Gate,HeartHome City,Route 208 Gate,prefab_map/r218r0101,C05R0501
-99,ヨスガ:209ゲート,Yosuga : 209 Gate,HeartHome City,Route 209 Gate,prefab_map/r218r0101,C05R0601
-100,ヨスガ:212aゲート,Yosuga:212a Gate,HeartHome City,Route 212 Gate,prefab_map/c05r0301,C05R0701
-101,ヨスガ:一般EVビル2 1F,Yosuga : General EV Building 2 1F,HeartHome City,Building 2 1F (west of Gym),prefab_map/c05r0801,C05R0801
-102,ヨスガ:一般EVビル2 2F,Yosuga : General EV Building 2 2F,HeartHome City,Building 2 2F (west of Gym),prefab_map/c05r0102,C05R0802
-103,ヨスガ:一般EVビル2 EV,Yosuga : General EV Building 2 EV,HeartHome City,Building 2 Elevator (west of Gym),prefab_map/c01r0208,C05R0803
-104,ヨスガ:民家1,Josuga : Private House 1,HeartHome City,Bebe's House (east of Center),prefab_map/c05r0901,C05R0901
-105,ヨスガ:民家2（料理教室）,Josga : Private House 2(Cooking Class),HeartHome City,Poffin House (west of Mart),prefab_map/c05r1001,C05R1001
-106,ヨスガ:コンテスト会場受付,Josuga : Reception of the contest venue,HeartHome City,Contest Hall (Main Lobby),prefab_map/c05r1101,C05R1101
-107,ヨスガ:コンテスト会場（ダミー）,Josga : Contest Venue (Dummy),HeartHome City,Contest Hall? (inaccessible?),prefab_map/c05r1102,C05R1102
-108,ヨスガ:コンテスト会場 接続先正規,Yosuga : Contest venue Connection destination regular,HeartHome City,Contest Hall (Stage room),prefab_map/c05r1102,C05R1103
-109,ヨスガ:異文化の建物,Josga : Intercultural buildings,HeartHome City,Church,prefab_map/c05r1201,C05R1201
+74,ヨスガシティ,Josga City,Hearthome City,Hearthome City,fields/area004,C05
+75,ヨスガ:フレンドリィショップ,Josga : Friendly Shop,Hearthome City,Poké Mart,prefab_map/t02fs0101,C05FS0101
+76,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0101,C05GYM0101
+77,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0102
+78,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0103
+79,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0104,C05GYM0104
+80,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0105
+81,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0104,C05GYM0106
+82,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0107
+83,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0104,C05GYM0108
+84,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0109
+85,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0110
+86,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0111
+87,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0102,C05GYM0112
+88,ヨスガ:ヨスガジム（ゴースト）,Josuga : Josga Gym (Ghost),Hearthome Gym,Hearthome Gym,prefab_map/c05gym0113,C05GYM0113
+89,ヨスガ:ポケモンセンター 1F,Yosuga : Pokémon Center 1F,Hearthome City,Pokémon Center 1F,prefab_map/t02pc0101,C05PC0101
+90,ヨスガ:ポケモンセンター 2F,Yosuga : Pokémon Center 2F,Hearthome City,Pokémon Center 2F,prefab_map/t02pc0102,C05PC0102
+91,ヨスガ:ポケモンセンター B1F,Yosuga : Pokémon Center B1F,Hearthome City,Pokémon Center B1F,prefab_map/t02pc0103,C05PC0103
+92,ヨスガ:一般EVビル1 1F,Yosuga : General EV Building 1 1F,Hearthome City,Building 1 1F (east of Fanclub),prefab_map/c05r0101,C05R0101
+93,ヨスガ:一般EVビル1 2F,Yosuga : General EV Building 1 2F,Hearthome City,Building 1 2F (east of Fanclub),prefab_map/c05r0102,C05R0102
+94,ヨスガ:一般EVビル1 EV,Yosuga : General EV Building 1 EV,Hearthome City,Building 1 Elevator (east of Fanclub),prefab_map/c01r0208,C05R0103
+95,ヨスガ:大好きクラブ,Josga : My favorite club,Hearthome City,Pokémon Fan Club,prefab_map/c05r0201,C05R0201
+96,ヨスガ:自然公園ゲート（縦）,Yosuga : Nature Park Gate (Portrait),Hearthome City,Amity Square West Gate,prefab_map/c05r0301,C05R0301
+97,ヨスガ:自然公園ゲート（縦）,Yosuga : Nature Park Gate (Portrait),Hearthome City,Amity Square East Gate,prefab_map/c05r0301,C05R0401
+98,ヨスガ:208ゲート,Yosga : 208 Gate,Hearthome City,Route 208 Gate,prefab_map/r218r0101,C05R0501
+99,ヨスガ:209ゲート,Yosuga : 209 Gate,Hearthome City,Route 209 Gate,prefab_map/r218r0101,C05R0601
+100,ヨスガ:212aゲート,Yosuga:212a Gate,Hearthome City,Route 212 Gate,prefab_map/c05r0301,C05R0701
+101,ヨスガ:一般EVビル2 1F,Yosuga : General EV Building 2 1F,Hearthome City,Building 2 1F (west of Gym),prefab_map/c05r0801,C05R0801
+102,ヨスガ:一般EVビル2 2F,Yosuga : General EV Building 2 2F,Hearthome City,Building 2 2F (west of Gym),prefab_map/c05r0102,C05R0802
+103,ヨスガ:一般EVビル2 EV,Yosuga : General EV Building 2 EV,Hearthome City,Building 2 Elevator (west of Gym),prefab_map/c01r0208,C05R0803
+104,ヨスガ:民家1,Josuga : Private House 1,Hearthome City,Bebe's House (east of Center),prefab_map/c05r0901,C05R0901
+105,ヨスガ:民家2（料理教室）,Josga : Private House 2(Cooking Class),Hearthome City,Poffin House (west of Mart),prefab_map/c05r1001,C05R1001
+106,ヨスガ:コンテスト会場受付,Josuga : Reception of the contest venue,Hearthome City,Contest Hall (Main Lobby),prefab_map/c05r1101,C05R1101
+107,ヨスガ:コンテスト会場（ダミー）,Josga : Contest Venue (Dummy),Hearthome City,Contest Hall? (inaccessible?),prefab_map/c05r1102,C05R1102
+108,ヨスガ:コンテスト会場 接続先正規,Yosuga : Contest venue Connection destination regular,Hearthome City,Contest Hall (Stage room),prefab_map/c05r1102,C05R1103
+109,ヨスガ:異文化の建物,Josga : Intercultural buildings,Hearthome City,Church,prefab_map/c05r1201,C05R1201
 110,ノモセシティ,Nomose City,Pastoria City,Pastoria City,fields/area007,C06
 111,ノモセ:フレンドリィショップ,Nomose : Friendly Shop,Pastoria City,Poké Mart,prefab_map/t02fs0101,C06FS0101
 112,ノモセ:ノモセジム（水）,Nomose : Nomosé Gym (Wed),Pastoria Gym,Pastoria Gym,prefab_map/c06gym0101,C06GYM0101
@@ -198,7 +198,7 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 196,クロガネたんこう:クロガネたんこう B2,KuroganeTanko : Kurogane Tantko B2,,Oreburgh Mine B1F,prefab_map/d01r0102,D01R0102
 197,たにまのはつでんしょ（フィールド）,Tani-no-8 Densho (Field),,Valley Windworks,fields/area003,D02
 198,たにまのはつでんしょ,Tanimano-no-Honsho,,Valley Windworks,prefab_map/d02r0101,D02R0101
-199,ハクタイのもり（フィールド）,Hakutai's Weight (Field),,Eterna Forest,fields/area003,D03
+199,ハクタイのもり（フィールド）,Hakutai's Weight (Field),,Eterna Forest (Cut Tree Path),fields/area003,D03
 200,ハクタイのもり,Hakutai's Weight,,Eterna Forest,prefab_map/d03r0101,D03R0101
 201,タタラせいてつしょ（フィールド）,Tatara Setsutsusho (Field),,Fuego Ironworks,fields/area003,D04
 202,タタラせいてつしょ,Tatara Setsutsu,,Fuego Ironworks,prefab_map/d04r0101,D04R0101
@@ -252,10 +252,10 @@ ZoneID,Japanese Name,Machine Translated,City,Actual,File Path,Zone Name
 250,パルパーク,Palpark,,,prefab_map/d10r0101,D10R0101
 251,ふれあいひろば,Fureai Hiroba,,Amity Square (Hearthome),prefab_map/d11r0101,D11R0101
 252,あれたぬけみち,Aye noke 6,,Ravaged Path,prefab_map/d12r0101,D12R0101
-253,ソノオのはなばたけ,Sonoh's Muster,,Floral Path (Floaroma),prefab_map/d13r0101,D13R0101
-254,ソノオのはなばたけ:民家,Sonoh's Hanaba Take : Private House,,Floral Path: Private House,prefab_map/t01r0301,D13R0102
-255,クロガネゲート:クロガネゲートー1F,Kuroganegate : Kuroganegate1F,,Oreburgh Tunnel 1F,prefab_map/d14r0101,D14R0101
-256,クロガネゲート:クロガネゲートーB1F,Kuroganegate : KuroganegateB1F,,Oreburgh Tunnel B1F,prefab_map/d14r0102,D14R0102
+253,ソノオのはなばたけ,Sonoh's Muster,,Floaroma Meadow,prefab_map/d13r0101,D13R0101
+254,ソノオのはなばたけ:民家,Sonoh's Hanaba Take : Private House,Floaroma Meadow,Floaroma Meadow : Private House,prefab_map/t01r0301,D13R0102
+255,クロガネゲート:クロガネゲートー1F,Kuroganegate : Kuroganegate1F,,Oreburgh Gate 1F,prefab_map/d14r0101,D14R0101
+256,クロガネゲート:クロガネゲートーB1F,Kuroganegate : KuroganegateB1F,,Oreburgh Gate B1F,prefab_map/d14r0102,D14R0102
 257,まんげつじま（フィールド）,Mangetsujima (Field),,,fields/area010,D15
 258,まんげつじま,Mange tsujima,,,prefab_map/d15r0101,D15R0101
 259,ハードマウンテン（フィールド）,Hard Mountain (Field),,Stark Mountain,fields/area012,D16
