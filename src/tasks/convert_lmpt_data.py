@@ -152,18 +152,19 @@ def HoneyTreeData():
             values = [v.strip() for v in submatch.group(2).split(",")]
             if "AMPHAROS" not in values:
                 honey_trees[honey_routes[key]] = values
-    return(honey_trees)
+    return honey_trees
     
 def get_honey_tree_mons(routes):
     honey_encounter_data = HoneyTreeData()
     
     for key in honey_encounter_data.keys():
         for mon in honey_encounter_data[key]:
-            if mon.capitalize() not in routes[key]:
-                if mon == "FARFETCHD":
-                    routes[key].append("Farfetch'd")
-                else:
-                    routes[key].append(mon.capitalize())
+            if mon.capitalize() in routes[key]:
+                continue
+            if mon == "FARFETCHD":
+                routes[key].append("Farfetch'd")
+            else:
+                routes[key].append(mon.capitalize())
 
 
 def bad_encounter_data(pkmn_name, routeName, route):
@@ -333,19 +334,20 @@ def pathfinding():
     
     for form in forms:
         for pokemon in evolve.keys():
-            if int(pokemon) == int(form[-7:-4]):
-                for evolution in evolve[pokemon]["path"]:
-                    if len(graph[forms[form]]["ar"]) == 0:
-                        if evolution in evolve[evolve[forms[form]]["path"][0]]["path"]:
-                            evolve[evolution]["path"].append(forms[form])
-                        if len(evolve[forms[form]]["path"]) < 2:
-                            evolution_path = evolve[evolution]["path"] + evolve[forms[form]]["path"]
-                            new_path = []
-                            for path_element in evolution_path:
-                                if path_element not in new_path:
-                                    new_path.append(path_element)
-                            evolve[forms[form]]["path"] = new_path
-                            evolve[evolution]["path"] = new_path
+            if int(pokemon) != int(form[-7:-4]):
+                continue
+            for evolution in evolve[pokemon]["path"]:
+                if len(graph[forms[form]]["ar"]) == 0:
+                    if evolution in evolve[evolve[forms[form]]["path"][0]]["path"]:
+                        evolve[evolution]["path"].append(forms[form])
+                    if len(evolve[forms[form]]["path"]) < 2:
+                        evolution_path = evolve[evolution]["path"] + evolve[forms[form]]["path"]
+                        new_path = []
+                        for path_element in evolution_path:
+                            if path_element not in new_path:
+                                new_path.append(path_element)
+                        evolve[forms[form]]["path"] = new_path
+                        evolve[evolution]["path"] = new_path
 
     for pokemon in evolve.keys():
         new_path = []
