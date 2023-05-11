@@ -12,6 +12,7 @@ input_file_path = os.path.join(repo_file_path, 'input')
 output_file_path = os.path.join(repo_file_path, "src", "tasks", "output")
 trainer_table_file_path = os.path.join(input_file_path, "TrainerTable.json")
 
+
 with open(trainer_table_file_path, mode='r', encoding="utf-8") as f:
     TRAINER_TABLE = json.load(f)
 
@@ -23,11 +24,12 @@ def get_trainer_pokemon(trainerId):
 
     return pokemon_list
 
-def sort_dicts_by_key(dicts_list, sort_key):
+def sort_dicts_by_key(dicts_list, sort_key1, sort_key2, sort_key1_order):
     """
-    Sorts a list of dictionaries by a given key in ascending order.
+    Sorts a list of dictionaries by two given keys in ascending order.
+    The sorting order of the first key is specified by a separate list.
     """
-    return sorted(dicts_list, key=lambda x: x[sort_key])
+    return sorted(dicts_list, key=lambda x: (sort_key1_order.index(x[sort_key1]), x[sort_key2]))
 
 def get_avg_trainer_level(trainer_team):
     mon_count = len(trainer_team)
@@ -46,7 +48,7 @@ def sort_trainers_by_level(trainer_info):
         trainerId = trainer['trainerId']
         trainer['team'] = get_trainer_pokemon(trainerId)
         trainer['avg_lvl'] = get_avg_trainer_level(trainer['team'])
-    sorted_trainers_by_level = sort_dicts_by_key(trainer_info, 'avg_lvl')
+    sorted_trainers_by_level = sort_dicts_by_key(trainer_info, 'zoneName', 'avg_lvl', constants.ZONE_ORDER)
     return sorted_trainers_by_level
 
 def get_trainer_docs_name(name, zone_name):
