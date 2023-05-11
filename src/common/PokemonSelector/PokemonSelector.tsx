@@ -109,7 +109,7 @@ function PokemonSelector({
           )}
           <div className={styles.details}>
             <div className={styles.image}>
-              <PkmImage name={pokemon?.text} />
+            <PkmImage dexNum={pokemon?.dexNum} form={pokemon?.form} name={pokemon?.text} />
             </div>
             <b>{pokemon.text}</b>
           </div>

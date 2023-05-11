@@ -110,7 +110,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                       <span className={styles.totem}>DYNAMAX</span>
                     )}
                   <div className={styles.pokemonImage}>
-                    <PkmImage name={poke?.text} />
+                  <PkmImage dexNum={poke?.dexNum} form={poke?.form} name={poke?.text} />
                   </div>
                   <span>
                     {poke?.text} <span>{getGenderIcon(pokemon.gender)}</span>

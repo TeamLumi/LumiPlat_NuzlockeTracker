@@ -13,7 +13,7 @@ function PokemonSlot({ pokemon }: PokemonSlotProps): JSX.Element {
     <div className={styles.selector} style={{ backgroundColor: `${TYPE_COLOR[pokemon?.type]}50` }}>
       <div className={styles.info}>
         <div className={styles.image}>
-          <PkmImage name={pokemon?.text} />
+        <PkmImage dexNum={pokemon?.dexNum} form={pokemon?.form} name={pokemon?.text} />
         </div>
         <span>{pokemon?.text}</span>
       </div>
