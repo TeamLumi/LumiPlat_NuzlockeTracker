@@ -3,6 +3,7 @@ import json
 import os
 import csv
 import unicodedata
+from collections import defaultdict
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id, create_diff_forms_dictionary, isSpecialPokemon
 
 # Get the repo file path for cleaner path generating
@@ -152,22 +153,70 @@ def HoneyTreeData():
             if "AMPHAROS" not in values:
                 honey_trees[honey_routes[key]] = values
     return(honey_trees)
+    
+def get_honey_tree_mons(routes):
+    honey_encounter_data = HoneyTreeData()
+    
+    for key in honey_encounter_data.keys():
+        for mon in honey_encounter_data[key]:
+            if mon.capitalize() not in routes[key]:
+                if mon == "FARFETCHD":
+                    routes[key].append("Farfetch'd")
+                else:
+                    routes[key].append(mon.capitalize())
+
 
 def bad_encounter_data(pkmn_name, routeName, route):
     print('BAD ENCOUNTER', pkmn_name, routeName, route)
     bad_encounters.append({pkmn_name, routeName, route})
     return
 
-def getEncounterData():
-    encounter_data, pokedex, routeNames, diff_forms, name_routes = (
-        full_data["raw_encounters"],
-        full_data["pokedex"],
-        full_data["routes"],
-        full_data["diff_forms"],
-        full_data["name_routes"]
-    )
+def get_diff_form_mons(monsno, zoneID, routes):
+    pokedex, routeNames, name_routes, diff_forms = ( full_data["pokedex"], full_data["routes"], full_data['name_routes'], full_data['diff_forms'] )
+    formNo = monsno//(2**16)
+    lumi_formula_mon = monsno - (formNo * (2**16))
 
-    routes = {}
+    for tracker_route, route in routeNames.items():
+
+        if str(zoneID) not in route:
+            continue
+        pkmn_key = pokedex[str(lumi_formula_mon)] + str(formNo)
+
+        temp_form_no = formNo
+        if isSpecialPokemon(get_pokemon_name(int(lumi_formula_mon))):
+            temp_form_no = 0
+
+        pokemonPersonalId = get_form_pokemon_personal_id(lumi_formula_mon, temp_form_no)
+
+        if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId) or "Totem " in get_form_name(pokemonPersonalId)):
+            bad_encounter_data(get_form_name(pokemonPersonalId), name_routes[tracker_route], zoneID)
+        elif pkmn_key not in diff_forms.keys():
+            bad_encounter_data(pokedex[str(lumi_formula_mon)], name_routes[tracker_route], zoneID)
+        else:
+            routes[str(tracker_route)].append(diff_forms[pkmn_key][1])
+
+def get_standard_mons(monsno, zoneID, routes):
+    pokedex, routeNames = ( full_data["pokedex"], full_data["routes"] )
+    if monsno == 0:
+        return
+    for tracker_route, route in routeNames.items():
+        if str(zoneID) not in route:
+            continue
+        routes[str(tracker_route)].append(pokedex[str(monsno)])
+
+def update_routes_with_mons(monsno, zoneID, routes):
+    pokedex, routeNames = ( full_data["pokedex"], full_data["routes"] )
+
+    if monsno < 2000:
+        get_standard_mons(monsno, zoneID, routes)
+
+    else:
+        get_diff_form_mons(monsno, zoneID, routes)
+
+def getEncounterData():
+    encounter_data, pokedex = ( full_data["raw_encounters"], full_data['pokedex'] )
+
+    routes = defaultdict(list)
     for area in encounter_data['table']:
         for key in area.keys():
             if type(area[key]) == int:
@@ -177,69 +226,17 @@ def getEncounterData():
             for mon in area[key]:
                 monsno = mon['monsNo']
                 zoneID = area['zoneID']
-                if monsno < 2000:
-                    if monsno == 0:
-                        continue
-                    for tracker_route, route in routeNames.items():
-
-                        if str(zoneID) not in route:
-                            continue
-                        if str(tracker_route) not in routes.keys():
-                            routes[tracker_route] = [pokedex[str(monsno)]]
-                        else:
-                            routes[tracker_route].append(pokedex[str(monsno)])
-                            routes[tracker_route] = list(set(routes[tracker_route]))
-                else:
-                    formNo = monsno//(2**16)
-                    lumi_formula_mon = monsno - (formNo * (2**16))
-                    for tracker_route, route in routeNames.items():
-
-                        if str(zoneID) not in route:
-                            continue
-                        pkmn_key = pokedex[str(lumi_formula_mon)] + str(formNo)
-                        if tracker_route not in routes.keys():
-                            '''
-                            Here's what this variable does:
-                            Takes the Pokedex Number from the pokedex dictionary's keys ("19")
-                            Returns the Pokemon Name associated with that key ("Rattta")
-                            Adds the formNo ("1")
-                            Uses the Pokemon Name + the formNo ("Rattata1")
-                            Looks this key up in the diff_forms dictionary
-                            Returns that value ("Alolan Rattata")
-                            '''
-                             
-                            routes[tracker_route] = [diff_forms[pkmn_key][1]]
-                        else:
-                            temp_form_no = formNo
-                            if isSpecialPokemon(get_pokemon_name(int(lumi_formula_mon))):
-                                temp_form_no = 0
-
-                            pokemonPersonalId = get_form_pokemon_personal_id(lumi_formula_mon, temp_form_no)
-
-                            if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId) or "Totem " in get_form_name(pokemonPersonalId)):
-                                bad_encounter_data(get_form_name(pokemonPersonalId), name_routes[tracker_route], zoneID)
-                            elif pkmn_key not in diff_forms.keys():
-                                bad_encounter_data(pokedex[str(lumi_formula_mon)], name_routes[tracker_route], zoneID)
-                            else:
-                                routes[tracker_route].append(diff_forms[pkmn_key][1])
-                                routes[tracker_route] = list(set(routes[tracker_route]))
+                update_routes_with_mons(monsno, zoneID, routes)
 
     ##This is for adding the Trophy Garden daily mons
     for mon in encounter_data['urayama']:
         routes['lmpt-39'].append(pokedex[str(mon['monsNo'])])
 
     ##This is for adding all of the Honey Tree encounters to the list
-    honey_encounter_data = HoneyTreeData()
+    get_honey_tree_mons(routes)
 
-    for key in honey_encounter_data.keys():
-        for mon in honey_encounter_data[key]:
-            if str(key) not in routes.keys():
-                routes[key] = [mon.capitalize()]
-            if mon.capitalize() not in routes[key]:
-                if mon == "FARFETCHD":
-                    routes[key].append("Farfetch'd")
-                else:
-                    routes[key].append(mon.capitalize())
+    for key in routes:
+        routes[key] = sorted(list(set(routes[key])))
 
     my_keys = list(routes.keys())
     my_keys.sort(key = lambda x: int(x.split('-')[1]))
@@ -404,5 +401,5 @@ def getPokedexInfo():
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-#getEncounterData()
-getPokedexInfo()
+getEncounterData()
+#getPokedexInfo()
