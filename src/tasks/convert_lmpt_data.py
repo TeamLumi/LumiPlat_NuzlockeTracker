@@ -404,4 +404,4 @@ def getPokedexInfo():
     return pokedex
 
 getEncounterData()
-#getPokedexInfo()
+getPokedexInfo()

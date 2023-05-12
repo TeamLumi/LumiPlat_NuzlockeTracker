@@ -8,12 +8,10 @@ interface PkmImageProps {
 }
 
 function getImage(monsno: number, formIndex: number) {
-  const defaultMonsno = 0;
-  const defaultFormIndex = 0;
 
   // Use input value if it is not undefined or null, otherwise use default value
-  const inputMonsno = (monsno !== undefined && monsno !== null) ? monsno : defaultMonsno;
-  const inputFormIndex = (formIndex !== undefined && formIndex !== null) ? formIndex : defaultFormIndex;
+  const inputMonsno =  monsno ;
+  const inputFormIndex = formIndex ;
 
   const paddedMonsno = inputMonsno.toString().padStart(4, '0');
   const paddedFormIndex = inputFormIndex.toString().padStart(2, '0');
