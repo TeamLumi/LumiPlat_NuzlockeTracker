@@ -219,7 +219,7 @@ def generate_moves_via_learnset(mons_no, level):
     moveset = learnset_data['WazaOboe'][mons_no]['ar']
     idx = next((i for i in range(0, len(moveset), 2) if moveset[i] > level), len(moveset))
     cutoff_index = next((i for i, current_move_or_level in enumerate(learnset_data['WazaOboe'][mons_no]['ar']) if i % 2 == 0 and current_move_or_level > level), len(learnset_data['WazaOboe'][mons_no]['ar']))
-    moves = learnset_data['WazaOboe'][mons_no]['ar'][:cutoff_index + 2]
+    moves = learnset_data['WazaOboe'][mons_no]['ar'][:cutoff_index]
     move_names = [get_move_string(move) for move in moves]
     num_moves = len(moves)
     if num_moves >= 7:
