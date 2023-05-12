@@ -21,7 +21,7 @@ function getImage(monsno: number, formIndex: number) {
 }
 
 const PkmImage = ({ dexNum, form, name, shiny = false }: PkmImageProps) => {
-  const baseImgSrc = 'https://raw.githubusercontent.com/TeamLumi/LumiPlat_NuzlockeTracker/src/assets/img/pkm/';
+  const baseImgSrc = './assets/img/pkm/';
   const imgSrc = baseImgSrc + getImage(dexNum, form);
   return (
     <div className={`pkm ${shiny ? 'shiny' : ''}`} role="img" style={{ transform: 'scale(1.25)' }}>
