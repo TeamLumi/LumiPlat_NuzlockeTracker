@@ -66,10 +66,10 @@ Docile
 Insomnia
 
 None
+Tackle
 Foresight
 Echoed Voice
 Hypnosis
-Confusion
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -82,7 +82,7 @@ None
 Growl
 Tackle
 Quick Attack
-Wing Attack
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -98,10 +98,10 @@ Quirky
 Intimidate
 
 None
+Roar
 Bite
 Howl
 Ember
-Odor Sleuth
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -111,10 +111,10 @@ Quirky
 Battle Armor
 
 None
+Tackle
 Bug Bite
 Hidden Power
 Protect
-String Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -124,10 +124,10 @@ Quirky
 Pickup
 
 None
+Tackle
 Tail Whip
 Sand Attack
 Covet
-Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -143,10 +143,10 @@ Docile
 Run Away
 
 None
+Scratch
 Defense Curl
 Quick Attack
 Fury Swipes
-Helping Hand
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -159,7 +159,7 @@ None
 Growl
 Tackle
 Defense Curl
-Headbutt
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -292,7 +292,7 @@ None
 Growl
 Tackle
 Vine Whip
-Leech Seed
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -305,7 +305,7 @@ None
 Growl
 Scratch
 Ember
-Smokescreen
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -318,7 +318,7 @@ None
 Tail Whip
 Tackle
 Water Gun
-Withdraw
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -347,10 +347,10 @@ Quirky
 Damp
 
 None
+Tail Whip
 Scratch
 Bubble
 Water Gun
-Confusion
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -366,10 +366,10 @@ Docile
 Synchronize
 
 None
+Growl
 Teleport
 Confusion
 Disarming Voice
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -379,10 +379,10 @@ Bashful
 Illuminate
 
 None
+Harden
 Tackle
 Water Gun
 Rapid Spin
-Recover
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -398,10 +398,10 @@ Docile
 Synchronize
 
 None
+Growl
 Teleport
 Confusion
 Disarming Voice
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -417,10 +417,10 @@ Docile
 Synchronize
 
 None
+Growl
 Teleport
 Confusion
 Disarming Voice
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 281
@@ -436,10 +436,10 @@ Quirky
 Magnet Pull
 
 None
+Supersonic
 Thunder Wave
 Magnet Bomb
 Spark
-Electro Ball
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -455,10 +455,10 @@ Quirky
 Magnet Pull
 
 None
+Supersonic
 Thunder Wave
 Magnet Bomb
 Spark
-Electro Ball
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 280
@@ -474,10 +474,10 @@ Bashful
 Technician
 
 None
+Confusion
 Copycat
 Meditate
 Double Slap
-Encore
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -487,10 +487,10 @@ Bashful
 Guts
 
 None
+Focus Energy
 Karate Chop
 Low Sweep
 Foresight
-Brick Break
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -506,10 +506,10 @@ Bashful
 Technician
 
 None
+Confusion
 Copycat
 Meditate
 Double Slap
-Encore
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -519,10 +519,10 @@ Bashful
 Guts
 
 None
+Focus Energy
 Karate Chop
 Low Sweep
 Foresight
-Brick Break
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -538,10 +538,10 @@ Bashful
 Aftermath
 
 None
+Constrict
 Minimize
 Gust
 Focus Energy
-Payback
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -551,10 +551,10 @@ Hardy
 Guts
 
 None
+Howl
 Thunder Shock
 Quick Attack
 Spark
-Bite
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -570,10 +570,10 @@ Bashful
 Aftermath
 
 None
+Constrict
 Minimize
 Gust
 Focus Energy
-Payback
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -583,10 +583,10 @@ Hardy
 Guts
 
 None
+Howl
 Thunder Shock
 Quick Attack
 Spark
-Bite
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -602,10 +602,10 @@ Docile
 Cute Charm
 
 None
+Disarming Voice
 Defense Curl
 Pound
 Sweet Kiss
-Copycat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -615,10 +615,10 @@ Quirky
 Cute Charm
 
 None
+Disarming Voice
 Sweet Kiss
 Encore
 Sing
-Copycat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -634,10 +634,10 @@ Docile
 Cute Charm
 
 None
+Disarming Voice
 Defense Curl
 Pound
 Sweet Kiss
-Copycat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -647,10 +647,10 @@ Quirky
 Cute Charm
 
 None
+Disarming Voice
 Sweet Kiss
 Encore
 Sing
-Copycat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -679,10 +679,10 @@ Bashful
 Soundproof
 
 None
+Charge
 Screech
 Eerie Impulse
 Thunder Shock
-Rollout
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -711,10 +711,10 @@ Bashful
 Soundproof
 
 None
+Charge
 Screech
 Eerie Impulse
 Thunder Shock
-Rollout
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -730,10 +730,10 @@ Docile
 Run Away
 
 None
+Scratch
 Sand Attack
 Astonish
 Tickle
-Baton Pass
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -762,10 +762,10 @@ Docile
 Run Away
 
 None
+Scratch
 Sand Attack
 Astonish
 Tickle
-Baton Pass
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -794,10 +794,10 @@ Quirky
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -807,10 +807,10 @@ Bashful
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -820,10 +820,10 @@ Serious
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -839,10 +839,10 @@ Quirky
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -852,10 +852,10 @@ Bashful
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -865,10 +865,10 @@ Serious
 Static
 
 None
+Disarming Voice
 Play Nice
 Charm
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -916,10 +916,10 @@ Quirky
 Limber
 
 None
+Growl
 Fury Swipes
 Hypnosis
 Covet
-Aerial Ace
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1140,10 +1140,10 @@ Bashful
 Chlorophyll
 
 None
+Growth
 Absorb
 Acid
 Sweet Scent
-Sleep Powder
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1155,7 +1155,7 @@ Natural Cure
 None
 Growth
 Absorb
-Mega Drain
+(No Move)
 (No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
@@ -1166,10 +1166,10 @@ Quirky
 Chlorophyll
 
 None
+Vine Whip
 Growth
 Acid
 Wrap
-Sleep Powder
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1185,10 +1185,10 @@ Bashful
 Guts
 
 None
+Tackle
 Howl
 Thunder Shock
 Quick Attack
-Spark
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1198,10 +1198,10 @@ Quirky
 Poison Point
 
 None
+Growl
 Scratch
 Tail Whip
 Fury Swipes
-Double Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1211,10 +1211,10 @@ Quirky
 Keen Eye
 
 None
+Tackle
 Sand Attack
 Gust
 Quick Attack
-Wing Attack
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1243,10 +1243,10 @@ Bashful
 Inner Focus
 
 None
+Supersonic
 Absorb
 Astonish
 Bite
-Wing Attack
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1256,10 +1256,10 @@ Hardy
 Hustle
 
 None
+Tail Whip
 Tackle
 Quick Attack
 Bite
-Focus Energy
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1275,10 +1275,10 @@ Hardy
 Keen Eye
 
 None
+Growl
 Peck
 Leer
 Fury Attack
-Aerial Ace
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1288,10 +1288,10 @@ Serious
 Rock Head
 
 None
+Tail Whip
 Sing
 Headbutt
 Bone Club
-Leer
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1301,10 +1301,10 @@ Bashful
 Thick Fat
 
 None
+Water Gun
 Splash
 Bubble
 Charm
-Bubble Beam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1320,10 +1320,10 @@ Hardy
 Damp
 
 None
+Scratch
 Bubble
 Water Gun
 Confusion
-Fury Swipes
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1333,10 +1333,10 @@ Quirky
 Chlorophyll
 
 None
+Absorb
 Ingrain
 Grass Whistle
 Mega Drain
-Leech Seed
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1352,10 +1352,10 @@ Quirky
 Guts
 
 None
+Howl
 Thunder Shock
 Quick Attack
 Spark
-Bite
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1365,10 +1365,10 @@ Quirky
 Sand Veil
 
 None
+Sand Attack
 Poison Sting
 Rollout
 Bulldoze
-Rapid Spin
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1384,10 +1384,10 @@ Serious
 Thick Fat
 
 None
+Tackle
 Sand Attack
 Arm Thrust
 Fake Out
-Force Palm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1397,10 +1397,10 @@ Docile
 Guts
 
 None
+Focus Energy
 Karate Chop
 Low Sweep
 Foresight
-Brick Break
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1419,7 +1419,7 @@ None
 Splash
 Tackle
 Flail
-Bounce
+(No Move)
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1975,10 +1975,10 @@ Bashful
 Chlorophyll
 
 None
+Growth
 Absorb
 Astonish
 Nature Power
-Rollout
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -1988,10 +1988,10 @@ Hardy
 Sand Veil
 
 None
+Mud-Slap
 Growl
 Astonish
 Bulldoze
-Magnitude
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2007,10 +2007,10 @@ Serious
 Scrappy
 
 None
+Disarming Voice
 Echoed Voice
 Astonish
 Uproar
-Screech
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2020,10 +2020,10 @@ Docile
 Unaware
 
 None
+Tail Whip
 Water Gun
 Mud Shot
 Slam
-Double Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2039,10 +2039,10 @@ Bashful
 Adaptability
 
 None
+Dragon Pulse
 Blaze Kick
 Heal Pulse
 Close Combat
-Meteor Mash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2052,10 +2052,10 @@ Quirky
 Rock Head
 
 None
+Stealth Rock
 Earthquake
 Rock Blast
 Explosion
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2065,10 +2065,10 @@ Bashful
 Intimidate
 
 None
+Close Combat
 Take Down
 Roost
 Agility
-Brave Bird
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2084,10 +2084,10 @@ Quirky
 Unburden
 
 None
+Pound
 Leafage
 Absorb
 Quick Attack
-Mega Drain
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2097,10 +2097,10 @@ Docile
 Speed Boost
 
 None
+Scratch
 Ember
 Sand Attack
 Flame Charge
-Peck
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2110,10 +2110,10 @@ Bashful
 Torrent
 
 None
+Tackle
 Water Gun
 Rock Smash
 Mud-Slap
-Foresight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2213,10 +2213,10 @@ Hardy
 Rock Head
 
 None
+Rock Polish
 Magnitude
 Rock Throw
 Harden
-Bulldoze
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2226,10 +2226,10 @@ Docile
 Scrappy
 
 None
+Disarming Voice
 Echoed Voice
 Astonish
 Uproar
-Screech
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2239,10 +2239,10 @@ Hardy
 Guts
 
 None
+Focus Energy
 Karate Chop
 Low Sweep
 Foresight
-Brick Break
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2258,10 +2258,10 @@ Quirky
 Sturdy
 
 None
+Tackle
 Mud-Slap
 Headbutt
 Metal Claw
-Rock Tomb
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2271,10 +2271,10 @@ Quirky
 Pickup
 
 None
+Odor Sleuth
 Mud-Slap
 Headbutt
 Rollout
-Bulldoze
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2284,10 +2284,10 @@ Serious
 Steadfast
 
 None
+Bite
 Counter
 Metal Claw
 Force Palm
-Feint
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2303,10 +2303,10 @@ Bashful
 Reckless
 
 None
+Smack Down
 Scary Face
 Bulldoze
 Stomp
-Rock Blast
 25/25/25/25/25/25
 36/156/156/0/0/0
 
@@ -2316,10 +2316,10 @@ Bashful
 Swift Swim
 
 None
+Leer
 Sand Attack
 Bite
 Rollout
-Mud Shot
 25/25/25/25/25/25
 76/0/0/196/0/236
 
@@ -2329,10 +2329,10 @@ Quirky
 Swift Swim
 
 None
+Leer
 Absorb
 Aqua Jet
 Rollout
-Mud Shot
 25/25/25/25/25/25
 0/252/252/4/0/0
 
@@ -2348,10 +2348,10 @@ Quirky
 Sturdy
 
 None
+Mud-Slap
 Headbutt
 Metal Claw
 Rock Tomb
-Protect
 25/25/25/25/25/25
 0/196/0/0/116/196
 
@@ -2361,10 +2361,10 @@ Bashful
 Battle Armor
 
 None
+Water Gun
 Smack Down
 Aqua Jet
 Fury Cutter
-Ancient Power
 25/25/25/25/25/25
 0/236/36/0/0/236
 
@@ -2374,10 +2374,10 @@ Hardy
 Suction Cups
 
 None
+Constrict
 Acid
 Ingrain
 Confuse Ray
-Ancient Power
 25/25/25/25/25/25
 68/0/220/108/0/0
 
@@ -2729,10 +2729,10 @@ Quirky
 Chlorophyll
 
 None
+Leafage
 Growth
 Leech Seed
 Helping Hand
-Magical Leaf
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2742,10 +2742,10 @@ Hardy
 Chlorophyll
 
 None
+Bullet Seed
 Fairy Wind
 Air Cutter
 Mega Drain
-Sleep Powder
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2755,10 +2755,10 @@ Bashful
 Technician
 
 None
+Tackle
 Mega Drain
 Leech Seed
 Bullet Seed
-Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2787,10 +2787,10 @@ Quirky
 Swarm
 
 None
+String Shot
 Fury Cutter
 Fury Cutter
 Absorb
-Sing
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2806,10 +2806,10 @@ Hardy
 Plus
 
 None
+Spark
 Encore
 Charge Beam
 Skill Swap
-Wish
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2825,10 +2825,10 @@ Hardy
 Minus
 
 None
+Helping Hand
 Spark
 Encore
 Charge Beam
-Switcheroo
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2844,10 +2844,10 @@ Quirky
 Serene Grace
 
 None
+Razor Leaf
 Poison Powder
 Synthesis
 Magical Leaf
-Light Screen
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2857,10 +2857,10 @@ Bashful
 Adaptability
 
 None
+Ember
 Smokescreen
 Quick Attack
 Flame Wheel
-Defense Curl
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2870,10 +2870,10 @@ Serious
 Strong Jaw
 
 None
+Water Gun
 Mud-Slap
 Bite
 Scary Face
-Ice Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2889,10 +2889,10 @@ Serious
 Inner Focus
 
 None
+Bite
 Wing Attack
 Poison Fang
 Confuse Ray
-Air Cutter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2902,10 +2902,10 @@ Bashful
 Swarm
 
 None
+Bug Bite
 Scary Face
 Poison Fang
 Night Shade
-Shadow Sneak
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 222
@@ -2921,10 +2921,10 @@ Bashful
 Anticipation
 
 None
+Fake Out
 Mud-Slap
 Poison Sting
 Torment
-Feint Attack
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2934,10 +2934,10 @@ Serious
 Iron Fist
 
 None
+Reflect
 Safeguard
 Mach Punch
 Aerial Ace
-Roost
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 221
@@ -2953,10 +2953,10 @@ Hardy
 Run Away
 
 None
+Bite
 Mud-Slap
 Odor Sleuth
 Assurance
-Roar
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2966,10 +2966,10 @@ Bashful
 Liquid Ooze
 
 None
+Yawn
 Smog
 Poison Gas
 Amnesia
-Acid Spray
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -2979,10 +2979,10 @@ Serious
 Intimidate
 
 None
+Feint Attack
 Bite
 Roar
 Smog
-Thunder Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3011,10 +3011,10 @@ Bashful
 Sturdy
 
 None
+Revenge
 Bug Bite
 Self-Destruct
 Rapid Spin
-Pin Missile
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3043,10 +3043,10 @@ Hardy
 Stench
 
 None
+Harden
 Mud-Slap
 Disable
 Sludge
-Mud Bomb
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3056,10 +3056,10 @@ Serious
 Levitate
 
 None
+Smokescreen
 Assurance
 Clear Smog
 Pain Split
-Sludge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3133,10 +3133,10 @@ Serious
 Flame Body
 
 None
+Ember
 Stomp
 Double Kick
 Flame Charge
-Flame Wheel
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3146,10 +3146,10 @@ Docile
 Static
 
 None
+Thunder Wave
 Thunder Shock
 Cotton Spore
 Charge
-Charge Beam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3159,10 +3159,10 @@ Quirky
 Swift Swim
 
 None
+Growl
 Tail Whip
 Water Gun
 Quick Attack
-Aqua Jet
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3178,10 +3178,10 @@ Hardy
 Sand Veil
 
 None
+Growl
 Astonish
 Bulldoze
 Magnitude
-Dig
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3191,10 +3191,10 @@ Docile
 Sturdy
 
 None
+Taunt
 Metal Sound
 Shock Wave
 Iron Defense
-Ancient Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3204,10 +3204,10 @@ Serious
 Oblivious
 
 None
+Ember
 Focus Energy
 Bulldoze
 Flame Wheel
-Ancient Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3223,10 +3223,10 @@ Bashful
 Run Away
 
 None
+Sand Attack
 Astonish
 Tickle
 Baton Pass
-Fury Swipes
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3236,10 +3236,10 @@ Docile
 Truant
 
 None
+Slack Off
 Rest
 Feint Attack
 Crush Claw
-Covet
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3249,10 +3249,10 @@ Hardy
 Guts
 
 None
+Peck
 Focus Energy
 Quick Attack
 Wing Attack
-Double Team
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3268,10 +3268,10 @@ Hardy
 Sticky Hold
 
 None
+Harden
 Water Pulse
 Mud Bomb
 Hidden Power
-Sludge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3281,10 +3281,10 @@ Docile
 Rock Head
 
 None
+Curse
 Rock Throw
 Bulldoze
 Rock Tomb
-Dragon Breath
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3300,10 +3300,10 @@ Serious
 Guts
 
 None
+Low Sweep
 Foresight
 Brick Break
 Seismic Toss
-Revenge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3313,10 +3313,10 @@ Serious
 Vital Spirit
 
 None
+Mud-Slap
 Covet
 Karate Chop
 Retaliate
-Seismic Toss
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3326,10 +3326,10 @@ Bashful
 Pure Power
 
 None
+Confusion
 Endure
 Feint
 Force Palm
-Bullet Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3345,10 +3345,10 @@ Hardy
 Serene Grace
 
 None
+Razor Leaf
 Poison Powder
 Synthesis
 Magical Leaf
-Light Screen
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3358,10 +3358,10 @@ Bashful
 Overgrow
 
 None
+Leech Seed
 Razor Leaf
 Poison Powder
 Sleep Powder
-Sludge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3377,10 +3377,10 @@ Bashful
 Torrent
 
 None
+Water Gun
 Bubble
 Charm
 Peck
-Bubble Beam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3390,10 +3390,10 @@ Serious
 Blaze
 
 None
+Taunt
 Fury Swipes
 Power-Up Punch
 Flame Wheel
-Focus Energy
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3409,10 +3409,10 @@ Bashful
 Volt Absorb
 
 None
+Charm
 Spark
 Endure
 Charge Beam
-Nuzzle
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3428,10 +3428,10 @@ Hardy
 Swift Swim
 
 None
+Bubble
 Mud Shot
 Soak
 Bubble Beam
-Agility
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3441,10 +3441,10 @@ Hardy
 Effect Spore
 
 None
+Stun Spore
 Poison Powder
 Bug Bite
 Bullet Seed
-Spore
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3454,10 +3454,10 @@ Hardy
 Compound Eyes
 
 None
+Confusion
 Sleep Powder
 Stun Spore
 Poison Powder
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3473,10 +3473,10 @@ Docile
 Limber
 
 None
+Endure
 Baby-Doll Eyes
 Quick Attack
 After You
-Fake Out
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3486,10 +3486,10 @@ Hardy
 Thick Fat
 
 None
+Bubble Beam
 Slam
 Aqua Jet
 Bounce
-Helping Hand
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3505,10 +3505,10 @@ Serious
 Thick Fat
 
 None
+Odor Sleuth
 Psybeam
 Psych Up
 Confuse Ray
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3518,10 +3518,10 @@ Hardy
 Insomnia
 
 None
+Disable
 Confusion
 Headbutt
 Poison Gas
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3531,10 +3531,10 @@ Serious
 Levitate
 
 None
+Rapid Spin
 Mud-Slap
 Rock Tomb
 Psybeam
-Ancient Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3550,10 +3550,10 @@ Hardy
 Oblivious
 
 None
+Water Gun
 Confusion
 Disable
 Headbutt
-Water Pulse
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3563,10 +3563,10 @@ Serious
 Chlorophyll
 
 None
+Confusion
 Mega Drain
 Bullet Seed
 Leech Seed
-Stun Spore
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3576,10 +3576,10 @@ Quirky
 Synchronize
 
 None
+Night Shade
 Teleport
 Confusion
 Air Cutter
-Ominous Wind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3608,10 +3608,10 @@ Docile
 Adaptability
 
 None
+Fury Cutter
 Laser Focus
 Toxic Spikes
 Pin Missile
-Focus Energy
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3627,10 +3627,10 @@ Bashful
 Compound Eyes
 
 None
+Sand Attack
 Fury Swipes
 Mud-Slap
 Leech Life
-Mind Reader
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3640,10 +3640,10 @@ Bashful
 Shield Dust
 
 None
+Confusion
 Poison Powder
 Psybeam
 Silver Wind
-Venoshock
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3659,10 +3659,10 @@ Docile
 Technician
 
 None
+Meditate
 Double Slap
 Encore
 Mimic
-Protect
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3672,10 +3672,10 @@ Quirky
 Technician
 
 None
+Double Slap
 Encore
 Mimic
 Protect
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3691,10 +3691,10 @@ Quirky
 Levitate
 
 None
+Ominous Wind
 Yawn
 Last Resort
 Extrasensory
-Entrainment
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -3704,10 +3704,10 @@ Bashful
 Levitate
 
 None
+Ominous Wind
 Yawn
 Light Screen
 Take Down
-Uproar
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4805,10 +4805,10 @@ Docile
 Swift Swim
 
 None
+Horn Attack
 Flail
 Water Pulse
 Aqua Ring
-Fury Attack
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4818,10 +4818,10 @@ Quirky
 Water Absorb
 
 None
+Water Gun
 Rain Dance
 Double Slap
 Bubble Beam
-Mud Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4831,10 +4831,10 @@ Docile
 Hyper Cutter
 
 None
+Aqua Jet
 Protect
 Bubble Beam
 Double Hit
-Crabhammer
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4850,10 +4850,10 @@ Quirky
 Hyper Cutter
 
 None
+Leer
 Mud Shot
 Bubble Beam
 Metal Claw
-Stomp
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4863,10 +4863,10 @@ Bashful
 Swift Swim
 
 None
+Rain Dance
 Gust
 Water Pulse
 Silver Wind
-Psybeam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4882,10 +4882,10 @@ Hardy
 Inner Focus
 
 None
+Poison Fang
 Confuse Ray
 Air Cutter
 Mean Look
-Quick Guard
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4895,10 +4895,10 @@ Serious
 Battle Armor
 
 None
+Pin Missile
 Acupressure
 Bug Bite
 Poison Fang
-Venoshock
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4908,10 +4908,10 @@ Hardy
 Inner Focus
 
 None
+Poison Fang
 Confuse Ray
 Air Cutter
 Mean Look
-Quick Guard
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4927,10 +4927,10 @@ Docile
 Rock Head
 
 None
+Harden
 Bulldoze
 Rollout
 Smack Down
-Self-Destruct
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4940,10 +4940,10 @@ Hardy
 Magma Armor
 
 None
+Harden
 Incinerate
 Will-O-Wisp
 Ancient Power
-Clear Smog
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4972,10 +4972,10 @@ Quirky
 Synchronize
 
 None
+Teleport
 Confusion
 Air Cutter
 Ominous Wind
-Confuse Ray
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4985,10 +4985,10 @@ Quirky
 Cloud Nine
 
 None
+Round
 Pluck
 Mist
 Dragon Breath
-Uproar
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -4998,10 +4998,10 @@ Hardy
 Intimidate
 
 None
+Quick Attack
 Wing Attack
 Double Team
 Aerial Ace
-Facade
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5017,10 +5017,10 @@ Quirky
 Speed Boost
 
 None
+Mind Reader
 Double Team
 Fury Cutter
 Screech
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5036,10 +5036,10 @@ Hardy
 Rock Head
 
 None
+Roar
 Agility
 Wing Attack
 Ancient Power
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5055,10 +5055,10 @@ Hardy
 Guts
 
 None
+Feint
 Aerial Ace
 Bug Bite
 Brick Break
-Fury Attack
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5074,10 +5074,10 @@ Quirky
 Insomnia
 
 None
+Air Cutter
 Uproar
 Extrasensory
 Psycho Shift
-Air Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5093,10 +5093,10 @@ Hardy
 Snow Warning
 
 None
+Swagger
 Grass Whistle
 Bullet Seed
 Ice Shard
-Leech Seed
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5106,10 +5106,10 @@ Docile
 Inner Focus
 
 None
+Ice Shard
 Icy Wind
 Bite
 Disable
-Ice Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5119,10 +5119,10 @@ Serious
 Oblivious
 
 None
+Ice Shard
 Bulldoze
 Mud Bomb
 Endure
-Avalanche
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5138,10 +5138,10 @@ Hardy
 Technician
 
 None
+Encore
 Mimic
 Protect
 Psybeam
-Recycle
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -5151,10 +5151,10 @@ Hardy
 Chlorophyll
 
 None
+Fake Out
 Mega Drain
 Torment
 Razor Wind
-Payback
 25/25/25/25/25/25
 252/252/0/4/0/0
 
@@ -5164,10 +5164,10 @@ Docile
 Swarm
 
 None
+Agility
 Wing Attack
 Slash
 Night Slash
-Bug Bite
 25/25/25/25/25/25
 248/8/0/0/0/252
 
@@ -5183,10 +5183,10 @@ Bashful
 Unaware
 
 None
+Double Kick
 Curse
 Amnesia
 Mud Bomb
-Aqua Tail
 25/25/25/25/25/25
 252/0/252/0/4/0
 
@@ -5196,10 +5196,10 @@ Bashful
 Adaptability
 
 None
+Quick Attack
 Double Kick
 Flame Wheel
 Defense Curl
-Reversal
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -5209,10 +5209,10 @@ Docile
 Sturdy
 
 None
+Rock Tomb
 Slam
 Mimic
 Feint Attack
-Tearful Look
 25/25/25/25/25/25
 0/252/4/0/0/252
 
@@ -5228,10 +5228,10 @@ Serious
 Trace
 
 None
+Thunder Shock
 Charge Beam
 Barrier
 Recycle
-Tri Attack
 25/25/25/25/25/25
 0/0/4/252/252/0
 
@@ -5241,10 +5241,10 @@ Serious
 Vital Spirit
 
 None
+Feint Attack
 Crush Claw
 Fury Swipes
 Slash
-Endure
 25/25/25/25/25/25
 252/0/0/0/164/92
 
@@ -5260,10 +5260,10 @@ Docile
 Super Luck
 
 None
+Wish
 Air Cutter
 Safeguard
 Ancient Power
-Soft-Boiled
 25/25/25/25/25/25
 0/0/252/4/252/0
 
@@ -5273,10 +5273,10 @@ Serious
 Guts
 
 None
+Wing Attack
 Double Team
 Aerial Ace
 Reversal
-Agility
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -5375,10 +5375,10 @@ Bashful
 Guts
 
 None
+Cross Chop
 Scary Face
 Dynamic Punch
 Close Combat
-Superpower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5420,10 +5420,10 @@ Hardy
 Static
 
 None
+Electro Ball
 Shock Wave
 Feint
 Spark
-Double Team
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5439,10 +5439,10 @@ Quirky
 Guts
 
 None
+Quick Attack
 Wing Attack
 Double Team
 Aerial Ace
-Reversal
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5452,10 +5452,10 @@ Docile
 Tangled Feet
 
 None
+Fury Attack
 Wing Attack
 Pluck
 Double Hit
-Agility
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5465,10 +5465,10 @@ Bashful
 Keen Eye
 
 None
+Wing Attack
 Water Pulse
 Mist
 Air Cutter
-Aerial Ace
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5484,10 +5484,10 @@ Quirky
 Soundproof
 
 None
+Thunder Shock
 Rollout
 Spark
 Charge Beam
-Swift
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5497,10 +5497,10 @@ Hardy
 Magnet Pull
 
 None
+Spark
 Electro Ball
 Light Screen
 Charge Beam
-Mirror Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5510,10 +5510,10 @@ Quirky
 Static
 
 None
+Spark
 Shock Wave
 Bite
 Charge Beam
-Roar
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5529,10 +5529,10 @@ Quirky
 Flame Body
 
 None
+Double Kick
 Flame Charge
 Flame Wheel
 Take Down
-Fire Spin
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5542,10 +5542,10 @@ Serious
 Static
 
 None
+Thunder Shock
 Cotton Spore
 Charge
 Charge Beam
-Confuse Ray
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5561,10 +5561,10 @@ Quirky
 Keen Eye
 
 None
+Cut
 Swords Dance
 Agility
 Air Cutter
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5580,10 +5580,10 @@ Quirky
 Guts
 
 None
+Spark
 Bite
 Charge
 Double Kick
-Thunder Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5599,10 +5599,10 @@ Quirky
 Keen Eye
 
 None
+Wing Attack
 Swift
 Air Cutter
 Feather Dance
-Twister
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5618,10 +5618,10 @@ Bashful
 Volt Absorb
 
 None
+Thunder Wave
 Baby-Doll Eyes
 Shock Wave
 Double Kick
-Thunder Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5637,10 +5637,10 @@ Bashful
 White Smoke
 
 None
+Flame Wheel
 Curse
 Body Slam
 Lava Plume
-Protect
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -5656,10 +5656,10 @@ Hardy
 Swift Swim
 
 None
+Mega Drain
 Flail
 Bubble Beam
 Giga Drain
-Rain Dance
 25/25/25/25/25/25
 0/0/116/196/0/196
 
@@ -5669,10 +5669,10 @@ Serious
 Sand Veil
 
 None
+Needle Arm
 Assurance
 Feint Attack
 Ingrain
-Payback
 25/25/25/25/25/25
 0/236/116/0/0/156
 
@@ -5682,10 +5682,10 @@ Hardy
 Chlorophyll
 
 None
+Leech Seed
 Stun Spore
 Poison Powder
 Sleep Powder
-Extrasensory
 25/25/25/25/25/25
 36/0/200/40/0/0
 
@@ -5695,10 +5695,10 @@ Bashful
 Technician
 
 None
+Stun Spore
 Spore
 Poison Powder
 Seed Bomb
-Giga Drain
 25/25/25/25/25/25
 36/36/196/0/0/0
 
@@ -5714,10 +5714,10 @@ Serious
 Chlorophyll
 
 None
+Razor Leaf
 Sweet Scent
 Gastro Acid
 Leech Life
-Poison Jab
 25/25/25/25/25/25
 4/252/0/252/0/0
 
@@ -5727,10 +5727,10 @@ Quirky
 Overgrow
 
 None
+Magical Leaf
 Sludge
 Seed Bomb
 Take Down
-Sweet Scent
 25/25/25/25/25/25
 0/0/4/252/252/0
 
@@ -5740,10 +5740,10 @@ Quirky
 Chlorophyll
 
 None
+Stun Spore
 Mega Drain
 Sludge
 Moonlight
-Giga Drain
 25/25/25/25/25/25
 0/0/4/252/252/0
 
@@ -5759,10 +5759,10 @@ Hardy
 Natural Cure
 
 None
+Leech Seed
 Magical Leaf
 Sludge
 Grass Whistle
-Spikes
 25/25/25/25/25/25
 248/0/0/0/236/24
 
@@ -5772,10 +5772,10 @@ Hardy
 Serene Grace
 
 None
+Magical Leaf
 Light Screen
 Reflect
 Draining Kiss
-Energy Ball
 25/25/25/25/25/25
 0/0/252/4/252/0
 
@@ -5785,10 +5785,10 @@ Docile
 Chlorophyll
 
 None
+Poison Powder
 Leech Seed
 Cotton Spore
 Worry Seed
-Giga Drain
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -6185,10 +6185,10 @@ Bashful
 Levitate
 
 None
+Pain Split
 Sludge
 Self-Destruct
 Haze
-Gyro Ball
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6198,10 +6198,10 @@ Docile
 Stench
 
 None
+Smokescreen
 Venoshock
 Slash
 Night Slash
-Feint
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6211,10 +6211,10 @@ Quirky
 Poison Point
 
 None
+Poison Fang
 Horn Attack
 Helping Hand
 Toxic Spikes
-Poison Jab
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6230,10 +6230,10 @@ Serious
 Intimidate
 
 None
+Acid
 Glare
 Poison Fang
 Screech
-Spit Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6243,10 +6243,10 @@ Docile
 Limber
 
 None
+Aerial Ace
 Feint Attack
 Charm
 Slash
-Knock Off
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6256,10 +6256,10 @@ Bashful
 Poison Point
 
 None
+Poison Fang
 Bite
 Helping Hand
 Toxic Spikes
-Poison Jab
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6294,10 +6294,10 @@ Docile
 Intimidate
 
 None
+Fire Fang
 Taunt
 Odor Sleuth
 Beat Up
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6307,10 +6307,10 @@ Quirky
 Battle Armor
 
 None
+Acupressure
 Bug Bite
 Poison Fang
 Venoshock
-Toxic Spikes
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6320,10 +6320,10 @@ Bashful
 Swarm
 
 None
+Stun Spore
 Mega Drain
 Silver Wind
 Air Cutter
-Morning Sun
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6339,10 +6339,10 @@ Naive
 Technician
 
 None
+Silver Wind
 U-turn
 Struggle Bug
 Comet Punch
-Baton Pass
 31/31/31/31/31/31
 0/0/0/0/0/0
 
@@ -6352,10 +6352,10 @@ Timid
 Insomnia
 
 None
+Shadow Sneak
 Leech Life
 Swords Dance
 Night Slash
-Sticky Web
 31/31/31/31/31/31
 0/0/0/0/0/0
 
@@ -6371,10 +6371,10 @@ Hardy
 Anticipation
 
 None
+Feint Attack
 Revenge
 Venoshock
 Swagger
-Poison Jab
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6384,10 +6384,10 @@ Docile
 Inner Focus
 
 None
+Mean Look
 Quick Guard
 Crunch
 Leech Life
-Swift
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6403,10 +6403,10 @@ Serious
 Insomnia
 
 None
+Poison Gas
 Psybeam
 Meditate
 Psycho Cut
-Mind Reader
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6416,10 +6416,10 @@ Quirky
 Iron Fist
 
 None
+Iron Head
 Magnet Rise
 Metal Claw
 Confusion
-Bullet Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6429,10 +6429,10 @@ Hardy
 Synchronize
 
 None
+Ally Switch
 Psybeam
 Disable
 Night Shade
-Miracle Eye
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6506,10 +6506,10 @@ Quirky
 Flame Body
 
 None
+Flame Wheel
 Fire Punch
 Confuse Ray
 Scary Face
-Brick Break
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6519,10 +6519,10 @@ Hardy
 Hyper Cutter
 
 None
+Rock Slide
 Sand Tomb
 Dig
 Crunch
-Earth Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6532,10 +6532,10 @@ Serious
 Blaze
 
 None
+Dragon Breath
 Bite
 Fire Fang
 Slash
-Flamethrower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6551,10 +6551,10 @@ Quirky
 Hydration
 
 None
+Covet
 Mean Look
 Extrasensory
 Fake Tears
-Ice Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6564,10 +6564,10 @@ Docile
 Intimidate
 
 None
+Lick
 Bite
 Headbutt
 Roar
-Play Rough
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6577,10 +6577,10 @@ Bashful
 Unburden
 
 None
+Agility
 Assurance
 Giga Drain
 Slam
-Double Team
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6596,10 +6596,10 @@ Docile
 Swift Swim
 
 None
+Fake Out
 Fury Swipes
 Bubble Beam
 Giga Drain
-Uproar
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6609,10 +6609,10 @@ Quirky
 Hyper Cutter
 
 None
+Mud Bomb
 Acrobatics
 Slash
 U-turn
-Cross Poison
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6628,10 +6628,10 @@ Bashful
 Serene Grace
 
 None
+Ancient Power
 Body Slam
 Drill Run
 Roost
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6641,10 +6641,10 @@ Hardy
 Serene Grace
 
 None
+Ancient Power
 Body Slam
 Drill Run
 Roost
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6660,10 +6660,10 @@ Hardy
 Rock Head
 
 None
+Rollout
 Smack Down
 Self-Destruct
 Gyro Ball
-Rock Slide
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6673,10 +6673,10 @@ Serious
 Sand Veil
 
 None
+Fury Swipes
 Crush Claw
 Slash
 Night Slash
-Dig
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6705,10 +6705,10 @@ Quirky
 Pure Power
 
 None
+Hidden Power
 Psybeam
 Psycho Cut
 Calm Mind
-Mind Reader
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -6718,10 +6718,10 @@ Bashful
 Thick Fat
 
 None
+Whirlwind
 Knock Off
 Vital Throw
 Belly Drum
-Revenge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7085,10 +7085,10 @@ Docile
 Sand Veil
 
 None
+Bulldoze
 Take Down
 Sandstorm
 Dig
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7098,10 +7098,10 @@ Serious
 Rock Head
 
 None
+Dragon Breath
 Headbutt
 Focus Energy
 Dragon Claw
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7111,10 +7111,10 @@ Quirky
 Sand Veil
 
 None
+Bulldoze
 Take Down
 Sandstorm
 Dig
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7130,10 +7130,10 @@ Serious
 Cute Charm
 
 None
+Covet
 Copycat
 Payback
 Feint Attack
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7143,10 +7143,10 @@ Hardy
 Pickup
 
 None
+Pay Day
 Feint Attack
 Night Slash
 Slash
-Taunt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7156,10 +7156,10 @@ Docile
 Run Away
 
 None
+Baton Pass
 Baby-Doll Eyes
 Swift
 Wish
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7175,10 +7175,10 @@ Hardy
 Run Away
 
 None
+Fury Swipes
 Mud Bomb
 Covet
 Swift
-Screech
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7188,10 +7188,10 @@ Bashful
 Poison Point
 
 None
+Poison Fang
 Horn Attack
 Helping Hand
 Toxic Spikes
-Poison Jab
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7207,10 +7207,10 @@ Serious
 Illuminate
 
 None
+Struggle Bug
 Bug Bite
 Charge Beam
 Moonlight
-Encore
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7220,10 +7220,10 @@ Quirky
 Pickup
 
 None
+Odor Sleuth
 Hone Claws
 Fury Swipes
 Slash
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7239,10 +7239,10 @@ Quirky
 Rock Head
 
 None
+Bonemerang
 False Swipe
 Stomping Tantrum
 Knock Off
-Bone Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7252,10 +7252,10 @@ Hardy
 Sturdy
 
 None
+Rock Slide
 Rest
 Power Gem
 Discharge
-Rock Blast
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7271,10 +7271,10 @@ Docile
 Reckless
 
 None
+Stomp
 Rock Blast
 Take Down
 Drill Run
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7284,10 +7284,10 @@ Quirky
 Sturdy
 
 None
+Mimic
 Feint Attack
 Tearful Look
 Rollout
-Rock Slide
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7303,10 +7303,10 @@ Hardy
 Damp
 
 None
+Water Pulse
 Disable
 Zen Headbutt
 Screech
-Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7316,10 +7316,10 @@ Bashful
 Poison Point
 
 None
+Poison Fang
 Bite
 Helping Hand
 Toxic Spikes
-Poison Jab
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7335,10 +7335,10 @@ Serious
 Oblivious
 
 None
+Struggle Bug
 Draining Kiss
 Moonlight
 Encore
-Wish
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7348,10 +7348,10 @@ Serious
 Scrappy
 
 None
+Follow Me
 Agility
 Rest
 Flame Wheel
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7367,10 +7367,10 @@ Docile
 Scrappy
 
 None
+Stomp
 Supersonic
 Bite
 Extrasensory
-Fake Tears
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7380,10 +7380,10 @@ Quirky
 Run Away
 
 None
+Take Down
 Assurance
 Scary Face
 Super Fang
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7399,10 +7399,10 @@ Docile
 Sand Veil
 
 None
+Dig
 Sucker Punch
 Mud Bomb
 Tri Attack
-Rock Slide
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7476,10 +7476,10 @@ Docile
 Sand Stream
 
 None
+Mud Bomb
 Take Down
 Dig
 Sandstorm
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7489,10 +7489,10 @@ Serious
 Sturdy
 
 None
+Rock Throw
 Rest
 Bug Bite
 Rock Slide
-Power Trick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7502,10 +7502,10 @@ Quirky
 Levitate
 
 None
+Extrasensory
 Feint Attack
 Gyro Ball
 Iron Defense
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7566,10 +7566,10 @@ Bashful
 Natural Cure
 
 None
+Grass Whistle
 Spikes
 Toxic Spikes
 Giga Drain
-Sweet Scent
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7579,10 +7579,10 @@ Serious
 Chlorophyll
 
 None
+Seed Bomb
 Leech Seed
 Razor Leaf
 Worry Seed
-Nature Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7598,10 +7598,10 @@ Bashful
 Rock Head
 
 None
+False Swipe
 Stomping Tantrum
 Knock Off
 Swords Dance
-Bone Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7617,10 +7617,10 @@ Quirky
 Guts
 
 None
+Revenge
 Knock Off
 Vital Throw
 Strength
-Payback
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7636,10 +7636,10 @@ Serious
 Oblivious
 
 None
+Thrash
 Muddy Water
 Future Sight
 Earthquake
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7649,10 +7649,10 @@ Bashful
 Intimidate
 
 None
+Crunch
 Dragon Dance
 Outrage
 Hydro Pump
-Rain Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -7668,10 +7668,10 @@ Docile
 Levitate
 
 None
+Foresight
 Shadow Sneak
 Will-O-Wisp
 Payback
-Curse
 25/25/25/25/25/25
 196/0/196/0/116/0
 
@@ -7681,10 +7681,10 @@ Bashful
 Insomnia
 
 None
+Pain Split
 Feint Attack
 Hex
 Curse
-Shadow Ball
 25/25/25/25/25/25
 4/236/156/0/0/0
 
@@ -7694,10 +7694,10 @@ Bashful
 Levitate
 
 None
+Foresight
 Shadow Sneak
 Will-O-Wisp
 Payback
-Curse
 25/25/25/25/25/25
 196/0/196/0/116/0
 
@@ -7713,10 +7713,10 @@ Docile
 Insomnia
 
 None
+Pain Split
 Feint Attack
 Hex
 Curse
-Shadow Ball
 25/25/25/25/25/25
 4/236/156/0/0/0
 
@@ -7726,10 +7726,10 @@ Serious
 Levitate
 
 None
+Foresight
 Shadow Sneak
 Will-O-Wisp
 Payback
-Curse
 25/25/25/25/25/25
 196/0/196/0/116/0
 
@@ -7739,10 +7739,10 @@ Serious
 Insomnia
 
 None
+Pain Split
 Feint Attack
 Hex
 Curse
-Shadow Ball
 25/25/25/25/25/25
 4/236/156/0/0/0
 
@@ -7803,10 +7803,10 @@ Serious
 Levitate
 
 None
+Hex
 Curse
 Sucker Punch
 Shadow Ball
-Payback
 25/25/25/25/25/25
 0/0/0/200/80/200
 
@@ -7816,10 +7816,10 @@ Bashful
 Levitate
 
 None
+Hex
 Curse
 Sucker Punch
 Shadow Ball
-Payback
 25/25/25/25/25/25
 0/0/0/200/80/200
 
@@ -7829,10 +7829,10 @@ Bashful
 Levitate
 
 None
+Hex
 Curse
 Sucker Punch
 Shadow Ball
-Payback
 25/25/25/25/25/25
 0/0/0/200/80/200
 
@@ -7880,10 +7880,10 @@ Hardy
 Levitate
 
 None
+Pain Split
 Shadow Ball
 Payback
 Mean Look
-Perish Song
 25/25/25/25/25/25
 252/0/4/0/0/252
 
@@ -9417,10 +9417,10 @@ Naive
 Intimidate
 
 None
+Roar
 Swagger
 Crunch
 Scary Face
-Headbutt
 31/31/31/31/31/31
 0/252/0/252/0/4
 
@@ -9430,10 +9430,10 @@ Hardy
 Intimidate
 
 None
+Screech
 Spit Up
 Swallow
 Stockpile
-Poison Tail
 31/31/31/31/31/31
 0/252/0/252/0/0
 
@@ -9449,10 +9449,10 @@ Naive
 Limber
 
 None
+Feint Attack
 Charm
 Slash
 Knock Off
-Taunt
 31/31/31/31/31/31
 0/236/20/0/0/236
 
@@ -9462,10 +9462,10 @@ Hardy
 Levitate
 
 None
+Self-Destruct
 Haze
 Gyro Ball
 Sludge Bomb
-Lava Plume
 31/31/31/31/31/31
 36/0/236/0/0/236
 
@@ -9475,10 +9475,10 @@ Modest
 Levitate
 
 None
+Venoshock
 Moonlight
 Leech Life
 Bug Buzz
-Light Screen
 31/31/31/31/31/31
 248/0/120/140/0/0
 
@@ -9494,10 +9494,10 @@ Naive
 Dry Skin
 
 None
+Revenge
 Venoshock
 Swagger
 Poison Jab
-Mud Bomb
 31/31/31/31/31/31
 0/252/0/252/0/4
 
@@ -9507,10 +9507,10 @@ Hardy
 Shed Skin
 
 None
+Poison Tail
 Venom Drench
 Night Slash
 Gastro Acid
-Poison Jab
 31/31/31/31/31/31
 8/56/0/220/224/0
 
@@ -9520,10 +9520,10 @@ Hardy
 Tinted Lens
 
 None
+Supersonic
 Air Slash
 Safeguard
 Bug Buzz
-Psychic
 31/31/31/31/31/31
 8/56/0/220/224/0
 
@@ -9539,10 +9539,10 @@ Naive
 Aftermath
 
 None
+Slash
 Night Slash
 Feint
 Toxic
-Poison Jab
 31/31/31/31/31/31
 0/252/0/252/0/4
 
@@ -9552,10 +9552,10 @@ Hardy
 Tinted Lens
 
 None
+Leech Life
 Mega Drain
 Signal Beam
 Zen Headbutt
-Baton Pass
 31/31/31/31/31/31
 36/0/36/236/116/76
 
@@ -9565,10 +9565,10 @@ Hardy
 Intimidate
 
 None
+Screech
 Spit Up
 Swallow
 Stockpile
-Poison Tail
 31/31/31/31/31/31
 0/252/0/252/0/0
 
@@ -9584,10 +9584,10 @@ Naive
 Levitate
 
 None
+Embargo
 Psyshock
 Psychic
 Cosmic Power
-Stone Edge
 31/31/31/31/31/31
 0/0/0/252/252/4
 
@@ -9597,10 +9597,10 @@ Hardy
 Levitate
 
 None
+Rock Slide
 Embargo
 Zen Headbutt
 Cosmic Power
-Psychic
 31/31/31/31/31/31
 252/4/252/0/0/0
 Paired with 965
@@ -9616,10 +9616,10 @@ Naive
 Levitate
 
 None
+Rock Slide
 Embargo
 Zen Headbutt
 Cosmic Power
-Psychic
 31/31/31/31/31/31
 252/4/252/0/0/0
 
@@ -9629,10 +9629,10 @@ Hardy
 Levitate
 
 None
+Embargo
 Psyshock
 Psychic
 Cosmic Power
-Stone Edge
 31/31/31/31/31/31
 0/0/0/252/252/4
 Paired with 964
@@ -9648,10 +9648,10 @@ Naive
 Adaptability
 
 None
+Venoshock
 Poison Jab
 Assurance
 X-Scissor
-Cross Poison
 31/31/31/31/31/31
 0/252/0/252/0/4
 
@@ -9661,10 +9661,10 @@ Hardy
 Inner Focus
 
 None
+Quick Guard
 Crunch
 Leech Life
 Swift
-Hypnosis
 31/31/31/31/31/31
 252/0/0/176/0/80
 
@@ -9680,10 +9680,10 @@ Hardy
 Torrent
 
 None
+Icy Wind
 Swagger
 Scald
 Fury Attack
-Brine
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9693,10 +9693,10 @@ Hardy
 Thick Fat
 
 None
+Body Slam
 Helping Hand
 Aqua Tail
 Play Rough
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9712,10 +9712,10 @@ Serious
 Flower Gift
 
 None
+Sunny Day
 Petal Dance
 Giga Drain
 Take Down
-Petal Blizzard
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9725,10 +9725,10 @@ Docile
 Chlorophyll
 
 None
+Cotton Spore
 Worry Seed
 Giga Drain
 Air Slash
-Acrobatics
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9744,10 +9744,10 @@ Naive
 Technician
 
 None
+Focus Energy
 Slash
 Night Slash
 X-Scissor
-Screech
 31/31/31/31/31/31
 0/252/0/252/0/0
 
@@ -9763,10 +9763,10 @@ Naive
 Super Luck
 
 None
+Taunt
 Drill Peck
 Mean Look
 Sucker Punch
-Tailwind
 31/31/31/31/31/31
 0/252/0/252/0/4
 
@@ -9782,10 +9782,10 @@ Naive
 Compound Eyes
 
 None
+Leech Life
 Mind Reader
 Metal Claw
 Dig
-X-Scissor
 31/31/31/31/31/31
 252/0/0/0/0/0
 
@@ -9801,10 +9801,10 @@ Naive
 Speed Boost
 
 Focus Sash
+Screech
 Slash
 Night Slash
 Aerial Ace
-X-Scissor
 31/31/31/31/31/31
 0/252/0/252/0/0
 
@@ -9820,10 +9820,10 @@ Naive
 Wonder Guard
 
 Focus Sash
+Leech Life
 Mind Reader
 Shadow Sneak
 X-Scissor
-Confuse Ray
 31/31/31/31/31/31
 0/252/0/252/0/0
 
@@ -9839,10 +9839,10 @@ Serious
 Soundproof
 
 None
+Uproar
 Mimic
 Round
 Chatter
-Roost
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9858,10 +9858,10 @@ Serious
 Cute Charm
 
 None
+Fury Swipes
 Double Slap
 Covet
 Copycat
-Payback
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9877,10 +9877,10 @@ Hardy
 Insomnia
 
 None
+Psycho Shift
 Air Slash
 Take Down
 Reflect
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9896,10 +9896,10 @@ Quirky
 Guts
 
 None
+Knock Off
 Vital Throw
 Strength
 Payback
-Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9915,10 +9915,10 @@ Quirky
 Intimidate
 
 None
+Flame Wheel
 Helping Hand
 Agility
 Fire Fang
-Reversal
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -9934,10 +9934,10 @@ Docile
 Intimidate
 
 None
+Headbutt
 Roar
 Play Rough
 Crunch
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10321,10 +10321,10 @@ Quirky
 Sturdy
 
 None
+Mimic
 Feint Attack
 Tearful Look
 Rollout
-Rock Slide
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10334,10 +10334,10 @@ Bashful
 Flame Body
 
 None
+Fire Punch
 Confuse Ray
 Scary Face
 Brick Break
-Lava Plume
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10347,10 +10347,10 @@ Hardy
 Static
 
 None
+Thunder Wave
 Thunder Punch
 Light Screen
 Brick Break
-Discharge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10360,10 +10360,10 @@ Bashful
 Technician
 
 None
+Psybeam
 Recycle
 Light Screen
 Reflect
-Dazzling Gleam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10392,10 +10392,10 @@ Serious
 Super Luck
 
 None
+Wish
 Safeguard
 Ancient Power
 Soft-Boiled
-Baton Pass
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10431,10 +10431,10 @@ Hardy
 Hydration
 
 None
+Covet
 Mean Look
 Extrasensory
 Fake Tears
-Ice Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10476,10 +10476,10 @@ Serious
 Static
 
 None
+Double Team
 Slam
 Thunderbolt
 Agility
-Discharge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10489,10 +10489,10 @@ Bashful
 Static
 
 None
+Electro Ball
 Shock Wave
 Fake Out
 Feint
-Spark
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10508,10 +10508,10 @@ Docile
 Flame Body
 
 None
+Take Down
 Fire Spin
 Agility
 Hypnosis
-Low Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10521,10 +10521,10 @@ Docile
 Simple
 
 None
+Yawn
 Crunch
 Aqua Tail
 Take Down
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10540,10 +10540,10 @@ Docile
 Flame Body
 
 None
+Take Down
 Fire Spin
 Agility
 Hypnosis
-Low Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10553,10 +10553,10 @@ Docile
 Simple
 
 None
+Yawn
 Crunch
 Aqua Tail
 Take Down
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10572,10 +10572,10 @@ Docile
 Flame Body
 
 None
+Take Down
 Fire Spin
 Agility
 Hypnosis
-Low Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10585,10 +10585,10 @@ Docile
 Simple
 
 None
+Yawn
 Crunch
 Aqua Tail
 Take Down
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10604,10 +10604,10 @@ Serious
 Flash Fire
 
 None
+Fire Spin
 Flame Wheel
 Lava Plume
 Play Rough
-Scary Face
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10623,10 +10623,10 @@ Docile
 Water Absorb
 
 None
+Aurora Beam
 Aqua Ring
 Scald
 Extrasensory
-Acid Armor
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10642,10 +10642,10 @@ Serious
 Tangled Feet
 
 None
+Double Hit
 Agility
 Uproar
 Drill Peck
-Jump Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10661,10 +10661,10 @@ Hardy
 Oblivious
 
 None
+Encore
 Wish
 Aromatherapy
 Flatter
-Moonblast
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10680,10 +10680,10 @@ Hardy
 Illuminate
 
 None
+Encore
 Signal Beam
 Tail Glow
 Protect
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10699,10 +10699,10 @@ Quirky
 Keen Eye
 
 None
+Assurance
 Take Down
 Drill Peck
 Agility
-Drill Run
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10718,10 +10718,10 @@ Quirky
 Sticky Hold
 
 None
+Whirlpool
 Rain Dance
 Earth Power
 Muddy Water
-Body Slam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10731,10 +10731,10 @@ Hardy
 Oblivious
 
 None
+Snore
 Aqua Tail
 Earth Power
 Muddy Water
-Future Sight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10744,10 +10744,10 @@ Docile
 Tinted Lens
 
 None
+Gust
 Confusion
 Bug Buzz
 Poison Powder
-Air Cutter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10763,10 +10763,10 @@ Docile
 Plus
 
 Sitrus Berry
+Charge
 Discharge
 Copycat
 Charm
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10776,10 +10776,10 @@ Quirky
 Minus
 
 Sitrus Berry
+Charge
 Discharge
 Copycat
 Fake Tears
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10789,10 +10789,10 @@ Hardy
 Volt Absorb
 
 Sitrus Berry
+Discharge
 Electro Ball
 Uproar
 Sweet Kiss
-Thunder Wave
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10827,10 +10827,10 @@ Hardy
 Cute Charm
 
 Sitrus Berry
+Minimize
 Metronome
 Cosmic Power
 Moonblast
-Moonlight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10840,10 +10840,10 @@ Hardy
 Water Veil
 
 Sitrus Berry
+Mist
 Brine
 Dive
 Rest
-Water Spout
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10853,10 +10853,10 @@ Quirky
 Sturdy
 
 Sitrus Berry
+Tearful Look
 Rollout
 Rock Slide
 Block
-Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10866,10 +10866,10 @@ Docile
 Cute Charm
 
 Sitrus Berry
+Feint Attack
 Zen Headbutt
 Sucker Punch
 Charm
-Facade
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10885,10 +10885,10 @@ Docile
 Static
 
 None
+Take Down
 Electro Ball
 Discharge
 Power Gem
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10904,10 +10904,10 @@ Bashful
 Flame Body
 
 None
+Fire Spin
 Agility
 Hypnosis
 Low Kick
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10923,10 +10923,10 @@ Docile
 Levitate
 
 None
+Payback
 Mean Look
 Perish Song
 Power Gem
-Moonblast
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -10942,10 +10942,10 @@ Hardy
 Insomnia
 
 None
+Drill Peck
 Mean Look
 Sucker Punch
 Tailwind
-Air Cutter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13229,10 +13229,10 @@ Bashful
 Levitate
 
 None
+Gyro Ball
 Iron Defense
 Zen Headbutt
 Safeguard
-Heavy Slam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13242,10 +13242,10 @@ Quirky
 Rock Head
 
 None
+Self-Destruct
 Gyro Ball
 Rock Slide
 Stealth Rock
-Earthquake
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13255,10 +13255,10 @@ Hardy
 Sand Veil
 
 None
+Slash
 Night Slash
 Dig
 Sand Tomb
-Gyro Ball
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13274,10 +13274,10 @@ Bashful
 Steadfast
 
 None
+Crunch
 Aura Sphere
 Nasty Plot
 Cross Chop
-Quick Guard
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13300,10 +13300,10 @@ Bashful
 Pickup
 
 None
+Body Slam
 Stockpile
 Swallow
 Rollout
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13319,10 +13319,10 @@ Hardy
 Swift Swim
 
 None
+Bubble Beam
 Take Down
 Agility
 Air Slash
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13364,10 +13364,10 @@ Serious
 Scrappy
 
 None
+Flame Wheel
 Zen Headbutt
 Extreme Speed
 Amnesia
-Reversal
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13383,10 +13383,10 @@ Serious
 Pickup
 
 None
+Fury Swipes
 Slash
 Take Down
 Rest
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13402,10 +13402,10 @@ Serious
 Shed Skin
 
 None
+Agility
 Dragon Pulse
 Aqua Tail
 Safeguard
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13415,10 +13415,10 @@ Bashful
 Shed Skin
 
 None
+Agility
 Dragon Pulse
 Aqua Tail
 Safeguard
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13434,10 +13434,10 @@ Docile
 Rock Head
 
 None
+Dragon Claw
 Crunch
 Zen Headbutt
 Scary Face
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13447,10 +13447,10 @@ Hardy
 Rock Head
 
 None
+Crunch
 Zen Headbutt
 Protect
 Scary Face
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13466,10 +13466,10 @@ Bashful
 Thick Fat
 
 None
+Rollout
 Headbutt
 Body Slam
 Zen Headbutt
-Gyro Ball
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13485,10 +13485,10 @@ Serious
 Intimidate
 
 None
+Payback
 Take Down
 Zen Headbutt
 Body Slam
-Swagger
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13504,10 +13504,10 @@ Hardy
 Flame Body
 
 None
+Fire Spin
 Agility
 Hypnosis
 Low Kick
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13523,10 +13523,10 @@ Quirky
 Soundproof
 
 None
+Electro Ball
 Self-Destruct
 Discharge
 Light Screen
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13542,10 +13542,10 @@ Docile
 Cute Charm
 
 None
+After You
 Follow Me
 Draining Kiss
 Life Dew
-Body Slam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13561,10 +13561,10 @@ Quirky
 Anticipation
 
 None
+Drain Punch
 Nasty Plot
 Toxic
 Sucker Punch
-Cross Chop
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13580,10 +13580,10 @@ Quirky
 Speed Boost
 
 None
+Aerial Ace
 X-Scissor
 Baton Pass
 Swords Dance
-U-turn
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13599,10 +13599,10 @@ Quirky
 Stench
 
 None
+Poison Jab
 Flamethrower
 Memento
 Crunch
-Belch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13618,10 +13618,10 @@ Docile
 Rock Head
 
 None
+Knock Off
 Swords Dance
 Bone Rush
 Thrash
-Fling
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13631,10 +13631,10 @@ Bashful
 Rock Head
 
 None
+Zen Headbutt
 Swords Dance
 Endeavor
 Screech
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13650,10 +13650,10 @@ Serious
 Vital Spirit
 
 None
+Ice Punch
 Cross Chop
 Skull Bash
 Night Slash
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13663,10 +13663,10 @@ Hardy
 Keen Eye
 
 None
+Ice Punch
 Fire Punch
 Feint
 Detect
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13682,10 +13682,10 @@ Serious
 Blaze
 
 None
+Fire Punch
 Focus Energy
 Sky Uppercut
 Flamethrower
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13695,10 +13695,10 @@ Hardy
 Limber
 
 None
+Brick Break
 Jump Kick
 Feint
 Endure
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13714,10 +13714,10 @@ Serious
 Guts
 
 None
+Vital Throw
 Strength
 Payback
 Counter
-Dual Chop
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13727,10 +13727,10 @@ Bashful
 Intimidate
 
 None
+Triple Kick
 Feint
 Dig
 Detect
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13746,10 +13746,10 @@ Bashful
 Intimidate
 
 None
+Facade
 Endeavor
 Whirlwind
 Close Combat
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13765,10 +13765,10 @@ Serious
 Guts
 
 None
+Fire Fang
 Roar
 Volt Switch
 Crunch
-Swagger
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -13874,10 +13874,10 @@ Serious
 Guts
 
 None
+Strength
 Payback
 Dual Chop
 Counter
-Bulk Up
 25/25/25/25/25/25
 36/196/36/0/0/0
 
@@ -13887,10 +13887,10 @@ Hardy
 Pure Power
 
 None
+Psycho Cut
 Calm Mind
 Mind Reader
 High Jump Kick
-Psych Up
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -13900,10 +13900,10 @@ Quirky
 Anticipation
 
 None
+Swagger
 Poison Jab
 Mud Bomb
 Drain Punch
-Nasty Plot
 25/25/25/25/25/25
 52/0/116/188/0/0
 
@@ -13913,10 +13913,10 @@ Serious
 Vital Spirit
 
 None
+Cross Chop
 Assurance
 Skull Bash
 Night Slash
-Close Combat
 25/25/25/25/25/25
 36/196/76/0/0/0
 
@@ -13926,10 +13926,10 @@ Quirky
 Thick Fat
 
 None
+Revenge
 Detect
 Seismic Toss
 Cross Chop
-Focus Punch
 25/25/25/25/25/25
 252/252/4/0/0/0
 
@@ -14403,10 +14403,10 @@ Docile
 Stench
 
 None
+Toxic
 Poison Jab
 Flamethrower
 Memento
-Crunch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14416,10 +14416,10 @@ Serious
 Shield Dust
 
 None
+Leech Life
 Bug Buzz
 Light Screen
 Toxic
-Tailwind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14429,10 +14429,10 @@ Hardy
 Battle Armor
 
 None
+Growth
 Energy Ball
 Infestation
 Psybeam
-Attract
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 675
@@ -14448,10 +14448,10 @@ Bashful
 Levitate
 
 None
+Sludge Bomb
 Lava Plume
 Destiny Bond
 Double Hit
-Toxic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14461,10 +14461,10 @@ Quirky
 Inner Focus
 
 None
+Leech Life
 Swift
 Hypnosis
 Air Slash
-Haze
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14474,10 +14474,10 @@ Docile
 Shield Dust
 
 None
+Signal Beam
 Zen Headbutt
 Gust
 Baton Pass
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 674
@@ -14905,10 +14905,10 @@ Docile
 Battle Armor
 
 None
+Brine
 Water Pulse
 X-Scissor
 Slash
-Crush Claw
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14918,10 +14918,10 @@ Hardy
 Suction Cups
 
 None
+Brine
 Gastro Acid
 Amnesia
 Earth Power
-Recover
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14931,10 +14931,10 @@ Hardy
 Rock Head
 
 None
+Ancient Power
 Crunch
 Rock Slide
 Take Down
-Dragon Claw
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14950,10 +14950,10 @@ Docile
 Volt Absorb
 
 None
+Thunder Fang
 Discharge
 Extrasensory
 Agility
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14963,10 +14963,10 @@ Quirky
 Water Absorb
 
 None
+Aqua Ring
 Scald
 Extrasensory
 Acid Armor
-Muddy Water
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14976,10 +14976,10 @@ Quirky
 Flash Fire
 
 None
+Flame Wheel
 Lava Plume
 Play Rough
 Scary Face
-Flamethrower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -14995,10 +14995,10 @@ Bashful
 Early Bird
 
 None
+Mega Punch
 Headbutt
 Crunch
 Body Slam
-Dizzy Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15008,10 +15008,10 @@ Docile
 Chlorophyll
 
 None
+Leaf Tornado
 Body Slam
 Air Slash
 Energy Ball
-Leaf Blade
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15021,10 +15021,10 @@ Hardy
 Liquid Ooze
 
 None
+Pain Split
 Body Slam
 Sludge Bomb
 Toxic
-Stockpile
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15040,10 +15040,10 @@ Serious
 Battle Armor
 
 None
+Confusion
 Bug Buzz
 Growth
 Energy Ball
-Infestation
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15053,10 +15053,10 @@ Docile
 Battle Armor
 
 None
+Confusion
 Bug Buzz
 Growth
 Energy Ball
-Infestation
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15066,10 +15066,10 @@ Docile
 Battle Armor
 
 None
+Confusion
 Bug Buzz
 Growth
 Energy Ball
-Infestation
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15085,10 +15085,10 @@ Serious
 Synchronize
 
 None
+Light Screen
 Psyshock
 Psycho Cut
 Recover
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15098,10 +15098,10 @@ Quirky
 Thick Fat
 
 None
+Rest
 Snore
 Sleep Talk
 Teeter Dance
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15111,10 +15111,10 @@ Hardy
 Insomnia
 
 None
+Psycho Cut
 Mind Reader
 Psych Up
 Zen Headbutt
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15130,10 +15130,10 @@ Bashful
 Synchronize
 
 None
+Hypnosis
 Life Dew
 Psychic
 Calm Mind
-Moonblast
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15143,10 +15143,10 @@ Quirky
 Levitate
 
 None
+Extrasensory
 Heal Bell
 Safeguard
 Psychic
-Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15156,10 +15156,10 @@ Hardy
 Inner Focus
 
 None
+Uproar
 Zen Headbutt
 Magic Coat
 Crunch
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15175,10 +15175,10 @@ Bashful
 Swift Swim
 
 None
+Rock Slide
 Aqua Tail
 Rest
 Zen Headbutt
-Flail
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15194,10 +15194,10 @@ Bashful
 Water Absorb
 
 None
+Bubble Beam
 Avalanche
 Dragon Pulse
 Drill Run
-Icicle Crash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15213,10 +15213,10 @@ Hardy
 Sand Veil
 
 None
+Tri Attack
 Rock Slide
 Sandstorm
 Earth Power
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15232,10 +15232,10 @@ Bashful
 Rough Skin
 
 None
+Waterfall
 Scary Face
 Crunch
 Poison Fang
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15245,10 +15245,10 @@ Docile
 Hustle
 
 None
+Ice Beam
 Signal Beam
 Seed Bomb
 Flamethrower
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15258,10 +15258,10 @@ Quirky
 Swift Swim
 
 None
+Agility
 Muddy Water
 Dragon Pulse
 Laser Focus
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15277,10 +15277,10 @@ Serious
 Sticky Hold
 
 None
+Earth Power
 Sludge Bomb
 Muddy Water
 Body Slam
-Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15296,10 +15296,10 @@ Quirky
 Thick Fat
 
 None
+Aqua Tail
 Play Rough
 Aqua Ring
 Ice Punch
-Belly Drum
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15315,10 +15315,10 @@ Serious
 Cute Charm
 
 None
+Covet
 Copycat
 Payback
 Zen Headbutt
-Charm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15328,10 +15328,10 @@ Docile
 Limber
 
 None
+Taunt
 Power Gem
 Assurance
 Hypnosis
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15347,10 +15347,10 @@ Hardy
 Intimidate
 
 None
+Scary Face
 Crunch
 Dragon Dance
 Outrage
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15360,10 +15360,10 @@ Docile
 Intimidate
 
 None
+Scary Face
 Crunch
 Dragon Dance
 Outrage
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15373,10 +15373,10 @@ Quirky
 Intimidate
 
 None
+Scary Face
 Crunch
 Dragon Dance
 Outrage
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15392,10 +15392,10 @@ Serious
 Damp
 
 None
+Power Gem
 Psychic
 Psych Up
 Future Sight
-Wonder Room
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15405,10 +15405,10 @@ Docile
 Swift Swim
 
 None
+Aqua Ring
 Mirror Coat
 Bounce
 Tailwind
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15418,10 +15418,10 @@ Quirky
 Hustle
 
 None
+Endure
 Rock Blast
 Heal Bell
 Aqua Ring
-Mirror Coat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15437,10 +15437,10 @@ Quirky
 Unaware
 
 None
+Body Slam
 Earthquake
 Counter
 Rain Dance
-Toxic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15450,10 +15450,10 @@ Quirky
 Rough Skin
 
 None
+Night Slash
 Crunch
 Poison Fang
 Skull Bash
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15469,10 +15469,10 @@ Hardy
 Keen Eye
 
 None
+Roost
 Air Slash
 Tailwind
 Uproar
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15482,10 +15482,10 @@ Quirky
 Swift Swim
 
 None
+Safeguard
 Aqua Tail
 Aqua Ring
 Whirlpool
-U-turn
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15501,10 +15501,10 @@ Quirky
 Drizzle
 
 None
+Belly Drum
 Swagger
 Bounce
 Hydro Pump
-Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15604,10 +15604,10 @@ Serious
 Shed Skin
 
 None
+Agility
 Dragon Pulse
 Aqua Tail
 Safeguard
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15617,10 +15617,10 @@ Bashful
 Shed Skin
 
 None
+Agility
 Dragon Pulse
 Aqua Tail
 Safeguard
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15636,10 +15636,10 @@ Hardy
 Shell Armor
 
 None
+Iron Defense
 Razor Shell
 Ice Beam
 Aqua Ring
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15649,10 +15649,10 @@ Bashful
 Shell Armor
 
 None
+Water Gun
 Clamp
 Water Pulse
 Muddy Water
-Shell Smash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15662,10 +15662,10 @@ Docile
 Shell Armor
 
 None
+Spikes
 Clamp
 Ice Shard
 Pin Missile
-Aurora Beam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15681,10 +15681,10 @@ Serious
 Intimidate
 
 None
+Retaliate
 Crunch
 Outrage
 Heat Wave
-Play Rough
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15694,10 +15694,10 @@ Serious
 Guts
 
 None
+Strength
 Payback
 Counter
 Dual Chop
-Bulk Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15707,10 +15707,10 @@ Bashful
 Insomnia
 
 None
+Air Slash
 Take Down
 Reflect
 Psychic
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15726,10 +15726,10 @@ Bashful
 Magnet Pull
 
 None
+Discharge
 Tri Attack
 Flash Cannon
 Screech
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15739,10 +15739,10 @@ Quirky
 Soundproof
 
 None
+Self-Destruct
 Discharge
 Light Screen
 Magnet Rise
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15752,10 +15752,10 @@ Quirky
 Trace
 
 None
+Signal Beam
 Lock-On
 Magic Coat
 Thunderbolt
-Trick Room
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15771,10 +15771,10 @@ Quirky
 Oblivious
 
 None
+Earth Power
 Muddy Water
 Future Sight
 Earthquake
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15784,10 +15784,10 @@ Quirky
 Poison Point
 
 None
+Poison Jab
 Revenge
 Aqua Tail
 Pin Missile
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15803,10 +15803,10 @@ Bashful
 Stench
 
 None
+Payback
 Sludge Wave
 Screech
 Sludge Bomb
-Acid Armor
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15816,10 +15816,10 @@ Serious
 Levitate
 
 None
+Destiny Bond
 Double Hit
 Toxic
 Dark Pulse
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15835,10 +15835,10 @@ Docile
 Poison Point
 
 None
+Agility
 Muddy Water
 Dragon Pulse
 Laser Focus
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15848,10 +15848,10 @@ Serious
 Damp
 
 None
+Aqua Tail
 Power Gem
 Psychic
 Psych Up
-Future Sight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15867,10 +15867,10 @@ Quirky
 Oblivious
 
 None
+Earth Power
 Thrash
 Muddy Water
 Future Sight
-Earthquake
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15880,10 +15880,10 @@ Docile
 Volt Absorb
 
 None
+Discharge
 Signal Beam
 Flail
 Thunderbolt
-Take Down
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15893,10 +15893,10 @@ Quirky
 Swift Swim
 
 None
+Body Slam
 Aqua Tail
 Knock Off
 Drill Run
-Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15912,10 +15912,10 @@ Serious
 Levitate
 
 None
+Swallow
 Crunch
 Iron Head
 Energy Ball
-Leech Seed
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15925,10 +15925,10 @@ Bashful
 Color Change
 
 None
+Fake Out
 Detect
 Shadow Claw
 Screech
-Sucker Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15938,10 +15938,10 @@ Hardy
 Static
 
 None
+Brick Break
 Discharge
 Screech
 Cross Chop
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15957,10 +15957,10 @@ Quirky
 Flame Body
 
 None
+Brick Break
 Lava Plume
 Sunny Day
 Cross Chop
-Low Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15970,10 +15970,10 @@ Quirky
 Static
 
 None
+Roar
 Discharge
 Flamethrower
 Crunch
-Wild Charge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -15983,10 +15983,10 @@ Bashful
 Poison Point
 
 None
+Helping Hand
 Thrash
 Toxic Spikes
 Poison Jab
-Flatter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -16002,10 +16002,10 @@ Hardy
 Marvel Scale
 
 None
+Hypnosis
 Attract
 Moonblast
 Dragon Pulse
-Surf
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -16015,10 +16015,10 @@ Bashful
 Leaf Guard
 
 None
+Night Slash
 Swords Dance
 Leaf Blade
 Psycho Cut
-Giga Drain
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -16028,10 +16028,10 @@ Quirky
 Dry Skin
 
 None
+Fake Tears
 Ice Beam
 Psychic
 Body Slam
-Freeze-Dry
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -16047,10 +16047,10 @@ Docile
 Forecast
 
 None
+Weather Ball
 Hydro Pump
 Fire Blast
 Blizzard
-Hurricane
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -17326,10 +17326,10 @@ Docile
 Swift Swim
 
 None
+Flail
 Safeguard
 Aqua Tail
 Aqua Ring
-Whirlpool
 25/25/25/25/25/25
 252/0/248/0/0/8
 
@@ -17339,10 +17339,10 @@ Docile
 Clear Body
 
 None
+Acid Armor
 Sludge Bomb
 Barrier
 Knock Off
-Screech
 25/25/25/25/25/25
 252/0/112/0/0/144
 
@@ -17352,10 +17352,10 @@ Docile
 Hyper Cutter
 
 None
+Knock Off
 Guillotine
 Razor Shell
 Slam
-X-Scissor
 25/25/25/25/25/25
 0/252/4/0/0/252
 
@@ -17371,10 +17371,10 @@ Serious
 Keen Eye
 
 None
+Spit Up
 Roost
 Air Slash
 Tailwind
-Uproar
 25/25/25/25/25/25
 248/0/36/0/224/0
 
@@ -17384,10 +17384,10 @@ Serious
 Intimidate
 
 None
+Slash
 Night Slash
 Low Kick
 Screech
-Thrash
 25/25/25/25/25/25
 4/252/252/0/0/0
 
@@ -17397,10 +17397,10 @@ Quirky
 Damp
 
 None
+Aqua Tail
 Power Gem
 Psychic
 Psych Up
-Future Sight
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -17416,10 +17416,10 @@ Quirky
 Oblivious
 
 None
+Earth Power
 Thrash
 Muddy Water
 Future Sight
-Earthquake
 25/25/25/25/25/25
 4/252/0/0/0/252
 
@@ -17429,10 +17429,10 @@ Docile
 Volt Absorb
 
 None
+Discharge
 Signal Beam
 Flail
 Thunderbolt
-Take Down
 25/25/25/25/25/25
 0/0/0/172/136/200
 
@@ -17442,10 +17442,10 @@ Quirky
 Swift Swim
 
 None
+Body Slam
 Aqua Tail
 Knock Off
 Drill Run
-Bounce
 25/25/25/25/25/25
 64/252/0/0/0/192
 
@@ -17461,10 +17461,10 @@ Bashful
 Oblivious
 
 None
+Amnesia
 Withdraw
 Psychic
 Rain Dance
-Psych Up
 25/25/25/25/25/25
 252/0/252/4/0/0
 
@@ -17474,10 +17474,10 @@ Quirky
 Sticky Hold
 
 None
+Earth Power
 Sludge Bomb
 Muddy Water
 Body Slam
-Counter
 25/25/25/25/25/25
 252/0/108/0/148/0
 
@@ -17487,10 +17487,10 @@ Serious
 Swift Swim
 
 None
+Agility
 Air Slash
 Aqua Ring
 Mirror Coat
-Bounce
 25/25/25/25/25/25
 252/0/0/0/120/136
 
@@ -17506,10 +17506,10 @@ Docile
 Simple
 
 None
+Take Down
 Super Fang
 Swords Dance
 Amnesia
-Superpower
 25/25/25/25/25/25
 0/252/4/0/0/252
 
@@ -17519,10 +17519,10 @@ Docile
 Torrent
 
 None
+Muddy Water
 Iron Defense
 Shell Smash
 Skull Bash
-Aqua Tail
 25/25/25/25/25/25
 0/0/252/4/252/0
 
@@ -17532,10 +17532,10 @@ Bashful
 Thick Fat
 
 None
+Snore
 Hail
 Ice Beam
 Aqua Tail
-Belly Drum
 25/25/25/25/25/25
 252/0/4/252/0/0
 
@@ -17551,10 +17551,10 @@ Quirky
 Thick Fat
 
 None
+Play Rough
 Aqua Ring
 Ice Punch
 Belly Drum
-Double-Edge
 25/25/25/25/25/25
 4/252/0/0/0/252
 
@@ -17564,10 +17564,10 @@ Quirky
 Torrent
 
 None
+Protect
 Take Down
 Amnesia
 Earthquake
-Muddy Water
 25/25/25/25/25/25
 252/252/4/0/0/0
 
@@ -17577,10 +17577,10 @@ Docile
 Thick Fat
 
 None
+Drill Run
 Brine
 Icicle Crash
 Safeguard
-Icicle Crash
 25/25/25/25/25/25
 252/0/4/0/252/0
 
@@ -17932,10 +17932,10 @@ Docile
 Swarm
 
 None
+Double Team
 Razor Wind
 X-Scissor
 Double Hit
-Air Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -17945,10 +17945,10 @@ Docile
 Own Tempo
 
 None
+Fake Out
 Zen Headbutt
 Hammer Arm
 Double-Edge
-Flail
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -17958,10 +17958,10 @@ Quirky
 Inner Focus
 
 None
+Swift
 Hypnosis
 Air Slash
 Haze
-Zen Headbutt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -17977,10 +17977,10 @@ Quirky
 Liquid Ooze
 
 None
+Stockpile
 Spit Up
 Swallow
 Gastro Acid
-Destiny Bond
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -17990,10 +17990,10 @@ Docile
 Shield Dust
 
 None
+Light Screen
 Toxic
 Tailwind
 Protect
-Quiver Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18003,10 +18003,10 @@ Quirky
 Tinted Lens
 
 None
+Roost
 Psybeam
 Struggle Bug
 Air Slash
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18080,10 +18080,10 @@ Hardy
 Flash Fire
 
 None
+Confuse Ray
 Feint Attack
 Will-O-Wisp
 Extrasensory
-Flamethrower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18099,10 +18099,10 @@ Hardy
 Sand Veil
 
 None
+Bite
 Dragon Claw
 Scary Face
 Rock Slide
-Earthquake
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18112,10 +18112,10 @@ Hardy
 Rock Head
 
 None
+Protect
 Scary Face
 Dragon Dance
 Flamethrower
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18125,10 +18125,10 @@ Docile
 Compound Eyes
 
 None
+Dragon Breath
 Earth Power
 Sandstorm
 Earthquake
-Bug Buzz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18138,10 +18138,10 @@ Quirky
 Shed Skin
 
 None
+Aqua Tail
 Safeguard
 Dragon Rush
 Dragon Dance
-Extreme Speed
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18202,10 +18202,10 @@ Hardy
 Guts
 
 None
+Counter
 Dual Chop
 Bulk Up
 Cross Chop
-Scary Face
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18215,10 +18215,10 @@ Docile
 Blaze
 
 None
+Flamethrower
 Blaze Kick
 Slash
 Night Slash
-Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18228,10 +18228,10 @@ Quirky
 Guts
 
 None
+Knock Off
 Megahorn
 Take Down
 Throat Chop
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18247,10 +18247,10 @@ Hardy
 Tangled Feet
 
 None
+Drill Peck
 Jump Kick
 Acupressure
 Swords Dance
-Lunge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18260,10 +18260,10 @@ Bashful
 Keen Eye
 
 None
+Razor Wind
 Roost
 Whirlwind
 Double-Edge
-Tailwind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18273,10 +18273,10 @@ Quirky
 Keen Eye
 
 None
+Slash
 Night Slash
 Iron Head
 Air Slash
-Drill Run
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18292,10 +18292,10 @@ Hardy
 Adaptability
 
 None
+Extrasensory
 Flame Charge
 Gyro Ball
 Flamethrower
-Rollout
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -18305,10 +18305,10 @@ Bashful
 Guts
 
 None
+Cross Chop
 Rest
 Earthquake
 Crunch
-Thrash
 25/25/25/25/25/25
 252/252/0/0/4/0
 
@@ -18318,10 +18318,10 @@ Serious
 Static
 
 None
+Take Down
 Discharge
 Dragon Pulse
 Power Gem
-Thunderbolt
 25/25/25/25/25/25
 252/0/0/252/4/0
 
@@ -18337,10 +18337,10 @@ Hardy
 Intimidate
 
 None
+Scary Face
 Crunch
 Dragon Dance
 Outrage
-Hydro Pump
 25/25/25/25/25/25
 0/252/0/0/4/252
 
@@ -18350,10 +18350,10 @@ Bashful
 Hyper Cutter
 
 None
+Cross Poison
 Screech
 X-Scissor
 Earthquake
-Swords Dance
 25/25/25/25/25/25
 244/0/0/0/244/20
 
@@ -18363,10 +18363,10 @@ Serious
 Chlorophyll
 
 None
+Spit Up
 Leech Life
 Leaf Blade
 Poison Jab
-Seed Bomb
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -18382,10 +18382,10 @@ Docile
 Chlorophyll
 
 None
+Giga Drain
 Ancient Power
 Slam
 Tickle
-Power Whip
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18395,10 +18395,10 @@ Bashful
 Flame Body
 
 None
+Flare Blitz
 Fury Attack
 Double-Edge
 Bounce
-Inferno
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18408,10 +18408,10 @@ Quirky
 Intimidate
 
 None
+Agility
 Slash
 Night Slash
 Screech
-Thrash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18427,10 +18427,10 @@ Hardy
 Intimidate
 
 None
+Sucker Punch
 Dark Pulse
 Flame Charge
 Embargo
-Foul Play
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18440,10 +18440,10 @@ Docile
 Inner Focus
 
 None
+Hypnosis
 Air Slash
 Haze
 Zen Headbutt
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18453,10 +18453,10 @@ Serious
 Adaptability
 
 None
+Drill Run
 Agility
 Endeavor
 Outrage
-Fell Stinger
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18556,10 +18556,10 @@ Hardy
 Swift Swim
 
 None
+Muddy Water
 Brine
 Earth Power
 Tickle
-Power Gem
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18569,10 +18569,10 @@ Bashful
 Swift Swim
 
 None
+Brine
 Knock Off
 Mega Drain
 Protect
-Metal Sound
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18582,10 +18582,10 @@ Hardy
 Swift Swim
 
 None
+Zen Headbutt
 Flail
 Stone Edge
 Amnesia
-Earthquake
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18601,10 +18601,10 @@ Hardy
 Swift Swim
 
 None
+Aqua Tail
 Crunch
 Baton Pass
 Confuse Ray
-Coil
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18614,10 +18614,10 @@ Bashful
 Swift Swim
 
 None
+Psychic
 Aqua Tail
 Baton Pass
 Confuse Ray
-Coil
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18633,10 +18633,10 @@ Quirky
 Swarm
 
 None
+Taunt
 Heal Bell
 Bug Buzz
 Sticky Web
-Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18646,10 +18646,10 @@ Bashful
 Scrappy
 
 None
+Rest
 Sleep Talk
 Crunch
 Hammer Arm
-Endeavor
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18665,10 +18665,10 @@ Bashful
 Hyper Cutter
 
 None
+Razor Shell
 Swords Dance
 Crunch
 Payback
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18684,10 +18684,10 @@ Bashful
 Guts
 
 None
+Counter
 Bulk Up
 Cross Chop
 Scary Face
-Dynamic Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18697,10 +18697,10 @@ Docile
 Guts
 
 None
+Counter
 Dual Chop
 Bulk Up
 Cross Chop
-Scary Face
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18710,10 +18710,10 @@ Quirky
 Guts
 
 None
+Counter
 Dual Chop
 Bulk Up
 Cross Chop
-Scary Face
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18729,10 +18729,10 @@ Serious
 Magnet Pull
 
 None
+Flash Cannon
 Screech
 Thunderbolt
 Lock-On
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18742,10 +18742,10 @@ Hardy
 Magnet Pull
 
 None
+Flash Cannon
 Screech
 Thunderbolt
 Lock-On
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18755,10 +18755,10 @@ Serious
 Rock Head
 
 None
+Crunch
 Stone Edge
 Double-Edge
 Sandstorm
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18774,10 +18774,10 @@ Bashful
 Flame Body
 
 None
+Sunny Day
 Cross Chop
 Low Kick
 Flamethrower
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18787,10 +18787,10 @@ Serious
 Solid Rock
 
 None
+Earth Power
 Flamethrower
 Power Gem
 Body Slam
-Recover
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18800,10 +18800,10 @@ Quirky
 Flame Body
 
 None
+Flare Blitz
 Fury Attack
 Double-Edge
 Bounce
-Inferno
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18819,10 +18819,10 @@ Hardy
 Water Absorb
 
 None
+Body Slam
 Low Kick
 Belly Drum
 Earth Power
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18832,10 +18832,10 @@ Serious
 Sticky Hold
 
 None
+Muddy Water
 Body Slam
 Counter
 Mirror Coat
-Amnesia
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18845,10 +18845,10 @@ Docile
 Simple
 
 None
+Super Fang
 Swords Dance
 Amnesia
 Superpower
-Curse
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18864,10 +18864,10 @@ Quirky
 Thick Fat
 
 None
+Aqua Ring
 Ice Punch
 Belly Drum
 Double-Edge
-Superpower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18896,10 +18896,10 @@ Bashful
 Suction Cups
 
 None
+Ice Beam
 Signal Beam
 Seed Bomb
 Flamethrower
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18909,10 +18909,10 @@ Docile
 Clear Body
 
 None
+Sludge Bomb
 Barrier
 Knock Off
 Screech
-Giga Drain
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18922,10 +18922,10 @@ Bashful
 Oblivious
 
 None
+Psychic
 Psych Up
 Rain Dance
 Future Sight
-Heal Pulse
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18941,10 +18941,10 @@ Serious
 Poison Point
 
 None
+Muddy Water
 Dragon Pulse
 Laser Focus
 Dragon Dance
-Outrage
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18954,10 +18954,10 @@ Hardy
 Swift Swim
 
 None
+Moonblast
 Aqua Ring
 Soak
 Bounce
-Safeguard
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18967,10 +18967,10 @@ Serious
 Swift Swim
 
 None
+Aqua Tail
 Knock Off
 Drill Run
 Bounce
-Soak
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18986,10 +18986,10 @@ Hardy
 Swift Swim
 
 None
+Whirlpool
 Waterfall
 Razor Wind
 Agility
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -18999,10 +18999,10 @@ Quirky
 Pure Power
 
 None
+High Jump Kick
 Psych Up
 Zen Headbutt
 Acupressure
-Power Trick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19012,10 +19012,10 @@ Bashful
 Swift Swim
 
 None
+Aqua Tail
 Knock Off
 Drill Run
 Bounce
-Soak
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19031,10 +19031,10 @@ Quirky
 Drizzle
 
 None
+Belly Drum
 Swagger
 Bounce
 Hydro Pump
-Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19044,10 +19044,10 @@ Bashful
 Volt Absorb
 
 None
+Signal Beam
 Flail
 Thunderbolt
 Take Down
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19063,10 +19063,10 @@ Hardy
 Swift Swim
 
 None
+Safeguard
 Aqua Tail
 Aqua Ring
 Whirlpool
-U-turn
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19076,10 +19076,10 @@ Hardy
 Hustle
 
 None
+Endure
 Rock Blast
 Heal Bell
 Aqua Ring
-Mirror Coat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19095,10 +19095,10 @@ Hardy
 Illuminate
 
 None
+Psybeam
 Minimize
 Power Gem
 Brine
-Psychic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19108,10 +19108,10 @@ Serious
 Torrent
 
 None
+Shell Smash
 Aura Sphere
 Skull Bash
 Aqua Tail
-Rain Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19127,10 +19127,10 @@ Hardy
 Water Veil
 
 None
+Water Spout
 Zen Headbutt
 Body Slam
 Aqua Ring
-Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19146,10 +19146,10 @@ Docile
 Oblivious
 
 None
+Thrash
 Muddy Water
 Future Sight
 Earthquake
-Dragon Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19159,10 +19159,10 @@ Serious
 Hyper Cutter
 
 None
+Guillotine
 Razor Shell
 Slam
 X-Scissor
-Agility
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19172,10 +19172,10 @@ Serious
 Intimidate
 
 None
+Crunch
 Dragon Dance
 Outrage
 Hydro Pump
-Rain Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19249,10 +19249,10 @@ Docile
 Chlorophyll
 
 None
+Mega Drain
 Leaf Blade
 Giga Drain
 Moonlight
-Earth Power
 25/25/25/25/25/25
 252/0/252/0/4/0
 
@@ -19262,10 +19262,10 @@ Bashful
 Synchronize
 
 None
+Psychic
 Calm Mind
 Moonblast
 Imprison
-Heal Pulse
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -19275,10 +19275,10 @@ Hardy
 Scrappy
 
 None
+Bounce
 Entrainment
 Focus Punch
 Flatter
-Healing Wish
 25/25/25/25/25/25
 0/252/0/0/4/252
 
@@ -19288,10 +19288,10 @@ Hardy
 Poison Point
 
 None
+Toxic Spikes
 Poison Jab
 Body Slam
 Flatter
-Crunch
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -19307,10 +19307,10 @@ Serious
 Super Luck
 
 None
+Safeguard
 Ancient Power
 Sky Attack
 Soft-Boiled
-Baton Pass
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19320,10 +19320,10 @@ Quirky
 Natural Cure
 
 None
+Light Screen
 Healing Wish
 Egg Bomb
 Counter
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19339,10 +19339,10 @@ Hardy
 Torrent
 
 None
+Amnesia
 Hammer Arm
 Earthquake
 Muddy Water
-Mirror Coat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -19358,10 +19358,10 @@ Bashful
 Marvel Scale
 
 None
+Dragon Pulse
 Surf
 Rain Dance
 Safeguard
-Mirror Coat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20637,10 +20637,10 @@ Docile
 Blaze
 
 None
+Scary Face
 Crunch
 Dragon Pulse
 Fire Spin
-Inferno
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20650,10 +20650,10 @@ Quirky
 Technician
 
 None
+Fake Out
 Fling
 Bounce
 Nasty Plot
-Switcheroo
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20663,10 +20663,10 @@ Quirky
 Swift Swim
 
 None
+Whirlpool
 Waterfall
 Razor Wind
 Agility
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20682,10 +20682,10 @@ Quirky
 Unburden
 
 None
+Energy Ball
 Crunch
 X-Scissor
 Screech
-Endeavor
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20695,10 +20695,10 @@ Hardy
 Keen Eye
 
 None
+Agility
 Drill Run
 Focus Energy
 Roost
-Tailwind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20708,10 +20708,10 @@ Hardy
 Static
 
 None
+Feint
 Spark
 Double Team
 Slam
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20727,10 +20727,10 @@ Serious
 Magnet Pull
 
 None
+Flash Cannon
 Screech
 Thunderbolt
 Lock-On
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20740,10 +20740,10 @@ Hardy
 Sturdy
 
 None
+Iron Tail
 Iron Defense
 Double-Edge
 Autotomize
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20753,10 +20753,10 @@ Hardy
 Iron Fist
 
 None
+Psychic
 Agility
 Meteor Mash
 Iron Defense
-Hyper Beam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20772,10 +20772,10 @@ Serious
 Magma Armor
 
 None
+Flamethrower
 Yawn
 Earthquake
 Double-Edge
-Eruption
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20791,10 +20791,10 @@ Serious
 Shed Skin
 
 None
+Payback
 Dragon Dance
 Earthquake
 Outrage
-Stone Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20804,10 +20804,10 @@ Quirky
 Sturdy
 
 None
+Stone Edge
 Zap Cannon
 Lock-On
 Head Smash
-Body Press
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20817,10 +20817,10 @@ Bashful
 Rock Head
 
 None
+Crunch
 Stone Edge
 Double-Edge
 Sandstorm
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20836,10 +20836,10 @@ Docile
 Thick Fat
 
 None
+Retaliate
 Swagger
 Play Rough
 Attract
-Body Slam
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20849,10 +20849,10 @@ Bashful
 Anticipation
 
 None
+Nasty Plot
 Toxic
 Sucker Punch
 Cross Chop
-Sludge Bomb
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20862,10 +20862,10 @@ Serious
 Stench
 
 None
+Memento
 Crunch
 Belch
 Sludge Bomb
-Play Rough
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 662
@@ -20881,10 +20881,10 @@ Quirky
 Inner Focus
 
 None
+Hypnosis
 Air Slash
 Haze
 Zen Headbutt
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20894,10 +20894,10 @@ Quirky
 Intimidate
 
 None
+Flame Charge
 Embargo
 Foul Play
 Nasty Plot
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20907,10 +20907,10 @@ Serious
 Stench
 
 None
+Screech
 Sludge Bomb
 Acid Armor
 Gunk Shot
-Memento
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 661
@@ -20926,10 +20926,10 @@ Hardy
 Reckless
 
 None
+Hammer Arm
 Megahorn
 Earthquake
 Stone Edge
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20939,10 +20939,10 @@ Serious
 Rock Head
 
 None
+Earthquake
 Rock Blast
 Explosion
 Double-Edge
-Stone Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20958,10 +20958,10 @@ Docile
 Magnet Pull
 
 None
+Flash Cannon
 Screech
 Thunderbolt
 Lock-On
-Magnet Rise
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20971,10 +20971,10 @@ Hardy
 Guts
 
 None
+Dual Chop
 Bulk Up
 Cross Chop
 Scary Face
-Dynamic Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -20990,10 +20990,10 @@ Hardy
 Sturdy
 
 None
+Iron Tail
 Iron Defense
 Double-Edge
 Autotomize
-Dragon Rush
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21003,10 +21003,10 @@ Hardy
 Rock Head
 
 None
+Earthquake
 Rock Blast
 Explosion
 Double-Edge
-Stone Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21035,10 +21035,10 @@ Docile
 Vital Spirit
 
 None
+Close Combat
 Thrash
 U-turn
 Stomping Tantrum
-Screech
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21054,10 +21054,10 @@ Bashful
 Intimidate
 
 None
+Stun Spore
 Air Slash
 Hydro Pump
 Bug Buzz
-Quiver Dance
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -21067,10 +21067,10 @@ Quirky
 Suction Cups
 
 None
+Earth Power
 Recover
 Energy Ball
 Mirror Coat
-Spit Up
 25/25/25/25/25/25
 252/0/4/0/252/0
 
@@ -21080,10 +21080,10 @@ Hardy
 Sand Stream
 
 None
+Slack Off
 Rest
 Earthquake
 Stealth Rock
-Double-Edge
 25/25/25/25/25/25
 252/0/80/0/176/0
 
@@ -21099,10 +21099,10 @@ Bashful
 Synchronize
 
 None
+Psychic
 Calm Mind
 Moonblast
 Imprison
-Heal Pulse
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -21112,10 +21112,10 @@ Docile
 Scrappy
 
 None
+Entrainment
 Focus Punch
 Flatter
 Healing Wish
-High Jump Kick
 25/25/25/25/25/25
 0/252/0/0/4/252
 
@@ -21125,10 +21125,10 @@ Hardy
 Pure Power
 
 None
+Psych Up
 Zen Headbutt
 Acupressure
 Power Trick
-Reversal
 25/25/25/25/25/25
 0/0/252/4/0/252
 
@@ -21144,10 +21144,10 @@ Quirky
 Water Absorb
 
 None
+Ice Punch
 Body Slam
 Low Kick
 Dynamic Punch
-Belly Drum
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21157,10 +21157,10 @@ Bashful
 Thick Fat
 
 None
+Cross Chop
 Focus Punch
 Endure
 Close Combat
-Reversal
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21176,10 +21176,10 @@ Hardy
 Magnet Pull
 
 None
+Thunderbolt
 Lock-On
 Magnet Rise
 Gyro Ball
-Zap Cannon
 25/25/25/25/25/25
 0/0/0/240/0/240
 
@@ -21189,10 +21189,10 @@ Quirky
 Sturdy
 
 None
+Double-Edge
 Autotomize
 Dragon Rush
 Head Smash
-Metal Burst
 25/25/25/25/25/25
 0/196/0/0/116/196
 
@@ -21228,10 +21228,10 @@ Bashful
 Sturdy
 
 None
+Earth Power
 Stone Edge
 Magnet Rise
 Heavy Slam
-Body Press
 25/25/25/25/25/25
 116/100/52/0/0/0
 
@@ -21247,10 +21247,10 @@ Serious
 Magnet Pull
 
 None
+Flash Cannon
 Screech
 Thunderbolt
 Lock-On
-Magnet Rise
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -21260,10 +21260,10 @@ Hardy
 Sturdy
 
 None
+Iron Tail
 Iron Defense
 Double-Edge
 Autotomize
-Dragon Rush
 25/25/25/25/25/25
 4/252/252/0/0/0
 
@@ -21273,10 +21273,10 @@ Hardy
 Iron Fist
 
 None
+Psychic
 Agility
 Meteor Mash
 Iron Defense
-Hyper Beam
 25/25/25/25/25/25
 252/176/80/0/0/0
 
@@ -21292,10 +21292,10 @@ Serious
 Sturdy
 
 None
+Stone Edge
 Zap Cannon
 Lock-On
 Head Smash
-Body Press
 25/25/25/25/25/25
 172/0/0/252/0/84
 
@@ -21305,10 +21305,10 @@ Docile
 Sturdy
 
 None
+Gyro Ball
 Drill Run
 Explosion
 Iron Defense
-Double-Edge
 25/25/25/25/25/25
 252/0/252/0/4/0
 
@@ -21788,10 +21788,10 @@ Quirky
 Serene Grace
 
 None
+Nature Power
 Sweet Scent
 Petal Dance
 Body Slam
-Moonblast
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21807,10 +21807,10 @@ Quirky
 Serene Grace
 
 None
+Nature Power
 Sweet Scent
 Petal Dance
 Body Slam
-Moonblast
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 414
@@ -21864,10 +21864,10 @@ Bashful
 Thick Fat
 
 None
+Aqua Tail
 Play Rough
 Aqua Ring
 Ice Punch
-Belly Drum
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21883,10 +21883,10 @@ Bashful
 Thick Fat
 
 None
+Aqua Tail
 Play Rough
 Aqua Ring
 Ice Punch
-Belly Drum
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 424
@@ -21902,10 +21902,10 @@ Bashful
 Magnet Pull
 
 None
+Discharge
 Tri Attack
 Flash Cannon
 Screech
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21921,10 +21921,10 @@ Bashful
 Magnet Pull
 
 None
+Discharge
 Tri Attack
 Flash Cannon
 Screech
-Thunderbolt
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 422
@@ -21940,10 +21940,10 @@ Hardy
 Marvel Scale
 
 None
+Recover
 Hypnosis
 Attract
 Moonblast
-Dragon Pulse
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21959,10 +21959,10 @@ Hardy
 Marvel Scale
 
 None
+Recover
 Hypnosis
 Attract
 Moonblast
-Dragon Pulse
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 410
@@ -21978,10 +21978,10 @@ Quirky
 Volt Absorb
 
 Sitrus Berry
+Sweet Kiss
 Thunder Wave
 Thunderbolt
 Fake Tears
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -21997,10 +21997,10 @@ Quirky
 Volt Absorb
 
 Sitrus Berry
+Sweet Kiss
 Thunder Wave
 Thunderbolt
 Fake Tears
-Super Fang
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 423
@@ -22016,10 +22016,10 @@ Serious
 Reckless
 
 None
+Crunch
 Rock Slide
 Poison Jab
 Hammer Arm
-Megahorn
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22035,10 +22035,10 @@ Serious
 Reckless
 
 None
+Crunch
 Rock Slide
 Poison Jab
 Hammer Arm
-Megahorn
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 425
@@ -22054,10 +22054,10 @@ Docile
 Soundproof
 
 None
+Chatter
 Roost
 Agility
 Echoed Voice
-Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22073,10 +22073,10 @@ Docile
 Soundproof
 
 None
+Chatter
 Roost
 Agility
 Echoed Voice
-Hyper Voice
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 418
@@ -22092,10 +22092,10 @@ Docile
 Limber
 
 None
+Taunt
 Power Gem
 Assurance
 Hypnosis
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22111,10 +22111,10 @@ Docile
 Limber
 
 None
+Taunt
 Power Gem
 Assurance
 Hypnosis
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 417
@@ -22130,10 +22130,10 @@ Docile
 Scrappy
 
 None
+Headbutt
 Charm
 Dizzy Punch
 Flail
-Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22149,10 +22149,10 @@ Docile
 Scrappy
 
 None
+Headbutt
 Charm
 Dizzy Punch
 Flail
-Bounce
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 427
@@ -22168,10 +22168,10 @@ Hardy
 Intimidate
 
 None
+Helping Hand
 Agility
 Fire Fang
 Reversal
-Burn Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22187,10 +22187,10 @@ Hardy
 Intimidate
 
 None
+Helping Hand
 Agility
 Fire Fang
 Reversal
-Burn Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 421
@@ -22206,10 +22206,10 @@ Quirky
 Chlorophyll
 
 None
+Stun Spore
 Mega Drain
 Leaf Blade
 Giga Drain
-Moonlight
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22225,10 +22225,10 @@ Quirky
 Chlorophyll
 
 None
+Stun Spore
 Mega Drain
 Leaf Blade
 Giga Drain
-Moonlight
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 420
@@ -22244,10 +22244,10 @@ Bashful
 Scrappy
 
 None
+Extrasensory
 Fake Tears
 Hyper Voice
 Roar
-Rest
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22263,10 +22263,10 @@ Bashful
 Scrappy
 
 None
+Extrasensory
 Fake Tears
 Hyper Voice
 Roar
-Rest
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 413
@@ -22282,10 +22282,10 @@ Serious
 Unaware
 
 None
+Aqua Tail
 Yawn
 Body Slam
 Earthquake
-Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22301,10 +22301,10 @@ Serious
 Unaware
 
 None
+Aqua Tail
 Yawn
 Body Slam
 Earthquake
-Counter
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 415
@@ -22320,10 +22320,10 @@ Quirky
 Synchronize
 
 None
+Psyshock
 Psycho Cut
 Recover
 Psychic
-Calm Mind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22339,10 +22339,10 @@ Quirky
 Synchronize
 
 None
+Psyshock
 Psycho Cut
 Recover
 Psychic
-Calm Mind
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 412
@@ -22358,10 +22358,10 @@ Serious
 Swift Swim
 
 None
+Psybeam
 Flail
 Safeguard
 Aqua Tail
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22377,10 +22377,10 @@ Serious
 Swift Swim
 
 None
+Psybeam
 Flail
 Safeguard
 Aqua Tail
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 416
@@ -22396,10 +22396,10 @@ Hardy
 Damp
 
 None
+Soak
 Aqua Tail
 Power Gem
 Psychic
-Psych Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22415,10 +22415,10 @@ Hardy
 Damp
 
 None
+Soak
 Aqua Tail
 Power Gem
 Psychic
-Psych Up
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 411
@@ -22434,10 +22434,10 @@ Quirky
 Blaze
 
 None
+Focus Energy
 Sky Uppercut
 Flamethrower
 Blaze Kick
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22453,10 +22453,10 @@ Quirky
 Blaze
 
 None
+Focus Energy
 Sky Uppercut
 Flamethrower
 Blaze Kick
-Slash
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 419
@@ -22472,10 +22472,10 @@ Hardy
 Anticipation
 
 None
+Drain Punch
 Nasty Plot
 Toxic
 Sucker Punch
-Cross Chop
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22491,10 +22491,10 @@ Docile
 Stench
 
 None
+Belch
 Sludge Bomb
 Play Rough
 Venom Drench
-Sucker Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22510,10 +22510,10 @@ Quirky
 Intimidate
 
 None
+Flame Charge
 Embargo
 Foul Play
 Nasty Plot
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22529,10 +22529,10 @@ Docile
 Thick Fat
 
 None
+Swagger
 Play Rough
 Attract
 Body Slam
-Flail
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22632,10 +22632,10 @@ Serious
 Poison Point
 
 None
+Flatter
 Sucker Punch
 Poison Tail
 Head Smash
-Toxic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22645,10 +22645,10 @@ Docile
 Inner Focus
 
 None
+Haze
 Zen Headbutt
 Nasty Plot
 Venoshock
-Brave Bird
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22658,10 +22658,10 @@ Serious
 Battle Armor
 
 None
+Psybeam
 Attract
 Psychic
 Flail
-Leaf Storm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22677,10 +22677,10 @@ Docile
 Poison Point
 
 None
+Flatter
 Crunch
 Poison Tail
 Super Fang
-Toxic
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22690,10 +22690,10 @@ Docile
 Inner Focus
 
 None
+Haze
 Zen Headbutt
 Nasty Plot
 Venoshock
-Brave Bird
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22703,10 +22703,10 @@ Quirky
 Tinted Lens
 
 None
+Air Slash
 Psychic
 Flail
 Lunge
-Hurricane
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -22986,10 +22986,10 @@ Bashful
 Dry Skin
 
 None
+Body Slam
 Freeze-Dry
 Perish Song
 Blizzard
-Nasty Plot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23005,10 +23005,10 @@ Quirky
 Thick Fat
 
 None
+Icicle Crash
 Dive
 Hail
 Megahorn
-Sheer Cold
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23056,10 +23056,10 @@ Serious
 Battle Armor
 
 None
+Night Slash
 Scary Face
 Crunch
 Cross Poison
-Parting Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23075,10 +23075,10 @@ Bashful
 Guts
 
 None
+Bulk Up
 Cross Chop
 Scary Face
 Dynamic Punch
-Close Combat
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23088,10 +23088,10 @@ Quirky
 Anticipation
 
 None
+Sucker Punch
 Cross Chop
 Sludge Bomb
 Flatter
-Belch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23101,10 +23101,10 @@ Hardy
 Adaptability
 
 None
+Blaze Kick
 Heal Pulse
 Close Combat
 Meteor Mash
-High Jump Kick
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -23165,10 +23165,10 @@ Bashful
 Chlorophyll
 
 None
+Feint Attack
 Leaf Blade
 Swagger
 Extrasensory
-Sunny Day
 25/25/25/25/25/25
 0/252/0/4/0/252
 
@@ -23178,10 +23178,10 @@ Serious
 Cloud Nine
 
 None
+Dragon Dance
 Dragon Pulse
 Perish Song
 Brave Bird
-Sky Attack
 25/25/25/25/25/25
 0/252/4/0/252/0
 
@@ -23416,10 +23416,10 @@ Docile
 Thick Fat
 
 None
+Crunch
 Belly Drum
 Surf
 Blizzard
-Sheer Cold
 25/25/25/25/25/25
 248/0/8/0/252/0
 
@@ -23990,10 +23990,10 @@ Quirky
 Thick Fat
 
 None
+Play Rough
 Attract
 Body Slam
 Flail
-Last Resort
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24048,10 +24048,10 @@ Serious
 Magnet Pull
 
 None
+Thunderbolt
 Lock-On
 Magnet Rise
 Gyro Ball
-Zap Cannon
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24080,10 +24080,10 @@ Hardy
 Shield Dust
 
 None
+Baton Pass
 Psychic
 Morning Sun
 Bug Buzz
-Quiver Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24093,10 +24093,10 @@ Bashful
 Sand Veil
 
 None
+Energy Ball
 Nasty Plot
 Pin Missile
 Cotton Spore
-Dark Pulse
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24138,10 +24138,10 @@ Hardy
 Swarm
 
 None
+Pin Missile
 Cross Poison
 Agility
 Psychic
-Megahorn
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24157,10 +24157,10 @@ Docile
 Anticipation
 
 None
+Cross Chop
 Sludge Bomb
 Flatter
 Belch
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24170,10 +24170,10 @@ Bashful
 Stench
 
 None
+Sludge Bomb
 Play Rough
 Venom Drench
 Sucker Punch
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24221,10 +24221,10 @@ Serious
 Stench
 
 None
+Sludge Bomb
 Play Rough
 Venom Drench
 Sucker Punch
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24253,10 +24253,10 @@ Quirky
 Anticipation
 
 None
+Cross Chop
 Sludge Bomb
 Flatter
 Belch
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24285,10 +24285,10 @@ Serious
 Intimidate
 
 None
+Haze
 Sucker Punch
 Gunk Shot
 Belch
-Coil
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24304,10 +24304,10 @@ Docile
 Stench
 
 None
+Sludge Bomb
 Play Rough
 Venom Drench
 Sucker Punch
-Gunk Shot
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24459,10 +24459,10 @@ Docile
 Effect Spore
 
 None
+Cross Poison
 Knock Off
 Giga Drain
 Aromatherapy
-X-Scissor
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24478,10 +24478,10 @@ Serious
 Insomnia
 
 None
+Dark Pulse
 Torment
 Brave Bird
 Foul Play
-Quash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24491,10 +24491,10 @@ Docile
 Intimidate
 
 None
+Flame Charge
 Embargo
 Foul Play
 Nasty Plot
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24510,10 +24510,10 @@ Quirky
 Poison Point
 
 None
+Sucker Punch
 Poison Tail
 Head Smash
 Toxic
-Earth Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24555,10 +24555,10 @@ Bashful
 Poison Point
 
 None
+Crunch
 Poison Tail
 Super Fang
 Toxic
-Earth Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24600,10 +24600,10 @@ Quirky
 Intimidate
 
 None
+Flame Charge
 Embargo
 Foul Play
 Nasty Plot
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24677,10 +24677,10 @@ Bashful
 Swarm
 
 None
+Cross Poison
 Agility
 Psychic
 Megahorn
-Toxic Thread
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24703,10 +24703,10 @@ Docile
 Sturdy
 
 None
+Explosion
 Iron Defense
 Double-Edge
 Magnet Rise
-Zap Cannon
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24735,10 +24735,10 @@ Serious
 Intimidate
 
 None
+Flame Charge
 Embargo
 Foul Play
 Nasty Plot
-Flare Blitz
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24767,10 +24767,10 @@ Hardy
 Insomnia
 
 None
+Dark Pulse
 Torment
 Brave Bird
 Foul Play
-Quash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24825,10 +24825,10 @@ Bashful
 Insomnia
 
 None
+Dark Pulse
 Torment
 Brave Bird
 Foul Play
-Quash
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24934,10 +24934,10 @@ Docile
 Shield Dust
 
 None
+Baton Pass
 Psychic
 Morning Sun
 Bug Buzz
-Quiver Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -24992,10 +24992,10 @@ Quirky
 Insomnia
 
 None
+Nasty Plot
 Guard Swap
 Future Sight
 Zap Cannon
-Psyshock
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 394
@@ -25024,10 +25024,10 @@ Docile
 Shield Dust
 
 None
+Baton Pass
 Psychic
 Morning Sun
 Bug Buzz
-Quiver Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -25082,10 +25082,10 @@ Quirky
 Insomnia
 
 None
+Nasty Plot
 Guard Swap
 Future Sight
 Zap Cannon
-Psyshock
 25/25/25/25/25/25
 0/0/0/0/0/0
 Paired with 394
@@ -26419,10 +26419,10 @@ Hardy
 Water Absorb
 
 None
+Low Kick
 Dynamic Punch
 Belly Drum
 Earth Power
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26496,10 +26496,10 @@ Bashful
 Swift Swim
 
 None
+Bounce
 Soak
 Megahorn
 Hydro Pump
-Horn Drill
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26522,10 +26522,10 @@ Hardy
 Swift Swim
 
 None
+Dragon Dance
 Outrage
 Hydro Pump
 Hyper Beam
-Rain Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26541,10 +26541,10 @@ Serious
 Guts
 
 None
+Wild Charge
 Scary Face
 Thunder Wave
 Discharge
-Sucker Punch
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26554,10 +26554,10 @@ Quirky
 Unburden
 
 None
+Crunch
 X-Scissor
 Screech
 Endeavor
-Leaf Storm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26599,10 +26599,10 @@ Docile
 Guts
 
 None
+Cross Chop
 Scary Face
 Dynamic Punch
 Close Combat
-Superpower
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26689,10 +26689,10 @@ Quirky
 Serene Grace
 
 None
+Moonblast
 Safeguard
 Aromatherapy
 Solar Beam
-Leaf Storm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26753,10 +26753,10 @@ Hardy
 Swift Swim
 
 None
+Whirlpool
 U-turn
 Bounce
 Hydro Pump
-Tailwind
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -26791,10 +26791,10 @@ Docile
 Poison Point
 
 None
+Gunk Shot
 Hydro Pump
 Toxic
 Liquidation
-Acupressure
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -27312,10 +27312,10 @@ Quirky
 Static
 
 None
+Thunderbolt
 Wild Charge
 Close Combat
 Thunder
-Giga Impact
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -27693,10 +27693,10 @@ Bashful
 Guts
 
 None
+Scary Face
 Dynamic Punch
 Close Combat
 Superpower
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -27764,10 +27764,10 @@ Hardy
 Poison Point
 
 None
+Gunk Shot
 Hydro Pump
 Toxic
 Liquidation
-Acupressure
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -27783,10 +27783,10 @@ Docile
 Swift Swim
 
 None
+Uproar
 Knock Off
 Zen Headbutt
 Energy Ball
-Rain Dance
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -27809,10 +27809,10 @@ Serious
 Water Absorb
 
 None
+Low Kick
 Dynamic Punch
 Belly Drum
 Earth Power
-Hydro Pump
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -28034,10 +28034,10 @@ Hardy
 Illuminate
 
 None
+Brine
 Psychic
 Confuse Ray
 Light Screen
-Cosmic Power
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -28053,10 +28053,10 @@ Docile
 Shell Armor
 
 None
+Rock Blast
 Iron Defense
 Ice Beam
 Icicle Crash
-Aqua Ring
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -28066,10 +28066,10 @@ Quirky
 Swift Swim
 
 None
+U-turn
 Bounce
 Hydro Pump
 Tailwind
-Soak
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -28825,10 +28825,10 @@ Bashful
 Guts
 
 None
+Scary Face
 Dynamic Punch
 Close Combat
 Superpower
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -28838,10 +28838,10 @@ Hardy
 Water Absorb
 
 None
+Dynamic Punch
 Belly Drum
 Earth Power
 Hydro Pump
-Mud Bomb
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -29643,10 +29643,10 @@ Quirky
 Flash Fire
 
 None
+Imprison
 Fire Spin
 Safeguard
 Inferno
-Grudge
 25/25/25/25/25/25
 0/0/0/252/4/252
 
@@ -29913,10 +29913,10 @@ Docile
 Guts
 
 None
+Scary Face
 Dynamic Punch
 Close Combat
 Superpower
-Double-Edge
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -34332,10 +34332,10 @@ Docile
 Chlorophyll
 
 None
+Worry Seed
 Ancient Power
 Giga Drain
 Solar Beam
-Leaf Storm
 25/25/25/25/25/25
 0/0/0/0/0/0
 
@@ -34595,10 +34595,10 @@ Serious
 Static
 
 None
+Discharge
 Wild Charge
 Wild Charge
 Light Screen
-Thunder
 25/25/25/25/25/25
 0/0/4/252/0/252
 
@@ -34608,10 +34608,10 @@ Serious
 Intimidate
 
 None
+Outrage
 Close Combat
 Play Rough
 Heat Wave
-Flare Blitz
 25/25/25/25/25/25
 0/252/4/0/0/252
 
