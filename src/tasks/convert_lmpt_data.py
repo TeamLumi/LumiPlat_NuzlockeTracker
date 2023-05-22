@@ -121,9 +121,7 @@ def getTrainerData(gymLeaderList):
                     trainers_list.append(fights)
                 full_list.append(trainers_list)
         dic['1'] = full_list
-
-    with open(os.path.join(output_file_path, 'Trainer_output.json'), "w") as output:
-        output.write(json.dumps(dic))
+    return dic
 
 def HoneyTreeData():
     const_regex = r"const\s+int32_t\s+HONEY_TREES\[\s*NUM_ZONE_ID\s*\]\[\s*10\s*\]\s*=\s*\{\s*([\s\S]*?)\};"
@@ -394,5 +392,5 @@ def getPokedexInfo():
     return pokedex
 
 #getEncounterData()
-getTrainerData(gym_leader_data)
+#getTrainerData(gym_leader_data)
 #getPokedexInfo()
