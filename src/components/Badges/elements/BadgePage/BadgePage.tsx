@@ -1,7 +1,7 @@
 import { ReactText, useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import { Page } from 'common'; // Assuming Dropdown component is imported from a common library
+import { Page } from 'common';
 import { BadgeDetail } from 'components/Badges/elements';
 import DETAILS from 'constants/details';
 import useStore from 'store';
@@ -14,7 +14,6 @@ function BadgePage(): JSX.Element {
   const { t } = useTranslation('badges');
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const [selectedOption, setSelectedOption] = useState('');
-  const [selectedRoute, setSelectedRoute] = useState('');
   const selectedDetail =
     !!game && DETAILS[game] && !!badge && typeof Number(badge) === 'number'
       ? DETAILS[game][Number(badge)]
@@ -28,7 +27,6 @@ function BadgePage(): JSX.Element {
 
   const handleDropdownChange = (_: any, data: any) => {
     setSelectedOption(data.value);
-    setSelectedRoute(data.route);
   };
   
   const renderContent = () => {
