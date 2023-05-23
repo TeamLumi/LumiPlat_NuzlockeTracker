@@ -266,6 +266,7 @@ export type TDetail = {
   game: string;
   rematch?: PokemonDetail[];
   type: TDetailClassification;
+  route?: string;
 };
 
 export type Type =

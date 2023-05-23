@@ -1,14 +1,14 @@
 {
   "Gym Leaders": [
     {
-      "Roark [Oreburgh City]": [ 823, 824, 825, 826 ],
-      "Gardenia [Eterna City]": [ 827, 828, 829, 830 ],
-      "Fantina [Hearthome City]": [ 831, 832, 833, 834 ],
-      "Maylene [Veilstone City]": [ 835, 836, 837, 838 ],
-      "Wake [Pastoria City]": [ 839, 840, 841, 842 ],
-      "Byron [Canalave City]": [ 843, 844, 845, 846 ],
-      "Candice [Snowpoint City]": [ 847, 848, 849, 850 ],
-      "Volkner [Sunnyshore City]": [ 851, 852, 853, 854 ]
+      "Roark (Oreburgh City)": [ 823, 824, 825, 826 ],
+      "Gardenia (Eterna City)": [ 827, 828, 829, 830 ],
+      "Fantina (Hearthome City)": [ 831, 832, 833, 834 ],
+      "Maylene (Veilstone City)": [ 835, 836, 837, 838 ],
+      "Crasher Wake (Pastoria City)": [ 839, 840, 841, 842 ],
+      "Byron (Canalave City)": [ 843, 844, 845, 846 ],
+      "Candice (Snowpoint City)": [ 847, 848, 849, 850 ],
+      "Volkner (Sunyshore City)": [ 851, 852, 853, 854 ]
     }
   ],
   "Elite Four": [

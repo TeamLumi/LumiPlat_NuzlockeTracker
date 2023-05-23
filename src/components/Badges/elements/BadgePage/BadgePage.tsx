@@ -14,6 +14,7 @@ function BadgePage(): JSX.Element {
   const { t } = useTranslation('badges');
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const [selectedOption, setSelectedOption] = useState('');
+  const [selectedRoute, setSelectedRoute] = useState('');
   const selectedDetail =
     !!game && DETAILS[game] && !!badge && typeof Number(badge) === 'number'
       ? DETAILS[game][Number(badge)]
@@ -27,6 +28,7 @@ function BadgePage(): JSX.Element {
 
   const handleDropdownChange = (_: any, data: any) => {
     setSelectedOption(data.value);
+    setSelectedRoute(data.route);
   };
   
   const renderContent = () => {
@@ -46,11 +48,12 @@ function BadgePage(): JSX.Element {
         key: gameDetail.game,
         value: gameDetail.game,
         text: gameDetail.game,
+        route: gameDetail.route,
       }))
     : null;
 
   return (
-    <Page header={t('details')}>
+    <Page header={dropdownOptions && dropdownOptions.length > 0 ? dropdownOptions[0].route : t('details')}>
       <div className={styles.dropdownContainer}>
         <Dropdown
           value={selectedOption}
