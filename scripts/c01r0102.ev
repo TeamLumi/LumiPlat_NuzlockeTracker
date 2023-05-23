@@ -1,0 +1,15 @@
+ev_c01r0102_middleman1:
+	_EASY_OBJ_MSG('dp_scenario1%33-msg_c01r0102_middleman1_01')
+	_END()
+ev_c01r0102_oldman2:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario1%33-msg_c01r0102_oldman2_01')
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c01r0102_pippi:
+	_EASY_VOICE_MSG('dp_scenario1%33-msg_c01r0102_pippi_01', 'PLAY_PV_EV_035_00_00')
+	_END()
+ev_c01r0102_purin:
+	_EASY_VOICE_MSG('dp_scenario1%33-msg_c01r0102_purin_01', 'PLAY_PV_EV_417_00_00')
+	_END()

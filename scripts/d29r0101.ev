@@ -1,0 +1,24 @@
+ev_d29r0101_flag_change:
+	_IF_FLAGON_JUMP(#FE_L02_NEWS, 'ev_d29r0101_flag_change_bgm')
+	_END()
+ev_d29r0101_flag_change_bgm:
+	_END()
+ev_d29r0101_rival:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_D29R0101_RIVAL_TALK, 'ev_d29r0101_rival_02')
+	_FLAG_SET(#FE_D29R0101_RIVAL_TALK)
+	_RIVAL_NAME(0)
+	_TALKMSG('dp_scenario2%189-msg_d29r0101_rival_a_01_1')
+	_TALKMSG('dp_scenario2%189-msg_d29r0101_rival_a_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d29r0101_rival_02:
+	_RIVAL_NAME(0)
+	_TALKMSG('dp_scenario2%189-msg_d29r0101_rival_a_02_1')
+	_TALKMSG('dp_scenario2%189-msg_d29r0101_rival_a_02_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

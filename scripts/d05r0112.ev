@@ -1,0 +1,16 @@
+ev_d05r0112_flag_change:
+	_IF_FLAGOFF_JUMP(#FE_HIDEN_04_GET, 'ev_d05r0112_anaunce_chk')
+	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 9300, 'ev_d05r0112_anaunce_upd_2')
+	_END()
+ev_d05r0112_anaunce_chk:
+	_IFVAL_CALL(@TOWNMAP_GUIDE_SEQUENCE, 'EQ', 9300, 'ev_d05r0112_anaunce_upd')
+	_END()
+ev_d05r0112_anaunce_upd:
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 9400)
+	_RET()
+ev_d05r0112_anaunce_upd_2:
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 9500)
+	_RET()
+ev_d05r0112_gingaw:
+	_EASY_OBJ_MSG('dp_scenario2%28-msg_d05r0112_gingaw_01')
+	_END()

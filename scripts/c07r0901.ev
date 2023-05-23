@@ -1,0 +1,17 @@
+ev_c07r0901_man1:
+	_EASY_OBJ_MSG('dp_scenario2%79-msg_c07r0901_man1_01')
+	_END()
+ev_c07r0901_explore:
+	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_R210A_CLEAR, 'ev_c07r0901_explore_02')
+	_TALKMSG('dp_scenario2%79-msg_c07r0901_explore_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c07r0901_explore_02:
+	_TALKMSG('dp_scenario2%79-msg_c07r0901_explore_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

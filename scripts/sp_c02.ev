@@ -1,0 +1,16 @@
+SP_C02_INIT:
+	_JUMP('ev_c02_init_change')
+	_SP_EVENT_DATA_END()
+SP_C02_OBJ:
+	_SP_EVENT_DATA_END()
+SP_C02_SCENE:
+	_JUMP('sp_c02_tbl')
+	_SP_EVENT_DATA_END()
+SP_C02_FLAG:
+	_JUMP('ev_c02_flag_change')
+	_SP_EVENT_DATA_END()
+sp_c02_tbl:
+	_SCENE_CHANGE_DATA(@WK_SCENE_C02, 2, 'ev_c02_rival_gym_after')
+	_SCENE_CHANGE_DATA(@WK_SCENE_C02, 4, 'ev_c02_doctor_l02_news')
+	_SCENE_CHANGE_DATA(@WK_SCENE_C02R0401, 3, 'ev_c02_seaman_event_b')
+	_SCENE_CHANGE_END()

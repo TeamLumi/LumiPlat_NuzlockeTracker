@@ -1,0 +1,38 @@
+ev_c06r0102_scope:
+	_TALK_OBJ_START()
+	_GOLD_WIN_WRITE(20, 2)
+	_MONEY_OPEN()
+	_TALKMSG('dp_scenario2%124-msg_c06r0102_telescope_01')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_TALK_CLOSE()
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'scope_yes')
+	_MONEY_CLOSE()
+	_TALK_END()
+	_END()
+scope_yes:
+	_COMP_GOLD(@SCWK_ANSWER, 100)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'scope_no_money')
+	_SUB_GOLD(100)
+	_MONEY_CLOSE()
+	_CALL_SAFARI_SCOPE()
+	_TALK_END()
+	_END()
+scope_no_money:
+	_MONEY_CLOSE()
+	_TALKMSG('dp_scenario2%124-msg_c06r0102_telescope_02')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_END()
+	_END()
+ev_c06r0102_woman3_01:
+	_EASY_OBJ_MSG('dp_scenario2%124-msg_c06r0102_woman3_01')
+	_END()
+ev_c06r0102_boy3_01:
+	_EASY_OBJ_MSG('dp_scenario2%124-msg_c06r0102_boy3_01')
+	_END()
+ev_c06r0102_middleman1_01:
+	_EASY_OBJ_MSG('dp_scenario2%124-msg_c06r0102_middleman1_01')
+	_END()
+ev_c06r0102_picnicgirl_01:
+	_EASY_OBJ_MSG('dp_scenario2%124-msg_c06r0102_picnicgirl_01')
+	_END()

@@ -1,0 +1,19 @@
+ev_c04r0303_boy3:
+	_EASY_OBJ_MSG('dp_scenario2%11-msg_c04r0303_boy3_01')
+	_END()
+ev_c04r0303_middleman1:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%11-msg_c04r0303_middleman1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_END()
+ev_c04r0303_boy1:
+	_EASY_OBJ_MSG('dp_scenario2%11-msg_c04r0303_boy1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_END()
+ev_c04r0303_babyboy1:
+	_EASY_OBJ_MSG('dp_scenario2%11-msg_c04r0303_babyboy1_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_END()

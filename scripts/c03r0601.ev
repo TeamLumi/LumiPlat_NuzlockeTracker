@@ -1,0 +1,9 @@
+ev_c03r0601_middleman1:
+	_EASY_OBJ_MSG('dp_scenario1%80-msg_c03r0601_middleman1_01')
+	_END()
+ev_c03r0601_mount:
+	_EASY_OBJ_MSG('dp_scenario1%80-msg_c03r0601_mount_01')
+	_END()
+ev_c03r0601_man3:
+	_EASY_OBJ_MSG('dp_scenario1%80-msg_c03r0601_man3_01')
+	_END()

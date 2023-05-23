@@ -1,0 +1,10 @@
+SP_C03GYM0101_SCENE:
+	_JUMP('sp_c03gym0101_tbl')
+	_SP_EVENT_DATA_END()
+sp_c03gym0101_tbl:
+	_JUMP('ev_c03gym0101_gym_first')
+	_SCENE_CHANGE_END()
+	_JUMP('SP_C03GYM0101_FLAG')
+SP_C03GYM0101_FLAG:
+	_JUMP('ev_c03gym0101_flag_change')
+	_SP_EVENT_DATA_END()

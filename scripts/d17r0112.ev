@@ -1,0 +1,17 @@
+ev_d17r0112_flag_change:
+	_IF_FLAGOFF_CALL(#FH_01, 'ev_d17r0112_sys_count_up')
+	_IFVAL_JUMP(@WK_D17SYSTEM_PATH_MAP, 'EQ', 30, 'ev_d17r0112_count_30over')
+	_GET_RANDOM_HIT(25, @SCWK_TEMP2)
+	_IFVAL_JUMP(@SCWK_TEMP2, 'EQ', 1, 'ev_d17r0111_hit')
+	_IFVAL_JUMP(@SCWK_TEMP2, 'EQ', 0, 'ev_d17r0111_loop')
+	_END()
+ev_d17r0112_sys_count_up:
+	_ADD_WK(@WK_D17SYSTEM_PATH_MAP, 1)
+	_FLAG_SET(#FH_01)
+	_RET()
+ev_d17r0112_count_30over:
+	_SXY_EXIT_POS_CHANGE(28, 11, 1)
+	_SXY_EXIT_POS_CHANGE(29, 20, 11)
+	_SXY_EXIT_POS_CHANGE(30, 11, 20)
+	_SXY_EXIT_POS_CHANGE(31, 2, 11)
+	_END()

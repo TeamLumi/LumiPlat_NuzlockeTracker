@@ -1,0 +1,14 @@
+ev_c04r0202_gingam_a:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%6-msg_c04r0202_gingam_a_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_c04r0202_gingaw_a:
+	_TALK_OBJ_START_TURN_NOT()
+	_TALKMSG('dp_scenario2%6-msg_c04r0202_gingaw_a_01')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()

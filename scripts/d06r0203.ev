@@ -1,0 +1,11 @@
+ev_d06r0203_bigman1:
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario2%134-msg_d06r0203_bigman_01_1')
+	_TALKMSG('dp_scenario2%134-msg_d06r0203_bigman_01_2')
+	_LAST_KEYWAIT()
+	_TALK_CLOSE()
+	_TALK_OBJ_END()
+	_END()
+ev_d06r0203_sign1:
+	_EASY_BOARD_MSG('dp_scenario2%134-msg_d06r0203_sign1_01', 'BOARD_TYPE_POST', 0)
+	_END()

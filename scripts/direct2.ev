@@ -1,0 +1,3 @@
+ev_direct2_flag_change:
+	_COMM_DIRECT_ENTER_BTL_ROOM()
+	_END()

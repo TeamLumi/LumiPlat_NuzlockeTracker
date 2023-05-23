@@ -1,0 +1,10 @@
+ev_c02r0601_flag_change:
+	_TV_INTERVIEWER_CHECK(10, @LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_c02r0601_flagchange_vanish')
+	_FLAG_RESET(#FV_TV_INTERVIEW_10)
+	_END()
+ev_c02r0601_flagchange_vanish:
+	_FLAG_SET(#FV_TV_INTERVIEW_10)
+	_END()
+ev_c02r0601:
+	_END()
