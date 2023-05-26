@@ -117,6 +117,7 @@ def getTrainerData(gymLeaderList):
                                     fights["name"] = gym_leader.split("(")[0].strip()
                                     fights["type"] = battle_type
                                     fights["route"] = f'{gym_leader.split("(")[1].strip(")")} Gym Leader' if len(gym_leader.split("(")) > 1 else "Elite Four Trainers"
+                                    fights["zoneId"] = None
                                 else:
                                     fights["content"].append(pokemon)
                     trainers_list.append(fights)

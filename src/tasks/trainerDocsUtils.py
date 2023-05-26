@@ -70,16 +70,16 @@ def sort_trainers_by_route(trainer_info):
             sorted_trainers_by_route[areaName].append(trainer)
     return sorted_trainers_by_route
 
-def get_trainer_name(name, zone_name, GRUNT_TRAINER_INDEX):
+def get_trainer_name(name, zone_name, TRAINER_INDEX):
     if re.findall(constants.TEAM_REGEX, name):
         split_name = name.split()
         trainer_name = ' '.join(split_name[:-2])
         team_name = ' '.join(split_name[-2:])
         updated_name = f"{trainer_name} ({zone_name}) [{team_name}]"
         return [name, updated_name]
-    if "Grunt" in name:
-        updated_name = f"{name} {GRUNT_TRAINER_INDEX} ({zone_name})"
-        name = f"{name} {GRUNT_TRAINER_INDEX}"
+    if TRAINER_INDEX > 0:
+        updated_name = f"{name} {TRAINER_INDEX} ({zone_name})"
+        name = f"{name} {TRAINER_INDEX}"
         return [name, updated_name]
     updated_name = f"{name} ({zone_name})"
     return [name, updated_name]
@@ -119,14 +119,15 @@ def write_tracker_docs(sorted_tracker_trainers):
     
     for zone in sorted_tracker_trainers.keys():
         zone_trainers = []
-        GRUNT_TRAINER_INDEX = 0
+        TRAINER_INDEX = 0
         for trainer in sorted_tracker_trainers[zone]:
             zone_trainer = {}
-            zone_name = trainer['zoneName']
+            zone_name = f"{trainer['zoneName']} Trainers"
+            zone_id = trainer['zoneId']
             name = f"{trainer['type']} {trainer['name']}"
-            if "Grunt" in name:
-                GRUNT_TRAINER_INDEX +=1
-            full_trainer_name = get_trainer_name(name, zone_name, GRUNT_TRAINER_INDEX)
+            if "Grunt" in name or "Lucas" in name or "Dawn" in name:
+                TRAINER_INDEX +=1
+            full_trainer_name = get_trainer_name(name, zone_name, TRAINER_INDEX)
             trainer_name = full_trainer_name[0]
             team_name = full_trainer_name[1]
             trainer_team = trainer['team']
@@ -135,7 +136,8 @@ def write_tracker_docs(sorted_tracker_trainers):
                 "game": team_name,
                 "name": trainer_name,
                 "type": "Trainer",
-                "route": f"{zone_name} Trainers"
+                "route": zone_name,
+                "zoneId": zone_id
             }
             zone_trainers.append(zone_trainer)
         all_trainers.append(zone_trainers)
