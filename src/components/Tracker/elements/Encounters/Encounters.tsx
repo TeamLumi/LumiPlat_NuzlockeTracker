@@ -21,6 +21,7 @@ import {
 } from 'components/Tracker/elements';
 import { TYPE_COLOR } from 'constants/colors';
 import { POKEMAP } from 'constants/pokemon';
+import ALL_ZONE_IDS from 'constants/zoneIds'
 import useRemtoPx from 'hooks/useRemToPx';
 import { selectNAGeneration } from 'selectors';
 import useStore from 'store';
@@ -98,6 +99,7 @@ const Encounters = React.memo(function Encounters() {
   const handleScroll = (index: number) => {
     listRef.current?.scrollToItem(index + 1, 'center');
   };
+  
   const navigate = useNavigate();
 
   const handleOpen = (e: React.MouseEvent<HTMLDivElement, MouseEvent>, index: number) => {
@@ -116,6 +118,12 @@ const Encounters = React.memo(function Encounters() {
     const encounter = filteredEncounters[index];
     const foundPokemon = POKEMAP.get(encounter.pokemon);
     const isGreyedOut = encounter?.status?.value === 2;
+    const isTrainerRoute = encounter.zoneID.some(id => ALL_ZONE_IDS.includes(id));
+    let trainerIndex: number | undefined;
+    
+    if (isTrainerRoute) {
+      trainerIndex = ALL_ZONE_IDS.findIndex(id => encounter.zoneID.includes(id));
+    }
     return (
       <div style={style}>
         <div
@@ -134,11 +142,12 @@ const Encounters = React.memo(function Encounters() {
           <div className={styles.header}>
             <span className={styles.location}>{encounter.location}</span>
             <div className={styles.buttons}>
+            {isTrainerRoute && 
             <div
               className={styles.question}
-              data-testid={`badge-detail-${index}`}
-              onClick={(e) => handleOpen(e, index)}
-              onKeyPress={(e) => handleKeyPress(e, index)}
+              data-testid={`badge-detail-${trainerIndex + 13}`}
+              onClick={(e) => handleOpen(e, trainerIndex + 13)}
+              onKeyPress={(e) => handleKeyPress(e, trainerIndex + 13)}
               role="button"
               tabIndex={0}
             >
@@ -159,6 +168,7 @@ const Encounters = React.memo(function Encounters() {
                 </Label>
               </Button>
             </div>
+            }
               {!!encounter.pokemon && <Detail encounter={encounter} />}
               <Popup
                 inverted={darkMode}
