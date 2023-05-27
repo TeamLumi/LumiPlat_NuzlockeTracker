@@ -8,7 +8,6 @@ import { shallow } from 'zustand/shallow';
 import { DisplaySettings, Image } from 'components/Pokestats/elements';
 import useStore from 'store';
 import styles from './Summary.module.scss';
-import { UpdateOptions } from 'react-toastify';
 
 function Summary(): JSX.Element {
   const { t } = useTranslation('stats');
