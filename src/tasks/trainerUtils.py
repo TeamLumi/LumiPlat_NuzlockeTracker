@@ -19,7 +19,7 @@ area_display_file_path = os.path.join(input_file_path, 'english_dp_fld_areaname_
 trainer_labels_file_path = os.path.join(input_file_path, 'english_dp_trainers_type.json')
 trainer_table_file_path = os.path.join(input_file_path, "TrainerTable.json")
 
-areas_file_path = os.path.join(input_file_path, 'areas.csv')
+areas_file_path = os.path.join(input_file_path, 'areas_copy.csv')
 
 scripts_file_path = os.path.join(repo_file_path, 'scripts')
 bdsp_location_files_path = os.path.join(repo_file_path, 'placedatas')
