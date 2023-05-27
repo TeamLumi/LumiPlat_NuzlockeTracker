@@ -51,14 +51,15 @@
     "start": "react-scripts start",
     "httpss": "HTTPS=true react-scripts start",
     "develop:ci": "CHOKIDAR_USEPOLLING=1 react-scripts -r @cypress/instrument-cra start --config-file=cypress.config.ts",
-    "build": "npm run convert-data && npm run build-calc && react-scripts build",
+    "build": "npm run convert-data && npm run get-tracker-docs && npm run build-calc && react-scripts build",
     "e2e": "cypress open",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --ignore-pattern *.test.tsx",
-    "convert-data": "python3 ./src/tasks/convert_lmpt_data.py",
-    "get-trainer-docs": "python3 ./src/tasks/trainerDocsUtils.py",
+    "convert-data": "python3 ./src/tasks/convert_lmpt_data.py getEncounterData getPokedexInfo",
+    "get-trainer-docs": "python3 ./src/tasks/trainerDocsUtils.py get_trainer_doc_data",
+    "get-tracker-docs": "python3 ./src/tasks/trainerDocsUtils.py get_tracker_trainer_data",
     "build-calc": "cd ./src/lumi-calc/ && npm i && cd ./calc && npm i && cd ../import && npm i && cd .. && npm run build"
   },
   "eslintConfig": {
