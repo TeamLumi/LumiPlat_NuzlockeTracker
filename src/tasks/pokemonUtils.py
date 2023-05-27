@@ -537,16 +537,18 @@ def get_pokemon_from_trainer_info(trainer, output_format):
         level = trainer[f"P{poke_num}Level"]
         if level <= 0:
             break
+        ability = get_ability_string(trainer[f"P{poke_num}Tokusei"])
+        gender = GENDER[str(trainer[f"P{poke_num}Sex"])] if trainer[f"P{poke_num}Sex"] != 3 else 'FEMALE'
         monsno = trainer[f"P{poke_num}MonsNo"]
-        form = trainer[f"P{poke_num}FormNo"]
+
         moves = [trainer[f"P{poke_num}Waza{j+1}"] for j in range(4)]
         m1, m2, m3, m4 = moves[0], moves[1], moves[2], moves[3]
         moves = get_moves(m1, m2, m3, m4, monsno, level, output_format)
-        ability = get_ability_string(trainer[f"P{poke_num}Tokusei"])
+        
         diff_forms = create_diff_forms_dictionary(get_pokemon_name_dictionary())
+        form = trainer[f"P{poke_num}FormNo"]
         pokedex = get_lumi_data(name_data, get_pokemon_name)
-        gender = GENDER[str(trainer[f"P{poke_num}Sex"])] if trainer[f"P{poke_num}Sex"] != 3 else 'FEMALE'
-        pokemonId = diff_forms[pokedex[str(trainer[f"P{poke_num}MonsNo"])] + str(form)][0] if form > 0 and output_format != "Tracker" else monsno
+        pokemonId = diff_forms[pokedex[str(trainer[f"P{poke_num}MonsNo"])] + str(form)][0] if form > 0 and output_format == "Tracker" else monsno
         trainer_item = trainer[f"P{poke_num}Item"]
         item = get_item_string(trainer_item) if trainer_item != 0 else None
         pokemon = {

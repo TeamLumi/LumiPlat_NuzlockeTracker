@@ -3,7 +3,7 @@ import json
 import os
 import csv
 import unicodedata
-from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id, create_diff_forms_dictionary, isSpecialPokemon
+from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id, create_diff_forms_dictionary, isSpecialPokemon, get_pokemon_from_trainer_info
 
 # Get the repo file path for cleaner path generating
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -85,44 +85,18 @@ def getTrainerData(gymLeaderList):
                 for trainer_id in trainer_ids:
                     fights = {}
                     trainer = next((t for t in trainer_data["TrainerPoke"] if t["ID"] == trainer_id), None)
+                    output_format = "Tracker"
                     if trainer:
-                        for poke_num in range(1,7):
-                            level = trainer[f"P{poke_num}Level"]
-                            if level > 0:
-                                form = trainer[f"P{poke_num}FormNo"]
-                                pokemon = {
-                                    "ability": abilityList[str(trainer[f"P{poke_num}Tokusei"])],
-                                    "gender": gender[str(trainer[f"P{poke_num}Sex"])] if trainer[f"P{poke_num}Sex"] != 3 else 'FEMALE',
-                                    "id": diff_forms[pokedex[str(trainer[f"P{poke_num}MonsNo"])] + str(form)][0] if form > 0 else trainer[f"P{poke_num}MonsNo"],
-                                    "item": itemList[str(trainer[f"P{poke_num}Item"])] if trainer[f"P{poke_num}Item"] != 0 else None,
-                                    "level": level,
-                                    "moves": [trainer[f"P{poke_num}Waza{j+1}"] for j in range(4)],
-                                    "nature": get_nature_name(trainer[f"P{poke_num}Seikaku"]),
-                                    "ivatk": trainer[f"P{poke_num}TalentAtk"],
-                                    "ivdef": trainer[f"P{poke_num}TalentDef"],
-                                    "ivhp": trainer[f"P{poke_num}TalentHp"],
-                                    "ivspatk": trainer[f"P{poke_num}TalentSpAtk"],
-                                    "ivspdef": trainer[f"P{poke_num}TalentSpDef"],
-                                    "ivspeed": trainer[f"P{poke_num}TalentAgi"],
-                                    "evhp": trainer[f"P{poke_num}EffortHp"],
-                                    "evatk": trainer[f"P{poke_num}EffortAtk"],
-                                    "evdef": trainer[f"P{poke_num}EffortDef"],
-                                    "evspatk": trainer[f"P{poke_num}EffortSpAtk"],
-                                    "evspdef": trainer[f"P{poke_num}EffortSpDef"],
-                                    "evspeed": trainer[f"P{poke_num}EffortAgi"]
-                                }
-                                if "content" not in fights:
-                                    fights["content"] = [pokemon]
-                                    fights["game"] = f"{gym_leader} Team {str(trainer_ids.index(trainer_id) + 1)}"
-                                    fights["name"] = gym_leader.split("(")[0].strip()
-                                    fights["type"] = battle_type
-                                    fights["route"] = f'{gym_leader.split("(")[1].strip(")")} Gym Leader' if len(gym_leader.split("(")) > 1 else "Elite Four Trainers"
-                                    fights["zoneId"] = None
-                                else:
-                                    fights["content"].append(pokemon)
+                        pokemon_list = get_pokemon_from_trainer_info(trainer, output_format)
+                        fights["content"] = pokemon_list
+                        fights["game"] = f"{gym_leader} Team {str(trainer_ids.index(trainer_id) + 1)}"
+                        fights["name"] = gym_leader.split("(")[0].strip()
+                        fights["type"] = battle_type
+                        fights["route"] = f'{gym_leader.split("(")[1].strip(")")} Gym Leader' if len(gym_leader.split("(")) > 1 else "Elite Four Trainers"
+                        fights["zoneId"] = None
                     trainers_list.append(fights)
                 full_list.append(trainers_list)
-        dic['1'] = full_list
+    dic['1'] = full_list
     return dic
 
 def HoneyTreeData():
