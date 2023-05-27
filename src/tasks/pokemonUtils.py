@@ -457,7 +457,7 @@ def create_diff_forms_dictionary(form_dict):
                 if isSpecialPokemon(current_pokemon_name):
                     tracker_monsno = int(mons_no)
                 
-                diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon)]
+                diff_forms[current_pokemon_name + (str(idx or 1)) ] = [tracker_monsno, mon, slugify(mon), mons_no, idx or 1]
     with open(os.path.join(output_file_path, "diff_forms_output.json"), "w", encoding="utf-8") as output:
         json.dump(diff_forms, output, ensure_ascii=False)
     return diff_forms

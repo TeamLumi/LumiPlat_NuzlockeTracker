@@ -142,10 +142,10 @@ export function calcStat(
 
 export {Field, Side} from './field';
 export {Result} from './result';
-export {GenerationNum, StatsTable, StatID} from './data/interface';
+export type {GenerationNum, StatsTable, StatID} from './data/interface';
 export {Generations} from './data/index';
 export {toID} from './util';
-export {State} from './state';
+export type {State} from './state';
 
 export {ABILITIES} from './data/abilities';
 export {ITEMS, MEGA_STONES} from './data/items';

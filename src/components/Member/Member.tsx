@@ -37,7 +37,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
       >
         <div className={styles.info}>
           <div className={styles.pokemonImage}>
-            <PkmImage name={pokemon?.text} />
+          <PkmImage dexNum={pokemon?.dexNum} form={pokemon?.form} name={pokemon?.text} />
           </div>
           <b>{pokemon.text}</b>
         </div>

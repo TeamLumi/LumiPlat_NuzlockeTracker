@@ -3,6 +3,7 @@ import json
 import os
 import csv
 import unicodedata
+from collections import defaultdict
 from pokemonUtils import get_ability_string, get_pokemon_name, get_form_name, get_item_string, get_pokemon_name_dictionary, get_pokemon_info, get_nature_name, GenForms, get_form_pokemon_personal_id, create_diff_forms_dictionary, isSpecialPokemon
 
 # Get the repo file path for cleaner path generating
@@ -65,8 +66,9 @@ def load_data():
 
     return data
 
+full_data = load_data()
+
 def getTrainerData(gymLeaderList):
-    full_data = load_data()
     trainer_data, abilityList, pokedex, itemList, diff_forms = (
         full_data["raw_trainer_data"],
         full_data["abilities"],
@@ -125,9 +127,29 @@ def getTrainerData(gymLeaderList):
     with open(os.path.join(output_file_path, 'Trainer_output.json'), "w") as output:
         output.write(json.dumps(dic))
 
+
+def match_honey_tree_data(match, honey_routes):
+    array_regex = r"\[(.*?)\]\s*=\s*\{(.*?)\}"
+    values_str = match.group(1)
+    honey_trees = {}
+
+    for line in values_str.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+
+        submatch = re.search(array_regex, line)
+        if not submatch:
+            continue
+        
+        key = submatch.group(1)
+        values = [v.strip() for v in submatch.group(2).split(",")]
+        if "AMPHAROS" not in values:
+            honey_trees[honey_routes[key]] = values
+    return honey_trees
+
 def HoneyTreeData():
     const_regex = r"const\s+int32_t\s+HONEY_TREES\[\s*NUM_ZONE_ID\s*\]\[\s*10\s*\]\s*=\s*\{\s*([\s\S]*?)\};"
-    array_regex = r"\[(.*?)\]\s*=\s*\{(.*?)\}"
 
     with open(honeywork_cpp_filepath, "r") as file, open(honeyroutes_filepath, "r") as honey:
         honey_data = file.read()
@@ -136,111 +158,106 @@ def HoneyTreeData():
     # Extract honey trees data
     match = re.search(const_regex, honey_data)
     if match:
-        values_str = match.group(1)
-        honey_trees = {}
-        for line in values_str.split("\n"):
-            line = line.strip()
-            if not line:
+        return match_honey_tree_data(match, honey_routes)
+    
+def get_honey_tree_mons(routes):
+    honey_encounter_data = HoneyTreeData()
+    
+    for key in honey_encounter_data.keys():
+        for mon in honey_encounter_data[key]:
+            if mon.capitalize() in routes[key]:
                 continue
-            submatch = re.search(array_regex, line)
-            if submatch:
-                key = submatch.group(1)
-                values = [v.strip() for v in submatch.group(2).split(",")]
-                if "AMPHAROS" not in values:
-                    honey_trees[honey_routes[key]] = values
-    return(honey_trees)
+            if mon == "FARFETCHD":
+                routes[key].append("Farfetch'd")
+            else:
+                routes[key].append(mon.capitalize())
+
 
 def bad_encounter_data(pkmn_name, routeName, route):
     print('BAD ENCOUNTER', pkmn_name, routeName, route)
     bad_encounters.append({pkmn_name, routeName, route})
     return
 
-def getEncounterData():
-    full_data = load_data()
-    encounter_data, pokedex, routeNames, diff_forms, name_routes = (
-        full_data["raw_encounters"],
-        full_data["pokedex"],
-        full_data["routes"],
-        full_data["diff_forms"],
-        full_data["name_routes"]
-    )
+def check_bad_encounter(encounters, tracker_route, pkmn_key, lumi_formula_mon, temp_form_no, zoneID):
+    bad_encounter_list = ["Gigantamax", "Eternamax", "Mega ", "Totem "]
+    pokemonPersonalId = get_form_pokemon_personal_id(lumi_formula_mon, temp_form_no)
+    pokedex, name_routes, diff_forms = ( full_data["pokedex"], full_data['name_routes'], full_data['diff_forms'])
 
-    routes = {}
+    if pokemonPersonalId is not None and any(substring in get_form_name(pokemonPersonalId) for substring in bad_encounter_list):
+        bad_encounter_data(get_form_name(pokemonPersonalId), name_routes[tracker_route], zoneID)
+    elif pkmn_key not in diff_forms.keys():
+        bad_encounter_data(pokedex[str(lumi_formula_mon)], name_routes[tracker_route], zoneID)
+    else:
+        encounters[str(tracker_route)].append(diff_forms[pkmn_key][1])
+
+
+def get_diff_form_mons(monsno, zoneID, encounters):
+    pokedex, routeNames = ( full_data["pokedex"], full_data["routes"] )
+    formNo = monsno//(2**16)
+    lumi_formula_mon = monsno - (formNo * (2**16))
+    for tracker_route, route in routeNames.items():
+
+        if str(zoneID) not in route:
+            continue
+        pkmn_key = pokedex[str(lumi_formula_mon)] + str(formNo)
+
+        temp_form_no = formNo
+        if isSpecialPokemon(get_pokemon_name(int(lumi_formula_mon))):
+            temp_form_no = 0
+
+        check_bad_encounter(encounters, tracker_route, pkmn_key, lumi_formula_mon, temp_form_no, zoneID)
+
+def get_standard_mons(monsno, zoneID, encounters):
+    pokedex, routeNames = ( full_data["pokedex"], full_data["routes"] )
+    if monsno == 0:
+        return
+    for tracker_route, route in routeNames.items():
+        if str(zoneID) not in route:
+            continue
+        encounters[str(tracker_route)].append(pokedex[str(monsno)])
+
+def update_routes_with_mons(monsno, zoneID, encounters):
+    pokedex, routeNames = ( full_data["pokedex"], full_data["routes"] )
+
+    if monsno < 2000:
+        get_standard_mons(monsno, zoneID, encounters)
+
+    else:
+        get_diff_form_mons(monsno, zoneID, encounters)
+
+def getEncounterData():
+    encounter_data, pokedex = ( full_data["raw_encounters"], full_data['pokedex'] )
+
+    encounter_list = defaultdict(list)
     for area in encounter_data['table']:
         for key in area.keys():
-            if type(area[key]) != int:
-                if type(area[key][0]) == dict:
-                    for mon in area[key]:
-                        if mon['monsNo'] < 2000:
-                            if mon['monsNo'] != 0:
-                                for key1 in routeNames.keys():
-                                    for route in routeNames[key1]:
-                                        if str(area['zoneID']) == route:
-                                            if str(key1) not in routes.keys():
-                                                routes[key1] = [pokedex[str(mon['monsNo'])]]
-                                            else:
-                                                routes[key1].append(pokedex[str(mon['monsNo'])])
-                                                routes[key1] = list(set(routes[key1]))
-                        elif mon['monsNo'] > 0:
-                            for dexNum in pokedex.keys():
-                                formNo = int(mon['monsNo'])//(2**16)
-                                if (int(mon['monsNo']) - (formNo * (2**16))) == int(dexNum):
-                                    for key1 in routeNames.keys():
-                                        for route in routeNames[key1]:
-                                            if str(area['zoneID']) == route:
-                                                if str(key1) not in routes.keys():
-                                                    '''
-                                                    Here's what this variable does:
-                                                    Takes the Pokedex Number from the pokedex dictionary's keys ("19")
-                                                    Returns the Pokemon Name associated with that key ("Rattta")
-                                                    Adds the formNo ("1")
-                                                    Uses the Pokemon Name + the formNo ("Rattata1")
-                                                    Looks this key up in the diff_forms dictionary 
-                                                    Returns that value ("Alolan Rattata")
-                                                    '''
-                                                    routes[key1] = [diff_forms[pokedex[str(dexNum)]+str(formNo)][1]]
-                                                else:
-                                                    pkmn_key = pokedex[str(dexNum)] + str(formNo)
-                                                    temp_form_no = formNo
-                                                    if isSpecialPokemon(get_pokemon_name(int(dexNum))):
-                                                        temp_form_no = 0
-                                                    
-                                                    pokemonPersonalId = get_form_pokemon_personal_id(dexNum, temp_form_no)
+            if type(area[key]) == int:
+                continue
+            if type(area[key][0]) != dict:
+                continue
+            for mon in area[key]:
+                monsno = mon['monsNo']
+                zoneID = area['zoneID']
+                update_routes_with_mons(monsno, zoneID, encounter_list)
 
-                                                    if pokemonPersonalId is not None and ("Gigantamax" in get_form_name(pokemonPersonalId) or "Eternamax" in get_form_name(pokemonPersonalId) or "Mega " in get_form_name(pokemonPersonalId) or "Totem " in get_form_name(pokemonPersonalId)):
-                                                        bad_encounter_data(get_form_name(pokemonPersonalId), name_routes[key1], route)
-                                                    elif pkmn_key not in diff_forms.keys():
-                                                        bad_encounter_data(pokedex[str(dexNum)], name_routes[key1], route)
-                                                    else:
-                                                        routes[key1].append(diff_forms[pkmn_key][1])
-                                                        routes[key1] = list(set(routes[key1]))
-                                else:
-                                    continue            
     ##This is for adding the Trophy Garden daily mons
     for mon in encounter_data['urayama']:
-        routes['lmpt-39'].append(pokedex[str(mon['monsNo'])])
+        encounter_list['lmpt-39'].append(pokedex[str(mon['monsNo'])])
 
     ##This is for adding all of the Honey Tree encounters to the list
-    honey_encounter_data = HoneyTreeData()
+    get_honey_tree_mons(encounter_list)
 
-    for key in honey_encounter_data.keys():
-        for mon in honey_encounter_data[key]:
-            if str(key) not in routes.keys():
-                routes[key] = [mon.capitalize()]
-            if mon.capitalize() not in routes[key]:
-                if mon == "FARFETCHD":
-                    routes[key].append("Farfetch'd")
-                else:
-                    routes[key].append(mon.capitalize())
+    for key in encounter_list:
+        encounter_list[key] = sorted(list(set(encounter_list[key])))
 
-    my_keys = list(routes.keys())
+    my_keys = list(encounter_list.keys())
     my_keys.sort(key = lambda x: int(x.split('-')[1]))
-    sorted_routes = {i: routes[i] for i in my_keys}
+    sorted_encounters = {i: encounter_list[i] for i in my_keys}
 
     with open(os.path.join(output_file_path, 'bad_encounters.json'), 'w') as output:
         output.write(json.dumps(bad_encounters, default=tuple))
     with open(os.path.join(output_file_path, 'Encounter_output.json'), 'w') as output:
-        output.write(json.dumps(sorted_routes))
+        output.write(json.dumps(sorted_encounters))
 
 def pathfinding():
 
@@ -328,19 +345,20 @@ def pathfinding():
     
     for form in forms:
         for pokemon in evolve.keys():
-            if int(pokemon) == int(form[-7:-4]):
-                for evolution in evolve[pokemon]["path"]:
-                    if len(graph[forms[form]]["ar"]) == 0:
-                        if evolution in evolve[evolve[forms[form]]["path"][0]]["path"]:
-                            evolve[evolution]["path"].append(forms[form])
-                        if len(evolve[forms[form]]["path"]) < 2:
-                            evolution_path = evolve[evolution]["path"] + evolve[forms[form]]["path"]
-                            new_path = []
-                            for path_element in evolution_path:
-                                if path_element not in new_path:
-                                    new_path.append(path_element)
-                            evolve[forms[form]]["path"] = new_path
-                            evolve[evolution]["path"] = new_path
+            if int(pokemon) != int(form[-7:-4]):
+                continue
+            for evolution in evolve[pokemon]["path"]:
+                if len(graph[forms[form]]["ar"]) == 0:
+                    if evolution in evolve[evolve[forms[form]]["path"][0]]["path"]:
+                        evolve[evolution]["path"].append(forms[form])
+                    if len(evolve[forms[form]]["path"]) < 2:
+                        evolution_path = evolve[evolution]["path"] + evolve[forms[form]]["path"]
+                        new_path = []
+                        for path_element in evolution_path:
+                            if path_element not in new_path:
+                                new_path.append(path_element)
+                        evolve[forms[form]]["path"] = new_path
+                        evolve[evolution]["path"] = new_path
 
     for pokemon in evolve.keys():
         new_path = []
@@ -352,47 +370,48 @@ def pathfinding():
         json.dump(evolve, output, ensure_ascii=False)
     return evolve
 
+def get_mon_dex_info(pokemon, evolve):
+    diff_forms = full_data['diff_forms']
+    poke_info = get_pokemon_info(pokemon)
+    poke_name = get_pokemon_name(pokemon)
+    dex_info = {
+        "value": pokemon,
+        "text": poke_name,
+        "type": poke_info["type"].upper()
+        }
+    if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
+        dex_info["dualtype"] = poke_info["dualtype"].upper()
+    dex_info["evolve"] = evolve
+    dex_info["generation"] = 8
+    dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
+    dex_info["dexNum"] = pokemon
+    dex_info["form"] = 0
+    if pokemon > 1010:
+        for poke_form in diff_forms.keys():
+            if poke_name in diff_forms[poke_form]:
+                form_number = diff_forms[poke_form][4]
+                og_num = diff_forms[poke_form][3]
+        dex_info["dexNum"] = og_num
+        dex_info["form"] = int(form_number)
+        return dex_info
+
+    return dex_info
+
 def getPokedexInfo():
     pokedex = []
     evolutions = pathfinding()
-    diff_forms = create_diff_forms_dictionary(POKEMON_NAMES)
+
     for pokemon in evolutions.keys():
-        if pokemon < 1456:
-            if pokemon < 906:
-                poke_info = get_pokemon_info(pokemon)
-                poke_name = get_pokemon_name(pokemon)
-                dex_info = {
-                    "value": pokemon,
-                    "text": poke_name,
-                    "type": poke_info["type"].upper()
-                    }
-                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-                    dex_info["dualtype"] = poke_info["dualtype"].upper()
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
-            if pokemon > 1010:
-                poke_info = get_pokemon_info(pokemon)
-                poke_name = get_pokemon_name(pokemon)
-                dex_info = {
-                    "value": pokemon,
-                    "text": poke_name,
-                    "type": poke_info["type"].upper()
-                    }
-                if "dualtype" in poke_info.keys() and poke_info["dualtype"] != 0:
-                    dex_info["dualtype"] = poke_info["dualtype"].upper()
-                dex_info["evolve"] = evolutions[pokemon]["path"]
-                dex_info["generation"] = 8
-                dex_info["abilities"] = [poke_info['ability1'], poke_info['ability2'], poke_info['abilityH']]
+        if pokemon >= 1456:
+            continue
+        evolve = evolutions[pokemon]["path"]
+        if pokemon < 906 or pokemon > 1010:
+            dex_info = get_mon_dex_info(pokemon, evolve)
 
-
-            pokedex.append(dex_info)
+        pokedex.append(dex_info)
     with open(os.path.join(output_file_path, "pokedex_info.json"), "w", encoding="utf-8") as output:
         json.dump(pokedex, output, ensure_ascii=False)
     return pokedex
 
-#getEncounterData()
-getTrainerData(gym_leader_data)
-#getPokedexInfo()
+getEncounterData()
+getPokedexInfo()

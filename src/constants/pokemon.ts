@@ -9,7 +9,9 @@ const ExtraPokemon: TPokemon[] = [
         "type": "BUG",
         "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"]
+        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"],
+        "dexNum": 412,
+        "form": 0,
     },
     {
         "value": 413,
@@ -18,7 +20,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "GRASS",
         "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Anticipation", "Overcoat"]
+        "abilities": ["Battle Armor", "Anticipation", "Overcoat"],
+        "dexNum": 413,
+        "form": 0,
     },
     {
         "value": 414,
@@ -27,7 +31,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "FLYING",
         "evolve": [ 412, 414 ],
         "generation": 8,
-        "abilities": ["Tinted Lens", "Swarm", "Sweet Veil"]
+        "abilities": ["Tinted Lens", "Swarm", "Sweet Veil"],
+        "dexNum": 414,
+        "form": 0,
     },
     {
         "value": 1172,
@@ -35,7 +41,9 @@ const ExtraPokemon: TPokemon[] = [
         "type": "BUG",
         "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"]
+        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"],
+        "dexNum": 412,
+        "form": 1,
     },
     {
         "value": 1173,
@@ -43,7 +51,9 @@ const ExtraPokemon: TPokemon[] = [
         "type": "BUG",
         "evolve": [ 412, 413, 414, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"]
+        "abilities": ["Battle Armor", "Shed Skin", "Overcoat"],
+        "dexNum": 412,
+        "form": 2,
     },
     {
         "value": 1174,
@@ -52,7 +62,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "GROUND",
         "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Anticipation", "Overcoat"]
+        "abilities": ["Battle Armor", "Anticipation", "Overcoat"],
+        "dexNum": 413,
+        "form": 1,
     },
     {
         "value": 1175,
@@ -61,7 +73,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "STEEL",
         "evolve": [ 412, 413, 1172, 1173, 1174, 1175 ],
         "generation": 8,
-        "abilities": ["Battle Armor", "Anticipation", "Overcoat"]
+        "abilities": ["Battle Armor", "Anticipation", "Overcoat"],
+        "dexNum": 413,
+        "form": 2,
     },
     {
         "value": 95,
@@ -70,7 +84,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "GROUND",
         "evolve": [ 95, 208, 1134 ],
         "generation": 8,
-        "abilities": ["Rock Head", "Sturdy", "Weak Armor"]
+        "abilities": ["Rock Head", "Sturdy", "Weak Armor"],
+        "dexNum": 95,
+        "form": 0,
     },
     {
         "value": 1074,
@@ -79,7 +95,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "ICE",
         "evolve": [ 1074 ],
         "generation": 8,
-        "abilities": ["Water Absorb", "Clear Body", "Ice Body"],        
+        "abilities": ["Water Absorb", "Clear Body", "Ice Body"],
+        "dexNum": 95,
+        "form": 1,
     },
     {
         "value": 208,
@@ -89,6 +107,8 @@ const ExtraPokemon: TPokemon[] = [
         "evolve": [ 95, 208, 1134 ],
         "generation": 8,
         "abilities": ["Sand Force", "Sturdy", "Sheer Force"],
+        "dexNum": 208,
+        "form": 0,
     },
     {
         "value": 1134,
@@ -97,7 +117,9 @@ const ExtraPokemon: TPokemon[] = [
         "dualtype": "GROUND",
         "evolve": [ 95, 208, 1134 ],
         "generation": 8,
-        "abilities": ["Sand Force", "Sand Force", "Sand Force"],        
+        "abilities": ["Sand Force", "Sand Force", "Sand Force"],
+        "dexNum": 208,
+        "form": 1,
     },
     {
         "value": 1215,
@@ -106,6 +128,8 @@ const ExtraPokemon: TPokemon[] = [
         "evolve": [ 1215, 1217, 1218 ],
         "generation": 8,
         "abilities": ["Hustle", "Hustle", "Inner Focus"],
+        "dexNum": 554,
+        "form": 1,
     },
     {
         "value": 1217,
@@ -114,6 +138,8 @@ const ExtraPokemon: TPokemon[] = [
         "evolve": [ 1215, 1217, 1218 ],
         "generation": 8,
         "abilities": ["Gorilla Tactics", "Gorilla Tactics", "Zen Mode"],
+        "dexNum": 555,
+        "form": 1,
     },
     {
         "value": 1218,
@@ -123,6 +149,8 @@ const ExtraPokemon: TPokemon[] = [
         "evolve": [ 1215, 1217, 1218 ],
         "generation": 8,
         "abilities": ["Gorilla Tactics", "Gorilla Tactics", "Zen Mode"],
+        "dexNum": 555,
+        "form": 2,
     }
 ]
 
