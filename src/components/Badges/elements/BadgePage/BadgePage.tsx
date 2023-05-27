@@ -1,64 +1,67 @@
 import { ReactText, useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import Tab from 'semantic-ui-react/dist/commonjs/modules/Tab';
 import { Page } from 'common';
 import { BadgeDetail } from 'components/Badges/elements';
 import DETAILS from 'constants/details';
 import useStore from 'store';
 import styles from './BadgePage.module.scss';
+import  Dropdown from 'semantic-ui-react/dist/commonjs/modules/Dropdown';
 
 function BadgePage(): JSX.Element {
   const navigate = useNavigate();
   const { badge, game } = useParams();
   const { t } = useTranslation('badges');
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
-  const [tab, setTab] = useState(0);
-
+  const [selectedOption, setSelectedOption] = useState('');
   const selectedDetail =
     !!game && DETAILS[game] && !!badge && typeof Number(badge) === 'number'
       ? DETAILS[game][Number(badge)]
       : null;
 
   useEffect(() => {
-    if (selectedGame?.value !== game) {
+    if (selectedGame?.value !== game || !selectedDetail) {
       navigate('/');
     }
-  }, [game, navigate, selectedGame]);
+  }, [game, navigate, selectedGame, selectedDetail]);
 
-  useEffect(() => {
-    if (!selectedDetail) {
-      navigate('/');
+  const handleDropdownChange = (_: any, data: any) => {
+    setSelectedOption(data.value);
+  };
+  
+  const renderContent = () => {
+    if (selectedOption && selectedDetail) {
+      const selectedGameDetail = selectedDetail.find(
+        (gameDetail) => gameDetail.game === selectedOption
+      );
+      if (selectedGameDetail) {
+        return <BadgeDetail selectedDetail={selectedGameDetail} />;
+      }
     }
-  }, [game, navigate, selectedDetail]);
-
-  const panes = selectedDetail
-    ? selectedDetail.map((gameDetail) => {
-        return {
-          menuItem: gameDetail.game,
-          render: () => (
-            <Tab.Pane>
-              <BadgeDetail selectedDetail={selectedDetail[tab]} />
-            </Tab.Pane>
-          ),
-        };
-      })
-    : null;
-
-  const handleTabChange = (newIndex: ReactText) => {
-    setTab(Number(newIndex));
+    return null;
   };
 
+  const dropdownOptions = selectedDetail
+    ? selectedDetail.map((gameDetail) => ({
+        key: gameDetail.game,
+        value: gameDetail.game,
+        text: gameDetail.game,
+        route: gameDetail.route,
+      }))
+    : null;
+
   return (
-    <Page header={t('details')}>
-      <Tab
-        activeIndex={tab}
-        className={styles.tabs}
-        data-testid="badge-details-tabs"
-        menu={{ attached: false, tabular: false }}
-        onTabChange={(e, data) => handleTabChange(data.activeIndex)}
-        panes={panes}
-      />
+    <Page header={dropdownOptions && dropdownOptions.length > 0 ? dropdownOptions[0].route : t('details')}>
+      <div className={styles.dropdownContainer}>
+        <Dropdown
+          value={selectedOption}
+          onChange={handleDropdownChange}
+          options={dropdownOptions}
+          selection
+          placeholder="Select a Trainer"
+        />
+      </div>
+      {renderContent()}
     </Page>
   );
 }

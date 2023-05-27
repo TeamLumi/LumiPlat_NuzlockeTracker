@@ -1,10 +1,12 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
 import { FixedSizeList, ListChildComponentProps as RowProps } from 'react-window';
 import Confirm from 'semantic-ui-react/dist/commonjs/addons/Confirm';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
+import Label from 'semantic-ui-react/dist/commonjs/elements/Label';
 import Popup from 'semantic-ui-react/dist/commonjs/modules/Popup';
 import { shallow } from 'zustand/shallow';
 import { Status } from 'components';
@@ -19,6 +21,7 @@ import {
 } from 'components/Tracker/elements';
 import { TYPE_COLOR } from 'constants/colors';
 import { POKEMAP } from 'constants/pokemon';
+import ALL_ZONE_IDS from 'constants/zoneIds'
 import useRemtoPx from 'hooks/useRemToPx';
 import { selectNAGeneration } from 'selectors';
 import useStore from 'store';
@@ -96,11 +99,31 @@ const Encounters = React.memo(function Encounters() {
   const handleScroll = (index: number) => {
     listRef.current?.scrollToItem(index + 1, 'center');
   };
+  
+  const navigate = useNavigate();
+
+  const handleOpen = (e: React.MouseEvent<HTMLDivElement, MouseEvent>, index: number) => {
+    e.preventDefault();
+    e.stopPropagation();
+    navigate(`/badgedetail/${selectedGame?.value}/${index}`);
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>, index: number) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      navigate(`/badgedetail/${selectedGame?.value}/${index}`);
+    }
+  };
 
   const renderRow: React.FC<RowProps> = ({ index, style }) => {
     const encounter = filteredEncounters[index];
     const foundPokemon = POKEMAP.get(encounter.pokemon);
     const isGreyedOut = encounter?.status?.value === 2;
+    const isTrainerRoute = encounter.zoneID.some(id => ALL_ZONE_IDS.includes(id));
+    let trainerIndex: number | undefined;
+    
+    if (isTrainerRoute) {
+      trainerIndex = ALL_ZONE_IDS.findIndex(id => encounter.zoneID.includes(id));
+    }
     return (
       <div style={style}>
         <div
@@ -119,6 +142,33 @@ const Encounters = React.memo(function Encounters() {
           <div className={styles.header}>
             <span className={styles.location}>{encounter.location}</span>
             <div className={styles.buttons}>
+            {isTrainerRoute && 
+            <div
+              className={styles.question}
+              data-testid={`badge-detail-${trainerIndex + 13}`}
+              onClick={(e) => handleOpen(e, trainerIndex + 13)}
+              onKeyPress={(e) => handleKeyPress(e, trainerIndex + 13)}
+              role="button"
+              tabIndex={0}
+            >
+              <Button
+                aria-label="area-trainers"
+                basic
+                compact
+                inverted={darkMode}
+                type="button"
+              >
+                <Icon name="user" />
+                <Label
+                  color={darkMode ? 'grey' : 'grey'}
+                  inverted={darkMode}
+                  style={{ height: '15px', display: 'inline-flex', alignItems: 'center' }}
+                >
+                  Trainers
+                </Label>
+              </Button>
+            </div>
+            }
               {!!encounter.pokemon && <Detail encounter={encounter} />}
               <Popup
                 inverted={darkMode}
