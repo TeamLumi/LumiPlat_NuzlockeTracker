@@ -35,7 +35,7 @@ const PkmImage = ({ dexNum, form, name, shiny = false }: PkmImageProps) => {
     loadImage(imgSrc)
       .catch((error) => {
         console.error(error);
-        setImgSrc(baseImgSrc + 'pm0000_00_00_00_L.webp');
+        setImgSrc(baseImgSrc + getImage(dexNum, 0));
       })
       .then((src) => {
         if (src !== imgSrc) {
