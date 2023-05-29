@@ -1,4 +1,4 @@
-import data from 'tasks/output/Encounter_output.json'
+import data from '../generated_files/Encounter_output.json'
 
 type EncounterTable = {[key in string]: string[]}
 

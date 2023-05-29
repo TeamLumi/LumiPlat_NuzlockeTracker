@@ -1,4 +1,4 @@
-import trainer_data from 'tasks/output/Trainer_output.json';
+import trainer_data from '../generated_files/Trainer_output.json';
 
 const ALL_ZONE_IDS: number[] = [];
 
