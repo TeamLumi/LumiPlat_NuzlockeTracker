@@ -1,6 +1,0 @@
-ev_d06r0201_explore1:
-	_EASY_OBJ_MSG('dp_scenario2%132-msg_d06r0201_explore_01')
-	_END()
-ev_d06r0201_sign1:
-	_EASY_BOARD_MSG('dp_scenario2%132-msg_d06r0201_sign1_01', 'BOARD_TYPE_POST', 0)
-	_END()

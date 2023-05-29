@@ -1,6 +1,0 @@
-ev_c06r0501_assistantm:
-	_EASY_OBJ_MSG('dp_scenario2%128-msg_c06r0501_assistantm_01')
-	_END()
-ev_c06r0501_achamo:
-	_EASY_VOICE_MSG('dp_scenario2%128-msg_c06r0501_achamo_01', 'PLAY_PV_EV_054_00_00')
-	_END()

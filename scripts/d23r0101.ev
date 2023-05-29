@@ -1,5 +1,0 @@
-ev_d23r0101_flag_change:
-	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D23R0101)
-	_END()
-ev_d23r0101:
-	_END()

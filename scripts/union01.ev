@@ -1,8 +1,0 @@
-ev_union01_flag_change:
-	_END()
-ev_union01_reception:
-	_EVENT_START()
-	_TALK_OBJ_START()
-	_TALK_UNION_NPC()
-	_EVENT_END()
-	_END()

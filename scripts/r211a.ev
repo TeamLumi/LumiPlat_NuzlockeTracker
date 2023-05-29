@@ -1,6 +1,0 @@
-ev_r211a_sign1:
-	_EASY_BOARD_MSG('dp_scenario2%88-msg_r211a_sign1_01', 'BOARD_TYPE_ROAD', 0, 1)
-	_END()
-ev_r211a_sign2:
-	_EASY_BOARD_MSG('dp_scenario2%88-msg_r211a_sign2_01', 'BOARD_TYPE_ROAD', 0, 2)
-	_END()
