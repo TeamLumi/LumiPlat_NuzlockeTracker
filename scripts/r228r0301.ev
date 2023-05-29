@@ -1,9 +1,0 @@
-ev_r228r0301_oldman1:
-	_EASY_OBJ_MSG('dp_scenario3%75-msg_r228r0301_oldman1_01')
-	_END()
-ev_r228r0301_bookshelf1:
-	_EASY_OBJ_MSG('dp_scenario3%75-msg_r228r0301_bookshelf1_01')
-	_END()
-ev_r228r0301_bookshelf2:
-	_EASY_OBJ_MSG('dp_scenario3%75-msg_r228r0301_bookshelf1_02')
-	_END()

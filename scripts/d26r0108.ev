@@ -1,9 +1,0 @@
-ev_d26r0108_assistantm:
-	_EASY_OBJ_MSG('dp_scenario2%87-msg_d26r0108_assistantm_01')
-	_END()
-ev_d26r0108_assistantw:
-	_EASY_OBJ_MSG('dp_scenario2%87-msg_d26r0108_assistantw_01')
-	_END()
-ev_d26r0108_machine:
-	_EASY_OBJ_MSG('dp_scenario2%87-msg_d26r0108_machine_01')
-	_END()

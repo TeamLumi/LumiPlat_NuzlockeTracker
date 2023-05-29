@@ -1,6 +1,0 @@
-SP_C10R0112_SCENE:
-	_JUMP('sp_c10r0112_tbl')
-	_SP_EVENT_DATA_END()
-sp_c10r0112_tbl:
-	_SCENE_CHANGE_DATA(@LOCALWORK3, 0, 'ev_c10r0112_dendou_before')
-	_SCENE_CHANGE_END()

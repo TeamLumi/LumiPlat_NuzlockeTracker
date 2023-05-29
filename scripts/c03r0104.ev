@@ -1,9 +1,0 @@
-ev_c03r0104_boy1:
-	_EASY_OBJ_MSG('msg_c03r0104_boy1_01')
-	_END()
-ev_c03r0104_babyboy1:
-	_EASY_OBJ_MSG('msg_c03r0104_babyboy1_01')
-	_END()
-ev_c03r0104_middlewoman1:
-	_EASY_OBJ_MSG('msg_c03r0104_middlewoman1_01')
-	_END()

@@ -1,9 +1,0 @@
-ev_d01r0101_flag_change:
-	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D01R0101)
-	_END()
-ev_d01r0101_workman:
-	_EASY_OBJ_MSG('dp_scenario1%85-msg_d01r0101_workman_01')
-	_END()
-ev_d01r0101_babygirl:
-	_EASY_OBJ_MSG('dp_scenario1%85-msg_d01r0101_babygirl1_01')
-	_END()

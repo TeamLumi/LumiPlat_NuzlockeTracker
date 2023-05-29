@@ -1,3 +1,0 @@
-SP_C01_FLAG:
-	_FLAG_CHANGE_LABEL('ev_c01_flag_change')
-	_SP_EVENT_DATA_END()

@@ -1,6 +1,0 @@
-ev_d25r0101_flag_change:
-	_ARRIVE_FLAG_SET($FLAG_ARRIVE_D25R0101)
-	_END()
-ev_d25r0101_statue_01:
-	_EASY_OBJ_MSG('dp_scenario1%107-msg_d25r0101_01_01')
-	_END()

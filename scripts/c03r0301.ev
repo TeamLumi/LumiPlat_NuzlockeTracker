@@ -1,6 +1,0 @@
-ev_c03r0301_girl3:
-	_EASY_OBJ_MSG('dp_scenario1%77-msg_c03r0301_girl3_01')
-	_END()
-ev_c03r0301_mount:
-	_EASY_OBJ_MSG('dp_scenario1%77-msg_c03r0301_mount_01')
-	_END()

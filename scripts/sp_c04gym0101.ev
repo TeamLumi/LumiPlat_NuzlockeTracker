@@ -1,3 +1,0 @@
-SP_C04GYM0101_FLAG:
-	_JUMP('ev_c04gym0101_flag_change')
-	_SP_EVENT_DATA_END()
