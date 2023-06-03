@@ -32,18 +32,16 @@ const PkmImage = ({ dexNum, form, name, shiny = false }: PkmImageProps) => {
   };
 
   useEffect(() => {
-    loadImage(imgSrc)
+    loadImage(baseImgSrc + getImage(dexNum, form))
+      .then((src) => {
+        setImgSrc(src as string);
+      })
       .catch((error) => {
         console.error(error);
         setImgSrc(baseImgSrc + getImage(dexNum, 0));
-      })
-      .then((src) => {
-        if (src !== imgSrc) {
-          setImgSrc(src as string);
-        }
       });
-  }, [dexNum, form, name, shiny, imgSrc]);
-
+  }, [dexNum, form, name, shiny]);
+  
   return (
     <div
       className={`pkm ${shiny ? 'shiny' : ''}`}
