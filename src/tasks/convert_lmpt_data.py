@@ -415,3 +415,4 @@ def getPokedexInfo():
 
 getEncounterData()
 getPokedexInfo()
+getTrainerData(gym_leader_data)
