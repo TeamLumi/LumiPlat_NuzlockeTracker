@@ -40,13 +40,13 @@ function CalculatorHeader(): JSX.Element {
     e: React.KeyboardEvent<HTMLDivElement>,
     change: [position: 'attacker' | 'defender', index: number]
   ) => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    if (e.code === 'Enter' || e.code === 'Space') {
       setPrimary(change);
     }
   };
 
   const handleMainKeyPress = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    if (e.code === 'Enter' || e.code === 'Space') {
       setExpanded((prevState) => !prevState);
     }
   };
