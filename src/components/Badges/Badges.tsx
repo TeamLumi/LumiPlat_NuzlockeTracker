@@ -23,7 +23,7 @@ function Badges(): JSX.Element {
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>, index: number) => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    if (e.code === 'Enter' || e.code === 'Space') {
       navigate(`/badgedetail/${selectedGame?.value}/${index}`);
     }
   };

@@ -72,7 +72,7 @@ function PokemonSelector({
   };
 
   const onKeyPress = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === 'Enter' || e.key === ' ') setOpen(true);
+    if (e.code === 'Enter' || e.code === 'Space') setOpen(true);
   };
 
   const handleClose = () => {
