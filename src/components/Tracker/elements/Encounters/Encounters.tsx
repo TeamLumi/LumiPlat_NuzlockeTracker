@@ -30,6 +30,7 @@ import styles from './Encounters.module.scss';
 
 const NICKNAME_HEIGHT = 15.714; // 220px
 const NORMAL_HEIGHT = 12.857; // 180px
+const GYM_LEADERS = 13
 
 const Encounters = React.memo(function Encounters() {
   const { t } = useTranslation('tracker');
@@ -145,9 +146,9 @@ const Encounters = React.memo(function Encounters() {
             {isTrainerRoute && 
             <div
               className={styles.question}
-              data-testid={`badge-detail-${trainerIndex + 13}`}
-              onClick={(e) => handleOpen(e, trainerIndex + 13)}
-              onKeyPress={(e) => handleKeyPress(e, trainerIndex + 13)}
+              data-testid={`badge-detail-${trainerIndex + GYM_LEADERS}`}
+              onClick={(e) => handleOpen(e, trainerIndex + GYM_LEADERS)}
+              onKeyPress={(e) => handleKeyPress(e, trainerIndex + GYM_LEADERS)}
               role="button"
               tabIndex={0}
             >
