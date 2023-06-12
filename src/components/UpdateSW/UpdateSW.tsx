@@ -1,5 +1,4 @@
 import { useCallback, useLayoutEffect, useState } from 'react';
-import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import styles from './UpdateSW.module.scss';
 
 declare global {
@@ -39,14 +38,8 @@ function UpdateSW(): JSX.Element {
     }
   };
 
-  return waitingServiceWorker ? (
-    <div className={styles.alert}>
-      <span>New version available</span>
-      <Button color="grey" onClick={updateServiceWorker} type="button">
-        Update
-      </Button>
-    </div>
-  ) : null;
+  // No visible UI, update automatically if a new version is available
+  return null;
 }
 
 export default UpdateSW;
