@@ -14,6 +14,10 @@ function UpdateSW(): JSX.Element {
   const setServiceWorker = useCallback(
     (registration: ServiceWorkerRegistration) => {
       setWaitingServiceWorker(registration.waiting);
+      if (registration.waiting && registration.waiting.state === 'installed') {
+        // New service worker installed, trigger the update
+        updateServiceWorker();
+      }
     },
     [setWaitingServiceWorker]
   );
