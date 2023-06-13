@@ -8843,8 +8843,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 1 (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 1",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -8878,8 +8878,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 2 (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 2",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -8913,8 +8913,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -9055,8 +9055,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 4 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 4",
+        "game": "Pok\u00e9mon Trainer Dawn 1 (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 1",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9090,8 +9090,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 5 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 5",
+        "game": "Pok\u00e9mon Trainer Dawn 2 (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 2",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9125,8 +9125,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 6 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 6",
+        "game": "Pok\u00e9mon Trainer Dawn 3 (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 3",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9935,8 +9935,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Guitarist Arturo 2 (Jubilife City Trainers)",
-        "name": "Guitarist Arturo 2",
+        "game": "Guitarist Arturo (Jubilife City Trainers)",
+        "name": "Guitarist Arturo",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -9996,8 +9996,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Guitarist Arturo 2 (Jubilife City Trainers)",
-        "name": "Guitarist Arturo 2",
+        "game": "Guitarist Arturo (Jubilife City Trainers)",
+        "name": "Guitarist Arturo",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -10054,8 +10054,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Clown Lee 2 (Jubilife City Trainers)",
-        "name": "Clown Lee 2",
+        "game": "Clown Lee (Jubilife City Trainers)",
+        "name": "Clown Lee",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -10112,8 +10112,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Clown Lee 2 (Jubilife City Trainers)",
-        "name": "Clown Lee 2",
+        "game": "Clown Lee (Jubilife City Trainers)",
+        "name": "Clown Lee",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -10199,8 +10199,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9 Kid Ariel 2 (Jubilife City Trainers)",
-        "name": "Pok\u00e9 Kid Ariel 2",
+        "game": "Pok\u00e9 Kid Ariel (Jubilife City Trainers)",
+        "name": "Pok\u00e9 Kid Ariel",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -10286,8 +10286,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9 Kid Ariel 2 (Jubilife City Trainers)",
-        "name": "Pok\u00e9 Kid Ariel 2",
+        "game": "Pok\u00e9 Kid Ariel (Jubilife City Trainers)",
+        "name": "Pok\u00e9 Kid Ariel",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 8
@@ -10343,6 +10343,128 @@
             "evatk": 52,
             "evdef": 244,
             "evspatk": 0,
+            "evspdef": 0,
+            "evspeed": 0
+          }
+        ],
+        "game": "Pok\u00e9mon Trainer Lucas 1 (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas 1",
+        "type": "Trainer",
+        "route": "Jubilife City Trainers",
+        "zoneId": 0
+      },
+      {
+        "content": [
+          {
+            "ability": "Intimidate",
+            "gender": "MALE",
+            "id": 209,
+            "item": null,
+            "level": 13,
+            "moves": [
+              44,
+              424,
+              422,
+              423
+            ],
+            "nature": "Bashful",
+            "ivatk": 25,
+            "ivdef": 25,
+            "ivhp": 25,
+            "ivspatk": 25,
+            "ivspdef": 25,
+            "ivspeed": 25,
+            "evhp": 36,
+            "evatk": 116,
+            "evdef": 116,
+            "evspatk": 0,
+            "evspdef": 0,
+            "evspeed": 0
+          },
+          {
+            "ability": "Blaze",
+            "gender": "FEMALE",
+            "id": 390,
+            "item": null,
+            "level": 14,
+            "moves": [
+              172,
+              269,
+              43,
+              10
+            ],
+            "nature": "Bashful",
+            "ivatk": 25,
+            "ivdef": 25,
+            "ivhp": 25,
+            "ivspatk": 25,
+            "ivspdef": 25,
+            "ivspeed": 25,
+            "evhp": 0,
+            "evatk": 252,
+            "evdef": 0,
+            "evspatk": 0,
+            "evspdef": 252,
+            "evspeed": 4
+          }
+        ],
+        "game": "Pok\u00e9mon Trainer Lucas 2 (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas 2",
+        "type": "Trainer",
+        "route": "Jubilife City Trainers",
+        "zoneId": 0
+      },
+      {
+        "content": [
+          {
+            "ability": "Intimidate",
+            "gender": "NEUTRAL",
+            "id": 209,
+            "item": null,
+            "level": 13,
+            "moves": [
+              44,
+              424,
+              422,
+              423
+            ],
+            "nature": "Serious",
+            "ivatk": 25,
+            "ivdef": 25,
+            "ivhp": 25,
+            "ivspatk": 25,
+            "ivspdef": 25,
+            "ivspeed": 25,
+            "evhp": 36,
+            "evatk": 116,
+            "evdef": 116,
+            "evspatk": 0,
+            "evspdef": 0,
+            "evspeed": 0
+          },
+          {
+            "ability": "Torrent",
+            "gender": "MALE",
+            "id": 393,
+            "item": null,
+            "level": 14,
+            "moves": [
+              61,
+              346,
+              45,
+              64
+            ],
+            "nature": "Bashful",
+            "ivatk": 25,
+            "ivdef": 25,
+            "ivhp": 25,
+            "ivspatk": 25,
+            "ivspdef": 25,
+            "ivspeed": 25,
+            "evhp": 92,
+            "evatk": 0,
+            "evdef": 252,
+            "evspatk": 148,
             "evspdef": 0,
             "evspeed": 0
           }
@@ -10356,128 +10478,6 @@
       {
         "content": [
           {
-            "ability": "Intimidate",
-            "gender": "MALE",
-            "id": 209,
-            "item": null,
-            "level": 13,
-            "moves": [
-              44,
-              424,
-              422,
-              423
-            ],
-            "nature": "Bashful",
-            "ivatk": 25,
-            "ivdef": 25,
-            "ivhp": 25,
-            "ivspatk": 25,
-            "ivspdef": 25,
-            "ivspeed": 25,
-            "evhp": 36,
-            "evatk": 116,
-            "evdef": 116,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
-          },
-          {
-            "ability": "Blaze",
-            "gender": "FEMALE",
-            "id": 390,
-            "item": null,
-            "level": 14,
-            "moves": [
-              172,
-              269,
-              43,
-              10
-            ],
-            "nature": "Bashful",
-            "ivatk": 25,
-            "ivdef": 25,
-            "ivhp": 25,
-            "ivspatk": 25,
-            "ivspdef": 25,
-            "ivspeed": 25,
-            "evhp": 0,
-            "evatk": 252,
-            "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 4
-          }
-        ],
-        "game": "Pok\u00e9mon Trainer Lucas 4 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 4",
-        "type": "Trainer",
-        "route": "Jubilife City Trainers",
-        "zoneId": 0
-      },
-      {
-        "content": [
-          {
-            "ability": "Intimidate",
-            "gender": "NEUTRAL",
-            "id": 209,
-            "item": null,
-            "level": 13,
-            "moves": [
-              44,
-              424,
-              422,
-              423
-            ],
-            "nature": "Serious",
-            "ivatk": 25,
-            "ivdef": 25,
-            "ivhp": 25,
-            "ivspatk": 25,
-            "ivspdef": 25,
-            "ivspeed": 25,
-            "evhp": 36,
-            "evatk": 116,
-            "evdef": 116,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
-          },
-          {
-            "ability": "Torrent",
-            "gender": "MALE",
-            "id": 393,
-            "item": null,
-            "level": 14,
-            "moves": [
-              61,
-              346,
-              45,
-              64
-            ],
-            "nature": "Bashful",
-            "ivatk": 25,
-            "ivdef": 25,
-            "ivhp": 25,
-            "ivspatk": 25,
-            "ivspdef": 25,
-            "ivspeed": 25,
-            "evhp": 92,
-            "evatk": 0,
-            "evdef": 252,
-            "evspatk": 148,
-            "evspdef": 0,
-            "evspeed": 0
-          }
-        ],
-        "game": "Pok\u00e9mon Trainer Lucas 5 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 5",
-        "type": "Trainer",
-        "route": "Jubilife City Trainers",
-        "zoneId": 0
-      },
-      {
-        "content": [
-          {
             "ability": "Cute Charm",
             "gender": "NEUTRAL",
             "id": 35,
@@ -10530,8 +10530,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 6 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 6",
+        "game": "Pok\u00e9mon Trainer Dawn 1 (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 1",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10591,8 +10591,8 @@
             "evspeed": 4
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 7 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 7",
+        "game": "Pok\u00e9mon Trainer Dawn 2 (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 2",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10652,8 +10652,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 8 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 8",
+        "game": "Pok\u00e9mon Trainer Dawn 3 (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 3",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10736,8 +10736,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Reporter Kayla 8 (Jubilife City Trainers)",
-        "name": "Reporter Kayla 8",
+        "game": "Reporter Kayla (Jubilife City Trainers)",
+        "name": "Reporter Kayla",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 2
@@ -14603,8 +14603,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Commander Mars 3 (Valley Windworks Trainers)",
-        "name": "Commander Mars 3",
+        "game": "Commander Mars (Valley Windworks Trainers)",
+        "name": "Commander Mars",
         "type": "Trainer",
         "route": "Valley Windworks Trainers",
         "zoneId": 198
@@ -20972,8 +20972,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Scientist Travon 5 (Eterna City Trainers)",
-        "name": "Scientist Travon 5",
+        "game": "Scientist Travon (Eterna City Trainers)",
+        "name": "Scientist Travon",
         "type": "Trainer",
         "route": "Eterna City Trainers",
         "zoneId": 64
@@ -21085,8 +21085,8 @@
             "evspeed": 244
           }
         ],
-        "game": "Commander Jupiter 5 (Eterna City Trainers)",
-        "name": "Commander Jupiter 5",
+        "game": "Commander Jupiter (Eterna City Trainers)",
+        "name": "Commander Jupiter",
         "type": "Trainer",
         "route": "Eterna City Trainers",
         "zoneId": 65
@@ -22044,8 +22044,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 4 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 4",
+        "game": "Pok\u00e9mon Trainer Lucas 1 (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas 1",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -22157,8 +22157,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 5 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 5",
+        "game": "Pok\u00e9mon Trainer Lucas 2 (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas 2",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -22270,8 +22270,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 6 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 6",
+        "game": "Pok\u00e9mon Trainer Lucas 3 (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas 3",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -27313,8 +27313,8 @@
             "evspeed": 126
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 1 (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 1",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -27478,8 +27478,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 2 (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 2",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -27643,8 +27643,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -28584,8 +28584,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Fisher Juan 12 (Route 212 South Trainers)",
-        "name": "Fisher Juan 12",
+        "game": "Fisher Juan (Route 212 South Trainers)",
+        "name": "Fisher Juan",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -28671,8 +28671,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Fisher Cameron 12 (Route 212 South Trainers)",
-        "name": "Fisher Cameron 12",
+        "game": "Fisher Cameron (Route 212 South Trainers)",
+        "name": "Fisher Cameron",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -28732,8 +28732,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Fisher Travis 12 (Route 212 South Trainers)",
-        "name": "Fisher Travis 12",
+        "game": "Fisher Travis (Route 212 South Trainers)",
+        "name": "Fisher Travis",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -28819,8 +28819,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Ranger Taylor 12 (Route 212 South Trainers)",
-        "name": "Pok\u00e9mon Ranger Taylor 12",
+        "game": "Pok\u00e9mon Ranger Taylor (Route 212 South Trainers)",
+        "name": "Pok\u00e9mon Ranger Taylor",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -28906,8 +28906,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Ranger Jeffrey 12 (Route 212 South Trainers)",
-        "name": "Pok\u00e9mon Ranger Jeffrey 12",
+        "game": "Pok\u00e9mon Ranger Jeffrey (Route 212 South Trainers)",
+        "name": "Pok\u00e9mon Ranger Jeffrey",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -28993,8 +28993,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Ranger Allison 12 (Route 212 South Trainers)",
-        "name": "Pok\u00e9mon Ranger Allison 12",
+        "game": "Pok\u00e9mon Ranger Allison (Route 212 South Trainers)",
+        "name": "Pok\u00e9mon Ranger Allison",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29054,8 +29054,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Scientist Stefano 12 (Route 212 South Trainers)",
-        "name": "Scientist Stefano 12",
+        "game": "Scientist Stefano (Route 212 South Trainers)",
+        "name": "Scientist Stefano",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29115,8 +29115,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Parasol Lady Alexa 12 (Route 212 South Trainers)",
-        "name": "Parasol Lady Alexa 12",
+        "game": "Parasol Lady Alexa (Route 212 South Trainers)",
+        "name": "Parasol Lady Alexa",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29150,8 +29150,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Parasol Lady Sabrina 12 (Route 212 South Trainers)",
-        "name": "Parasol Lady Sabrina 12",
+        "game": "Parasol Lady Sabrina (Route 212 South Trainers)",
+        "name": "Parasol Lady Sabrina",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29237,8 +29237,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Police Officer Danny 12 (Route 212 South Trainers)",
-        "name": "Police Officer Danny 12",
+        "game": "Police Officer Danny (Route 212 South Trainers)",
+        "name": "Police Officer Danny",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29298,8 +29298,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Collector Dominique 12 (Route 212 South Trainers)",
-        "name": "Collector Dominique 12",
+        "game": "Collector Dominique (Route 212 South Trainers)",
+        "name": "Collector Dominique",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -29385,8 +29385,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Scientist Shaun 12 (Route 212 South Trainers)",
-        "name": "Scientist Shaun 12",
+        "game": "Scientist Shaun (Route 212 South Trainers)",
+        "name": "Scientist Shaun",
         "type": "Trainer",
         "route": "Route 212 South Trainers",
         "zoneId": 383
@@ -38623,8 +38623,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 4 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 4",
+        "game": "Pok\u00e9mon Trainer Dawn 1 (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 1",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38710,8 +38710,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 5 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 5",
+        "game": "Pok\u00e9mon Trainer Dawn 2 (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 2",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38797,8 +38797,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 6 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 6",
+        "game": "Pok\u00e9mon Trainer Dawn 3 (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn 3",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38884,8 +38884,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 7 (Veilstone City Trainers)",
-        "name": "Team Galactic Grunt 7",
+        "game": "Team Galactic Grunt 1 (Veilstone City Trainers)",
+        "name": "Team Galactic Grunt 1",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38971,8 +38971,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 8 (Veilstone City Trainers)",
-        "name": "Team Galactic Grunt 8",
+        "game": "Team Galactic Grunt 2 (Veilstone City Trainers)",
+        "name": "Team Galactic Grunt 2",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -39136,8 +39136,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Elite Four Bertha 8 (Veilstone City Trainers)",
-        "name": "Elite Four Bertha 8",
+        "game": "Elite Four Bertha (Veilstone City Trainers)",
+        "name": "Elite Four Bertha",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 133
@@ -39249,8 +39249,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Dragon Tamer Nils 8 (Veilstone City Trainers)",
-        "name": "Dragon Tamer Nils 8",
+        "game": "Dragon Tamer Nils (Veilstone City Trainers)",
+        "name": "Dragon Tamer Nils",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 125
@@ -39414,8 +39414,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Commander Saturn 8 (Galactic HQ Trainers)",
-        "name": "Commander Saturn 8",
+        "game": "Commander Saturn (Galactic HQ Trainers)",
+        "name": "Commander Saturn",
         "type": "Trainer",
         "route": "Galactic HQ Trainers",
         "zoneId": 321
@@ -39501,8 +39501,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 9 (Team Galactic HQ 1F Trainers)",
-        "name": "Team Galactic Grunt 9",
+        "game": "Team Galactic Grunt 3 (Team Galactic HQ 1F Trainers)",
+        "name": "Team Galactic Grunt 3",
         "type": "Trainer",
         "route": "Team Galactic HQ 1F Trainers",
         "zoneId": 315
@@ -39588,8 +39588,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Scientist Fredrick 9 (Team Galactic HQ 1F Trainers)",
-        "name": "Scientist Fredrick 9",
+        "game": "Scientist Fredrick (Team Galactic HQ 1F Trainers)",
+        "name": "Scientist Fredrick",
         "type": "Trainer",
         "route": "Team Galactic HQ 1F Trainers",
         "zoneId": 315
@@ -39675,8 +39675,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 10 (Team Galactic HQ 2F Trainers)",
-        "name": "Team Galactic Grunt 10",
+        "game": "Team Galactic Grunt 4 (Team Galactic HQ 2F Trainers)",
+        "name": "Team Galactic Grunt 4",
         "type": "Trainer",
         "route": "Team Galactic HQ 2F Trainers",
         "zoneId": 316
@@ -39736,8 +39736,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 11 (Team Galactic HQ 2F Trainers)",
-        "name": "Team Galactic Grunt 11",
+        "game": "Team Galactic Grunt 5 (Team Galactic HQ 2F Trainers)",
+        "name": "Team Galactic Grunt 5",
         "type": "Trainer",
         "route": "Team Galactic HQ 2F Trainers",
         "zoneId": 316
@@ -39823,8 +39823,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 12 (Team Galactic HQ 2F Trainers)",
-        "name": "Team Galactic Grunt 12",
+        "game": "Team Galactic Grunt 6 (Team Galactic HQ 2F Trainers)",
+        "name": "Team Galactic Grunt 6",
         "type": "Trainer",
         "route": "Team Galactic HQ 2F Trainers",
         "zoneId": 316
@@ -39858,8 +39858,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Scientist Darrius 12 (Team Galactic HQ 2F Trainers)",
-        "name": "Scientist Darrius 12",
+        "game": "Scientist Darrius (Team Galactic HQ 2F Trainers)",
+        "name": "Scientist Darrius",
         "type": "Trainer",
         "route": "Team Galactic HQ 2F Trainers",
         "zoneId": 316
@@ -39919,8 +39919,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 13 (Team Galactic HQ 3F Trainers)",
-        "name": "Team Galactic Grunt 13",
+        "game": "Team Galactic Grunt 7 (Team Galactic HQ 3F Trainers)",
+        "name": "Team Galactic Grunt 7",
         "type": "Trainer",
         "route": "Team Galactic HQ 3F Trainers",
         "zoneId": 317
@@ -39980,8 +39980,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 14 (Team Galactic HQ 3F Trainers)",
-        "name": "Team Galactic Grunt 14",
+        "game": "Team Galactic Grunt 8 (Team Galactic HQ 3F Trainers)",
+        "name": "Team Galactic Grunt 8",
         "type": "Trainer",
         "route": "Team Galactic HQ 3F Trainers",
         "zoneId": 317
@@ -40041,8 +40041,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 15 (Team Galactic HQ 3F Trainers)",
-        "name": "Team Galactic Grunt 15",
+        "game": "Team Galactic Grunt 9 (Team Galactic HQ 3F Trainers)",
+        "name": "Team Galactic Grunt 9",
         "type": "Trainer",
         "route": "Team Galactic HQ 3F Trainers",
         "zoneId": 317
@@ -40128,8 +40128,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 16 (Team Galactic HQ 3F Trainers)",
-        "name": "Team Galactic Grunt 16",
+        "game": "Team Galactic Grunt 10 (Team Galactic HQ 3F Trainers)",
+        "name": "Team Galactic Grunt 10",
         "type": "Trainer",
         "route": "Team Galactic HQ 3F Trainers",
         "zoneId": 317
@@ -40293,8 +40293,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Team Galactic Boss Cyrus 16 (Team Galactic HQ 4F Trainers)",
-        "name": "Team Galactic Boss Cyrus 16",
+        "game": "Team Galactic Boss Cyrus (Team Galactic HQ 4F Trainers)",
+        "name": "Team Galactic Boss Cyrus",
         "type": "Trainer",
         "route": "Team Galactic HQ 4F Trainers",
         "zoneId": 318
@@ -40380,8 +40380,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 17 (Team Galactic HQ B2F Trainers)",
-        "name": "Team Galactic Grunt 17",
+        "game": "Team Galactic Grunt 11 (Team Galactic HQ B2F Trainers)",
+        "name": "Team Galactic Grunt 11",
         "type": "Trainer",
         "route": "Team Galactic HQ B2F Trainers",
         "zoneId": 320
@@ -40441,8 +40441,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Grunt 18 (Team Galactic HQ B2F Trainers)",
-        "name": "Team Galactic Grunt 18",
+        "game": "Team Galactic Grunt 12 (Team Galactic HQ B2F Trainers)",
+        "name": "Team Galactic Grunt 12",
         "type": "Trainer",
         "route": "Team Galactic HQ B2F Trainers",
         "zoneId": 320
@@ -41953,8 +41953,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 1 (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 1",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -42118,8 +42118,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 2 (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 2",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -42283,8 +42283,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -45699,8 +45699,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Team Galactic Boss Cyrus 1 (Celestic Town Trainers)",
-        "name": "Team Galactic Boss Cyrus 1",
+        "game": "Team Galactic Boss Cyrus (Celestic Town Trainers)",
+        "name": "Team Galactic Boss Cyrus",
         "type": "Trainer",
         "route": "Celestic Town Trainers",
         "zoneId": 464
@@ -54027,8 +54027,8 @@
             "evspeed": 248
           }
         ],
-        "game": "Commander Mars 4 (Lake Verity (After) Trainers)",
-        "name": "Commander Mars 4",
+        "game": "Commander Mars (Lake Verity (After) Trainers)",
+        "name": "Commander Mars",
         "type": "Trainer",
         "route": "Lake Verity (After) Trainers",
         "zoneId": 324
@@ -57653,8 +57653,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Commander Mars 4 (Spear Pillar Trainers)",
-        "name": "Commander Mars 4",
+        "game": "Commander Mars (Spear Pillar Trainers)",
+        "name": "Commander Mars",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -57818,8 +57818,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 1 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 1",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -57983,8 +57983,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 2 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 2",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -58148,8 +58148,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -58478,8 +58478,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 5 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 5",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -58643,8 +58643,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 6 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 6",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -58808,8 +58808,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Commander Mars 4 (Spear Pillar Trainers)",
-        "name": "Commander Mars 4",
+        "game": "Commander Mars (Spear Pillar Trainers)",
+        "name": "Commander Mars",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -58973,8 +58973,8 @@
             "evspeed": 248
           }
         ],
-        "game": "Commander Jupiter 4 (Spear Pillar Trainers)",
-        "name": "Commander Jupiter 4",
+        "game": "Commander Jupiter (Spear Pillar Trainers)",
+        "name": "Commander Jupiter",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -59034,8 +59034,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Team Galactic Boss Cyrus 4 (Distortion Room Trainers)",
-        "name": "Team Galactic Boss Cyrus 4",
+        "game": "Team Galactic Boss Cyrus (Distortion Room Trainers)",
+        "name": "Team Galactic Boss Cyrus",
         "type": "Trainer",
         "route": "Distortion Room Trainers",
         "zoneId": 624
@@ -72728,8 +72728,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 1 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 1",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -72815,8 +72815,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 2 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 2",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -72902,8 +72902,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73241,8 +73241,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 4 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 4",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73406,8 +73406,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 5 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 5",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73571,8 +73571,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric",
+        "game": "Pok\u00e9mon Trainer Cedric 6 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 6",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
