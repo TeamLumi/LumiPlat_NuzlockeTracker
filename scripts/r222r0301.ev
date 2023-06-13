@@ -1,6 +1,0 @@
-ev_r222r0301_workman:
-	_EASY_OBJ_MSG('dp_scenario2%188-msg_r222r0301_workman_01')
-	_END()
-ev_r222r0301_veteran:
-	_EASY_OBJ_MSG('dp_scenario2%188-msg_r222r0301_veteran_01')
-	_END()

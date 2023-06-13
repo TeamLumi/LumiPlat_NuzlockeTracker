@@ -1,3 +1,0 @@
-SP_R210BR0101_FLAG:
-	_JUMP('ev_r210br0101_flag_change')
-	_SP_EVENT_DATA_END()

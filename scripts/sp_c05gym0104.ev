@@ -1,3 +1,0 @@
-SP_C05GYM0104_FLAG:
-	_FLAG_CHANGE_LABEL('ev_c05gym0104_flag_change')
-	_SP_EVENT_DATA_END()

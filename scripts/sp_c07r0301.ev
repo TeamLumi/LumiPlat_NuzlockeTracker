@@ -1,3 +1,0 @@
-SP_C07R0301_OBJ:
-	_OBJ_CHANGE_LABEL('ev_c07r0301_obj_change')
-	_SP_EVENT_DATA_END()

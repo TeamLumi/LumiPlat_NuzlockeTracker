@@ -1,3 +1,0 @@
-SP_D26R0104_OBJ:
-	_JUMP('ev_d26r0104_obj_change')
-	_SP_EVENT_DATA_END()

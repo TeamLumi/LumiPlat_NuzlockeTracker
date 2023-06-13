@@ -1,6 +1,0 @@
-ev_c07r0501_clown:
-	_EASY_OBJ_MSG('dp_scenario2%108-msg_c07r0501_clown_01')
-	_END()
-ev_c07r0501_fighter:
-	_EASY_OBJ_MSG('dp_scenario2%104-msg_c07r0501_fighter_01')
-	_END()
