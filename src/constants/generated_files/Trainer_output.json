@@ -8843,8 +8843,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 1 (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 1",
+        "game": "Pok\u00e9mon Trainer Cedric Piplup (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Piplup",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -8878,8 +8878,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 2 (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 2",
+        "game": "Pok\u00e9mon Trainer Cedric Turtwig (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Turtwig",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -8913,8 +8913,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 3 (Route 201 Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 3",
+        "game": "Pok\u00e9mon Trainer Cedric Chimchar (Route 201 Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Chimchar",
         "type": "Trainer",
         "route": "Route 201 Trainers",
         "zoneId": 354
@@ -8950,8 +8950,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 1 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 1",
+        "game": "Pok\u00e9mon Trainer Lucas Piplup (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Piplup",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -8985,8 +8985,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 2 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 2",
+        "game": "Pok\u00e9mon Trainer Lucas Turtwig (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Turtwig",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9020,8 +9020,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 3 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 3",
+        "game": "Pok\u00e9mon Trainer Lucas Chimchar (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Chimchar",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9055,8 +9055,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 1 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 1",
+        "game": "Pok\u00e9mon Trainer Dawn Piplup (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Piplup",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9090,8 +9090,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 2 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 2",
+        "game": "Pok\u00e9mon Trainer Dawn Turtwig (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Turtwig",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -9125,8 +9125,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 3 (Route 202 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 3",
+        "game": "Pok\u00e9mon Trainer Dawn Chimchar (Route 202 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Chimchar",
         "type": "Trainer",
         "route": "Route 202 Trainers",
         "zoneId": 355
@@ -10347,8 +10347,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 1 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 1",
+        "game": "Pok\u00e9mon Trainer Lucas Piplup (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Piplup",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10408,8 +10408,8 @@
             "evspeed": 4
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 2 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 2",
+        "game": "Pok\u00e9mon Trainer Lucas Turtwig (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Turtwig",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10469,8 +10469,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 3 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 3",
+        "game": "Pok\u00e9mon Trainer Lucas Chimchar (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Chimchar",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10530,8 +10530,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 1 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 1",
+        "game": "Pok\u00e9mon Trainer Dawn Piplup (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Piplup",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10591,8 +10591,8 @@
             "evspeed": 4
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 2 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 2",
+        "game": "Pok\u00e9mon Trainer Dawn Turtwig (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Turtwig",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -10652,8 +10652,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 3 (Jubilife City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 3",
+        "game": "Pok\u00e9mon Trainer Dawn Chimchar (Jubilife City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Chimchar",
         "type": "Trainer",
         "route": "Jubilife City Trainers",
         "zoneId": 0
@@ -21705,8 +21705,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 1 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 1",
+        "game": "Pok\u00e9mon Trainer Dawn Piplup (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Piplup",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -21818,8 +21818,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 2 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 2",
+        "game": "Pok\u00e9mon Trainer Dawn Turtwig (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Turtwig",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -21931,8 +21931,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 3 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 3",
+        "game": "Pok\u00e9mon Trainer Dawn Chimchar (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Chimchar",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -22044,8 +22044,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 1 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 1",
+        "game": "Pok\u00e9mon Trainer Lucas Piplup (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Piplup",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -22157,8 +22157,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 2 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 2",
+        "game": "Pok\u00e9mon Trainer Lucas Turtwig (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Turtwig",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -22270,8 +22270,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 3 (Route 207 Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 3",
+        "game": "Pok\u00e9mon Trainer Lucas Chimchar (Route 207 Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Chimchar",
         "type": "Trainer",
         "route": "Route 207 Trainers",
         "zoneId": 364
@@ -27313,8 +27313,8 @@
             "evspeed": 126
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 1 (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 1",
+        "game": "Pok\u00e9mon Trainer Cedric Piplup (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Piplup",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -27478,8 +27478,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 2 (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 2",
+        "game": "Pok\u00e9mon Trainer Cedric Turtwig (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Turtwig",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -27643,8 +27643,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 3 (Route 212 North Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 3",
+        "game": "Pok\u00e9mon Trainer Cedric Chimchar (Route 212 North Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Chimchar",
         "type": "Trainer",
         "route": "Route 212 North Trainers",
         "zoneId": 380
@@ -38362,8 +38362,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 1 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 1",
+        "game": "Pok\u00e9mon Trainer Lucas Piplup (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Piplup",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38449,8 +38449,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 2 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 2",
+        "game": "Pok\u00e9mon Trainer Lucas Turtwig (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Turtwig",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38536,8 +38536,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Lucas 3 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Lucas 3",
+        "game": "Pok\u00e9mon Trainer Lucas Chimchar (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Lucas Chimchar",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38623,8 +38623,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 1 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 1",
+        "game": "Pok\u00e9mon Trainer Dawn Piplup (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Piplup",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38710,8 +38710,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 2 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 2",
+        "game": "Pok\u00e9mon Trainer Dawn Turtwig (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Turtwig",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -38797,8 +38797,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Dawn 3 (Veilstone City Trainers)",
-        "name": "Pok\u00e9mon Trainer Dawn 3",
+        "game": "Pok\u00e9mon Trainer Dawn Chimchar (Veilstone City Trainers)",
+        "name": "Pok\u00e9mon Trainer Dawn Chimchar",
         "type": "Trainer",
         "route": "Veilstone City Trainers",
         "zoneId": 123
@@ -41953,8 +41953,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 1 (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 1",
+        "game": "Pok\u00e9mon Trainer Cedric Piplup (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Piplup",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -42118,8 +42118,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 2 (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 2",
+        "game": "Pok\u00e9mon Trainer Cedric Turtwig (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Turtwig",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -42283,8 +42283,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 3 (Pastoria City Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 3",
+        "game": "Pok\u00e9mon Trainer Cedric Chimchar (Pastoria City Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Chimchar",
         "type": "Trainer",
         "route": "Pastoria City Trainers",
         "zoneId": 110
@@ -57818,8 +57818,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 1 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 1",
+        "game": "Pok\u00e9mon Trainer Cedric Piplup (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Piplup",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -57983,8 +57983,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 2 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 2",
+        "game": "Pok\u00e9mon Trainer Cedric Turtwig (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Turtwig",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -58148,8 +58148,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 3 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 3",
+        "game": "Pok\u00e9mon Trainer Cedric Chimchar (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Chimchar",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 217
@@ -58313,8 +58313,8 @@
             "evspeed": 248
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -58478,8 +58478,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 5 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 5",
+        "game": "Pok\u00e9mon Trainer Cedric 4 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 4",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -58643,8 +58643,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 6 (Spear Pillar Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 6",
+        "game": "Pok\u00e9mon Trainer Cedric 5 (Spear Pillar Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 5",
         "type": "Trainer",
         "route": "Spear Pillar Trainers",
         "zoneId": 216
@@ -72728,8 +72728,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 1 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 1",
+        "game": "Pok\u00e9mon Trainer Cedric Piplup (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Piplup",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -72815,8 +72815,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 2 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 2",
+        "game": "Pok\u00e9mon Trainer Cedric Turtwig (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Turtwig",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -72902,8 +72902,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 3 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 3",
+        "game": "Pok\u00e9mon Trainer Cedric Chimchar (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric Chimchar",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73241,8 +73241,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 4 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 4",
+        "game": "Pok\u00e9mon Trainer Cedric 3 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 3",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73406,8 +73406,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 5 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 5",
+        "game": "Pok\u00e9mon Trainer Cedric 4 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 4",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
@@ -73571,8 +73571,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Pok\u00e9mon Trainer Cedric 6 (Fight Area Trainers)",
-        "name": "Pok\u00e9mon Trainer Cedric 6",
+        "game": "Pok\u00e9mon Trainer Cedric 5 (Fight Area Trainers)",
+        "name": "Pok\u00e9mon Trainer Cedric 5",
         "type": "Trainer",
         "route": "Fight Area Trainers",
         "zoneId": 186
