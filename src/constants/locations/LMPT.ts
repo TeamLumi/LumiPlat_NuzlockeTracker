@@ -77,7 +77,9 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-7',
     zoneID: [
-      0
+      21,
+      0,
+      8
     ]
   },
   {
@@ -129,7 +131,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-10',
     zoneID: [
-      38
+      38,
+      40,
     ]
   },
   {

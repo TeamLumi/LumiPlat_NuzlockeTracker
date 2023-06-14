@@ -119,11 +119,16 @@ const Encounters = React.memo(function Encounters() {
     const encounter = filteredEncounters[index];
     const foundPokemon = POKEMAP.get(encounter.pokemon);
     const isGreyedOut = encounter?.status?.value === 2;
-    const isTrainerRoute = encounter.zoneID.some(id => ALL_ZONE_IDS.includes(id));
+    const isTrainerRoute = encounter.zoneID.some(id =>
+      ALL_ZONE_IDS.some(zoneId => zoneId.includes(id))
+    );
+    
     let trainerIndex: number | undefined;
     
     if (isTrainerRoute) {
-      trainerIndex = ALL_ZONE_IDS.findIndex(id => encounter.zoneID.includes(id));
+      trainerIndex = ALL_ZONE_IDS.findIndex(zoneId =>
+        zoneId.some(id => encounter.zoneID.includes(id))
+      );
     }
     return (
       <div style={style}>
