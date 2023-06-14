@@ -1529,10 +1529,7 @@
       79,
       80,
       199,
-      1064,
-      1065,
-      1066,
-      1106
+      1065
     ],
     "generation": 8,
     "abilities": [
@@ -1551,9 +1548,7 @@
     "evolve": [
       79,
       80,
-      1064,
-      1065,
-      1066
+      1065
     ],
     "generation": 8,
     "abilities": [
@@ -1834,7 +1829,9 @@
     "dualtype": "GROUND",
     "evolve": [
       95,
-      208
+      208,
+      1074,
+      1134
     ],
     "generation": 8,
     "abilities": [
@@ -2521,8 +2518,7 @@
       196,
       197,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -2539,10 +2535,10 @@
     "type": "WATER",
     "evolve": [
       133,
+      1092,
       134,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -2559,10 +2555,10 @@
     "type": "ELECTRIC",
     "evolve": [
       133,
+      1092,
       135,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -2579,10 +2575,10 @@
     "type": "FIRE",
     "evolve": [
       133,
+      1092,
       136,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -2822,7 +2818,7 @@
     "generation": 8,
     "abilities": [
       "Marvel Scale",
-      "Inner Focus",
+      "Shed Skin",
       "Multiscale"
     ],
     "dexNum": 149,
@@ -3693,10 +3689,10 @@
     "type": "PSYCHIC",
     "evolve": [
       133,
+      1092,
       196,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -3713,10 +3709,10 @@
     "type": "DARK",
     "evolve": [
       133,
+      1092,
       197,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -3752,9 +3748,7 @@
     "dualtype": "PSYCHIC",
     "evolve": [
       79,
-      199,
-      1064,
-      1106
+      199
     ],
     "generation": 8,
     "abilities": [
@@ -3936,8 +3930,9 @@
     "type": "STEEL",
     "dualtype": "GROUND",
     "evolve": [
-      1074,
+      95,
       208,
+      1074,
       1134
     ],
     "generation": 8,
@@ -8660,11 +8655,10 @@
     "text": "Leafeon",
     "type": "GRASS",
     "evolve": [
-      133,
+      1092,
       470,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -8681,10 +8675,10 @@
     "type": "ICE",
     "evolve": [
       133,
+      1092,
       471,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -12861,10 +12855,10 @@
     "type": "FAIRY",
     "evolve": [
       133,
+      1092,
       700,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -19992,11 +19986,7 @@
     "text": "Galarian Slowpoke",
     "type": "PSYCHIC",
     "evolve": [
-      79,
-      80,
-      199,
       1064,
-      1065,
       1066,
       1106
     ],
@@ -20018,9 +20008,7 @@
       79,
       80,
       199,
-      1064,
-      1065,
-      1066
+      1065
     ],
     "generation": 8,
     "abilities": [
@@ -20037,11 +20025,7 @@
     "type": "POISON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      79,
-      80,
-      199,
       1064,
-      1065,
       1066
     ],
     "generation": 8,
@@ -20197,8 +20181,9 @@
     "type": "ROCK",
     "dualtype": "ICE",
     "evolve": [
-      1074,
+      95,
       208,
+      1074,
       1134
     ],
     "generation": 8,
@@ -20502,8 +20487,7 @@
       196,
       197,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -20529,8 +20513,7 @@
       196,
       197,
       1090,
-      1091,
-      1092
+      1091
     ],
     "generation": 8,
     "abilities": [
@@ -20546,7 +20529,7 @@
     "text": "Bandana Partner Eevee",
     "type": "NORMAL",
     "evolve": [
-      133,
+      1092,
       470,
       471,
       135,
@@ -20554,10 +20537,7 @@
       136,
       700,
       196,
-      197,
-      1090,
-      1091,
-      1092
+      197
     ],
     "generation": 8,
     "abilities": [
@@ -20839,12 +20819,7 @@
     "type": "POISON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      79,
-      80,
-      199,
       1064,
-      1065,
-      1066,
       1106
     ],
     "generation": 8,
@@ -22023,8 +21998,9 @@
     "type": "STEEL",
     "dualtype": "GROUND",
     "evolve": [
-      1074,
+      95,
       208,
+      1074,
       1134
     ],
     "generation": 8,
