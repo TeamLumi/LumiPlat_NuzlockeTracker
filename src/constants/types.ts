@@ -270,6 +270,7 @@ export type TDetail = {
   type: TDetailClassification;
   route?: string;
   zoneId?: number;
+  trainerType?: string;
 };
 
 export type Type =

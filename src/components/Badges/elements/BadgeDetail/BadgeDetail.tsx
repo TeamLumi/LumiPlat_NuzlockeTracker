@@ -40,7 +40,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
   };
   return (
     <>
-      <div className={styles.title}>{selectedDetail?.name}</div>
+      <div className={styles.title}>{selectedDetail?.name} [{selectedDetail?.trainerType}]</div>
       {selectedDetail?.type === 'REMATCH' && (
         <div className={styles.rematch}>
           <Radio
