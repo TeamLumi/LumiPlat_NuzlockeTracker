@@ -22677,11 +22677,11 @@
             "bp_price": 0,
             "eqp": 0,
             "atc": 0,
-            "nage_atc": 130,
+            "nage_atc": 30,
             "sizen_atc": 0,
             "sizen_type": 31,
             "tuibamu_eff": 0,
-            "sort": 51,
+            "sort": 3,
             "group": 0,
             "group_id": 0,
             "fld_pocket": 6,
@@ -22706,7 +22706,7 @@
             "wk_friend2": 0,
             "wk_friend3": 0,
             "wk_prm_hp_rcv": 0,
-            "flags0": 2147483712
+            "flags0": 192
         },
         {
             "no": 582,
@@ -22720,7 +22720,7 @@
             "sizen_atc": 0,
             "sizen_type": 31,
             "tuibamu_eff": 0,
-            "sort": 59,
+            "sort": 3,
             "group": 0,
             "group_id": 0,
             "fld_pocket": 6,
@@ -22745,7 +22745,7 @@
             "wk_friend2": 0,
             "wk_friend3": 0,
             "wk_prm_hp_rcv": 0,
-            "flags0": 2147483712
+            "flags0": 192
         },
         {
             "no": 583,
