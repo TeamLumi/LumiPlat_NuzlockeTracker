@@ -9265,9 +9265,7 @@
         "route": "Jubilife City Trainers",
         "zoneId": 21,
         "trainerType": "Single Battle"
-      }
-    ],
-    [
+      },
       {
         "content": [
           {
@@ -22035,70 +22033,6 @@
       {
         "content": [
           {
-            "ability": "Technician",
-            "gender": "NEUTRAL",
-            "id": 166,
-            "item": null,
-            "level": 24,
-            "moves": [
-              318,
-              369,
-              522,
-              4
-            ],
-            "nature": "Naive",
-            "ivatk": 31,
-            "ivdef": 31,
-            "ivhp": 31,
-            "ivspatk": 31,
-            "ivspdef": 31,
-            "ivspeed": 31,
-            "evhp": 0,
-            "evatk": 0,
-            "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
-          },
-          {
-            "ability": "Insomnia",
-            "gender": "NEUTRAL",
-            "id": 168,
-            "item": null,
-            "level": 24,
-            "moves": [
-              425,
-              141,
-              14,
-              400
-            ],
-            "nature": "Timid",
-            "ivatk": 31,
-            "ivdef": 31,
-            "ivhp": 31,
-            "ivspatk": 31,
-            "ivspdef": 31,
-            "ivspeed": 31,
-            "evhp": 0,
-            "evatk": 0,
-            "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
-          }
-        ],
-        "game": "Team Galactic Grunt 1 (Eterna City Trainers)",
-        "name": "Team Galactic Grunt 1",
-        "type": "Trainer",
-        "route": "Eterna City Trainers",
-        "zoneId": 54,
-        "trainerType": "Single Battle"
-      }
-    ],
-    [
-      {
-        "content": [
-          {
             "ability": "Levitate",
             "gender": "NEUTRAL",
             "id": 109,
@@ -22658,6 +22592,68 @@
         "type": "Trainer",
         "route": "Eterna City Trainers",
         "zoneId": 65,
+        "trainerType": "Single Battle"
+      },
+      {
+        "content": [
+          {
+            "ability": "Technician",
+            "gender": "NEUTRAL",
+            "id": 166,
+            "item": null,
+            "level": 24,
+            "moves": [
+              318,
+              369,
+              522,
+              4
+            ],
+            "nature": "Naive",
+            "ivatk": 31,
+            "ivdef": 31,
+            "ivhp": 31,
+            "ivspatk": 31,
+            "ivspdef": 31,
+            "ivspeed": 31,
+            "evhp": 0,
+            "evatk": 0,
+            "evdef": 0,
+            "evspatk": 0,
+            "evspdef": 0,
+            "evspeed": 0
+          },
+          {
+            "ability": "Insomnia",
+            "gender": "NEUTRAL",
+            "id": 168,
+            "item": null,
+            "level": 24,
+            "moves": [
+              425,
+              141,
+              14,
+              400
+            ],
+            "nature": "Timid",
+            "ivatk": 31,
+            "ivdef": 31,
+            "ivhp": 31,
+            "ivspatk": 31,
+            "ivspdef": 31,
+            "ivspeed": 31,
+            "evhp": 0,
+            "evatk": 0,
+            "evdef": 0,
+            "evspatk": 0,
+            "evspdef": 0,
+            "evspeed": 0
+          }
+        ],
+        "game": "Team Galactic Grunt 6 (Eterna City Trainers)",
+        "name": "Team Galactic Grunt 6",
+        "type": "Trainer",
+        "route": "Eterna City Trainers",
+        "zoneId": 54,
         "trainerType": "Single Battle"
       }
     ],
