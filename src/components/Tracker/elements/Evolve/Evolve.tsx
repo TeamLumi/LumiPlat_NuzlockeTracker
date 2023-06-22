@@ -13,13 +13,15 @@ import styles from './Evolve.module.scss';
 interface EvolveProps {
   encounter: TEncounter;
   evolveIds: number[];
+  showLabel: boolean;
 }
 
-function Evolve({ encounter, evolveIds }: EvolveProps): JSX.Element {
+function Evolve({ encounter, evolveIds, showLabel }: EvolveProps): JSX.Element {
   const { t } = useTranslation('tracker');
   const changePokemon = useStore(useCallback((state) => state.changePokemon, []));
   const [selected, setSelected] = useState(encounter.pokemon);
   const [open, setOpen] = useState(false);
+  const activeLabel = showLabel ? t('evolution_chain') : null;
 
   const handleClose = () => {
     setSelected(encounter?.pokemon);
@@ -49,6 +51,7 @@ function Evolve({ encounter, evolveIds }: EvolveProps): JSX.Element {
           onClick={() => setOpen(true)}
           title="Evolve"
           type="button"
+          label={activeLabel}
         />
       }
     >

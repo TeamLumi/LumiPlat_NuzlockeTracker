@@ -10,7 +10,7 @@ import Dropdown from 'semantic-ui-react/dist/commonjs/modules/Dropdown';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { ItemSelector, PkmImage, PokemonSelector } from 'common';
 import { MoveSelector, Natures, PokemonType } from 'components';
-import { Abilities, RangeSelector, Nickname } from 'components/Tracker/elements';
+import { Abilities, RangeSelector, Nickname, Evolve } from 'components/Tracker/elements';
 import { GAME_GENERATION, GENDERS } from 'constants/constant';
 import NATURES from 'constants/natures';
 import { POKEMAP } from 'constants/pokemon';
@@ -285,6 +285,9 @@ function Detail({ encounter }: DetailProps): JSX.Element {
             )}
             {isItemGenderGen && (
               <ItemSelector item={item} onChange={(newItem) => setItem(newItem)} />
+            )}
+            {!!foundPokemon?.evolve && (
+              <Evolve encounter={encounter} evolveIds={foundPokemon?.evolve} showLabel={true} />
             )}
             <Checkbox
               checked={shiny}
