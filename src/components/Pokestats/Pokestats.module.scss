@@ -115,12 +115,17 @@
         }
 
         .memberText {
-          display: flex;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr); /* Adjust the width as needed */
           justify-content: space-evenly;
           font-weight: bold;
           position: relative;
           z-index: 1;
           width: 100%;
+        }
+
+        .memberText > span {
+          text-align: center;
         }
 
         .details {
