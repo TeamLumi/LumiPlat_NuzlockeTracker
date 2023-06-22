@@ -24,8 +24,6 @@
       1,
       2,
       3,
-      1011,
-      1012,
       1013
     ],
     "generation": 8,
@@ -46,8 +44,6 @@
       1,
       2,
       3,
-      1011,
-      1012,
       1013
     ],
     "generation": 8,
@@ -68,8 +64,6 @@
       1,
       2,
       3,
-      1011,
-      1012,
       1013
     ],
     "generation": 8,
@@ -89,9 +83,6 @@
       4,
       5,
       6,
-      1014,
-      1015,
-      1016,
       1017
     ],
     "generation": 8,
@@ -111,9 +102,6 @@
       4,
       5,
       6,
-      1014,
-      1015,
-      1016,
       1017
     ],
     "generation": 8,
@@ -134,9 +122,6 @@
       4,
       5,
       6,
-      1014,
-      1015,
-      1016,
       1017
     ],
     "generation": 8,
@@ -156,8 +141,6 @@
       7,
       8,
       9,
-      1018,
-      1019,
       1020
     ],
     "generation": 8,
@@ -177,8 +160,6 @@
       7,
       8,
       9,
-      1018,
-      1019,
       1020
     ],
     "generation": 8,
@@ -199,8 +180,6 @@
       7,
       8,
       9,
-      1018,
-      1019,
       1020
     ],
     "generation": 8,
@@ -219,8 +198,7 @@
     "evolve": [
       10,
       11,
-      12,
-      1021
+      12
     ],
     "generation": 8,
     "abilities": [
@@ -238,8 +216,7 @@
     "evolve": [
       10,
       11,
-      12,
-      1021
+      12
     ],
     "generation": 8,
     "abilities": [
@@ -258,8 +235,7 @@
     "evolve": [
       10,
       11,
-      12,
-      1021
+      12
     ],
     "generation": 8,
     "abilities": [
@@ -278,8 +254,7 @@
     "evolve": [
       13,
       14,
-      15,
-      1022
+      15
     ],
     "generation": 8,
     "abilities": [
@@ -298,8 +273,7 @@
     "evolve": [
       13,
       14,
-      15,
-      1022
+      15
     ],
     "generation": 8,
     "abilities": [
@@ -318,8 +292,7 @@
     "evolve": [
       13,
       14,
-      15,
-      1022
+      15
     ],
     "generation": 8,
     "abilities": [
@@ -338,8 +311,7 @@
     "evolve": [
       16,
       17,
-      18,
-      1023
+      18
     ],
     "generation": 8,
     "abilities": [
@@ -358,8 +330,7 @@
     "evolve": [
       16,
       17,
-      18,
-      1023
+      18
     ],
     "generation": 8,
     "abilities": [
@@ -378,8 +349,7 @@
     "evolve": [
       16,
       17,
-      18,
-      1023
+      18
     ],
     "generation": 8,
     "abilities": [
@@ -396,8 +366,7 @@
     "type": "NORMAL",
     "evolve": [
       19,
-      20,
-      1026
+      20
     ],
     "generation": 8,
     "abilities": [
@@ -414,8 +383,7 @@
     "type": "NORMAL",
     "evolve": [
       19,
-      20,
-      1026
+      20
     ],
     "generation": 8,
     "abilities": [
@@ -511,16 +479,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -547,16 +505,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1044,
       1103
@@ -1032,8 +980,7 @@
     "type": "NORMAL",
     "evolve": [
       52,
-      53,
-      1053
+      53
     ],
     "generation": 8,
     "abilities": [
@@ -1050,8 +997,7 @@
     "type": "NORMAL",
     "evolve": [
       52,
-      53,
-      1053
+      53
     ],
     "generation": 8,
     "abilities": [
@@ -1229,8 +1175,7 @@
     "evolve": [
       63,
       64,
-      65,
-      1057
+      65
     ],
     "generation": 8,
     "abilities": [
@@ -1248,8 +1193,7 @@
     "evolve": [
       63,
       64,
-      65,
-      1057
+      65
     ],
     "generation": 8,
     "abilities": [
@@ -1267,8 +1211,7 @@
     "evolve": [
       63,
       64,
-      65,
-      1057
+      65
     ],
     "generation": 8,
     "abilities": [
@@ -1286,8 +1229,7 @@
     "evolve": [
       66,
       67,
-      68,
-      1058
+      68
     ],
     "generation": 8,
     "abilities": [
@@ -1305,8 +1247,7 @@
     "evolve": [
       66,
       67,
-      68,
-      1058
+      68
     ],
     "generation": 8,
     "abilities": [
@@ -1324,8 +1265,7 @@
     "evolve": [
       66,
       67,
-      68,
-      1058
+      68
     ],
     "generation": 8,
     "abilities": [
@@ -1528,8 +1468,7 @@
     "evolve": [
       79,
       80,
-      199,
-      1065
+      199
     ],
     "generation": 8,
     "abilities": [
@@ -1547,8 +1486,7 @@
     "dualtype": "PSYCHIC",
     "evolve": [
       79,
-      80,
-      1065
+      80
     ],
     "generation": 8,
     "abilities": [
@@ -1656,8 +1594,7 @@
     "type": "WATER",
     "evolve": [
       86,
-      87,
-      1068
+      87
     ],
     "generation": 8,
     "abilities": [
@@ -1675,8 +1612,7 @@
     "dualtype": "ICE",
     "evolve": [
       86,
-      87,
-      1068
+      87
     ],
     "generation": 8,
     "abilities": [
@@ -1765,8 +1701,6 @@
       92,
       93,
       94,
-      1071,
-      1072,
       1073
     ],
     "generation": 8,
@@ -1787,8 +1721,6 @@
       92,
       93,
       94,
-      1071,
-      1072,
       1073
     ],
     "generation": 8,
@@ -1809,8 +1741,6 @@
       92,
       93,
       94,
-      1071,
-      1072,
       1073
     ],
     "generation": 8,
@@ -1830,8 +1760,7 @@
     "evolve": [
       95,
       208,
-      1074,
-      1134
+      1074
     ],
     "generation": 8,
     "abilities": [
@@ -1882,8 +1811,7 @@
     "type": "WATER",
     "evolve": [
       98,
-      99,
-      1075
+      99
     ],
     "generation": 8,
     "abilities": [
@@ -1900,8 +1828,7 @@
     "type": "WATER",
     "evolve": [
       98,
-      99,
-      1075
+      99
     ],
     "generation": 8,
     "abilities": [
@@ -1991,8 +1918,7 @@
     "evolve": [
       104,
       105,
-      1079,
-      1080
+      1079
     ],
     "generation": 8,
     "abilities": [
@@ -2010,8 +1936,7 @@
     "evolve": [
       104,
       105,
-      1079,
-      1080
+      1079
     ],
     "generation": 8,
     "abilities": [
@@ -2187,8 +2112,7 @@
     "text": "Kangaskhan",
     "type": "NORMAL",
     "evolve": [
-      115,
-      1082
+      115
     ],
     "generation": 8,
     "abilities": [
@@ -2330,8 +2254,7 @@
     "evolve": [
       123,
       212,
-      900,
-      1136
+      900
     ],
     "generation": 8,
     "abilities": [
@@ -2401,8 +2324,7 @@
     "text": "Pinsir",
     "type": "BUG",
     "evolve": [
-      127,
-      1084
+      127
     ],
     "generation": 8,
     "abilities": [
@@ -2418,10 +2340,7 @@
     "text": "Tauros",
     "type": "NORMAL",
     "evolve": [
-      128,
-      1085,
-      1086,
-      1087
+      128
     ],
     "generation": 8,
     "abilities": [
@@ -2438,8 +2357,7 @@
     "type": "WATER",
     "evolve": [
       129,
-      130,
-      1088
+      130
     ],
     "generation": 8,
     "abilities": [
@@ -2457,8 +2375,7 @@
     "dualtype": "FLYING",
     "evolve": [
       129,
-      130,
-      1088
+      130
     ],
     "generation": 8,
     "abilities": [
@@ -2475,8 +2392,7 @@
     "type": "WATER",
     "dualtype": "ICE",
     "evolve": [
-      131,
-      1089
+      131
     ],
     "generation": 8,
     "abilities": [
@@ -2517,8 +2433,7 @@
       700,
       196,
       197,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -2537,8 +2452,7 @@
       133,
       1092,
       134,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -2557,8 +2471,7 @@
       133,
       1092,
       135,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -2577,8 +2490,7 @@
       133,
       1092,
       136,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -2685,8 +2597,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      142,
-      1093
+      142
     ],
     "generation": 8,
     "abilities": [
@@ -2703,8 +2614,7 @@
     "type": "NORMAL",
     "evolve": [
       446,
-      143,
-      1094
+      143
     ],
     "generation": 8,
     "abilities": [
@@ -2721,8 +2631,7 @@
     "type": "ICE",
     "dualtype": "FLYING",
     "evolve": [
-      144,
-      1095
+      144
     ],
     "generation": 8,
     "abilities": [
@@ -2739,8 +2648,7 @@
     "type": "ELECTRIC",
     "dualtype": "FLYING",
     "evolve": [
-      145,
-      1096
+      145
     ],
     "generation": 8,
     "abilities": [
@@ -2757,8 +2665,7 @@
     "type": "FIRE",
     "dualtype": "FLYING",
     "evolve": [
-      146,
-      1097
+      146
     ],
     "generation": 8,
     "abilities": [
@@ -2830,8 +2737,6 @@
     "type": "PSYCHIC",
     "evolve": [
       150,
-      1098,
-      1099,
       1100,
       1101
     ],
@@ -3240,16 +3145,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -3379,8 +3274,7 @@
     "evolve": [
       179,
       180,
-      181,
-      1104
+      181
     ],
     "generation": 8,
     "abilities": [
@@ -3398,8 +3292,7 @@
     "evolve": [
       179,
       180,
-      181,
-      1104
+      181
     ],
     "generation": 8,
     "abilities": [
@@ -3418,8 +3311,7 @@
     "evolve": [
       179,
       180,
-      181,
-      1104
+      181
     ],
     "generation": 8,
     "abilities": [
@@ -3691,8 +3583,7 @@
       133,
       1092,
       196,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -3711,8 +3602,7 @@
       133,
       1092,
       197,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -3932,8 +3822,7 @@
     "evolve": [
       95,
       208,
-      1074,
-      1134
+      1074
     ],
     "generation": 8,
     "abilities": [
@@ -4002,8 +3891,7 @@
     "dualtype": "STEEL",
     "evolve": [
       123,
-      212,
-      1136
+      212
     ],
     "generation": 8,
     "abilities": [
@@ -4037,8 +3925,7 @@
     "type": "BUG",
     "dualtype": "FIGHTING",
     "evolve": [
-      214,
-      1137
+      214
     ],
     "generation": 8,
     "abilities": [
@@ -4287,8 +4174,7 @@
     "dualtype": "FIRE",
     "evolve": [
       228,
-      229,
-      1140
+      229
     ],
     "generation": 8,
     "abilities": [
@@ -4306,8 +4192,7 @@
     "dualtype": "FIRE",
     "evolve": [
       228,
-      229,
-      1140
+      229
     ],
     "generation": 8,
     "abilities": [
@@ -4602,8 +4487,7 @@
     "evolve": [
       246,
       247,
-      248,
-      1141
+      248
     ],
     "generation": 8,
     "abilities": [
@@ -4622,8 +4506,7 @@
     "evolve": [
       246,
       247,
-      248,
-      1141
+      248
     ],
     "generation": 8,
     "abilities": [
@@ -4642,8 +4525,7 @@
     "evolve": [
       246,
       247,
-      248,
-      1141
+      248
     ],
     "generation": 8,
     "abilities": [
@@ -4712,8 +4594,7 @@
     "evolve": [
       252,
       253,
-      254,
-      1142
+      254
     ],
     "generation": 8,
     "abilities": [
@@ -4731,8 +4612,7 @@
     "evolve": [
       252,
       253,
-      254,
-      1142
+      254
     ],
     "generation": 8,
     "abilities": [
@@ -4751,8 +4631,7 @@
     "evolve": [
       252,
       253,
-      254,
-      1142
+      254
     ],
     "generation": 8,
     "abilities": [
@@ -4770,8 +4649,7 @@
     "evolve": [
       255,
       256,
-      257,
-      1143
+      257
     ],
     "generation": 8,
     "abilities": [
@@ -4790,8 +4668,7 @@
     "evolve": [
       255,
       256,
-      257,
-      1143
+      257
     ],
     "generation": 8,
     "abilities": [
@@ -4810,8 +4687,7 @@
     "evolve": [
       255,
       256,
-      257,
-      1143
+      257
     ],
     "generation": 8,
     "abilities": [
@@ -4829,8 +4705,7 @@
     "evolve": [
       258,
       259,
-      260,
-      1144
+      260
     ],
     "generation": 8,
     "abilities": [
@@ -4849,8 +4724,7 @@
     "evolve": [
       258,
       259,
-      260,
-      1144
+      260
     ],
     "generation": 8,
     "abilities": [
@@ -4869,8 +4743,7 @@
     "evolve": [
       258,
       259,
-      260,
-      1144
+      260
     ],
     "generation": 8,
     "abilities": [
@@ -5237,9 +5110,7 @@
       280,
       281,
       282,
-      475,
-      1147,
-      1183
+      475
     ],
     "generation": 8,
     "abilities": [
@@ -5259,9 +5130,7 @@
       280,
       281,
       282,
-      475,
-      1147,
-      1183
+      475
     ],
     "generation": 8,
     "abilities": [
@@ -5280,8 +5149,7 @@
     "evolve": [
       280,
       281,
-      282,
-      1147
+      282
     ],
     "generation": 8,
     "abilities": [
@@ -5634,8 +5502,7 @@
     "type": "DARK",
     "dualtype": "GHOST",
     "evolve": [
-      302,
-      1148
+      302
     ],
     "generation": 8,
     "abilities": [
@@ -5652,8 +5519,7 @@
     "type": "STEEL",
     "dualtype": "FAIRY",
     "evolve": [
-      303,
-      1149
+      303
     ],
     "generation": 8,
     "abilities": [
@@ -5671,8 +5537,7 @@
     "evolve": [
       304,
       305,
-      306,
-      1150
+      306
     ],
     "generation": 8,
     "abilities": [
@@ -5690,8 +5555,7 @@
     "evolve": [
       304,
       305,
-      306,
-      1150
+      306
     ],
     "generation": 8,
     "abilities": [
@@ -5709,8 +5573,7 @@
     "evolve": [
       304,
       305,
-      306,
-      1150
+      306
     ],
     "generation": 8,
     "abilities": [
@@ -5728,8 +5591,7 @@
     "dualtype": "PSYCHIC",
     "evolve": [
       307,
-      308,
-      1151
+      308
     ],
     "generation": 8,
     "abilities": [
@@ -5747,8 +5609,7 @@
     "dualtype": "PSYCHIC",
     "evolve": [
       307,
-      308,
-      1151
+      308
     ],
     "generation": 8,
     "abilities": [
@@ -5765,8 +5626,7 @@
     "type": "ELECTRIC",
     "evolve": [
       309,
-      310,
-      1152
+      310
     ],
     "generation": 8,
     "abilities": [
@@ -5783,8 +5643,7 @@
     "type": "ELECTRIC",
     "evolve": [
       309,
-      310,
-      1152
+      310
     ],
     "generation": 8,
     "abilities": [
@@ -5921,8 +5780,7 @@
     "dualtype": "DARK",
     "evolve": [
       318,
-      319,
-      1153
+      319
     ],
     "generation": 8,
     "abilities": [
@@ -5940,8 +5798,7 @@
     "dualtype": "DARK",
     "evolve": [
       318,
-      319,
-      1153
+      319
     ],
     "generation": 8,
     "abilities": [
@@ -5993,8 +5850,7 @@
     "dualtype": "GROUND",
     "evolve": [
       322,
-      323,
-      1154
+      323
     ],
     "generation": 8,
     "abilities": [
@@ -6012,8 +5868,7 @@
     "dualtype": "GROUND",
     "evolve": [
       322,
-      323,
-      1154
+      323
     ],
     "generation": 8,
     "abilities": [
@@ -6189,8 +6044,7 @@
     "dualtype": "FLYING",
     "evolve": [
       333,
-      334,
-      1155
+      334
     ],
     "generation": 8,
     "abilities": [
@@ -6208,8 +6062,7 @@
     "dualtype": "FAIRY",
     "evolve": [
       333,
-      334,
-      1155
+      334
     ],
     "generation": 8,
     "abilities": [
@@ -6542,8 +6395,7 @@
     "type": "GHOST",
     "evolve": [
       353,
-      354,
-      1159
+      354
     ],
     "generation": 8,
     "abilities": [
@@ -6561,8 +6413,7 @@
     "dualtype": "NORMAL",
     "evolve": [
       353,
-      354,
-      1159
+      354
     ],
     "generation": 8,
     "abilities": [
@@ -6648,8 +6499,7 @@
     "text": "Absol",
     "type": "DARK",
     "evolve": [
-      359,
-      1160
+      359
     ],
     "generation": 8,
     "abilities": [
@@ -6684,8 +6534,7 @@
     "evolve": [
       361,
       362,
-      478,
-      1161
+      478
     ],
     "generation": 8,
     "abilities": [
@@ -6703,8 +6552,7 @@
     "dualtype": "ROCK",
     "evolve": [
       361,
-      362,
-      1161
+      362
     ],
     "generation": 8,
     "abilities": [
@@ -6865,8 +6713,7 @@
     "evolve": [
       371,
       372,
-      373,
-      1162
+      373
     ],
     "generation": 8,
     "abilities": [
@@ -6884,8 +6731,7 @@
     "evolve": [
       371,
       372,
-      373,
-      1162
+      373
     ],
     "generation": 8,
     "abilities": [
@@ -6904,8 +6750,7 @@
     "evolve": [
       371,
       372,
-      373,
-      1162
+      373
     ],
     "generation": 8,
     "abilities": [
@@ -6924,8 +6769,7 @@
     "evolve": [
       374,
       375,
-      376,
-      1163
+      376
     ],
     "generation": 8,
     "abilities": [
@@ -6944,8 +6788,7 @@
     "evolve": [
       374,
       375,
-      376,
-      1163
+      376
     ],
     "generation": 8,
     "abilities": [
@@ -6964,8 +6807,7 @@
     "evolve": [
       374,
       375,
-      376,
-      1163
+      376
     ],
     "generation": 8,
     "abilities": [
@@ -7030,8 +6872,7 @@
     "type": "DRAGON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      380,
-      1164
+      380
     ],
     "generation": 8,
     "abilities": [
@@ -7048,8 +6889,7 @@
     "type": "DRAGON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      381,
-      1165
+      381
     ],
     "generation": 8,
     "abilities": [
@@ -7065,8 +6905,7 @@
     "text": "Kyogre",
     "type": "WATER",
     "evolve": [
-      382,
-      1166
+      382
     ],
     "generation": 8,
     "abilities": [
@@ -7082,8 +6921,7 @@
     "text": "Groudon",
     "type": "GROUND",
     "evolve": [
-      383,
-      1167
+      383
     ],
     "generation": 8,
     "abilities": [
@@ -7100,8 +6938,7 @@
     "type": "DRAGON",
     "dualtype": "FLYING",
     "evolve": [
-      384,
-      1168
+      384
     ],
     "generation": 8,
     "abilities": [
@@ -7879,8 +7716,7 @@
     "type": "NORMAL",
     "evolve": [
       427,
-      428,
-      1179
+      428
     ],
     "generation": 8,
     "abilities": [
@@ -7898,8 +7734,7 @@
     "dualtype": "FIGHTING",
     "evolve": [
       427,
-      428,
-      1179
+      428
     ],
     "generation": 8,
     "abilities": [
@@ -8166,8 +8001,7 @@
     "evolve": [
       443,
       444,
-      445,
-      1180
+      445
     ],
     "generation": 8,
     "abilities": [
@@ -8186,8 +8020,7 @@
     "evolve": [
       443,
       444,
-      445,
-      1180
+      445
     ],
     "generation": 8,
     "abilities": [
@@ -8206,8 +8039,7 @@
     "evolve": [
       443,
       444,
-      445,
-      1180
+      445
     ],
     "generation": 8,
     "abilities": [
@@ -8224,8 +8056,7 @@
     "type": "NORMAL",
     "evolve": [
       446,
-      143,
-      1094
+      143
     ],
     "generation": 8,
     "abilities": [
@@ -8242,8 +8073,7 @@
     "type": "FIGHTING",
     "evolve": [
       447,
-      448,
-      1181
+      448
     ],
     "generation": 8,
     "abilities": [
@@ -8261,8 +8091,7 @@
     "dualtype": "STEEL",
     "evolve": [
       447,
-      448,
-      1181
+      448
     ],
     "generation": 8,
     "abilities": [
@@ -8455,8 +8284,7 @@
     "dualtype": "ICE",
     "evolve": [
       459,
-      460,
-      1182
+      460
     ],
     "generation": 8,
     "abilities": [
@@ -8474,8 +8302,7 @@
     "dualtype": "ICE",
     "evolve": [
       459,
-      460,
-      1182
+      460
     ],
     "generation": 8,
     "abilities": [
@@ -8657,8 +8484,7 @@
     "evolve": [
       1092,
       470,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -8677,8 +8503,7 @@
       133,
       1092,
       471,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -8752,8 +8577,7 @@
     "evolve": [
       280,
       281,
-      475,
-      1183
+      475
     ],
     "generation": 8,
     "abilities": [
@@ -8897,8 +8721,7 @@
     "type": "STEEL",
     "dualtype": "DRAGON",
     "evolve": [
-      483,
-      1189
+      483
     ],
     "generation": 8,
     "abilities": [
@@ -8915,8 +8738,7 @@
     "type": "WATER",
     "dualtype": "DRAGON",
     "evolve": [
-      484,
-      1190
+      484
     ],
     "generation": 8,
     "abilities": [
@@ -9226,8 +9048,7 @@
     "evolve": [
       501,
       502,
-      503,
-      1210
+      503
     ],
     "generation": 8,
     "abilities": [
@@ -9245,8 +9066,7 @@
     "evolve": [
       501,
       502,
-      503,
-      1210
+      503
     ],
     "generation": 8,
     "abilities": [
@@ -9264,8 +9084,7 @@
     "evolve": [
       501,
       502,
-      503,
-      1210
+      503
     ],
     "generation": 8,
     "abilities": [
@@ -9755,8 +9574,7 @@
     "text": "Audino",
     "type": "NORMAL",
     "evolve": [
-      531,
-      1211
+      531
     ],
     "generation": 8,
     "abilities": [
@@ -10065,8 +9883,7 @@
     "type": "GRASS",
     "evolve": [
       548,
-      549,
-      1212
+      549
     ],
     "generation": 8,
     "abilities": [
@@ -10083,8 +9900,7 @@
     "type": "GRASS",
     "evolve": [
       548,
-      549,
-      1212
+      549
     ],
     "generation": 8,
     "abilities": [
@@ -10100,8 +9916,7 @@
     "text": "Basculin",
     "type": "WATER",
     "evolve": [
-      550,
-      1213
+      550
     ],
     "generation": 8,
     "abilities": [
@@ -10175,9 +9990,7 @@
     "type": "FIRE",
     "evolve": [
       554,
-      555,
-      1216,
-      1218
+      555
     ],
     "generation": 8,
     "abilities": [
@@ -10194,9 +10007,7 @@
     "type": "FIRE",
     "evolve": [
       554,
-      555,
-      1216,
-      1218
+      555
     ],
     "generation": 8,
     "abilities": [
@@ -10424,8 +10235,7 @@
     "type": "POISON",
     "evolve": [
       568,
-      569,
-      1220
+      569
     ],
     "generation": 8,
     "abilities": [
@@ -10442,8 +10252,7 @@
     "type": "POISON",
     "evolve": [
       568,
-      569,
-      1220
+      569
     ],
     "generation": 8,
     "abilities": [
@@ -11311,8 +11120,7 @@
     "type": "GROUND",
     "dualtype": "ELECTRIC",
     "evolve": [
-      618,
-      1229
+      618
     ],
     "generation": 8,
     "abilities": [
@@ -11468,8 +11276,7 @@
     "dualtype": "FLYING",
     "evolve": [
       627,
-      628,
-      1230
+      628
     ],
     "generation": 8,
     "abilities": [
@@ -11487,8 +11294,7 @@
     "dualtype": "FLYING",
     "evolve": [
       627,
-      628,
-      1230
+      628
     ],
     "generation": 8,
     "abilities": [
@@ -11715,8 +11521,7 @@
     "text": "Tornadus",
     "type": "FLYING",
     "evolve": [
-      641,
-      1231
+      641
     ],
     "generation": 8,
     "abilities": [
@@ -11733,8 +11538,7 @@
     "type": "ELECTRIC",
     "dualtype": "FLYING",
     "evolve": [
-      642,
-      1232
+      642
     ],
     "generation": 8,
     "abilities": [
@@ -11785,8 +11589,7 @@
     "type": "GROUND",
     "dualtype": "FLYING",
     "evolve": [
-      645,
-      1233
+      645
     ],
     "generation": 8,
     "abilities": [
@@ -11803,9 +11606,7 @@
     "type": "DRAGON",
     "dualtype": "ICE",
     "evolve": [
-      646,
-      1234,
-      1235
+      646
     ],
     "generation": 8,
     "abilities": [
@@ -11822,8 +11623,7 @@
     "type": "WATER",
     "dualtype": "FIGHTING",
     "evolve": [
-      647,
-      1236
+      647
     ],
     "generation": 8,
     "abilities": [
@@ -11840,8 +11640,7 @@
     "type": "NORMAL",
     "dualtype": "PSYCHIC",
     "evolve": [
-      648,
-      1237
+      648
     ],
     "generation": 8,
     "abilities": [
@@ -11858,11 +11657,7 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      649,
-      1238,
-      1239,
-      1240,
-      1241
+      649
     ],
     "generation": 8,
     "abilities": [
@@ -11990,9 +11785,7 @@
     "evolve": [
       656,
       657,
-      658,
-      1242,
-      1243
+      658
     ],
     "generation": 8,
     "abilities": [
@@ -12010,9 +11803,7 @@
     "evolve": [
       656,
       657,
-      658,
-      1242,
-      1243
+      658
     ],
     "generation": 8,
     "abilities": [
@@ -12031,9 +11822,7 @@
     "evolve": [
       656,
       657,
-      658,
-      1242,
-      1243
+      658
     ],
     "generation": 8,
     "abilities": [
@@ -12143,26 +11932,7 @@
     "evolve": [
       664,
       665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      666
     ],
     "generation": 8,
     "abilities": [
@@ -12180,26 +11950,7 @@
     "evolve": [
       664,
       665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      666
     ],
     "generation": 8,
     "abilities": [
@@ -12218,26 +11969,7 @@
     "evolve": [
       664,
       665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      666
     ],
     "generation": 8,
     "abilities": [
@@ -12291,8 +12023,7 @@
     "evolve": [
       669,
       670,
-      671,
-      1271
+      671
     ],
     "generation": 8,
     "abilities": [
@@ -12310,8 +12041,7 @@
     "evolve": [
       669,
       670,
-      671,
-      1271
+      671
     ],
     "generation": 8,
     "abilities": [
@@ -12329,8 +12059,7 @@
     "evolve": [
       669,
       670,
-      671,
-      1271
+      671
     ],
     "generation": 8,
     "abilities": [
@@ -12415,16 +12144,7 @@
     "text": "Furfrou",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      676
     ],
     "generation": 8,
     "abilities": [
@@ -12459,8 +12179,7 @@
     "type": "PSYCHIC",
     "evolve": [
       677,
-      678,
-      1285
+      678
     ],
     "generation": 8,
     "abilities": [
@@ -12479,8 +12198,7 @@
     "evolve": [
       679,
       680,
-      681,
-      1286
+      681
     ],
     "generation": 8,
     "abilities": [
@@ -12499,8 +12217,7 @@
     "evolve": [
       679,
       680,
-      681,
-      1286
+      681
     ],
     "generation": 8,
     "abilities": [
@@ -12519,8 +12236,7 @@
     "evolve": [
       679,
       680,
-      681,
-      1286
+      681
     ],
     "generation": 8,
     "abilities": [
@@ -12857,8 +12573,7 @@
       133,
       1092,
       700,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -13069,8 +12784,7 @@
     "type": "ICE",
     "evolve": [
       712,
-      713,
-      1295
+      713
     ],
     "generation": 8,
     "abilities": [
@@ -13087,8 +12801,7 @@
     "type": "ICE",
     "evolve": [
       712,
-      713,
-      1295
+      713
     ],
     "generation": 8,
     "abilities": [
@@ -13140,8 +12853,7 @@
     "text": "Xerneas",
     "type": "FAIRY",
     "evolve": [
-      716,
-      1296
+      716
     ],
     "generation": 8,
     "abilities": [
@@ -13175,11 +12887,7 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      718,
-      1297,
-      1298,
-      1299,
-      1300
+      718
     ],
     "generation": 8,
     "abilities": [
@@ -13196,8 +12904,7 @@
     "type": "ROCK",
     "dualtype": "FAIRY",
     "evolve": [
-      719,
-      1301
+      719
     ],
     "generation": 8,
     "abilities": [
@@ -13214,8 +12921,7 @@
     "type": "PSYCHIC",
     "dualtype": "GHOST",
     "evolve": [
-      720,
-      1302
+      720
     ],
     "generation": 8,
     "abilities": [
@@ -13251,8 +12957,7 @@
     "evolve": [
       722,
       723,
-      724,
-      1303
+      724
     ],
     "generation": 8,
     "abilities": [
@@ -13271,8 +12976,7 @@
     "evolve": [
       722,
       723,
-      724,
-      1303
+      724
     ],
     "generation": 8,
     "abilities": [
@@ -13291,8 +12995,7 @@
     "evolve": [
       722,
       723,
-      724,
-      1303
+      724
     ],
     "generation": 8,
     "abilities": [
@@ -13476,8 +13179,7 @@
     "type": "NORMAL",
     "evolve": [
       734,
-      735,
-      1304
+      735
     ],
     "generation": 8,
     "abilities": [
@@ -13494,8 +13196,7 @@
     "type": "NORMAL",
     "evolve": [
       734,
-      735,
-      1304
+      735
     ],
     "generation": 8,
     "abilities": [
@@ -13513,8 +13214,7 @@
     "evolve": [
       736,
       737,
-      738,
-      1305
+      738
     ],
     "generation": 8,
     "abilities": [
@@ -13533,8 +13233,7 @@
     "evolve": [
       736,
       737,
-      738,
-      1305
+      738
     ],
     "generation": 8,
     "abilities": [
@@ -13553,8 +13252,7 @@
     "evolve": [
       736,
       737,
-      738,
-      1305
+      738
     ],
     "generation": 8,
     "abilities": [
@@ -13606,10 +13304,7 @@
     "type": "FIRE",
     "dualtype": "FLYING",
     "evolve": [
-      741,
-      1306,
-      1307,
-      1308
+      741
     ],
     "generation": 8,
     "abilities": [
@@ -13627,8 +13322,7 @@
     "dualtype": "FAIRY",
     "evolve": [
       742,
-      743,
-      1309
+      743
     ],
     "generation": 8,
     "abilities": [
@@ -13646,8 +13340,7 @@
     "dualtype": "FAIRY",
     "evolve": [
       742,
-      743,
-      1309
+      743
     ],
     "generation": 8,
     "abilities": [
@@ -13664,8 +13357,7 @@
     "type": "ROCK",
     "evolve": [
       744,
-      745,
-      1311
+      745
     ],
     "generation": 8,
     "abilities": [
@@ -13682,8 +13374,7 @@
     "type": "ROCK",
     "evolve": [
       744,
-      745,
-      1311
+      745
     ],
     "generation": 8,
     "abilities": [
@@ -13699,8 +13390,7 @@
     "text": "Wishiwashi",
     "type": "WATER",
     "evolve": [
-      746,
-      1313
+      746
     ],
     "generation": 8,
     "abilities": [
@@ -13788,8 +13478,7 @@
     "dualtype": "BUG",
     "evolve": [
       751,
-      752,
-      1314
+      752
     ],
     "generation": 8,
     "abilities": [
@@ -13807,8 +13496,7 @@
     "dualtype": "BUG",
     "evolve": [
       751,
-      752,
-      1314
+      752
     ],
     "generation": 8,
     "abilities": [
@@ -13825,8 +13513,7 @@
     "type": "GRASS",
     "evolve": [
       753,
-      754,
-      1315
+      754
     ],
     "generation": 8,
     "abilities": [
@@ -13843,8 +13530,7 @@
     "type": "GRASS",
     "evolve": [
       753,
-      754,
-      1315
+      754
     ],
     "generation": 8,
     "abilities": [
@@ -13898,8 +13584,7 @@
     "dualtype": "FIRE",
     "evolve": [
       757,
-      758,
-      1316
+      758
     ],
     "generation": 8,
     "abilities": [
@@ -13917,8 +13602,7 @@
     "dualtype": "FIRE",
     "evolve": [
       757,
-      758,
-      1316
+      758
     ],
     "generation": 8,
     "abilities": [
@@ -14162,24 +13846,7 @@
     "type": "NORMAL",
     "evolve": [
       772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      773
     ],
     "generation": 8,
     "abilities": [
@@ -14196,24 +13863,7 @@
     "type": "NORMAL",
     "evolve": [
       772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      773
     ],
     "generation": 8,
     "abilities": [
@@ -14230,20 +13880,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      774
     ],
     "generation": 8,
     "abilities": [
@@ -14293,8 +13930,7 @@
     "type": "ELECTRIC",
     "dualtype": "STEEL",
     "evolve": [
-      777,
-      1347
+      777
     ],
     "generation": 8,
     "abilities": [
@@ -14313,9 +13949,7 @@
     "evolve": [
       778,
       779,
-      780,
-      1348,
-      1350
+      780
     ],
     "generation": 8,
     "abilities": [
@@ -14334,9 +13968,7 @@
     "evolve": [
       1349,
       779,
-      780,
-      1348,
-      1350
+      780
     ],
     "generation": 8,
     "abilities": [
@@ -14355,9 +13987,7 @@
     "evolve": [
       1349,
       779,
-      780,
-      1348,
-      1350
+      780
     ],
     "generation": 8,
     "abilities": [
@@ -14424,8 +14054,7 @@
     "type": "DRAGON",
     "dualtype": "FIGHTING",
     "evolve": [
-      784,
-      1351
+      784
     ],
     "generation": 8,
     "abilities": [
@@ -14703,10 +14332,7 @@
     "text": "Necrozma",
     "type": "PSYCHIC",
     "evolve": [
-      800,
-      1352,
-      1353,
-      1354
+      800
     ],
     "generation": 8,
     "abilities": [
@@ -14723,8 +14349,7 @@
     "type": "STEEL",
     "dualtype": "FAIRY",
     "evolve": [
-      801,
-      1355
+      801
     ],
     "generation": 8,
     "abilities": [
@@ -14843,8 +14468,7 @@
     "type": "STEEL",
     "evolve": [
       808,
-      809,
-      1356
+      809
     ],
     "generation": 8,
     "abilities": [
@@ -14861,8 +14485,7 @@
     "type": "STEEL",
     "evolve": [
       808,
-      809,
-      1356
+      809
     ],
     "generation": 8,
     "abilities": [
@@ -14880,8 +14503,7 @@
     "evolve": [
       810,
       811,
-      812,
-      1357
+      812
     ],
     "generation": 8,
     "abilities": [
@@ -14899,8 +14521,7 @@
     "evolve": [
       810,
       811,
-      812,
-      1357
+      812
     ],
     "generation": 8,
     "abilities": [
@@ -14918,8 +14539,7 @@
     "evolve": [
       810,
       811,
-      812,
-      1357
+      812
     ],
     "generation": 8,
     "abilities": [
@@ -14937,8 +14557,7 @@
     "evolve": [
       813,
       814,
-      815,
-      1358
+      815
     ],
     "generation": 8,
     "abilities": [
@@ -14956,8 +14575,7 @@
     "evolve": [
       813,
       814,
-      815,
-      1358
+      815
     ],
     "generation": 8,
     "abilities": [
@@ -14975,8 +14593,7 @@
     "evolve": [
       813,
       814,
-      815,
-      1358
+      815
     ],
     "generation": 8,
     "abilities": [
@@ -14994,8 +14611,7 @@
     "evolve": [
       816,
       817,
-      818,
-      1359
+      818
     ],
     "generation": 8,
     "abilities": [
@@ -15013,8 +14629,7 @@
     "evolve": [
       816,
       817,
-      818,
-      1359
+      818
     ],
     "generation": 8,
     "abilities": [
@@ -15032,8 +14647,7 @@
     "evolve": [
       816,
       817,
-      818,
-      1359
+      818
     ],
     "generation": 8,
     "abilities": [
@@ -15085,8 +14699,7 @@
     "evolve": [
       821,
       822,
-      823,
-      1360
+      823
     ],
     "generation": 8,
     "abilities": [
@@ -15104,8 +14717,7 @@
     "evolve": [
       821,
       822,
-      823,
-      1360
+      823
     ],
     "generation": 8,
     "abilities": [
@@ -15124,8 +14736,7 @@
     "evolve": [
       821,
       822,
-      823,
-      1360
+      823
     ],
     "generation": 8,
     "abilities": [
@@ -15143,8 +14754,7 @@
     "evolve": [
       824,
       825,
-      826,
-      1361
+      826
     ],
     "generation": 8,
     "abilities": [
@@ -15163,8 +14773,7 @@
     "evolve": [
       824,
       825,
-      826,
-      1361
+      826
     ],
     "generation": 8,
     "abilities": [
@@ -15183,8 +14792,7 @@
     "evolve": [
       824,
       825,
-      826,
-      1361
+      826
     ],
     "generation": 8,
     "abilities": [
@@ -15303,8 +14911,7 @@
     "type": "WATER",
     "evolve": [
       833,
-      834,
-      1362
+      834
     ],
     "generation": 8,
     "abilities": [
@@ -15322,8 +14929,7 @@
     "dualtype": "ROCK",
     "evolve": [
       833,
-      834,
-      1362
+      834
     ],
     "generation": 8,
     "abilities": [
@@ -15375,8 +14981,7 @@
     "evolve": [
       837,
       838,
-      839,
-      1363
+      839
     ],
     "generation": 8,
     "abilities": [
@@ -15395,8 +15000,7 @@
     "evolve": [
       837,
       838,
-      839,
-      1363
+      839
     ],
     "generation": 8,
     "abilities": [
@@ -15415,8 +15019,7 @@
     "evolve": [
       837,
       838,
-      839,
-      1363
+      839
     ],
     "generation": 8,
     "abilities": [
@@ -15435,9 +15038,7 @@
     "evolve": [
       840,
       841,
-      842,
-      1364,
-      1365
+      842
     ],
     "generation": 8,
     "abilities": [
@@ -15455,8 +15056,7 @@
     "dualtype": "DRAGON",
     "evolve": [
       840,
-      841,
-      1364
+      841
     ],
     "generation": 8,
     "abilities": [
@@ -15474,8 +15074,7 @@
     "dualtype": "DRAGON",
     "evolve": [
       840,
-      842,
-      1365
+      842
     ],
     "generation": 8,
     "abilities": [
@@ -15492,8 +15091,7 @@
     "type": "GROUND",
     "evolve": [
       843,
-      844,
-      1366
+      844
     ],
     "generation": 8,
     "abilities": [
@@ -15510,8 +15108,7 @@
     "type": "GROUND",
     "evolve": [
       843,
-      844,
-      1366
+      844
     ],
     "generation": 8,
     "abilities": [
@@ -15528,9 +15125,7 @@
     "type": "FLYING",
     "dualtype": "WATER",
     "evolve": [
-      845,
-      1367,
-      1368
+      845
     ],
     "generation": 8,
     "abilities": [
@@ -15583,9 +15178,7 @@
     "evolve": [
       848,
       849,
-      1369,
-      1370,
-      1371
+      1369
     ],
     "generation": 8,
     "abilities": [
@@ -15603,10 +15196,7 @@
     "dualtype": "POISON",
     "evolve": [
       848,
-      849,
-      1369,
-      1370,
-      1371
+      849
     ],
     "generation": 8,
     "abilities": [
@@ -15624,8 +15214,7 @@
     "dualtype": "BUG",
     "evolve": [
       850,
-      851,
-      1372
+      851
     ],
     "generation": 8,
     "abilities": [
@@ -15643,8 +15232,7 @@
     "dualtype": "BUG",
     "evolve": [
       850,
-      851,
-      1372
+      851
     ],
     "generation": 8,
     "abilities": [
@@ -15730,8 +15318,7 @@
     "evolve": [
       856,
       857,
-      858,
-      1375
+      858
     ],
     "generation": 8,
     "abilities": [
@@ -15749,8 +15336,7 @@
     "evolve": [
       856,
       857,
-      858,
-      1375
+      858
     ],
     "generation": 8,
     "abilities": [
@@ -15769,8 +15355,7 @@
     "evolve": [
       856,
       857,
-      858,
-      1375
+      858
     ],
     "generation": 8,
     "abilities": [
@@ -15789,8 +15374,7 @@
     "evolve": [
       859,
       860,
-      861,
-      1376
+      861
     ],
     "generation": 8,
     "abilities": [
@@ -15809,8 +15393,7 @@
     "evolve": [
       859,
       860,
-      861,
-      1376
+      861
     ],
     "generation": 8,
     "abilities": [
@@ -15829,8 +15412,7 @@
     "evolve": [
       859,
       860,
-      861,
-      1376
+      861
     ],
     "generation": 8,
     "abilities": [
@@ -15967,57 +15549,7 @@
       1393,
       1394,
       1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1396
     ],
     "generation": 8,
     "abilities": [
@@ -16034,70 +15566,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      869
     ],
     "generation": 8,
     "abilities": [
@@ -16197,8 +15666,7 @@
     "text": "Eiscue",
     "type": "ICE",
     "evolve": [
-      875,
-      1440
+      875
     ],
     "generation": 8,
     "abilities": [
@@ -16215,8 +15683,7 @@
     "type": "PSYCHIC",
     "dualtype": "NORMAL",
     "evolve": [
-      876,
-      1441
+      876
     ],
     "generation": 8,
     "abilities": [
@@ -16233,8 +15700,7 @@
     "type": "ELECTRIC",
     "dualtype": "DARK",
     "evolve": [
-      877,
-      1442
+      877
     ],
     "generation": 8,
     "abilities": [
@@ -16251,8 +15717,7 @@
     "type": "STEEL",
     "evolve": [
       878,
-      879,
-      1443
+      879
     ],
     "generation": 8,
     "abilities": [
@@ -16269,8 +15734,7 @@
     "type": "STEEL",
     "evolve": [
       878,
-      879,
-      1443
+      879
     ],
     "generation": 8,
     "abilities": [
@@ -16355,8 +15819,7 @@
     "type": "STEEL",
     "dualtype": "DRAGON",
     "evolve": [
-      884,
-      1444
+      884
     ],
     "generation": 8,
     "abilities": [
@@ -16429,8 +15892,7 @@
     "text": "Zacian",
     "type": "FAIRY",
     "evolve": [
-      888,
-      1445
+      888
     ],
     "generation": 8,
     "abilities": [
@@ -16446,8 +15908,7 @@
     "text": "Zamazenta",
     "type": "FIGHTING",
     "evolve": [
-      889,
-      1446
+      889
     ],
     "generation": 8,
     "abilities": [
@@ -16464,8 +15925,7 @@
     "type": "POISON",
     "dualtype": "DRAGON",
     "evolve": [
-      890,
-      1447
+      890
     ],
     "generation": 8,
     "abilities": [
@@ -16483,9 +15943,7 @@
     "evolve": [
       891,
       892,
-      1448,
-      1449,
-      1450
+      1448
     ],
     "generation": 8,
     "abilities": [
@@ -16503,10 +15961,7 @@
     "dualtype": "DARK",
     "evolve": [
       891,
-      892,
-      1448,
-      1449,
-      1450
+      892
     ],
     "generation": 8,
     "abilities": [
@@ -16523,8 +15978,7 @@
     "type": "DARK",
     "dualtype": "GRASS",
     "evolve": [
-      893,
-      1451
+      893
     ],
     "generation": 8,
     "abilities": [
@@ -16605,9 +16059,7 @@
     "type": "PSYCHIC",
     "dualtype": "GRASS",
     "evolve": [
-      898,
-      1452,
-      1453
+      898
     ],
     "generation": 8,
     "abilities": [
@@ -16680,8 +16132,7 @@
     "dualtype": "GHOST",
     "evolve": [
       1214,
-      902,
-      1454
+      902
     ],
     "generation": 8,
     "abilities": [
@@ -16734,8 +16185,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16752,8 +16202,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16770,8 +16219,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16788,8 +16236,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16806,8 +16253,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16824,8 +16270,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16842,8 +16287,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16860,8 +16304,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16878,8 +16321,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16896,8 +16338,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16914,8 +16355,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16932,8 +16372,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16950,8 +16389,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16968,8 +16406,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -16986,8 +16423,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17004,8 +16440,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17022,8 +16457,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17040,8 +16474,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17058,8 +16491,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17076,8 +16508,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17094,8 +16525,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17112,8 +16542,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17130,8 +16559,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17148,8 +16576,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17166,8 +16593,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17184,8 +16610,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17202,8 +16627,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17220,8 +16644,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17238,8 +16661,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17256,8 +16678,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17274,8 +16695,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17292,8 +16712,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17310,8 +16729,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17328,8 +16746,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17346,8 +16763,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17364,8 +16780,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17382,8 +16797,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17400,8 +16814,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17418,8 +16831,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17436,8 +16848,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17454,8 +16865,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17472,8 +16882,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17490,8 +16899,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17508,8 +16916,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17526,8 +16933,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17544,8 +16950,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17562,8 +16967,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17580,8 +16984,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17598,8 +17001,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17616,8 +17018,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17634,8 +17035,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17652,8 +17052,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17670,8 +17069,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17688,8 +17086,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17706,8 +17103,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17724,8 +17120,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17742,8 +17137,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17760,8 +17154,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17778,8 +17171,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17796,8 +17188,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17814,8 +17205,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17832,8 +17222,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17850,8 +17239,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17868,8 +17256,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17886,8 +17273,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17904,8 +17290,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17922,8 +17307,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17940,8 +17324,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17958,8 +17341,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17976,8 +17358,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -17994,8 +17375,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18012,8 +17392,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18030,8 +17409,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18048,8 +17426,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18066,8 +17443,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18084,8 +17460,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18102,8 +17477,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18120,8 +17494,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18138,8 +17511,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18156,8 +17528,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18174,8 +17545,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18192,8 +17562,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18210,8 +17579,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18228,8 +17596,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18246,8 +17613,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18264,8 +17630,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18282,8 +17647,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18300,8 +17664,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18318,8 +17681,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18336,8 +17698,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18354,8 +17715,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18372,8 +17732,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18390,8 +17749,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18408,8 +17766,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18426,8 +17783,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18444,8 +17800,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18462,8 +17817,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18480,8 +17834,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18498,8 +17851,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18516,8 +17868,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18534,8 +17885,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18552,8 +17902,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18570,8 +17919,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18588,8 +17936,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18606,8 +17953,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18624,8 +17970,7 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
-      1455
+      905
     ],
     "generation": 8,
     "abilities": [
@@ -18642,12 +17987,7 @@
     "type": "GRASS",
     "dualtype": "POISON",
     "evolve": [
-      1,
-      2,
-      3,
-      1011,
-      1012,
-      1013
+      1011
     ],
     "generation": 8,
     "abilities": [
@@ -18664,12 +18004,7 @@
     "type": "GRASS",
     "dualtype": "POISON",
     "evolve": [
-      1,
-      2,
-      3,
-      1011,
-      1012,
-      1013
+      1012
     ],
     "generation": 8,
     "abilities": [
@@ -18689,8 +18024,6 @@
       1,
       2,
       3,
-      1011,
-      1012,
       1013
     ],
     "generation": 8,
@@ -18708,13 +18041,7 @@
     "type": "FIRE",
     "dualtype": "DRAGON",
     "evolve": [
-      4,
-      5,
-      6,
-      1014,
-      1015,
-      1016,
-      1017
+      1014
     ],
     "generation": 8,
     "abilities": [
@@ -18731,13 +18058,7 @@
     "type": "FIRE",
     "dualtype": "FLYING",
     "evolve": [
-      4,
-      5,
-      6,
-      1014,
-      1015,
-      1016,
-      1017
+      1015
     ],
     "generation": 8,
     "abilities": [
@@ -18754,13 +18075,7 @@
     "type": "FIRE",
     "dualtype": "FLYING",
     "evolve": [
-      4,
-      5,
-      6,
-      1014,
-      1015,
-      1016,
-      1017
+      1016
     ],
     "generation": 8,
     "abilities": [
@@ -18780,9 +18095,6 @@
       4,
       5,
       6,
-      1014,
-      1015,
-      1016,
       1017
     ],
     "generation": 8,
@@ -18799,12 +18111,7 @@
     "text": "Mega Blastoise",
     "type": "WATER",
     "evolve": [
-      7,
-      8,
-      9,
-      1018,
-      1019,
-      1020
+      1018
     ],
     "generation": 8,
     "abilities": [
@@ -18820,12 +18127,7 @@
     "text": "Gigantamax Blastoise",
     "type": "WATER",
     "evolve": [
-      7,
-      8,
-      9,
-      1018,
-      1019,
-      1020
+      1019
     ],
     "generation": 8,
     "abilities": [
@@ -18845,8 +18147,6 @@
       7,
       8,
       9,
-      1018,
-      1019,
       1020
     ],
     "generation": 8,
@@ -18864,9 +18164,6 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      10,
-      11,
-      12,
       1021
     ],
     "generation": 8,
@@ -18884,9 +18181,6 @@
     "type": "BUG",
     "dualtype": "POISON",
     "evolve": [
-      13,
-      14,
-      15,
       1022
     ],
     "generation": 8,
@@ -18904,9 +18198,6 @@
     "type": "NORMAL",
     "dualtype": "FLYING",
     "evolve": [
-      16,
-      17,
-      18,
       1023
     ],
     "generation": 8,
@@ -18960,8 +18251,6 @@
     "type": "NORMAL",
     "dualtype": "DARK",
     "evolve": [
-      19,
-      20,
       1026
     ],
     "generation": 8,
@@ -18988,16 +18277,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19025,16 +18304,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19062,16 +18331,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19099,16 +18358,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19136,16 +18385,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19173,16 +18412,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19200,28 +18429,7 @@
     "text": "Pikachu Original Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1033
     ],
     "generation": 8,
     "abilities": [
@@ -19237,28 +18445,7 @@
     "text": "Pikachu Hoenn Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1034
     ],
     "generation": 8,
     "abilities": [
@@ -19274,28 +18461,7 @@
     "text": "Pikachu Sinnoh Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1035
     ],
     "generation": 8,
     "abilities": [
@@ -19311,28 +18477,7 @@
     "text": "Pikachu Unova Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1036
     ],
     "generation": 8,
     "abilities": [
@@ -19348,28 +18493,7 @@
     "text": "Pikachu Kalos Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1037
     ],
     "generation": 8,
     "abilities": [
@@ -19385,28 +18509,7 @@
     "text": "Pikachu Alola Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1038
     ],
     "generation": 8,
     "abilities": [
@@ -19422,28 +18525,7 @@
     "text": "Pikachu Partner Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1039
     ],
     "generation": 8,
     "abilities": [
@@ -19459,28 +18541,7 @@
     "text": "Pikachu World Cap",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1040
     ],
     "generation": 8,
     "abilities": [
@@ -19496,28 +18557,7 @@
     "text": "Partner Pikachu",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1041
     ],
     "generation": 8,
     "abilities": [
@@ -19533,28 +18573,7 @@
     "text": "Gigantamax Pikachu",
     "type": "ELECTRIC",
     "evolve": [
-      172,
-      25,
-      26,
-      1044,
-      1027,
-      1028,
-      1029,
-      1030,
-      1031,
-      1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
-      1043,
-      1103
+      1042
     ],
     "generation": 8,
     "abilities": [
@@ -19580,16 +18599,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19617,16 +18626,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -19785,8 +18784,6 @@
     "text": "Gigantamax Meowth",
     "type": "NORMAL",
     "evolve": [
-      52,
-      53,
       1053
     ],
     "generation": 8,
@@ -19856,9 +18853,6 @@
     "text": "Mega Alakazam",
     "type": "PSYCHIC",
     "evolve": [
-      63,
-      64,
-      65,
       1057
     ],
     "generation": 8,
@@ -19875,9 +18869,6 @@
     "text": "Gigantamax Machamp",
     "type": "FIGHTING",
     "evolve": [
-      66,
-      67,
-      68,
       1058
     ],
     "generation": 8,
@@ -20005,9 +18996,6 @@
     "type": "WATER",
     "dualtype": "PSYCHIC",
     "evolve": [
-      79,
-      80,
-      199,
       1065
     ],
     "generation": 8,
@@ -20060,8 +19048,6 @@
     "type": "WATER",
     "dualtype": "ICE",
     "evolve": [
-      86,
-      87,
       1068
     ],
     "generation": 8,
@@ -20115,12 +19101,7 @@
     "type": "GHOST",
     "dualtype": "POISON",
     "evolve": [
-      92,
-      93,
-      94,
-      1071,
-      1072,
-      1073
+      1071
     ],
     "generation": 8,
     "abilities": [
@@ -20137,12 +19118,7 @@
     "type": "GHOST",
     "dualtype": "POISON",
     "evolve": [
-      92,
-      93,
-      94,
-      1071,
-      1072,
-      1073
+      1072
     ],
     "generation": 8,
     "abilities": [
@@ -20162,8 +19138,6 @@
       92,
       93,
       94,
-      1071,
-      1072,
       1073
     ],
     "generation": 8,
@@ -20183,8 +19157,7 @@
     "evolve": [
       95,
       208,
-      1074,
-      1134
+      1074
     ],
     "generation": 8,
     "abilities": [
@@ -20200,8 +19173,6 @@
     "text": "Gigantamax Kingler",
     "type": "WATER",
     "evolve": [
-      98,
-      99,
       1075
     ],
     "generation": 8,
@@ -20274,8 +19245,7 @@
     "dualtype": "FIRE",
     "evolve": [
       104,
-      1079,
-      1080
+      1079
     ],
     "generation": 8,
     "abilities": [
@@ -20292,9 +19262,6 @@
     "type": "GHOST",
     "dualtype": "FIRE",
     "evolve": [
-      104,
-      105,
-      1079,
       1080
     ],
     "generation": 8,
@@ -20329,7 +19296,6 @@
     "text": "Mega Kangaskhan",
     "type": "NORMAL",
     "evolve": [
-      115,
       1082
     ],
     "generation": 8,
@@ -20366,7 +19332,6 @@
     "type": "FLYING",
     "dualtype": "BUG",
     "evolve": [
-      127,
       1084
     ],
     "generation": 8,
@@ -20383,10 +19348,7 @@
     "text": "Tauros Combat Breed",
     "type": "NORMAL",
     "evolve": [
-      128,
-      1085,
-      1086,
-      1087
+      1085
     ],
     "generation": 8,
     "abilities": [
@@ -20402,10 +19364,7 @@
     "text": "Tauros Blaze Breed",
     "type": "NORMAL",
     "evolve": [
-      128,
-      1085,
-      1086,
-      1087
+      1086
     ],
     "generation": 8,
     "abilities": [
@@ -20421,9 +19380,6 @@
     "text": "Tauros Aqua Breed",
     "type": "NORMAL",
     "evolve": [
-      128,
-      1085,
-      1086,
       1087
     ],
     "generation": 8,
@@ -20441,8 +19397,6 @@
     "type": "WATER",
     "dualtype": "DARK",
     "evolve": [
-      129,
-      130,
       1088
     ],
     "generation": 8,
@@ -20460,7 +19414,6 @@
     "type": "WATER",
     "dualtype": "ICE",
     "evolve": [
-      131,
       1089
     ],
     "generation": 8,
@@ -20486,8 +19439,7 @@
       700,
       196,
       197,
-      1090,
-      1091
+      1090
     ],
     "generation": 8,
     "abilities": [
@@ -20503,16 +19455,6 @@
     "text": "Gigantamax Eevee",
     "type": "NORMAL",
     "evolve": [
-      133,
-      470,
-      471,
-      135,
-      134,
-      136,
-      700,
-      196,
-      197,
-      1090,
       1091
     ],
     "generation": 8,
@@ -20554,7 +19496,6 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      142,
       1093
     ],
     "generation": 8,
@@ -20571,8 +19512,6 @@
     "text": "Gigantamax Snorlax",
     "type": "NORMAL",
     "evolve": [
-      446,
-      143,
       1094
     ],
     "generation": 8,
@@ -20590,7 +19529,6 @@
     "type": "PSYCHIC",
     "dualtype": "FLYING",
     "evolve": [
-      144,
       1095
     ],
     "generation": 8,
@@ -20608,7 +19546,6 @@
     "type": "FIGHTING",
     "dualtype": "FLYING",
     "evolve": [
-      145,
       1096
     ],
     "generation": 8,
@@ -20626,7 +19563,6 @@
     "type": "DARK",
     "dualtype": "FLYING",
     "evolve": [
-      146,
       1097
     ],
     "generation": 8,
@@ -20644,11 +19580,7 @@
     "type": "FIGHTING",
     "dualtype": "PSYCHIC",
     "evolve": [
-      150,
-      1098,
-      1099,
-      1100,
-      1101
+      1098
     ],
     "generation": 8,
     "abilities": [
@@ -20664,11 +19596,7 @@
     "text": "Mega Mewtwo Y",
     "type": "PSYCHIC",
     "evolve": [
-      150,
-      1098,
-      1099,
-      1100,
-      1101
+      1099
     ],
     "generation": 8,
     "abilities": [
@@ -20685,8 +19613,6 @@
     "type": "PSYCHIC",
     "evolve": [
       150,
-      1098,
-      1099,
       1100,
       1101
     ],
@@ -20705,8 +19631,6 @@
     "type": "PSYCHIC",
     "evolve": [
       150,
-      1098,
-      1099,
       1100,
       1101
     ],
@@ -20753,16 +19677,6 @@
       1030,
       1031,
       1032,
-      1033,
-      1034,
-      1035,
-      1036,
-      1037,
-      1038,
-      1039,
-      1040,
-      1041,
-      1042,
       1043,
       1103
     ],
@@ -20781,9 +19695,6 @@
     "type": "ELECTRIC",
     "dualtype": "DRAGON",
     "evolve": [
-      179,
-      180,
-      181,
       1104
     ],
     "generation": 8,
@@ -21998,9 +20909,6 @@
     "type": "STEEL",
     "dualtype": "GROUND",
     "evolve": [
-      95,
-      208,
-      1074,
       1134
     ],
     "generation": 8,
@@ -22036,9 +20944,6 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      123,
-      212,
-      900,
       1136
     ],
     "generation": 8,
@@ -22056,7 +20961,6 @@
     "type": "BUG",
     "dualtype": "FIGHTING",
     "evolve": [
-      214,
       1137
     ],
     "generation": 8,
@@ -22109,8 +21013,6 @@
     "type": "DARK",
     "dualtype": "FIRE",
     "evolve": [
-      228,
-      229,
       1140
     ],
     "generation": 8,
@@ -22128,9 +21030,6 @@
     "type": "ROCK",
     "dualtype": "DARK",
     "evolve": [
-      246,
-      247,
-      248,
       1141
     ],
     "generation": 8,
@@ -22148,9 +21047,6 @@
     "type": "GRASS",
     "dualtype": "DRAGON",
     "evolve": [
-      252,
-      253,
-      254,
       1142
     ],
     "generation": 8,
@@ -22168,9 +21064,6 @@
     "type": "FIRE",
     "dualtype": "FIGHTING",
     "evolve": [
-      255,
-      256,
-      257,
       1143
     ],
     "generation": 8,
@@ -22188,9 +21081,6 @@
     "type": "WATER",
     "dualtype": "GROUND",
     "evolve": [
-      258,
-      259,
-      260,
       1144
     ],
     "generation": 8,
@@ -22246,10 +21136,6 @@
     "type": "PSYCHIC",
     "dualtype": "FAIRY",
     "evolve": [
-      280,
-      281,
-      282,
-      475,
       1147
     ],
     "generation": 8,
@@ -22267,7 +21153,6 @@
     "type": "DARK",
     "dualtype": "GHOST",
     "evolve": [
-      302,
       1148
     ],
     "generation": 8,
@@ -22285,7 +21170,6 @@
     "type": "STEEL",
     "dualtype": "FAIRY",
     "evolve": [
-      303,
       1149
     ],
     "generation": 8,
@@ -22302,9 +21186,6 @@
     "text": "Mega Aggron",
     "type": "STEEL",
     "evolve": [
-      304,
-      305,
-      306,
       1150
     ],
     "generation": 8,
@@ -22322,8 +21203,6 @@
     "type": "FIGHTING",
     "dualtype": "PSYCHIC",
     "evolve": [
-      307,
-      308,
       1151
     ],
     "generation": 8,
@@ -22340,8 +21219,6 @@
     "text": "Mega Manectric",
     "type": "ELECTRIC",
     "evolve": [
-      309,
-      310,
       1152
     ],
     "generation": 8,
@@ -22359,8 +21236,6 @@
     "type": "WATER",
     "dualtype": "DARK",
     "evolve": [
-      318,
-      319,
       1153
     ],
     "generation": 8,
@@ -22378,8 +21253,6 @@
     "type": "FIRE",
     "dualtype": "GROUND",
     "evolve": [
-      322,
-      323,
       1154
     ],
     "generation": 8,
@@ -22397,8 +21270,6 @@
     "type": "DRAGON",
     "dualtype": "FAIRY",
     "evolve": [
-      333,
-      334,
       1155
     ],
     "generation": 8,
@@ -22472,8 +21343,6 @@
     "text": "Mega Banette",
     "type": "GHOST",
     "evolve": [
-      353,
-      354,
       1159
     ],
     "generation": 8,
@@ -22490,7 +21359,6 @@
     "text": "Mega Absol",
     "type": "DARK",
     "evolve": [
-      359,
       1160
     ],
     "generation": 8,
@@ -22507,9 +21375,6 @@
     "text": "Mega Glalie",
     "type": "ICE",
     "evolve": [
-      361,
-      362,
-      478,
       1161
     ],
     "generation": 8,
@@ -22527,9 +21392,6 @@
     "type": "DRAGON",
     "dualtype": "FLYING",
     "evolve": [
-      371,
-      372,
-      373,
       1162
     ],
     "generation": 8,
@@ -22547,9 +21409,6 @@
     "type": "STEEL",
     "dualtype": "PSYCHIC",
     "evolve": [
-      374,
-      375,
-      376,
       1163
     ],
     "generation": 8,
@@ -22567,7 +21426,6 @@
     "type": "DRAGON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      380,
       1164
     ],
     "generation": 8,
@@ -22585,7 +21443,6 @@
     "type": "DRAGON",
     "dualtype": "PSYCHIC",
     "evolve": [
-      381,
       1165
     ],
     "generation": 8,
@@ -22602,7 +21459,6 @@
     "text": "Primal Kyogre",
     "type": "WATER",
     "evolve": [
-      382,
       1166
     ],
     "generation": 8,
@@ -22620,7 +21476,6 @@
     "type": "GROUND",
     "dualtype": "FIRE",
     "evolve": [
-      383,
       1167
     ],
     "generation": 8,
@@ -22638,7 +21493,6 @@
     "type": "DRAGON",
     "dualtype": "FLYING",
     "evolve": [
-      384,
       1168
     ],
     "generation": 8,
@@ -22843,8 +21697,6 @@
     "type": "NORMAL",
     "dualtype": "FIGHTING",
     "evolve": [
-      427,
-      428,
       1179
     ],
     "generation": 8,
@@ -22862,9 +21714,6 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      443,
-      444,
-      445,
       1180
     ],
     "generation": 8,
@@ -22882,8 +21731,6 @@
     "type": "FIGHTING",
     "dualtype": "STEEL",
     "evolve": [
-      447,
-      448,
       1181
     ],
     "generation": 8,
@@ -22901,8 +21748,6 @@
     "type": "GRASS",
     "dualtype": "ICE",
     "evolve": [
-      459,
-      460,
       1182
     ],
     "generation": 8,
@@ -22920,11 +21765,6 @@
     "type": "PSYCHIC",
     "dualtype": "FIGHTING",
     "evolve": [
-      280,
-      281,
-      282,
-      475,
-      1147,
       1183
     ],
     "generation": 8,
@@ -23052,7 +21892,6 @@
     "type": "STEEL",
     "dualtype": "DRAGON",
     "evolve": [
-      483,
       1189
     ],
     "generation": 8,
@@ -23070,7 +21909,6 @@
     "type": "WATER",
     "dualtype": "DRAGON",
     "evolve": [
-      484,
       1190
     ],
     "generation": 8,
@@ -23685,9 +22523,6 @@
     "type": "WATER",
     "dualtype": "DARK",
     "evolve": [
-      501,
-      502,
-      503,
       1210
     ],
     "generation": 8,
@@ -23705,7 +22540,6 @@
     "type": "NORMAL",
     "dualtype": "FAIRY",
     "evolve": [
-      531,
       1211
     ],
     "generation": 8,
@@ -23723,8 +22557,6 @@
     "type": "GRASS",
     "dualtype": "FIGHTING",
     "evolve": [
-      548,
-      549,
       1212
     ],
     "generation": 8,
@@ -23741,7 +22573,6 @@
     "text": "Basculin Blue-Striped Form",
     "type": "WATER",
     "evolve": [
-      550,
       1213
     ],
     "generation": 8,
@@ -23794,10 +22625,7 @@
     "type": "FIRE",
     "dualtype": "PSYCHIC",
     "evolve": [
-      554,
-      555,
-      1216,
-      1218
+      1216
     ],
     "generation": 8,
     "abilities": [
@@ -23831,9 +22659,6 @@
     "type": "FIRE",
     "dualtype": "ICE",
     "evolve": [
-      554,
-      555,
-      1216,
       1218
     ],
     "generation": 8,
@@ -23868,8 +22693,6 @@
     "text": "Gigantamax Garbodor",
     "type": "POISON",
     "evolve": [
-      568,
-      569,
       1220
     ],
     "generation": 8,
@@ -24031,7 +22854,6 @@
     "type": "GROUND",
     "dualtype": "STEEL",
     "evolve": [
-      618,
       1229
     ],
     "generation": 8,
@@ -24049,8 +22871,6 @@
     "type": "PSYCHIC",
     "dualtype": "FLYING",
     "evolve": [
-      627,
-      628,
       1230
     ],
     "generation": 8,
@@ -24067,7 +22887,6 @@
     "text": "Tornadus Therian Forme",
     "type": "FLYING",
     "evolve": [
-      641,
       1231
     ],
     "generation": 8,
@@ -24085,7 +22904,6 @@
     "type": "ELECTRIC",
     "dualtype": "FLYING",
     "evolve": [
-      642,
       1232
     ],
     "generation": 8,
@@ -24103,7 +22921,6 @@
     "type": "GROUND",
     "dualtype": "FLYING",
     "evolve": [
-      645,
       1233
     ],
     "generation": 8,
@@ -24121,9 +22938,7 @@
     "type": "DRAGON",
     "dualtype": "ICE",
     "evolve": [
-      646,
-      1234,
-      1235
+      1234
     ],
     "generation": 8,
     "abilities": [
@@ -24140,8 +22955,6 @@
     "type": "DRAGON",
     "dualtype": "ICE",
     "evolve": [
-      646,
-      1234,
       1235
     ],
     "generation": 8,
@@ -24159,7 +22972,6 @@
     "type": "WATER",
     "dualtype": "FIGHTING",
     "evolve": [
-      647,
       1236
     ],
     "generation": 8,
@@ -24177,7 +22989,6 @@
     "type": "NORMAL",
     "dualtype": "FIGHTING",
     "evolve": [
-      648,
       1237
     ],
     "generation": 8,
@@ -24195,11 +23006,7 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      649,
-      1238,
-      1239,
-      1240,
-      1241
+      1238
     ],
     "generation": 8,
     "abilities": [
@@ -24216,11 +23023,7 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      649,
-      1238,
-      1239,
-      1240,
-      1241
+      1239
     ],
     "generation": 8,
     "abilities": [
@@ -24237,11 +23040,7 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      649,
-      1238,
-      1239,
-      1240,
-      1241
+      1240
     ],
     "generation": 8,
     "abilities": [
@@ -24258,10 +23057,6 @@
     "type": "BUG",
     "dualtype": "STEEL",
     "evolve": [
-      649,
-      1238,
-      1239,
-      1240,
       1241
     ],
     "generation": 8,
@@ -24279,11 +23074,7 @@
     "type": "WATER",
     "dualtype": "DARK",
     "evolve": [
-      656,
-      657,
-      658,
-      1242,
-      1243
+      1242
     ],
     "generation": 8,
     "abilities": [
@@ -24300,10 +23091,6 @@
     "type": "WATER",
     "dualtype": "DARK",
     "evolve": [
-      656,
-      657,
-      658,
-      1242,
       1243
     ],
     "generation": 8,
@@ -24321,28 +23108,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1244
     ],
     "generation": 8,
     "abilities": [
@@ -24359,28 +23125,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1245
     ],
     "generation": 8,
     "abilities": [
@@ -24397,28 +23142,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1246
     ],
     "generation": 8,
     "abilities": [
@@ -24435,28 +23159,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1247
     ],
     "generation": 8,
     "abilities": [
@@ -24473,28 +23176,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1248
     ],
     "generation": 8,
     "abilities": [
@@ -24511,28 +23193,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1249
     ],
     "generation": 8,
     "abilities": [
@@ -24549,28 +23210,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1250
     ],
     "generation": 8,
     "abilities": [
@@ -24587,28 +23227,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1251
     ],
     "generation": 8,
     "abilities": [
@@ -24625,28 +23244,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1252
     ],
     "generation": 8,
     "abilities": [
@@ -24663,28 +23261,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1253
     ],
     "generation": 8,
     "abilities": [
@@ -24701,28 +23278,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1254
     ],
     "generation": 8,
     "abilities": [
@@ -24739,28 +23295,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1255
     ],
     "generation": 8,
     "abilities": [
@@ -24777,28 +23312,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1256
     ],
     "generation": 8,
     "abilities": [
@@ -24815,28 +23329,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1257
     ],
     "generation": 8,
     "abilities": [
@@ -24853,28 +23346,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1258
     ],
     "generation": 8,
     "abilities": [
@@ -24891,28 +23363,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1259
     ],
     "generation": 8,
     "abilities": [
@@ -24929,28 +23380,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1260
     ],
     "generation": 8,
     "abilities": [
@@ -24967,28 +23397,7 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
-      1262
+      1261
     ],
     "generation": 8,
     "abilities": [
@@ -25005,27 +23414,6 @@
     "type": "BUG",
     "dualtype": "FLYING",
     "evolve": [
-      664,
-      665,
-      666,
-      1244,
-      1245,
-      1246,
-      1247,
-      1248,
-      1249,
-      1250,
-      1251,
-      1252,
-      1253,
-      1254,
-      1255,
-      1256,
-      1257,
-      1258,
-      1259,
-      1260,
-      1261,
       1262
     ],
     "generation": 8,
@@ -25186,9 +23574,6 @@
     "text": "Eternal Flower Floette",
     "type": "FAIRY",
     "evolve": [
-      669,
-      670,
-      671,
       1271
     ],
     "generation": 8,
@@ -25277,16 +23662,7 @@
     "text": "Furfrou Heart Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1276
     ],
     "generation": 8,
     "abilities": [
@@ -25302,16 +23678,7 @@
     "text": "Furfrou Star Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1277
     ],
     "generation": 8,
     "abilities": [
@@ -25327,16 +23694,7 @@
     "text": "Furfrou Diamond Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1278
     ],
     "generation": 8,
     "abilities": [
@@ -25352,16 +23710,7 @@
     "text": "Furfrou Debutante Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1279
     ],
     "generation": 8,
     "abilities": [
@@ -25377,16 +23726,7 @@
     "text": "Furfrou Matron Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1280
     ],
     "generation": 8,
     "abilities": [
@@ -25402,16 +23742,7 @@
     "text": "Furfrou Dandy Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1281
     ],
     "generation": 8,
     "abilities": [
@@ -25427,16 +23758,7 @@
     "text": "Furfrou La Reine Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1282
     ],
     "generation": 8,
     "abilities": [
@@ -25452,16 +23774,7 @@
     "text": "Furfrou Kabuki Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
-      1284
+      1283
     ],
     "generation": 8,
     "abilities": [
@@ -25477,15 +23790,6 @@
     "text": "Furfrou Pharaoh Trim",
     "type": "NORMAL",
     "evolve": [
-      676,
-      1276,
-      1277,
-      1278,
-      1279,
-      1280,
-      1281,
-      1282,
-      1283,
       1284
     ],
     "generation": 8,
@@ -25520,9 +23824,6 @@
     "type": "STEEL",
     "dualtype": "GHOST",
     "evolve": [
-      679,
-      680,
-      681,
       1286
     ],
     "generation": 8,
@@ -25684,8 +23985,6 @@
     "type": "ICE",
     "dualtype": "ROCK",
     "evolve": [
-      712,
-      713,
       1295
     ],
     "generation": 8,
@@ -25702,7 +24001,6 @@
     "text": "Xerneas Active Mode",
     "type": "FAIRY",
     "evolve": [
-      716,
       1296
     ],
     "generation": 8,
@@ -25720,11 +24018,7 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      718,
-      1297,
-      1298,
-      1299,
-      1300
+      1297
     ],
     "generation": 8,
     "abilities": [
@@ -25741,11 +24035,7 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      718,
-      1297,
-      1298,
-      1299,
-      1300
+      1298
     ],
     "generation": 8,
     "abilities": [
@@ -25762,11 +24052,7 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      718,
-      1297,
-      1298,
-      1299,
-      1300
+      1299
     ],
     "generation": 8,
     "abilities": [
@@ -25783,10 +24069,6 @@
     "type": "DRAGON",
     "dualtype": "GROUND",
     "evolve": [
-      718,
-      1297,
-      1298,
-      1299,
       1300
     ],
     "generation": 8,
@@ -25804,7 +24086,6 @@
     "type": "ROCK",
     "dualtype": "FAIRY",
     "evolve": [
-      719,
       1301
     ],
     "generation": 8,
@@ -25822,7 +24103,6 @@
     "type": "PSYCHIC",
     "dualtype": "DARK",
     "evolve": [
-      720,
       1302
     ],
     "generation": 8,
@@ -25840,9 +24120,6 @@
     "type": "GRASS",
     "dualtype": "FIGHTING",
     "evolve": [
-      722,
-      723,
-      724,
       1303
     ],
     "generation": 8,
@@ -25859,8 +24136,6 @@
     "text": "Totem Gumshoos",
     "type": "NORMAL",
     "evolve": [
-      734,
-      735,
       1304
     ],
     "generation": 8,
@@ -25878,9 +24153,6 @@
     "type": "BUG",
     "dualtype": "ELECTRIC",
     "evolve": [
-      736,
-      737,
-      738,
       1305
     ],
     "generation": 8,
@@ -25898,10 +24170,7 @@
     "type": "ELECTRIC",
     "dualtype": "FLYING",
     "evolve": [
-      741,
-      1306,
-      1307,
-      1308
+      1306
     ],
     "generation": 8,
     "abilities": [
@@ -25918,10 +24187,7 @@
     "type": "PSYCHIC",
     "dualtype": "FLYING",
     "evolve": [
-      741,
-      1306,
-      1307,
-      1308
+      1307
     ],
     "generation": 8,
     "abilities": [
@@ -25938,9 +24204,6 @@
     "type": "GHOST",
     "dualtype": "FLYING",
     "evolve": [
-      741,
-      1306,
-      1307,
       1308
     ],
     "generation": 8,
@@ -25958,8 +24221,6 @@
     "type": "BUG",
     "dualtype": "FAIRY",
     "evolve": [
-      742,
-      743,
       1309
     ],
     "generation": 8,
@@ -25993,8 +24254,6 @@
     "text": "Lycanroc Midnight Form",
     "type": "ROCK",
     "evolve": [
-      744,
-      745,
       1311
     ],
     "generation": 8,
@@ -26028,7 +24287,6 @@
     "text": "Wishiwashi School Form",
     "type": "WATER",
     "evolve": [
-      746,
       1313
     ],
     "generation": 8,
@@ -26046,8 +24304,6 @@
     "type": "WATER",
     "dualtype": "BUG",
     "evolve": [
-      751,
-      752,
       1314
     ],
     "generation": 8,
@@ -26064,8 +24320,6 @@
     "text": "Totem Lurantis",
     "type": "GRASS",
     "evolve": [
-      753,
-      754,
       1315
     ],
     "generation": 8,
@@ -26083,8 +24337,6 @@
     "type": "POISON",
     "dualtype": "FIRE",
     "evolve": [
-      757,
-      758,
       1316
     ],
     "generation": 8,
@@ -26101,25 +24353,7 @@
     "text": "Silvally Type: Fighting",
     "type": "FIGHTING",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1317
     ],
     "generation": 8,
     "abilities": [
@@ -26135,25 +24369,7 @@
     "text": "Silvally Type: Flying",
     "type": "FLYING",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1318
     ],
     "generation": 8,
     "abilities": [
@@ -26169,25 +24385,7 @@
     "text": "Silvally Type: Poison",
     "type": "POISON",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1319
     ],
     "generation": 8,
     "abilities": [
@@ -26203,25 +24401,7 @@
     "text": "Silvally Type: Ground",
     "type": "GROUND",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1320
     ],
     "generation": 8,
     "abilities": [
@@ -26237,25 +24417,7 @@
     "text": "Silvally Type: Rock",
     "type": "ROCK",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1321
     ],
     "generation": 8,
     "abilities": [
@@ -26271,25 +24433,7 @@
     "text": "Silvally Type: Bug",
     "type": "BUG",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1322
     ],
     "generation": 8,
     "abilities": [
@@ -26305,25 +24449,7 @@
     "text": "Silvally Type: Ghost",
     "type": "GHOST",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1323
     ],
     "generation": 8,
     "abilities": [
@@ -26339,25 +24465,7 @@
     "text": "Silvally Type: Steel",
     "type": "STEEL",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1324
     ],
     "generation": 8,
     "abilities": [
@@ -26373,25 +24481,7 @@
     "text": "Silvally Type: Fire",
     "type": "FIRE",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1325
     ],
     "generation": 8,
     "abilities": [
@@ -26407,25 +24497,7 @@
     "text": "Silvally Type: Water",
     "type": "WATER",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1326
     ],
     "generation": 8,
     "abilities": [
@@ -26441,25 +24513,7 @@
     "text": "Silvally Type: Grass",
     "type": "GRASS",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1327
     ],
     "generation": 8,
     "abilities": [
@@ -26475,25 +24529,7 @@
     "text": "Silvally Type: Electric",
     "type": "ELECTRIC",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1328
     ],
     "generation": 8,
     "abilities": [
@@ -26509,25 +24545,7 @@
     "text": "Silvally Type: Psychic",
     "type": "PSYCHIC",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1329
     ],
     "generation": 8,
     "abilities": [
@@ -26543,25 +24561,7 @@
     "text": "Silvally Type: Ice",
     "type": "ICE",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1330
     ],
     "generation": 8,
     "abilities": [
@@ -26577,25 +24577,7 @@
     "text": "Silvally Type: Dragon",
     "type": "DRAGON",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1331
     ],
     "generation": 8,
     "abilities": [
@@ -26611,25 +24593,7 @@
     "text": "Silvally Type: Dark",
     "type": "DARK",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
-      1333
+      1332
     ],
     "generation": 8,
     "abilities": [
@@ -26645,24 +24609,6 @@
     "text": "Silvally Type: Fairy",
     "type": "FAIRY",
     "evolve": [
-      772,
-      773,
-      1317,
-      1318,
-      1319,
-      1320,
-      1321,
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1332,
       1333
     ],
     "generation": 8,
@@ -26680,20 +24626,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1334
     ],
     "generation": 8,
     "abilities": [
@@ -26710,20 +24643,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1335
     ],
     "generation": 8,
     "abilities": [
@@ -26740,20 +24660,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1336
     ],
     "generation": 8,
     "abilities": [
@@ -26770,20 +24677,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1337
     ],
     "generation": 8,
     "abilities": [
@@ -26800,20 +24694,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1338
     ],
     "generation": 8,
     "abilities": [
@@ -26830,20 +24711,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1339
     ],
     "generation": 8,
     "abilities": [
@@ -26860,20 +24728,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1340
     ],
     "generation": 8,
     "abilities": [
@@ -26890,20 +24745,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1341
     ],
     "generation": 8,
     "abilities": [
@@ -26920,20 +24762,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1342
     ],
     "generation": 8,
     "abilities": [
@@ -26950,20 +24779,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1343
     ],
     "generation": 8,
     "abilities": [
@@ -26980,20 +24796,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1344
     ],
     "generation": 8,
     "abilities": [
@@ -27010,20 +24813,7 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
-      1346
+      1345
     ],
     "generation": 8,
     "abilities": [
@@ -27040,19 +24830,6 @@
     "type": "ROCK",
     "dualtype": "FLYING",
     "evolve": [
-      774,
-      1334,
-      1335,
-      1336,
-      1337,
-      1338,
-      1339,
-      1340,
-      1341,
-      1342,
-      1343,
-      1344,
-      1345,
       1346
     ],
     "generation": 8,
@@ -27070,7 +24847,6 @@
     "type": "ELECTRIC",
     "dualtype": "STEEL",
     "evolve": [
-      777,
       1347
     ],
     "generation": 8,
@@ -27088,11 +24864,7 @@
     "type": "GHOST",
     "dualtype": "FAIRY",
     "evolve": [
-      778,
-      779,
-      780,
-      1348,
-      1350
+      1348
     ],
     "generation": 8,
     "abilities": [
@@ -27128,10 +24900,6 @@
     "type": "GHOST",
     "dualtype": "FAIRY",
     "evolve": [
-      778,
-      779,
-      780,
-      1348,
       1350
     ],
     "generation": 8,
@@ -27149,7 +24917,6 @@
     "type": "DRAGON",
     "dualtype": "FIGHTING",
     "evolve": [
-      784,
       1351
     ],
     "generation": 8,
@@ -27167,10 +24934,7 @@
     "type": "STEEL",
     "dualtype": "PSYCHIC",
     "evolve": [
-      800,
-      1352,
-      1353,
-      1354
+      1352
     ],
     "generation": 8,
     "abilities": [
@@ -27187,10 +24951,7 @@
     "type": "GHOST",
     "dualtype": "PSYCHIC",
     "evolve": [
-      800,
-      1352,
-      1353,
-      1354
+      1353
     ],
     "generation": 8,
     "abilities": [
@@ -27207,9 +24968,6 @@
     "type": "PSYCHIC",
     "dualtype": "DRAGON",
     "evolve": [
-      800,
-      1352,
-      1353,
       1354
     ],
     "generation": 8,
@@ -27227,7 +24985,6 @@
     "type": "STEEL",
     "dualtype": "FAIRY",
     "evolve": [
-      801,
       1355
     ],
     "generation": 8,
@@ -27244,8 +25001,6 @@
     "text": "Gigantamax Melmetal",
     "type": "STEEL",
     "evolve": [
-      808,
-      809,
       1356
     ],
     "generation": 8,
@@ -27262,9 +25017,6 @@
     "text": "Gigantamax Rillaboom",
     "type": "GRASS",
     "evolve": [
-      810,
-      811,
-      812,
       1357
     ],
     "generation": 8,
@@ -27281,9 +25033,6 @@
     "text": "Gigantamax Cinderace",
     "type": "FIRE",
     "evolve": [
-      813,
-      814,
-      815,
       1358
     ],
     "generation": 8,
@@ -27300,9 +25049,6 @@
     "text": "Gigantamax Inteleon",
     "type": "WATER",
     "evolve": [
-      816,
-      817,
-      818,
       1359
     ],
     "generation": 8,
@@ -27320,9 +25066,6 @@
     "type": "FLYING",
     "dualtype": "STEEL",
     "evolve": [
-      821,
-      822,
-      823,
       1360
     ],
     "generation": 8,
@@ -27340,9 +25083,6 @@
     "type": "BUG",
     "dualtype": "PSYCHIC",
     "evolve": [
-      824,
-      825,
-      826,
       1361
     ],
     "generation": 8,
@@ -27360,8 +25100,6 @@
     "type": "WATER",
     "dualtype": "ROCK",
     "evolve": [
-      833,
-      834,
       1362
     ],
     "generation": 8,
@@ -27379,9 +25117,6 @@
     "type": "ROCK",
     "dualtype": "FIRE",
     "evolve": [
-      837,
-      838,
-      839,
       1363
     ],
     "generation": 8,
@@ -27399,9 +25134,6 @@
     "type": "GRASS",
     "dualtype": "DRAGON",
     "evolve": [
-      840,
-      841,
-      842,
       1364
     ],
     "generation": 8,
@@ -27419,10 +25151,6 @@
     "type": "GRASS",
     "dualtype": "DRAGON",
     "evolve": [
-      840,
-      841,
-      842,
-      1364,
       1365
     ],
     "generation": 8,
@@ -27439,8 +25167,6 @@
     "text": "Gigantamax Sandaconda",
     "type": "GROUND",
     "evolve": [
-      843,
-      844,
       1366
     ],
     "generation": 8,
@@ -27458,9 +25184,7 @@
     "type": "FLYING",
     "dualtype": "WATER",
     "evolve": [
-      845,
-      1367,
-      1368
+      1367
     ],
     "generation": 8,
     "abilities": [
@@ -27477,8 +25201,6 @@
     "type": "FLYING",
     "dualtype": "WATER",
     "evolve": [
-      845,
-      1367,
       1368
     ],
     "generation": 8,
@@ -27497,9 +25219,7 @@
     "dualtype": "POISON",
     "evolve": [
       848,
-      1369,
-      1370,
-      1371
+      1369
     ],
     "generation": 8,
     "abilities": [
@@ -27516,11 +25236,7 @@
     "type": "ELECTRIC",
     "dualtype": "POISON",
     "evolve": [
-      848,
-      849,
-      1369,
-      1370,
-      1371
+      1370
     ],
     "generation": 8,
     "abilities": [
@@ -27537,10 +25253,6 @@
     "type": "ELECTRIC",
     "dualtype": "POISON",
     "evolve": [
-      848,
-      849,
-      1369,
-      1370,
       1371
     ],
     "generation": 8,
@@ -27558,8 +25270,6 @@
     "type": "FIRE",
     "dualtype": "BUG",
     "evolve": [
-      850,
-      851,
       1372
     ],
     "generation": 8,
@@ -27611,9 +25321,6 @@
     "type": "PSYCHIC",
     "dualtype": "FAIRY",
     "evolve": [
-      856,
-      857,
-      858,
       1375
     ],
     "generation": 8,
@@ -27631,9 +25338,6 @@
     "type": "DARK",
     "dualtype": "FAIRY",
     "evolve": [
-      859,
-      860,
-      861,
       1376
     ],
     "generation": 8,
@@ -27651,69 +25355,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1377
     ],
     "generation": 8,
     "abilities": [
@@ -27730,68 +25372,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1378
     ],
     "generation": 8,
     "abilities": [
@@ -27808,67 +25389,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1379,
-      1380,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1379
     ],
     "generation": 8,
     "abilities": [
@@ -27885,66 +25406,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1380,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1380
     ],
     "generation": 8,
     "abilities": [
@@ -27961,65 +25423,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1381,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1381
     ],
     "generation": 8,
     "abilities": [
@@ -28036,64 +25440,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1382,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1382
     ],
     "generation": 8,
     "abilities": [
@@ -28109,71 +25456,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1383
     ],
     "generation": 8,
     "abilities": [
@@ -28189,71 +25472,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1384
     ],
     "generation": 8,
     "abilities": [
@@ -28269,71 +25488,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1385
     ],
     "generation": 8,
     "abilities": [
@@ -28349,71 +25504,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1386
     ],
     "generation": 8,
     "abilities": [
@@ -28429,71 +25520,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1387
     ],
     "generation": 8,
     "abilities": [
@@ -28509,71 +25536,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1388
     ],
     "generation": 8,
     "abilities": [
@@ -28589,71 +25552,7 @@
     "text": "Alcremie Ruby Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1389
     ],
     "generation": 8,
     "abilities": [
@@ -28670,56 +25569,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1390
     ],
     "generation": 8,
     "abilities": [
@@ -28736,55 +25586,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1391
     ],
     "generation": 8,
     "abilities": [
@@ -28801,54 +25603,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1392
     ],
     "generation": 8,
     "abilities": [
@@ -28865,53 +25620,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1393,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1393
     ],
     "generation": 8,
     "abilities": [
@@ -28928,52 +25637,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1394,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1394
     ],
     "generation": 8,
     "abilities": [
@@ -28990,51 +25654,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1395,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1395
     ],
     "generation": 8,
     "abilities": [
@@ -29051,50 +25671,7 @@
     "type": "FAIRY",
     "evolve": [
       868,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1396
     ],
     "generation": 8,
     "abilities": [
@@ -29110,71 +25687,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1397
     ],
     "generation": 8,
     "abilities": [
@@ -29190,71 +25703,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1398
     ],
     "generation": 8,
     "abilities": [
@@ -29270,71 +25719,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1399
     ],
     "generation": 8,
     "abilities": [
@@ -29350,71 +25735,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1400
     ],
     "generation": 8,
     "abilities": [
@@ -29430,71 +25751,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1401
     ],
     "generation": 8,
     "abilities": [
@@ -29510,71 +25767,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1402
     ],
     "generation": 8,
     "abilities": [
@@ -29590,71 +25783,7 @@
     "text": "Alcremie Mint Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1403
     ],
     "generation": 8,
     "abilities": [
@@ -29670,71 +25799,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1404
     ],
     "generation": 8,
     "abilities": [
@@ -29750,71 +25815,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1405
     ],
     "generation": 8,
     "abilities": [
@@ -29830,71 +25831,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1406
     ],
     "generation": 8,
     "abilities": [
@@ -29910,71 +25847,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1407
     ],
     "generation": 8,
     "abilities": [
@@ -29990,71 +25863,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1408
     ],
     "generation": 8,
     "abilities": [
@@ -30070,71 +25879,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1409
     ],
     "generation": 8,
     "abilities": [
@@ -30150,71 +25895,7 @@
     "text": "Alcremie Lemon Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1410
     ],
     "generation": 8,
     "abilities": [
@@ -30230,71 +25911,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1411
     ],
     "generation": 8,
     "abilities": [
@@ -30310,71 +25927,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1412
     ],
     "generation": 8,
     "abilities": [
@@ -30390,71 +25943,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1413
     ],
     "generation": 8,
     "abilities": [
@@ -30470,71 +25959,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1414
     ],
     "generation": 8,
     "abilities": [
@@ -30550,71 +25975,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1415
     ],
     "generation": 8,
     "abilities": [
@@ -30630,71 +25991,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1416
     ],
     "generation": 8,
     "abilities": [
@@ -30710,71 +26007,7 @@
     "text": "Alcremie Salted Cream",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1417
     ],
     "generation": 8,
     "abilities": [
@@ -30790,71 +26023,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1418
     ],
     "generation": 8,
     "abilities": [
@@ -30870,71 +26039,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1419
     ],
     "generation": 8,
     "abilities": [
@@ -30950,71 +26055,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1420
     ],
     "generation": 8,
     "abilities": [
@@ -31030,71 +26071,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1421
     ],
     "generation": 8,
     "abilities": [
@@ -31110,71 +26087,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1422
     ],
     "generation": 8,
     "abilities": [
@@ -31190,71 +26103,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1423
     ],
     "generation": 8,
     "abilities": [
@@ -31270,71 +26119,7 @@
     "text": "Alcremie Ruby Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1424
     ],
     "generation": 8,
     "abilities": [
@@ -31350,71 +26135,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1425
     ],
     "generation": 8,
     "abilities": [
@@ -31430,71 +26151,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1426
     ],
     "generation": 8,
     "abilities": [
@@ -31510,71 +26167,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1427
     ],
     "generation": 8,
     "abilities": [
@@ -31590,71 +26183,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1428
     ],
     "generation": 8,
     "abilities": [
@@ -31670,71 +26199,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1429
     ],
     "generation": 8,
     "abilities": [
@@ -31750,71 +26215,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1430
     ],
     "generation": 8,
     "abilities": [
@@ -31830,71 +26231,7 @@
     "text": "Alcremie Caramel Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1431
     ],
     "generation": 8,
     "abilities": [
@@ -31910,71 +26247,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1432
     ],
     "generation": 8,
     "abilities": [
@@ -31990,71 +26263,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1433
     ],
     "generation": 8,
     "abilities": [
@@ -32070,71 +26279,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1434
     ],
     "generation": 8,
     "abilities": [
@@ -32150,71 +26295,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1435
     ],
     "generation": 8,
     "abilities": [
@@ -32230,71 +26311,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1436
     ],
     "generation": 8,
     "abilities": [
@@ -32310,71 +26327,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1437
     ],
     "generation": 8,
     "abilities": [
@@ -32390,71 +26343,7 @@
     "text": "Alcremie Rainbow Swirl",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
-      1439
+      1438
     ],
     "generation": 8,
     "abilities": [
@@ -32470,70 +26359,6 @@
     "text": "Gigantamax Alcremie",
     "type": "FAIRY",
     "evolve": [
-      868,
-      869,
-      1377,
-      1378,
-      1379,
-      1380,
-      1381,
-      1382,
-      1390,
-      1391,
-      1392,
-      1393,
-      1394,
-      1395,
-      1396,
-      1383,
-      1384,
-      1385,
-      1386,
-      1387,
-      1388,
-      1389,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1421,
-      1422,
-      1423,
-      1424,
-      1425,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435,
-      1436,
-      1437,
-      1438,
       1439
     ],
     "generation": 8,
@@ -32550,7 +26375,6 @@
     "text": "Eiscue Noice Face",
     "type": "ICE",
     "evolve": [
-      875,
       1440
     ],
     "generation": 8,
@@ -32568,7 +26392,6 @@
     "type": "PSYCHIC",
     "dualtype": "NORMAL",
     "evolve": [
-      876,
       1441
     ],
     "generation": 8,
@@ -32586,7 +26409,6 @@
     "type": "ELECTRIC",
     "dualtype": "DARK",
     "evolve": [
-      877,
       1442
     ],
     "generation": 8,
@@ -32603,8 +26425,6 @@
     "text": "Gigantamax Copperajah",
     "type": "STEEL",
     "evolve": [
-      878,
-      879,
       1443
     ],
     "generation": 8,
@@ -32622,7 +26442,6 @@
     "type": "STEEL",
     "dualtype": "DRAGON",
     "evolve": [
-      884,
       1444
     ],
     "generation": 8,
@@ -32640,7 +26459,6 @@
     "type": "FAIRY",
     "dualtype": "STEEL",
     "evolve": [
-      888,
       1445
     ],
     "generation": 8,
@@ -32658,7 +26476,6 @@
     "type": "FIGHTING",
     "dualtype": "STEEL",
     "evolve": [
-      889,
       1446
     ],
     "generation": 8,
@@ -32676,7 +26493,6 @@
     "type": "POISON",
     "dualtype": "DRAGON",
     "evolve": [
-      890,
       1447
     ],
     "generation": 8,
@@ -32695,9 +26511,7 @@
     "dualtype": "WATER",
     "evolve": [
       891,
-      1448,
-      1449,
-      1450
+      1448
     ],
     "generation": 8,
     "abilities": [
@@ -32714,11 +26528,7 @@
     "type": "FIGHTING",
     "dualtype": "DARK",
     "evolve": [
-      891,
-      892,
-      1448,
-      1449,
-      1450
+      1449
     ],
     "generation": 8,
     "abilities": [
@@ -32735,10 +26545,6 @@
     "type": "FIGHTING",
     "dualtype": "WATER",
     "evolve": [
-      891,
-      892,
-      1448,
-      1449,
       1450
     ],
     "generation": 8,
@@ -32756,7 +26562,6 @@
     "type": "DARK",
     "dualtype": "GRASS",
     "evolve": [
-      893,
       1451
     ],
     "generation": 8,
@@ -32774,9 +26579,7 @@
     "type": "PSYCHIC",
     "dualtype": "ICE",
     "evolve": [
-      898,
-      1452,
-      1453
+      1452
     ],
     "generation": 8,
     "abilities": [
@@ -32793,8 +26596,6 @@
     "type": "PSYCHIC",
     "dualtype": "GHOST",
     "evolve": [
-      898,
-      1452,
       1453
     ],
     "generation": 8,
@@ -32830,7 +26631,6 @@
     "type": "FAIRY",
     "dualtype": "FLYING",
     "evolve": [
-      905,
       1455
     ],
     "generation": 8,
