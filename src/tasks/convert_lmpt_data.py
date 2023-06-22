@@ -20,6 +20,10 @@ bad_encounters = []
 with open(gym_leader_file_path, mode='r', encoding="utf-8") as f:
     gym_leader_data = json.load(f)
 
+with open(os.path.join(input_file_path, 'PersonalTable.json'), "r", encoding="utf-8") as f:
+    ptable = json.load(f)
+personal_table = ptable['Personal']
+
 def get_lumi_data(raw_data, callback):
     data = {}
     for (idx, _) in enumerate(raw_data["labelDataArray"]):
@@ -52,8 +56,8 @@ def load_data():
         "name_routes": os.path.join(resources_filepath, "NameRoutes.json"),
         "honey_routes": os.path.join(resources_filepath, "honeyroutes.json"),
         "trainer_names": os.path.join(input_file_path, 'english_dp_trainers_name.json'),
-        "trainer_labels": os.path.join(input_file_path, 'english_dp_trainers_type.json')
-
+        "trainer_labels": os.path.join(input_file_path, 'english_dp_trainers_type.json'),
+        "personal_table": os.path.join(input_file_path, 'PersonalTable.json'),
     }
     for name, filepath in files.items():
         data[name] = load_json_from_file(filepath)
@@ -173,10 +177,27 @@ def get_honey_tree_mons(routes):
                 routes[key].append(mon.capitalize())
 
 
-def bad_encounter_data(pkmn_name, routeName, route):
+def bad_encounter_data(pkmn_name, routeName=None, route=None):
+    '''
+    This is useful for checking whether there are bad encounters within the diff_forms
+    '''
+    bad_encounters = []
+    if routeName == None and route == None:
+        print("This is an invalid pokemon in the dex:", pkmn_name)
+        bad_encounters.append([pkmn_name, "Pokedex"])
+        return bad_encounters
     print('BAD ENCOUNTER', pkmn_name, routeName, route)
     bad_encounters.append({pkmn_name, routeName, route})
-    return
+    return bad_encounters
+
+def check_bad_dex_mon(pokemonID, invalid_pokemon):
+    pokemonName = get_pokemon_name(pokemonID)
+    is_valid = personal_table[pokemonID]['valid_flag']
+    is_special_mon = isSpecialPokemon(pokemonName)
+    if pokemonID is not None and is_valid == 0 and is_special_mon == False:
+        invalid_pokemon.append(bad_encounter_data(pokemonName))
+        return invalid_pokemon
+    return 1
 
 def check_bad_encounter(encounters, tracker_route, pkmn_key, lumi_formula_mon, temp_form_no, zoneID):
     bad_encounter_list = ["Gigantamax", "Eternamax", "Mega ", "Totem "]
@@ -266,6 +287,7 @@ def pathfinding():
     graph = graphing["Evolve"]
     forms = GenForms()
     evolve = {}
+    invalid_pokemon = []
     for node in graph:
         evolve[node["id"]] = {"path": [], "method": [], "ar": []}
 
@@ -344,6 +366,9 @@ def pathfinding():
             evolve[pokemon]["ar"].append(graph[extra]["ar"])
     
     for form in forms:
+        is_invalid = check_bad_dex_mon(forms[form], invalid_pokemon)
+        if is_invalid != 1:
+            continue
         for pokemon in evolve.keys():
             if int(pokemon) != int(form[-7:-4]):
                 continue

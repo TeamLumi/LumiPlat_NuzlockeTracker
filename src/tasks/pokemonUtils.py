@@ -429,10 +429,10 @@ def slugify(value):
 
 def isSpecialPokemon(current_pokemon_name):
     """
-    Returns true if the name of the Pokemon is Perrserker, Obstagoon, Indeedee, Meowstic or Sneasler.
+    Returns true if the name of the Pokemon is Indeedee, Meowstic or Oinkologne
     This is to retain intended behaviour the app depends on
     """
-    return current_pokemon_name == "Perrserker" or current_pokemon_name == "Obstagoon" or current_pokemon_name == "Indeedee" or current_pokemon_name == "Meowstic" or current_pokemon_name == "Sneasler"
+    return current_pokemon_name == "Indeedee-F" or current_pokemon_name == "Meowstic-F"# or current_pokemon_name == "Oinkologne"
 
 def create_diff_forms_dictionary(form_dict):
     """
