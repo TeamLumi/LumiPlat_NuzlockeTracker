@@ -167,7 +167,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
         <div className={styles.header}>
           <div className={styles.headerLeft}>
             <div className={styles.image}>
-            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={shiny} />
             </div>
             <span className={styles.name}>{foundPokemon.text}</span>
           </div>
@@ -180,7 +180,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
               {soulLink ? (
                 <div className={styles.selector} data-testid={`soullink-${encounter.id}`}>
                   <div className={styles.image}>
-                    <PkmImage dexNum={foundSoulLink?.dexNum} form={foundSoulLink?.form} />
+                    <PkmImage dexNum={foundSoulLink?.dexNum} form={foundSoulLink?.form} name={foundSoulLink?.text} />
                   </div>
                   <span className={styles.soulLinkName}>{foundSoulLink.text}</span>
                   <Button

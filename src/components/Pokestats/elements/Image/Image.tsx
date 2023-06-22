@@ -139,7 +139,7 @@ function Image({ forwardedRef, responsive = false }: ImageProps): JSX.Element {
               return (
                 <div className={styles.pokemon} key={`team-${enc.id}`}>
                   <div className={styles.image}>
-                  <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                  <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                   </div>
                   <PokeInfo encounter={enc} pokemon={foundPokemon} />
                   <Moves moves={enc?.details?.moves} />
@@ -235,7 +235,7 @@ function Image({ forwardedRef, responsive = false }: ImageProps): JSX.Element {
                     className={styles.pokeImg}
                     key={`boxed-${Number(i) + 1}`}
                   >
-                    <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                    <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={box?.details?.shiny} />
                   </div>
                 );
               })}
@@ -256,7 +256,7 @@ function Image({ forwardedRef, responsive = false }: ImageProps): JSX.Element {
                     className={styles.pokeImg}
                     key={`fainted-${Number(i) + 1}`}
                   >
-                    <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                    <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={faint?.details?.shiny} />
                   </div>
                 );
               })}

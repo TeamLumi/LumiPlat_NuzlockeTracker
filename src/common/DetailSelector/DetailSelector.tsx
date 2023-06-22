@@ -70,7 +70,7 @@ function DetailSelector({
         >
           <div className={styles.details}>
             <div className={styles.image}>
-            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={detail?.shiny} />
             </div>
             <b>{foundPokemon.text}</b>
           </div>

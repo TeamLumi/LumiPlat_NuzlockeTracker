@@ -64,7 +64,7 @@ function Pokestats(): JSX.Element {
                     trigger={
                       <div className={styles.pokeball} data-testid={`team-${enc.id}`}>
                         <div className={styles.image}>
-                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                         </div>
                         <div className={styles.center} />
                       </div>
@@ -115,7 +115,7 @@ function Pokestats(): JSX.Element {
                   trigger={
                       <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
                         <div className={styles.image}>
-                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                         </div>
                         <div className={styles.center} />
                       </div>
@@ -160,7 +160,7 @@ function Pokestats(): JSX.Element {
                   trigger={
                       <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
                         <div className={styles.image}>
-                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                         </div>
                         <div className={styles.center} />
                       </div>
@@ -204,7 +204,7 @@ function Pokestats(): JSX.Element {
                   trigger={
                       <div className={styles.pokeball} data-testid={`caught-${enc.id}`}>
                         <div className={styles.image}>
-                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+                        <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                         </div>
                         <div className={styles.center} />
                       </div>
