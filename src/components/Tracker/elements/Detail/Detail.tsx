@@ -10,7 +10,7 @@ import Dropdown from 'semantic-ui-react/dist/commonjs/modules/Dropdown';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { ItemSelector, PkmImage, PokemonSelector } from 'common';
 import { MoveSelector, Natures, PokemonType } from 'components';
-import { Abilities, RangeSelector } from 'components/Tracker/elements';
+import { Abilities, RangeSelector, Nickname } from 'components/Tracker/elements';
 import { GAME_GENERATION, GENDERS } from 'constants/constant';
 import NATURES from 'constants/natures';
 import { POKEMAP } from 'constants/pokemon';
@@ -38,6 +38,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const isItemGenderGen = useStore(selectItemGeneration);
   const foundPokemon = POKEMAP.get(encounter.pokemon);
   const [show, setShow] = useState(false);
+  const [nickname, setnickname] = useState(encounter?.nickname);
   const [level, setLevel] = useState(encounter?.details?.level);
   const [metLevel, setMetLevel] = useState(encounter?.details?.metLevel);
   const [gender, setGender] = useState(encounter?.details?.gender);
@@ -70,6 +71,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
 
   const handleClose = () => {
     setShow(false);
+    setnickname(encounter?.nickname);
     setLevel(encounter?.details?.level);
     setMetLevel(encounter?.details?.metLevel);
     setGender(encounter?.details?.gender);
@@ -208,7 +210,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
         <details open>
           <summary data-testid="detail-summary">{t('details', { ns: 'badges' })}</summary>
           <div className={styles.expandable}>
-            <Status encounter={encounter} />
+            <Nickname encounterId={encounter.id} nickname={nickname} showLabel={true} />
             <Input
               className={styles.input}
               data-testid="level"
@@ -225,6 +227,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
               onChange={(e, data) => setMetLevel(Number(data.value))}
               value={Number.isNaN(metLevel) ? '' : metLevel}
             />
+            <Status encounter={encounter} />
             {isItemGenderGen && (
               <Dropdown
                 aria-label="gender-selector"

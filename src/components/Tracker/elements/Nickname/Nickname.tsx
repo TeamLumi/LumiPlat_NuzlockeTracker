@@ -9,9 +9,10 @@ import styles from './Nickname.module.scss';
 interface NicknameProps {
   encounterId: number;
   nickname?: string;
+  showLabel?: boolean;
 }
 
-function Nickname({ encounterId, nickname }: NicknameProps): JSX.Element {
+function Nickname({ encounterId, nickname, showLabel }: NicknameProps): JSX.Element {
   const { t } = useTranslation('tracker');
   const changeNickname = useStore((state) => state.changeNickname);
   const darkMode = useStore(useCallback((state) => state.darkMode, []));
@@ -41,7 +42,9 @@ function Nickname({ encounterId, nickname }: NicknameProps): JSX.Element {
       onChange={handleChange}
       placeholder={`${t('nickname')}...`}
       value={nick}
+      label={t('nickname')}
     >
+      {showLabel && <div className='ui label'>{t('nickname')}</div>}
       <input />
       <Button
         aria-label="randomize"
@@ -53,6 +56,5 @@ function Nickname({ encounterId, nickname }: NicknameProps): JSX.Element {
       />
     </Input>
   );
-}
-
+};
 export default Nickname;
