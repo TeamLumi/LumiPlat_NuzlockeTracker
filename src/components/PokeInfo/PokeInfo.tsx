@@ -26,7 +26,7 @@ function PokeInfo({ encounter, pokemon }: PokeInfoProps): JSX.Element {
     <div className={styles.container}>
       <b>
         {pokemon?.text} {!!encounter?.details?.gender && getGenderIcon(encounter?.details?.gender)}
-        {!!encounter?.details?.level && ` Lv. ${encounter.details.level}`}
+        {!!encounter?.details?.level && `Lv. ${encounter.details.level}` || 'Lv. 1'}
       </b>
       {encounter.nickname && <span>{encounter.nickname}</span>}
       <span>

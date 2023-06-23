@@ -282,7 +282,7 @@ function Image({ forwardedRef, responsive = false }: ImageProps): JSX.Element {
           </div>
         )}
       </div>
-      <span className={styles.credit}>https://nuzlocke.netlify.app</span>
+      <span className={styles.credit}>https://lumiplat.netlify.app</span>
     </div>
   );
 }

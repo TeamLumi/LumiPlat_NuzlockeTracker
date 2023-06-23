@@ -141,7 +141,7 @@ const Pokemon = React.memo(function Pokemon({ encounter, foundPokemon }: Pokemon
                 {foundPokemon.text}
                 {getGenderIcon(encounter?.details?.gender)}
               </span>
-              <span className={styles.level}>Lv: {encounter?.details?.level ?? 0}</span>
+              <span className={styles.level}>Lv: {encounter?.details?.level ?? 1}</span>
             </div>
           ) : (
             <div className={styles.selector} data-testid={`pokemon-${encounter.id}`}>

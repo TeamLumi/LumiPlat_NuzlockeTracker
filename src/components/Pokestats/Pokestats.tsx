@@ -74,7 +74,7 @@ function Pokestats(): JSX.Element {
                   </Popup>
                   <div className={styles.memberText}>
                     <span>{enc.nickname || foundPokemon?.text}</span>
-                    {!!enc?.details?.level && <span>Lv. {enc.details.level}</span>}
+                    {!!enc?.details?.level ? <span>Lv. {enc.details.level}</span> : <span>Lv. 1</span>}
                     {!!enc?.details?.item && <span>{enc.details.item}</span>}
                   </div>
                   <div className={styles.lineOne} />

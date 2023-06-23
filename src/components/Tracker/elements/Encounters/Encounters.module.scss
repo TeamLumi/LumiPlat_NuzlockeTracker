@@ -13,7 +13,7 @@
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: auto minmax(2.286rem, auto) minmax(3.857rem, auto);
     column-gap: var(--spacing-2);
-    row-gap: var(--spacing-2);
+    row-gap: var(--spacing-1);
     height: fit-content;
     margin: var(--spacing-0) var(--spacing-1) var(--spacing-3) var(--spacing-0);
     padding: var(--spacing-3);

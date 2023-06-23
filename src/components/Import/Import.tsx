@@ -71,7 +71,7 @@ function Import(): JSX.Element {
           gender: GENDER_DICTIONARY[data[arrPositions.get('Gender')]],
           id: foundPoke?.value,
           item: removeNone(data[arrPositions.get('HeldItem')]),
-          level: Number(data[arrPositions.get('Level')]),
+          level: Number(data[arrPositions.get('Level')]) ?? 1,
           metLevel: Number(data[arrPositions.get('MetLevel')]),
           moves: [
             getMoveByName(data[arrPositions.get('Move1')]),
