@@ -3563,6 +3563,7 @@
     "type": "WATER",
     "dualtype": "GROUND",
     "evolve": [
+      194,
       1105,
       195
     ],
@@ -7483,8 +7484,8 @@
     "dualtype": "FLYING",
     "evolve": [
       412,
-      1172,
       1173,
+      1172,
       414
     ],
     "generation": 8,
@@ -8482,6 +8483,7 @@
     "text": "Leafeon",
     "type": "GRASS",
     "evolve": [
+      133,
       1092,
       470,
       1090
@@ -13966,6 +13968,7 @@
     "type": "WATER",
     "dualtype": "PSYCHIC",
     "evolve": [
+      778,
       1349,
       779,
       780
@@ -13986,6 +13989,7 @@
     "dualtype": "DRAGON",
     "evolve": [
       1349,
+      778,
       779,
       780
     ],
@@ -18617,8 +18621,8 @@
     "type": "ELECTRIC",
     "dualtype": "PSYCHIC",
     "evolve": [
-      25,
       172,
+      25,
       1044,
       1027,
       1028,
