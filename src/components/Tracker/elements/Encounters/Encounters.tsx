@@ -122,7 +122,7 @@ const Encounters = React.memo(function Encounters() {
     const isTrainerRoute = encounter.zoneID.some(id =>
       ALL_ZONE_IDS.some(zoneId => zoneId.includes(id))
     );
-    
+
     let trainerIndex: number | undefined;
     
     if (isTrainerRoute) {

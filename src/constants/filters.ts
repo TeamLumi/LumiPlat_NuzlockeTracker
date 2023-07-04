@@ -180,7 +180,6 @@ for (const [routeId, encounters] of Object.entries(wildEncounters)) {
   FILTERS[routeId] = encounters;
 }
 
-
 for (const [routeId, encounters] of Object.entries(staticEncounters)) {
   if(!(routeId in wildEncounters)) {
     FILTERS[routeId] = [];
