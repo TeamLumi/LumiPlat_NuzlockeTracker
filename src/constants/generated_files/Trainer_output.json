@@ -13879,7 +13879,7 @@
             "evspeed": 4
           }
         ],
-        "game": "Gym Leader Roark (Oreburgh Gym Trainers) [Team 1]",
+        "game": "Gym Leader Roark Rematch (Oreburgh Gym Trainers) [Team 1]",
         "name": "Gym Leader Roark Team 1",
         "type": "Trainer",
         "route": "Oreburgh Gym Trainers",
@@ -14045,7 +14045,7 @@
             "evspeed": 4
           }
         ],
-        "game": "Gym Leader Roark (Oreburgh Gym Trainers) [Team 2]",
+        "game": "Gym Leader Roark Rematch (Oreburgh Gym Trainers) [Team 2]",
         "name": "Gym Leader Roark Team 2",
         "type": "Trainer",
         "route": "Oreburgh Gym Trainers",
@@ -14211,7 +14211,7 @@
             "evspeed": 4
           }
         ],
-        "game": "Gym Leader Roark (Oreburgh Gym Trainers) [Team 3]",
+        "game": "Gym Leader Roark Rematch (Oreburgh Gym Trainers) [Team 3]",
         "name": "Gym Leader Roark Team 3",
         "type": "Trainer",
         "route": "Oreburgh Gym Trainers",
@@ -14377,7 +14377,7 @@
             "evspeed": 4
           }
         ],
-        "game": "Gym Leader Roark (Oreburgh Gym Trainers) [Team 4]",
+        "game": "Gym Leader Roark Rematch (Oreburgh Gym Trainers) [Team 4]",
         "name": "Gym Leader Roark Team 4",
         "type": "Trainer",
         "route": "Oreburgh Gym Trainers",
@@ -21525,7 +21525,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Gardenia (Eterna Gym Trainers) [Team 1]",
+        "game": "Gym Leader Gardenia Rematch (Eterna Gym Trainers) [Team 1]",
         "name": "Gym Leader Gardenia Team 1",
         "type": "Trainer",
         "route": "Eterna Gym Trainers",
@@ -21691,7 +21691,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Gardenia (Eterna Gym Trainers) [Team 2]",
+        "game": "Gym Leader Gardenia Rematch (Eterna Gym Trainers) [Team 2]",
         "name": "Gym Leader Gardenia Team 2",
         "type": "Trainer",
         "route": "Eterna Gym Trainers",
@@ -21857,7 +21857,7 @@
             "evspeed": 4
           }
         ],
-        "game": "Gym Leader Gardenia (Eterna Gym Trainers) [Team 3]",
+        "game": "Gym Leader Gardenia Rematch (Eterna Gym Trainers) [Team 3]",
         "name": "Gym Leader Gardenia Team 3",
         "type": "Trainer",
         "route": "Eterna Gym Trainers",
@@ -22023,7 +22023,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Gardenia (Eterna Gym Trainers) [Team 4]",
+        "game": "Gym Leader Gardenia Rematch (Eterna Gym Trainers) [Team 4]",
         "name": "Gym Leader Gardenia Team 4",
         "type": "Trainer",
         "route": "Eterna Gym Trainers",
@@ -26379,7 +26379,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Fantina (Hearthome Gym Trainers) [Team 1]",
+        "game": "Gym Leader Fantina Rematch (Hearthome Gym Trainers) [Team 1]",
         "name": "Gym Leader Fantina Team 1",
         "type": "Trainer",
         "route": "Hearthome Gym Trainers",
@@ -26545,7 +26545,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Fantina (Hearthome Gym Trainers) [Team 2]",
+        "game": "Gym Leader Fantina Rematch (Hearthome Gym Trainers) [Team 2]",
         "name": "Gym Leader Fantina Team 2",
         "type": "Trainer",
         "route": "Hearthome Gym Trainers",
@@ -26711,7 +26711,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Fantina (Hearthome Gym Trainers) [Team 3]",
+        "game": "Gym Leader Fantina Rematch (Hearthome Gym Trainers) [Team 3]",
         "name": "Gym Leader Fantina Team 3",
         "type": "Trainer",
         "route": "Hearthome Gym Trainers",
@@ -26877,7 +26877,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Fantina (Hearthome Gym Trainers) [Team 4]",
+        "game": "Gym Leader Fantina Rematch (Hearthome Gym Trainers) [Team 4]",
         "name": "Gym Leader Fantina Team 4",
         "type": "Trainer",
         "route": "Hearthome Gym Trainers",
@@ -40787,7 +40787,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Maylene (Veilstone Gym Trainers) [Team 1]",
+        "game": "Gym Leader Maylene Rematch (Veilstone Gym Trainers) [Team 1]",
         "name": "Gym Leader Maylene Team 1",
         "type": "Trainer",
         "route": "Veilstone Gym Trainers",
@@ -40953,7 +40953,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Maylene (Veilstone Gym Trainers) [Team 2]",
+        "game": "Gym Leader Maylene Rematch (Veilstone Gym Trainers) [Team 2]",
         "name": "Gym Leader Maylene Team 2",
         "type": "Trainer",
         "route": "Veilstone Gym Trainers",
@@ -41119,7 +41119,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Maylene (Veilstone Gym Trainers) [Team 3]",
+        "game": "Gym Leader Maylene Rematch (Veilstone Gym Trainers) [Team 3]",
         "name": "Gym Leader Maylene Team 3",
         "type": "Trainer",
         "route": "Veilstone Gym Trainers",
@@ -41285,7 +41285,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Maylene (Veilstone Gym Trainers) [Team 4]",
+        "game": "Gym Leader Maylene Rematch (Veilstone Gym Trainers) [Team 4]",
         "name": "Gym Leader Maylene Team 4",
         "type": "Trainer",
         "route": "Veilstone Gym Trainers",
@@ -48689,7 +48689,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Wake (Pastoria Gym Trainers) [Team 1]",
+        "game": "Gym Leader Wake Rematch (Pastoria Gym Trainers) [Team 1]",
         "name": "Gym Leader Wake Team 1",
         "type": "Trainer",
         "route": "Pastoria Gym Trainers",
@@ -48855,7 +48855,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Wake (Pastoria Gym Trainers) [Team 2]",
+        "game": "Gym Leader Wake Rematch (Pastoria Gym Trainers) [Team 2]",
         "name": "Gym Leader Wake Team 2",
         "type": "Trainer",
         "route": "Pastoria Gym Trainers",
@@ -49021,7 +49021,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Wake (Pastoria Gym Trainers) [Team 3]",
+        "game": "Gym Leader Wake Rematch (Pastoria Gym Trainers) [Team 3]",
         "name": "Gym Leader Wake Team 3",
         "type": "Trainer",
         "route": "Pastoria Gym Trainers",
@@ -49187,7 +49187,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Wake (Pastoria Gym Trainers) [Team 4]",
+        "game": "Gym Leader Wake Rematch (Pastoria Gym Trainers) [Team 4]",
         "name": "Gym Leader Wake Team 4",
         "type": "Trainer",
         "route": "Pastoria Gym Trainers",
@@ -54747,7 +54747,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Byron (Canalave Gym Trainers) [Team 1]",
+        "game": "Gym Leader Byron Rematch (Canalave Gym Trainers) [Team 1]",
         "name": "Gym Leader Byron Team 1",
         "type": "Trainer",
         "route": "Canalave Gym Trainers",
@@ -54913,7 +54913,7 @@
             "evspeed": 32
           }
         ],
-        "game": "Gym Leader Byron (Canalave Gym Trainers) [Team 2]",
+        "game": "Gym Leader Byron Rematch (Canalave Gym Trainers) [Team 2]",
         "name": "Gym Leader Byron Team 2",
         "type": "Trainer",
         "route": "Canalave Gym Trainers",
@@ -55079,7 +55079,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Byron (Canalave Gym Trainers) [Team 3]",
+        "game": "Gym Leader Byron Rematch (Canalave Gym Trainers) [Team 3]",
         "name": "Gym Leader Byron Team 3",
         "type": "Trainer",
         "route": "Canalave Gym Trainers",
@@ -55245,7 +55245,7 @@
             "evspeed": 32
           }
         ],
-        "game": "Gym Leader Byron (Canalave Gym Trainers) [Team 4]",
+        "game": "Gym Leader Byron Rematch (Canalave Gym Trainers) [Team 4]",
         "name": "Gym Leader Byron Team 4",
         "type": "Trainer",
         "route": "Canalave Gym Trainers",
@@ -60717,7 +60717,7 @@
             "evspeed": 8
           }
         ],
-        "game": "Gym Leader Candice (Snowpoint Gym Trainers) [Team 1]",
+        "game": "Gym Leader Candice Rematch (Snowpoint Gym Trainers) [Team 1]",
         "name": "Gym Leader Candice Team 1",
         "type": "Trainer",
         "route": "Snowpoint Gym Trainers",
@@ -60883,7 +60883,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Candice (Snowpoint Gym Trainers) [Team 2]",
+        "game": "Gym Leader Candice Rematch (Snowpoint Gym Trainers) [Team 2]",
         "name": "Gym Leader Candice Team 2",
         "type": "Trainer",
         "route": "Snowpoint Gym Trainers",
@@ -61049,7 +61049,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Candice (Snowpoint Gym Trainers) [Team 3]",
+        "game": "Gym Leader Candice Rematch (Snowpoint Gym Trainers) [Team 3]",
         "name": "Gym Leader Candice Team 3",
         "type": "Trainer",
         "route": "Snowpoint Gym Trainers",
@@ -61215,7 +61215,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Candice (Snowpoint Gym Trainers) [Team 4]",
+        "game": "Gym Leader Candice Rematch (Snowpoint Gym Trainers) [Team 4]",
         "name": "Gym Leader Candice Team 4",
         "type": "Trainer",
         "route": "Snowpoint Gym Trainers",
@@ -66445,7 +66445,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Volkner (Sunyshore Gym Trainers) [Team 1]",
+        "game": "Gym Leader Volkner Rematch (Sunyshore Gym Trainers) [Team 1]",
         "name": "Gym Leader Volkner Team 1",
         "type": "Trainer",
         "route": "Sunyshore Gym Trainers",
@@ -66611,7 +66611,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Volkner (Sunyshore Gym Trainers) [Team 2]",
+        "game": "Gym Leader Volkner Rematch (Sunyshore Gym Trainers) [Team 2]",
         "name": "Gym Leader Volkner Team 2",
         "type": "Trainer",
         "route": "Sunyshore Gym Trainers",
@@ -66777,7 +66777,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Gym Leader Volkner (Sunyshore Gym Trainers) [Team 3]",
+        "game": "Gym Leader Volkner Rematch (Sunyshore Gym Trainers) [Team 3]",
         "name": "Gym Leader Volkner Team 3",
         "type": "Trainer",
         "route": "Sunyshore Gym Trainers",
@@ -66943,7 +66943,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Gym Leader Volkner (Sunyshore Gym Trainers) [Team 4]",
+        "game": "Gym Leader Volkner Rematch (Sunyshore Gym Trainers) [Team 4]",
         "name": "Gym Leader Volkner Team 4",
         "type": "Trainer",
         "route": "Sunyshore Gym Trainers",
@@ -77473,7 +77473,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Aaron (Pokemon League Trainers) [Team 1]",
+        "game": "Elite Four Aaron Rematch (Pokemon League Trainers) [Team 1]",
         "name": "Elite Four Aaron Team 1",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -77639,7 +77639,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Aaron (Pokemon League Trainers) [Team 2]",
+        "game": "Elite Four Aaron Rematch (Pokemon League Trainers) [Team 2]",
         "name": "Elite Four Aaron Team 2",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -77805,7 +77805,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Aaron (Pokemon League Trainers) [Team 3]",
+        "game": "Elite Four Aaron Rematch (Pokemon League Trainers) [Team 3]",
         "name": "Elite Four Aaron Team 3",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -77971,7 +77971,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Aaron (Pokemon League Trainers) [Team 4]",
+        "game": "Elite Four Aaron Rematch (Pokemon League Trainers) [Team 4]",
         "name": "Elite Four Aaron Team 4",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78137,7 +78137,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Elite Four Bertha (Pokemon League Trainers) [Team 1]",
+        "game": "Elite Four Bertha Rematch (Pokemon League Trainers) [Team 1]",
         "name": "Elite Four Bertha Team 1",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78303,7 +78303,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Elite Four Bertha (Pokemon League Trainers) [Team 2]",
+        "game": "Elite Four Bertha Rematch (Pokemon League Trainers) [Team 2]",
         "name": "Elite Four Bertha Team 2",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78469,7 +78469,7 @@
             "evspeed": 0
           }
         ],
-        "game": "Elite Four Bertha (Pokemon League Trainers) [Team 3]",
+        "game": "Elite Four Bertha Rematch (Pokemon League Trainers) [Team 3]",
         "name": "Elite Four Bertha Team 3",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78635,7 +78635,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Bertha (Pokemon League Trainers) [Team 4]",
+        "game": "Elite Four Bertha Rematch (Pokemon League Trainers) [Team 4]",
         "name": "Elite Four Bertha Team 4",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78801,7 +78801,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Flint (Pokemon League Trainers) [Team 1]",
+        "game": "Elite Four Flint Rematch (Pokemon League Trainers) [Team 1]",
         "name": "Elite Four Flint Team 1",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -78967,7 +78967,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Flint (Pokemon League Trainers) [Team 2]",
+        "game": "Elite Four Flint Rematch (Pokemon League Trainers) [Team 2]",
         "name": "Elite Four Flint Team 2",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79133,7 +79133,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Flint (Pokemon League Trainers) [Team 3]",
+        "game": "Elite Four Flint Rematch (Pokemon League Trainers) [Team 3]",
         "name": "Elite Four Flint Team 3",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79299,7 +79299,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Flint (Pokemon League Trainers) [Team 4]",
+        "game": "Elite Four Flint Rematch (Pokemon League Trainers) [Team 4]",
         "name": "Elite Four Flint Team 4",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79465,7 +79465,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Lucian (Pokemon League Trainers) [Team 1]",
+        "game": "Elite Four Lucian Rematch (Pokemon League Trainers) [Team 1]",
         "name": "Elite Four Lucian Team 1",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79631,7 +79631,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Lucian (Pokemon League Trainers) [Team 2]",
+        "game": "Elite Four Lucian Rematch (Pokemon League Trainers) [Team 2]",
         "name": "Elite Four Lucian Team 2",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79797,7 +79797,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Lucian (Pokemon League Trainers) [Team 3]",
+        "game": "Elite Four Lucian Rematch (Pokemon League Trainers) [Team 3]",
         "name": "Elite Four Lucian Team 3",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -79963,7 +79963,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Elite Four Lucian (Pokemon League Trainers) [Team 4]",
+        "game": "Elite Four Lucian Rematch (Pokemon League Trainers) [Team 4]",
         "name": "Elite Four Lucian Team 4",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -80129,7 +80129,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Champion Cynthia (Pokemon League Trainers) [Team 1]",
+        "game": "Champion Cynthia Rematch (Pokemon League Trainers) [Team 1]",
         "name": "Champion Cynthia Team 1",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -80295,7 +80295,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Champion Cynthia (Pokemon League Trainers) [Team 2]",
+        "game": "Champion Cynthia Rematch (Pokemon League Trainers) [Team 2]",
         "name": "Champion Cynthia Team 2",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -80461,7 +80461,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Champion Cynthia (Pokemon League Trainers) [Team 3]",
+        "game": "Champion Cynthia Rematch (Pokemon League Trainers) [Team 3]",
         "name": "Champion Cynthia Team 3",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
@@ -80627,7 +80627,7 @@
             "evspeed": 252
           }
         ],
-        "game": "Champion Cynthia (Pokemon League Trainers) [Team 4]",
+        "game": "Champion Cynthia Rematch (Pokemon League Trainers) [Team 4]",
         "name": "Champion Cynthia Team 4",
         "type": "Trainer",
         "route": "Pokemon League Trainers",
