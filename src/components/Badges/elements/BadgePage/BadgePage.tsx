@@ -59,6 +59,7 @@ function BadgePage(): JSX.Element {
           options={dropdownOptions}
           selection
           placeholder="Select a Trainer"
+          search
         />
       </div>
       {renderContent()}
