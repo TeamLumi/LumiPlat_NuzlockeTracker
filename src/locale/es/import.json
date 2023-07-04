@@ -9,7 +9,7 @@
   "game_success": "Encuentros de juegos importados con éxito",
   "how_to": "Cómo generar una tabla con PkHex",
   "import": "Importar",
-  "import_game_by": "Importar juego con tabla",
+  "import_game_by": "Importar juego con tabla [Beta]",
   "import_helper_1": "¡Esto importará y reemplazará los encuentros, las reglas y los equipos del Builder para ",
   "import_helper_2": " los juegos! Esto usa el archivo generado a partir de la ",
   "import_helper_3": " en la barra lateral.",
