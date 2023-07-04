@@ -5,6 +5,7 @@ import Radio from 'semantic-ui-react/dist/commonjs/addons/Radio';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import { Page } from 'common';
+import METLOCATIONS from 'constants/locations/MetLocations';
 import MOVES from 'constants/moves';
 import POKEMON from 'constants/pokemon';
 import type { AppState, Gender, TEncounter } from 'constants/types';
@@ -23,6 +24,35 @@ const getMoveByName = (name: string) => {
 const removeNone = (value: string) => {
   return value === '(None)' ? null : value;
 };
+
+function findNthInstance(str: string, n: number=1): number {
+  let count = 0;
+
+  for (let i = 0; i < METLOCATIONS.length; i++) {
+    if (METLOCATIONS[i] === str) {
+      count++;
+
+      if (count === n) {
+        return i;
+      }
+    }
+  }
+
+  return -1;
+}
+
+const getZoneIdFromName = (name: string) => {
+  const hasNumberAfterParenthesis = /\(\d/.test(name);
+  if (name.includes(" (") && hasNumberAfterParenthesis) {
+    const zone = name.split(" (");
+    const zoneName = zone[0];
+    const zoneIndex = parseInt(zone[1].replace(")", ""));
+    const zoneID = findNthInstance(zoneName, zoneIndex);
+    return zoneID
+  }
+  const zoneID = findNthInstance(name);
+  return zoneID
+}
 
 function Import(): JSX.Element {
   const { t } = useTranslation('import');
@@ -59,12 +89,15 @@ function Import(): JSX.Element {
     arrPositions: Map<string, number>,
     pokemonName: string
   ): TEncounter => {
+    const MetLoc = data[arrPositions.get('MetLoc')];
+    const MetZoneId = getZoneIdFromName(MetLoc)
     const foundEnc = encounterList.encounters.find((enc) => {
-      return enc.location.includes(data[arrPositions.get('MetLoc')]);
+      return enc.zoneID.some((zoneId) => zoneId === MetZoneId);
     });
-
+        
     if (foundEnc) {
       const foundPoke = POKEMON.find((poke) => poke.text === pokemonName);
+      const zoneID: number[] = foundEnc.zoneID;
       return {
         details: {
           ability: data[arrPositions.get('Ability')],
@@ -99,7 +132,7 @@ function Import(): JSX.Element {
         nickname: removeNone(data[arrPositions.get('Nickname')]),
         pokemon: foundPoke?.value,
         status: null,
-        zoneID: null,
+        zoneID: zoneID,
       };
     }
     return null;
