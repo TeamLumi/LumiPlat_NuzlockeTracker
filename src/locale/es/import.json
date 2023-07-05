@@ -18,7 +18,7 @@
   "invalid_file": "Archivo inválido",
   "invalid_text": "Texto inválido",
   "no_game": "Ningún juego seleccionado",
-  "pkhex_helper": "Utilice Box Data Report de PkHex (versión 21.10.1) para importar encuentros para el ",
+  "pkhex_helper": "Utilice Box Data Report de PKLumiHeX (Version 0.3.7) para importar encuentros para el ",
   "select_file": "Selecciona un archivo",
   "selected": "seleccionado",
   "status_not": "El estado no se importa"

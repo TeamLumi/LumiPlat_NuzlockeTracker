@@ -65,6 +65,14 @@ function Import(): JSX.Element {
   const [option, setOption] = useState<'all' | 'table'>('all');
   const [file, setFile] = useState<File>(undefined);
   const [text, setText] = useState('');
+  const pkhexHelper = t('pkhex_helper');
+  const linkText = 'PKLumiHeX (Version 0.3.7)';
+  const linkIndex = pkhexHelper.indexOf(linkText);
+  const pkHexTraslate = [
+    pkhexHelper.substring(0, linkIndex),
+    `<a href="https://github.com/TalonSabre/PKLumiHex">${linkText}</a>`,
+    pkhexHelper.substring(linkIndex + linkText.length)
+  ];
 
   function overwriteZoneIDs(firstFile: Partial<AppState>) {
     const encounters = firstFile.games["1"].encounters;
@@ -240,7 +248,13 @@ function Import(): JSX.Element {
         <b style={{ color: 'red' }}>{t('important_helper')}</b>
         <b style={{ color: 'red' }}>{t('status_not')}</b>
         <p>
-          {t('pkhex_helper')} <strong>{t('selected')}</strong> {t('game')}:{' '}
+          {pkHexTraslate.map((part, index) => (
+            <span
+              key={index}
+              dangerouslySetInnerHTML={{ __html: part }}
+            />
+          ))}
+          <strong>{t('selected')}</strong> {t('game')}:{' '}
           <em>{selectedGame?.text || t('no_game')}</em>
         </p>
         <Radio

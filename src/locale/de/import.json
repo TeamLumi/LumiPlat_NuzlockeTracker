@@ -18,7 +18,7 @@
   "invalid_file": "Ungültige Datei",
   "invalid_text": "Ungültiger Text",
   "no_game": "Kein Spiel ausgewählt",
-  "pkhex_helper": "Verwenden Sie den Box Data Report von PkHex (Version 21.10.1), um Begegnungen für die zu importieren ",
+  "pkhex_helper": "Verwenden Sie den Box Data Report von PKLumiHeX (Version 0.3.7), um Begegnungen für die zu importieren ",
   "select_file": "Wählen Sie eine Datei aus",
   "selected": "ausgewählt",
   "status_not": "Der Status wird nicht importiert"
