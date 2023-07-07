@@ -1,4 +1,4 @@
-import data from 'tasks/output/Encounter_output.json'
+import data from './generated_files/Encounter_output.json'
 
 type EncounterTable = {[key in string]: string[]}
 
@@ -179,7 +179,6 @@ const FILTERS: EncounterTable = {}
 for (const [routeId, encounters] of Object.entries(wildEncounters)) {
   FILTERS[routeId] = encounters;
 }
-
 
 for (const [routeId, encounters] of Object.entries(staticEncounters)) {
   if(!(routeId in wildEncounters)) {

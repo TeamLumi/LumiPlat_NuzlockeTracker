@@ -1,3 +1,0 @@
-ev_d04_sign1:
-	_EASY_BOARD_MSG('dp_scenario1%109-msg_d04_sign1_01', 'BOARD_TYPE_POST', 0)
-	_END()

@@ -97,7 +97,7 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
       return DETAILS[selectedGame.value]?.flat().map((gym, i) => {
         return {
           value: i,
-          text: `${gym.name}${gym.name !== gym.game ? ` - ${gym.game}` : ''}`,
+          text: `${gym.game}`,
         };
       });
     }
@@ -149,7 +149,8 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
               labeled
               onChange={(e, data) => setSelectedDetail(data.value)}
               options={detailsToOptions}
-              placeholder={t('select_gym')}
+              placeholder={t('select_trainer')}
+              search
               selection
               value={selectedDetail ?? ''}
             />

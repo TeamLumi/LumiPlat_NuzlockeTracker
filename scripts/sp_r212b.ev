@@ -1,3 +1,0 @@
-SP_R212B_FLAG:
-	_JUMP('ev_r212b_flag_change')
-	_SP_EVENT_DATA_END()

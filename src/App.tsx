@@ -128,7 +128,7 @@ function App(): JSX.Element {
             />
           </Menu.Menu>
           <Menu.Menu className={styles.header}>
-            <h1>Nuzlocke Tracker</h1>
+            <h1>Nuzlocke Tracker 2.0</h1>
           </Menu.Menu>
           {/*
           <Menu.Menu position="right">

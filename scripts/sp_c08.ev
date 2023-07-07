@@ -1,9 +1,0 @@
-SP_C08_FLAG:
-	_JUMP('ev_c08_flag_change')
-	_SP_EVENT_DATA_END()
-SP_C08_SCENE:
-	_SCENE_CHANGE_LABEL('sp_c08_tbl')
-	_SP_EVENT_DATA_END()
-sp_c08_tbl:
-	_SCENE_CHANGE_DATA(@WK_SCENE_C08, 0, 'ev_c08_leader')
-	_SCENE_CHANGE_END()

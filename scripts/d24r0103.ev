@@ -1,6 +1,0 @@
-ev_d24r0103_flag_change:
-	_INIT_FLD_LIFT()
-	_END()
-pos_d24r0103_lift:
-	_MOVE_FLD_LIFT()
-	_END()

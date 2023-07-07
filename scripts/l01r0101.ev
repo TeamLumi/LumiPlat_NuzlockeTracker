@@ -1,4 +1,0 @@
-ev_l01r0101_papa:
-	_PLAYER_NAME(0)
-	_EASY_OBJ_MSG('msg_l01r0101_papa_01')
-	_END()

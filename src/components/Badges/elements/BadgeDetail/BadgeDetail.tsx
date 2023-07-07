@@ -40,7 +40,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
   };
   return (
     <>
-      <div className={styles.title}>{selectedDetail?.name}</div>
+      <div className={styles.title}>{selectedDetail?.name} [{selectedDetail?.trainerType}]</div>
       {selectedDetail?.type === 'REMATCH' && (
         <div className={styles.rematch}>
           <Radio
@@ -70,7 +70,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                 GAME_GENERATION[selectedGame?.value],
                 getSmogonName(poke.text),
                 {
-                level: pokemon?.level,
+                level: pokemon?.level ?? 1,
                 nature: pokemon?.nature,
                 ivs: {
                   hp: pokemon?.ivhp ?? 0,

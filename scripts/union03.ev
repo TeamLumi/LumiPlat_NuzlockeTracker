@@ -1,8 +1,0 @@
-ev_union03_flag_change:
-	_END()
-ev_union03_reception:
-	_EVENT_START()
-	_TALK_OBJ_START()
-	_TALK_COLISEUM_NPC()
-	_EVENT_END()
-	_END()

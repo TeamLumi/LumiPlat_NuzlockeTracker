@@ -9,7 +9,7 @@
   "game_success": "Successfully imported game encounters",
   "how_to": "How to generate table with PkHex",
   "import": "Import",
-  "import_game_by": "Import game by table",
+  "import_game_by": "Import game by table [Beta]",
   "import_helper_1": "This will import and replace the encounters, rules and builder teams for ",
   "import_helper_2": " games! This uses the file generated from the ",
   "import_helper_3": " in the sidebar.",
@@ -18,7 +18,7 @@
   "invalid_file": "Invalid file",
   "invalid_text": "Invalid text",
   "no_game": "No game selected",
-  "pkhex_helper": "Use PkHex's (version 21.10.1) Box Data Report to import encounters for the ",
+  "pkhex_helper": "Use PKLumiHeX (Version 0.3.7) Box Data Report to import encounters for the ",
   "select_file": "Select a file",
   "selected": "selected",
   "status_not": "The status is not imported"

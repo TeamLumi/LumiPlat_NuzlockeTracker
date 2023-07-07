@@ -16,7 +16,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-1',
     zoneID: [
-      422
+      422,
+      425
     ]
   },
   {
@@ -37,7 +38,7 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-3',
     zoneID: [
       323,
-      324
+      324,
     ]
   },
   {
@@ -57,7 +58,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-5',
     zoneID: [
-      429
+      429,
+      434
     ]
   },
   {
@@ -77,7 +79,9 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-7',
     zoneID: [
-      0
+      21,
+      0,
+      8
     ]
   },
   {
@@ -129,7 +133,10 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-10',
     zoneID: [
-      38
+      38,
+      40,
+      41,
+      53
     ]
   },
   {
@@ -170,7 +177,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-14',
     zoneID: [
-      438
+      438,
+      440
     ]
   },
   {
@@ -180,6 +188,7 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-15',
     zoneID: [
+      253,
       254
     ]
   },
@@ -190,7 +199,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-16',
     zoneID: [
-      197
+      197,
+      198
     ]
   },
   {
@@ -211,6 +221,7 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-18',
     zoneID: [
+      199,
       200
     ]
   },
@@ -221,7 +232,12 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-19',
     zoneID: [
-      54
+      54,
+      57,
+      62,
+      63,
+      64,
+      65
     ]
   },
   {
@@ -330,7 +346,16 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-27',
     zoneID: [
-      74
+      76,
+      86,
+      87,
+      78,
+      82,
+      84,
+      85,
+      77,
+      88,
+      98
     ]
   },
   {
@@ -341,6 +366,7 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-64',
     zoneID: [
       379,
+      380,
       383
     ]
   },
@@ -442,7 +468,16 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-33',
     zoneID: [
-      123
+      123,
+      124,
+      125,
+      133,
+      315,
+      316,
+      317,
+      318,
+      320,
+      321
     ]
   },
   {
@@ -474,7 +509,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-36',
     zoneID: [
-      347
+      347,
+      348
     ]
   },
   {
@@ -494,7 +530,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-62',
     zoneID: [
-      110
+      110,
+      112
     ]
   },
   {
@@ -514,8 +551,9 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-40',
     zoneID: [
-      375,
-      373
+      373,
+      374,
+      375
     ]
   },
   {
@@ -525,7 +563,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-41',
     zoneID: [
-      456
+      456,
+      464
     ]
   },
   {
@@ -535,7 +574,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-42',
     zoneID: [
-      201
+      201,
+      202
     ]
   },
   {
@@ -565,7 +605,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-45',
     zoneID: [
-      404
+      404,
+      405
     ]
   },
   {
@@ -585,7 +626,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-47',
     zoneID: [
-      24
+      24,
+      26
     ]
   },
   {
@@ -595,7 +637,11 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-48',
     zoneID: [
-      298
+      298,
+      300,
+      301,
+      302,
+      303
     ]
   },
   {
@@ -605,7 +651,9 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-66',
     zoneID: [
-      327
+      326,
+      327,
+      328
     ]
   },
   {
@@ -650,7 +698,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-68',
     zoneID: [
-      159
+      159,
+      161
     ]
   },
   {
@@ -661,6 +710,18 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-67',
     zoneID: [
       330
+    ]
+  },
+  {
+    id: 56,
+    pokemon: null,
+    location: 'Spear Pillar',
+    status: null,
+    filterKey: 'lmpt-56',
+    zoneID: [
+      212,
+      216,
+      624
     ]
   },
   {
@@ -680,7 +741,8 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-58',
     zoneID: [
-      407
+      407,
+      408
     ]
   },
   {
@@ -690,7 +752,10 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-59',
     zoneID: [
-      142
+      142,
+      144,
+      145,
+      146
     ]
   },
   {
@@ -710,7 +775,13 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-61',
     zoneID: [
-      167
+      167,
+      171,
+      173,
+      175,
+      177,
+      179,
+      181
     ]
   },
   {
@@ -722,7 +793,8 @@ const LMPT: TEncounter[] = [
     zoneID: [
       244,
       245,
-      246
+      246,
+      247
     ]
   },
   {
@@ -1038,16 +1110,6 @@ const LMPT: TEncounter[] = [
     status: null,
     filterKey: 'lmpt-101',
     zoneID: []
-  },
-  {
-    id: 56,
-    pokemon: null,
-    location: 'Spear Pillar',
-    status: null,
-    filterKey: 'lmpt-56',
-    zoneID: [
-      212
-    ]
   },
   {
     id: 102,

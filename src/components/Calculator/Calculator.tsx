@@ -29,7 +29,7 @@ function Calculator(): JSX.Element {
   }, [calc, selectedGame, setDefaultCalculator]);
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>, index: 0 | 1) => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    if (e.code === 'Enter' || e.code === 'Space') {
       setSelected(index);
     }
   };

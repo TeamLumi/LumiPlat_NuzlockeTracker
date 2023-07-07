@@ -39,7 +39,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const foundPokemon = POKEMAP.get(encounter.pokemon);
   const [show, setShow] = useState(false);
   const [nickname, setnickname] = useState(encounter?.nickname);
-  const [level, setLevel] = useState(encounter?.details?.level);
+  const [level, setLevel] = useState(encounter?.details?.level || 1);
   const [metLevel, setMetLevel] = useState(encounter?.details?.metLevel);
   const [gender, setGender] = useState(encounter?.details?.gender);
   const [ability, setAbility] = useState(encounter?.details?.ability);
@@ -72,7 +72,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const handleClose = () => {
     setShow(false);
     setnickname(encounter?.nickname);
-    setLevel(encounter?.details?.level);
+    setLevel(encounter?.details?.level || 1);
     setMetLevel(encounter?.details?.metLevel);
     setGender(encounter?.details?.gender);
     setAbility(encounter?.details?.ability);
@@ -167,7 +167,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
         <div className={styles.header}>
           <div className={styles.headerLeft}>
             <div className={styles.image}>
-            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={shiny} />
             </div>
             <span className={styles.name}>{foundPokemon.text}</span>
           </div>
@@ -180,7 +180,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
               {soulLink ? (
                 <div className={styles.selector} data-testid={`soullink-${encounter.id}`}>
                   <div className={styles.image}>
-                    <PkmImage dexNum={foundSoulLink?.dexNum} form={foundSoulLink?.form} />
+                    <PkmImage dexNum={foundSoulLink?.dexNum} form={foundSoulLink?.form} name={foundSoulLink?.text} />
                   </div>
                   <span className={styles.soulLinkName}>{foundSoulLink.text}</span>
                   <Button
@@ -217,7 +217,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
               maxLength={3}
               label={t('level', { ns: 'rules' })}
               onChange={(e, data) => setLevel(Number(data.value))}
-              value={Number.isNaN(level) ? '' : level}
+              value={Number.isNaN(level) ? 1 : level}
             />
             <Input
               className={styles.input}

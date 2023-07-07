@@ -70,7 +70,7 @@ function EncounterSelector({
         >
           <div className={styles.details}>
             <div className={styles.image}>
-            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} />
+            <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={encounter?.details?.shiny} />
             </div>
             <b>{encounter.nickname || foundPokemon.text}</b>
           </div>

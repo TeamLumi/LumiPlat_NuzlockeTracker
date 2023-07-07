@@ -5,6 +5,8 @@ import Radio from 'semantic-ui-react/dist/commonjs/addons/Radio';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import { Page } from 'common';
+import LMPT from 'constants/locations/LMPT';
+import METLOCATIONS from 'constants/locations/MetLocations';
 import MOVES from 'constants/moves';
 import POKEMON from 'constants/pokemon';
 import type { AppState, Gender, TEncounter } from 'constants/types';
@@ -24,6 +26,34 @@ const removeNone = (value: string) => {
   return value === '(None)' ? null : value;
 };
 
+function findNthInstance(str: string, n: number=1): number {
+  let count = 0;
+
+  for (let i = 0; i < METLOCATIONS.length; i++) {
+    if (METLOCATIONS[i] === str) {
+      count++;
+
+      if (count === n) {
+        return i;
+      }
+    }
+  }
+  return -1;
+}
+
+const getZoneIdFromName = (name: string) => {
+  const hasNumberAfterParenthesis = /\(\d/.test(name);
+  if (name.includes(" (") && hasNumberAfterParenthesis) {
+    const zone = name.split(" (");
+    const zoneName = zone[0];
+    const zoneIndex = parseInt(zone[1].replace(")", ""));
+    const zoneID = findNthInstance(zoneName, zoneIndex);
+    return zoneID
+  }
+  const zoneID = findNthInstance(name);
+  return zoneID
+}
+
 function Import(): JSX.Element {
   const { t } = useTranslation('import');
   const importState = useStore(useCallback((state) => state.importState, []));
@@ -35,7 +65,29 @@ function Import(): JSX.Element {
   const [option, setOption] = useState<'all' | 'table'>('all');
   const [file, setFile] = useState<File>(undefined);
   const [text, setText] = useState('');
+  const pkhexHelper = t('pkhex_helper');
+  const linkText = 'PKLumiHeX (Version 0.3.7)';
+  const linkIndex = pkhexHelper.indexOf(linkText);
+  const pkHexTraslate = [
+    pkhexHelper.substring(0, linkIndex),
+    `<a href="https://github.com/TalonSabre/PKLumiHex">${linkText}</a>`,
+    pkhexHelper.substring(linkIndex + linkText.length)
+  ];
 
+  function overwriteZoneIDs(firstFile: Partial<AppState>) {
+    const encounters = firstFile.games["1"].encounters;
+  
+    LMPT.forEach((secondEncounter) => {
+      const { id, zoneID } = secondEncounter;
+  
+      const firstEncounter = encounters.find((encounter) => encounter.id === id);
+      if (firstEncounter) {
+        firstEncounter.zoneID = zoneID;
+      }
+    });
+    return firstFile;
+  }
+  
   const handleAllImport = () => {
     const fileReader = new FileReader();
     fileReader.readAsText(file, 'UTF-8');
@@ -43,7 +95,12 @@ function Import(): JSX.Element {
       try {
         const partialState: Partial<AppState> = JSON.parse(event.target.result as string);
         if (!!partialState?.games && !!partialState?.selectedGame && !!partialState?.gamesList) {
-          importState(partialState);
+          if (partialState?.gamesList[0].text === "Luminescent Platinum") {
+            const updatedState = overwriteZoneIDs(partialState);
+            importState(updatedState);
+          } else {
+            importState(partialState);
+          }
           toast.success<void>(t('file_success'));
         } else {
           throw Error(t('invalid'));
@@ -53,25 +110,28 @@ function Import(): JSX.Element {
       }
     };
   };
-
+  
   const getEncounter = (
     data: string[],
     arrPositions: Map<string, number>,
     pokemonName: string
   ): TEncounter => {
+    const MetLoc = data[arrPositions.get('MetLoc')];
+    const MetZoneId = getZoneIdFromName(MetLoc)
     const foundEnc = encounterList.encounters.find((enc) => {
-      return enc.location.includes(data[arrPositions.get('MetLoc')]);
+      return enc.zoneID.some((zoneId) => zoneId === MetZoneId);
     });
-
+        
     if (foundEnc) {
       const foundPoke = POKEMON.find((poke) => poke.text === pokemonName);
+      const zoneID: number[] = foundEnc.zoneID;
       return {
         details: {
           ability: data[arrPositions.get('Ability')],
           gender: GENDER_DICTIONARY[data[arrPositions.get('Gender')]],
           id: foundPoke?.value,
           item: removeNone(data[arrPositions.get('HeldItem')]),
-          level: Number(data[arrPositions.get('Level')]),
+          level: Number(data[arrPositions.get('Level')]) ?? 1,
           metLevel: Number(data[arrPositions.get('MetLevel')]),
           moves: [
             getMoveByName(data[arrPositions.get('Move1')]),
@@ -99,7 +159,7 @@ function Import(): JSX.Element {
         nickname: removeNone(data[arrPositions.get('Nickname')]),
         pokemon: foundPoke?.value,
         status: null,
-        zoneID: null,
+        zoneID: zoneID,
       };
     }
     return null;
@@ -188,7 +248,13 @@ function Import(): JSX.Element {
         <b style={{ color: 'red' }}>{t('important_helper')}</b>
         <b style={{ color: 'red' }}>{t('status_not')}</b>
         <p>
-          {t('pkhex_helper')} <strong>{t('selected')}</strong> {t('game')}:{' '}
+          {pkHexTraslate.map((part, index) => (
+            <span
+              key={index}
+              dangerouslySetInnerHTML={{ __html: part }}
+            />
+          ))}
+          <strong>{t('selected')}</strong> {t('game')}:{' '}
           <em>{selectedGame?.text || t('no_game')}</em>
         </p>
         <Radio
