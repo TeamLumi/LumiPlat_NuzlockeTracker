@@ -192,6 +192,16 @@ export type TEncounter = {
   zoneID: number[];
 };
 
+export type LocationDetails = {
+  routeName: string,
+  encounterType: string,
+  encounterRate: string,
+  minLevel: number,
+  maxLevel: number,
+  encounterTypeIndex: number | null,
+  zoneId: number | null
+};
+
 export interface TPokemon {
   dualtype?: Type;
   evolve?: number[];
