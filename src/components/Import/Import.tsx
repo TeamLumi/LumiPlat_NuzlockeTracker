@@ -23,7 +23,7 @@ const getMoveByName = (name: string) => {
 };
 
 const removeNone = (value: string) => {
-  return value === '(None)' ? null : value;
+  return value === 'None' ? null : value;
 };
 
 function findNthInstance(str: string, n: number=1): number {
