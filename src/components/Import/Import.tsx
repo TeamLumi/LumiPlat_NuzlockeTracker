@@ -9,7 +9,8 @@ import LMPT from 'constants/locations/LMPT';
 import METLOCATIONS from 'constants/locations/MetLocations';
 import MOVES from 'constants/moves';
 import POKEMON from 'constants/pokemon';
-import type { AppState, Gender, TEncounter } from 'constants/types';
+import STATUSES from 'constants/status';
+import type { AppState, Gender, TEncounter, TStatus } from 'constants/types';
 import useStore from 'store';
 import styles from './Import.module.scss';
 
@@ -125,6 +126,11 @@ function Import(): JSX.Element {
     if (foundEnc) {
       const foundPoke = POKEMON.find((poke) => poke.text === pokemonName);
       const zoneID: number[] = foundEnc.zoneID;
+      const position = data[arrPositions.get('Position')]
+      let status: TStatus = STATUSES[0]
+      if (position.includes("Party")) {
+        status = STATUSES[5]
+      }
       return {
         details: {
           ability: data[arrPositions.get('Ability')],
@@ -158,7 +164,7 @@ function Import(): JSX.Element {
         location: foundEnc.location,
         nickname: removeNone(data[arrPositions.get('Nickname')]),
         pokemon: foundPoke?.value,
-        status: null,
+        status: status,
         zoneID: zoneID,
       };
     }
