@@ -366,7 +366,6 @@ const LMPT: TEncounter[] = [
     filterKey: 'lmpt-64',
     zoneID: [
       379,
-      380,
       383
     ]
   },
