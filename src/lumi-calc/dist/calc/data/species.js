@@ -25304,11 +25304,11 @@ var SS_PATCH = {
         ],
         "bs": {
           "hp": 50,
-          "atk": 60,
-          "def": 45,
-          "spa": 35,
-          "spd": 64,
-          "spe": 58
+          "at": 60,
+          "df": 45,
+          "sa": 35,
+          "sd": 64,
+          "sp": 58
         },
         "weightkg": 8.9,
         "abilities": {
@@ -25322,11 +25322,11 @@ var SS_PATCH = {
         ],
         "bs": {
           "hp": 65,
-          "atk": 70,
-          "def": 55,
-          "spa": 45,
-          "spd": 82,
-          "spe": 78
+          "at": 70,
+          "df": 55,
+          "sa": 45,
+          "sd": 82,
+          "sp": 78
         },
         "weightkg": 59.1,
         "abilities": {
@@ -25340,11 +25340,11 @@ var SS_PATCH = {
         ],
         "bs": {
           "hp": 85,
-          "atk": 90,
-          "def": 77,
-          "spa": 70,
-          "spd": 105,
-          "spe": 94
+          "at": 90,
+          "df": 77,
+          "sa": 70,
+          "sd": 105,
+          "sp": 94
         },
         "weightkg": 112.8,
         "abilities": {
