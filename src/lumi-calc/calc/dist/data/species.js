@@ -25313,16 +25313,16 @@ var SS_PATCH = {
             "Normal"
         ],
         "bs": {
-            "hp": 255,
-            "at": 10,
-            "df": 10,
-            "sa": 75,
-            "sd": 135,
-            "sp": 55
+            "hp": 50,
+            "at": 60,
+            "df": 45,
+            "sa": 35,
+            "sd": 64,
+            "sp": 58
         },
-        "weightkg": 46.8,
+        "weightkg": 8.9,
         "abilities": {
-            "0": "Healer"
+            "0": "Sheer Force"
         },
         "gender": "F"
     },
@@ -25331,16 +25331,16 @@ var SS_PATCH = {
             "Normal"
         ],
         "bs": {
-            "hp": 255,
-            "at": 10,
-            "df": 10,
-            "sa": 75,
-            "sd": 135,
-            "sp": 55
+            "hp": 65,
+            "at": 70,
+            "df": 55,
+            "sa": 45,
+            "sd": 82,
+            "sp": 78
         },
-        "weightkg": 46.8,
+        "weightkg": 59.1,
         "abilities": {
-            "0": "Healer"
+            "0": "Sheer Force"
         },
         "gender": "F"
     },
@@ -25349,16 +25349,16 @@ var SS_PATCH = {
             "Normal"
         ],
         "bs": {
-            "hp": 255,
-            "at": 10,
-            "df": 10,
-            "sa": 75,
-            "sd": 135,
-            "sp": 55
+            "hp": 85,
+            "at": 90,
+            "df": 77,
+            "sa": 70,
+            "sd": 105,
+            "sp": 94
         },
-        "weightkg": 46.8,
+        "weightkg": 112.8,
         "abilities": {
-            "0": "Healer"
+            "0": "Sheer Force"
         },
         "gender": "F"
     },
