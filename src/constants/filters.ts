@@ -58,6 +58,7 @@ const staticEncounters: EncounterTable = {
   ],
   'lmpt-28': ['Spiritomb'],
   'lmpt-29': ['Ditto'],
+  'lmpt-31': ['Chandelure'],
   'lmpt-41': ['Pichu'],
   'lmpt-49': ['Azelf'],
   'lmpt-55': ['Uxie'],
@@ -155,7 +156,7 @@ const staticEncounters: EncounterTable = {
   'lmpt-89': ['Entei'],
   'lmpt-90': ['Suicune'],
   'lmpt-91': ['Lugia'],
-  'lmpt-92': ['Ho-oh'],
+  'lmpt-92': ['Ho-Oh'],
   'lmpt-93': ['Celebi'],
   'lmpt-94': ['Regirock', 'Registeel', 'Regice', 'Regigigas'],
   'lmpt-95': ['Latios', 'Latias', 'Cresselia'],
@@ -170,6 +171,7 @@ const staticEncounters: EncounterTable = {
   'lmpt-104': ['Darkrai'],
   'lmpt-105': ['Shaymin'],
   'lmpt-106': ['Arceus'],
+  'lmpt-107': ['Tinkatuff'],
 };
 
 const wildEncounters: EncounterTable = data;

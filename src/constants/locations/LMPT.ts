@@ -359,6 +359,14 @@ const LMPT: TEncounter[] = [
     ]
   },
   {
+    id: 107,
+    pokemon: null,
+    location: 'Amity Square',
+    status: null,
+    filterKey: 'lmpt-107',
+    zoneID: [251]
+  },
+  {
     id: 64,
     pokemon: null,
     location: 'Route 212',
@@ -1013,7 +1021,7 @@ const LMPT: TEncounter[] = [
   {
     id: 92,
     pokemon: null,
-    location: 'Lost Tower - Ho-oh',
+    location: 'Lost Tower - Ho-Oh',
     status: null,
     filterKey: 'lmpt-92',
     zoneID: []

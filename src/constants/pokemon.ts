@@ -89,17 +89,6 @@ const ExtraPokemon: TPokemon[] = [
         "form": 0,
     },
     {
-        "value": 1074,
-        "text": "Crystal Onix",
-        "type": "ROCK",
-        "dualtype": "ICE",
-        "evolve": [ 1074 ],
-        "generation": 8,
-        "abilities": ["Water Absorb", "Clear Body", "Ice Body"],
-        "dexNum": 95,
-        "form": 1,
-    },
-    {
         "value": 208,
         "text": "Steelix",
         "type": "STEEL",
