@@ -234,6 +234,15 @@ const LMPT: TEncounter[] = [
     zoneID: [
       54,
       57,
+    ]
+  },
+  {
+    id: 108,
+    pokemon: null,
+    location: 'Eterna City Galactic Building',
+    status: null,
+    filterKey: 'lmpt-108',
+    zoneID: [
       62,
       63,
       64,
@@ -945,14 +954,6 @@ const LMPT: TEncounter[] = [
       283,
       284
     ]
-  },
-  {
-    id: 83,
-    pokemon: null,
-    location: 'Ravaged Path - Crystal Onix',
-    status: null,
-    filterKey: 'lmpt-83',
-    zoneID: []
   },
   {
     id: 84,
