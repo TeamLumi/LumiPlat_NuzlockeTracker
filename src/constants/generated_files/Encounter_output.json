@@ -202,6 +202,17 @@
     "Taillow",
     "Wurmple"
   ],
+  "lmpt-19": [
+    "Dragonair",
+    "Dratini",
+    "Golduck",
+    "Gyarados",
+    "Hisuian Qwilfish",
+    "Magikarp",
+    "Poliwag",
+    "Poliwhirl",
+    "Psyduck"
+  ],
   "lmpt-20": [
     "Duskull",
     "Gastly",
@@ -824,17 +835,6 @@
     "Shellos East Sea",
     "Tentacool",
     "Tentacruel"
-  ],
-  "lmpt-63": [
-    "Dragonair",
-    "Dratini",
-    "Golduck",
-    "Gyarados",
-    "Hisuian Qwilfish",
-    "Magikarp",
-    "Poliwag",
-    "Poliwhirl",
-    "Psyduck"
   ],
   "lmpt-64": [
     "Arbok",

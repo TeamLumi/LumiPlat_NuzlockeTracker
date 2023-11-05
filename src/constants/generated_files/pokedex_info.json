@@ -7625,9 +7625,7 @@
     "type": "WATER",
     "evolve": [
       422,
-      423,
-      1177,
-      1178
+      423
     ],
     "generation": 8,
     "abilities": [
@@ -7645,9 +7643,7 @@
     "dualtype": "GROUND",
     "evolve": [
       422,
-      423,
-      1177,
-      1178
+      423
     ],
     "generation": 8,
     "abilities": [
@@ -17077,7 +17073,7 @@
     ],
     "generation": 8,
     "abilities": [
-      "Sheer Force",
+      "Mold Breaker",
       "Own Tempo",
       "Pickpocket"
     ],
@@ -17096,7 +17092,7 @@
     ],
     "generation": 8,
     "abilities": [
-      "Sheer Force",
+      "Mold Breaker",
       "Own Tempo",
       "Pickpocket"
     ],
@@ -17115,7 +17111,7 @@
     ],
     "generation": 8,
     "abilities": [
-      "Sheer Force",
+      "Mold Breaker",
       "Own Tempo",
       "Pickpocket"
     ],
@@ -21641,8 +21637,6 @@
     "text": "Shellos East Sea",
     "type": "WATER",
     "evolve": [
-      422,
-      423,
       1177,
       1178
     ],
@@ -21661,8 +21655,6 @@
     "type": "WATER",
     "dualtype": "GROUND",
     "evolve": [
-      422,
-      423,
       1177,
       1178
     ],
