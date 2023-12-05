@@ -7,7 +7,7 @@ const staticEncounters: EncounterTable = {
   'lmpt-1': ['Eevee'],
   'lmpt-3': ['Eevee'],
   'lmpt-4': [
-    // Trainer School Egg has all of these
+    // Trainer School Egg has every baby here
     'Pichu',
     'Cleffa',
     'Igglybuff',
@@ -23,7 +23,7 @@ const staticEncounters: EncounterTable = {
     'Mime Jr.',
     'Munchlax',
     'Mantyke',
-    // Eterna City Egg
+    // Eterna City Egg only has these ones
     'Riolu',
     'Budew',
     'Happiny',
@@ -39,7 +39,7 @@ const staticEncounters: EncounterTable = {
   'lmpt-20': ['Stitched Gengar', 'Rotom'],
   'lmpt-22': ['Gabite'],
   'lmpt-27': [
-    // Trainer School Egg has all of these
+    // Trainer School Egg has every baby here
     'Pichu',
     'Cleffa',
     'Igglybuff',
@@ -55,7 +55,7 @@ const staticEncounters: EncounterTable = {
     'Mime Jr.',
     'Munchlax',
     'Mantyke',
-    // Eterna City Egg
+    // Eterna City Egg only has these ones
     'Riolu',
     'Budew',
     'Happiny',
