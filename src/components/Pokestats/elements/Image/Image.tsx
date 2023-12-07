@@ -11,7 +11,7 @@ import { BADGE_IMAGES } from 'constants/badges';
 import { TYPE_COLOR } from 'constants/colors';
 import { TYPE_COUNT } from 'constants/constant';
 import { POKEMAP } from 'constants/pokemon';
-import type { Type } from 'constants/types';
+import type { PokemonIVs, Type } from 'constants/types';
 import {
   selectBoxed,
   selectCaught,
@@ -136,13 +136,21 @@ function Image({ forwardedRef, responsive = false }: ImageProps): JSX.Element {
           <div className={styles.team}>
             {teamPokemon?.map((enc) => {
               const foundPokemon = POKEMAP.get(enc.pokemon);
+              const pokemonStats: PokemonIVs = {
+                hp: enc?.details?.ivhp,
+                atk: enc?.details?.ivatk,
+                def: enc?.details?.ivdef,
+                spe: enc?.details?.ivspeed,
+                spa: enc?.details?.ivspatk,
+                spd: enc?.details?.ivspdef,
+              }
               return (
                 <div className={styles.pokemon} key={`team-${enc.id}`}>
                   <div className={styles.image}>
                   <PkmImage dexNum={foundPokemon?.dexNum} form={foundPokemon?.form} name={foundPokemon?.text} shiny={enc?.details?.shiny} />
                   </div>
                   <PokeInfo encounter={enc} pokemon={foundPokemon} />
-                  <Moves moves={enc?.details?.moves} />
+                  <Moves moves={enc?.details?.moves} stats={pokemonStats} />
                 </div>
               );
             })}

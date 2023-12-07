@@ -136,6 +136,12 @@ function Detail({ encounter }: DetailProps): JSX.Element {
       item,
       nature,
       moves: [moveOne, moveTwo, moveThree, moveFour],
+      ivhp,
+      ivatk,
+      ivdef,
+      ivspeed,
+      ivspatk,
+      ivspdef,
     });
     toast.success<void>(t('pokemon_export'));
   };
