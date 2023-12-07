@@ -20,6 +20,8 @@ import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
 import styles from './Detail.module.scss';
 import { Status } from 'components';
+import { Pokemon } from 'lumi-calc/dist/calc';
+import { getSmogonName } from 'hooks/useCalculate';
 
 interface DetailProps {
   encounter?: TEncounter;
@@ -65,6 +67,36 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const [evspdef, setEvspdef] = useState(encounter?.details?.evspdef);
   const [soulLink, setSoulLink] = useState(encounter?.details?.soulink);
   const legalAbilities = foundPokemon.abilities;
+
+  let pokemonStats : Pokemon | undefined = undefined;
+  try {
+    pokemonStats = new Pokemon(
+      GAME_GENERATION[1],
+      getSmogonName(foundPokemon.text),
+      {
+      level: encounter?.details?.level ?? 1,
+      nature: encounter?.details?.nature,
+      ivs: {
+        hp: encounter?.details?.ivhp ?? 0,
+        atk: encounter?.details?.ivatk ?? 0,
+        def: encounter?.details?.ivdef ?? 0,
+        spa: encounter?.details?.ivspatk ?? 0,
+        spd: encounter?.details?.ivspdef ?? 0,
+        spe: encounter?.details?.ivspeed ?? 0,
+      },
+      evs: {
+        hp: encounter?.details?.evhp ?? 0,
+        atk: encounter?.details?.evatk ?? 0,
+        def: encounter?.details?.evdef ?? 0,
+        spa: encounter?.details?.evspatk ?? 0,
+        spd: encounter?.details?.evspdef ?? 0,
+        spe: encounter?.details?.evspeed ?? 0,
+      },
+      }
+    );
+} catch {
+  // do nothing
+}
 
   const limitGen = GAME_GENERATION[selectedGame?.value] || undefined;
   const foundSoulLink = POKEMAP.get(soulLink);
@@ -307,6 +339,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveOne}
                 handleMove={(moveId: number) => setMoveOne(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
               />
             </div>
             <div data-testid="move-2">
@@ -315,6 +348,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveTwo}
                 handleMove={(moveId: number) => setMoveTwo(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
               />
             </div>
             <div data-testid="move-3">
@@ -323,6 +357,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveThree}
                 handleMove={(moveId: number) => setMoveThree(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
               />
             </div>
             <div data-testid="move-4">
@@ -331,6 +366,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveFour}
                 handleMove={(moveId: number) => setMoveFour(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
               />
             </div>
           </div>
