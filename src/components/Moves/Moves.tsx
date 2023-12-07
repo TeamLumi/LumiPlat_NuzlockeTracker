@@ -1,7 +1,7 @@
 import { Move } from 'components';
 import { MOVEMAP } from 'constants/moves';
 import styles from './Moves.module.scss';
-import { HIDDEN_POWER_TYPES } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, TYPES } from 'constants/constant';
 import { PokemonIVs } from 'constants/types';
 
 interface MovesProps {
@@ -32,9 +32,18 @@ function Moves({ moves = [], showStatus = false, stats }: MovesProps): JSX.Eleme
     <div className={styles.moves}>
       {moves?.map((move, i) => {
         const moveDetail = MOVEMAP.get(move);
-        if (moveDetail.name === "Hidden Power") {
-          const hiddenPowerType = calcHiddenPower(stats)
-          moveDetail.type = HIDDEN_POWER_TYPES[hiddenPowerType]
+        const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
+        if (
+          move &&
+          isAnyStatUndefined &&
+          moveDetail.name.includes("Hidden Power")
+        ) {
+          moveDetail.name = "Hidden Power (Input IVs for Type)";
+          moveDetail.type = TYPES[0];
+        } else if (move && moveDetail.name.includes("Hidden Power") && !isAnyStatUndefined) {
+          const hiddenPowerType = calcHiddenPower(stats);
+          moveDetail.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+          moveDetail.type = HIDDEN_POWER_TYPES[hiddenPowerType];
         }
         return (
           !!moveDetail && (

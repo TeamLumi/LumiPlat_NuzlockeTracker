@@ -5,7 +5,7 @@ import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { Filter, Move } from 'components';
-import { HIDDEN_POWER_TYPES, PHYS_SPEC_SPLIT } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, PHYS_SPEC_SPLIT, TYPES } from 'constants/constant';
 import MOVES, { MOVEMAP } from 'constants/moves';
 import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
@@ -43,9 +43,23 @@ function MoveSelector({
       (limitGen ? m.gen <= limitGen : true) &&
       (values.types.length > 0 ? values.types.includes(m.type) : true)
   );
-  if (currentMove && currentMove.name === "Hidden Power") {
+  const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
+  if (
+    currentMove &&
+    isAnyStatUndefined &&
+    currentMove.name.includes("Hidden Power")
+  ) {
+    currentMove.name = "Hidden Power (Input IVs for Type)";
+    currentMove.type = TYPES[0];
+  } 
+  if (
+    currentMove &&
+    !isAnyStatUndefined &&
+    currentMove.name.includes("Hidden Power")
+  ) {
     const hiddenPowerType = calcHiddenPower(stats)
-    currentMove.type = HIDDEN_POWER_TYPES[hiddenPowerType]
+    currentMove.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+    currentMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
   };
 
   const handleClick = (moveId: number) => {
@@ -61,9 +75,23 @@ function MoveSelector({
 
   const renderRow: React.FC<RowProps> = ({ index, style }) => {
     const move = filteredMoves[index];
-    if (move && move.name === "Hidden Power") {
-      const hiddenPowerType = calcHiddenPower(stats)
-      move.type = HIDDEN_POWER_TYPES[hiddenPowerType]
+    const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
+    if (
+      move &&
+      isAnyStatUndefined &&
+      move.name.includes("Hidden Power")
+    ) {
+      move.name = "Hidden Power (Input IVs for Type)";
+      move.type = TYPES[0];
+    }
+    if (
+      move &&
+      move.name.includes("Hidden Power") &&
+      !isAnyStatUndefined
+    ) {
+      const hiddenPowerType = calcHiddenPower(stats);
+      move.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+      move.type = HIDDEN_POWER_TYPES[hiddenPowerType];
     };
     return (
       <div style={style}>
