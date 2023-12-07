@@ -293,6 +293,24 @@ export type Type =
   | 'STEEL'
   | 'FAIRY';
 
+export type HiddenPowerTypes =
+  | 'FIGHTING'
+  | 'FLYING'
+  | 'POISON'
+  | 'GROUND'
+  | 'ROCK'
+  | 'BUG'
+  | 'GHOST'
+  | 'STEEL'
+  | 'FIRE'
+  | 'WATER'
+  | 'GRASS'
+  | 'ELECTRIC'
+  | 'PSYCHIC'
+  | 'ICE'
+  | 'DRAGON'
+  | 'DARK';
+
 export type TLanguage = 'en' | 'es' | 'de';
 
 type Category = 'Physical' | 'Special' | 'Status' | '???';

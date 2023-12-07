@@ -12,6 +12,7 @@ import {
   TRuleEntry,
   TRulesetDictionary,
   Type,
+  HiddenPowerTypes,
 } from 'constants/types';
 
 export const GAMES: TGame[] = [
@@ -292,6 +293,25 @@ export const TYPES: Type[] = [
   'DRAGON',
   'STEEL',
   'FAIRY',
+];
+
+export const HIDDEN_POWER_TYPES: HiddenPowerTypes[] = [
+  'FIGHTING',
+  'FLYING',
+  'POISON',
+  'GROUND',
+  'ROCK',
+  'BUG',
+  'GHOST',
+  'STEEL',
+  'FIRE',
+  'WATER',
+  'GRASS',
+  'ELECTRIC',
+  'PSYCHIC',
+  'ICE',
+  'DRAGON',
+  'DARK'
 ];
 
 export const LANGUAGES = [

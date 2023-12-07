@@ -171,7 +171,7 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                   </div>
                 )}
                 <div className={styles.moves}>
-                  <Moves moves={pokemon?.moves} showStatus={isSplit} />
+                  <Moves moves={pokemon?.moves} showStatus={isSplit} stats={stats} />
                 </div>
               </div>
             </div>
