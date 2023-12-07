@@ -12,14 +12,14 @@ import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
 import { calcHiddenPower } from 'components/Moves/Moves';
-import { Pokemon } from 'lumi-calc/dist/calc';
+import { PokemonIVs } from 'constants/types';
 
 interface MoveSelectorProps {
   currentMoveId: number;
   handleMove: (moveId: number) => void;
   hideGen?: boolean;
   limitGen?: number;
-  stats?: Pokemon;
+  stats?: PokemonIVs;
 }
 
 function MoveSelector({

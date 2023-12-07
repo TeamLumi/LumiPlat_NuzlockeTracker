@@ -1,24 +1,23 @@
 import { Move } from 'components';
 import { MOVEMAP } from 'constants/moves';
 import styles from './Moves.module.scss';
-import { Pokemon } from 'lumi-calc/dist/calc';
 import { HIDDEN_POWER_TYPES } from 'constants/constant';
+import { PokemonIVs } from 'constants/types';
 
 interface MovesProps {
   moves?: number[];
   showStatus?: boolean;
-  stats?: Pokemon;
+  stats?: PokemonIVs;
 }
 
-export function calcHiddenPower(stats : Pokemon) {
-  const ivs = stats.ivs;
+export function calcHiddenPower(stats : PokemonIVs) {
   const ivSigBits = {
-    hp: ivs.hp % 2,
-    atk: ivs.atk % 2,
-    def: ivs.def % 2,
-    spe: ivs.spe % 2,
-    spa: ivs.spa % 2,
-    spd: ivs.spd % 2,
+    hp: stats.hp % 2,
+    atk: stats.atk % 2,
+    def: stats.def % 2,
+    spe: stats.spe % 2,
+    spa: stats.spa % 2,
+    spd: stats.spd % 2,
   };
   const sumIvs = Object.values(ivSigBits)
     .map((value, index) => value * (2 ** index))

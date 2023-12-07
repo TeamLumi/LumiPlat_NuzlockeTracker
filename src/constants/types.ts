@@ -376,6 +376,15 @@ export interface PokemonDetail {
   evspeed?: number;
 }
 
+export type PokemonIVs = {
+  atk?: number;
+  def?: number;
+  hp?: number;
+  spe?: number;
+  spa?: number;
+  spd?: number;
+}
+
 export type TReleaseNotes = { name: string; date: number; notes: TReleaseNote[] }[];
 
 export type TReleaseNote = {

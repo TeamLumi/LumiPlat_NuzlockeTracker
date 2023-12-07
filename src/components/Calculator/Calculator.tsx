@@ -54,10 +54,10 @@ function Calculator(): JSX.Element {
             style={{ display: selected === 0 || size?.width >= 750 ? 'flex' : 'none' }}
           >
             <General encounters={caught} pokemon="1" />
-            <MoveController move="1" pokemon="1" stats={pokemon1} />
-            <MoveController move="2" pokemon="1" stats={pokemon1} />
-            <MoveController move="3" pokemon="1" stats={pokemon1} />
-            <MoveController move="4" pokemon="1" stats={pokemon1} />
+            <MoveController move="1" pokemon="1" stats={pokemon1.ivs} />
+            <MoveController move="2" pokemon="1" stats={pokemon1.ivs} />
+            <MoveController move="3" pokemon="1" stats={pokemon1.ivs} />
+            <MoveController move="4" pokemon="1" stats={pokemon1.ivs} />
             <Stats pokemon="1" />
             <SideField pokemon="1" />
           </fieldset>
@@ -66,10 +66,10 @@ function Calculator(): JSX.Element {
             style={{ display: selected === 1 || size?.width >= 750 ? 'flex' : 'none' }}
           >
             <General pokemon="2" />
-            <MoveController move="1" pokemon="2" stats={pokemon2} />
-            <MoveController move="2" pokemon="2" stats={pokemon2} />
-            <MoveController move="3" pokemon="2" stats={pokemon2} />
-            <MoveController move="4" pokemon="2" stats={pokemon2} />
+            <MoveController move="1" pokemon="2" stats={pokemon2.ivs} />
+            <MoveController move="2" pokemon="2" stats={pokemon2.ivs} />
+            <MoveController move="3" pokemon="2" stats={pokemon2.ivs} />
+            <MoveController move="4" pokemon="2" stats={pokemon2.ivs} />
             <Stats pokemon="2" />
             <SideField pokemon="2" />
           </fieldset>

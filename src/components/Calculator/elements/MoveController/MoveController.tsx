@@ -3,12 +3,12 @@ import { MoveSelector } from 'components';
 import { ButtonController } from 'components/Calculator/elements';
 import useStore from 'store';
 import styles from './MoveController.module.scss';
-import { Pokemon } from 'lumi-calc/dist/calc';
+import { PokemonIVs } from 'constants/types';
 
 interface MoveControllerProps {
   move: '1' | '2' | '3' | '4';
   pokemon: '1' | '2';
-  stats: Pokemon;
+  stats: PokemonIVs;
 }
 
 function MoveController({ move, pokemon, stats }: MoveControllerProps): JSX.Element {

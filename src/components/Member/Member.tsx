@@ -9,13 +9,10 @@ import { MoveSelector, Natures, PokemonType } from 'components';
 import { TYPE_COLOR } from 'constants/colors';
 import NATURES from 'constants/natures';
 import { POKEMAP } from 'constants/pokemon';
-import type { PokemonDetail } from 'constants/types';
+import type { PokemonDetail, PokemonIVs } from 'constants/types';
 import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
 import styles from './Member.module.scss';
-import { Pokemon } from 'lumi-calc/dist/calc';
-import { GAME_GENERATION } from 'constants/constant';
-import { getSmogonName } from 'hooks/useCalculate';
 
 interface MemberProps {
   index: number;
@@ -25,34 +22,13 @@ interface MemberProps {
 function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
   const { t } = useTranslation('builder');
   const pokemon = POKEMAP.get(pokemonDetail.id);
-  let stats: Pokemon | undefined = undefined;
-  try {
-      stats = new Pokemon(
-        GAME_GENERATION[1],
-        getSmogonName(pokemon.text),
-        {
-        level: pokemonDetail?.level ?? 1,
-        nature: pokemonDetail?.nature,
-        ivs: {
-          hp: pokemonDetail?.ivhp ?? 0,
-          atk: pokemonDetail?.ivatk ?? 0,
-          def: pokemonDetail?.ivdef ?? 0,
-          spa: pokemonDetail?.ivspatk ?? 0,
-          spd: pokemonDetail?.ivspdef ?? 0,
-          spe: pokemonDetail?.ivspeed ?? 0,
-        },
-        evs: {
-          hp: pokemonDetail?.evhp ?? 0,
-          atk: pokemonDetail?.evatk ?? 0,
-          def: pokemonDetail?.evdef ?? 0,
-          spa: pokemonDetail?.evspatk ?? 0,
-          spd: pokemonDetail?.evspdef ?? 0,
-          spe: pokemonDetail?.evspeed ?? 0,
-        },
-        }
-      );
-  } catch {
-    // do nothing
+  const stats: PokemonIVs = {
+    hp: pokemonDetail?.ivhp,
+    atk: pokemonDetail?.ivatk,
+    def: pokemonDetail?.ivdef,
+    spe: pokemonDetail?.ivspeed,
+    spa: pokemonDetail?.ivspatk,
+    spd: pokemonDetail?.ivspdef,
   }
 
   const changeTeamMember = useStore(useCallback((state) => state.changeTeamMember, []));
