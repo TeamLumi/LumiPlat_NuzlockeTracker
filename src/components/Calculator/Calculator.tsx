@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   CalculatorHeader,
@@ -12,6 +12,7 @@ import { selectCaught } from 'selectors';
 import useStore from 'store';
 import { ReactComponent as PokeballSVG } from 'assets/svg/pokeball.svg';
 import styles from './Calculator.module.scss';
+import { getPokemon } from 'hooks/useCalculate';
 
 function Calculator(): JSX.Element {
   const { t } = useTranslation('common');
@@ -21,6 +22,15 @@ function Calculator(): JSX.Element {
   const setDefaultCalculator = useStore(useCallback((state) => state.setDefaultCalculator, []));
   const caught = useStore(selectCaught);
   const size = useWindowSize();
+
+  const all = useStore(useCallback((state) => state.calcs[state?.selectedGame?.value]?.form, []));
+  const pokemon1 = useMemo(() => {
+    return getPokemon(all, 1);
+  }, [all]);
+
+  const pokemon2 = useMemo(() => {
+    return getPokemon(all, 2);
+  }, [all]);
 
   useEffect(() => {
     if (selectedGame?.value && !calc?.form) {
@@ -44,10 +54,10 @@ function Calculator(): JSX.Element {
             style={{ display: selected === 0 || size?.width >= 750 ? 'flex' : 'none' }}
           >
             <General encounters={caught} pokemon="1" />
-            <MoveController move="1" pokemon="1" />
-            <MoveController move="2" pokemon="1" />
-            <MoveController move="3" pokemon="1" />
-            <MoveController move="4" pokemon="1" />
+            <MoveController move="1" pokemon="1" stats={pokemon1} />
+            <MoveController move="2" pokemon="1" stats={pokemon1} />
+            <MoveController move="3" pokemon="1" stats={pokemon1} />
+            <MoveController move="4" pokemon="1" stats={pokemon1} />
             <Stats pokemon="1" />
             <SideField pokemon="1" />
           </fieldset>
@@ -56,10 +66,10 @@ function Calculator(): JSX.Element {
             style={{ display: selected === 1 || size?.width >= 750 ? 'flex' : 'none' }}
           >
             <General pokemon="2" />
-            <MoveController move="1" pokemon="2" />
-            <MoveController move="2" pokemon="2" />
-            <MoveController move="3" pokemon="2" />
-            <MoveController move="4" pokemon="2" />
+            <MoveController move="1" pokemon="2" stats={pokemon2} />
+            <MoveController move="2" pokemon="2" stats={pokemon2} />
+            <MoveController move="3" pokemon="2" stats={pokemon2} />
+            <MoveController move="4" pokemon="2" stats={pokemon2} />
             <Stats pokemon="2" />
             <SideField pokemon="2" />
           </fieldset>

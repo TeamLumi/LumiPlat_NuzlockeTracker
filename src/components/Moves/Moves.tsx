@@ -10,7 +10,7 @@ interface MovesProps {
   stats?: Pokemon;
 }
 
-function calcHiddenPower(stats : Pokemon) {
+export function calcHiddenPower(stats : Pokemon) {
   const ivs = stats.ivs;
   const ivSigBits = {
     hp: ivs.hp % 2,

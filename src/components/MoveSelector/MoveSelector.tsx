@@ -5,18 +5,21 @@ import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { Filter, Move } from 'components';
-import { PHYS_SPEC_SPLIT } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, PHYS_SPEC_SPLIT } from 'constants/constant';
 import MOVES, { MOVEMAP } from 'constants/moves';
 import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
+import { calcHiddenPower } from 'components/Moves/Moves';
+import { Pokemon } from 'lumi-calc/dist/calc';
 
 interface MoveSelectorProps {
   currentMoveId: number;
   handleMove: (moveId: number) => void;
   hideGen?: boolean;
   limitGen?: number;
+  stats?: Pokemon;
 }
 
 function MoveSelector({
@@ -24,6 +27,7 @@ function MoveSelector({
   handleMove,
   hideGen,
   limitGen,
+  stats,
 }: MoveSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
@@ -39,6 +43,10 @@ function MoveSelector({
       (limitGen ? m.gen <= limitGen : true) &&
       (values.types.length > 0 ? values.types.includes(m.type) : true)
   );
+  if (currentMove && currentMove.name === "Hidden Power") {
+    const hiddenPowerType = calcHiddenPower(stats)
+    currentMove.type = HIDDEN_POWER_TYPES[hiddenPowerType]
+  };
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);
@@ -53,6 +61,10 @@ function MoveSelector({
 
   const renderRow: React.FC<RowProps> = ({ index, style }) => {
     const move = filteredMoves[index];
+    if (move && move.name === "Hidden Power") {
+      const hiddenPowerType = calcHiddenPower(stats)
+      move.type = HIDDEN_POWER_TYPES[hiddenPowerType]
+    };
     return (
       <div style={style}>
         <div
