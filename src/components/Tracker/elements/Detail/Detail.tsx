@@ -67,12 +67,12 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const legalAbilities = foundPokemon.abilities;
 
   const pokemonStats : PokemonIVs = {
-    hp: encounter?.details?.ivhp,
-    atk: encounter?.details?.ivatk,
-    def: encounter?.details?.ivdef,
-    spe: encounter?.details?.ivspeed,
-    spa: encounter?.details?.ivspatk,
-    spd: encounter?.details?.ivspdef,
+    hp: ivhp,
+    atk: ivatk,
+    def: ivdef,
+    spe: ivspeed,
+    spa: ivspatk,
+    spd: ivspdef,
   }
 
   const limitGen = GAME_GENERATION[selectedGame?.value] || undefined;
