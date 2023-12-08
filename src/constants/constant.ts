@@ -369,3 +369,18 @@ export const getSmogonItemName = (item: string): string => {
   }
   return item?.toLowerCase()?.replaceAll(' ', '-');
 };
+
+export const ENC_TYPES: Record<string, string> = {
+  ground_mons: "Grass",
+  tairyo: "Swarm",
+  day: "Day",
+  night: "Night",
+  swayGrass: "Radar",
+  water_mons: "Surfing",
+  boro_mons: "Old Rod",
+  ii_mons: "Good Rod",
+  sugoi_mons: "Super Rod",
+  Morning: "Morning",
+  Incense: "Incense",
+  "Surfing Incense": "Surfing Incense",
+};
