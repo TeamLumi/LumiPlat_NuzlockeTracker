@@ -307,6 +307,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveOne}
                 handleMove={(moveId: number) => setMoveOne(moveId)}
                 limitGen={limitGen}
+                pokemonId={encounter.pokemon}
               />
             </div>
             <div data-testid="move-2">
@@ -315,6 +316,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveTwo}
                 handleMove={(moveId: number) => setMoveTwo(moveId)}
                 limitGen={limitGen}
+                pokemonId={encounter.pokemon}
               />
             </div>
             <div data-testid="move-3">
@@ -323,6 +325,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveThree}
                 handleMove={(moveId: number) => setMoveThree(moveId)}
                 limitGen={limitGen}
+                pokemonId={encounter.pokemon}
               />
             </div>
             <div data-testid="move-4">
@@ -331,6 +334,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveFour}
                 handleMove={(moveId: number) => setMoveFour(moveId)}
                 limitGen={limitGen}
+                pokemonId={encounter.pokemon}
               />
             </div>
           </div>

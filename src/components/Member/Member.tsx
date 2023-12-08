@@ -107,6 +107,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          pokemonId={pokemonDetail.id}
         />
         <MoveSelector
           currentMoveId={pokemonDetail?.moves?.length > 1 ? pokemonDetail.moves[1] : null}
@@ -121,6 +122,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          pokemonId={pokemonDetail.id}
         />
         <MoveSelector
           currentMoveId={pokemonDetail?.moves?.length > 2 ? pokemonDetail.moves[2] : null}
@@ -135,6 +137,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          pokemonId={pokemonDetail.id}
         />
         <MoveSelector
           currentMoveId={pokemonDetail?.moves?.length > 3 ? pokemonDetail.moves[3] : null}
@@ -149,6 +152,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          pokemonId={pokemonDetail.id}
         />
         <Button
           className={styles.delete}

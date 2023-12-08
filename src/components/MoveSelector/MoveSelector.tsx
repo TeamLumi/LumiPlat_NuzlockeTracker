@@ -11,12 +11,14 @@ import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
+import { getEggMoves, getLevelLearnset, getTechMachineLearnset, getTutorMoves } from 'constants/moveFunctions';
 
 interface MoveSelectorProps {
   currentMoveId: number;
   handleMove: (moveId: number) => void;
   hideGen?: boolean;
   limitGen?: number;
+  pokemonId?: number;
 }
 
 function MoveSelector({
@@ -24,6 +26,7 @@ function MoveSelector({
   handleMove,
   hideGen,
   limitGen,
+  pokemonId = 0,
 }: MoveSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
@@ -32,6 +35,12 @@ function MoveSelector({
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const isSplit = !PHYS_SPEC_SPLIT.includes(selectedGame?.value);
   const currentMove = MOVEMAP.get(currentMoveId);
+  const learnset = {
+    level: getLevelLearnset(pokemonId),
+    tm: getTechMachineLearnset(pokemonId),
+    egg: getEggMoves(pokemonId),
+    tutor: getTutorMoves(pokemonId)
+  };
   const filteredMoves = MOVES.filter(
     (m) =>
       m.name.toUpperCase().includes(values.search) &&
