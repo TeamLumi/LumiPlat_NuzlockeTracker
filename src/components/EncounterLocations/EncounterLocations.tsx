@@ -5,6 +5,7 @@ import useStore from 'store';
 import styles from './EncounterLocations.module.scss';
 import { POKEMON_RATES } from 'constants/encounter_locations';
 import { ENC_TYPES } from 'constants/constant';
+import EncounterMoves from 'components/EncounterMoves/EncounterMoves';
 
 interface TEncounterLocation {
   pokemon_id: number;
@@ -34,7 +35,7 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
           minLevel: encounter.minLevel,
           maxLevel: encounter.minLevel,
           encounterTypeIndex: encounter.encounterTypeIndex,
-          zoneId: encounter.zoneId,      
+          zoneId: encounter.zoneId,
         };
       }
       const originalRate = encounter.encounterRate === "morning" ? "10%" : encounter.encounterRate;
@@ -45,16 +46,24 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
   );
 
   return (
-    <div className={styles.encounterLocations}>
-      {combinedEncounters.map((encounter, index) => {
-        console.log(ENC_TYPES[encounter.encounterType], encounter.encounterType)
-        return (
-          <div key={index} className={styles.encounter}>
-            <span>{ENC_TYPES[encounter.encounterType]}</span> {/* encounterType */}
-            <span>{encounter.encounterRate}</span> {/* encounterRate */}
-          </div>
-        )
-      })}
+    <div style={{ display: 'grid', gridTemplateColumns: 'auto auto', gap: '1rem' }}>
+      <div style={{ gridColumn: '1 / span 1', gridRow: '1' }}>
+        {Array.from(new Set(combinedEncounters.map(encounter => encounter.minLevel))).map((uniqueMinLevel, index) => {
+          return (
+            <EncounterMoves pokemonId={pokemon_id} encLevel={uniqueMinLevel}/>
+          );
+        })}
+      </div>
+      <div style={{ gridColumn: '2 / span 1', gridRow: '1' }}>
+        {combinedEncounters.map((encounter, index) => {
+          return (
+            <div key={index} className={styles.encounter}>
+              <span>{ENC_TYPES[encounter.encounterType]}</span> {/* encounterType */}
+              <span>{encounter.encounterRate}</span> {/* encounterRate */}
+            </div>
+          )
+        })}
+      </div>
     </div>
   );
 }
