@@ -15,8 +15,6 @@ const ItemTable: TItemTable = ItemTableData;
 const PersonalTable: TPersonalTable = PersonalTableData;
 const MoveInfo: TLumiNameFiles = MoveInfoData;
 const TutorMoves: TTutorTable = TutorMovesData;
-// } = require('./data');
-const { getPokemonFormId } = require('./name');
 
 const IS_MOVE_INDEX = false;
 
@@ -103,11 +101,10 @@ function getMoveProperties(moveId = 0) {
   };
 }
 
-function getEggMoves(dexId = 0) {
-  if (!Number.isInteger(dexId) || PersonalTable.Personal[dexId] === undefined) return [];
-  const { monsno } = PersonalTable.Personal[dexId];
-  const formNo = getPokemonFormId(monsno, dexId);
-  const eggMoves = EggMovesTable.Data.find((e) => e.no === monsno && e.formNo === formNo)?.wazaNo ?? [];
+function getEggMoves(pokemonId = 0) {
+  if (!Number.isInteger(pokemonId) || PersonalTable.Personal[pokemonId] === undefined) return [];
+  const { monsno } = PersonalTable.Personal[pokemonId];
+  const eggMoves = EggMovesTable.Data.find((e) => e.no === monsno && e.formNo === pokemonId)?.wazaNo ?? [];
   return eggMoves.map((moveId) => ({
     level: 'egg',
     move: getMoveProperties(moveId),
@@ -171,8 +168,8 @@ function parseTmLearnsetSection(decimal: number) {
 function getTutorMoves(pokemonId = 0) {
   const [ monsno, formNo] = getPokemonMonsNoAndFormNoFromPokemonId(pokemonId)
   if(monsno === 0) return [];
-  if(!Object.hasOwn(TutorMoves, monsno)) return [];
-  if(!Object.hasOwn(TutorMoves[monsno], formNo)) return [];
+  if (!TutorMoves.hasOwnProperty(monsno)) return [];
+  if (!TutorMoves[monsno].hasOwnProperty(formNo)) return [];
   const moveset = TutorMoves[monsno][formNo];
   const tutorSet = moveset.map(moveId => ({
     moveLevel: 0,
