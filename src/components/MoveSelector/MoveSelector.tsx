@@ -41,13 +41,28 @@ function MoveSelector({
     egg: getEggMoves(pokemonId),
     tutor: getTutorMoves(pokemonId)
   };
-  const filteredMoves = MOVES.filter(
+
+  const learnsetMovesList = Object.values(learnset)
+    .flat()
+    .map((move: any) => move.move.name.toUpperCase());
+
+  const filteredMovesList = MOVES.filter((move) =>
+    learnsetMovesList.includes(move.name.toUpperCase())
+  );
+
+  const initialFilteredMoves = filteredMovesList.filter(
     (m) =>
       m.name.toUpperCase().includes(values.search) &&
       (values.gens.length > 0 ? values.gens.includes(m.gen) : true) &&
       (limitGen ? m.gen <= limitGen : true) &&
       (values.types.length > 0 ? values.types.includes(m.type) : true)
   );
+
+  const filteredMoves = initialFilteredMoves.sort((a, b) => {
+    const indexA = learnsetMovesList.indexOf(a.name.toUpperCase());
+    const indexB = learnsetMovesList.indexOf(b.name.toUpperCase());
+    return indexA - indexB;
+  });  
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);

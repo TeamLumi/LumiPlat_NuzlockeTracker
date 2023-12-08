@@ -1,5 +1,4 @@
 import { TLumiNameFiles, TLearnset, TEggLearnset, TMoveInfo, TItemTable, TPersonalTable, TPersonalData, TTutorTable, TFormMap } from './types';
-import MOVES from './moves';
 import LearnsetTableData from './input_files/WazaOboeTable.json';
 import EggMovesTableData from './input_files/TamagoWazaTable.json';
 import MovesTableData from './input_files/WazaTable.json';
@@ -7,6 +6,7 @@ import ItemTableData from './input_files/ItemTable.json';
 import PersonalTableData from './input_files/PersonalTable.json';
 import MoveInfoData from './input_files/english_ss_wazainfo.json';
 import TutorMovesData from './input_files/tutorMoves.json';
+import MOVE_ENUM from './input_files/moveEnum';
 
 const LearnsetTable: TLearnset = LearnsetTableData;
 const EggMovesTable: TEggLearnset = EggMovesTableData;
@@ -17,6 +17,7 @@ const MoveInfo: TLumiNameFiles = MoveInfoData;
 const TutorMoves: TTutorTable = TutorMovesData;
 
 const IS_MOVE_INDEX = false;
+const MAX_TM_COUNT = 104;
 
 const FORM_MAP = PersonalTable.Personal.reduce(createFormMap, {});
 
@@ -27,6 +28,10 @@ function createFormMap(formMap: TFormMap, currentPokemon: TPersonalData) {
 
   formMap[currentPokemon.monsno].push(currentPokemon.id);
   return formMap;
+}
+
+function getPokemonFormId(monsno = 0, id: number) {
+  return FORM_MAP[monsno]?.findIndex((e) => e === id) ?? -1;
 }
 
 function getPokemonMonsNoAndFormNoFromPokemonId(pokemonId = 0) {
@@ -65,7 +70,7 @@ function generateMovesViaLearnset(monsNo: number, level: number) {
 
 function getMoveId(moveName: string) {
   if (typeof moveName !== 'string' || !moveName) throw Error(`Bad move name: ${moveName}`);
-  const id = MOVES.findIndex((e) => e.name === moveName.trim());
+  const id = MOVE_ENUM.findIndex((e) => e === moveName.trim());
   if (id === -1) throw Error(`Bad move name: ${moveName}`);
   return id;
 }
@@ -73,7 +78,7 @@ function getMoveId(moveName: string) {
 function getMoveString(id = 0) {
   if (!Number.isInteger(id) || id < 0) throw Error(`Bad move string found: ID - ${id}`);
 
-  const str = MOVES[id].name;
+  const str = MOVE_ENUM[id];
   return str;
 }
 
@@ -91,7 +96,7 @@ function getMoveProperties(moveId = 0) {
 
   return {
     moveId: moveId,
-    name: MOVES[moveId].name ?? 'None',
+    name: MOVE_ENUM[moveId] ?? 'None',
     desc: getMoveDescription(moveId),
     type,
     damageType, //0 = Status, 1 = Physical, 2 = Special
@@ -101,10 +106,11 @@ function getMoveProperties(moveId = 0) {
   };
 }
 
-function getEggMoves(pokemonId = 0) {
-  if (!Number.isInteger(pokemonId) || PersonalTable.Personal[pokemonId] === undefined) return [];
-  const { monsno } = PersonalTable.Personal[pokemonId];
-  const eggMoves = EggMovesTable.Data.find((e) => e.no === monsno && e.formNo === pokemonId)?.wazaNo ?? [];
+function getEggMoves(dexId = 0) {
+  if (!Number.isInteger(dexId) || PersonalTable.Personal[dexId] === undefined) return [];
+  const { monsno } = PersonalTable.Personal[dexId];
+  const formNo = getPokemonFormId(monsno, dexId);
+  const eggMoves = EggMovesTable.Data.find((e) => e.no === monsno && e.formNo === formNo)?.wazaNo ?? [];
   return eggMoves.map((moveId) => ({
     level: 'egg',
     move: getMoveProperties(moveId),
@@ -119,31 +125,44 @@ function getMoveDescription(moveId = 0) {
   return description.trim();
 }
 
+function getTMCompatibility(pokemonId = 0) {
+  const { machine1, machine2, machine3, machine4 } = PersonalTable.Personal[pokemonId];
+  let tmCompatibility = [];
+
+  for (let i = 0; i < 32; i++) {
+    tmCompatibility[i] = (machine1 & (1 << i)) != 0;
+  }
+  for (let i = 0; i < 32; i++) {
+    tmCompatibility[i + 32] = (machine2 & (1 << i)) != 0;
+  }
+  for (let i = 0; i < 32; i++) {
+    tmCompatibility[i + 64] = (machine3 & (1 << i)) != 0;
+  }
+  for (let i = 0; i < 32; i++) {
+    tmCompatibility[i + 96] = (machine4 & (1 << i)) != 0;
+  }
+
+  return tmCompatibility;
+}
+
 function getTechMachineLearnset(pokemonId = 0) {
-  const m1 = PersonalTable.Personal[pokemonId].machine1
-  const m2 = PersonalTable.Personal[pokemonId].machine2
-  const m3 = PersonalTable.Personal[pokemonId].machine3
-  const m4 = PersonalTable.Personal[pokemonId].machine4
-  const learnset = [
-    parseTmLearnsetSection(m1),
-    parseTmLearnsetSection(m2),
-    parseTmLearnsetSection(m3),
-    parseTmLearnsetSection(m4),
-  ]
-    .join('')
-    .split('')
-    .flatMap((e) => parseInt(e));
+  const learnset = getTMCompatibility(pokemonId);
 
   const canLearn = [];
-  for (let i = 0; i < learnset.length; i++) {
-    if (learnset[i] === 0) continue;
-
+  for (let i = 0; i <= MAX_TM_COUNT; i++) {
     const tm = ItemTable.WazaMachine[i];
-    canLearn.push({ level: 'tm', move: getMoveProperties(tm.wazaNo) });
+
+    const legalitySetValue = ItemTable.Item[tm.itemNo].group_id;
+    const isLearnable = learnset[legalitySetValue - 1];
+
+    if (isLearnable) {
+      canLearn.push({ level: 'tm', move: getMoveProperties(tm.wazaNo) });
+    }
   }
 
   return canLearn;
 }
+
 
 function getPokemonLearnset(pokemonId = 0) {
   if (!Number.isInteger(pokemonId) || pokemonId < 0) return [];
