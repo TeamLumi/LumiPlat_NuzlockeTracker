@@ -2,12 +2,14 @@
   "lmpt-1": [
     "Golduck",
     "Gyarados",
+    "Hisuian Qwilfish",
     "Magikarp",
     "Poliwag",
     "Poliwhirl",
     "Psyduck"
   ],
   "lmpt-2": [
+    "Alolan Rattata",
     "Bidoof",
     "Doduo",
     "Hoothoot",
@@ -18,8 +20,10 @@
     "Starly"
   ],
   "lmpt-3": [
+    "Alolan Meowth",
     "Azurill",
     "Bidoof",
+    "Galarian Slowpoke",
     "Gyarados",
     "Magikarp",
     "Masquerain",
@@ -32,6 +36,7 @@
   "lmpt-6": [
     "Burmy",
     "Growlithe",
+    "Hisuian Growlithe",
     "Hoothoot",
     "Houndour",
     "Poochyena",
@@ -46,6 +51,8 @@
     "Corphish",
     "Crawdaunt",
     "Cubone",
+    "Galarian Slowpoke",
+    "Galarian Zigzagoon",
     "Golduck",
     "Gyarados",
     "Lotad",
@@ -57,8 +64,10 @@
     "Starly"
   ],
   "lmpt-9": [
+    "Alolan Diglett",
     "Barboach",
     "Diglett",
+    "Galarian Slowpoke",
     "Geodude",
     "Golbat",
     "Gyarados",
@@ -74,6 +83,8 @@
     "Caterpie",
     "Corphish",
     "Crawdaunt",
+    "Galarian Corsola",
+    "Galarian Ponyta",
     "Goldeen",
     "Golduck",
     "Gyarados",
@@ -93,9 +104,11 @@
     "Wurmple"
   ],
   "lmpt-13": [
+    "Alolan Geodude",
     "Barboach",
     "Geodude",
     "Gyarados",
+    "Hisuian Qwilfish",
     "Magikarp",
     "Makuhita",
     "Psyduck",
@@ -120,8 +133,10 @@
     "Drifloon",
     "Electrike",
     "Elekid",
+    "Galarian Corsola",
     "Gastrodon",
     "Gyarados",
+    "Hisuian Voltorb",
     "Lanturn",
     "Magikarp",
     "Magnemite",
@@ -147,8 +162,11 @@
     "Croagunk",
     "Exeggcute",
     "Farfetch\u2019d",
+    "Galarian Corsola",
     "Gastrodon",
     "Gyarados",
+    "Hisuian Growlithe",
+    "Hisuian Qwilfish",
     "Hoothoot",
     "Hoppip",
     "Illumise",
@@ -189,6 +207,7 @@
     "Dratini",
     "Golduck",
     "Gyarados",
+    "Hisuian Qwilfish",
     "Magikarp",
     "Poliwag",
     "Poliwhirl",
@@ -204,6 +223,7 @@
     "Shuppet"
   ],
   "lmpt-21": [
+    "Alolan Geodude",
     "Burmy",
     "Cascoon",
     "Combee",
@@ -231,6 +251,7 @@
   ],
   "lmpt-23": [
     "Aipom",
+    "Galarian Meowth",
     "Kakuna",
     "Larvitar",
     "Machop",
@@ -245,6 +266,11 @@
   "lmpt-24": [
     "Abomasnow",
     "Absol",
+    "Alolan Geodude",
+    "Alolan Grimer",
+    "Alolan Ninetales",
+    "Alolan Sandshrew",
+    "Alolan Sandslash",
     "Barboach",
     "Beldum",
     "Bronzong",
@@ -258,6 +284,8 @@
     "Dragonair",
     "Dratini",
     "Feebas",
+    "Galarian Slowking",
+    "Galarian Slowpoke",
     "Geodude",
     "Golbat",
     "Graveler",
@@ -284,6 +312,8 @@
     "Cherubi",
     "Dunsparce",
     "Exeggcute",
+    "Galarian Farfetch'd",
+    "Galarian Slowpoke",
     "Goldeen",
     "Golduck",
     "Gyarados",
@@ -307,6 +337,7 @@
     "Bonsly",
     "Chansey",
     "Farfetch\u2019d",
+    "Galarian Corsola",
     "Glameow",
     "Goldeen",
     "Golduck",
@@ -361,6 +392,8 @@
     "Beedrill",
     "Butterfree",
     "Cacnea",
+    "Galarian Farfetch'd",
+    "Galarian Slowpoke",
     "Goldeen",
     "Golduck",
     "Graveler",
@@ -377,6 +410,8 @@
     "Vigoroth"
   ],
   "lmpt-35": [
+    "Alolan Diglett",
+    "Alolan Dugtrio",
     "Diglett",
     "Ditto",
     "Dugtrio",
@@ -386,6 +421,7 @@
     "Whismur"
   ],
   "lmpt-36": [
+    "Alolan Exeggutor",
     "Bibarel",
     "Girafarig",
     "Kricketune",
@@ -398,6 +434,9 @@
     "Chatot",
     "Farfetch\u2019d",
     "Floatzel",
+    "Galarian Corsola",
+    "Galarian Linoone",
+    "Gastrodon East Sea",
     "Gyarados",
     "Magikarp",
     "Noctowl",
@@ -425,6 +464,8 @@
     "Exeggcute",
     "Gulpin",
     "Gyarados",
+    "Hisuian Qwilfish",
+    "Hisuian Sneasel",
     "Kangaskhan",
     "Magikarp",
     "Parasect",
@@ -464,11 +505,14 @@
     "Togepi"
   ],
   "lmpt-40": [
+    "Alolan Grimer",
     "Dragonair",
     "Dratini",
     "Drifblim",
     "Farfetch\u2019d",
     "Fearow",
+    "Galarian Slowpoke",
+    "Galarian Weezing",
     "Golduck",
     "Gyarados",
     "Horsea",
@@ -495,6 +539,7 @@
     "Zangoose"
   ],
   "lmpt-41": [
+    "Galarian Corsola",
     "Golduck",
     "Gyarados",
     "Magikarp",
@@ -502,11 +547,13 @@
     "Relicanth"
   ],
   "lmpt-42": [
+    "Alolan Muk",
     "Beautifly",
     "Combee",
     "Dustox",
     "Finneon",
     "Forretress",
+    "Galarian Corsola",
     "Gastrodon",
     "Gyarados",
     "Heracross",
@@ -527,6 +574,7 @@
   ],
   "lmpt-43": [
     "Clamperl",
+    "Galarian Slowbro",
     "Gorebyss",
     "Horsea",
     "Huntail",
@@ -540,6 +588,7 @@
   ],
   "lmpt-44": [
     "Corsola",
+    "Galarian Slowbro",
     "Horsea",
     "Luvdisc",
     "Mantine",
@@ -555,6 +604,7 @@
     "Dodrio",
     "Exeggcute",
     "Farfetch\u2019d",
+    "Galarian Corsola",
     "Girafarig",
     "Gorebyss",
     "Horsea",
@@ -576,6 +626,7 @@
     "Wingull"
   ],
   "lmpt-46": [
+    "Alolan Dugtrio",
     "Beautifly",
     "Chatot",
     "Combee",
@@ -586,6 +637,7 @@
     "Finneon",
     "Floatzel",
     "Forretress",
+    "Galarian Slowpoke",
     "Gastrodon",
     "Gyarados",
     "Heracross",
@@ -616,6 +668,7 @@
     "Tentacruel"
   ],
   "lmpt-48": [
+    "Alolan Graveler",
     "Cursola",
     "Finneon",
     "Golbat",
@@ -653,6 +706,8 @@
     "Tyrogue"
   ],
   "lmpt-51": [
+    "Alolan Sandshrew",
+    "Alolan Vulpix",
     "Delibird",
     "Smoochum",
     "Sneasel",
@@ -662,8 +717,10 @@
   ],
   "lmpt-52": [
     "Abomasnow",
+    "Alolan Ninetales",
     "Delibird",
     "Froslass",
+    "Galarian Mr. Mime",
     "Glalie",
     "Jynx",
     "Piloswine",
@@ -682,6 +739,7 @@
     "Snorunt"
   ],
   "lmpt-54": [
+    "Alolan Ninetales",
     "Froslass",
     "Glalie",
     "Golbat",
@@ -696,6 +754,7 @@
     "Chimecho",
     "Cursola",
     "Dusclops",
+    "Galarian Slowking",
     "Golduck",
     "Gyarados",
     "Lunatone",
@@ -705,6 +764,7 @@
     "Wobbuffet"
   ],
   "lmpt-58": [
+    "Alolan Raichu",
     "Chatot",
     "Cursola",
     "Delcatty",
@@ -755,6 +815,7 @@
   ],
   "lmpt-61": [
     "Corsola",
+    "Galarian Slowking",
     "Gyarados",
     "Luvdisc",
     "Magikarp",
@@ -766,10 +827,12 @@
     "Carvanha",
     "Gastrodon",
     "Gyarados",
+    "Hisuian Qwilfish",
     "Magikarp",
     "Poliwag",
     "Poliwhirl",
     "Sharpedo",
+    "Shellos East Sea",
     "Tentacool",
     "Tentacruel"
   ],
@@ -787,6 +850,7 @@
     "Goldeen",
     "Grimer",
     "Gyarados",
+    "Hisuian Qwilfish",
     "Kirlia",
     "Koffing",
     "Lombre",
@@ -800,6 +864,7 @@
     "Roselia",
     "Scyther",
     "Seaking",
+    "Shellos East Sea",
     "Shroomish",
     "Smeargle",
     "Staravia",
@@ -812,6 +877,7 @@
   ],
   "lmpt-66": [
     "Bibarel",
+    "Galarian Slowbro",
     "Golduck",
     "Gyarados",
     "Lickitung",
@@ -838,6 +904,7 @@
     "Wobbuffet"
   ],
   "lmpt-69": [
+    "Alolan Diglett",
     "Aron",
     "Geodude",
     "Onix",
@@ -846,10 +913,12 @@
     "Zubat"
   ],
   "lmpt-70": [
+    "Alolan Golem",
     "Azumarill",
     "Dewgong",
     "Floatzel",
     "Gabite",
+    "Galarian Slowbro",
     "Golbat",
     "Graveler",
     "Gyarados",
@@ -873,8 +942,11 @@
     "Chatot",
     "Corsola",
     "Dustox",
+    "Galarian Slowbro",
+    "Gastrodon East Sea",
     "Gloom",
     "Gyarados",
+    "Hisuian Electrode",
     "Luvdisc",
     "Magikarp",
     "Pelipper",
@@ -885,6 +957,7 @@
     "Xatu"
   ],
   "lmpt-72": [
+    "Alolan Persian",
     "Barboach",
     "Cursola",
     "Fearow",
@@ -904,6 +977,7 @@
     "Arbok",
     "Dodrio",
     "Fearow",
+    "Galarian Rapidash",
     "Gyarados",
     "Horsea",
     "Kingler",
@@ -921,6 +995,7 @@
   "lmpt-74": [
     "Barboach",
     "Camerupt",
+    "Galarian Slowking",
     "Gligar",
     "Gyarados",
     "Magikarp",
@@ -934,6 +1009,7 @@
     "Whiscash"
   ],
   "lmpt-75": [
+    "Alolan Dugtrio",
     "Barboach",
     "Cacturne",
     "Claydol",
@@ -950,7 +1026,9 @@
     "Whiscash"
   ],
   "lmpt-76": [
+    "Alolan Exeggutor",
     "Ariados",
+    "Galarian Slowbro",
     "Goldeen",
     "Gyarados",
     "Illumise",
@@ -969,6 +1047,8 @@
   "lmpt-77": [
     "Corsola",
     "Floatzel",
+    "Galarian Slowking",
+    "Gastrodon East Sea",
     "Golduck",
     "Gyarados",
     "Magikarp",
@@ -989,8 +1069,10 @@
     "Overqwil"
   ],
   "lmpt-81": [
+    "Alolan Marowak",
     "Camerupt",
     "Fearow",
+    "Galarian Weezing",
     "Gligar",
     "Golbat",
     "Graveler",
@@ -1010,6 +1092,7 @@
     "Dusclops",
     "Golbat",
     "Haunter",
+    "Hisuian Typhlosion",
     "Lunatone",
     "Solrock",
     "Typhlosion"
