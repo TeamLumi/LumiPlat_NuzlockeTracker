@@ -13945,9 +13945,7 @@
     "type": "GHOST",
     "dualtype": "FAIRY",
     "evolve": [
-      778,
-      779,
-      780
+      778
     ],
     "generation": 8,
     "abilities": [
@@ -13964,10 +13962,7 @@
     "type": "WATER",
     "dualtype": "PSYCHIC",
     "evolve": [
-      778,
-      1349,
-      779,
-      780
+      779
     ],
     "generation": 8,
     "abilities": [
@@ -13984,9 +13979,6 @@
     "type": "NORMAL",
     "dualtype": "DRAGON",
     "evolve": [
-      778,
-      1349,
-      779,
       780
     ],
     "generation": 8,
@@ -24857,9 +24849,7 @@
     "type": "GHOST",
     "dualtype": "FAIRY",
     "evolve": [
-      1349,
-      779,
-      780
+      1349
     ],
     "generation": 8,
     "abilities": [
