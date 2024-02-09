@@ -13,6 +13,7 @@ interface MoveControllerProps {
 
 function MoveController({ move, pokemon, stats }: MoveControllerProps): JSX.Element {
   const form = useStore(useCallback((state) => state.calcs[state?.selectedGame?.value]?.form, []));
+  const pokemonId = form[`pokemon${pokemon}`];
   const update = useStore(useCallback((state) => state.updateDefaultValues, []));
 
   const handleMove = (moveId: number) => {
@@ -26,6 +27,7 @@ function MoveController({ move, pokemon, stats }: MoveControllerProps): JSX.Elem
         handleMove={handleMove}
         limitGen={form.calculatorGen}
         stats={stats}
+        pokemonId={pokemonId}
       />
       {form[`move${move}_${pokemon}`] && (
         <>

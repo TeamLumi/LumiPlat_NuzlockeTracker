@@ -13,6 +13,7 @@ import useStore from 'store';
 import styles from './MoveSelector.module.scss';
 import { calcHiddenPower } from 'components/Moves/Moves';
 import { PokemonIVs } from 'constants/types';
+import { getEggMoves, getLevelLearnset, getTechMachineLearnset, getTutorMoves } from 'constants/moveFunctions';
 
 interface MoveSelectorProps {
   currentMoveId: number;
@@ -20,6 +21,7 @@ interface MoveSelectorProps {
   hideGen?: boolean;
   limitGen?: number;
   stats?: PokemonIVs;
+  pokemonId?: number;
 }
 
 function MoveSelector({
@@ -28,6 +30,7 @@ function MoveSelector({
   hideGen,
   limitGen,
   stats,
+  pokemonId = 0,
 }: MoveSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
@@ -36,7 +39,22 @@ function MoveSelector({
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const isSplit = !PHYS_SPEC_SPLIT.includes(selectedGame?.value);
   const currentMove = MOVEMAP.get(currentMoveId);
-  const filteredMoves = MOVES.filter(
+  const learnset = {
+    level: getLevelLearnset(pokemonId),
+    tm: getTechMachineLearnset(pokemonId),
+    egg: getEggMoves(pokemonId),
+    tutor: getTutorMoves(pokemonId)
+  };
+
+  const learnsetMovesList = Object.values(learnset)
+    .flat()
+    .map((move: any) => move.move.name.toUpperCase());
+
+  const filteredMovesList = MOVES.filter((move) =>
+    learnsetMovesList.includes(move.name.toUpperCase())
+  );
+
+  const initialFilteredMoves = filteredMovesList.filter(
     (m) =>
       m.name.toUpperCase().includes(values.search) &&
       (values.gens.length > 0 ? values.gens.includes(m.gen) : true) &&
@@ -61,6 +79,12 @@ function MoveSelector({
     currentMove.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
     currentMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
   };
+
+  const filteredMoves = initialFilteredMoves.sort((a, b) => {
+    const indexA = learnsetMovesList.indexOf(a.name.toUpperCase());
+    const indexB = learnsetMovesList.indexOf(b.name.toUpperCase());
+    return indexA - indexB;
+  });  
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);

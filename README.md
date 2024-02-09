@@ -39,6 +39,7 @@ Join us on our [Discord](https://discord.gg/luminescent) to report any features 
 - Search and filter through all encounters - including only missing encounters
 - Export, import and share Nuzlocke runs with others!
 - Fully integrated damage calculator
+- Choose from legal moves that a pokemon can learn when selecting a moveset
 - Share, add and edit custom rules and rulesets - including smart rules that alert if they're broken
 - View overview and summary of your nuzlocke run
 - Dupes clause alerts
