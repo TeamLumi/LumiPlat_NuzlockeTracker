@@ -26617,21 +26617,5 @@
     ],
     "dexNum": 905,
     "form": 1
-  },
-  {
-    "value": 1456,
-    "text": "Oinkologne-F",
-    "type": "NORMAL",
-    "evolve": [
-      1456
-    ],
-    "generation": 8,
-    "abilities": [
-      "Serene Grace",
-      "Natural Cure",
-      "Healer"
-    ],
-    "dexNum": 916,
-    "form": 1
   }
 ]
