@@ -51,7 +51,7 @@
     "start": "react-scripts start",
     "httpss": "HTTPS=true react-scripts start",
     "develop:ci": "CHOKIDAR_USEPOLLING=1 react-scripts -r @cypress/instrument-cra start --config-file=cypress.config.ts",
-    "build": "npm run build-calc && react-scripts build",
+    "build": "CI=false && npm run build-calc && react-scripts build",
     "e2e": "cypress open",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

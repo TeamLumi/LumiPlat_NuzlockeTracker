@@ -11,12 +11,14 @@ import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
+import { getEggMoves, getLevelLearnset, getTechMachineLearnset, getTutorMoves } from 'constants/moveFunctions';
 
 interface MoveSelectorProps {
   currentMoveId: number;
   handleMove: (moveId: number) => void;
   hideGen?: boolean;
   limitGen?: number;
+  pokemonId?: number;
 }
 
 function MoveSelector({
@@ -24,6 +26,7 @@ function MoveSelector({
   handleMove,
   hideGen,
   limitGen,
+  pokemonId = 0,
 }: MoveSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
@@ -32,13 +35,34 @@ function MoveSelector({
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const isSplit = !PHYS_SPEC_SPLIT.includes(selectedGame?.value);
   const currentMove = MOVEMAP.get(currentMoveId);
-  const filteredMoves = MOVES.filter(
+  const learnset = {
+    level: getLevelLearnset(pokemonId),
+    tm: getTechMachineLearnset(pokemonId),
+    egg: getEggMoves(pokemonId),
+    tutor: getTutorMoves(pokemonId)
+  };
+
+  const learnsetMovesList = Object.values(learnset)
+    .flat()
+    .map((move: any) => move.move.name.toUpperCase());
+
+  const filteredMovesList = MOVES.filter((move) =>
+    learnsetMovesList.includes(move.name.toUpperCase())
+  );
+
+  const initialFilteredMoves = filteredMovesList.filter(
     (m) =>
       m.name.toUpperCase().includes(values.search) &&
       (values.gens.length > 0 ? values.gens.includes(m.gen) : true) &&
       (limitGen ? m.gen <= limitGen : true) &&
       (values.types.length > 0 ? values.types.includes(m.type) : true)
   );
+
+  const filteredMoves = initialFilteredMoves.sort((a, b) => {
+    const indexA = learnsetMovesList.indexOf(a.name.toUpperCase());
+    const indexB = learnsetMovesList.indexOf(b.name.toUpperCase());
+    return indexA - indexB;
+  });  
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);

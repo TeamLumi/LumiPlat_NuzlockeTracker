@@ -488,3 +488,215 @@ export type TProfile = {
   updated_at: string | Date;
   nuzlocke: string;
 };
+
+type SharedProperties = {
+  m_GameObject: {
+    m_FileID: number;
+    m_PathID: number;
+  };
+  m_Enabled: number;
+  m_Script: {
+    m_FileID: number;
+    m_PathID: number;
+  };
+  m_Name: string;
+};
+
+type LabelStyleInfo = {
+  styleIndex: number;
+  colorIndex: number;
+  fontSize: number;
+  maxWidth: number;
+  controlID: number;
+};
+
+type LabelData = {
+  labelIndex: number;
+  arrayIndex: number;
+  labelName: string;
+  styleInfo: LabelStyleInfo;
+  attributeValueArray: number[];
+  tagDataArray: any[];
+  wordDataArray: {
+    patternID: number;
+    eventID: number;
+    tagIndex: number;
+    tagValue: number;
+    str: string;
+    strWidth: number;
+  }[];
+};
+
+export type TLumiNameFiles = SharedProperties & {
+  hash: number;
+  langID: number;
+  isResident: number;
+  isKanji: number;
+  labelDataArray: LabelData[];
+};
+
+export type TLearnset = SharedProperties & {
+  WazaOboe: {
+    id: number;
+    ar: number[];
+  }[];
+};
+
+export type TEggLearnset = SharedProperties & {
+  Data: {
+    no: number,
+    formNo: number,
+    wazaNo: number[],
+  }[];
+};
+
+type MoveInfoDetails = {
+  wazaNo: number;
+  isValid: number;
+  type: number;
+  category: number;
+  damageType: number;
+  power: number;
+  hitPer: number;
+  basePP: number;
+  priority: number;
+  hitCountMax: number;
+  hitCountMin: number;
+  sickID: number;
+  sickPer: number;
+  sickCont: number;
+  sickTurnMin: number;
+  sickTurnMax: number;
+  criticalRank: number;
+  shrinkPer: number;
+  aiSeqNo: number;
+  damageRecoverRatio: number;
+  hpRecoverRatio: number;
+  target: number;
+  rankEffType1: number;
+  rankEffType2: number;
+  rankEffType3: number;
+  rankEffValue1: number;
+  rankEffValue2: number;
+  rankEffValue3: number;
+  rankEffPer1: number;
+  rankEffPer2: number;
+  rankEffPer3: number;
+  flags: number;
+  contestWazaNo: number;
+}
+
+export type TMoveInfo = SharedProperties & {
+  Waza: MoveInfoDetails[];
+}
+
+type TItem = {
+  no: number;
+  type: number;
+  iconid: number;
+  price: number;
+  bp_price: number;
+  eqp: number;
+  atc: number;
+  nage_atc: number;
+  sizen_atc: number;
+  sizen_type: number;
+  tuibamu_eff: number;
+  sort: number;
+  group: number;
+  group_id: number;
+  fld_pocket: number;
+  field_func: number;
+  battle_func: number;
+  wk_cmn: number;
+  wk_critical_up: number;
+  wk_atc_up: number;
+  wk_def_up: number;
+  wk_agi_up: number;
+  wk_hit_up: number;
+  wk_spa_up: number;
+  wk_spd_up: number;
+  wk_prm_pp_rcv: number;
+  wk_prm_hp_exp: number;
+  wk_prm_pow_exp: number;
+  wk_prm_def_exp: number;
+  wk_prm_agi_exp: number;
+  wk_prm_spa_exp: number;
+  wk_prm_spd_exp: number;
+  wk_friend1: number;
+  wk_friend2: number;
+  wk_friend3: number;
+  wk_prm_hp_rcv: number;
+  flags0: number;
+}
+
+type TWazaMachine = {
+  itemNo: number;
+  machineNo: number;
+  wazaNo: number;
+}
+
+export type TItemTable = SharedProperties & {
+  Item: TItem[];
+  WazaMachine: TWazaMachine[];
+}
+
+export type TPersonalData = {
+  valid_flag: number;
+  id: number;
+  monsno: number;
+  form_index: number;
+  form_max: number;
+  color: number;
+  gra_no: number;
+  basic_hp: number;
+  basic_atk: number;
+  basic_def: number;
+  basic_agi: number;
+  basic_spatk: number;
+  basic_spdef: number;
+  type1: number;
+  type2: number;
+  get_rate: number;
+  rank: number;
+  exp_value: number;
+  item1: number;
+  item2: number;
+  item3: number;
+  sex: number;
+  egg_birth: number;
+  initial_friendship: number;
+  egg_group1: number;
+  egg_group2: number;
+  grow: number;
+  tokusei1: number;
+  tokusei2: number;
+  tokusei3: number;
+  give_exp: number;
+  height: number;
+  weight: number;
+  chihou_zukan_no: number;
+  machine1: number;
+  machine2: number;
+  machine3: number;
+  machine4: number;
+  hiden_machine: number;
+  egg_monsno: number;
+  egg_formno: number;
+  egg_formno_kawarazunoishi: number;
+  egg_form_inherit_kawarazunoishi: number;
+}
+
+export type TPersonalTable = SharedProperties & {
+  Personal: TPersonalData[];
+}
+
+export type TTutorTable = {
+  [key: string]: {
+    [index: string]: number[];
+  };
+}
+
+export type TFormMap = {
+  [key: number]: number[];
+}

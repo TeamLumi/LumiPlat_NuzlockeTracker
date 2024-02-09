@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e94e536.css",
-    "main.js": "/static/js/main.9623c1f1.js",
+    "main.css": "/static/css/main.7bb19010.css",
+    "main.js": "/static/js/main.6120608a.js",
     "static/js/255.b66b8e8c.chunk.js": "/static/js/255.b66b8e8c.chunk.js",
-    "static/media/pokemon.png": "/static/media/pokemon.780298691c6b6f73424e.png",
-    "static/media/pokemon-shiny.png": "/static/media/pokemon-shiny.b53090fa2e7d8aeca7e5.png",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/items.png": "/static/media/items.ea9c19fdc0eb6452f068.png",
@@ -49,12 +47,12 @@
     "static/media/dark.svg": "/static/media/dark.db620f393eba5193bb25532df5b346e6.svg",
     "static/media/normal.svg": "/static/media/normal.fde99fed5894d4079a2bc1307dff4d7e.svg",
     "static/media/electric.svg": "/static/media/electric.46b4601a5ec401b7ceb5889a95e88708.svg",
-    "main.3e94e536.css.map": "/static/css/main.3e94e536.css.map",
-    "main.9623c1f1.js.map": "/static/js/main.9623c1f1.js.map",
+    "main.7bb19010.css.map": "/static/css/main.7bb19010.css.map",
+    "main.6120608a.js.map": "/static/js/main.6120608a.js.map",
     "255.b66b8e8c.chunk.js.map": "/static/js/255.b66b8e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e94e536.css",
-    "static/js/main.9623c1f1.js"
+    "static/css/main.7bb19010.css",
+    "static/js/main.6120608a.js"
   ]
 }
