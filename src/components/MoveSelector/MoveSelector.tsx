@@ -50,9 +50,15 @@ function MoveSelector({
     .flat()
     .map((move: any) => move.move.name.toUpperCase());
 
-  const filteredMovesList = MOVES.filter((move) =>
-    learnsetMovesList.includes(move.name.toUpperCase())
-  );
+  const filteredMovesList = MOVES.filter((move) => {
+    if (move.name.includes("Hidden Power")) {
+      return learnsetMovesList.some((learnsetMove) =>
+        move.name.toUpperCase().includes(learnsetMove.toUpperCase())
+      );
+    } else {
+      return learnsetMovesList.includes(move.name.toUpperCase());
+    }
+  });
 
   const initialFilteredMoves = filteredMovesList.filter(
     (m) =>
@@ -61,30 +67,30 @@ function MoveSelector({
       (limitGen ? m.gen <= limitGen : true) &&
       (values.types.length > 0 ? values.types.includes(m.type) : true)
   );
-  const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
-  if (
-    currentMove &&
-    isAnyStatUndefined &&
-    currentMove.name.includes("Hidden Power")
-  ) {
-    currentMove.name = "Hidden Power (Input IVs for Type)";
-    currentMove.type = TYPES[0];
-  } 
-  if (
-    currentMove &&
-    !isAnyStatUndefined &&
-    currentMove.name.includes("Hidden Power")
-  ) {
-    const hiddenPowerType = calcHiddenPower(stats)
-    currentMove.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
-    currentMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
-  };
 
   const filteredMoves = initialFilteredMoves.sort((a, b) => {
-    const indexA = learnsetMovesList.indexOf(a.name.toUpperCase());
-    const indexB = learnsetMovesList.indexOf(b.name.toUpperCase());
+    const aName = a.name.includes("Hidden Power") ? "HIDDEN POWER" : a.name.toUpperCase();
+    const bName = b.name.includes("Hidden Power") ? "HIDDEN POWER" : b.name.toUpperCase();
+    const indexA = learnsetMovesList.indexOf(aName);
+    const indexB = learnsetMovesList.indexOf(bName);
     return indexA - indexB;
-  });  
+  });
+
+  const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
+  const HPIndex = filteredMoves.findIndex((move) => {
+    return move.name.includes("Hidden Power");
+  })
+  if ( isAnyStatUndefined && HPIndex !== -1 ) {
+    const hiddenPowerMove = filteredMoves[HPIndex];
+    hiddenPowerMove.name = "Hidden Power (Input IVs for Type)";
+    hiddenPowerMove.type = TYPES[0];
+  }
+  if ( !isAnyStatUndefined && HPIndex !== -1 ) {
+    const hiddenPowerType = calcHiddenPower(stats);
+    const hiddenPowerMove = filteredMoves[HPIndex];
+    hiddenPowerMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
+    hiddenPowerMove.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+  };
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);
@@ -99,24 +105,6 @@ function MoveSelector({
 
   const renderRow: React.FC<RowProps> = ({ index, style }) => {
     const move = filteredMoves[index];
-    const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
-    if (
-      move &&
-      isAnyStatUndefined &&
-      move.name.includes("Hidden Power")
-    ) {
-      move.name = "Hidden Power (Input IVs for Type)";
-      move.type = TYPES[0];
-    }
-    if (
-      move &&
-      move.name.includes("Hidden Power") &&
-      !isAnyStatUndefined
-    ) {
-      const hiddenPowerType = calcHiddenPower(stats);
-      move.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
-      move.type = HIDDEN_POWER_TYPES[hiddenPowerType];
-    };
     return (
       <div style={style}>
         <div
