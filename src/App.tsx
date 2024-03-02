@@ -238,7 +238,7 @@ function App(): JSX.Element {
         </Sidebar.Pusher>
       </Sidebar.Pushable>
       <footer className={`${styles.footer} ${visible ? styles.hide : ''}`}>
-        Pokémon © 2002-2021 Pokémon <br />© 1995-2021 Nintendo/Creatures Inc./GAME FREAK inc. TM,
+        Pokémon © 2002-2024 Pokémon <br />© 1995-2024 Nintendo/Creatures Inc./GAME FREAK inc. TM,
         <br />® and Pokémon character names are trademarks of Nintendo.
       </footer>
       <Effectiveness />

@@ -40,6 +40,7 @@ Join us on our [Discord](https://discord.gg/luminescent) to report any features 
 - Export, import and share Nuzlocke runs with others!
 - Fully integrated damage calculator
 - Choose from legal moves that a pokemon can learn when selecting a moveset
+- Automatic Hidden Power Calculator based on pokemon's stats
 - Share, add and edit custom rules and rulesets - including smart rules that alert if they're broken
 - View overview and summary of your nuzlocke run
 - Dupes clause alerts
