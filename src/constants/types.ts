@@ -293,6 +293,42 @@ export type Type =
   | 'STEEL'
   | 'FAIRY';
 
+export type HiddenPowerTypes =
+  | 'FIGHTING'
+  | 'FLYING'
+  | 'POISON'
+  | 'GROUND'
+  | 'ROCK'
+  | 'BUG'
+  | 'GHOST'
+  | 'STEEL'
+  | 'FIRE'
+  | 'WATER'
+  | 'GRASS'
+  | 'ELECTRIC'
+  | 'PSYCHIC'
+  | 'ICE'
+  | 'DRAGON'
+  | 'DARK';
+
+export type HiddenPowerInts = 
+  | 1
+  | 2
+  | 3
+  | 4
+  | 5
+  | 6
+  | 7
+  | 8
+  | 9
+  | 10
+  | 11
+  | 12
+  | 13
+  | 14
+  | 15
+  | 16;
+
 export type TLanguage = 'en' | 'es' | 'de';
 
 type Category = 'Physical' | 'Special' | 'Status' | '???';
@@ -356,6 +392,15 @@ export interface PokemonDetail {
   evspatk?: number;
   evspdef?: number;
   evspeed?: number;
+}
+
+export type PokemonIVs = {
+  atk?: number;
+  def?: number;
+  hp?: number;
+  spe?: number;
+  spa?: number;
+  spd?: number;
 }
 
 export type TReleaseNotes = { name: string; date: number; notes: TReleaseNote[] }[];

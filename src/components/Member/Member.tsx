@@ -9,7 +9,7 @@ import { MoveSelector, Natures, PokemonType } from 'components';
 import { TYPE_COLOR } from 'constants/colors';
 import NATURES from 'constants/natures';
 import { POKEMAP } from 'constants/pokemon';
-import type { PokemonDetail } from 'constants/types';
+import type { PokemonDetail, PokemonIVs } from 'constants/types';
 import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
 import styles from './Member.module.scss';
@@ -22,6 +22,15 @@ interface MemberProps {
 function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
   const { t } = useTranslation('builder');
   const pokemon = POKEMAP.get(pokemonDetail.id);
+  const stats: PokemonIVs = {
+    hp: pokemonDetail?.ivhp,
+    atk: pokemonDetail?.ivatk,
+    def: pokemonDetail?.ivdef,
+    spe: pokemonDetail?.ivspeed,
+    spa: pokemonDetail?.ivspatk,
+    spd: pokemonDetail?.ivspdef,
+  }
+
   const changeTeamMember = useStore(useCallback((state) => state.changeTeamMember, []));
   const deleteTeamMember = useStore(useCallback((state) => state.deleteTeamMember, []));
   const darkMode = useStore(useCallback((state) => state.darkMode, []));
@@ -107,6 +116,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          stats={stats}
           pokemonId={pokemonDetail.id}
         />
         <MoveSelector
@@ -122,6 +132,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          stats={stats}
           pokemonId={pokemonDetail.id}
         />
         <MoveSelector
@@ -137,6 +148,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          stats={stats}
           pokemonId={pokemonDetail.id}
         />
         <MoveSelector
@@ -152,6 +164,7 @@ function Member({ index, pokemonDetail }: MemberProps): JSX.Element {
               ],
             })
           }
+          stats={stats}
           pokemonId={pokemonDetail.id}
         />
         <Button

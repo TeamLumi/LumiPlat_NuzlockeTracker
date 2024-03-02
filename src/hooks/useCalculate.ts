@@ -3,11 +3,12 @@ import { calculate, Field, Move, Pokemon, Result } from 'lumi-calc/dist/calc/ind
 import type { StatusName } from '@smogon/calc/dist/data/interface';
 import { useCallback, useMemo } from 'react';
 import { FORBIDDEN_ITEMS, GenderCalc } from 'constants/calculator';
-import { SMOGON_NAMES } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, SMOGON_NAMES } from 'constants/constant';
 import { MOVEMAP } from 'constants/moves';
 import { POKEMAP } from 'constants/pokemon';
 import type { TCalculatorForm } from 'constants/types';
 import useStore from 'store';
+import { calcHiddenPower, getHiddenPowerNameWithType } from 'components/Moves/Moves';
 
 export function assertResult(val: unknown[]): asserts val is [Result, Result, Result, Result] {
   if (val.length !== 4) {
@@ -94,11 +95,16 @@ export function getResults(
     const moveIndex = i + 1;
     assertIndex(moveIndex);
     if (all?.calculatorGen && all[`move${moveIndex}_${id}`]) {
+      let moveName = MOVEMAP.get(all[`move${moveIndex}_${id}`])?.name;
+      if (moveName.includes("Hidden Power")) {
+        const hiddenPowerType = calcHiddenPower(attacker.ivs);
+        moveName = getHiddenPowerNameWithType(hiddenPowerType);
+      }
       return calculate(
         all?.calculatorGen,
         attacker,
         defender,
-        new Move(all?.calculatorGen, MOVEMAP.get(all[`move${moveIndex}_${id}`])?.name, {
+        new Move(all?.calculatorGen, moveName, {
           isCrit: all[`move${moveIndex}_crit${id}`],
           useZ: all[`move${moveIndex}_z${id}`],
           useMax: all?.[`isDynamaxed${id}`],
