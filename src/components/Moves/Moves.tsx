@@ -2,7 +2,7 @@ import { Move } from 'components';
 import { MOVEMAP } from 'constants/moves';
 import styles from './Moves.module.scss';
 import { HIDDEN_POWER_TYPES, TYPES } from 'constants/constant';
-import { PokemonIVs } from 'constants/types';
+import { HiddenPowerInts, PokemonIVs } from 'constants/types';
 
 interface MovesProps {
   moves?: number[];
@@ -10,20 +10,26 @@ interface MovesProps {
   stats?: PokemonIVs;
 }
 
-export function calcHiddenPower(stats : PokemonIVs) {
+export function getHiddenPowerNameWithType(hiddenPowerType: HiddenPowerInts) {
+  return `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+}
+
+export function calcHiddenPower(
+  pokemon1Stats : PokemonIVs,
+  ) {
   const ivSigBits = {
-    hp: stats.hp % 2,
-    atk: stats.atk % 2,
-    def: stats.def % 2,
-    spe: stats.spe % 2,
-    spa: stats.spa % 2,
-    spd: stats.spd % 2,
+    hp: pokemon1Stats.hp % 2,
+    atk: pokemon1Stats.atk % 2,
+    def: pokemon1Stats.def % 2,
+    spe: pokemon1Stats.spe % 2,
+    spa: pokemon1Stats.spa % 2,
+    spd: pokemon1Stats.spd % 2,
   };
   const sumIvs = Object.values(ivSigBits)
     .map((value, index) => value * (2 ** index))
     .reduce((acc, val) => acc + val, 0);
 
-  const hiddenPowerType = Math.floor((sumIvs * 15) / 63);
+  const hiddenPowerType : HiddenPowerInts = Math.floor((sumIvs * 15) / 63) as HiddenPowerInts;
   return hiddenPowerType;
 }
 
@@ -42,7 +48,7 @@ function Moves({ moves = [], showStatus = false, stats }: MovesProps): JSX.Eleme
           moveDetail.type = TYPES[0];
         } else if (move && moveDetail.name.includes("Hidden Power") && !isAnyStatUndefined) {
           const hiddenPowerType = calcHiddenPower(stats);
-          moveDetail.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+          moveDetail.name = getHiddenPowerNameWithType(hiddenPowerType);
           moveDetail.type = HIDDEN_POWER_TYPES[hiddenPowerType];
         }
         return (

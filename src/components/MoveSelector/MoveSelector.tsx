@@ -11,7 +11,7 @@ import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
-import { calcHiddenPower } from 'components/Moves/Moves';
+import { calcHiddenPower, getHiddenPowerNameWithType } from 'components/Moves/Moves';
 import { PokemonIVs } from 'constants/types';
 import { getEggMoves, getLevelLearnset, getTechMachineLearnset, getTutorMoves } from 'constants/moveFunctions';
 
@@ -89,7 +89,7 @@ function MoveSelector({
     const hiddenPowerType = calcHiddenPower(stats);
     const hiddenPowerMove = filteredMoves[HPIndex];
     hiddenPowerMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
-    hiddenPowerMove.name = `Hidden Power (${HIDDEN_POWER_TYPES[hiddenPowerType][0]}${HIDDEN_POWER_TYPES[hiddenPowerType].slice(1).toLowerCase()})`;
+    hiddenPowerMove.name = getHiddenPowerNameWithType(hiddenPowerType);
   };
 
   const handleClick = (moveId: number) => {
