@@ -1,4 +1,5 @@
 import EncounterMoves from 'components/EncounterMoves/EncounterMoves';
+import { Carousel } from 'primereact/carousel';
 
 import type { LocationDetails } from 'constants/types';
 import { POKEMON_RATES } from 'constants/encounter_locations';
@@ -39,26 +40,41 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
     }, {})
   );
 
+  const EncounterDisplay = (encounter: LocationDetails) => (
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: "2fr 1fr",
+        columnGap: "var(--spacing-4)",
+        justifyContent: "space-between"
+      }}
+    >
+      <div>
+        <EncounterMoves pokemonId={pokemon_id} encLevel={encounter.minLevel} />
+      </div>
+      <div className={styles.encounter}>
+        <span>{ENC_TYPES[encounter.encounterType]} </span>
+        <span>{encounter.encounterRate}</span>
+        {combinedEncounters.length > 1 && (
+          <span> {combinedEncounters.findIndex(item => item === encounter) + 1} of {combinedEncounters.length}</span>
+        )}
+      </div>
+    </div>
+  );
+
   return (
-    <>
-      <div>
-        {Array.from(new Set(combinedEncounters.map(encounter => encounter.minLevel))).map((uniqueMinLevel, index) => {
-          return (
-            <EncounterMoves pokemonId={pokemon_id} encLevel={uniqueMinLevel}/>
-          );
-        })}
-      </div>
-      <div>
-        {combinedEncounters.map((encounter, index) => {
-          return (
-            <div key={index} className={styles.encounter}>
-              <span>{ENC_TYPES[encounter.encounterType]}</span> {/* encounterType */}
-              <span>{encounter.encounterRate}</span> {/* encounterRate */}
-            </div>
-          )
-        })}
-      </div>
-    </>
+    <Carousel
+      value={combinedEncounters}
+      showNavigators={false}
+      showIndicators
+      numVisible={1}
+      numScroll={1}
+      circular
+      autoplayInterval={combinedEncounters.length > 1 ? 3000 : undefined}
+      orientation="vertical"
+      verticalViewPortHeight="75px"
+      itemTemplate={EncounterDisplay}
+    />
   );
 }
 

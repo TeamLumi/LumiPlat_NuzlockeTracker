@@ -1,9 +1,5 @@
 import { generateMovesViaLearnset } from 'constants/moveFunctions';
-import styles from 'assets/styles/Selector.module.scss';
-import Type from 'components/Type/Type';
 import Move from 'components/Move/Move';
-import MOVES from 'constants/moves';
-import { TMove } from 'constants/types';
 
 interface TEncounterMoves {
   pokemonId: number;
@@ -19,7 +15,8 @@ function EncounterMoves({pokemonId, encLevel}: TEncounterMoves): JSX.Element {
           <Move
             key={index}
             moveDetail={move}
-            showStatus={false} />
+            showStatus={false}
+          />
         );
       })}
     </div>

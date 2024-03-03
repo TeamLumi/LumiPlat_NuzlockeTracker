@@ -62,10 +62,10 @@ function generateMovesViaLearnset(monsNo: number, level: number) {
   const moves = LearnsetTable.WazaOboe[monsNo].ar.slice(0, cutoffIndex);
 
   return [
-    getMoveProperties(moves.at(-7)),
-    getMoveProperties(moves.at(-5)),
-    getMoveProperties(moves.at(-3)),
     getMoveProperties(moves.at(-1)),
+    getMoveProperties(moves.at(-3)),
+    getMoveProperties(moves.at(-5)),
+    getMoveProperties(moves.at(-7)),
   ];
 }
 
