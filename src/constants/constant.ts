@@ -294,6 +294,27 @@ export const TYPES: Type[] = [
   'FAIRY',
 ];
 
+export const BDSP_TYPES: Type[] = [
+  'NORMAL',
+  'FIGHTING',
+  'FLYING',
+  'POISON',
+  'GROUND',
+  'ROCK',
+  'BUG',
+  'GHOST',
+  'STEEL',
+  'FIRE',
+  'WATER',
+  'GRASS',
+  'ELECTRIC',
+  'PSYCHIC',
+  'ICE',
+  'DRAGON',
+  'DARK',
+  'FAIRY',
+];
+
 export const LANGUAGES = [
   { text: 'English', value: 'en' },
   { text: 'Español', value: 'es' },

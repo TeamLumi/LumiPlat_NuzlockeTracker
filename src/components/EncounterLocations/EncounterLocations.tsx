@@ -1,11 +1,10 @@
-import { useCallback } from 'react';
-import { shallow } from 'zustand/shallow';
+import EncounterMoves from 'components/EncounterMoves/EncounterMoves';
+
 import type { LocationDetails } from 'constants/types';
-import useStore from 'store';
-import styles from './EncounterLocations.module.scss';
 import { POKEMON_RATES } from 'constants/encounter_locations';
 import { ENC_TYPES } from 'constants/constant';
-import EncounterMoves from 'components/EncounterMoves/EncounterMoves';
+
+import styles from 'assets/styles/Selector.module.scss';
 
 interface TEncounterLocation {
   pokemon_id: number;
@@ -13,11 +12,6 @@ interface TEncounterLocation {
 }
 
 function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Element {
-  const selectedGame = useStore(
-    useCallback((state) => state.selectedGame, []),
-    shallow
-  );
-
   const filteredEncounters: LocationDetails[] = POKEMON_RATES[pokemon_id] ?? [];
 
   const filteredByZone = filteredEncounters.filter((encounter) =>
@@ -46,15 +40,15 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
   );
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'auto auto', gap: '1rem' }}>
-      <div style={{ gridColumn: '1 / span 1', gridRow: '1' }}>
+    <>
+      <div>
         {Array.from(new Set(combinedEncounters.map(encounter => encounter.minLevel))).map((uniqueMinLevel, index) => {
           return (
             <EncounterMoves pokemonId={pokemon_id} encLevel={uniqueMinLevel}/>
           );
         })}
       </div>
-      <div style={{ gridColumn: '2 / span 1', gridRow: '1' }}>
+      <div>
         {combinedEncounters.map((encounter, index) => {
           return (
             <div key={index} className={styles.encounter}>
@@ -64,7 +58,7 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
           )
         })}
       </div>
-    </div>
+    </>
   );
 }
 

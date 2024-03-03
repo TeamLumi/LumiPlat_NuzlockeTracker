@@ -305,7 +305,7 @@ export type Type =
 
 export type TLanguage = 'en' | 'es' | 'de';
 
-type Category = 'Physical' | 'Special' | 'Status' | '???';
+export type Category = 'Physical' | 'Special' | 'Status' | '???';
 
 export type TypeColor = {
   [key in Type]: string;
@@ -340,6 +340,8 @@ export type TMove = {
   power: string;
   pp: string;
   type: Type;
+  maxPP?: string;
+  desc?: string;
 };
 
 export interface PokemonDetail {

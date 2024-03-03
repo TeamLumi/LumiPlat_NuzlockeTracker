@@ -24,9 +24,10 @@
     border-radius: 4px;
 
     .row {
-      display: flex;
-      flex-flow: row nowrap;
+      display: grid;
+      grid-template-columns: .5fr 1.25fr 3fr;
       justify-content: space-between;
+      column-gap: var(--spacing-4);
       align-items: center;
       padding: 0 var(--spacing-3);
       height: calc(100% - var(--spacing-3));
