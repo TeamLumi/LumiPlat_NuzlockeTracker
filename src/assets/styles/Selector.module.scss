@@ -79,8 +79,58 @@
         }
       }
 
+      .carouselContainer {
+        max-width: unset;
+      }
+
+      .encounterDisplay {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: var(--spacing-4);
+        justify-content: space-between;
+
+        .details {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > img {
+              max-width: 40px;
+              max-height: 40px;
+            }
+          }
+
+          .pageNumber {
+            margin-top: 5px;
+          }
+        }
+      }
+
       > div:last-child {
         flex-flow: column nowrap;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .row{
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .carouselContainer {
+          max-width: 110px;
+        }
+
+        .encounterDisplay {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+        }
       }
     }
   }

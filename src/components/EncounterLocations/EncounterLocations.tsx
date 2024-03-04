@@ -3,9 +3,10 @@ import { Carousel } from 'primereact/carousel';
 
 import type { LocationDetails } from 'constants/types';
 import { POKEMON_RATES } from 'constants/encounter_locations';
-import { ENC_TYPES } from 'constants/constant';
+import { ENC_ICONS, ENC_TYPES } from 'constants/constant';
 
 import styles from 'assets/styles/Selector.module.scss';
+import { useEffect, useState } from 'react';
 
 interface TEncounterLocation {
   pokemon_id: number;
@@ -13,6 +14,19 @@ interface TEncounterLocation {
 }
 
 function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Element {
+  const [isLargeScreen, setIsLargeScreen] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 900);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const filteredEncounters: LocationDetails[] = POKEMON_RATES[pokemon_id] ?? [];
 
   const filteredByZone = filteredEncounters.filter((encounter) =>
@@ -41,22 +55,28 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
   );
 
   const EncounterDisplay = (encounter: LocationDetails) => (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: "2fr 1fr",
-        columnGap: "var(--spacing-4)",
-        justifyContent: "space-between"
-      }}
-    >
-      <div>
-        <EncounterMoves pokemonId={pokemon_id} encLevel={encounter.minLevel} />
-      </div>
-      <div className={styles.encounter}>
-        <span>{ENC_TYPES[encounter.encounterType]} </span>
-        <span>{encounter.encounterRate}</span>
+    <div className={styles.encounterDisplay}>
+      {isLargeScreen && 
+        <div>
+          <EncounterMoves pokemonId={pokemon_id} encLevel={encounter.minLevel} />
+        </div>
+      }
+      <div className={styles.details}>
+        <div className={styles.icons}>
+          {ENC_ICONS[encounter.encounterType].map((src) => (
+            <img
+              key={ENC_TYPES[encounter.encounterType]}
+              src={src}
+              alt={ENC_TYPES[encounter.encounterType]}
+              title={ENC_TYPES[encounter.encounterType]}
+            />
+          ))}
+          <span>{encounter.encounterRate}</span>
+        </div>
         {combinedEncounters.length > 1 && (
-          <span> {combinedEncounters.findIndex(item => item === encounter) + 1} of {combinedEncounters.length}</span>
+          <div className={styles.pageNumber}>
+            {combinedEncounters.findIndex(item => item === encounter) + 1} of {combinedEncounters.length}
+          </div>
         )}
       </div>
     </div>
@@ -69,9 +89,10 @@ function EncounterLocations({ pokemon_id, zoneId }: TEncounterLocation): JSX.Ele
       showIndicators
       numVisible={1}
       numScroll={1}
-      circular
+      contentClassName={styles.carouselContainer}
+      circular={combinedEncounters.length > 1}
       autoplayInterval={combinedEncounters.length > 1 ? 3000 : undefined}
-      orientation="vertical"
+      orientation={isLargeScreen ? "vertical" : "horizontal"}
       verticalViewPortHeight="75px"
       itemTemplate={EncounterDisplay}
     />

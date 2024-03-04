@@ -405,3 +405,21 @@ export const ENC_TYPES: Record<string, string> = {
   Incense: "Incense",
   "Surfing Incense": "Surfing Incense",
 };
+
+export const ENC_ICONS: Record<string, string[]> = {
+  ground_mons: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Grass.webp"],
+  tairyo: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Swarm.webp"],
+  day: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Sun.webp"],
+  night: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Moon.webp"],
+  swayGrass: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Radar.webp"],
+  water_mons: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Surf.webp"],
+  boro_mons: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Old_Rod.webp"],
+  ii_mons: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Good_Rod.webp"],
+  sugoi_mons: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Super_Rod.webp"],
+  Morning: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Morning.webp"],
+  Incense: ["https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Incense.webp"],
+  "Surfing Incense": [
+    "https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Surf.webp",
+    "https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/Incense.webp"
+  ],
+};
