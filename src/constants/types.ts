@@ -19,6 +19,7 @@ export interface AppState {
   rules: TRulesetDictionary;
   rulesets: TRuleset[];
   selectedGame: TGame;
+  selectedTrainer: any;
   selectedRuleset: string;
   soulink: boolean;
   showAll: boolean;
@@ -102,6 +103,7 @@ export interface AppState {
   search: (text: string) => void;
   selectGame: (game: TGame) => void;
   selectBadge: (badgeIndex: number) => void;
+  selectTrainer: (trainerIndex: any) => void;
   setDefaultCalculator: () => void;
   setDefaultSummary: () => void;
   setGens: (genId: number) => void;

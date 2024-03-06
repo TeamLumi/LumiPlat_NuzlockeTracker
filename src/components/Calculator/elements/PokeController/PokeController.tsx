@@ -22,11 +22,12 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
   const { t } = useTranslation('calculator');
   const [showAll, setShowAll] = useState(true);
   const darkMode = useStore(useCallback((state) => state.darkMode, []));
-  const [selectedDetail, setSelectedDetail] = useState(undefined);
   const selectedGame = useStore(useCallback((state) => state.selectedGame, []));
   const form = useStore(useCallback((state) => state.calcs[state?.selectedGame?.value]?.form, []));
   const update = useStore(useCallback((state) => state.updateDefaultValues, []));
   const foundPokemon = POKEMAP.get(form[name]);
+  const selectTrainer = useStore(useCallback((state) => state.selectTrainer, []));
+  const selectedTrainer = useStore(useCallback((state) => state.selectedTrainer, []));
 
   const handleEncounter = (enc: TEncounter) => {
     const partialCalc: Partial<TCalculatorForm> = {
@@ -129,7 +130,7 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
         </EncounterSelector>
       ) : (
         <DetailSelector
-          details={details[selectedDetail]?.content}
+          details={details[selectedTrainer]?.content}
           handleDetail={handleDetail}
           limitGen={form.calculatorGen}
         >
@@ -147,12 +148,12 @@ function PokeController({ encounters, name }: PokeControllerProps): JSX.Element 
               disabled={derivedShow}
               inline
               labeled
-              onChange={(e, data) => setSelectedDetail(data.value)}
+              onChange={(e, data) => selectTrainer(data.value)}
               options={detailsToOptions}
               placeholder={t('select_trainer')}
               search
               selection
-              value={selectedDetail ?? ''}
+              value={selectedTrainer ?? ''}
             />
           )}
           <Checkbox

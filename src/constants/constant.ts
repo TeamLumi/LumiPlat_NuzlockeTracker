@@ -192,6 +192,7 @@ export const INITIAL_STATE: Partial<AppState> = {
   rulesets: null, // No longer used
   selectedGame: null,
   selectedRuleset: 'Nuzlocke',
+  selectedTrainer: undefined,
   showAll: false,
   showAllTooltip: true,
   skipped: {},
