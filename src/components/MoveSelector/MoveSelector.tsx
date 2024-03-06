@@ -5,12 +5,14 @@ import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { Filter, Move } from 'components';
-import { PHYS_SPEC_SPLIT } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, PHYS_SPEC_SPLIT, TYPES } from 'constants/constant';
 import MOVES, { MOVEMAP } from 'constants/moves';
 import useFilter from 'hooks/useFilter';
 import useRemtoPx from 'hooks/useRemToPx';
 import useStore from 'store';
 import styles from './MoveSelector.module.scss';
+import { calcHiddenPower, getHiddenPowerNameWithType } from 'components/Moves/Moves';
+import { PokemonIVs } from 'constants/types';
 import { getEggMoves, getLevelLearnset, getTechMachineLearnset, getTutorMoves } from 'constants/moveFunctions';
 
 interface MoveSelectorProps {
@@ -18,6 +20,7 @@ interface MoveSelectorProps {
   handleMove: (moveId: number) => void;
   hideGen?: boolean;
   limitGen?: number;
+  stats?: PokemonIVs;
   pokemonId?: number;
 }
 
@@ -26,6 +29,7 @@ function MoveSelector({
   handleMove,
   hideGen,
   limitGen,
+  stats,
   pokemonId = 0,
 }: MoveSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
@@ -46,9 +50,15 @@ function MoveSelector({
     .flat()
     .map((move: any) => move.move.name.toUpperCase());
 
-  const filteredMovesList = MOVES.filter((move) =>
-    learnsetMovesList.includes(move.name.toUpperCase())
-  );
+  const filteredMovesList = MOVES.filter((move) => {
+    if (move.name.includes("Hidden Power")) {
+      return learnsetMovesList.some((learnsetMove) =>
+        move.name.toUpperCase().includes(learnsetMove.toUpperCase())
+      );
+    } else {
+      return learnsetMovesList.includes(move.name.toUpperCase());
+    }
+  });
 
   const initialFilteredMoves = filteredMovesList.filter(
     (m) =>
@@ -59,10 +69,28 @@ function MoveSelector({
   );
 
   const filteredMoves = initialFilteredMoves.sort((a, b) => {
-    const indexA = learnsetMovesList.indexOf(a.name.toUpperCase());
-    const indexB = learnsetMovesList.indexOf(b.name.toUpperCase());
+    const aName = a.name.includes("Hidden Power") ? "HIDDEN POWER" : a.name.toUpperCase();
+    const bName = b.name.includes("Hidden Power") ? "HIDDEN POWER" : b.name.toUpperCase();
+    const indexA = learnsetMovesList.indexOf(aName);
+    const indexB = learnsetMovesList.indexOf(bName);
     return indexA - indexB;
-  });  
+  });
+
+  const isAnyStatUndefined = Object.values(stats).some(value => value === undefined)
+  const HPIndex = filteredMoves.findIndex((move) => {
+    return move.name.includes("Hidden Power");
+  })
+  if ( isAnyStatUndefined && HPIndex !== -1 ) {
+    const hiddenPowerMove = filteredMoves[HPIndex];
+    hiddenPowerMove.name = "Hidden Power (Input IVs for Type)";
+    hiddenPowerMove.type = TYPES[0];
+  }
+  if ( !isAnyStatUndefined && HPIndex !== -1 ) {
+    const hiddenPowerType = calcHiddenPower(stats);
+    const hiddenPowerMove = filteredMoves[HPIndex];
+    hiddenPowerMove.type = HIDDEN_POWER_TYPES[hiddenPowerType];
+    hiddenPowerMove.name = getHiddenPowerNameWithType(hiddenPowerType);
+  };
 
   const handleClick = (moveId: number) => {
     handleMove(moveId);

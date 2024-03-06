@@ -14,7 +14,7 @@ import { Abilities, RangeSelector, Nickname, Evolve } from 'components/Tracker/e
 import { GAME_GENERATION, GENDERS } from 'constants/constant';
 import NATURES from 'constants/natures';
 import { POKEMAP } from 'constants/pokemon';
-import type { Gender, TEncounter } from 'constants/types';
+import type { Gender, PokemonIVs, TEncounter } from 'constants/types';
 import { selectItemGeneration, selectNAGeneration } from 'selectors';
 import useStore from 'store';
 import dropdownStyles from 'assets/styles/Dropdown.module.scss';
@@ -65,6 +65,15 @@ function Detail({ encounter }: DetailProps): JSX.Element {
   const [evspdef, setEvspdef] = useState(encounter?.details?.evspdef);
   const [soulLink, setSoulLink] = useState(encounter?.details?.soulink);
   const legalAbilities = foundPokemon.abilities;
+
+  const pokemonStats : PokemonIVs = {
+    hp: ivhp,
+    atk: ivatk,
+    def: ivdef,
+    spe: ivspeed,
+    spa: ivspatk,
+    spd: ivspdef,
+  }
 
   const limitGen = GAME_GENERATION[selectedGame?.value] || undefined;
   const foundSoulLink = POKEMAP.get(soulLink);
@@ -127,6 +136,12 @@ function Detail({ encounter }: DetailProps): JSX.Element {
       item,
       nature,
       moves: [moveOne, moveTwo, moveThree, moveFour],
+      ivhp,
+      ivatk,
+      ivdef,
+      ivspeed,
+      ivspatk,
+      ivspdef,
     });
     toast.success<void>(t('pokemon_export'));
   };
@@ -307,6 +322,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveOne}
                 handleMove={(moveId: number) => setMoveOne(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
                 pokemonId={encounter.pokemon}
               />
             </div>
@@ -316,6 +332,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveTwo}
                 handleMove={(moveId: number) => setMoveTwo(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
                 pokemonId={encounter.pokemon}
               />
             </div>
@@ -325,6 +342,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveThree}
                 handleMove={(moveId: number) => setMoveThree(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
                 pokemonId={encounter.pokemon}
               />
             </div>
@@ -334,6 +352,7 @@ function Detail({ encounter }: DetailProps): JSX.Element {
                 currentMoveId={moveFour}
                 handleMove={(moveId: number) => setMoveFour(moveId)}
                 limitGen={limitGen}
+                stats={pokemonStats}
                 pokemonId={encounter.pokemon}
               />
             </div>

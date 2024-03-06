@@ -59,6 +59,7 @@ const useStore = create<AppState>()(
       rulesets: null, // No longer used
       selectedGame: INITIAL_STATE.selectedGame,
       selectedRuleset: INITIAL_STATE.selectedRuleset,
+      selectedTrainer: INITIAL_STATE.selectedTrainer,
       showAll: INITIAL_STATE.showAll,
       showAllTooltip: INITIAL_STATE.showAllTooltip,
       skipped: INITIAL_STATE.skipped,
@@ -493,6 +494,10 @@ const useStore = create<AppState>()(
           } else {
             state.games[state.selectedGame?.value].badge.push(badgeIndex);
           }
+        }),
+      selectTrainer: (trainer: any) =>
+        set((state) => {
+          state.selectedTrainer = trainer;
         }),
       search: (text: string) =>
         set((state) => {

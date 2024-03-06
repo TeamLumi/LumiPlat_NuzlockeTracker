@@ -12,6 +12,7 @@ import {
   TRuleEntry,
   TRulesetDictionary,
   Type,
+  HiddenPowerTypes,
 } from 'constants/types';
 
 export const GAMES: TGame[] = [
@@ -191,6 +192,7 @@ export const INITIAL_STATE: Partial<AppState> = {
   rulesets: null, // No longer used
   selectedGame: null,
   selectedRuleset: 'Nuzlocke',
+  selectedTrainer: undefined,
   showAll: false,
   showAllTooltip: true,
   skipped: {},
@@ -292,6 +294,25 @@ export const TYPES: Type[] = [
   'DRAGON',
   'STEEL',
   'FAIRY',
+];
+
+export const HIDDEN_POWER_TYPES: HiddenPowerTypes[] = [
+  'FIGHTING',
+  'FLYING',
+  'POISON',
+  'GROUND',
+  'ROCK',
+  'BUG',
+  'GHOST',
+  'STEEL',
+  'FIRE',
+  'WATER',
+  'GRASS',
+  'ELECTRIC',
+  'PSYCHIC',
+  'ICE',
+  'DRAGON',
+  'DARK'
 ];
 
 export const BDSP_TYPES: Type[] = [

@@ -36,6 +36,8 @@ function About(): JSX.Element {
             <li>Search and filter through all encounters - including only missing encounters</li>
             <li>Export, import and share Nuzlocke runs with others!</li>
             <li>Fully integrated damage calculator</li>
+            <li>Choose from legal moves that a pokemon can learn when selecting a moveset</li>
+            <li>Automatic Hidden Power Calculator based on pokemon's stats</li>
             <li>Share, add and edit custom rules and rulesets - including smart rules that alert if they're broken</li>
             <li>View overview and summary of your nuzlocke run</li>
             <li>Dupes clause alerts</li>
