@@ -86,14 +86,12 @@
     "Galarian Corsola",
     "Galarian Ponyta",
     "Goldeen",
-    "Golduck",
     "Gyarados",
     "Ledyba",
     "Magikarp",
     "Marill",
     "Oddish",
     "Pikachu",
-    "Psyduck",
     "Ralts",
     "Roselia",
     "Seaking",
@@ -269,7 +267,6 @@
     "Alolan Geodude",
     "Alolan Grimer",
     "Alolan Ninetales",
-    "Alolan Sandshrew",
     "Alolan Sandslash",
     "Barboach",
     "Beldum",
@@ -375,7 +372,6 @@
     "Aipom",
     "Drowzee",
     "Exeggcute",
-    "Exeggutor",
     "Hypno",
     "Kadabra",
     "Kakuna",
@@ -411,7 +407,6 @@
   ],
   "lmpt-35": [
     "Alolan Diglett",
-    "Alolan Dugtrio",
     "Diglett",
     "Ditto",
     "Dugtrio",
@@ -593,7 +588,6 @@
     "Luvdisc",
     "Mantine",
     "Mantyke",
-    "Obstagoon",
     "Pelipper",
     "Seadra",
     "Wingull"
@@ -1065,8 +1059,7 @@
     "Zangoose"
   ],
   "lmpt-80": [
-    "Magikarp",
-    "Overqwil"
+    "Magikarp"
   ],
   "lmpt-81": [
     "Alolan Marowak",
@@ -1094,7 +1087,6 @@
     "Haunter",
     "Hisuian Typhlosion",
     "Lunatone",
-    "Solrock",
-    "Typhlosion"
+    "Solrock"
   ]
 }
