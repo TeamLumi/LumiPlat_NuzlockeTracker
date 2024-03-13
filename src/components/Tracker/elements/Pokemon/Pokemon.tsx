@@ -131,6 +131,7 @@ const Pokemon = React.memo(function Pokemon({ encounter, foundPokemon }: Pokemon
             filter && suggestions && suggestionsSettings && !showAll ? suggestions : false
           }
           tooltip={showAllTooltip}
+          zoneID={encounter.zoneID}
         >
           {encounter?.pokemon ? (
             <div className={styles.selector} data-testid={`pokemon-${encounter.id}`}>

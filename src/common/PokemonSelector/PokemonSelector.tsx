@@ -5,7 +5,7 @@ import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import Modal from 'semantic-ui-react/dist/commonjs/modules/Modal';
 import { PkmImage } from 'common';
-import { Filter, PokemonType } from 'components';
+import { Filter, PokemonType, EncounterLocations } from 'components';
 import { TYPE_COLOR } from 'constants/colors';
 import POKEMON from 'constants/pokemon';
 import type { Type } from 'constants/types';
@@ -24,6 +24,7 @@ interface PokemonSelectorProps {
   limitGen?: number;
   suggestions?: Type[] | false;
   tooltip?: boolean;
+  zoneID?: number[];
 }
 
 function PokemonSelector({
@@ -34,6 +35,7 @@ function PokemonSelector({
   limitGen,
   suggestions,
   tooltip = false,
+  zoneID = null,
 }: PokemonSelectorProps): JSX.Element {
   const { t } = useTranslation('common');
   const [open, setOpen] = useState(false);
@@ -114,6 +116,9 @@ function PokemonSelector({
             <b>{pokemon.text}</b>
           </div>
           <PokemonType pokemon={pokemon} />
+          {zoneID !== null &&
+            <EncounterLocations pokemon_id={pokemon.value} zoneId={zoneID} />
+          }
         </div>
       </div>
     );

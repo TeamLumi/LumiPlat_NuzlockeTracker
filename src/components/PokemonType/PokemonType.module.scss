@@ -4,3 +4,11 @@
   gap: var(--spacing-1);
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: var(--spacing-1);
+  }
+}
