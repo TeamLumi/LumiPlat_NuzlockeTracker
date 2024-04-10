@@ -15,6 +15,8 @@ interface FilterProps {
   values: TFilter;
 }
 
+
+
 function Filter({ darkMode = false, hideGen = false, values }: FilterProps): JSX.Element {
   const { t } = useTranslation('common');
   const [show, setShow] = useState(false);
@@ -42,6 +44,7 @@ function Filter({ darkMode = false, hideGen = false, values }: FilterProps): JSX
         placeholder={`${t('search')}...`}
         type="search"
         value={values.search}
+        autoFocus 
       />
       <Button
         active={show}
