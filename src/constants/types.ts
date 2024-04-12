@@ -194,6 +194,16 @@ export type TEncounter = {
   zoneID: number[];
 };
 
+export type LocationDetails = {
+  routeName: string,
+  encounterType: string,
+  encounterRate: string,
+  minLevel: number,
+  maxLevel: number,
+  encounterTypeIndex: number | null,
+  zoneId: number | null
+};
+
 export interface TPokemon {
   dualtype?: Type;
   evolve?: number[];
@@ -333,7 +343,7 @@ export type HiddenPowerInts =
 
 export type TLanguage = 'en' | 'es' | 'de';
 
-type Category = 'Physical' | 'Special' | 'Status' | '???';
+export type Category = 'Physical' | 'Special' | 'Status' | '???';
 
 export type TypeColor = {
   [key in Type]: string;
@@ -368,6 +378,8 @@ export type TMove = {
   power: string;
   pp: string;
   type: Type;
+  maxPP?: string;
+  desc?: string;
 };
 
 export interface PokemonDetail {

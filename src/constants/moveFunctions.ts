@@ -1,4 +1,4 @@
-import { TLumiNameFiles, TLearnset, TEggLearnset, TMoveInfo, TItemTable, TPersonalTable, TPersonalData, TTutorTable, TFormMap } from './types';
+import { TLumiNameFiles, TLearnset, TEggLearnset, TMoveInfo, TItemTable, TPersonalTable, TPersonalData, TTutorTable, TFormMap, TMove, Category } from './types';
 import LearnsetTableData from './input_files/WazaOboeTable.json';
 import EggMovesTableData from './input_files/TamagoWazaTable.json';
 import MovesTableData from './input_files/WazaTable.json';
@@ -7,6 +7,7 @@ import PersonalTableData from './input_files/PersonalTable.json';
 import MoveInfoData from './input_files/english_ss_wazainfo.json';
 import TutorMovesData from './input_files/tutorMoves.json';
 import MOVE_ENUM from './input_files/moveEnum';
+import { BDSP_TYPES } from './constant';
 
 const LearnsetTable: TLearnset = LearnsetTableData;
 const EggMovesTable: TEggLearnset = EggMovesTableData;
@@ -61,10 +62,10 @@ function generateMovesViaLearnset(monsNo: number, level: number) {
   const moves = LearnsetTable.WazaOboe[monsNo].ar.slice(0, cutoffIndex);
 
   return [
-    getMoveString(moves.at(-7)),
-    getMoveString(moves.at(-5)),
-    getMoveString(moves.at(-3)),
-    getMoveString(moves.at(-1)),
+    getMoveProperties(moves.at(-1)),
+    getMoveProperties(moves.at(-3)),
+    getMoveProperties(moves.at(-5)),
+    getMoveProperties(moves.at(-7)),
   ];
 }
 
@@ -82,27 +83,35 @@ function getMoveString(id = 0) {
   return str;
 }
 
-function getMoveProperties(moveId = 0) {
+function getMoveProperties(moveId = 0): TMove {
+  const DAMAGE_TYPES = [
+    "Status",
+    "Physical",
+    "Special",
+  ]
   const move = MovesTable.Waza[moveId];
   const type = move.type;
-  const damageType = move.damageType;
-  const power = move.power;
+  const category: Category = DAMAGE_TYPES[move.damageType] as Category;
+  const power = `${move.power}`;
   const hitPer = move.hitPer;
   const basePP = move.basePP;
 
   const BASE_PP = basePP ?? 0;
   const MAX_PP_MULTIPLIER = 1.6;
-  const maxPP = BASE_PP * MAX_PP_MULTIPLIER;
+  const maxPP = `${BASE_PP * MAX_PP_MULTIPLIER}`;
 
   return {
-    moveId: moveId,
+    accuracy: `${hitPer}`,
+    category, //0 = Status, 1 = Physical, 2 = Special
+    contest: "???",
+    gen: 8,
     name: MOVE_ENUM[moveId] ?? 'None',
-    desc: getMoveDescription(moveId),
-    type,
-    damageType, //0 = Status, 1 = Physical, 2 = Special
-    maxPP,
+    id: moveId,
     power,
-    accuracy: hitPer,
+    pp: `${basePP}`,
+    type: BDSP_TYPES[type],
+    maxPP,
+    desc: getMoveDescription(moveId),
   };
 }
 
