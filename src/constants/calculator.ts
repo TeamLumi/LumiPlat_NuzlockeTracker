@@ -280,6 +280,7 @@ export const STATUS_EFFECTS = [
 ];
 
 export const FORBIDDEN_ITEMS = [
+  // These are items that do not work in the Smogon calc and will crash the calculator page.
   'Abomasite',
   'Absolite',
   'Aerodactylite',
@@ -331,4 +332,6 @@ export const FORBIDDEN_ITEMS = [
   'Soothe Bell',
   'PSN Cure Berry',
   'Exp. Share',
+  'Tiny Mushroom',
+  'Big Mushroom'
 ];
