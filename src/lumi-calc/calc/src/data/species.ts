@@ -9068,7 +9068,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "0": "Defiant"
     },
     "otherFormes": [
-      "Farfetch’d Galarian Farfetch'd"
+      "Galarian Farfetch’d"
     ]
   },
   "Doduo": {
@@ -21021,9 +21021,9 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     "bs": {
       "hp": 80,
       "at": 120,
-      "df": 75,
-      "sa": 75,
-      "sd": 75,
+      "df": 85,
+      "sa": 70,
+      "sd": 85,
       "sp": 60
     },
     "weightkg": 26,
@@ -25288,7 +25288,8 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   "Tinkatink": {
     "types": [
-      "Normal"
+      "Fairy",
+      "Steel"
     ],
     "bs": {
       "hp": 50,
@@ -25300,13 +25301,14 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     "weightkg": 8.9,
     "abilities": {
-      "0": "Sheer Force"
+      "0": "Pickpocket"
     },
     "gender": "F"
   },
   "Tinkatuff": {
     "types": [
-      "Normal"
+      "Fairy",
+      "Steel"
     ],
     "bs": {
       "hp": 65,
@@ -25318,13 +25320,14 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     "weightkg": 59.1,
     "abilities": {
-      "0": "Sheer Force"
+      "0": "Pickpocket"
     },
     "gender": "F"
   },
   "Tinkaton": {
     "types": [
-      "Normal"
+      "Fairy",
+      "Steel"
     ],
     "bs": {
       "hp": 85,
@@ -25336,7 +25339,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     },
     "weightkg": 112.8,
     "abilities": {
-      "0": "Sheer Force"
+      "0": "Pickpocket"
     },
     "gender": "F"
   },
@@ -27489,7 +27492,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     ],
     "baseSpecies": "Slowbro"
   },
-  "Farfetch’d Galarian Farfetch'd": {
+  "Galarian Farfetch’d": {
     "types": [
       "Fighting"
     ],
@@ -27506,7 +27509,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "0": "Scrappy"
     },
     "otherFormes": [
-      "Farfetch’d Galarian Farfetch'd"
+      "Galarian Farfetch’d"
     ],
     "baseSpecies": "Farfetch’d"
   },
@@ -27648,16 +27651,16 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "Ice"
     ],
     "bs": {
-      "hp": 35,
-      "at": 45,
-      "df": 160,
-      "sa": 30,
-      "sd": 80,
-      "sp": 75
+      "hp": 55,
+      "at": 92,
+      "df": 45,
+      "sa": 108,
+      "sd": 75,
+      "sp": 100
     },
     "weightkg": 210,
     "abilities": {
-      "0": "Ice Body"
+      "0": "Weak Armor"
     },
     "otherFormes": [
       "Crystal Onix"
@@ -28352,12 +28355,12 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
       "Psychic"
     ],
     "bs": {
-      "hp": 48,
-      "at": 72,
-      "df": 48,
-      "sa": 72,
-      "sd": 48,
-      "sp": 48
+      "hp": 54,
+      "at": 108,
+      "df": 54,
+      "sa": 108,
+      "sd": 54,
+      "sp": 54
     },
     "weightkg": 5,
     "abilities": {

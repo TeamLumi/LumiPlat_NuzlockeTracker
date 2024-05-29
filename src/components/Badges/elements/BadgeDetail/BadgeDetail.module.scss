@@ -129,7 +129,16 @@
         align-items: left;
         font-size: var(--font-size-4);
         color: var(--contrast);
-        
+
+        .gridContainer {
+          display: grid;
+          grid-template-columns: 3rem 2.5rem 2.5rem;
+
+          .gridItem {
+            text-align: center;
+          }
+        }
+
         .addStats {
           font-weight: bold;
           color: var(--contrast);

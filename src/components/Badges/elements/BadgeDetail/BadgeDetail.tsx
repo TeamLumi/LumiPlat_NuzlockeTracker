@@ -160,11 +160,21 @@ function BadgeDetail({ selectedDetail }: BadgeDetailProps): JSX.Element {
                 )}
                 {stats?.ivs && stats?.evs && (
                   <div className={styles.ivEv}>
-                    <span className={styles.addStats}>IVs / EVs</span>
+                    <div className={styles.gridContainer}>
+                      <span/>
+                      <span className={styles.gridItem}>IVs</span>
+                      <span className={styles.gridItem}>EVs</span>
+                    </div>
                     {Object.keys(stats.ivs).map((key) => (
-                      <div key={key} className={styles.ivEvWrapper}>
-                        <span className={styles.iv}>
-                          {key.toUpperCase()}: {stats.ivs[key as keyof typeof stats.ivs]} / {stats.evs[key as keyof typeof stats.evs]}
+                      <div key={key} className={styles.gridContainer}>
+                        <span className={styles.gridItem}>
+                          {key.toUpperCase()}:
+                        </span>
+                        <span className={styles.gridItem}>
+                          {stats.ivs[key as keyof typeof stats.ivs]}
+                        </span>
+                        <span className={styles.gridItem}>
+                          {stats.evs[key as keyof typeof stats.evs]}
                         </span>
                       </div>
                     ))}
