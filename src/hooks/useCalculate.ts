@@ -3,7 +3,7 @@ import { calculate, Field, Move, Pokemon, Result } from 'lumi-calc/dist/calc/ind
 import type { StatusName } from '@smogon/calc/dist/data/interface';
 import { useCallback, useMemo } from 'react';
 import { FORBIDDEN_ITEMS, GenderCalc } from 'constants/calculator';
-import { HIDDEN_POWER_TYPES, SMOGON_NAMES } from 'constants/constant';
+import { HIDDEN_POWER_TYPES, MY_ITEMS, SMOGON_NAMES } from 'constants/constant';
 import { MOVEMAP } from 'constants/moves';
 import { POKEMAP } from 'constants/pokemon';
 import type { TCalculatorForm } from 'constants/types';
@@ -38,6 +38,8 @@ export function getPokemon(all: TCalculatorForm, id: 1 | 2) {
     const getItem = (item: string) => {
       if (FORBIDDEN_ITEMS.includes(item)) {
         return undefined;
+      } else if (item !== undefined && !MY_ITEMS.includes(item)) {
+        console.error("This item is not a valid Smogon item:", item);
       }
       return item;
     };

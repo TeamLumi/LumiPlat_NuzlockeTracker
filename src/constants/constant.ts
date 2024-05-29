@@ -377,7 +377,14 @@ export const SMOGON_NAMES: Record<string, string> = {
   'Nidoran-M': 'Nidoran♂'  
 };
 
-export const EXTRA_ITEMS = ['Amulet Coin', 'Soothe Bell', 'Exp. Share', 'Tiny Mushroom', 'Big Mushroom'];
+export const EXTRA_ITEMS = [
+  'Amulet Coin',
+  'Soothe Bell',
+  'Exp. Share',
+  'Tiny Mushroom',
+  'Big Mushroom',
+  'Old Gateau'
+];
 
 export const MY_ITEMS = [
   ...[...new Set(ITEMS[8])].filter((smogonItem) => smogonItem.substring(0, 2) !== 'TR'),

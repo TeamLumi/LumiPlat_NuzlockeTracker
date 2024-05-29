@@ -333,5 +333,6 @@ export const FORBIDDEN_ITEMS = [
   'PSN Cure Berry',
   'Exp. Share',
   'Tiny Mushroom',
-  'Big Mushroom'
+  'Big Mushroom',
+  'Old Gateau'
 ];
