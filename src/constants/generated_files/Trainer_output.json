@@ -24,7 +24,7 @@
             "ivspeed": 25,
             "evhp": 4,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -52,7 +52,7 @@
             "evatk": 4,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -79,7 +79,7 @@
             "evdef": 0,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -100,7 +100,7 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
             "evdef": 252,
             "evspatk": 0,
@@ -128,7 +128,7 @@
             "ivspeed": 25,
             "evhp": 252,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
             "evspdef": 4,
             "evspeed": 0
@@ -187,11 +187,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -214,11 +214,11 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 36,
-            "evspeed": 0
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Levitate",
@@ -243,7 +243,7 @@
             "evatk": 4,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -295,7 +295,7 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 236,
+            "evspdef": 244,
             "evspeed": 12
           },
           {
@@ -379,11 +379,11 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 36,
-            "evspeed": 236
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Sturdy",
@@ -406,10 +406,10 @@
             "ivspeed": 25,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 236,
+            "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 12
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Rock Head",
@@ -430,9 +430,9 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 12,
-            "evatk": 236,
-            "evdef": 0,
+            "evhp": 252,
+            "evatk": 252,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -458,10 +458,10 @@
             "ivspeed": 25,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 252,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Rock Head",
@@ -544,9 +544,9 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
-            "evdef": 0,
-            "evspatk": 24,
+            "evatk": 252,
+            "evdef": 252,
+            "evspatk": 4,
             "evspdef": 0,
             "evspeed": 0
           },
@@ -569,11 +569,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 12,
-            "evatk": 236,
+            "evhp": 4,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -599,8 +599,8 @@
             "evatk": 0,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 4,
-            "evspeed": 0
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Sturdy",
@@ -625,7 +625,7 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -647,11 +647,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 20,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           }
         ],
@@ -788,12 +788,12 @@
             "ivspatk": 24,
             "ivspdef": 24,
             "ivspeed": 25,
-            "evhp": 236,
-            "evatk": 244,
+            "evhp": 248,
+            "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
+            "evspatk": 248,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 12
           },
           {
             "ability": "Technician",
@@ -815,7 +815,7 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 8,
             "evdef": 0,
             "evspatk": 248,
             "evspdef": 0,
@@ -1975,8 +1975,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 248,
-            "evspdef": 4,
-            "evspeed": 244
+            "evspdef": 0,
+            "evspeed": 248
           }
         ],
         "game": "Fantina (Hearthome City) Team 4",
@@ -8616,8 +8616,8 @@
             "item": null,
             "level": 7,
             "moves": [
+              64,
               33,
-              193,
               497,
               95
             ],
@@ -9445,10 +9445,10 @@
             "item": null,
             "level": 10,
             "moves": [
+              67,
               116,
               2,
-              490,
-              193
+              490
             ],
             "nature": "Bashful",
             "ivatk": 25,
@@ -9507,10 +9507,10 @@
             "item": null,
             "level": 10,
             "moves": [
+              67,
               116,
               2,
-              490,
-              193
+              490
             ],
             "nature": "Bashful",
             "ivatk": 25,
@@ -11327,10 +11327,10 @@
             "item": null,
             "level": 10,
             "moves": [
+              67,
               116,
               2,
-              490,
-              193
+              490
             ],
             "nature": "Docile",
             "ivatk": 25,
@@ -12736,11 +12736,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Rock Head",
@@ -12762,11 +12762,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Rock Head",
@@ -12788,11 +12788,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Storm Drain",
@@ -12813,11 +12813,11 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 132,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 120,
             "evspeed": 0
           },
           {
@@ -12840,11 +12840,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Clear Body",
@@ -12866,11 +12866,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
-            "evdef": 0,
+            "evatk": 252,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           }
         ],
         "game": "Pok\u00e9mon Trainer Steven (Oreburgh City Trainers)",
@@ -13079,7 +13079,7 @@
             "ivspeed": 25,
             "evhp": 4,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -13107,7 +13107,7 @@
             "evatk": 4,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -13134,7 +13134,7 @@
             "evdef": 0,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -13155,7 +13155,7 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
             "evdef": 252,
             "evspatk": 0,
@@ -13183,7 +13183,7 @@
             "ivspeed": 25,
             "evhp": 252,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
             "evspdef": 4,
             "evspeed": 0
@@ -13243,11 +13243,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -13270,11 +13270,11 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 36,
-            "evspeed": 0
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Levitate",
@@ -13299,7 +13299,7 @@
             "evatk": 4,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -13351,7 +13351,7 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 236,
+            "evspdef": 244,
             "evspeed": 12
           },
           {
@@ -13436,11 +13436,11 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 36,
-            "evspeed": 236
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Sturdy",
@@ -13463,10 +13463,10 @@
             "ivspeed": 25,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 236,
+            "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 12
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Rock Head",
@@ -13487,9 +13487,9 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 12,
-            "evatk": 236,
-            "evdef": 0,
+            "evhp": 252,
+            "evatk": 252,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -13515,10 +13515,10 @@
             "ivspeed": 25,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 252,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Rock Head",
@@ -13602,9 +13602,9 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 236,
-            "evdef": 0,
-            "evspatk": 24,
+            "evatk": 252,
+            "evdef": 252,
+            "evspatk": 4,
             "evspdef": 0,
             "evspeed": 0
           },
@@ -13627,11 +13627,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 12,
-            "evatk": 236,
+            "evhp": 4,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -13657,8 +13657,8 @@
             "evatk": 0,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 4,
-            "evspeed": 0
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Sturdy",
@@ -13683,7 +13683,7 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -13705,11 +13705,11 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 20,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 252,
             "evspeed": 0
           }
         ],
@@ -13962,9 +13962,9 @@
             "evhp": 248,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 8,
-            "evspeed": 252
+            "evspatk": 8,
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Rock Head",
@@ -14011,11 +14011,11 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 4,
             "evspeed": 0
           },
           {
@@ -14077,8 +14077,8 @@
             "evatk": 4,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 252
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Regenerator",
@@ -14103,8 +14103,8 @@
             "evatk": 4,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 252
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Levitate",
@@ -14447,10 +14447,10 @@
             "item": null,
             "level": 12,
             "moves": [
+              67,
               116,
               2,
-              490,
-              193
+              490
             ],
             "nature": "Hardy",
             "ivatk": 25,
@@ -15641,8 +15641,8 @@
             "item": null,
             "level": 16,
             "moves": [
+              2,
               490,
-              193,
               280,
               69
             ],
@@ -17177,8 +17177,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Ace Trainer Fire Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Ace Trainer Fire Master Trainer Tristan",
+        "game": "Ace Trainer Fire Master Trainer Edmund (Eterna Forest (Overworld) Trainers)",
+        "name": "Ace Trainer Fire Master Trainer Edmund",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17213,8 +17213,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Beauty Water Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Beauty Water Master Trainer Tristan",
+        "game": "Beauty Water Master Trainer Tessa (Eterna Forest (Overworld) Trainers)",
+        "name": "Beauty Water Master Trainer Tessa",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17249,8 +17249,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Guitarist Electric Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Guitarist Electric Master Trainer Tristan",
+        "game": "Guitarist Electric Master Trainer Stephan (Eterna Forest (Overworld) Trainers)",
+        "name": "Guitarist Electric Master Trainer Stephan",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17285,8 +17285,8 @@
             "evspeed": 108
           }
         ],
-        "game": "Lass Grass Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Lass Grass Master Trainer Tristan",
+        "game": "Lass Grass Master Trainer Sal (Eterna Forest (Overworld) Trainers)",
+        "name": "Lass Grass Master Trainer Sal",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17321,8 +17321,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Ace Trainer Ice Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Ace Trainer Ice Master Trainer Tristan",
+        "game": "Ace Trainer Ice Master Trainer Rosalyne (Eterna Forest (Overworld) Trainers)",
+        "name": "Ace Trainer Ice Master Trainer Rosalyne",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17357,8 +17357,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Black Belt Fighting Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Black Belt Fighting Master Trainer Tristan",
+        "game": "Black Belt Fighting Master Trainer Randy (Eterna Forest (Overworld) Trainers)",
+        "name": "Black Belt Fighting Master Trainer Randy",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17393,8 +17393,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Ninja Boy Poison Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Ninja Boy Poison Master Trainer Tristan",
+        "game": "Ninja Boy Poison Master Trainer Donnie (Eterna Forest (Overworld) Trainers)",
+        "name": "Ninja Boy Poison Master Trainer Donnie",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17429,8 +17429,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Ruin Maniac Ground Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Ruin Maniac Ground Master Trainer Tristan",
+        "game": "Ruin Maniac Ground Master Trainer Dexter (Eterna Forest (Overworld) Trainers)",
+        "name": "Ruin Maniac Ground Master Trainer Dexter",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17465,8 +17465,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Bird Keeper Flying Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Bird Keeper Flying Master Trainer Tristan",
+        "game": "Bird Keeper Flying Master Trainer Thea (Eterna Forest (Overworld) Trainers)",
+        "name": "Bird Keeper Flying Master Trainer Thea",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17501,8 +17501,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Psychic Psychic Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Psychic Psychic Master Trainer Tristan",
+        "game": "Psychic Psychic Master Trainer Fraiser (Eterna Forest (Overworld) Trainers)",
+        "name": "Psychic Psychic Master Trainer Fraiser",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17537,8 +17537,8 @@
             "evspeed": 4
           }
         ],
-        "game": "Bug Catcher Bug Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Bug Catcher Bug Master Trainer Tristan",
+        "game": "Bug Catcher Bug Master Trainer Louie (Eterna Forest (Overworld) Trainers)",
+        "name": "Bug Catcher Bug Master Trainer Louie",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17573,8 +17573,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Hiker Rock Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Hiker Rock Master Trainer Tristan",
+        "game": "Hiker Rock Master Trainer Jeffrey (Eterna Forest (Overworld) Trainers)",
+        "name": "Hiker Rock Master Trainer Jeffrey",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17609,8 +17609,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Clown Ghost Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Clown Ghost Master Trainer Tristan",
+        "game": "Clown Ghost Master Trainer Ari (Eterna Forest (Overworld) Trainers)",
+        "name": "Clown Ghost Master Trainer Ari",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17645,8 +17645,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Dragon Tamer Dragon Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Dragon Tamer Dragon Master Trainer Tristan",
+        "game": "Dragon Tamer Dragon Master Trainer Grayson (Eterna Forest (Overworld) Trainers)",
+        "name": "Dragon Tamer Dragon Master Trainer Grayson",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17681,8 +17681,8 @@
             "evspeed": 0
           }
         ],
-        "game": "Ace Trainer Dark Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Ace Trainer Dark Master Trainer Tristan",
+        "game": "Ace Trainer Dark Master Trainer Franklin (Eterna Forest (Overworld) Trainers)",
+        "name": "Ace Trainer Dark Master Trainer Franklin",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17717,8 +17717,8 @@
             "evspeed": 252
           }
         ],
-        "game": "Worker Steel Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "Worker Steel Master Trainer Tristan",
+        "game": "Worker Steel Master Trainer Julian (Eterna Forest (Overworld) Trainers)",
+        "name": "Worker Steel Master Trainer Julian",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17753,8 +17753,8 @@
             "evspeed": 0
           }
         ],
-        "game": "School Kid Fairy Master Trainer Tristan (Eterna Forest (Overworld) Trainers)",
-        "name": "School Kid Fairy Master Trainer Tristan",
+        "game": "School Kid Fairy Master Trainer Marilyn (Eterna Forest (Overworld) Trainers)",
+        "name": "School Kid Fairy Master Trainer Marilyn",
         "type": "Trainer",
         "route": "Eterna Forest (Overworld) Trainers",
         "zoneId": 199,
@@ -17930,7 +17930,7 @@
         "content": [
           {
             "ability": "Intimidate",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 229,
             "item": "Black Glasses",
             "level": 77,
@@ -17951,8 +17951,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Technician",
@@ -17976,13 +17976,13 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Unburden",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 275,
             "item": "Miracle Seed",
             "level": 78,
@@ -18003,12 +18003,12 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Speed Boost",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 319,
             "item": "Life Orb",
             "level": 78,
@@ -18028,9 +18028,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Infiltrator",
@@ -18054,13 +18054,13 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspatk": 252,
+            "evspdef": 4,
+            "evspeed": 0
           },
           {
             "ability": "Sand Stream",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 248,
             "item": "Assault Vest",
             "level": 80,
@@ -18081,8 +18081,8 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 0
           }
         ],
         "game": "Ace Trainer Shade (Eterna Forest (Overworld) Trainers)",
@@ -18117,8 +18117,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Merciless",
@@ -18143,12 +18143,12 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Flare Boost",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 435,
             "item": "Flame Orb",
             "level": 78,
@@ -18168,13 +18168,13 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 4,
-            "evspeed": 0
+            "evspatk": 4,
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Dry Skin",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 454,
             "item": "Black Belt",
             "level": 78,
@@ -18194,13 +18194,13 @@
             "evhp": 0,
             "evatk": 248,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 8
+            "evspatk": 0,
+            "evspdef": 8,
+            "evspeed": 252
           },
           {
             "ability": "Thick Fat",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 3,
             "item": "Black Sludge",
             "level": 78,
@@ -18220,13 +18220,13 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 4,
-            "evspeed": 252
+            "evspatk": 4,
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Inner Focus",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 169,
             "item": "Assault Vest",
             "level": 80,
@@ -18246,9 +18246,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           }
         ],
         "game": "Ace Trainer Slythe (Eterna Forest (Overworld) Trainers)",
@@ -19323,12 +19323,12 @@
             "ivspatk": 24,
             "ivspdef": 24,
             "ivspeed": 25,
-            "evhp": 236,
-            "evatk": 244,
+            "evhp": 248,
+            "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
+            "evspatk": 248,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 12
           },
           {
             "ability": "Technician",
@@ -19350,7 +19350,7 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 8,
             "evdef": 0,
             "evspatk": 248,
             "evspdef": 0,
@@ -20184,7 +20184,7 @@
             "evdef": 0,
             "evspatk": 252,
             "evspdef": 4,
-            "evspeed": 0
+            "evspeed": 252
           }
         ],
         "game": "Gym Leader Gardenia Rematch (Eterna - Gym Main Room Trainers) [Team 2]",
@@ -20345,12 +20345,12 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 4
+            "evspeed": 252
           }
         ],
         "game": "Gym Leader Gardenia Rematch (Eterna - Gym Main Room Trainers) [Team 3]",
@@ -23833,10 +23833,10 @@
             "item": null,
             "level": 26,
             "moves": [
+              33,
               67,
               183,
-              229,
-              193
+              229
             ],
             "nature": "Serious",
             "ivatk": 25,
@@ -26570,13 +26570,13 @@
             "ability": "Competitive",
             "gender": "FEMALE",
             "id": 394,
-            "item": "Sitrus Berry",
+            "item": "Chesto Berry",
             "level": 33,
             "moves": [
               503,
               196,
               447,
-              446
+              156
             ],
             "nature": "Modest",
             "ivatk": 0,
@@ -26585,12 +26585,12 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
-            "evdef": 124,
+            "evdef": 0,
             "evspatk": 252,
-            "evspdef": 132,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 4
           },
           {
             "ability": "Serene Grace",
@@ -28175,7 +28175,7 @@
             "item": null,
             "level": 26,
             "moves": [
-              193,
+              310,
               425,
               261,
               371
@@ -28227,7 +28227,7 @@
             "item": null,
             "level": 26,
             "moves": [
-              193,
+              310,
               425,
               261,
               371
@@ -28289,7 +28289,7 @@
             "item": null,
             "level": 26,
             "moves": [
-              193,
+              310,
               425,
               261,
               371
@@ -29171,8 +29171,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 248,
-            "evspdef": 4,
-            "evspeed": 244
+            "evspdef": 0,
+            "evspeed": 248
           }
         ],
         "game": "Gym Leader Fantina (Hearthome - Gym Leader Room Trainers) [Team 4]",
@@ -31720,9 +31720,9 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 124,
-            "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 132
+            "evspatk": 252,
+            "evspdef": 132,
+            "evspeed": 0
           }
         ],
         "game": "Pok\u00e9mon Trainer Barry Turtwig (Pok\u00e9mon Mansion - Lobby Trainers)",
@@ -31756,9 +31756,9 @@
             "evhp": 84,
             "evatk": 0,
             "evdef": 84,
-            "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 88
+            "evspatk": 252,
+            "evspdef": 88,
+            "evspeed": 0
           },
           {
             "ability": "Torrent",
@@ -31782,9 +31782,9 @@
             "evhp": 244,
             "evatk": 124,
             "evdef": 0,
-            "evspatk": 140,
+            "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 140
           },
           {
             "ability": "Queenly Majesty",
@@ -31948,9 +31948,9 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspatk": 252,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Dry Skin",
@@ -32009,10 +32009,10 @@
             "ivspeed": 25,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspdef": 252,
+            "evspeed": 4
           },
           {
             "ability": "Static",
@@ -32033,12 +32033,12 @@
             "ivspatk": 25,
             "ivspdef": 25,
             "ivspeed": 25,
-            "evhp": 0,
+            "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
+            "evspatk": 252,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Synchronize",
@@ -32062,9 +32062,9 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspatk": 252,
+            "evspdef": 4,
+            "evspeed": 252
           }
         ],
         "game": "Gentleman Mr. Backlot (Pok\u00e9mon Mansion - Lobby Trainers)",
@@ -32098,9 +32098,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Inner Focus",
@@ -32371,9 +32371,9 @@
             "ivspeed": 31,
             "evhp": 252,
             "evatk": 0,
-            "evdef": 0,
+            "evdef": 128,
             "evspatk": 0,
-            "evspdef": 0,
+            "evspdef": 128,
             "evspeed": 0
           }
         ],
@@ -32467,10 +32467,10 @@
             "item": null,
             "level": 26,
             "moves": [
+              33,
               67,
               183,
-              229,
-              193
+              229
             ],
             "nature": "Serious",
             "ivatk": 25,
@@ -39980,8 +39980,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40006,9 +40006,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Cute Charm",
@@ -40059,8 +40059,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Water Absorb",
@@ -40146,8 +40146,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40172,9 +40172,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Cute Charm",
@@ -40225,8 +40225,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Volt Absorb",
@@ -40250,8 +40250,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40277,8 +40277,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           }
         ],
         "game": "Pok\u00e9mon Trainer Dawn Turtwig (Route 210 (North) Trainers)",
@@ -40312,8 +40312,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40338,9 +40338,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Cute Charm",
@@ -40391,8 +40391,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Flash Fire",
@@ -40417,8 +40417,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Torrent",
@@ -40441,9 +40441,9 @@
             "ivspeed": 31,
             "evhp": 252,
             "evatk": 0,
-            "evdef": 76,
-            "evspatk": 180,
-            "evspdef": 0,
+            "evdef": 72,
+            "evspatk": 0,
+            "evspdef": 180,
             "evspeed": 0
           }
         ],
@@ -40478,8 +40478,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40504,9 +40504,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -40530,8 +40530,8 @@
             "evhp": 212,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 44,
+            "evspatk": 44,
+            "evspdef": 0,
             "evspeed": 0
           },
           {
@@ -40608,9 +40608,9 @@
             "evhp": 247,
             "evatk": 0,
             "evdef": 252,
-            "evspatk": 8,
+            "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 8
           }
         ],
         "game": "Pok\u00e9mon Trainer Lucas Piplup (Route 210 (North) Trainers)",
@@ -40644,8 +40644,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40670,9 +40670,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -40696,8 +40696,8 @@
             "evhp": 212,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 44,
+            "evspatk": 44,
+            "evspdef": 0,
             "evspeed": 0
           },
           {
@@ -40748,8 +40748,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40772,7 +40772,7 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 251,
+            "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
@@ -40810,8 +40810,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -40836,9 +40836,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 4,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -40862,8 +40862,8 @@
             "evhp": 212,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 44,
+            "evspatk": 44,
+            "evspdef": 0,
             "evspeed": 0
           },
           {
@@ -40915,8 +40915,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Torrent",
@@ -40940,8 +40940,8 @@
             "evhp": 251,
             "evatk": 0,
             "evdef": 76,
-            "evspatk": 180,
-            "evspdef": 0,
+            "evspatk": 0,
+            "evspdef": 180,
             "evspeed": 0
           }
         ],
@@ -43120,8 +43120,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43172,8 +43172,8 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 76,
-            "evspatk": 180,
-            "evspdef": 0,
+            "evspatk": 0,
+            "evspdef": 180,
             "evspeed": 0
           }
         ],
@@ -43198,7 +43198,7 @@
               351,
               50
             ],
-            "nature": "Hardy",
+            "nature": "Docile",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43208,8 +43208,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43224,7 +43224,7 @@
               157,
               420
             ],
-            "nature": "Bashful",
+            "nature": "Hardy",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43296,8 +43296,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43312,7 +43312,7 @@
               157,
               420
             ],
-            "nature": "Bashful",
+            "nature": "Hardy",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43346,10 +43346,10 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
+            "evspdef": 0,
             "evspeed": 252
           }
         ],
@@ -43384,8 +43384,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43436,8 +43436,8 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 76,
-            "evspatk": 180,
-            "evspdef": 0,
+            "evspatk": 0,
+            "evspdef": 180,
             "evspeed": 0
           }
         ],
@@ -43462,7 +43462,7 @@
               351,
               50
             ],
-            "nature": "Hardy",
+            "nature": "Quirky",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43472,8 +43472,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43550,7 +43550,7 @@
               351,
               50
             ],
-            "nature": "Bashful",
+            "nature": "Quirky",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43560,8 +43560,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 252
           },
           {
@@ -43571,12 +43571,12 @@
             "item": null,
             "level": 35,
             "moves": [
+              419,
               36,
-              31,
-              89,
+              157,
               420
             ],
-            "nature": "Docile",
+            "nature": "Bashful",
             "ivatk": 25,
             "ivdef": 25,
             "ivhp": 25,
@@ -43610,10 +43610,10 @@
             "ivspdef": 25,
             "ivspeed": 25,
             "evhp": 0,
-            "evatk": 0,
+            "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
+            "evspdef": 0,
             "evspeed": 252
           }
         ],
@@ -53730,8 +53730,8 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 76,
-            "evspatk": 180,
-            "evspdef": 0,
+            "evspatk": 0,
+            "evspdef": 180,
             "evspeed": 0
           },
           {
@@ -53756,8 +53756,8 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 4,
             "evspeed": 252
           },
           {
@@ -53809,8 +53809,8 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Pressure",
@@ -53835,8 +53835,8 @@
             "evatk": 252,
             "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           }
         ],
         "game": "Castle Valet Darach (Ramanas Park Trainers)",
@@ -53871,9 +53871,9 @@
             "ivspeed": 0,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
+            "evdef": 252,
+            "evspatk": 4,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -53897,9 +53897,9 @@
             "ivspeed": 0,
             "evhp": 0,
             "evatk": 0,
-            "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
+            "evdef": 252,
+            "evspatk": 4,
+            "evspdef": 252,
             "evspeed": 0
           }
         ],
@@ -60151,8 +60151,8 @@
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Guts",
@@ -60175,7 +60175,7 @@
             "ivspeed": 31,
             "evhp": 252,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -60201,7 +60201,7 @@
             "ivspeed": 31,
             "evhp": 252,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -60227,10 +60227,10 @@
             "ivspeed": 31,
             "evhp": 0,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Truant",
@@ -60253,7 +60253,7 @@
             "ivspeed": 31,
             "evhp": 252,
             "evatk": 252,
-            "evdef": 0,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
             "evspeed": 0
@@ -60277,12 +60277,12 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
+            "evhp": 4,
             "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           }
         ],
         "game": "Pok\u00e9mon Trainer Riley (Iron Island (Overworld) Trainers)",
@@ -65800,11 +65800,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
-            "evdef": 0,
+            "evatk": 252,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Pressure",
@@ -65825,12 +65825,12 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
-            "evatk": 0,
+            "evhp": 252,
+            "evatk": 252,
             "evdef": 0,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 4
           },
           {
             "ability": "Pure Power",
@@ -65844,7 +65844,7 @@
               8,
               7
             ],
-            "nature": "Modest",
+            "nature": "Adamant",
             "ivatk": 31,
             "ivdef": 31,
             "ivhp": 31,
@@ -65852,11 +65852,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 0,
-            "evdef": 0,
+            "evatk": 252,
+            "evdef": 4,
             "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Serene Grace",
@@ -65877,11 +65877,11 @@
             "ivspatk": 31,
             "ivspdef": 31,
             "ivspeed": 31,
-            "evhp": 0,
+            "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
+            "evspatk": 4,
+            "evspdef": 252,
             "evspeed": 0
           },
           {
@@ -65906,9 +65906,9 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspatk": 252,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Static",
@@ -65932,9 +65932,9 @@
             "evhp": 0,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 0
+            "evspatk": 252,
+            "evspdef": 4,
+            "evspeed": 252
           }
         ],
         "game": "Arcade Star Dahlia (Sunyshore City Trainers)",
@@ -73518,8 +73518,8 @@
             "evhp": 4,
             "evatk": 8,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 248,
+            "evspatk": 248,
+            "evspdef": 0,
             "evspeed": 248
           },
           {
@@ -80724,7 +80724,7 @@
         "content": [
           {
             "ability": "Guts",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 277,
             "item": "Flame Orb",
             "level": 77,
@@ -80744,9 +80744,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Serene Grace",
@@ -80771,12 +80771,12 @@
             "evatk": 0,
             "evdef": 252,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 0
           },
           {
             "ability": "Immunity",
-            "gender": "MALE",
+            "gender": "FEMALE",
             "id": 143,
             "item": "Aguav Berry",
             "level": 78,
@@ -80797,8 +80797,8 @@
             "evatk": 4,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 252
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Sap Sipper",
@@ -80823,8 +80823,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Parental Bond",
@@ -80848,9 +80848,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Adaptability",
@@ -80875,8 +80875,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 4
+            "evspdef": 4,
+            "evspeed": 252
           }
         ],
         "game": "Ace Trainer Gene (Pokemon League Trainers)",
@@ -84577,10 +84577,10 @@
             "item": null,
             "level": 74,
             "moves": [
+              33,
               67,
               183,
-              229,
-              193
+              229
             ],
             "nature": "Serious",
             "ivatk": 25,
@@ -86745,8 +86745,8 @@
             "evatk": 4,
             "evdef": 0,
             "evspatk": 0,
-            "evspdef": 0,
-            "evspeed": 252
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Speed Boost",
@@ -86770,9 +86770,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 4,
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Sticky Hold",
@@ -86822,9 +86822,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Mega Launcher",
@@ -86848,9 +86848,9 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 4,
-            "evspeed": 0
+            "evspatk": 4,
+            "evspdef": 0,
+            "evspeed": 252
           },
           {
             "ability": "Fur Coat",
@@ -86874,9 +86874,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 248,
-            "evspdef": 0,
-            "evspeed": 8
+            "evspatk": 0,
+            "evspdef": 8,
+            "evspeed": 248
           }
         ],
         "game": "Commander Mars (Stark Mountain - Entrance Trainers)",
@@ -86910,8 +86910,8 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 4,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 0
           },
           {
@@ -86934,11 +86934,11 @@
             "ivspdef": 31,
             "ivspeed": 31,
             "evhp": 0,
-            "evatk": 4,
+            "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Guts",
@@ -86962,9 +86962,9 @@
             "evhp": 4,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
+            "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           },
           {
             "ability": "Grassy Surge",
@@ -86988,8 +86988,8 @@
             "evhp": 4,
             "evatk": 0,
             "evdef": 252,
-            "evspatk": 0,
-            "evspdef": 252,
+            "evspatk": 252,
+            "evspdef": 0,
             "evspeed": 0
           },
           {
@@ -87014,9 +87014,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Stench",
@@ -87041,8 +87041,8 @@
             "evatk": 0,
             "evdef": 0,
             "evspatk": 252,
-            "evspdef": 252,
-            "evspeed": 0
+            "evspdef": 0,
+            "evspeed": 252
           }
         ],
         "game": "Commander Jupiter (Stark Mountain - Entrance Trainers)",
@@ -88512,9 +88512,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Magic Guard",
@@ -88616,9 +88616,9 @@
             "evhp": 4,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
+            "evspatk": 0,
             "evspdef": 0,
-            "evspeed": 0
+            "evspeed": 252
           }
         ],
         "game": "Pok\u00e9mon Trainer Dawn Piplup (Sandgem Town Trainers)",
@@ -88678,9 +88678,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Magic Guard",
@@ -88844,9 +88844,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Magic Guard",
@@ -88922,9 +88922,9 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 4,
-            "evspeed": 252
+            "evspatk": 4,
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Shell Armor",
@@ -89010,9 +89010,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -89176,9 +89176,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -89342,9 +89342,9 @@
             "evhp": 0,
             "evatk": 252,
             "evdef": 0,
-            "evspatk": 252,
-            "evspdef": 0,
-            "evspeed": 4
+            "evspatk": 0,
+            "evspdef": 4,
+            "evspeed": 252
           },
           {
             "ability": "Intimidate",
@@ -89420,9 +89420,9 @@
             "evhp": 252,
             "evatk": 0,
             "evdef": 0,
-            "evspatk": 0,
-            "evspdef": 4,
-            "evspeed": 252
+            "evspatk": 4,
+            "evspdef": 252,
+            "evspeed": 0
           },
           {
             "ability": "Shell Armor",
