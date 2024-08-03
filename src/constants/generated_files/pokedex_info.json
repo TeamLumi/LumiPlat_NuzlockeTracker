@@ -9407,7 +9407,7 @@
   },
   {
     "value": 1028,
-    "text": "Pikachu Rock Star",
+    "text": "Cosplay Rock Star Pikachu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -9434,7 +9434,7 @@
   },
   {
     "value": 1029,
-    "text": "Pikachu Belle",
+    "text": "Cosplay Belle Pikachu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -9461,7 +9461,7 @@
   },
   {
     "value": 1030,
-    "text": "Pikachu Pop Star",
+    "text": "Cosplay Pop Star Pikachu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -9488,7 +9488,7 @@
   },
   {
     "value": 1031,
-    "text": "Pikachu, Ph.D",
+    "text": "Cosplay Ph.D Pikachu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -9515,7 +9515,7 @@
   },
   {
     "value": 1032,
-    "text": "Pikachu Libre",
+    "text": "Cosplay Libre Pikachu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -10171,7 +10171,7 @@
   },
   {
     "value": 1100,
-    "text": "MK2 Armored Mewtwo",
+    "text": "Mk II Armored Mewtwo",
     "type": "PSYCHIC",
     "evolve": [
       150,
@@ -10189,7 +10189,7 @@
   },
   {
     "value": 1101,
-    "text": "MK2 Armored Mewtwo",
+    "text": "Mk I Armored Mewtwo",
     "type": "PSYCHIC",
     "evolve": [
       150,
@@ -10226,7 +10226,7 @@
   },
   {
     "value": 1103,
-    "text": "Spiky-eared Pichu",
+    "text": "Spiky-Eared Pichu",
     "type": "ELECTRIC",
     "evolve": [
       172,
@@ -10271,7 +10271,7 @@
   },
   {
     "value": 1107,
-    "text": "Unown One form",
+    "text": "Unown B Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10314,7 +10314,7 @@
   },
   {
     "value": 1108,
-    "text": "Unown One form",
+    "text": "Unown C Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10357,7 +10357,7 @@
   },
   {
     "value": 1109,
-    "text": "Unown One form",
+    "text": "Unown D Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10400,7 +10400,7 @@
   },
   {
     "value": 1110,
-    "text": "Unown One form",
+    "text": "Unown E Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10443,7 +10443,7 @@
   },
   {
     "value": 1111,
-    "text": "Unown One form",
+    "text": "Unown F Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10486,7 +10486,7 @@
   },
   {
     "value": 1112,
-    "text": "Unown One form",
+    "text": "Unown G Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10529,7 +10529,7 @@
   },
   {
     "value": 1113,
-    "text": "Unown One form",
+    "text": "Unown H Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10572,7 +10572,7 @@
   },
   {
     "value": 1114,
-    "text": "Unown One form",
+    "text": "Unown I Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10615,7 +10615,7 @@
   },
   {
     "value": 1115,
-    "text": "Unown One form",
+    "text": "Unown J Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10658,7 +10658,7 @@
   },
   {
     "value": 1116,
-    "text": "Unown One form",
+    "text": "Unown K Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10701,7 +10701,7 @@
   },
   {
     "value": 1117,
-    "text": "Unown One form",
+    "text": "Unown L Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10744,7 +10744,7 @@
   },
   {
     "value": 1118,
-    "text": "Unown One form",
+    "text": "Unown M Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10787,7 +10787,7 @@
   },
   {
     "value": 1119,
-    "text": "Unown One form",
+    "text": "Unown N Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10830,7 +10830,7 @@
   },
   {
     "value": 1120,
-    "text": "Unown One form",
+    "text": "Unown O Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10873,7 +10873,7 @@
   },
   {
     "value": 1121,
-    "text": "Unown One form",
+    "text": "Unown P Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10916,7 +10916,7 @@
   },
   {
     "value": 1122,
-    "text": "Unown One form",
+    "text": "Unown Q Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -10959,7 +10959,7 @@
   },
   {
     "value": 1123,
-    "text": "Unown One form",
+    "text": "Unown R Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11002,7 +11002,7 @@
   },
   {
     "value": 1124,
-    "text": "Unown One form",
+    "text": "Unown S Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11045,7 +11045,7 @@
   },
   {
     "value": 1125,
-    "text": "Unown One form",
+    "text": "Unown T Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11088,7 +11088,7 @@
   },
   {
     "value": 1126,
-    "text": "Unown One form",
+    "text": "Unown U Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11131,7 +11131,7 @@
   },
   {
     "value": 1127,
-    "text": "Unown One form",
+    "text": "Unown V Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11174,7 +11174,7 @@
   },
   {
     "value": 1128,
-    "text": "Unown One form",
+    "text": "Unown W Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11217,7 +11217,7 @@
   },
   {
     "value": 1129,
-    "text": "Unown One form",
+    "text": "Unown X Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11260,7 +11260,7 @@
   },
   {
     "value": 1130,
-    "text": "Unown One form",
+    "text": "Unown Y Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11303,7 +11303,7 @@
   },
   {
     "value": 1131,
-    "text": "Unown One form",
+    "text": "Unown Z Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11346,7 +11346,7 @@
   },
   {
     "value": 1132,
-    "text": "Unown One form",
+    "text": "Unown ! Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11389,7 +11389,7 @@
   },
   {
     "value": 1133,
-    "text": "Unown One form",
+    "text": "Unown ? Form",
     "type": "PSYCHIC",
     "evolve": [
       201,
@@ -11909,7 +11909,7 @@
   },
   {
     "value": 1193,
-    "text": "Arceus",
+    "text": "Fist Plate Arceus",
     "type": "FIGHTING",
     "evolve": [
       493,
@@ -11942,7 +11942,7 @@
   },
   {
     "value": 1194,
-    "text": "Arceus",
+    "text": "Sky Plate Arceus",
     "type": "FLYING",
     "evolve": [
       493,
@@ -11975,7 +11975,7 @@
   },
   {
     "value": 1195,
-    "text": "Arceus",
+    "text": "Toxic Plate Arceus",
     "type": "POISON",
     "evolve": [
       493,
@@ -12008,7 +12008,7 @@
   },
   {
     "value": 1196,
-    "text": "Arceus",
+    "text": "Earth Plate Arceus",
     "type": "GROUND",
     "evolve": [
       493,
@@ -12041,7 +12041,7 @@
   },
   {
     "value": 1197,
-    "text": "Arceus",
+    "text": "Stone Plate Arceus",
     "type": "ROCK",
     "evolve": [
       493,
@@ -12074,7 +12074,7 @@
   },
   {
     "value": 1198,
-    "text": "Arceus",
+    "text": "Insect Plate Arceus",
     "type": "BUG",
     "evolve": [
       493,
@@ -12107,7 +12107,7 @@
   },
   {
     "value": 1199,
-    "text": "Arceus",
+    "text": "Spooky Plate Arceus",
     "type": "GHOST",
     "evolve": [
       493,
@@ -12140,7 +12140,7 @@
   },
   {
     "value": 1200,
-    "text": "Arceus",
+    "text": "Iron Plate Arceus",
     "type": "STEEL",
     "evolve": [
       493,
@@ -12173,7 +12173,7 @@
   },
   {
     "value": 1201,
-    "text": "Arceus",
+    "text": "Flame Plate Arceus",
     "type": "FIRE",
     "evolve": [
       493,
@@ -12206,7 +12206,7 @@
   },
   {
     "value": 1202,
-    "text": "Arceus",
+    "text": "Splash Plate Arceus",
     "type": "WATER",
     "evolve": [
       493,
@@ -12239,7 +12239,7 @@
   },
   {
     "value": 1203,
-    "text": "Arceus",
+    "text": "Meadow Plate Arceus",
     "type": "GRASS",
     "evolve": [
       493,
@@ -12272,7 +12272,7 @@
   },
   {
     "value": 1204,
-    "text": "Arceus",
+    "text": "Zap Plate Arceus",
     "type": "ELECTRIC",
     "evolve": [
       493,
@@ -12305,7 +12305,7 @@
   },
   {
     "value": 1205,
-    "text": "Arceus",
+    "text": "Mind Plate Arceus",
     "type": "PSYCHIC",
     "evolve": [
       493,
@@ -12338,7 +12338,7 @@
   },
   {
     "value": 1206,
-    "text": "Arceus",
+    "text": "Icicle Plate Arceus",
     "type": "ICE",
     "evolve": [
       493,
@@ -12371,7 +12371,7 @@
   },
   {
     "value": 1207,
-    "text": "Arceus",
+    "text": "Draco Plate Arceus",
     "type": "DRAGON",
     "evolve": [
       493,
@@ -12404,7 +12404,7 @@
   },
   {
     "value": 1208,
-    "text": "Arceus",
+    "text": "Dread Plate Arceus",
     "type": "DARK",
     "evolve": [
       493,
@@ -12437,7 +12437,7 @@
   },
   {
     "value": 1209,
-    "text": "Arceus",
+    "text": "Pixie Plate Arceus",
     "type": "FAIRY",
     "evolve": [
       493,
