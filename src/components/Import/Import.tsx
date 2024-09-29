@@ -135,7 +135,6 @@ function Import(): JSX.Element {
       const foundPoke = POKEMON.find(
         (poke) => poke.text.includes(pokemonName) && poke.form === formNo
       );
-      console.log(foundPoke);
       const zoneID: number[] = foundEnc.zoneID;
       const position = data[arrPositions.get('Position')]
       let status: TStatus = STATUSES[0]
@@ -207,7 +206,6 @@ function Import(): JSX.Element {
         const lineArr = line.split('|');
         const pokemonName = lineArr[arrPositions.get('Species')];
         const formNo = parseInt(lineArr[arrPositions.get('Form')]);    
-        console.log(pokemonName, formNo, pokemonName === "Sirfetch'd", "Sirfetch’d");    
 
         if (lineArr?.length < 5 || !pokemonName) {
           return parsedArr;
@@ -300,7 +298,7 @@ function Import(): JSX.Element {
           data-testid="dead-box"
           inline
           onChange={(e, data) => setDeadBox(data.value as number)}
-          options={Array.from({ length: numberOfBoxes ?? 14 }, (_, index) => ({
+          options={Array.from({ length: numberOfBoxes ?? 40 }, (_, index) => ({
             key: `box${index + 1}`,
             text: `Box ${index + 1}`,
             value: index + 1
