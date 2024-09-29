@@ -13,6 +13,8 @@ import STATUSES from 'constants/status';
 import type { AppState, Gender, TEncounter, TStatus } from 'constants/types';
 import useStore from 'store';
 import styles from './Import.module.scss';
+import dropdownStyles from 'assets/styles/Dropdown.module.scss';
+import { Dropdown, DropdownItemProps, StrictDropdownItemProps } from 'semantic-ui-react';
 
 const GENDER_DICTIONARY: Record<string, Gender> = {
   'F': 'FEMALE',
@@ -63,9 +65,13 @@ function Import(): JSX.Element {
   const encounterList = useStore(
     useCallback((state) => state.games[state.selectedGame?.value], [])
   );
+  const numberOfBoxes = useStore(
+    useCallback((state) => state.games[state.selectedGame?.value]?.numberOfBoxes, [])
+  );
   const [option, setOption] = useState<'all' | 'table'>('all');
   const [file, setFile] = useState<File>(undefined);
   const [text, setText] = useState('');
+  const [deadBox, setDeadBox] = useState<StrictDropdownItemProps["value"]>(null);
   const pkhexHelper = t('pkhex_helper');
   const linkText = 'PKLumiHeX (Version 0.3.7)';
   const linkIndex = pkhexHelper.indexOf(linkText);
@@ -77,10 +83,10 @@ function Import(): JSX.Element {
 
   function overwriteZoneIDs(firstFile: Partial<AppState>) {
     const encounters = firstFile.games["1"].encounters;
-  
+
     LMPT.forEach((secondEncounter) => {
       const { id, zoneID } = secondEncounter;
-  
+
       const firstEncounter = encounters.find((encounter) => encounter.id === id);
       if (firstEncounter) {
         firstEncounter.zoneID = zoneID;
@@ -88,7 +94,7 @@ function Import(): JSX.Element {
     });
     return firstFile;
   }
-  
+
   const handleAllImport = () => {
     const fileReader = new FileReader();
     fileReader.readAsText(file, 'UTF-8');
@@ -115,21 +121,29 @@ function Import(): JSX.Element {
   const getEncounter = (
     data: string[],
     arrPositions: Map<string, number>,
-    pokemonName: string
+    pokemonName: string,
+    formNo: number,
+    deadBox: StrictDropdownItemProps["value"],
   ): TEncounter => {
     const MetLoc = data[arrPositions.get('MetLoc')];
     const MetZoneId = getZoneIdFromName(MetLoc)
     const foundEnc = encounterList.encounters.find((enc) => {
       return enc.zoneID.some((zoneId) => zoneId === MetZoneId);
     });
-        
+
     if (foundEnc) {
-      const foundPoke = POKEMON.find((poke) => poke.text === pokemonName);
+      const foundPoke = POKEMON.find(
+        (poke) => poke.text.includes(pokemonName) && poke.form === formNo
+      );
+      console.log(foundPoke);
       const zoneID: number[] = foundEnc.zoneID;
       const position = data[arrPositions.get('Position')]
       let status: TStatus = STATUSES[0]
       if (position.includes("Party")) {
         status = STATUSES[5]
+      }
+      if (position.includes(`(Box ${deadBox})`)) {
+        status = STATUSES[1]
       }
       return {
         details: {
@@ -192,12 +206,14 @@ function Import(): JSX.Element {
       const newEncounters = formatted.reduce((parsedArr: TEncounter[], line) => {
         const lineArr = line.split('|');
         const pokemonName = lineArr[arrPositions.get('Species')];
+        const formNo = parseInt(lineArr[arrPositions.get('Form')]);    
+        console.log(pokemonName, formNo, pokemonName === "Sirfetch'd", "Sirfetch’d");    
 
         if (lineArr?.length < 5 || !pokemonName) {
           return parsedArr;
         }
 
-        const newEncounter = getEncounter(lineArr, arrPositions, pokemonName);
+        const newEncounter = getEncounter(lineArr, arrPositions, pokemonName, formNo, deadBox);
         if (newEncounter) {
           parsedArr.push(newEncounter);
         }
@@ -278,6 +294,24 @@ function Import(): JSX.Element {
         >
           {t('how_to')} <Icon name="linkify" />
         </a>
+        <Dropdown
+          aria-label="dead-box"
+          className={dropdownStyles.dropdown}
+          data-testid="dead-box"
+          inline
+          onChange={(e, data) => setDeadBox(data.value as number)}
+          options={Array.from({ length: numberOfBoxes ?? 14 }, (_, index) => ({
+            key: `box${index + 1}`,
+            text: `Box ${index + 1}`,
+            value: index + 1
+          }))}
+          selection
+          search
+          maxWidth
+          style={{maxWidth: "fit-content"}}
+          placeholder='Dead Box'
+          disabled={option !== 'table'}
+        />
         <textarea
           className={styles.textarea}
           data-testid="table-import-textarea"

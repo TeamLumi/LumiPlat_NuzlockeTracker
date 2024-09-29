@@ -127,6 +127,7 @@ export type Games = { [key: string]: TrackData };
 export type TrackData = {
   badge: number[];
   encounters: TEncounter[];
+  numberOfBoxes: number;
 };
 
 export type TGame = {

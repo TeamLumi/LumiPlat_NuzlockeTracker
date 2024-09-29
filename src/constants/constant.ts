@@ -181,7 +181,7 @@ export const INITIAL_STATE: Partial<AppState> = {
   darkMode: false,
   duplicates: false,
   games: {
-    '1': { badge: [], encounters: LMPT },
+    '1': { badge: [], encounters: LMPT, numberOfBoxes: 40 },
   },
   gamesList: GAMES,
   missing: false,

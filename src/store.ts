@@ -103,6 +103,7 @@ const useStore = create<AppState>()(
           state.games[newKey.toString()] = {
             badge: [],
             encounters: templateKey ? [...INITIAL_STATE.games[templateKey].encounters] : [],
+            numberOfBoxes: templateKey ? INITIAL_STATE.games[templateKey].numberOfBoxes : 1,
           };
           state.summary[newKey.toString()] = { ...INITIAL_SUMMARY };
           state.calcs[newKey.toString()] = {

@@ -4,7 +4,7 @@
   gap: var(--spacing-4);
   color: var(--contrast);
   box-sizing: unset;
-  overflow: auto;
+  overflow: visible;
 
   .customFile {
     display: flex;
