@@ -1,21 +1,5 @@
 [
   {
-    "value": 0,
-    "text": "Egg",
-    "type": "NORMAL",
-    "evolve": [
-      0
-    ],
-    "generation": 8,
-    "abilities": [
-      "—",
-      "—",
-      "—"
-    ],
-    "dexNum": 0,
-    "form": 0
-  },
-  {
     "value": 1,
     "text": "Bulbasaur",
     "type": "GRASS",
