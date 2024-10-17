@@ -26,7 +26,7 @@ const Shiny = ({ children }: React.PropsWithChildren<{}>) => (
 );
 
 const PkmImage = ({ dexNum, form, name, shiny = false }: PkmImageProps) => {
-  const baseImgSrc = 'https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/';
+  const baseImgSrc = 'https://raw.githubusercontent.com/TeamLumi/luminescent-team/main/static/img/pkm/';
   const [imgSrc, setImgSrc] = useState(baseImgSrc + getImage(dexNum, form));
 
   const loadImage = (src: string) => {
