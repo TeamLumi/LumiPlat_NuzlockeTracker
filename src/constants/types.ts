@@ -189,9 +189,9 @@ export type TEncounter = {
   id: number;
   location: string;
   nickname?: string;
-  pokemon: number;
+  pokemon: number | null;
   previousStatus?: TStatus;
-  status: TStatus;
+  status: TStatus | null;
   zoneID: number[];
 };
 

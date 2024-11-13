@@ -1,5 +1,5 @@
 {
-  "lmpt-1": [
+  "coro-1": [
     "Golduck",
     "Gyarados",
     "Hisuian Qwilfish",
@@ -8,7 +8,7 @@
     "Poliwhirl",
     "Psyduck"
   ],
-  "lmpt-2": [
+  "coro-2": [
     "Alolan Rattata",
     "Bidoof",
     "Doduo",
@@ -19,7 +19,7 @@
     "Pidgey",
     "Starly"
   ],
-  "lmpt-3": [
+  "coro-3": [
     "Alolan Meowth",
     "Azurill",
     "Bidoof",
@@ -33,7 +33,7 @@
     "Wingull",
     "Wynaut"
   ],
-  "lmpt-6": [
+  "coro-6": [
     "Burmy",
     "Growlithe",
     "Hisuian Growlithe",
@@ -45,7 +45,7 @@
     "Shinx",
     "Zigzagoon"
   ],
-  "lmpt-8": [
+  "coro-8": [
     "Abra",
     "Bidoof",
     "Corphish",
@@ -63,7 +63,7 @@
     "Spearow",
     "Starly"
   ],
-  "lmpt-9": [
+  "coro-9": [
     "Alolan Diglett",
     "Barboach",
     "Diglett",
@@ -77,7 +77,7 @@
     "Whiscash",
     "Zubat"
   ],
-  "lmpt-12": [
+  "coro-12": [
     "Azumarill",
     "Bellsprout",
     "Budew",
@@ -103,7 +103,7 @@
     "Wurmple",
     "Wurmple Coronet"
   ],
-  "lmpt-13": [
+  "coro-13": [
     "Barboach",
     "Galarian Farfetch'd",
     "Geodude",
@@ -118,7 +118,7 @@
     "Wooper",
     "Zubat"
   ],
-  "lmpt-16": [
+  "coro-16": [
     "Chinchou",
     "Cloyster",
     "Drifloon",
@@ -140,7 +140,7 @@
     "Tentacruel",
     "Voltorb"
   ],
-  "lmpt-17": [
+  "coro-17": [
     "Azumarill",
     "Bidoof",
     "Buizel",
@@ -174,7 +174,7 @@
     "Volbeat",
     "Yanma"
   ],
-  "lmpt-18": [
+  "coro-18": [
     "Buneary",
     "Mime Jr. Coronet",
     "Misdreavus",
@@ -187,7 +187,7 @@
     "Taillow",
     "Wurmple"
   ],
-  "lmpt-19": [
+  "coro-19": [
     "Dragonair",
     "Dratini",
     "Golduck",
@@ -198,7 +198,7 @@
     "Poliwhirl",
     "Psyduck"
   ],
-  "lmpt-20": [
+  "coro-20": [
     "Duskull",
     "Gastly",
     "Haunter",
@@ -208,7 +208,7 @@
     "Shuppet",
     "Teddiursa Coronet"
   ],
-  "lmpt-21": [
+  "coro-21": [
     "Cyndaquil Coronet",
     "Galarian Farfetch'd",
     "Gligar",
@@ -220,7 +220,7 @@
     "Stunky",
     "Torkoal"
   ],
-  "lmpt-22": [
+  "coro-22": [
     "Baltoy",
     "Geodude",
     "Gible",
@@ -230,7 +230,7 @@
     "Sandshrew",
     "Zubat"
   ],
-  "lmpt-23": [
+  "coro-23": [
     "Galarian Meowth",
     "Larvitar",
     "Machop",
@@ -239,7 +239,7 @@
     "Rhyhorn",
     "Stantler"
   ],
-  "lmpt-24": [
+  "coro-24": [
     "Abomasnow",
     "Absol",
     "Alolan Grimer",
@@ -282,7 +282,7 @@
     "Whiscash",
     "Zubat"
   ],
-  "lmpt-26": [
+  "coro-26": [
     "Bibarel",
     "Dunsparce",
     "Galarian Farfetch\u2019d",
@@ -304,7 +304,7 @@
     "Smeargle",
     "Zangoose"
   ],
-  "lmpt-28": [
+  "coro-28": [
     "Bonsly",
     "Chansey",
     "Galarian Corsola",
@@ -323,10 +323,10 @@
     "Staravia",
     "Vulpix"
   ],
-  "lmpt-30": [
+  "coro-30": [
     "Unown"
   ],
-  "lmpt-31": [
+  "coro-31": [
     "Banette",
     "Dusclops",
     "Duskull",
@@ -337,7 +337,7 @@
     "Murkrow",
     "Shuppet"
   ],
-  "lmpt-32": [
+  "coro-32": [
     "Absol",
     "Drowzee",
     "Exeggcute",
@@ -349,7 +349,7 @@
     "Mightyena",
     "Mudkip Coronet"
   ],
-  "lmpt-34": [
+  "coro-34": [
     "Cacnea",
     "Galarian Farfetch\u2019d",
     "Galarian Slowpoke",
@@ -366,7 +366,7 @@
     "Spinda",
     "Spoink"
   ],
-  "lmpt-35": [
+  "coro-35": [
     "Alolan Diglett",
     "Diglett",
     "Ditto",
@@ -376,7 +376,7 @@
     "Trapinch",
     "Whismur"
   ],
-  "lmpt-36": [
+  "coro-36": [
     "Alolan Exeggutor",
     "Bibarel",
     "Girafarig",
@@ -385,7 +385,7 @@
     "Nidorino",
     "Venomoth"
   ],
-  "lmpt-37": [
+  "coro-37": [
     "Absol",
     "Chatot",
     "Floatzel",
@@ -405,7 +405,7 @@
     "Wailord",
     "Wingull"
   ],
-  "lmpt-38": [
+  "coro-38": [
     "Barboach",
     "Bibarel",
     "Breloom",
@@ -433,7 +433,7 @@
     "Wooper",
     "Yanma"
   ],
-  "lmpt-39": [
+  "coro-39": [
     "Castform",
     "Cleffa",
     "Cyndaquil",
@@ -446,7 +446,7 @@
     "Teddiursa",
     "Togepi"
   ],
-  "lmpt-40": [
+  "coro-40": [
     "Alolan Grimer",
     "Dragonair",
     "Dratini",
@@ -478,7 +478,7 @@
     "Wailmer Coronet",
     "Zangoose"
   ],
-  "lmpt-41": [
+  "coro-41": [
     "Galarian Corsola",
     "Golduck",
     "Gyarados",
@@ -486,7 +486,7 @@
     "Psyduck",
     "Relicanth"
   ],
-  "lmpt-42": [
+  "coro-42": [
     "Alolan Muk",
     "Finneon",
     "Forretress",
@@ -505,7 +505,7 @@
     "Tentacruel",
     "Weezing"
   ],
-  "lmpt-43": [
+  "coro-43": [
     "Clamperl",
     "Galarian Slowbro",
     "Gorebyss",
@@ -519,7 +519,7 @@
     "Tentacruel",
     "Wingull"
   ],
-  "lmpt-44": [
+  "coro-44": [
     "Corsola",
     "Galarian Slowbro",
     "Horsea",
@@ -530,7 +530,7 @@
     "Seadra",
     "Wingull"
   ],
-  "lmpt-45": [
+  "coro-45": [
     "Clamperl",
     "Dodrio",
     "Farfetch\u2019d",
@@ -552,7 +552,7 @@
     "Tentacruel",
     "Wingull"
   ],
-  "lmpt-46": [
+  "coro-46": [
     "Alolan Dugtrio",
     "Chatot",
     "Ditto",
@@ -573,7 +573,7 @@
     "Tentacool",
     "Tentacruel"
   ],
-  "lmpt-47": [
+  "coro-47": [
     "Finneon",
     "Gastrodon",
     "Gyarados",
@@ -586,7 +586,7 @@
     "Tentacool",
     "Tentacruel"
   ],
-  "lmpt-48": [
+  "coro-48": [
     "Alolan Graveler",
     "Cursola",
     "Finneon",
@@ -607,7 +607,7 @@
     "Tentacruel",
     "Wingull"
   ],
-  "lmpt-50": [
+  "coro-50": [
     "Bagon",
     "Chingling",
     "Cubone",
@@ -620,7 +620,7 @@
     "Teddiursa",
     "Tyrogue"
   ],
-  "lmpt-51": [
+  "coro-51": [
     "Alolan Sandshrew",
     "Alolan Vulpix",
     "Delibird",
@@ -631,7 +631,7 @@
     "Swablu Coronet",
     "Swinub"
   ],
-  "lmpt-52": [
+  "coro-52": [
     "Abomasnow",
     "Alolan Ninetales",
     "Delibird",
@@ -645,7 +645,7 @@
     "Snorunt",
     "Solrock Coronet"
   ],
-  "lmpt-53": [
+  "coro-53": [
     "Abomasnow",
     "Delibird",
     "Froslass",
@@ -656,7 +656,7 @@
     "Sneasler",
     "Snorunt"
   ],
-  "lmpt-54": [
+  "coro-54": [
     "Alolan Ninetales",
     "Froslass",
     "Glalie",
@@ -667,7 +667,7 @@
     "Steelix",
     "Weavile"
   ],
-  "lmpt-57": [
+  "coro-57": [
     "Bibarel",
     "Chimecho",
     "Cursola",
@@ -681,7 +681,7 @@
     "Staravia",
     "Wobbuffet"
   ],
-  "lmpt-58": [
+  "coro-58": [
     "Alolan Raichu",
     "Chatot",
     "Cursola",
@@ -703,7 +703,7 @@
     "Wailord",
     "Wingull"
   ],
-  "lmpt-59": [
+  "coro-59": [
     "Cursola",
     "Gyarados",
     "Kingler",
@@ -715,7 +715,7 @@
     "Staryu",
     "Tentacruel"
   ],
-  "lmpt-60": [
+  "coro-60": [
     "Cursola",
     "Gyarados",
     "Magikarp",
@@ -727,7 +727,7 @@
     "Wailmer",
     "Wailord"
   ],
-  "lmpt-61": [
+  "coro-61": [
     "Corsola",
     "Galarian Slowking",
     "Gyarados",
@@ -737,7 +737,7 @@
     "Pelipper",
     "Tentacruel"
   ],
-  "lmpt-62": [
+  "coro-62": [
     "Carvanha",
     "Gastrodon",
     "Gastrodon East Sea",
@@ -751,7 +751,7 @@
     "Tentacool",
     "Tentacruel"
   ],
-  "lmpt-64": [
+  "coro-64": [
     "Arbok",
     "Azumarill",
     "Barboach",
@@ -787,7 +787,7 @@
     "Whiscash",
     "Wooper"
   ],
-  "lmpt-66": [
+  "coro-66": [
     "Bibarel",
     "Galarian Slowbro",
     "Golduck",
@@ -800,7 +800,7 @@
     "Surskit",
     "Wobbuffet"
   ],
-  "lmpt-67": [
+  "coro-67": [
     "Abomasnow",
     "Cursola",
     "Dewgong",
@@ -815,7 +815,7 @@
     "Sneasel",
     "Wobbuffet"
   ],
-  "lmpt-69": [
+  "coro-69": [
     "Alolan Diglett",
     "Aron",
     "Geodude",
@@ -825,7 +825,7 @@
     "Whismur",
     "Zubat"
   ],
-  "lmpt-70": [
+  "coro-70": [
     "Alolan Golem",
     "Azumarill",
     "Dewgong",
@@ -850,7 +850,7 @@
     "Sealeo",
     "Steelix"
   ],
-  "lmpt-71": [
+  "coro-71": [
     "Beautifly",
     "Chatot",
     "Corsola",
@@ -869,7 +869,7 @@
     "Weepinbell",
     "Xatu"
   ],
-  "lmpt-72": [
+  "coro-72": [
     "Alolan Persian",
     "Barboach",
     "Cursola",
@@ -886,7 +886,7 @@
     "Raticate",
     "Whiscash"
   ],
-  "lmpt-73": [
+  "coro-73": [
     "Arbok",
     "Dodrio",
     "Fearow",
@@ -905,7 +905,7 @@
     "Tentacruel",
     "Wingull"
   ],
-  "lmpt-74": [
+  "coro-74": [
     "Barboach",
     "Camerupt",
     "Galarian Slowking",
@@ -921,7 +921,7 @@
     "Weezing",
     "Whiscash"
   ],
-  "lmpt-75": [
+  "coro-75": [
     "Alolan Dugtrio",
     "Barboach",
     "Cacturne",
@@ -938,7 +938,7 @@
     "Vibrava",
     "Whiscash"
   ],
-  "lmpt-76": [
+  "coro-76": [
     "Alolan Exeggutor",
     "Ariados",
     "Galarian Slowbro",
@@ -957,7 +957,7 @@
     "Volbeat",
     "Weepinbell"
   ],
-  "lmpt-77": [
+  "coro-77": [
     "Corsola",
     "Floatzel",
     "Galarian Slowking",
@@ -977,10 +977,10 @@
     "Wailord",
     "Zangoose"
   ],
-  "lmpt-80": [
+  "coro-80": [
     "Magikarp"
   ],
-  "lmpt-81": [
+  "coro-81": [
     "Alolan Marowak",
     "Camerupt",
     "Fearow",
@@ -997,7 +997,7 @@
     "Torkoal",
     "Weezing"
   ],
-  "lmpt-82": [
+  "coro-82": [
     "Banette",
     "Bronzong",
     "Chimecho",

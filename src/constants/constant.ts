@@ -2,6 +2,7 @@ import { GenerationNum, ITEMS } from '@smogon/calc';
 import BADGES from 'constants/badges';
 import { DEFAULT_VALUES } from 'constants/calculator';
 import LMPT from 'constants/locations/LMPT';
+import CORO from 'constants/locations/CORO';
 import {
   AppState,
   TEncounter,
@@ -20,6 +21,11 @@ export const GAMES: TGame[] = [
     value: '1',
     text: 'Luminescent Platinum',
     key: '1',
+  },
+  {
+    value: '2',
+    text: 'Coronet',
+    key: '2',
   },
 ];
 
@@ -177,11 +183,15 @@ export const INITIAL_STATE: Partial<AppState> = {
     '1': {
       form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['1'], pokemon1: 1, pokemon2: 1 },
     },
+    '2': {
+      form: { ...DEFAULT_VALUES, calculatorGen: GAME_GENERATION['1'], pokemon1: 1, pokemon2: 1 },
+    },
   },
   darkMode: false,
   duplicates: false,
   games: {
     '1': { badge: [], encounters: LMPT, numberOfBoxes: 40 },
+    '2': { badge: [], encounters: CORO, numberOfBoxes: 40 },
   },
   gamesList: GAMES,
   missing: false,

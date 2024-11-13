@@ -1,7 +1,9 @@
 import type { TPokemon } from 'constants/types';
-import data from './generated_files/pokedex_info.json'
+import data from './generated_files/pokedex_info.json';
+import coronet_data from './coronet_generated_files/pokedex_info.json';
 
 const POKEMON: TPokemon[] = data as TPokemon[];
+const CORONET_POKEMON: TPokemon[] = coronet_data as TPokemon[];
 const ExtraPokemon: TPokemon[] = [
     {
         "value": 412,
@@ -141,7 +143,7 @@ const ExtraPokemon: TPokemon[] = [
         "dexNum": 555,
         "form": 2,
     }
-]
+];
 
 ExtraPokemon.forEach((mon2) => {
   const index = POKEMON.findIndex((mon1) => mon1.value === mon2.value);
@@ -150,6 +152,15 @@ ExtraPokemon.forEach((mon2) => {
   } else {
     POKEMON.push(mon2);
   }
+});
+
+CORONET_POKEMON.forEach((mon2) => {
+    const index = POKEMON.findIndex((mon1) => mon1.value === mon2.value);
+    if (index !== -1) {
+      POKEMON[index] = mon2;
+    } else {
+      POKEMON.push(mon2);
+    }
 });
 
 export const POKEMAP = new Map(POKEMON.map((poke) => [poke.value, poke]));

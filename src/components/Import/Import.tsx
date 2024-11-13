@@ -5,7 +5,6 @@ import Radio from 'semantic-ui-react/dist/commonjs/addons/Radio';
 import Button from 'semantic-ui-react/dist/commonjs/elements/Button';
 import Icon from 'semantic-ui-react/dist/commonjs/elements/Icon';
 import { Page } from 'common';
-import LMPT from 'constants/locations/LMPT';
 import METLOCATIONS from 'constants/locations/MetLocations';
 import MOVES from 'constants/moves';
 import POKEMON from 'constants/pokemon';
@@ -81,20 +80,6 @@ function Import(): JSX.Element {
     pkhexHelper.substring(linkIndex + linkText.length)
   ];
 
-  function overwriteZoneIDs(firstFile: Partial<AppState>) {
-    const encounters = firstFile.games["1"].encounters;
-
-    LMPT.forEach((secondEncounter) => {
-      const { id, zoneID } = secondEncounter;
-
-      const firstEncounter = encounters.find((encounter) => encounter.id === id);
-      if (firstEncounter) {
-        firstEncounter.zoneID = zoneID;
-      }
-    });
-    return firstFile;
-  }
-
   const handleAllImport = () => {
     const fileReader = new FileReader();
     fileReader.readAsText(file, 'UTF-8');
@@ -102,12 +87,7 @@ function Import(): JSX.Element {
       try {
         const partialState: Partial<AppState> = JSON.parse(event.target.result as string);
         if (!!partialState?.games && !!partialState?.selectedGame && !!partialState?.gamesList) {
-          if (partialState?.gamesList[0].text === "Luminescent Platinum") {
-            const updatedState = overwriteZoneIDs(partialState);
-            importState(updatedState);
-          } else {
-            importState(partialState);
-          }
+          importState(partialState);
           toast.success<void>(t('file_success'));
         } else {
           throw Error(t('invalid'));
