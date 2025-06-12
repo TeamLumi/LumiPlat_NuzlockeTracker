@@ -10005,7 +10005,7 @@
     "abilities": [
       "Soundproof",
       "Static",
-      "Aftermath"
+      "Grassy Surge"
     ],
     "dexNum": 100,
     "form": 1
@@ -10229,8 +10229,8 @@
     "generation": 8,
     "abilities": [
       "Static",
-      "Static",
-      "Lightning Rod"
+      "Lightning Rod",
+      "Galvanize"
     ],
     "dexNum": 172,
     "form": 1
