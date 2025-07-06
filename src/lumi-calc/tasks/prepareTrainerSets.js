@@ -295,15 +295,19 @@ BDSPTrainers.forEach((e, i) => {
     }
 });
 
-
 const filepath = path.join(parentFilePath, 'output')
 fs.writeFileSync(path.join(filepath, 'trainerSets.json'), JSON.stringify(sets), 'utf-8');
 
-module.exports = function(){
-    //Overwrite the gen8 js file
+// Export as a named function
+function writeGen8SetsFile() {
+    // Overwrite the gen8 js file
     fs.writeFileSync(
-        path.join(parentFilePath, 'src', 'js', 'data', 'sets', 'gen8.js'),  
+        path.join(parentFilePath, 'src', 'js', 'data', 'sets', 'gen8.js'),
         `var SETDEX_SS = ${JSON.stringify({ ...sets })}`,
         'utf-8'
     );
 }
+
+writeGen8SetsFile();
+
+module.exports = { writeGen8SetsFile };
