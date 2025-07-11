@@ -105,7 +105,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P1EffortSpDef,
             sp: partyData.P1EffortAgi,
         },
-        moves: getMoves(partyData.P1Waza1, partyData.P1Waza2, partyData.P1Waza3, partyData.P1Waza4, partyData.P1MonsNo, partyData.P1Level)
+        moves: getMoves(partyData.P1Waza1, partyData.P1Waza2, partyData.P1Waza3, partyData.P1Waza4, partyData.P1MonsNo, partyData.P1Level),
+        index: 0,
     }
 
     if (partyData.P1Item !== 0) {
@@ -141,7 +142,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P2EffortSpDef,
             sp: partyData.P2EffortAgi,
         },
-        moves: getMoves(partyData.P2Waza1, partyData.P2Waza2, partyData.P2Waza3, partyData.P2Waza4, partyData.P2MonsNo, partyData.P2Level)
+        moves: getMoves(partyData.P2Waza1, partyData.P2Waza2, partyData.P2Waza3, partyData.P2Waza4, partyData.P2MonsNo, partyData.P2Level),
+        index: 1,
     }
 
     if (partyData.P2Item !== 0) {
@@ -178,7 +180,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P3EffortSpDef,
             sp: partyData.P3EffortAgi,
         },
-        moves: getMoves(partyData.P3Waza1, partyData.P3Waza2, partyData.P3Waza3, partyData.P3Waza4, partyData.P3MonsNo, partyData.P3Level)
+        moves: getMoves(partyData.P3Waza1, partyData.P3Waza2, partyData.P3Waza3, partyData.P3Waza4, partyData.P3MonsNo, partyData.P3Level),
+        index: 2,
     }
 
     if (partyData.P3Item !== 0) {
@@ -215,7 +218,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P4EffortSpDef,
             sp: partyData.P4EffortAgi,
         },
-        moves: getMoves(partyData.P4Waza1, partyData.P4Waza2, partyData.P4Waza3, partyData.P4Waza4, partyData.P4MonsNo, partyData.P4Level)
+        moves: getMoves(partyData.P4Waza1, partyData.P4Waza2, partyData.P4Waza3, partyData.P4Waza4, partyData.P4MonsNo, partyData.P4Level),
+        index: 3
     }
 
     if (partyData.P4Item !== 0) {
@@ -251,7 +255,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P5EffortSpDef,
             sp: partyData.P5EffortAgi,
         },
-        moves: getMoves(partyData.P5Waza1, partyData.P5Waza2, partyData.P5Waza3, partyData.P5Waza4, partyData.P5MonsNo, partyData.P5Level)
+        moves: getMoves(partyData.P5Waza1, partyData.P5Waza2, partyData.P5Waza3, partyData.P5Waza4, partyData.P5MonsNo, partyData.P5Level),
+        index: 4
     }
 
     if (partyData.P5Item !== 0) {
@@ -287,7 +292,8 @@ BDSPTrainers.forEach((e, i) => {
             sd: partyData.P6EffortSpDef,
             sp: partyData.P6EffortAgi,
         },
-        moves: getMoves(partyData.P6Waza1, partyData.P6Waza2, partyData.P6Waza3, partyData.P6Waza4, partyData.P6MonsNo, partyData.P6Level)
+        moves: getMoves(partyData.P6Waza1, partyData.P6Waza2, partyData.P6Waza3, partyData.P6Waza4, partyData.P6MonsNo, partyData.P6Level),
+        index: 5,
     }
 
     if (partyData.P6Item !== 0) {
