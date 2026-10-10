@@ -1,0 +1,1681 @@
+{
+    "c01r0201": [
+        {
+            "id": [
+                {
+                    "id": 2,
+                    "quantity": 1,
+                    "label_name": "ev_c01r0201_kuji_no_4"
+                },
+                {
+                    "id": 51,
+                    "quantity": 1,
+                    "label_name": "ev_c01r0201_kuji_no_3"
+                },
+                {
+                    "id": 231,
+                    "quantity": 1,
+                    "label_name": "ev_c01r0201_kuji_no_2"
+                },
+                {
+                    "id": 29,
+                    "quantity": 1,
+                    "label_name": "ev_c01r0201_kuji_no_1"
+                },
+                {
+                    "id": 1,
+                    "quantity": 1,
+                    "label_name": "ev_c01r0201_kuji_no_0"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "ev_c01r0201_kuji_item_get_chk"
+        },
+        {
+            "id": 369,
+            "quantity": 1,
+            "label_name": "ev_c01r0201_facade"
+        }
+    ],
+    "c01r0701": [
+        {
+            "id": 337,
+            "quantity": 1,
+            "label_name": "ev_c01r0701_trainer_boy_item_get"
+        },
+        {
+            "id": 1825,
+            "quantity": 99,
+            "label_name": "ev_c01r0701_jan_item_yes"
+        },
+        {
+            "id": 93,
+            "quantity": 15,
+            "label_name": "ev_c01r0701_jan_has_onix"
+        }
+    ],
+    "c02gym0101": [
+        {
+            "id": 418,
+            "quantity": 1,
+            "label_name": "ev_c02gym0101_leader_item_get"
+        }
+    ],
+    "c02r0102": [
+        {
+            "id": 375,
+            "quantity": 1,
+            "label_name": "ev_c02r0102_skillswap"
+        }
+    ],
+    "c02r0201": [
+        {
+            "id": 375,
+            "quantity": 1,
+            "label_name": "ev_c02r0201_woman3"
+        }
+    ],
+    "c03": [
+        {
+            "id": 110,
+            "quantity": 1,
+            "label_name": "ev_c03_boy2_oval_stone"
+        },
+        {
+            "id": 26,
+            "quantity": 1,
+            "label_name": "ev_c03_workman_b"
+        }
+    ],
+    "c03gym0101": [
+        {
+            "id": 403,
+            "quantity": 1,
+            "label_name": "pos_c03gym0101_leader_item_get"
+        }
+    ],
+    "c03r0602": [
+        {
+            "id": 3,
+            "quantity": 1,
+            "label_name": "ev_c03r0602_boy2"
+        }
+    ],
+    "c03r0701": [
+        {
+            "id": 225,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_magma_stone"
+        },
+        {
+            "id": 534,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        },
+        {
+            "id": 534,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        },
+        {
+            "id": 535,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        },
+        {
+            "id": 534,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        },
+        {
+            "id": 535,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        },
+        {
+            "id": 532,
+            "quantity": 1,
+            "label_name": "ev_c03r0701_steven_latias_twins"
+        }
+    ],
+    "c04": [
+        {
+            "id": 420,
+            "quantity": 1,
+            "label_name": "common_c04_champion_01"
+        },
+        {
+            "id": 450,
+            "quantity": 1,
+            "label_name": "ev_c04_byclce_raid_buy"
+        },
+        {
+            "id": 109,
+            "quantity": 1,
+            "label_name": "ev_c04_uncle_shiny_stone"
+        }
+    ],
+    "c04gym0102": [
+        {
+            "id": 413,
+            "quantity": 1,
+            "label_name": "ev_c04gym0102_leader_item_get"
+        }
+    ],
+    "c04r0205": [
+        {
+            "id": 1278,
+            "quantity": 1,
+            "label_name": "ev_c04r0205_doctor_start"
+        }
+    ],
+    "c04r0301": [
+        {
+            "id": 1231,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_lonely"
+        },
+        {
+            "id": 1232,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_adamant"
+        },
+        {
+            "id": 1233,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_naughty"
+        },
+        {
+            "id": 1234,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_brave"
+        },
+        {
+            "id": 1235,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_bold"
+        },
+        {
+            "id": 1236,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_impish"
+        },
+        {
+            "id": 1237,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_lax"
+        },
+        {
+            "id": 1238,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_relaxed"
+        },
+        {
+            "id": 1239,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_modest"
+        },
+        {
+            "id": 1240,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_mild"
+        },
+        {
+            "id": 1241,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_rash"
+        },
+        {
+            "id": 1242,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_quiet"
+        },
+        {
+            "id": 1243,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_calm"
+        },
+        {
+            "id": 1244,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_gentle"
+        },
+        {
+            "id": 1245,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_careful"
+        },
+        {
+            "id": 1246,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_sassy"
+        },
+        {
+            "id": 1247,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_timid"
+        },
+        {
+            "id": 1248,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_hasty"
+        },
+        {
+            "id": 1249,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_jolly"
+        },
+        {
+            "id": 1250,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_naive"
+        },
+        {
+            "id": 1251,
+            "quantity": 5,
+            "label_name": "ev_c04r0301_mint_guy_get_mints_serious"
+        }
+    ],
+    "c04r0601": [
+        {
+            "id": 1832,
+            "quantity": 1,
+            "label_name": "ev_c04r0601_oak_lugia_valid"
+        },
+        {
+            "id": 430,
+            "quantity": 1,
+            "label_name": "ev_c04r0601_oak_hooh_valid"
+        }
+    ],
+    "c04r0801": [
+        {
+            "id": 428,
+            "quantity": 1,
+            "label_name": "ev_c04r0801_underground"
+        },
+        {
+            "id": 1810,
+            "quantity": 1,
+            "label_name": "ev_c04r0801_mission_02_clear"
+        },
+        {
+            "id": 355,
+            "quantity": 1,
+            "label_name": "ev_c04r0801_youngboy_dig"
+        },
+        {
+            "id": 15,
+            "quantity": 5,
+            "label_name": "ev_c04r0801_mission_03_clear"
+        },
+        {
+            "id": 13,
+            "quantity": 5,
+            "label_name": "ev_c04r0801_mission_03_clear"
+        },
+        {
+            "id": 7,
+            "quantity": 5,
+            "label_name": "ev_c04r0801_mission_03_clear"
+        },
+        {
+            "id": 101,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 102,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 99,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 100,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 104,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 105,
+            "quantity": 3,
+            "label_name": "ev_c04r0801_woman1"
+        },
+        {
+            "id": 103,
+            "quantity": 1,
+            "label_name": "ev_c04r0801_woman1"
+        }
+    ],
+    "c05": [
+        {
+            "id": 194,
+            "quantity": 1,
+            "label_name": "pos_c05_judge_10_common"
+        }
+    ],
+    "c05gym0113": [
+        {
+            "id": 357,
+            "quantity": 1,
+            "label_name": "ev_c05gym0113_leader_item_get"
+        }
+    ],
+    "c05r0201": [
+        {
+            "id": 449,
+            "quantity": 1,
+            "label_name": "ev_c05r0201_gentleman"
+        }
+    ],
+    "c05r0501": [
+        {
+            "id": 408,
+            "quantity": 1,
+            "label_name": "ev_c05_aaron_post_battle"
+        }
+    ],
+    "c05r0901": [
+        {
+            "id": 252,
+            "quantity": 1,
+            "label_name": "ev_c05r0901_girl_give"
+        }
+    ],
+    "c05r1001": [
+        {
+            "id": 382,
+            "quantity": 1,
+            "label_name": "ev_c05r1001_scald"
+        }
+    ],
+    "c05r1101": [
+        {
+            "id": 55,
+            "quantity": 1,
+            "label_name": "ev_c05r1101_judge"
+        },
+        {
+            "id": 107,
+            "quantity": 1,
+            "label_name": "ev_c05r1101_judge"
+        }
+    ],
+    "c05r1201": [
+        {
+            "id": 371,
+            "quantity": 1,
+            "label_name": "ev_c05r1201_oldwoman_rest"
+        },
+        {
+            "id": 455,
+            "quantity": 1,
+            "label_name": "ev_arceus_check_plates"
+        }
+    ],
+    "c06gym0101": [
+        {
+            "id": 426,
+            "quantity": 1,
+            "label_name": "ev_c06gym0101_leader_item_get"
+        }
+    ],
+    "c06r0101": [
+        {
+            "id": 344,
+            "quantity": 1,
+            "label_name": "ev_c06r0101_protect_hotfix"
+        },
+        {
+            "id": 344,
+            "quantity": 1,
+            "label_name": "ev_c06r0101_protect_win"
+        }
+    ],
+    "c06r0301": [
+        {
+            "id": 215,
+            "quantity": 1,
+            "label_name": "ev_c06r0301_minomutti_item_get"
+        }
+    ],
+    "c06r0601": [
+        {
+            "id": 260,
+            "quantity": 1,
+            "label_name": "ev_c06r0601_man3_style"
+        },
+        {
+            "id": 261,
+            "quantity": 1,
+            "label_name": "ev_c06r0601_man3_beautiful"
+        },
+        {
+            "id": 262,
+            "quantity": 1,
+            "label_name": "ev_c06r0601_man3_cute"
+        },
+        {
+            "id": 263,
+            "quantity": 1,
+            "label_name": "ev_c06r0601_man3_clever"
+        },
+        {
+            "id": 264,
+            "quantity": 1,
+            "label_name": "ev_c06r0601_man3_strong"
+        }
+    ],
+    "c07": [
+        {
+            "id": 390,
+            "quantity": 1,
+            "label_name": "ev_c07_badman2"
+        },
+        {
+            "id": 277,
+            "quantity": 1,
+            "label_name": "ev_c07_gorggeousm_iro_01"
+        },
+        {
+            "id": 265,
+            "quantity": 1,
+            "label_name": "ev_c07_lovelovew_iro_02"
+        },
+        {
+            "id": 276,
+            "quantity": 1,
+            "label_name": "ev_c07_sukanpuu_02"
+        }
+    ],
+    "c07gym0101": [
+        {
+            "id": 387,
+            "quantity": 1,
+            "label_name": "ev_c07gym0101_leader_item_get"
+        }
+    ],
+    "c07r0205": [
+        {
+            "id": 288,
+            "quantity": 1,
+            "label_name": "ev_c07r0205_bigman1a"
+        },
+        {
+            "id": [
+                {
+                    "id": 30,
+                    "quantity": 1,
+                    "label_name": "case0_vm_01"
+                },
+                {
+                    "id": 31,
+                    "quantity": 1,
+                    "label_name": "case1_vm_01"
+                },
+                {
+                    "id": 32,
+                    "quantity": 1,
+                    "label_name": "case2_vm_01"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "common_vm_03"
+        },
+        {
+            "id": [
+                {
+                    "id": 30,
+                    "quantity": 1,
+                    "label_name": "case0_vm_01"
+                },
+                {
+                    "id": 31,
+                    "quantity": 1,
+                    "label_name": "case1_vm_01"
+                },
+                {
+                    "id": 32,
+                    "quantity": 1,
+                    "label_name": "case2_vm_01"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "common_vm_03"
+        },
+        {
+            "id": [
+                {
+                    "id": 30,
+                    "quantity": 1,
+                    "label_name": "case0_vm_01"
+                },
+                {
+                    "id": 31,
+                    "quantity": 1,
+                    "label_name": "case1_vm_01"
+                },
+                {
+                    "id": 32,
+                    "quantity": 1,
+                    "label_name": "case2_vm_01"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "common_vm_03"
+        },
+        {
+            "id": 353,
+            "quantity": 1,
+            "label_name": "ev_c07r0205_bertha"
+        }
+    ],
+    "c08": [
+        {
+            "id": 233,
+            "quantity": 1,
+            "label_name": "pos_c08_func_47"
+        },
+        {
+            "id": 233,
+            "quantity": 1,
+            "label_name": "c08_mikan_hiden_get"
+        },
+        {
+            "id": 377,
+            "quantity": 1,
+            "label_name": "ev_c08_bigfour3_02"
+        }
+    ],
+    "c08gym0103": [
+        {
+            "id": 384,
+            "quantity": 1,
+            "label_name": "ev_c08gym0103_leader_item_get"
+        }
+    ],
+    "c08r0701": [
+        {
+            "id": 342,
+            "quantity": 1,
+            "label_name": "ev_c08r0701_hyperbeam"
+        }
+    ],
+    "c09gym0101": [
+        {
+            "id": 399,
+            "quantity": 1,
+            "label_name": "ev_c09gym0101_leader_item_get"
+        }
+    ],
+    "c10": [
+        {
+            "id": 466,
+            "quantity": 1,
+            "label_name": "pos_c10_shaymin"
+        }
+    ],
+    "c11": [
+        {
+            "id": 447,
+            "quantity": 1,
+            "label_name": "ev_c11_fishing"
+        }
+    ],
+    "c11fs0101": [
+        {
+            "id": 232,
+            "quantity": 1,
+            "label_name": "ev_c11fs0101_lady"
+        }
+    ],
+    "c11r0101": [
+        {
+            "id": 432,
+            "quantity": 1,
+            "label_name": "ev_c11r0101_first_entry"
+        }
+    ],
+    "common_scr": [
+        {
+            "id": 0,
+            "quantity": 1,
+            "label_name": "ev_turearuki_poke_item_get"
+        }
+    ],
+    "d01r0102": [
+        {
+            "id": 80,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 81,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 82,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 83,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 84,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 85,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        },
+        {
+            "id": 849,
+            "quantity": 1,
+            "label_name": "ev_d01r0102_leader_01_stone"
+        }
+    ],
+    "d03": [
+        {
+            "id": [
+                {
+                    "id": 9,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_fire"
+                },
+                {
+                    "id": 10,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_water"
+                },
+                {
+                    "id": 12,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_electric"
+                },
+                {
+                    "id": 11,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_grass"
+                },
+                {
+                    "id": 14,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_ice"
+                },
+                {
+                    "id": 1,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_fighting"
+                },
+                {
+                    "id": 3,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_poison"
+                },
+                {
+                    "id": 4,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_ground"
+                },
+                {
+                    "id": 2,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_flying"
+                },
+                {
+                    "id": 13,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_psychic"
+                },
+                {
+                    "id": 6,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_bug"
+                },
+                {
+                    "id": 5,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_rock"
+                },
+                {
+                    "id": 7,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_ghost"
+                },
+                {
+                    "id": 15,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_dragon"
+                },
+                {
+                    "id": 16,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_dark"
+                },
+                {
+                    "id": 8,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_steel"
+                },
+                {
+                    "id": 17,
+                    "quantity": 1,
+                    "label_name": "ev_master_trainer_fairy"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "ev_pokemaster_common_end"
+        },
+        {
+            "id": 1826,
+            "quantity": 1,
+            "label_name": "ev_r225_route_leader"
+        },
+        {
+            "id": 1827,
+            "quantity": 1,
+            "label_name": "ev_r226_route_leader"
+        },
+        {
+            "id": 1828,
+            "quantity": 1,
+            "label_name": "ev_r227_route_leader"
+        },
+        {
+            "id": 1829,
+            "quantity": 1,
+            "label_name": "ev_r228_route_leader"
+        },
+        {
+            "id": 1830,
+            "quantity": 1,
+            "label_name": "ev_r229_route_leader"
+        },
+        {
+            "id": 1831,
+            "quantity": 1,
+            "label_name": "ev_r230_route_leader"
+        }
+    ],
+    "d03r0101": [
+        {
+            "id": 354,
+            "quantity": 1,
+            "label_name": "pos_d03r0101_seven1_goal"
+        },
+        {
+            "id": 85,
+            "quantity": 1,
+            "label_name": "ev_d03r0101_stone_event"
+        }
+    ],
+    "d05r0102": [
+        {
+            "id": 77,
+            "quantity": 5,
+            "label_name": "ev_d05r0102_looker_scene"
+        }
+    ],
+    "d05r0114": [
+        {
+            "id": 23,
+            "quantity": 1,
+            "label_name": "pos_d05r0114_shaymin_scene"
+        }
+    ],
+    "d06r0206": [
+        {
+            "id": 424,
+            "quantity": 3,
+            "label_name": "ev_d06r0206_man3"
+        }
+    ],
+    "d07r0105": [
+        {
+            "id": 287,
+            "quantity": 1,
+            "label_name": "ev_d07r0105_hiker_func_4"
+        }
+    ],
+    "d13r0101": [
+        {
+            "id": 231,
+            "quantity": 1,
+            "label_name": "ev_d13r0101_shaymin_honey"
+        },
+        {
+            "id": 438,
+            "quantity": 1,
+            "label_name": "d13r0101_gingam_a_common_03"
+        },
+        {
+            "id": 438,
+            "quantity": 1,
+            "label_name": "d13r0101_gingam_a_common_03"
+        },
+        {
+            "id": 94,
+            "quantity": 1,
+            "label_name": "d13r0101_gingam_a_common_03"
+        },
+        {
+            "id": 94,
+            "quantity": 1,
+            "label_name": "ev_d13r0101_middleman1_buyone"
+        },
+        {
+            "id": 94,
+            "quantity": 10,
+            "label_name": "ev_d13r0101_middleman1_buyten"
+        },
+        {
+            "id": 438,
+            "quantity": 1,
+            "label_name": "ev_d13r0101_item"
+        }
+    ],
+    "d14r0101": [
+        {
+            "id": 425,
+            "quantity": 1,
+            "label_name": "d14r0101_mount_itemget"
+        }
+    ],
+    "d16": [
+        {
+            "id": 458,
+            "quantity": 1,
+            "label_name": "ev_t06_magma_stone_fix"
+        }
+    ],
+    "d16r0103": [
+        {
+            "id": 458,
+            "quantity": 1,
+            "label_name": "ev_d16r0103_legend_win"
+        }
+    ],
+    "d21r0101": [
+        {
+            "id": 412,
+            "quantity": 1,
+            "label_name": "ev_d21r0101_mira_script_4"
+        }
+    ],
+    "d24r0105": [
+        {
+            "id": 423,
+            "quantity": 1,
+            "label_name": "yes_d24r0105_seven4"
+        }
+    ],
+    "d24r0201": [
+        {
+            "id": 233,
+            "quantity": 1,
+            "label_name": "ev_d24r0201_leader_04"
+        }
+    ],
+    "d25r0106": [
+        {
+            "id": 467,
+            "quantity": 1,
+            "label_name": "ev_d25r0106_sppoke_01"
+        },
+        {
+            "id": 54,
+            "quantity": 1,
+            "label_name": "ev_d25r0102_maid_2"
+        }
+    ],
+    "d26r0104": [
+        {
+            "id": 1,
+            "quantity": 1,
+            "label_name": "ev_d26r0104_item_event_ok"
+        }
+    ],
+    "d27r0101": [
+        {
+            "id": 1833,
+            "quantity": 1,
+            "label_name": "d27r0101_common_03"
+        }
+    ],
+    "fld_item": [
+        {
+            "id": 1834,
+            "quantity": 1,
+            "label_name": "ev_fld_item_mewtwo_armour"
+        }
+    ],
+    "l02": [
+        {
+            "id": 464,
+            "quantity": 1,
+            "label_name": "common_l02_champion_01"
+        }
+    ],
+    "r202": [
+        {
+            "id": 4,
+            "quantity": 30,
+            "label_name": "r202_01_support_common_02"
+        }
+    ],
+    "r204b": [
+        {
+            "id": 405,
+            "quantity": 1,
+            "label_name": "ev_r204b_woman3"
+        }
+    ],
+    "r207": [
+        {
+            "id": 443,
+            "quantity": 1,
+            "label_name": "r207_btl_searcher_get"
+        },
+        {
+            "id": 443,
+            "quantity": 1,
+            "label_name": "ev_r207_func_28"
+        }
+    ],
+    "r209": [
+        {
+            "id": 1,
+            "quantity": 1,
+            "label_name": "r209_fishing1_yes"
+        }
+    ],
+    "r209r0105": [
+        {
+            "id": 423,
+            "quantity": 1,
+            "label_name": "ev_r209r0105_oldwoman2a"
+        },
+        {
+            "id": 224,
+            "quantity": 1,
+            "label_name": "ev_r209r0105_oldwoman2b"
+        },
+        {
+            "id": 224,
+            "quantity": 1,
+            "label_name": "ev_r209r0105_oldwoman_rp"
+        }
+    ],
+    "r210a": [
+        {
+            "id": 439,
+            "quantity": 1,
+            "label_name": "yes_r210a_chanpion_01"
+        },
+        {
+            "id": 378,
+            "quantity": 1,
+            "label_name": "ev_r210a_woman3"
+        }
+    ],
+    "r211b": [
+        {
+            "id": 404,
+            "quantity": 1,
+            "label_name": "ev_r211b_man3"
+        }
+    ],
+    "r213": [
+        {
+            "id": 631,
+            "quantity": 1,
+            "label_name": "ev_morimoto_get"
+        }
+    ],
+    "r213r0301": [
+        {
+            "id": 322,
+            "quantity": 1,
+            "label_name": "ev_r213r0301_karate_man"
+        },
+        {
+            "id": 323,
+            "quantity": 1,
+            "label_name": "ev_r213r0301_hiker"
+        }
+    ],
+    "r213r0501": [
+        {
+            "id": 419,
+            "quantity": 1,
+            "label_name": "ev_r213r0501_clown"
+        }
+    ],
+    "r215": [
+        {
+            "id": 393,
+            "quantity": 1,
+            "label_name": "ev_r215_fighter"
+        }
+    ],
+    "r216r0101": [
+        {
+            "id": 340,
+            "quantity": 1,
+            "label_name": "ev_r216r0101_icebeam"
+        }
+    ],
+    "r217": [
+        {
+            "id": 849,
+            "quantity": 1,
+            "label_name": "ev_r217_stone_event"
+        },
+        {
+            "id": 379,
+            "quantity": 1,
+            "label_name": "pos_r217_leader"
+        }
+    ],
+    "r217r0101": [
+        {
+            "id": 302,
+            "quantity": 1,
+            "label_name": "yes_r217r0101_mount"
+        }
+    ],
+    "r217r0201": [
+        {
+            "id": 454,
+            "quantity": 1,
+            "label_name": "ev_r217r0201_woman1_rp"
+        }
+    ],
+    "r218r0101": [
+        {
+            "id": 1,
+            "quantity": 1,
+            "label_name": "r218r0101_fishing_yes"
+        },
+        {
+            "id": 7,
+            "quantity": 1,
+            "label_name": "r218r0101_fishing_yes"
+        }
+    ],
+    "r221r0101": [
+        {
+            "id": 149,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 150,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 151,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 152,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 153,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 154,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 155,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 156,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 159,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 160,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 161,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 162,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 163,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 164,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 165,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 166,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 167,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 168,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 157,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 158,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 169,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 170,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 171,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 172,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 173,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        },
+        {
+            "id": 174,
+            "quantity": 1,
+            "label_name": "ev_r221r0101_item_add"
+        }
+    ],
+    "r222": [
+        {
+            "id": 383,
+            "quantity": 3,
+            "label_name": "ev_r222_gorggeousm"
+        }
+    ],
+    "r222r0201": [
+        {
+            "id": 6,
+            "quantity": 1,
+            "label_name": "ev_r222r0201_hikaku"
+        }
+    ],
+    "r225r0101": [
+        {
+            "id": 30,
+            "quantity": 1,
+            "label_name": "ev_r225r0101_workman"
+        }
+    ],
+    "r229": [
+        {
+            "id": 92,
+            "quantity": 1,
+            "label_name": "ev_r229_middleman1"
+        }
+    ],
+    "sodateya": [
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 290,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 290,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 291,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 290,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 291,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 292,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 290,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 291,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 292,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 293,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 289,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 290,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 291,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 292,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 293,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        },
+        {
+            "id": 294,
+            "quantity": 1,
+            "label_name": "ev_sodateya_evtrain_starter_package"
+        }
+    ],
+    "t01": [
+        {
+            "id": 452,
+            "quantity": 1,
+            "label_name": "pos_ev_t01_oak_letter_event"
+        }
+    ],
+    "t01r0201": [
+        {
+            "id": 433,
+            "quantity": 1,
+            "label_name": "ev_t01r0201_mama_zukan"
+        },
+        {
+            "id": 459,
+            "quantity": 1,
+            "label_name": "common_t01r0201_player"
+        },
+        {
+            "id": 3,
+            "quantity": 1,
+            "label_name": "pos_t01r0201_mama_cap"
+        },
+        {
+            "id": 450,
+            "quantity": 1,
+            "label_name": "pos_t01r0201_mama_cap"
+        },
+        {
+            "id": 17,
+            "quantity": 1,
+            "label_name": "ev_t01r0201_mama_poke_get"
+        }
+    ],
+    "t02": [
+        {
+            "id": 431,
+            "quantity": 1,
+            "label_name": "ev_t02_support"
+        },
+        {
+            "id": 431,
+            "quantity": 1,
+            "label_name": "ev_t02_support"
+        },
+        {
+            "id": 79,
+            "quantity": 10,
+            "label_name": "ev_t02_support"
+        }
+    ],
+    "t02r0101": [
+        {
+            "id": 431,
+            "quantity": 1,
+            "label_name": "common_t02r0101_hyouka_ookido"
+        }
+    ],
+    "t03": [
+        {
+            "id": 466,
+            "quantity": 1,
+            "label_name": "ev_t03_woman2"
+        }
+    ],
+    "t03r0201": [
+        {
+            "id": [
+                {
+                    "id": 236,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_pikachu_25"
+                },
+                {
+                    "id": 259,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_farfetch_83"
+                },
+                {
+                    "id": 258,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_cubone_104"
+                },
+                {
+                    "id": 258,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_marowak_105"
+                },
+                {
+                    "id": 256,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_chansey_113"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "ev_item_fanatic_give_item"
+        },
+        {
+            "id": [
+                {
+                    "id": 274,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_ditto_132"
+                },
+                {
+                    "id": 226,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_clamperl_366"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "ev_item_fanatic_give_item_two"
+        },
+        {
+            "id": [
+                {
+                    "id": 274,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_ditto_132"
+                },
+                {
+                    "id": 226,
+                    "quantity": 1,
+                    "label_name": "ev_item_fanatic_clamperl_366"
+                }
+            ],
+            "quantity": 1,
+            "label_name": "ev_item_fanatic_give_item_two"
+        }
+    ],
+    "t03r0301": [
+        {
+            "id": 367,
+            "quantity": 1,
+            "label_name": "ev_t03r0301_aerialace"
+        }
+    ],
+    "t04": [
+        {
+            "id": 356,
+            "quantity": 1,
+            "label_name": "pos_t04_lucian"
+        },
+        {
+            "id": 93,
+            "quantity": 5,
+            "label_name": "ev_t04_lucian_yes"
+        }
+    ],
+    "t04r0301": [
+        {
+            "id": 0,
+            "quantity": 1,
+            "label_name": "ev_t04r0301_sunglasses_06"
+        }
+    ],
+    "t05": [
+        {
+            "id": 2,
+            "quantity": 1,
+            "label_name": "ev_pichu_event_valid"
+        },
+        {
+            "id": 1823,
+            "quantity": 1,
+            "label_name": "ev_gsball_event_yes"
+        }
+    ],
+    "t05pc0101": [
+        {
+            "id": 3,
+            "quantity": 1,
+            "label_name": "ev_t05pc0101_middleman1_02"
+        }
+    ],
+    "t05r0201": [
+        {
+            "id": 267,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 267,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 297,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 267,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 297,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 240,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_01_check"
+        },
+        {
+            "id": 240,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_02_check"
+        },
+        {
+            "id": 267,
+            "quantity": 1,
+            "label_name": "t05r0201_megane_03_check"
+        }
+    ],
+    "t05r0501": [
+        {
+            "id": 422,
+            "quantity": 1,
+            "label_name": "t05r0501_item_get"
+        }
+    ],
+    "t07": [
+        {
+            "id": 1824,
+            "quantity": 1,
+            "label_name": "pos_t07_dragonite"
+        }
+    ],
+    "c01": [
+        {
+            "id": 1822,
+            "quantity": 1,
+            "label_name": "c01_01_support_female_common_02"
+        }
+    ],
+    "c04r0101": [
+        {
+            "id": 109,
+            "quantity": 1,
+            "label_name": "ev_c04r0101_middlemla_03"
+        }
+    ],
+    "door": [
+        {
+            "id": 466,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_check_c10_shaymin_event"
+        },
+        {
+            "id": 1833,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_give_incense_burner"
+        },
+        {
+            "id": 450,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_givebike"
+        },
+        {
+            "id": 426,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_give_waterfall_tm"
+        },
+        {
+            "id": 423,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_strength_give_strength"
+        },
+        {
+            "id": 1822,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_ds_sounds_give"
+        },
+        {
+            "id": 112,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_check_gris_orb"
+        },
+        {
+            "id": 458,
+            "quantity": 1,
+            "label_name": "ev_healthcheck_check_magma_stone"
+        }
+    ],
+    "t06pc0101": [
+        {
+            "id": 1824,
+            "quantity": 1,
+            "label_name": "ev_t06pc0101_pcwoman1_mewtwo"
+        }
+    ]
+}
